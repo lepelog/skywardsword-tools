@@ -39,7 +39,7 @@ def flag_id_to_sheet_rep(idx):
     elif idx >= 128 and idx < 192:
         return 'temp flag: '+idx_to_scene_flag(idx-128)
     elif idx >= 192 and idx < 255:
-        return 'loadzone temp flag: '+idx_to_scene_flag(idx-192)
+        return 'zone temp flag: '+idx_to_scene_flag(idx-192)
     elif idx < 0:
         return flag_id_to_sheet_rep(idx+255)
     else:

@@ -178,7 +178,7 @@ def interpretFlow(item, strings, attrs):
                 return 'switch (story_flags[%d /* %s */]) {' % (item['param2'], idx_to_story_flag(item['param2']))
             elif item['param3']==5:
                 assert item['param4']==2
-                return 'switch (loadzone_temp_flags[%d /* %s */]) {' % (item['param2'], idx_to_scene_flag(item['param2']))
+                return 'switch (zone_temp_flags[%d /* %s */]) {' % (item['param2'], idx_to_scene_flag(item['param2']))
             elif item['param3']==6:
                 assert item['param4']==2
                 return 'switch (scene_flags[%d /* %s */]) {' % (item['param2'], idx_to_scene_flag(item['param2']))
@@ -251,9 +251,9 @@ def interpretFlow(item, strings, attrs):
             elif item['param3']==3:
                 return "scene_flags[%d '%s'][%d /* %s */] = false;" % (item['param2'],flagindex_names[item['param2']],item['param1'],idx_to_scene_flag(item['param1']))
             elif item['param3']==4:
-                return "loadzone_temp_flags[%d /* %s */] = true;" % (item['param1'],idx_to_scene_flag(item['param1']))
+                return "zone_temp_flags[%d /* %s */] = true;" % (item['param1'],idx_to_scene_flag(item['param1']))
             elif item['param3']==5:
-                return "loadzone_temp_flags[%d /* %s */] = false;" % (item['param1'],idx_to_scene_flag(item['param1']))
+                return "zone_temp_flags[%d /* %s */] = false;" % (item['param1'],idx_to_scene_flag(item['param1']))
             elif item['param3']==7:
                 assert item['next'] == -1
                 return "entrypoint_%03d_%02d();" % (item['param1'], item['param2'])
