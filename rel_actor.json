@@ -1,0 +1,5497 @@
+{
+    "d_t_bcal_tagNP": {
+        "name": "?",
+        "states": [
+            "dTgBcArL_c::StateID_Wait",
+            "dTgBcArL_c::StateID_Create",
+            "dTgBcArL_c::StateID_AttackWait",
+            "dTgBcArL_c::StateID_Attack"
+        ]
+    },
+    "d_a_e_bcalNP": {
+        "name": "dAcEbcaL_c::m_allocator",
+        "states": [
+            "dAcEbcaL_c::StateID_Standby",
+            "dAcEbcaL_c::StateID_Attack",
+            "dAcEbcaL_c::StateID_Damage",
+            "dAcEbcaL_c::StateID_Hit",
+            "dAcEbcaL_c::StateID_Lead",
+            "dAcEbcaL_c::StateID_Stun",
+            "dAcEbcaL_c::StateID_AirDamage",
+            "dAcEbcaL_c::StateID_Fail",
+            "dAcEbcaL_c::StateID_StabGuard"
+        ]
+    },
+    "d_a_npc_pumpkin_clay_shootingNP": {
+        "name": "dAcNpcPcs_c::m_allocator",
+        "states": [
+            "dAcNpcPcs_c::StateID_Wait",
+            "dAcNpcPcs_c::StateID_Manage",
+            "dAcNpcPcs_c::StateID_Pain",
+            "dAcNpcPcs_c::StateID_Take",
+            "dAcNpcPcs_c::StateID_Hold",
+            "dAcNpcPcs_c::StateID_Throw"
+        ]
+    },
+    "d_a_npc_sorajima_girlNP": {
+        "name": "dAcNpcSorajimaGirl_c::m_allocator",
+        "states": [
+            "dAcNpcSorajimaGirl_c::StateID_Wait"
+        ]
+    },
+    "d_t_defeat_bossNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_triforceNP": {
+        "name": "dAcOtriforce_c::m_allocator",
+        "states": []
+    },
+    "d_a_fish_mgrNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_junk_repairingNP": {
+        "name": "dAcOJunkRep_c::m_allocator",
+        "states": [
+            "dAcOJunkRep_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_tubo_bigNP": {
+        "name": "dAcOTuboBig_c::m_allocator",
+        "states": [
+            "dAcOTuboBig_c::StateID_Wait",
+            "dAcOTuboBig_c::StateID_Grab",
+            "dAcOTuboBig_c::StateID_Water"
+        ]
+    },
+    "d_a_obj_trap_bird_woodNP": {
+        "name": "dAcOTrapBirdWood_c::m_allocator",
+        "states": [
+            "dAcOTrapBirdWood_c::StateID_Wait",
+            "dAcOTrapBirdWood_c::StateID_Broken"
+        ]
+    },
+    "d_a_nusi_baseNP": {
+        "name": "?",
+        "states": [
+            "dAcNusiBase_c::StateID_Talk",
+            "dAcNusiBase_c::StateID_Chase"
+        ]
+    },
+    "d_a_obj_barrelNP": {
+        "name": "dAcOBarrel_c::m_allocator",
+        "states": [
+            "dAcOBarrel_c::StateID_Wait",
+            "dAcOBarrel_c::StateID_Grab",
+            "dAcOBarrel_c::StateID_GrabUp",
+            "dAcOBarrel_c::StateID_GrabPut",
+            "dAcOBarrel_c::StateID_Slope",
+            "dAcOBarrel_c::StateID_Water",
+            "dAcOBarrel_c::StateID_Water2",
+            "dAcOBarrel_c::StateID_Explode",
+            "dAcOBarrel_c::StateID_KrakenBorn",
+            "dAcOBarrel_c::StateID_Rebirth"
+        ]
+    },
+    "d_a_obj_pot_salNP": {
+        "name": "dAcOpotSal_c::m_allocator",
+        "states": [
+            "dAcOpotSal_c::StateID_DemoThrow",
+            "dAcOpotSal_c::StateID_After"
+        ]
+    },
+    "d_t_drumNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_t_touchNP": {
+        "name": "?",
+        "states": [
+            "dTgTouchTag::StateID_Wait"
+        ]
+    },
+    "d_a_e_sirenNP": {
+        "name": "dAcESiren_c::m_allocator",
+        "states": [
+            "dAcESiren_c::StateID_Wait",
+            "dAcESiren_c::StateID_Revival",
+            "dAcESiren_c::StateID_Move",
+            "dAcESiren_c::StateID_PathMove",
+            "dAcESiren_c::StateID_Turn",
+            "dAcESiren_c::StateID_Event"
+        ]
+    },
+    "d_a_obj_mg_pumpkinNP": {
+        "name": "dAcOMgPumpkin_c::m_allocator",
+        "states": [
+            "dAcOMgPumpkin_c::StateID_Wait",
+            "dAcOMgPumpkin_c::StateID_Carry",
+            "dAcOMgPumpkin_c::StateID_Drop",
+            "dAcOMgPumpkin_c::StateID_DropAll",
+            "dAcOMgPumpkin_c::StateID_DropPartial"
+        ]
+    },
+    "d_t_group_testNP": {
+        "name": "?",
+        "states": [
+            "dTgGroupTest_c::StateID_Wait",
+            "dTgGroupTest_c::StateID_CreateLeft",
+            "dTgGroupTest_c::StateID_Fight",
+            "dTgGroupTest_c::StateID_DoNothing"
+        ]
+    },
+    "d_a_obj_rock_dragonNP": {
+        "name": "dAcORockDragon_c::m_allocator",
+        "states": [
+            "dAcORockDragon_c::StateID_Upper_Wait",
+            "dAcORockDragon_c::StateID_Upper_Move",
+            "dAcORockDragon_c::StateID_Upper_End",
+            "dAcORockDragon_c::StateID_Lower_Wait",
+            "dAcORockDragon_c::StateID_Lower_RockCatch",
+            "dAcORockDragon_c::StateID_Lower_End",
+            "dAcORockDragon_c::StateID_BossRoom_Wait"
+        ]
+    },
+    "d_a_obj_shutter_waterD101NP": {
+        "name": "dAcOShutterWaterD101_c::m_allocator",
+        "states": [
+            "dAcOShutterWaterD101_c::StateID_Wait",
+            "dAcOShutterWaterD101_c::StateID_End"
+        ]
+    },
+    "d_a_obj_B300_sandNP": {
+        "name": "dAcOB300Sand_c::m_allocator",
+        "states": [
+            "dAcOB300Sand_c::StateID_Wait",
+            "dAcOB300Sand_c::StateID_Clear"
+        ]
+    },
+    "d_a_e_poNP": {
+        "name": "dAcEPo_c::m_allocator",
+        "states": [
+            "dAcEPo_c::StateID_Stop",
+            "dAcEPo_c::StateID_Revival",
+            "dAcEPo_c::StateID_Wait",
+            "dAcEPo_c::StateID_Move",
+            "dAcEPo_c::StateID_PathMove",
+            "dAcEPo_c::StateID_Find",
+            "dAcEPo_c::StateID_Event",
+            "dAcEPo_c::StateID_SearchMove"
+        ]
+    },
+    "d_a_obj_blow_coalNP": {
+        "name": "dAcOblowCoal_c::m_allocator",
+        "states": [
+            "dAcOblowCoal_c::StateID_Wait",
+            "dAcOblowCoal_c::StateID_Dead"
+        ]
+    },
+    "d_a_obj_sw_sword_beamNP": {
+        "name": "dAcOSwSwordBeam_c::m_allocator",
+        "states": [
+            "dAcOSwSwordBeam_c::StateID_Wait",
+            "dAcOSwSwordBeam_c::StateID_Rotate",
+            "dAcOSwSwordBeam_c::StateID_RotateEnd",
+            "dAcOSwSwordBeam_c::StateID_OnSwitch",
+            "dAcOSwSwordBeam_c::StateID_End"
+        ]
+    },
+    "d_a_obj_water_nut_leafNP": {
+        "name": "dAcOWaterNutLeaf_c::m_allocator",
+        "states": [
+            "dAcOWaterNutLeaf_c::StateID_Wait",
+            "dAcOWaterNutLeaf_c::StateID_WaitBirth"
+        ]
+    },
+    "d_a_npc_medicine_husband_nightNP": {
+        "name": "dAcNpcMedicineHusbandNight_c::m_allocator",
+        "states": []
+    },
+    "d_a_insect_fireflyNP": {
+        "name": "dAcInsectFirefly_c::m_allocator",
+        "states": [
+            "dAcInsectFirefly_c::StateID_Move",
+            "dAcInsectFirefly_c::StateID_Escape",
+            "dAcInsectFirefly_c::StateID_Fly",
+            "dAcInsectFirefly_c::StateID_Finalize",
+            "dAcInsectFirefly_c::StateID_Dead"
+        ]
+    },
+    "d_a_obj_utajimaNP": {
+        "name": "dAcOutajima_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_girahimu_floorNP": {
+        "name": "dAcOGirahimuFloor_c::m_allocator",
+        "states": [
+            "dAcOGirahimuFloor_c::StateID_Wait",
+            "dAcOGirahimuFloor_c::StateID_Return",
+            "dAcOGirahimuFloor_c::StateID_Generate",
+            "dAcOGirahimuFloor_c::StateID_Broken",
+            "dAcOGirahimuFloor_c::StateID_Move"
+        ]
+    },
+    "d_a_obj_waterfall_F102NP": {
+        "name": "dAcOwaterfallF102_c::m_allocator",
+        "states": [
+            "dAcOwaterfallF102_c::StateID_Wait",
+            "dAcOwaterfallF102_c::StateID_Vanish",
+            "dAcOwaterfallF102_c::StateID_Stop"
+        ]
+    },
+    "d_a_b_lastbossNP": {
+        "name": "dAcBlastboss_c::m_allocator",
+        "states": [
+            "dAcBlastboss_c::StateID_Fight",
+            "dAcBlastboss_c::StateID_Guard",
+            "dAcBlastboss_c::StateID_GuardBreak",
+            "dAcBlastboss_c::StateID_Attack",
+            "dAcBlastboss_c::StateID_CounterAttack",
+            "dAcBlastboss_c::StateID_PunchAttack",
+            "dAcBlastboss_c::StateID_DashAttack",
+            "dAcBlastboss_c::StateID_SmallAttack",
+            "dAcBlastboss_c::StateID_ThunderAttack",
+            "dAcBlastboss_c::StateID_Damage",
+            "dAcBlastboss_c::StateID_SitDamage",
+            "dAcBlastboss_c::StateID_Down",
+            "dAcBlastboss_c::StateID_Stun",
+            "dAcBlastboss_c::StateID_ThunderWait"
+        ]
+    },
+    "d_a_obj_updown_lavaNP": {
+        "name": "dAcOupdownLava_c::m_allocator",
+        "states": [
+            "dAcOupdownLava_c::StateID_Wait",
+            "dAcOupdownLava_c::StateID_UpDown",
+            "dAcOupdownLava_c::StateID_Stop",
+            "dAcOupdownLava_c::StateID_Up",
+            "dAcOupdownLava_c::StateID_Sink",
+            "dAcOupdownLava_c::StateID_Down"
+        ]
+    },
+    "d_a_obj_pool_cockNP": {
+        "name": "dAcOPoolCock_c::m_allocator",
+        "states": [
+            "dAcOPoolCock_c::StateID_Wait"
+        ]
+    },
+    "d_t_tackleNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_npc_bamboo_goronNP": {
+        "name": "dAcNpcBgr_c::m_allocator",
+        "states": [
+            "dAcNpcBgr_c::StateID_Wait",
+            "dAcNpcBgr_c::StateID_Manage"
+        ]
+    },
+    "d_a_obj_utajima_islandNP": {
+        "name": "dAcOutajimaIsland_c::m_allocator",
+        "states": [
+            "dAcOutajimaIsland_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_bgNP": {
+        "name": "dAcObg_c::m_allocator",
+        "states": []
+    },
+    "d_a_npc_saltalkNP": {
+        "name": "?",
+        "states": [
+            "dAcNpcSltk_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_tuboNP": {
+        "name": "dAcOtubo_c::m_allocator",
+        "states": [
+            "dAcOtubo_c::StateID_Wait",
+            "dAcOtubo_c::StateID_Grab",
+            "dAcOtubo_c::StateID_Put",
+            "dAcOtubo_c::StateID_Slope",
+            "dAcOtubo_c::StateID_Rebirth"
+        ]
+    },
+    "d_a_obj_island_nusiNP": {
+        "name": "dAcOislandNusi_c::m_allocator",
+        "states": [
+            "dAcOislandNusi_c::StateID_Wait",
+            "dAcOislandNusi_c::StateID_NusiFight"
+        ]
+    },
+    "d_a_e_sparkNP": {
+        "name": "dAcEspark_c::m_allocator",
+        "states": [
+            "dAcEspark_c::StateID_Wait",
+            "dAcEspark_c::StateID_EyeWait",
+            "dAcEspark_c::StateID_Move",
+            "dAcEspark_c::StateID_Damage",
+            "dAcEspark_c::StateID_Dead",
+            "dAcEspark_c::StateID_Stun"
+        ]
+    },
+    "d_a_obj_shrine_bef_insideNP": {
+        "name": "dAcOshrineBefInside_c::m_allocator",
+        "states": []
+    },
+    "d_a_npc_medicinewifenightNP": {
+        "name": "dAcNpcMedicineWifeNight_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_pistonNP": {
+        "name": "dAcOPiston_c::m_allocator",
+        "states": [
+            "dAcOPiston_c::StateID_WaitDelay",
+            "dAcOPiston_c::StateID_OnAnim",
+            "dAcOPiston_c::StateID_Wait",
+            "dAcOPiston_c::StateID_Move",
+            "dAcOPiston_c::StateID_Event",
+            "dAcOPiston_c::StateID_End"
+        ]
+    },
+    "d_a_obj_tarzan_poleNP": {
+        "name": "dAcOTarzanPole_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_water_igaigaNP": {
+        "name": "dAcOwaterIgaiga_c::m_allocator",
+        "states": [
+            "dAcOwaterIgaiga_c::StateID_Wait",
+            "dAcOwaterIgaiga_c::StateID_Stick",
+            "dAcOwaterIgaiga_c::StateID_Away",
+            "dAcOwaterIgaiga_c::StateID_Explode"
+        ]
+    },
+    "d_lyt_seeker_stoneNP": {
+        "name": "dLytSeekerStone_c::m_allocator",
+        "states": [
+            "dLytSeekerStone_c::StateID_None",
+            "dLytSeekerStone_c::StateID_In",
+            "dLytSeekerStone_c::StateID_Move",
+            "dLytSeekerStone_c::StateID_Decide",
+            "dLytSeekerStone_c::StateID_SelectScroll",
+            "dLytSeekerStone_c::StateID_Scroll",
+            "dLytSeekerStone_c::StateID_FadeOut",
+            "dLytSeekerStone_c::StateID_FadeIn",
+            "dLytSeekerStone_c::StateID_Movie",
+            "dLytSeekerStone_c::StateID_MovieFadeOut",
+            "dLytSeekerStone_c::StateID_MovieFadeIn",
+            "dLytSeekerStone_c::StateID_Out"
+        ]
+    },
+    "d_a_e_syakomaitoNP": {
+        "name": "dAcESyakomaito_c::m_allocator",
+        "states": [
+            "dAcESyakomaito_c::StateID_Wait",
+            "dAcESyakomaito_c::StateID_Kyoro",
+            "dAcESyakomaito_c::StateID_Find",
+            "dAcESyakomaito_c::StateID_FindSound",
+            "dAcESyakomaito_c::StateID_Move",
+            "dAcESyakomaito_c::StateID_Search",
+            "dAcESyakomaito_c::StateID_RetMove",
+            "dAcESyakomaito_c::StateID_KnockBack",
+            "dAcESyakomaito_c::StateID_GuardImpact",
+            "dAcESyakomaito_c::StateID_Damage",
+            "dAcESyakomaito_c::StateID_Stun",
+            "dAcESyakomaito_c::StateID_Dead",
+            "dAcESyakomaito_c::StateID_Debt",
+            "dAcESyakomaito_c::StateID_ReverseWait",
+            "dAcESyakomaito_c::StateID_Appear",
+            "dAcESyakomaito_c::StateID_Drive",
+            "dAcESyakomaito_c::StateID_Teni"
+        ]
+    },
+    "d_a_obj_bb_broken_partsNP": {
+        "name": "dAcObbBrokenParts_c::m_allocator",
+        "states": [
+            "dAcObbBrokenParts_c::StateID_Wait",
+            "dAcObbBrokenParts_c::StateID_Break"
+        ]
+    },
+    "d_a_obj_ivy_ropeNP": {
+        "name": "dAcOivyRope_c::m_allocator",
+        "states": [
+            "dAcOivyRope_c::StateID_RopeWait",
+            "dAcOivyRope_c::StateID_PlayerGrip",
+            "dAcOivyRope_c::StateID_RopeReturn",
+            "dAcOivyRope_c::StateID_RopeCut",
+            "dAcOivyRope_c::StateID_TerryRopeWait",
+            "dAcOivyRope_c::StateID_TerryRopeUp",
+            "dAcOivyRope_c::StateID_TerryRopeDown",
+            "dAcOivyRope_c::StateID_TerryRopeInit",
+            "dAcOivyRope_c::StateID_TerryRopePlayerCarry"
+        ]
+    },
+    "d_t_sparksNP": {
+        "name": "?",
+        "states": [
+            "dTgSparksTag::StateID_Wait"
+        ]
+    },
+    "d_a_npc_ord_kyuiNP": {
+        "name": "dAcNpcOrdKyui_c::m_allocator",
+        "states": [
+            "dAcNpcOrdKyui_c::StateID_Hide"
+        ]
+    },
+    "d_a_e_bsNP": {
+        "name": "dAcEbs_c::m_allocator",
+        "states": [
+            "dAcEbs_c::StateID_Standby",
+            "dAcEbs_c::StateID_StandbyB",
+            "dAcEbs_c::StateID_Fight",
+            "dAcEbs_c::StateID_FightB",
+            "dAcEbs_c::StateID_Attack",
+            "dAcEbs_c::StateID_Damage",
+            "dAcEbs_c::StateID_Fire",
+            "dAcEbs_c::StateID_Disappear"
+        ]
+    },
+    "d_a_obj_tr_shutter_csNP": {
+        "name": "dAcOTrlyShtrChgScn_c::m_allocator",
+        "states": [
+            "dAcOTrlyShtrChgScn_c::StateID_Wait",
+            "dAcOTrlyShtrChgScn_c::StateID_OpenEvent"
+        ]
+    },
+    "d_a_obj_F400_gate_leafNP": {
+        "name": "dAcOF400GateLeaf_c::m_allocator",
+        "states": []
+    },
+    "d_a_npc_salbage_robot_repairNP": {
+        "name": "dAcNpcSalbageRobotRepair_c::m_allocator",
+        "states": [
+            "dAcNpcSalbageRobotRepair_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_grass_coilNP": {
+        "name": "dAcOgrassCoil_c::m_allocator",
+        "states": [
+            "dAcOgrassCoil_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_daynightNP": {
+        "name": "?",
+        "states": [
+            "dAcODayNight_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_sorajima_male2NP": {
+        "name": "dAcNpcSma2_c::m_allocator",
+        "states": [
+            "dAcNpcSma2_c::StateID_Wait",
+            "dAcNpcSma2_c::StateID_Demo",
+            "dAcNpcSma2_c::StateID_Rhythm"
+        ]
+    },
+    "d_t_heat_resistNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_rail_postNP": {
+        "name": "dAcORailPost::m_allocator",
+        "states": []
+    },
+    "d_a_obj_light_shaft_smallNP": {
+        "name": "dAcOLightShaftSmall_c::m_allocator",
+        "states": [
+            "dAcOLightShaftSmall_c::StateID_Wait",
+            "dAcOLightShaftSmall_c::StateID_Inside"
+        ]
+    },
+    "d_a_npc_desertrobotNP": {
+        "name": "dAcNpcDrb_c::m_allocator",
+        "states": [
+            "dAcNpcDrb_c::StateID_Wait",
+            "dAcNpcDrb_c::StateID_Walk",
+            "dAcNpcDrb_c::StateID_Digging",
+            "dAcNpcDrb_c::StateID_Looking",
+            "dAcNpcDrb_c::StateID_Scared",
+            "dAcNpcDrb_c::StateID_Demo"
+        ]
+    },
+    "d_a_obj_ballista_handleNP": {
+        "name": "dAcOBallistaHandle_c::m_allocator",
+        "states": [
+            "dAcOBallistaHandle_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_propeller_liftNP": {
+        "name": "dAcOPropellerLift_c::m_allocator",
+        "states": [
+            "dAcOPropellerLift_c::StateID_Normal",
+            "dAcOPropellerLift_c::StateID_BackMove",
+            "dAcOPropellerLift_c::StateID_BackMoveMain",
+            "dAcOPropellerLift_c::StateID_CrashAction"
+        ]
+    },
+    "d_t_actionNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_mappartsNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_undergroundNP": {
+        "name": "dAcOUnderground_c::m_allocator",
+        "states": []
+    },
+    "d_a_bombfNP": {
+        "name": "dAcBombf_c::m_allocator",
+        "states": [
+            "dAcBombf_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_dungeon_shipNP": {
+        "name": "dAcODungeonShip_c::m_allocator",
+        "states": [
+            "dAcODungeonShip_c::StateID_Wait",
+            "dAcODungeonShip_c::StateID_Transparency",
+            "dAcODungeonShip_c::StateID_AppearEvent",
+            "dAcODungeonShip_c::StateID_Appear",
+            "dAcODungeonShip_c::StateID_End"
+        ]
+    },
+    "d_a_obj_stage_kraken_partsNP": {
+        "name": "dAcOstageKrakenParts_c::m_allocator",
+        "states": [
+            "dAcOstageKrakenParts_c::StateID_Shake",
+            "dAcOstageKrakenParts_c::StateID_Fall"
+        ]
+    },
+    "d_a_e_hocNP": {
+        "name": "dAcEhoc_c::m_allocator",
+        "states": [
+            "dAcEhoc_c::StateID_Fight",
+            "dAcEhoc_c::StateID_Attack",
+            "dAcEhoc_c::StateID_BigAttack",
+            "dAcEhoc_c::StateID_AttackAfter",
+            "dAcEhoc_c::StateID_Escape",
+            "dAcEhoc_c::StateID_Damage",
+            "dAcEhoc_c::StateID_Fire",
+            "dAcEhoc_c::StateID_Fail",
+            "dAcEhoc_c::StateID_StabGuard",
+            "dAcEhoc_c::StateID_Stun",
+            "dAcEhoc_c::StateID_DropOut",
+            "dAcEhoc_c::StateID_Return",
+            "dAcEhoc_c::StateID_DashReturn",
+            "dAcEhoc_c::StateID_Wait",
+            "dAcEhoc_c::StateID_Summon",
+            "dAcEhoc_c::StateID_AirDamage"
+        ]
+    },
+    "d_t_holy_waterNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_needle_desertNP": {
+        "name": "dAcONeedleDesert_c::m_allocator",
+        "states": [
+            "dAcONeedleDesert_c::StateID_On",
+            "dAcONeedleDesert_c::StateID_Off"
+        ]
+    },
+    "d_a_obj_sealed_doorNP": {
+        "name": "dAcOsealedDoor_c::m_allocator",
+        "states": [
+            "dAcOsealedDoor_c::StateID_Wait",
+            "dAcOsealedDoor_c::StateID_MarkAppear",
+            "dAcOsealedDoor_c::StateID_Light",
+            "dAcOsealedDoor_c::StateID_AnmWait",
+            "dAcOsealedDoor_c::StateID_Vanish",
+            "dAcOsealedDoor_c::StateID_Appear"
+        ]
+    },
+    "d_a_knight_leader_birdNP": {
+        "name": "dAcKnightLeaderBird_c::m_allocator",
+        "states": [
+            "dAcKnightLeaderBird_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_switch_wallNP": {
+        "name": "dAcOswitchWall_c::m_allocator",
+        "states": [
+            "dAcOswitchWall_c::StateID_Up",
+            "dAcOswitchWall_c::StateID_Down"
+        ]
+    },
+    "d_a_npc_kyui_thirdNP": {
+        "name": "dAcNpcKyuiThird_c::m_allocator",
+        "states": [
+            "dAcNpcKyuiThird_c::StateID_Wait2",
+            "dAcNpcKyuiThird_c::StateID_Hang",
+            "dAcNpcKyuiThird_c::StateID_HelpReq"
+        ]
+    },
+    "d_a_e_tn2NP": {
+        "name": "dAcEtn2_c::m_allocator",
+        "states": [
+            "dAcEtn2_c::StateID_ArmorAttack",
+            "dAcEtn2_c::StateID_ArmorWait",
+            "dAcEtn2_c::StateID_ArmorWalk"
+        ]
+    },
+    "d_a_obj_pipeNP": {
+        "name": "dAcOPipe_c::m_allocator",
+        "states": [
+            "dAcOPipe_c::StateID_Hold",
+            "dAcOPipe_c::StateID_Wait",
+            "dAcOPipe_c::StateID_Drop"
+        ]
+    },
+    "d_a_npc_junk_mother_lodNP": {
+        "name": "dAcNpcJunkMotherLOD_c::m_allocator",
+        "states": []
+    },
+    "d_t_ship_floodNP": {
+        "name": "?",
+        "states": [
+            "dTgShipFlood_c::StateID_Wait",
+            "dTgShipFlood_c::StateID_Stop"
+        ]
+    },
+    "d_a_obj_doorNP": {
+        "name": "dAcOdoor_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_bigbomb_flowerNP": {
+        "name": "dAcOBBombFlower_c::m_allocator",
+        "states": [
+            "dAcOBBombFlower_c::StateID_Wait"
+        ]
+    },
+    "d_a_e_mrNP": {
+        "name": "dAcEmr_c::m_allocator",
+        "states": [
+            "dAcEmr_c::StateID_Wait",
+            "dAcEmr_c::StateID_Walk",
+            "dAcEmr_c::StateID_Find",
+            "dAcEmr_c::StateID_BattleMove",
+            "dAcEmr_c::StateID_GuardSt",
+            "dAcEmr_c::StateID_GuardEnd",
+            "dAcEmr_c::StateID_Stick",
+            "dAcEmr_c::StateID_BattleNoShieldMove",
+            "dAcEmr_c::StateID_Swing",
+            "dAcEmr_c::StateID_Rush",
+            "dAcEmr_c::StateID_GuardJust",
+            "dAcEmr_c::StateID_Lost",
+            "dAcEmr_c::StateID_ShieldCut",
+            "dAcEmr_c::StateID_ShieldThrow",
+            "dAcEmr_c::StateID_ShieldOut",
+            "dAcEmr_c::StateID_Dead",
+            "dAcEmr_c::StateID_Piyori",
+            "dAcEmr_c::StateID_WhipPiyori",
+            "dAcEmr_c::StateID_BombReaction",
+            "dAcEmr_c::StateID_Yoroke",
+            "dAcEmr_c::StateID_EventWait",
+            "dAcEmr_c::StateID_Damage",
+            "dAcEmr_c::StateID_PathWait",
+            "dAcEmr_c::StateID_PathWalk",
+            "dAcEmr_c::StateID_Home",
+            "dAcEmr_c::StateID_PathHome"
+        ]
+    },
+    "d_a_obj_lotusNP": {
+        "name": "dAcOLotus_c::m_allocator",
+        "states": [
+            "dAcOLotus_c::StateID_Wait",
+            "dAcOLotus_c::StateID_Reverse",
+            "dAcOLotus_c::StateID_Rotate",
+            "dAcOLotus_c::StateID_EndRotate"
+        ]
+    },
+    "d_a_obj_girahimu_knifeNP": {
+        "name": "dAcObjGirahimuKnife_c::m_allocator",
+        "states": [
+            "dAcObjGirahimuKnife_c::StateID_Wait",
+            "dAcObjGirahimuKnife_c::StateID_SpinWait",
+            "dAcObjGirahimuKnife_c::StateID_SpinWaitPreAttack",
+            "dAcObjGirahimuKnife_c::StateID_SpinFreeWait",
+            "dAcObjGirahimuKnife_c::StateID_FreeWait",
+            "dAcObjGirahimuKnife_c::StateID_Attack",
+            "dAcObjGirahimuKnife_c::StateID_AttackEnd",
+            "dAcObjGirahimuKnife_c::StateID_Return",
+            "dAcObjGirahimuKnife_c::StateID_Hit",
+            "dAcObjGirahimuKnife_c::StateID_CircleWait"
+        ]
+    },
+    "d_t_minigame_insect_captureNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_girahimu_sword_linkNP": {
+        "name": "dAcObjGirahimuSwordLink_c::m_allocator",
+        "states": [
+            "dAcObjGirahimuSwordLink_c::StateID_Hide",
+            "dAcObjGirahimuSwordLink_c::StateID_Equip",
+            "dAcObjGirahimuSwordLink_c::StateID_GetSword",
+            "dAcObjGirahimuSwordLink_c::StateID_Throw",
+            "dAcObjGirahimuSwordLink_c::StateID_AtThrow",
+            "dAcObjGirahimuSwordLink_c::StateID_Stick",
+            "dAcObjGirahimuSwordLink_c::StateID_Reflect"
+        ]
+    },
+    "d_a_b_asura_footNP": {
+        "name": "dAcAsuraFoot_c::m_allocator",
+        "states": [
+            "dAcAsuraFoot_c::StateID_Pulled",
+            "dAcAsuraFoot_c::StateID_Wait"
+        ]
+    },
+    "d_t_clef_gameNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_guard_logNP": {
+        "name": "dAcOguardLog_c::m_allocator",
+        "states": [
+            "dAcOguardLog_c::StateID_Init",
+            "dAcOguardLog_c::StateID_Wait",
+            "dAcOguardLog_c::StateID_Shake"
+        ]
+    },
+    "d_a_obj_fruit_guts_leafNP": {
+        "name": "dAcOFruitGutsLeaf_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_paintNP": {
+        "name": "dAcOpaint_c::m_allocator",
+        "states": [
+            "dAcOpaint_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_shrine_afterNP": {
+        "name": "dAcOshrineAfter_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_hole_minigameNP": {
+        "name": "dAcOholeMinigame_c::m_allocator",
+        "states": [
+            "dAcOholeMinigame_c::StateID_Wait",
+            "dAcOholeMinigame_c::StateID_Start",
+            "dAcOholeMinigame_c::StateID_Play",
+            "dAcOholeMinigame_c::StateID_Message",
+            "dAcOholeMinigame_c::StateID_Clear"
+        ]
+    },
+    "d_a_obj_oct_grass_leafNP": {
+        "name": "dAcOOctGrassLeaf_c::m_allocator",
+        "states": [
+            "dAcOOctGrassLeaf_c::StateID_Wait",
+            "dAcOOctGrassLeaf_c::StateID_Shake",
+            "dAcOOctGrassLeaf_c::StateID_Touch",
+            "dAcOOctGrassLeaf_c::StateID_Grab",
+            "dAcOOctGrassLeaf_c::StateID_Broken"
+        ]
+    },
+    "d_a_npc_kyui_firstNP": {
+        "name": "dAcNpcKyuiFirst_c::m_allocator",
+        "states": [
+            "dAcNpcKyuiFirst_c::StateID_Fear",
+            "dAcNpcKyuiFirst_c::StateID_Rest",
+            "dAcNpcKyuiFirst_c::StateID_Hide",
+            "dAcNpcKyuiFirst_c::StateID_Kill",
+            "dAcNpcKyuiFirst_c::StateID_Ambash",
+            "dAcNpcKyuiFirst_c::StateID_AmbashWalk",
+            "dAcNpcKyuiFirst_c::StateID_InitAmbash"
+        ]
+    },
+    "d_a_b_bigbossNP": {
+        "name": "dAcBBigBoss_c::m_allocator",
+        "states": [
+            "dAcBBigBoss_c::StateID_AppearWait",
+            "dAcBBigBoss_c::StateID_AppearDemo",
+            "dAcBBigBoss_c::StateID_Wait",
+            "dAcBBigBoss_c::StateID_Walk",
+            "dAcBBigBoss_c::StateID_Reach",
+            "dAcBBigBoss_c::StateID_Turn",
+            "dAcBBigBoss_c::StateID_ImpaAdvice",
+            "dAcBBigBoss_c::StateID_ShakeHead",
+            "dAcBBigBoss_c::StateID_HeadDamage",
+            "dAcBBigBoss_c::StateID_HeadDamageThrow",
+            "dAcBBigBoss_c::StateID_HeadPain",
+            "dAcBBigBoss_c::StateID_StunPain",
+            "dAcBBigBoss_c::StateID_HeadRecover",
+            "dAcBBigBoss_c::StateID_Attack",
+            "dAcBBigBoss_c::StateID_FrontFall",
+            "dAcBBigBoss_c::StateID_Rush",
+            "dAcBBigBoss_c::StateID_Rise",
+            "dAcBBigBoss_c::StateID_Tied",
+            "dAcBBigBoss_c::StateID_LevelUp",
+            "dAcBBigBoss_c::StateID_FootBroken",
+            "dAcBBigBoss_c::StateID_FootRecover",
+            "dAcBBigBoss_c::StateID_Stun",
+            "dAcBBigBoss_c::StateID_StunWait",
+            "dAcBBigBoss_c::StateID_StunRecover",
+            "dAcBBigBoss_c::StateID_StunDamage",
+            "dAcBBigBoss_c::StateID_StunFrontFall",
+            "dAcBBigBoss_c::StateID_Evacuation",
+            "dAcBBigBoss_c::StateID_StoneWait",
+            "dAcBBigBoss_c::StateID_SwordGameWait",
+            "dAcBBigBoss_c::StateID_SwordGameEnd"
+        ]
+    },
+    "d_a_obj_trolleyNP": {
+        "name": "dAcOTrolley_c::m_allocator",
+        "states": [
+            "dAcOTrolley_c::StateID_Wait",
+            "dAcOTrolley_c::StateID_RideAction",
+            "dAcOTrolley_c::StateID_StartAction",
+            "dAcOTrolley_c::StateID_PathMove",
+            "dAcOTrolley_c::StateID_StopAction",
+            "dAcOTrolley_c::StateID_CrashAction",
+            "dAcOTrolley_c::StateID_PushPull",
+            "dAcOTrolley_c::StateID_Fall",
+            "dAcOTrolley_c::StateID_End",
+            "dAcOTrolley_c::StateID_TimeSlipStart",
+            "dAcOTrolley_c::StateID_TimeSlipEnd",
+            "dAcOTrolley_c::StateID_WaitOpenDoor",
+            "dAcOTrolley_c::StateID_RestartWait",
+            "dAcOTrolley_c::StateID_BuriedSand",
+            "dAcOTrolley_c::StateID_BackMove",
+            "dAcOTrolley_c::StateID_F302RevivalDemo",
+            "dAcOTrolley_c::StateID_TimeSlipEndFromAnother",
+            "dAcOTrolley_c::StateID_WaitOnSwitch"
+        ]
+    },
+    "d_a_obj_move_elecNP": {
+        "name": "dAcOMoveElec_c::m_allocator",
+        "states": [
+            "dAcOMoveElec_c::StateID_WaitOff",
+            "dAcOMoveElec_c::StateID_WaitOn",
+            "dAcOMoveElec_c::StateID_Move"
+        ]
+    },
+    "d_a_obj_tower_bombNP": {
+        "name": "dAcOTowerBomb_c::m_allocator",
+        "states": [
+            "dAcOTowerBomb_c::StateID_Wait",
+            "dAcOTowerBomb_c::StateID_Bomb",
+            "dAcOTowerBomb_c::StateID_Broken"
+        ]
+    },
+    "d_a_obj_bstoneNP": {
+        "name": "dAcObstonec::m_allocator",
+        "states": []
+    },
+    "d_a_e_kumite_giraNP": {
+        "name": "dAcEKumiteGira_c::m_allocator",
+        "states": [
+            "dAcEKumiteGira_c::StateID_Wait",
+            "dAcEKumiteGira_c::StateID_PlayAnm",
+            "dAcEKumiteGira_c::StateID_Damage"
+        ]
+    },
+    "d_a_npc_shinkan2NP": {
+        "name": "dAcNpcSkn2_c::m_allocator",
+        "states": [
+            "dAcNpcSkn2_c::StateID_Watch",
+            "dAcNpcSkn2_c::StateID_Watch0",
+            "dAcNpcSkn2_c::StateID_WatchLerp0",
+            "dAcNpcSkn2_c::StateID_Watch1",
+            "dAcNpcSkn2_c::StateID_Watch2",
+            "dAcNpcSkn2_c::StateID_Watch3",
+            "dAcNpcSkn2_c::StateID_TurnRemly",
+            "dAcNpcSkn2_c::StateID_Watch4",
+            "dAcNpcSkn2_c::StateID_WatchLerp"
+        ]
+    },
+    "d_a_obj_smokeNP": {
+        "name": "dAcOsmoke_c::m_allocator",
+        "states": [
+            "dAcOsmoke_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_graveNP": {
+        "name": "dAcOGrave_c::m_allocator",
+        "states": [
+            "dAcOGrave_c::StateID_Wait",
+            "dAcOGrave_c::StateID_Move"
+        ]
+    },
+    "d_a_obj_cumul_cloudNP": {
+        "name": "dAcOcumulCloud_c::m_allocator",
+        "states": [
+            "dAcOcumulCloud_c::StateID_Wait"
+        ]
+    },
+    "d_t_bczNP": {
+        "name": "?",
+        "states": [
+            "dTgBcZ_c::StateID_Wait",
+            "dTgBcZ_c::StateID_RaiseBcZ",
+            "dTgBcZ_c::StateID_RaiseLeft",
+            "dTgBcZ_c::StateID_ControlBcZ",
+            "dTgBcZ_c::StateID_DoNothing"
+        ]
+    },
+    "d_a_npc_kobunNP": {
+        "name": "dAcNpcKbn_c::m_allocator",
+        "states": [
+            "dAcNpcKbn_c::StateID_RaceInit",
+            "dAcNpcKbn_c::StateID_RaceRun",
+            "dAcNpcKbn_c::StateID_RaceDive",
+            "dAcNpcKbn_c::StateID_RaceRide",
+            "dAcNpcKbn_c::StateID_LetterWait",
+            "dAcNpcKbn_c::StateID_Sleep",
+            "dAcNpcKbn_c::StateID_Sit"
+        ]
+    },
+    "d_a_npc_uranaiyaNP": {
+        "name": "dAcNpcSha_c::m_allocator",
+        "states": [
+            "dAcNpcSha_c::StateID_Wait"
+        ]
+    },
+    "d_a_e_stNP": {
+        "name": "dAcEst_c::m_allocator",
+        "states": [
+            "dAcEst_c::StateID_Home",
+            "dAcEst_c::StateID_HomeLine",
+            "dAcEst_c::StateID_HangHide",
+            "dAcEst_c::StateID_HangWait",
+            "dAcEst_c::StateID_HangAttack",
+            "dAcEst_c::StateID_HangStun",
+            "dAcEst_c::StateID_Drop",
+            "dAcEst_c::StateID_NormalWalk",
+            "dAcEst_c::StateID_NormalWait",
+            "dAcEst_c::StateID_Fight",
+            "dAcEst_c::StateID_JumpAttack",
+            "dAcEst_c::StateID_WireAttack",
+            "dAcEst_c::StateID_Hug",
+            "dAcEst_c::StateID_HugWalk",
+            "dAcEst_c::StateID_CancelHug",
+            "dAcEst_c::StateID_Stun",
+            "dAcEst_c::StateID_StandEnd",
+            "dAcEst_c::StateID_StandStun",
+            "dAcEst_c::StateID_StandHit",
+            "dAcEst_c::StateID_Defense",
+            "dAcEst_c::StateID_Dead",
+            "dAcEst_c::StateID_WaterDead",
+            "dAcEst_c::StateID_StandDead",
+            "dAcEst_c::StateID_Reverse",
+            "dAcEst_c::StateID_SpiderWait",
+            "dAcEst_c::StateID_SpiderMove",
+            "dAcEst_c::StateID_SpiderAttack",
+            "dAcEst_c::StateID_SpiderHome",
+            "dAcEst_c::StateID_SpiderFang",
+            "dAcEst_c::StateID_WindGuard"
+        ]
+    },
+    "d_a_e_smNP": {
+        "name": "dAcEsm_c::m_allocator",
+        "states": [
+            "dAcEsm_c::StateID_BaseMother",
+            "dAcEsm_c::StateID_Wait",
+            "dAcEsm_c::StateID_Walk",
+            "dAcEsm_c::StateID_BirthJump",
+            "dAcEsm_c::StateID_Shake",
+            "dAcEsm_c::StateID_Attack",
+            "dAcEsm_c::StateID_Electrical",
+            "dAcEsm_c::StateID_Absorption",
+            "dAcEsm_c::StateID_Fusion",
+            "dAcEsm_c::StateID_Dead"
+        ]
+    },
+    "d_a_obj_clefNP": {
+        "name": "dAcOClef_c::m_allocator",
+        "states": [
+            "dAcOClef_c::StateID_WaitPhantom",
+            "dAcOClef_c::StateID_Wait",
+            "dAcOClef_c::StateID_WaitPathMove",
+            "dAcOClef_c::StateID_MoveTowardPath",
+            "dAcOClef_c::StateID_PathMove",
+            "dAcOClef_c::StateID_Gravitate",
+            "dAcOClef_c::StateID_Die"
+        ]
+    },
+    "d_a_obj_ancient_jewelsNP": {
+        "name": "dAcOAncientJewels_c::m_allocator",
+        "states": [
+            "dAcOAncientJewels_c::StateID_Wait",
+            "dAcOAncientJewels_c::StateID_WaitDrop",
+            "dAcOAncientJewels_c::StateID_Drop",
+            "dAcOAncientJewels_c::StateID_Buried",
+            "dAcOAncientJewels_c::StateID_WhipCarry",
+            "dAcOAncientJewels_c::StateID_GetItem",
+            "dAcOAncientJewels_c::StateID_UnderLog"
+        ]
+    },
+    "d_a_bird_npcNP": {
+        "name": "dBird_Npc_c::m_allocator",
+        "states": [
+            "dBird_Npc_c::StateID_Hide",
+            "dBird_Npc_c::StateID_Fly",
+            "dBird_Npc_c::StateID_Chase"
+        ]
+    },
+    "d_a_npc_zeldaNP": {
+        "name": "dAcNpcZld_c::m_allocator",
+        "states": [
+            "dAcNpcZld_c::StateID_Pain",
+            "dAcNpcZld_c::StateID_Wait",
+            "dAcNpcZld_c::StateID_Demo",
+            "dAcNpcZld_c::StateID_Follow",
+            "dAcNpcZld_c::StateID_RunUpToBurrow"
+        ]
+    },
+    "d_a_npc_ce_friendNP": {
+        "name": "dAcNpcCeFriend_c::m_allocator",
+        "states": [
+            "dAcNpcCeFriend_c::StateID_SearchObj",
+            "dAcNpcCeFriend_c::StateID_Lift",
+            "dAcNpcCeFriend_c::StateID_Trouble",
+            "dAcNpcCeFriend_c::StateID_LiftRecover",
+            "dAcNpcCeFriend_c::StateID_Watch",
+            "dAcNpcCeFriend_c::StateID_Pushup",
+            "dAcNpcCeFriend_c::StateID_Watch2",
+            "dAcNpcCeFriend_c::StateID_TurnHome",
+            "dAcNpcCeFriend_c::StateID_ToPushup",
+            "dAcNpcCeFriend_c::StateID_Pain",
+            "dAcNpcCeFriend_c::StateID_Surprised"
+        ]
+    },
+    "d_t_insectNP": {
+        "name": "?",
+        "states": [
+            "dTgInsect_c::StateID_Wait",
+            "dTgInsect_c::StateID_WaitCreate",
+            "dTgInsect_c::StateID_WaitForceEscape",
+            "dTgInsect_c::StateID_End"
+        ]
+    },
+    "d_a_obj_sw_syakoNP": {
+        "name": "dAcOSwSyako_c::m_allocator",
+        "states": [
+            "dAcOSwSyako_c::StateID_Wait",
+            "dAcOSwSyako_c::StateID_Event"
+        ]
+    },
+    "d_a_obj_insect_islandNP": {
+        "name": "dAcOinsectIsland_c::m_allocator",
+        "states": []
+    },
+    "d_a_npc_honeycombNP": {
+        "name": "dAcNpcHc_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_bird_statueNP": {
+        "name": "dAcOBirdStatue_c::m_allocator",
+        "states": []
+    },
+    "d_a_or_cannon_bulletNP": {
+        "name": "dAcOrCannBullet_c::m_allocator",
+        "states": [
+            "dAcOrCannBullet_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_roll_pillarNP": {
+        "name": "dAcORollPillar_c::m_allocator",
+        "states": [
+            "dAcORollPillar_c::StateID_Wait",
+            "dAcORollPillar_c::StateID_Rotate",
+            "dAcORollPillar_c::StateID_TimerWait"
+        ]
+    },
+    "d_a_npc_sorajima_fatherNP": {
+        "name": "dAcNpcSorajimaFather_c::m_allocator",
+        "states": [
+            "dAcNpcSorajimaFather_c::StateID_Wait",
+            "dAcNpcSorajimaFather_c::StateID_LookAwaySt",
+            "dAcNpcSorajimaFather_c::StateID_LookAway",
+            "dAcNpcSorajimaFather_c::StateID_Turn",
+            "dAcNpcSorajimaFather_c::StateID_Salbage"
+        ]
+    },
+    "d_a_obj_impa_doorNP": {
+        "name": "dAcOimpaDoor_c::m_allocator",
+        "states": [
+            "dAcOimpaDoor_c::StateID_Wait"
+        ]
+    },
+    "d_t_timerNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_time_stage_bgNP": {
+        "name": "dAcOTimeStageBg_c::m_allocator",
+        "states": [
+            "dAcOTimeStageBg_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_D300NP": {
+        "name": "dAcOD300_c::m_allocator",
+        "states": [
+            "dAcOD300_c::StateID_Wait",
+            "dAcOD300_c::StateID_Appear",
+            "dAcOD300_c::StateID_End"
+        ]
+    },
+    "d_a_col_stpNP": {
+        "name": "dAcColStp_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_pumpkin_leafNP": {
+        "name": "dAcOPumpkinLeaf_c::m_allocator",
+        "states": [
+            "dAcOPumpkinLeaf_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_sw_whipleverNP": {
+        "name": "dAcOSwWhipLever_c::m_allocator",
+        "states": [
+            "dAcOSwWhipLever_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_birdNP": {
+        "name": "dNpc_Bird_c::m_allocator",
+        "states": [
+            "dNpc_Bird_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_bbrvlNP": {
+        "name": "dAcNpcBBRvl_c::m_allocator",
+        "states": [
+            "dAcNpcBBRvl_c::StateID_Wait",
+            "dAcNpcBBRvl_c::StateID_RideWait",
+            "dAcNpcBBRvl_c::StateID_RideTurn",
+            "dAcNpcBBRvl_c::StateID_Fire",
+            "dAcNpcBBRvl_c::StateID_RideWagon",
+            "dAcNpcBBRvl_c::StateID_Climb",
+            "dAcNpcBBRvl_c::StateID_Run",
+            "dAcNpcBBRvl_c::StateID_Carry",
+            "dAcNpcBBRvl_c::StateID_Put",
+            "dAcNpcBBRvl_c::StateID_SuperDash",
+            "dAcNpcBBRvl_c::StateID_RetDash",
+            "dAcNpcBBRvl_c::StateID_RetTurn",
+            "dAcNpcBBRvl_c::StateID_PutBomb",
+            "dAcNpcBBRvl_c::StateID_Turn",
+            "dAcNpcBBRvl_c::StateID_Jump",
+            "dAcNpcBBRvl_c::StateID_Fall",
+            "dAcNpcBBRvl_c::StateID_Damage",
+            "dAcNpcBBRvl_c::StateID_Invert",
+            "dAcNpcBBRvl_c::StateID_BlowOff",
+            "dAcNpcBBRvl_c::StateID_WindGuard",
+            "dAcNpcBBRvl_c::StateID_Stand",
+            "dAcNpcBBRvl_c::StateID_PickUp",
+            "dAcNpcBBRvl_c::StateID_FirstDemo",
+            "dAcNpcBBRvl_c::StateID_SecondDemo",
+            "dAcNpcBBRvl_c::StateID_FirstPlDemo",
+            "dAcNpcBBRvl_c::StateID_Escape",
+            "dAcNpcBBRvl_c::StateID_MakeBallista",
+            "dAcNpcBBRvl_c::StateID_ShootF3Wait",
+            "dAcNpcBBRvl_c::StateID_ShootF3Demo",
+            "dAcNpcBBRvl_c::StateID_RideWaitWait",
+            "dAcNpcBBRvl_c::StateID_ClearReturn",
+            "dAcNpcBBRvl_c::StateID_ToShrine",
+            "dAcNpcBBRvl_c::StateID_ClearDemo",
+            "dAcNpcBBRvl_c::StateID_OpeningDemo",
+            "dAcNpcBBRvl_c::StateID_NoBombDemo",
+            "dAcNpcBBRvl_c::StateID_Advice",
+            "dAcNpcBBRvl_c::StateID_BattleTalk",
+            "dAcNpcBBRvl_c::StateID_Tutorial"
+        ]
+    },
+    "d_a_insect_beetleNP": {
+        "name": "dAcInsectBeetle_c::m_allocator",
+        "states": [
+            "dAcInsectBeetle_c::StateID_Wait",
+            "dAcInsectBeetle_c::StateID_Walk",
+            "dAcInsectBeetle_c::StateID_Escape",
+            "dAcInsectBeetle_c::StateID_Fly",
+            "dAcInsectBeetle_c::StateID_Fall",
+            "dAcInsectBeetle_c::StateID_Getup",
+            "dAcInsectBeetle_c::StateID_Finalize",
+            "dAcInsectBeetle_c::StateID_Dead",
+            "dAcInsectBeetle_c::StateID_EscapeChild"
+        ]
+    },
+    "d_a_npc_knight_leaderNP": {
+        "name": "dAcNpcKnightLeader_c::m_allocator",
+        "states": [
+            "dAcNpcKnightLeader_c::StateID_Wait",
+            "dAcNpcKnightLeader_c::StateID_LogCommentDemoReq"
+        ]
+    },
+    "d_a_npc_suiseiNP": {
+        "name": "dAcNpcSuisei_c::m_allocator",
+        "states": [
+            "dAcNpcSuisei_c::StateID_PathMove",
+            "dAcNpcSuisei_c::StateID_NearPlayer",
+            "dAcNpcSuisei_c::StateID_BgCheckMove",
+            "dAcNpcSuisei_c::StateID_SearchPlayer",
+            "dAcNpcSuisei_c::StateID_Wait",
+            "dAcNpcSuisei_c::StateID_Withstand",
+            "dAcNpcSuisei_c::StateID_Pain",
+            "dAcNpcSuisei_c::StateID_Surprised"
+        ]
+    },
+    "d_a_obj_F400_gate_sealNP": {
+        "name": "dAcOF400GateSeal_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_boatNP": {
+        "name": "dAcOBoat_c::m_allocator",
+        "states": [
+            "dAcOBoat_c::StateID_Wait",
+            "dAcOBoat_c::StateID_Fall",
+            "dAcOBoat_c::StateID_FallEnd",
+            "dAcOBoat_c::StateID_FallStop",
+            "dAcOBoat_c::StateID_Up",
+            "dAcOBoat_c::StateID_UpEnd"
+        ]
+    },
+    "d_a_e_bcNP": {
+        "name": "dAcEbc_c::m_allocator",
+        "states": [
+            "dAcEbc_c::StateID_Standby",
+            "dAcEbc_c::StateID_Home",
+            "dAcEbc_c::StateID_Normal",
+            "dAcEbc_c::StateID_Lantern",
+            "dAcEbc_c::StateID_Yagura",
+            "dAcEbc_c::StateID_Path",
+            "dAcEbc_c::StateID_LanternPath",
+            "dAcEbc_c::StateID_RopeWalk",
+            "dAcEbc_c::StateID_FightStart",
+            "dAcEbc_c::StateID_FindCall",
+            "dAcEbc_c::StateID_Fight",
+            "dAcEbc_c::StateID_Attack",
+            "dAcEbc_c::StateID_BigAttack",
+            "dAcEbc_c::StateID_StepAttack",
+            "dAcEbc_c::StateID_RockAttack",
+            "dAcEbc_c::StateID_CarryDamage",
+            "dAcEbc_c::StateID_Damage",
+            "dAcEbc_c::StateID_AirDamage",
+            "dAcEbc_c::StateID_Fire",
+            "dAcEbc_c::StateID_Fail",
+            "dAcEbc_c::StateID_Fall",
+            "dAcEbc_c::StateID_BombAction",
+            "dAcEbc_c::StateID_StabGuard",
+            "dAcEbc_c::StateID_Stun",
+            "dAcEbc_c::StateID_BeeDamage",
+            "dAcEbc_c::StateID_WhipCapture",
+            "dAcEbc_c::StateID_WakidasiWait",
+            "dAcEbc_c::StateID_SlopeSlide",
+            "dAcEbc_c::StateID_Drop",
+            "dAcEbc_c::StateID_MastDrop",
+            "dAcEbc_c::StateID_AStandby",
+            "dAcEbc_c::StateID_AFindCall",
+            "dAcEbc_c::StateID_APath",
+            "dAcEbc_c::StateID_AAttack",
+            "dAcEbc_c::StateID_ADamage"
+        ]
+    },
+    "d_a_obj_firewallNP": {
+        "name": "dAcOFireWall_c::m_allocator",
+        "states": [
+            "dAcOFireWall_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_salbage_robot_fly_baseNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_e_hydraNP": {
+        "name": "dAcEhydra_c::m_allocator",
+        "states": [
+            "dAcEhydra_c::StateID_Wait",
+            "dAcEhydra_c::StateID_Walk",
+            "dAcEhydra_c::StateID_Run",
+            "dAcEhydra_c::StateID_Ret",
+            "dAcEhydra_c::StateID_Attack",
+            "dAcEhydra_c::StateID_AttackWait",
+            "dAcEhydra_c::StateID_Recover",
+            "dAcEhydra_c::StateID_Stun",
+            "dAcEhydra_c::StateID_Damage",
+            "dAcEhydra_c::StateID_EtcDamage",
+            "dAcEhydra_c::StateID_Dead"
+        ]
+    },
+    "d_a_obj_underground_switchNP": {
+        "name": "dAcOUgSwitch_c::m_allocator",
+        "states": [
+            "dAcOUgSwitch_c::StateID_Off",
+            "dAcOUgSwitch_c::StateID_Active",
+            "dAcOUgSwitch_c::StateID_On"
+        ]
+    },
+    "d_a_npc_kobun_b_nightNP": {
+        "name": "dAcNpcKobunBNight_c::m_allocator",
+        "states": []
+    },
+    "d_a_e_battleshipfishNP": {
+        "name": "dAcEbfish_c::m_allocator",
+        "states": [
+            "dAcEbfish_c::StateID_Wait",
+            "dAcEbfish_c::StateID_Move",
+            "dAcEbfish_c::StateID_Find",
+            "dAcEbfish_c::StateID_Attack",
+            "dAcEbfish_c::StateID_Piyo",
+            "dAcEbfish_c::StateID_NoDamage",
+            "dAcEbfish_c::StateID_Dead",
+            "dAcEbfish_c::StateID_BirthWait"
+        ]
+    },
+    "d_a_e_bceNP": {
+        "name": "dAcEbce_c::m_allocator",
+        "states": [
+            "dAcEbce_c::StateID_Standby",
+            "dAcEbce_c::StateID_Home",
+            "dAcEbce_c::StateID_Normal",
+            "dAcEbce_c::StateID_Path",
+            "dAcEbce_c::StateID_FightStart",
+            "dAcEbce_c::StateID_Fight",
+            "dAcEbce_c::StateID_Attack",
+            "dAcEbce_c::StateID_StepAttack",
+            "dAcEbce_c::StateID_Damage",
+            "dAcEbce_c::StateID_AirDamage",
+            "dAcEbce_c::StateID_Fail",
+            "dAcEbce_c::StateID_BombAction",
+            "dAcEbce_c::StateID_StabGuard",
+            "dAcEbce_c::StateID_Stun",
+            "dAcEbce_c::StateID_Drop"
+        ]
+    },
+    "d_a_obj_lighthouse_harpNP": {
+        "name": "dAcOlighthouseHarp_c::m_allocator",
+        "states": [
+            "dAcOlighthouseHarp_c::StateID_Wait",
+            "dAcOlighthouseHarp_c::StateID_Move",
+            "dAcOlighthouseHarp_c::StateID_Appear",
+            "dAcOlighthouseHarp_c::StateID_Roll",
+            "dAcOlighthouseHarp_c::StateID_HarpFinish"
+        ]
+    },
+    "d_t_auto_messageNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_holeNP": {
+        "name": "dAcOhole_c::m_allocator",
+        "states": [
+            "dAcOhole_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_toD3_stone_figureNP": {
+        "name": "dAcOtoD3StoneFigure_c::m_allocator",
+        "states": [
+            "dAcOtoD3StoneFigure_c::StateID_OneEye",
+            "dAcOtoD3StoneFigure_c::StateID_Eyes"
+        ]
+    },
+    "d_a_obj_terry_gimmickNP": {
+        "name": "dAcOTerryGimmick_c::m_allocator",
+        "states": [
+            "dAcOTerryGimmick_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_sw_harpNP": {
+        "name": "dAcOSwHarp_c::m_allocator",
+        "states": [
+            "dAcOSwHarp_c::StateID_Wait",
+            "dAcOSwHarp_c::StateID_OnSwitch",
+            "dAcOSwHarp_c::StateID_EndDemo"
+        ]
+    },
+    "d_a_bird_targetNP": {
+        "name": "dBird_Target_c::m_allocator",
+        "states": [
+            "dBird_Target_c::StateID_Wait",
+            "dBird_Target_c::StateID_Move",
+            "dBird_Target_c::StateID_LevelUpDemo",
+            "dBird_Target_c::StateID_NpcWait",
+            "dBird_Target_c::StateID_NpcGlide"
+        ]
+    },
+    "d_a_npc_volcano_f2_salboNP": {
+        "name": "dAcNpcSlb2_c::m_allocator",
+        "states": [
+            "dAcNpcSlb2_c::StateID_Wait",
+            "dAcNpcSlb2_c::StateID_Demo",
+            "dAcNpcSlb2_c::StateID_Follow"
+        ]
+    },
+    "d_a_e_bcal_arrowNP": {
+        "name": "dAcEbcalarrow_c::m_allocator",
+        "states": [
+            "dAcEbcalarrow_c::StateID_Move"
+        ]
+    },
+    "d_a_obj_water_shieldNP": {
+        "name": "dAcOwaterShield_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_F302_lightNP": {
+        "name": "dAcOF302Light_c::m_allocator",
+        "states": [
+            "dAcOF302Light_c::StateID_Wait",
+            "dAcOF302Light_c::StateID_SwitchOn"
+        ]
+    },
+    "d_a_obj_swrd_prjNP": {
+        "name": "dAcOSwrdPrj::m_allocator",
+        "states": [
+            "dAcOSwrdPrj::StateID_WaitHarp",
+            "dAcOSwrdPrj::StateID_WaitAppear",
+            "dAcOSwrdPrj::StateID_Wait",
+            "dAcOSwrdPrj::StateID_WaitCross",
+            "dAcOSwrdPrj::StateID_ChkTri",
+            "dAcOSwrdPrj::StateID_End",
+            "dAcOSwrdPrj::StateID_SWWait",
+            "dAcOSwrdPrj::StateID_SWWaitCross",
+            "dAcOSwrdPrj::StateID_SWChkTri",
+            "dAcOSwrdPrj::StateID_SWEnd"
+        ]
+    },
+    "d_a_npc_dive_game_judgeNP": {
+        "name": "dAcNpcDiveGameJudge_c::m_allocator",
+        "states": [
+            "dAcNpcDiveGameJudge_c::StateID_Sad",
+            "dAcNpcDiveGameJudge_c::StateID_PreWatch",
+            "dAcNpcDiveGameJudge_c::StateID_Watch",
+            "dAcNpcDiveGameJudge_c::StateID_Escape",
+            "dAcNpcDiveGameJudge_c::StateID_EscapeEnd"
+        ]
+    },
+    "d_t_rock_boatNP": {
+        "name": "?",
+        "states": [
+            "dTgRockBoat_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_rotation_lightNP": {
+        "name": "dAcOrotationLight_c::m_allocator",
+        "states": []
+    },
+    "d_t_roll_attack_logNP": {
+        "name": "?",
+        "states": [
+            "dTgRollAttackLog_c::StateID_Wait",
+            "dTgRollAttackLog_c::StateID_RollAttack",
+            "dTgRollAttackLog_c::StateID_Request",
+            "dTgRollAttackLog_c::StateID_FinishAttack",
+            "dTgRollAttackLog_c::StateID_None"
+        ]
+    },
+    "d_a_obj_door_bossD101NP": {
+        "name": "dAcODoorBossD101_c::m_allocator",
+        "states": [
+            "dAcODoorBossD101_c::StateID_Wait",
+            "dAcODoorBossD101_c::StateID_End"
+        ]
+    },
+    "d_a_obj_evil_fieldNP": {
+        "name": "dAcOevilField_c::m_allocator",
+        "states": [
+            "dAcOevilField_c::StateID_Wait",
+            "dAcOevilField_c::StateID_UpDown",
+            "dAcOevilField_c::StateID_Stop"
+        ]
+    },
+    "d_t_tumble_weedNP": {
+        "name": "?",
+        "states": [
+            "dTgTumbleWeed_c::StateID_AreaOut",
+            "dTgTumbleWeed_c::StateID_AreaIn",
+            "dTgTumbleWeed_c::StateID_Wind"
+        ]
+    },
+    "d_a_obj_fence_bokoNP": {
+        "name": "dAcOfenceBoko_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_windmill_desertNP": {
+        "name": "dAcOwindmillDesert_c::m_allocator",
+        "states": [
+            "dAcOwindmillDesert_c::StateID_Wait",
+            "dAcOwindmillDesert_c::StateID_Acceleration",
+            "dAcOwindmillDesert_c::StateID_RollMaxSpeed",
+            "dAcOwindmillDesert_c::StateID_Deceleration"
+        ]
+    },
+    "d_a_obj_stage_coverNP": {
+        "name": "dAcOstageCover_c::m_allocator",
+        "states": [
+            "dAcOstageCover_c::StateID_Wait"
+        ]
+    },
+    "d_t_at0NP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_bridge_stretchNP": {
+        "name": "dAcObridgeStretch_c::m_allocator",
+        "states": [
+            "dAcObridgeStretch_c::StateID_Wait",
+            "dAcObridgeStretch_c::StateID_Move",
+            "dAcObridgeStretch_c::StateID_Shake",
+            "dAcObridgeStretch_c::StateID_Stretch"
+        ]
+    },
+    "d_a_obj_dormitory_gateNP": {
+        "name": "dAcODormitoryGate_c::m_allocator",
+        "states": [
+            "dAcODormitoryGate_c::StateID_Wait",
+            "dAcODormitoryGate_c::StateID_End"
+        ]
+    },
+    "d_a_little_birdNP": {
+        "name": "dAcLittleBird_c::m_allocator",
+        "states": [
+            "dAcLittleBird_c::StateID_Init",
+            "dAcLittleBird_c::StateID_Wait",
+            "dAcLittleBird_c::StateID_Scratch",
+            "dAcLittleBird_c::StateID_Hop",
+            "dAcLittleBird_c::StateID_Eat",
+            "dAcLittleBird_c::StateID_Sing",
+            "dAcLittleBird_c::StateID_PreEscape",
+            "dAcLittleBird_c::StateID_PreEscape2",
+            "dAcLittleBird_c::StateID_FlyReady",
+            "dAcLittleBird_c::StateID_FlyEscape",
+            "dAcLittleBird_c::StateID_FlyKakku",
+            "dAcLittleBird_c::StateID_FlyReturn",
+            "dAcLittleBird_c::StateID_LandOn",
+            "dAcLittleBird_c::StateID_LandReady"
+        ]
+    },
+    "d_t_sparks2NP": {
+        "name": "dSparks2Tag_c::m_allocator",
+        "states": [
+            "dSparks2Tag_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_fire_pillarNP": {
+        "name": "?",
+        "states": [
+            "dAcOfirePillar_c::StateID_Wait",
+            "dAcOfirePillar_c::StateID_WaterWait",
+            "dAcOfirePillar_c::StateID_Vacuum",
+            "dAcOfirePillar_c::StateID_Small"
+        ]
+    },
+    "d_a_obj_bambooNP": {
+        "name": "dAcObamboo_c::m_allocator",
+        "states": [
+            "dAcObamboo_c::StateID_Wait",
+            "dAcObamboo_c::StateID_Fall",
+            "dAcObamboo_c::StateID_CutMark"
+        ]
+    },
+    "d_a_obj_pole_stonyNP": {
+        "name": "dAcOPoleStony_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_bb_objectsNP": {
+        "name": "dAcObbObjects_c::m_allocator",
+        "states": [
+            "dAcObbObjects_c::StateID_Wait"
+        ]
+    },
+    "d_t_skyEnemyNP": {
+        "name": "?",
+        "states": [
+            "dTgSkyEnemyTag::StateID_Wait",
+            "dTgSkyEnemyTag::StateID_BirthRupeeGue",
+            "dTgSkyEnemyTag::StateID_BirthSkytail",
+            "dTgSkyEnemyTag::StateID_BirthTornado",
+            "dTgSkyEnemyTag::StateID_BirthBirdNpc",
+            "dTgSkyEnemyTag::StateID_BirthFrontBirdNpc",
+            "dTgSkyEnemyTag::StateID_BirthNusiNpc",
+            "dTgSkyEnemyTag::StateID_BirthHighSpeed"
+        ]
+    },
+    "d_a_obj_shrine_beforeNP": {
+        "name": "dAcOshrineBefore_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_seat_swordNP": {
+        "name": "dAcOSeatSword_c::m_allocator",
+        "states": [
+            "dAcOSeatSword_c::StateID_Wait",
+            "dAcOSeatSword_c::StateID_Get"
+        ]
+    },
+    "d_a_e_wsNP": {
+        "name": "dAcEws_c::m_allocator",
+        "states": [
+            "dAcEws_c::StateID_Wait",
+            "dAcEws_c::StateID_Move",
+            "dAcEws_c::StateID_PyMove",
+            "dAcEws_c::StateID_JumpReady",
+            "dAcEws_c::StateID_JumpReady2",
+            "dAcEws_c::StateID_Jump",
+            "dAcEws_c::StateID_Hug",
+            "dAcEws_c::StateID_ReturnJump",
+            "dAcEws_c::StateID_Return",
+            "dAcEws_c::StateID_Escape",
+            "dAcEws_c::StateID_Dead"
+        ]
+    },
+    "d_a_obj_flower_ancientNP": {
+        "name": "dAcOFlowerAncient_c::m_allocator",
+        "states": [
+            "dAcOFlowerAncient_c::StateID_Wait",
+            "dAcOFlowerAncient_c::StateID_TimeSlip",
+            "dAcOFlowerAncient_c::StateID_Break",
+            "dAcOFlowerAncient_c::StateID_WhipCarry"
+        ]
+    },
+    "d_a_obj_wind02NP": {
+        "name": "dAcOwind02_c::m_allocator",
+        "states": [
+            "dAcOwind02_c::StateID_Wait",
+            "dAcOwind02_c::StateID_Loop",
+            "dAcOwind02_c::StateID_Stop",
+            "dAcOwind02_c::StateID_Dead"
+        ]
+    },
+    "d_a_obj_into_holeNP": {
+        "name": "dAcArrow_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_utajima_stopperNP": {
+        "name": "dAcOutajimaStopper_c::m_allocator",
+        "states": [
+            "dAcOutajimaStopper_c::StateID_Down",
+            "dAcOutajimaStopper_c::StateID_Rise",
+            "dAcOutajimaStopper_c::StateID_Up",
+            "dAcOutajimaStopper_c::StateID_Fall",
+            "dAcOutajimaStopper_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_spider_lineNP": {
+        "name": "dObjSpiderLine_c::m_allocator",
+        "states": [
+            "dObjSpiderLine_c::StateID_Wait"
+        ]
+    },
+    "d_a_e_remlyNP": {
+        "name": "dAcEremly_c::m_allocator",
+        "states": [
+            "dAcEremly_c::StateID_Wait",
+            "dAcEremly_c::StateID_Walk",
+            "dAcEremly_c::StateID_Run",
+            "dAcEremly_c::StateID_Escape",
+            "dAcEremly_c::StateID_EscapeDash",
+            "dAcEremly_c::StateID_Wind",
+            "dAcEremly_c::StateID_Hold",
+            "dAcEremly_c::StateID_Jump",
+            "dAcEremly_c::StateID_Fly",
+            "dAcEremly_c::StateID_Damage",
+            "dAcEremly_c::StateID_Sleep",
+            "dAcEremly_c::StateID_Scared",
+            "dAcEremly_c::StateID_Stun",
+            "dAcEremly_c::StateID_Water",
+            "dAcEremly_c::StateID_Hear",
+            "dAcEremly_c::StateID_NightSleepDemo",
+            "dAcEremly_c::StateID_NightFoo",
+            "dAcEremly_c::StateID_NightReflectionFoo",
+            "dAcEremly_c::StateID_NightWait",
+            "dAcEremly_c::StateID_NightWalk",
+            "dAcEremly_c::StateID_NightRun",
+            "dAcEremly_c::StateID_NightRet",
+            "dAcEremly_c::StateID_NightJumpAttack",
+            "dAcEremly_c::StateID_BirthWait"
+        ]
+    },
+    "d_a_little_bird_mgrNP": {
+        "name": "?",
+        "states": [
+            "dAcLittleBirdMgr_c::StateID_Set",
+            "dAcLittleBirdMgr_c::StateID_Reset",
+            "dAcLittleBirdMgr_c::StateID_Safety",
+            "dAcLittleBirdMgr_c::StateID_Warning",
+            "dAcLittleBirdMgr_c::StateID_Danger",
+            "dAcLittleBirdMgr_c::StateID_Kill"
+        ]
+    },
+    "d_a_obj_chestNP": {
+        "name": "dAcOChest_c::m_allocator",
+        "states": [
+            "dAcOChest_c::StateID_Wait",
+            "dAcOChest_c::StateID_OpenEvent",
+            "dAcOChest_c::StateID_FailEvent",
+            "dAcOChest_c::StateID_OrderOpenEventAfter"
+        ]
+    },
+    "d_a_obj_boxcage_F300NP": {
+        "name": "dAcOBoxCageF300_c::m_allocator",
+        "states": [
+            "dAcOBoxCageF300_c::StateID_Wait",
+            "dAcOBoxCageF300_c::StateID_Move",
+            "dAcOBoxCageF300_c::StateID_End"
+        ]
+    },
+    "d_a_npc_salbage_robot_flyNP": {
+        "name": "dAcNpcSalbageRobotFly_c::m_allocator",
+        "states": [
+            "dAcNpcSalbageRobotFly_c::StateID_ChasePlayerBird",
+            "dAcNpcSalbageRobotFly_c::StateID_FlyWithPlayerBird",
+            "dAcNpcSalbageRobotFly_c::StateID_Leave",
+            "dAcNpcSalbageRobotFly_c::StateID_EscapeToUpward"
+        ]
+    },
+    "d_a_obj_door_bossNP": {
+        "name": "dAcOdoorBoss_c::m_allocator",
+        "states": [
+            "dAcOdoorBoss_c::StateID_UnlockWait",
+            "dAcOdoorBoss_c::StateID_CorrectKey",
+            "dAcOdoorBoss_c::StateID_KeyInsertInitialInterval",
+            "dAcOdoorBoss_c::StateID_PutKeyIntoLock",
+            "dAcOdoorBoss_c::StateID_KeyInsert",
+            "dAcOdoorBoss_c::StateID_KeyInsertAfterglow",
+            "dAcOdoorBoss_c::StateID_Wait",
+            "dAcOdoorBoss_c::StateID_Shine",
+            "dAcOdoorBoss_c::StateID_Unlock",
+            "dAcOdoorBoss_c::StateID_OpenWait",
+            "dAcOdoorBoss_c::StateID_Open",
+            "dAcOdoorBoss_c::StateID_WaitClose",
+            "dAcOdoorBoss_c::StateID_Close",
+            "dAcOdoorBoss_c::StateID_Idle",
+            "dAcOdoorBoss_c::StateID_BeforeTimeShift"
+        ]
+    },
+    "d_a_obj_windNP": {
+        "name": "dAcOwind_c::m_allocator",
+        "states": [
+            "dAcOwind_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_blast_rockNP": {
+        "name": "dAcOBlastRock_c::m_allocator",
+        "states": [
+            "dAcOBlastRock_c::StateID_Wait",
+            "dAcOBlastRock_c::StateID_Piece",
+            "dAcOBlastRock_c::StateID_Broken"
+        ]
+    },
+    "d_t_shutter_fence_forbiddanceNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_npc_sorajima_motherNP": {
+        "name": "dAcNpcSorajimaMother_c::m_allocator",
+        "states": [
+            "dAcNpcSorajimaMother_c::StateID_Wait",
+            "dAcNpcSorajimaMother_c::StateID_Turn"
+        ]
+    },
+    "d_a_obj_drumNP": {
+        "name": "dAcOdrum_c::m_allocator",
+        "states": [
+            "dAcOdrum_c::StateID_Wait",
+            "dAcOdrum_c::StateID_Move",
+            "dAcOdrum_c::StateID_MoveEnd",
+            "dAcOdrum_c::StateID_Fall",
+            "dAcOdrum_c::StateID_Init",
+            "dAcOdrum_c::StateID_BeltMove",
+            "dAcOdrum_c::StateID_TeniN"
+        ]
+    },
+    "d_a_obj_harp_hintNP": {
+        "name": "dAcOHarpHint_c::m_allocator",
+        "states": [
+            "dAcOHarpHint_c::StateID_Wait",
+            "dAcOHarpHint_c::StateID_Rotate",
+            "dAcOHarpHint_c::StateID_Shift",
+            "dAcOHarpHint_c::StateID_TalkStart",
+            "dAcOHarpHint_c::StateID_Talk",
+            "dAcOHarpHint_c::StateID_Beetle",
+            "dAcOHarpHint_c::StateID_Bomb",
+            "dAcOHarpHint_c::StateID_Whip",
+            "dAcOHarpHint_c::StateID_WhipRot",
+            "dAcOHarpHint_c::StateID_Water",
+            "dAcOHarpHint_c::StateID_Wind",
+            "dAcOHarpHint_c::StateID_HorizonHit",
+            "dAcOHarpHint_c::StateID_VerticalHit",
+            "dAcOHarpHint_c::StateID_Appear",
+            "dAcOHarpHint_c::StateID_AppearShiekah",
+            "dAcOHarpHint_c::StateID_ItemGen"
+        ]
+    },
+    "d_a_pumpkinNP": {
+        "name": "dAcPumpkin_c::m_allocator",
+        "states": [
+            "dAcPumpkin_c::StateID_Stick",
+            "dAcPumpkin_c::StateID_Wait",
+            "dAcPumpkin_c::StateID_CarryGrab",
+            "dAcPumpkin_c::StateID_StickSword",
+            "dAcPumpkin_c::StateID_Throw",
+            "dAcPumpkin_c::StateID_Roll",
+            "dAcPumpkin_c::StateID_CarryBeetle",
+            "dAcPumpkin_c::StateID_CarryWhip"
+        ]
+    },
+    "d_a_obj_desertNP": {
+        "name": "dAcODesert::m_allocator",
+        "states": []
+    },
+    "d_a_e_or_cannonNP": {
+        "name": "dAcEorCannon_c::m_allocator",
+        "states": [
+            "dAcEorCannon_c::StateID_Wait",
+            "dAcEorCannon_c::StateID_Attack",
+            "dAcEorCannon_c::StateID_Death"
+        ]
+    },
+    "d_a_obj_step_gumarmNP": {
+        "name": "dAcOStepGumarm_c::m_allocator",
+        "states": [
+            "dAcOStepGumarm_c::StateID_Wait"
+        ]
+    },
+    "d_a_nusi_npcNP": {
+        "name": "dAcNusiNpc_c::m_allocator",
+        "states": [
+            "dAcNusiNpc_c::StateID_Hide",
+            "dAcNusiNpc_c::StateID_Appear",
+            "dAcNusiNpc_c::StateID_Chase",
+            "dAcNusiNpc_c::StateID_BackHome"
+        ]
+    },
+    "d_a_obj_electric_lightNP": {
+        "name": "dAcOelectricLight_c::m_allocator",
+        "states": [
+            "dAcOelectricLight_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_toge_trapNP": {
+        "name": "dAcOtogeTrap_c::m_allocator",
+        "states": [
+            "dAcOtogeTrap_c::StateID_Wait",
+            "dAcOtogeTrap_c::StateID_Move"
+        ]
+    },
+    "d_a_obj_mushroomNP": {
+        "name": "dAcOMushRoom_c::m_allocator",
+        "states": [
+            "dAcOMushRoom_c::StateID_Wait",
+            "dAcOMushRoom_c::StateID_Init"
+        ]
+    },
+    "d_t_player_restartNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_b_girahimu3_secondNP": {
+        "name": "dAcGirahimu3Second_c::m_allocator",
+        "states": [
+            "dAcGirahimu3Second_c::StateID_Demo",
+            "dAcGirahimu3Second_c::StateID_Demo2",
+            "dAcGirahimu3Second_c::StateID_Wait",
+            "dAcGirahimu3Second_c::StateID_Walk",
+            "dAcGirahimu3Second_c::StateID_Attack",
+            "dAcGirahimu3Second_c::StateID_CounterAttack",
+            "dAcGirahimu3Second_c::StateID_Disturb",
+            "dAcGirahimu3Second_c::StateID_SwordBeamDamage",
+            "dAcGirahimu3Second_c::StateID_GuardSword",
+            "dAcGirahimu3Second_c::StateID_Provoke",
+            "dAcGirahimu3Second_c::StateID_KnifeReady",
+            "dAcGirahimu3Second_c::StateID_KnifeAttack",
+            "dAcGirahimu3Second_c::StateID_SwordBeamReady",
+            "dAcGirahimu3Second_c::StateID_SwordBeamAttack",
+            "dAcGirahimu3Second_c::StateID_SwordBeamRally",
+            "dAcGirahimu3Second_c::StateID_GuardJust",
+            "dAcGirahimu3Second_c::StateID_Damage",
+            "dAcGirahimu3Second_c::StateID_SummonSword",
+            "dAcGirahimu3Second_c::StateID_EscapeWarp"
+        ]
+    },
+    "d_a_obj_move_lift_volNP": {
+        "name": "dAcOmoveLiftVol_c::m_allocator",
+        "states": [
+            "dAcOmoveLiftVol_c::StateID_Wait",
+            "dAcOmoveLiftVol_c::StateID_Ready",
+            "dAcOmoveLiftVol_c::StateID_Move",
+            "dAcOmoveLiftVol_c::StateID_Arrive",
+            "dAcOmoveLiftVol_c::StateID_SwitchWait",
+            "dAcOmoveLiftVol_c::StateID_RopeMove"
+        ]
+    },
+    "d_a_npc_fire_dragonNP": {
+        "name": "dAcNpcFdr_c::m_allocator",
+        "states": [
+            "dAcNpcFdr_c::StateID_Wait"
+        ]
+    },
+    "d_a_insect_scarabNP": {
+        "name": "dAcInsectScarab_c::m_allocator",
+        "states": [
+            "dAcInsectScarab_c::StateID_Wait",
+            "dAcInsectScarab_c::StateID_Walk",
+            "dAcInsectScarab_c::StateID_Escape",
+            "dAcInsectScarab_c::StateID_Fly",
+            "dAcInsectScarab_c::StateID_Finalize",
+            "dAcInsectScarab_c::StateID_Excrement",
+            "dAcInsectScarab_c::StateID_Dead"
+        ]
+    },
+    "d_a_npc_mole_mgNP": {
+        "name": "dAcNpcMoleMg_c::m_allocator",
+        "states": [
+            "dAcNpcMoleMg_c::StateID_Result",
+            "dAcNpcMoleMg_c::StateID_Hide"
+        ]
+    },
+    "d_a_obj_ringNP": {
+        "name": "dAcOring_c::m_allocator",
+        "states": [
+            "dAcOring_c::StateID_Move"
+        ]
+    },
+    "d_a_insect_butterflyNP": {
+        "name": "dAcInsectButterfly_c::m_allocator",
+        "states": [
+            "dAcInsectButterfly_c::StateID_Move",
+            "dAcInsectButterfly_c::StateID_Escape",
+            "dAcInsectButterfly_c::StateID_Fly",
+            "dAcInsectButterfly_c::StateID_Finalize",
+            "dAcInsectButterfly_c::StateID_Dead"
+        ]
+    },
+    "d_a_b_girahimu2NP": {
+        "name": "dAcGirahimu2_c::m_allocator",
+        "states": [
+            "dAcGirahimu2_c::StateID_CreateSpinKnife",
+            "dAcGirahimu2_c::StateID_WaitKnifeAttack",
+            "dAcGirahimu2_c::StateID_KnifeAttack",
+            "dAcGirahimu2_c::StateID_KnifePreAttack",
+            "dAcGirahimu2_c::StateID_CatchDamage",
+            "dAcGirahimu2_c::StateID_Walk",
+            "dAcGirahimu2_c::StateID_Counter",
+            "dAcGirahimu2_c::StateID_G_SwordDemo",
+            "dAcGirahimu2_c::StateID_G_SwordWait",
+            "dAcGirahimu2_c::StateID_G_SwordPiyori",
+            "dAcGirahimu2_c::StateID_Death",
+            "dAcGirahimu2_c::StateID_DeathMiniGame",
+            "dAcGirahimu2_c::StateID_UpWarp",
+            "dAcGirahimu2_c::StateID_UpAttack",
+            "dAcGirahimu2_c::StateID_CreateKnife",
+            "dAcGirahimu2_c::StateID_ComeOn",
+            "dAcGirahimu2_c::StateID_ComeOnGuard",
+            "dAcGirahimu2_c::StateID_GuardJustCounter",
+            "dAcGirahimu2_c::StateID_G_SwordDamage",
+            "dAcGirahimu2_c::StateID_TwoSwordAttack",
+            "dAcGirahimu2_c::StateID_HitAction",
+            "dAcGirahimu2_c::StateID_Catch"
+        ]
+    },
+    "d_a_obj_pinwheelNP": {
+        "name": "dAcOpinwheel_c::m_allocator",
+        "states": [
+            "dAcOpinwheel_c::StateID_Wait",
+            "dAcOpinwheel_c::StateID_Acceleration",
+            "dAcOpinwheel_c::StateID_RollMaxSpeed",
+            "dAcOpinwheel_c::StateID_Deceleration"
+        ]
+    },
+    "d_a_npc_chefNP": {
+        "name": "dAcNpcChef_c::m_allocator",
+        "states": []
+    },
+    "d_t_col_bomb_shieldNP": {
+        "name": "dTgColBombShield::m_allocator",
+        "states": [
+            "dTgColBombShield::StateID_Wait"
+        ]
+    },
+    "d_a_obj_waterfall_D101NP": {
+        "name": "dAcOWaterFallD101_c::m_allocator",
+        "states": [
+            "dAcOWaterFallD101_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_thunder_dragonNP": {
+        "name": "dAcNpcTdr_c::m_allocator",
+        "states": [
+            "dAcNpcTdr_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_desert_debrisNP": {
+        "name": "dAcOdesertDebris_c::m_allocator",
+        "states": []
+    },
+    "d_a_npc_girahimNP": {
+        "name": "dAcNpcGhm_c::m_allocator",
+        "states": []
+    },
+    "d_t_shutter_fence_permissionNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_npc_douguya_mother_lodNP": {
+        "name": "dAcNpcDouguyaMotherLOD_c::m_allocator",
+        "states": []
+    },
+    "d_lyt_file_selectNP": {
+        "name": "?",
+        "states": [
+            "dLytFileSelectMgr_c::StateID_Init",
+            "dLytFileSelectMgr_c::StateID_In",
+            "dLytFileSelectMgr_c::StateID_FileSelect",
+            "dLytFileSelectMgr_c::StateID_Out",
+            "dLytFileSelectMgr_c::StateID_ContentIn",
+            "dLytFileSelectMgr_c::StateID_ContentSelect",
+            "dLytFileSelectMgr_c::StateID_ContentOut",
+            "dLytFileSelectMgr_c::StateID_FileCopy",
+            "dLytFileSelectMgr_c::StateID_FileDelete",
+            "dLytFileSelectMain_c::StateID_Init",
+            "dLytFileSelectMain_c::StateID_FileIn",
+            "dLytFileSelectMain_c::StateID_FileSelect",
+            "dLytFileSelectMain_c::StateID_FileOut",
+            "dLytFileSelectMain_c::StateID_ContentIn",
+            "dLytFileSelectMain_c::StateID_ContentSelect",
+            "dLytFileSelectMain_c::StateID_ContentOut",
+            "dLytFileSelectMain_c::StateID_FileCopy",
+            "dLytFileSelectMain_c::StateID_FileDelete"
+        ]
+    },
+    "d_a_npc_kyui4NP": {
+        "name": "dAcNpcKyui4_c::m_allocator",
+        "states": [
+            "dAcNpcKyui4_c::StateID_Wait",
+            "dAcNpcKyui4_c::StateID_Hide",
+            "dAcNpcKyui4_c::StateID_Seek",
+            "dAcNpcKyui4_c::StateID_Flee",
+            "dAcNpcKyui4_c::StateID_Test"
+        ]
+    },
+    "d_a_obj_musasabiNP": {
+        "name": "dAcOmusasabi_c::m_allocator",
+        "states": [
+            "dAcOmusasabi_c::StateID_Wait",
+            "dAcOmusasabi_c::StateID_Approach",
+            "dAcOmusasabi_c::StateID_Near",
+            "dAcOmusasabi_c::StateID_Far",
+            "dAcOmusasabi_c::StateID_Formation",
+            "dAcOmusasabi_c::StateID_Away",
+            "dAcOmusasabi_c::StateID_Disappear",
+            "dAcOmusasabi_c::StateID_FormNotPlayer"
+        ]
+    },
+    "d_a_obj_door_dungeonD200NP": {
+        "name": "dAcObjDoorDungeonD200_c::m_allocator",
+        "states": []
+    },
+    "d_t_genki_dws_tgtNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_npc_salesman_sNP": {
+        "name": "dAcNpcSalesmanS_c::m_allocator",
+        "states": [
+            "dAcNpcSalesmanS_c::StateID_Test",
+            "dAcNpcSalesmanS_c::StateID_Wait",
+            "dAcNpcSalesmanS_c::StateID_InitializeState",
+            "dAcNpcSalesmanS_c::StateID_FaceForward",
+            "dAcNpcSalesmanS_c::StateID_Glance",
+            "dAcNpcSalesmanS_c::StateID_ChangeDirectionToPlayer",
+            "dAcNpcSalesmanS_c::StateID_ChasePlayer",
+            "dAcNpcSalesmanS_c::StateID_StepOutPlayer",
+            "dAcNpcSalesmanS_c::StateID_SalesShopItemBefore",
+            "dAcNpcSalesmanS_c::StateID_SalesShopItem",
+            "dAcNpcSalesmanS_c::StateID_SalesShopItemAfter",
+            "dAcNpcSalesmanS_c::StateID_AwakeToPlayer",
+            "dAcNpcSalesmanS_c::StateID_HekoHekoToPlayer",
+            "dAcNpcSalesmanS_c::StateID_BeforeGakkari",
+            "dAcNpcSalesmanS_c::StateID_Gakkari",
+            "dAcNpcSalesmanS_c::StateID_GakkariWalk",
+            "dAcNpcSalesmanS_c::StateID_GakkariChangeDirection",
+            "dAcNpcSalesmanS_c::StateID_WaitMovementForChasing",
+            "dAcNpcSalesmanS_c::StateID_ChasePlayerDirectly",
+            "dAcNpcSalesmanS_c::StateID_ChaseDestDirectly",
+            "dAcNpcSalesmanS_c::StateID_ChasePlayerByAStar",
+            "dAcNpcSalesmanS_c::StateID_WaitMovementForSteppingOut",
+            "dAcNpcSalesmanS_c::StateID_StepOutMovement",
+            "dAcNpcSalesmanS_c::StateID_StepOutMovementInNotMovableArea",
+            "dAcNpcSalesmanS_c::StateID_StepOutMovementChangingDirection"
+        ]
+    },
+    "d_a_e_captainNP": {
+        "name": "dAcEcaptain_c::m_allocator",
+        "states": [
+            "dAcEcaptain_c::StateID_Opening",
+            "dAcEcaptain_c::StateID_Wait",
+            "dAcEcaptain_c::StateID_BalanceWait",
+            "dAcEcaptain_c::StateID_Walk",
+            "dAcEcaptain_c::StateID_Run",
+            "dAcEcaptain_c::StateID_AttackSW",
+            "dAcEcaptain_c::StateID_AttackF",
+            "dAcEcaptain_c::StateID_AttackSP",
+            "dAcEcaptain_c::StateID_Guard",
+            "dAcEcaptain_c::StateID_GuardJust",
+            "dAcEcaptain_c::StateID_Damage",
+            "dAcEcaptain_c::StateID_Dead",
+            "dAcEcaptain_c::StateID_Demo1",
+            "dAcEcaptain_c::StateID_Demo2",
+            "dAcEcaptain_c::StateID_OpeningType2",
+            "dAcEcaptain_c::StateID_DeadType2",
+            "dAcEcaptain_c::StateID_Demo1Type2",
+            "dAcEcaptain_c::StateID_Demo2Type2"
+        ]
+    },
+    "d_a_obj_flagNP": {
+        "name": "dAcOFlag_c::m_allocator",
+        "states": [
+            "dAcOFlag_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_roll_rockNP": {
+        "name": "dAcOrollRock_c::m_allocator",
+        "states": [
+            "dAcOrollRock_c::StateID_Wait",
+            "dAcOrollRock_c::StateID_Slope",
+            "dAcOrollRock_c::StateID_SlopeWait",
+            "dAcOrollRock_c::StateID_SwitchStop",
+            "dAcOrollRock_c::StateID_PathMove",
+            "dAcOrollRock_c::StateID_PathJump",
+            "dAcOrollRock_c::StateID_PathJumpArrive",
+            "dAcOrollRock_c::StateID_GrabCarry",
+            "dAcOrollRock_c::StateID_StopSink",
+            "dAcOrollRock_c::StateID_BossDemoWait",
+            "dAcOrollRock_c::StateID_BossDemoPathMove",
+            "dAcOrollRock_c::StateID_BossDemoStop",
+            "dAcOrollRock_c::StateID_BossDemoPreWait",
+            "dAcOrollRock_c::StateID_BossDemoPrePathMove"
+        ]
+    },
+    "d_a_npc_insect_capture_game_kobunNP": {
+        "name": "dAcNpcIcgKobun_c::m_allocator",
+        "states": [
+            "dAcNpcIcgKobun_c::StateID_Wait",
+            "dAcNpcIcgKobun_c::StateID_Manage"
+        ]
+    },
+    "d_a_obj_desert_meterNP": {
+        "name": "dAcODesertMeter_c::m_allocator",
+        "states": [
+            "dAcODesertMeter_c::StateID_Wait",
+            "dAcODesertMeter_c::StateID_OnSwitch"
+        ]
+    },
+    "d_a_obj_goddess_cubeNP": {
+        "name": "dAcOGoddessCube_c::m_allocator",
+        "states": [
+            "dAcOGoddessCube_c::StateID_Wait",
+            "dAcOGoddessCube_c::StateID_Shot"
+        ]
+    },
+    "d_a_e_eyeNP": {
+        "name": "dAcEEye_c::m_allocator",
+        "states": [
+            "dAcEEye_c::StateID_Open",
+            "dAcEEye_c::StateID_Wait",
+            "dAcEEye_c::StateID_Close",
+            "dAcEEye_c::StateID_Chance",
+            "dAcEEye_c::StateID_Dead"
+        ]
+    },
+    "d_a_npc_suisei_normalNP": {
+        "name": "dAcNpcSuiseiNml_c::m_allocator",
+        "states": [
+            "dAcNpcSuiseiNml_c::StateID_Withstand",
+            "dAcNpcSuiseiNml_c::StateID_Pain",
+            "dAcNpcSuiseiNml_c::StateID_Surprised"
+        ]
+    },
+    "d_t_gate_to_groundNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_fence_ironNP": {
+        "name": "dAcOfenceIron_c::m_allocator",
+        "states": [
+            "dAcOfenceIron_c::StateID_Close",
+            "dAcOfenceIron_c::StateID_PreMoveUp",
+            "dAcOfenceIron_c::StateID_MoveUp",
+            "dAcOfenceIron_c::StateID_AfterMoveUp",
+            "dAcOfenceIron_c::StateID_Open",
+            "dAcOfenceIron_c::StateID_PreMoveDown",
+            "dAcOfenceIron_c::StateID_MoveDown",
+            "dAcOfenceIron_c::StateID_AfterMoveDown"
+        ]
+    },
+    "d_t_sw_areaNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_npc_sorajima_femaleNP": {
+        "name": "dAcNpcSorajimaFemale_c::m_allocator",
+        "states": [
+            "dAcNpcSorajimaFemale_c::StateID_Walk",
+            "dAcNpcSorajimaFemale_c::StateID_Worry",
+            "dAcNpcSorajimaFemale_c::StateID_WorryStep"
+        ]
+    },
+    "d_a_t_wood_areaNP": {
+        "name": "?",
+        "states": [
+            "dAcTWoodArea_c::StateID_Init",
+            "dAcTWoodArea_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_salbage_robotNP": {
+        "name": "dAcNpcSlb_c::m_allocator",
+        "states": [
+            "dAcNpcSlb_c::StateID_Hide",
+            "dAcNpcSlb_c::StateID_HideDelivary",
+            "dAcNpcSlb_c::StateID_DelivaryReq",
+            "dAcNpcSlb_c::StateID_Kill",
+            "dAcNpcSlb_c::StateID_Kill2"
+        ]
+    },
+    "d_t_lb_thunderNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_e_rupee_gueNP": {
+        "name": "dAcErupeeGue_c::m_allocator",
+        "states": [
+            "dAcErupeeGue_c::StateID_Wait",
+            "dAcErupeeGue_c::StateID_RunAway",
+            "dAcErupeeGue_c::StateID_Hit",
+            "dAcErupeeGue_c::StateID_GHit",
+            "dAcErupeeGue_c::StateID_Hide",
+            "dAcErupeeGue_c::StateID_Death"
+        ]
+    },
+    "d_a_obj_tower_hand_D101NP": {
+        "name": "dAcOTowerHandD101_c::m_allocator",
+        "states": [
+            "dAcOTowerHandD101_c::StateID_RemainOpen",
+            "dAcOTowerHandD101_c::StateID_Close",
+            "dAcOTowerHandD101_c::StateID_RemainClosed",
+            "dAcOTowerHandD101_c::StateID_Open",
+            "dAcOTowerHandD101_c::StateID_Hold"
+        ]
+    },
+    "d_a_obj_time_boatNP": {
+        "name": "dAcOTimeBoat_c::m_allocator",
+        "states": [
+            "dAcOTimeBoat_c::StateID_Wait",
+            "dAcOTimeBoat_c::StateID_StartTimeSlip",
+            "dAcOTimeBoat_c::StateID_TSWait",
+            "dAcOTimeBoat_c::StateID_TSRide"
+        ]
+    },
+    "d_t_musouNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_t_map_instNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_b_nusiNP": {
+        "name": "dAcNusi_c::m_allocator",
+        "states": [
+            "dAcNusi_c::StateID_Hide",
+            "dAcNusi_c::StateID_Appear",
+            "dAcNusi_c::StateID_Chase",
+            "dAcNusi_c::StateID_Talk",
+            "dAcNusi_c::StateID_Roar",
+            "dAcNusi_c::StateID_Crash",
+            "dAcNusi_c::StateID_SwingTail",
+            "dAcNusi_c::StateID_BackHome",
+            "dAcNusi_c::StateID_AppTentakle",
+            "dAcNusi_c::StateID_AppDemo",
+            "dAcNusi_c::StateID_DeathDemo"
+        ]
+    },
+    "d_a_obj_syako_shutterNP": {
+        "name": "dAcOSyakoShutter_c::m_allocator",
+        "states": [
+            "dAcOSyakoShutter_c::StateID_Wait",
+            "dAcOSyakoShutter_c::StateID_OpenEvent",
+            "dAcOSyakoShutter_c::StateID_End"
+        ]
+    },
+    "d_a_obj_sun_lightNP": {
+        "name": "dAcOsunLight_c::m_allocator",
+        "states": [
+            "dAcOsunLight_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_thunder_dragon_skullNP": {
+        "name": "?",
+        "states": [
+            "dAcNpcTds_c::StateID_Wait",
+            "dAcNpcTds_c::StateID_Demo"
+        ]
+    },
+    "d_a_obj_cityNP": {
+        "name": "dAcOcity_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_down_lavaNP": {
+        "name": "dAcOdownLava_c::m_allocator",
+        "states": [
+            "dAcOdownLava_c::StateID_Wait",
+            "dAcOdownLava_c::StateID_Move",
+            "dAcOdownLava_c::StateID_After"
+        ]
+    },
+    "d_a_obj_fruit_treeNP": {
+        "name": "dAcOFruitTree_c::m_allocator",
+        "states": [
+            "dAcOFruitTree_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_azukariya_nightNP": {
+        "name": "dAcNpcAzukariyaNight_c::m_allocator",
+        "states": [
+            "dAcNpcAzukariyaNight_c::StateID_Wait",
+            "dAcNpcAzukariyaNight_c::StateID_ChangeDirectionToPlayer",
+            "dAcNpcAzukariyaNight_c::StateID_ChangeToBreakHeartPose",
+            "dAcNpcAzukariyaNight_c::StateID_SitDown"
+        ]
+    },
+    "d_a_npc_senpai_bNP": {
+        "name": "33dAcNpcSenpaiB_c::m_allocator",
+        "states": [
+            "dAcNpcSenpaiB_c::StateID_Think",
+            "dAcNpcSenpaiB_c::StateID_ThinkWait",
+            "dAcNpcSenpaiB_c::StateID_ThinkTurn",
+            "dAcNpcSenpaiB_c::StateID_ThinkRandom"
+        ]
+    },
+    "d_a_obj_desert_agoNP": {
+        "name": "dAcODesertAgo_c::m_allocator",
+        "states": [
+            "dAcODesertAgo_c::StateID_Wait"
+        ]
+    },
+    "d_t_fairytagNP": {
+        "name": "dTgFairy_c::m_allocator",
+        "states": []
+    },
+    "d_a_e_hbNP": {
+        "name": "dAcEhb_c::m_allocator",
+        "states": [
+            "dAcEhb_c::StateID_Under",
+            "dAcEhb_c::StateID_Appear",
+            "dAcEhb_c::StateID_Wait",
+            "dAcEhb_c::StateID_Attack",
+            "dAcEhb_c::StateID_Damage",
+            "dAcEhb_c::StateID_Blow",
+            "dAcEhb_c::StateID_Stun",
+            "dAcEhb_c::StateID_DeadMouth",
+            "dAcEhb_c::StateID_Avoid"
+        ]
+    },
+    "d_a_obj_stage_waterNP": {
+        "name": "dAcOstageWater_c::m_allocator",
+        "states": [
+            "dAcOstageWater_c::StateID_Wait",
+            "dAcOstageWater_c::StateID_Move"
+        ]
+    },
+    "d_a_obj_step_statueNP": {
+        "name": "dAcOStepStatue_c::m_allocator",
+        "states": [
+            "dAcOStepStatue_c::StateID_Wait",
+            "dAcOStepStatue_c::StateID_CarryBomb",
+            "dAcOStepStatue_c::StateID_BreakDown",
+            "dAcOStepStatue_c::StateID_SandSink",
+            "dAcOStepStatue_c::StateID_End"
+        ]
+    },
+    "d_a_npc_rival_lodNP": {
+        "name": "dAcNpcRivalLOD_c::m_allocator",
+        "states": [
+            "dAcNpcRivalLOD_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_time_doorNP": {
+        "name": "dAcOTimeDoor_c::m_allocator",
+        "states": [
+            "dAcOTimeDoor_c::StateID_Wait"
+        ]
+    },
+    "d_a_b_nusi_tentakleNP": {
+        "name": "dAcNusiTentakle_c::m_allocator",
+        "states": [
+            "dAcNusiTentakle_c::StateID_Hide",
+            "dAcNusiTentakle_c::StateID_Appear",
+            "dAcNusiTentakle_c::StateID_Wait",
+            "dAcNusiTentakle_c::StateID_HideWait",
+            "dAcNusiTentakle_c::StateID_Attack",
+            "dAcNusiTentakle_c::StateID_AppearDemo",
+            "dAcNusiTentakle_c::StateID_HideAppearDemo",
+            "dAcNusiTentakle_c::StateID_ScarfDamage",
+            "dAcNusiTentakle_c::StateID_Anger",
+            "dAcNusiTentakle_c::StateID_Down",
+            "dAcNusiTentakle_c::StateID_DownDamage",
+            "dAcNusiTentakle_c::StateID_LastDamage",
+            "dAcNusiTentakle_c::StateID_Recover",
+            "dAcNusiTentakle_c::StateID_Death",
+            "dAcNusiTentakle_c::StateID_CloseEye"
+        ]
+    },
+    "d_a_obj_needle_undergroundNP": {
+        "name": "dAcONeedleUnderground_c::m_allocator",
+        "states": [
+            "dAcONeedleUnderground_c::StateID_RemainOpen",
+            "dAcONeedleUnderground_c::StateID_Close",
+            "dAcONeedleUnderground_c::StateID_RemainClosed",
+            "dAcONeedleUnderground_c::StateID_Open"
+        ]
+    },
+    "d_a_obj_time_boat_bulletNP": {
+        "name": "dAcOTimeBoatBullet_c::m_allocator",
+        "states": [
+            "dAcOTimeBoatBullet_c::StateID_Wait",
+            "dAcOTimeBoatBullet_c::StateID_Explode"
+        ]
+    },
+    "d_a_obj_tornadoNP": {
+        "name": "dAcOTornado_c::m_allocator",
+        "states": [
+            "dAcOTornado_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_logNP": {
+        "name": "dAcOlog_c::m_allocator",
+        "states": [
+            "dAcOlog_c::StateID_Wait",
+            "dAcOlog_c::StateID_Move",
+            "dAcOlog_c::StateID_MoveEnd",
+            "dAcOlog_c::StateID_Fall",
+            "dAcOlog_c::StateID_Shake"
+        ]
+    },
+    "d_a_obj_lockNP": {
+        "name": "dAcOLock_c::m_allocator",
+        "states": [
+            "dAcOLock_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_bridge_boneNP": {
+        "name": "dAcOBridgeBone_c::m_allocator",
+        "states": [
+            "dAcOBridgeBone_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_leaf_swingNP": {
+        "name": "dAcOleafSwing_c::m_allocator",
+        "states": [
+            "dAcOleafSwing_c::StateID_SwingCalc"
+        ]
+    },
+    "d_a_e_st_wireNP": {
+        "name": "dAcEstwire_c::m_allocator",
+        "states": [
+            "dAcEstwire_c::StateID_Shoot",
+            "dAcEstwire_c::StateID_Fix",
+            "dAcEstwire_c::StateID_Out",
+            "dAcEstwire_c::StateID_AirBack"
+        ]
+    },
+    "d_a_obj_swhitNP": {
+        "name": "dAcOswhit_c::m_allocator",
+        "states": [
+            "dAcOswhit_c::StateID_OnWait",
+            "dAcOswhit_c::StateID_On",
+            "dAcOswhit_c::StateID_OffWait",
+            "dAcOswhit_c::StateID_Off"
+        ]
+    },
+    "d_a_obj_sea_F301NP": {
+        "name": "dAcOSeaF301_c::m_allocator",
+        "states": [
+            "dAcOSeaF301_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_young_impaNP": {
+        "name": "dAcNpcYim_c::m_allocator",
+        "states": [
+            "dAcNpcYim_c::StateID_Wait"
+        ]
+    },
+    "d_a_e_sf4NP": {
+        "name": "dAcEsf4_c::m_allocator",
+        "states": [
+            "dAcEsf4_c::StateID_Standby",
+            "dAcEsf4_c::StateID_Fight",
+            "dAcEsf4_c::StateID_Attack",
+            "dAcEsf4_c::StateID_Guard",
+            "dAcEsf4_c::StateID_Guard2",
+            "dAcEsf4_c::StateID_GuardJust",
+            "dAcEsf4_c::StateID_Counter",
+            "dAcEsf4_c::StateID_Change4Sword",
+            "dAcEsf4_c::StateID_Damage",
+            "dAcEsf4_c::StateID_End"
+        ]
+    },
+    "d_a_npc_kyui_wizardNP": {
+        "name": "dAcNpcKyuiWizard_c::m_allocator",
+        "states": [
+            "dAcNpcKyuiWizard_c::StateID_SleepFirst",
+            "dAcNpcKyuiWizard_c::StateID_Sleep",
+            "dAcNpcKyuiWizard_c::StateID_SleepRecover",
+            "dAcNpcKyuiWizard_c::StateID_Damage",
+            "dAcNpcKyuiWizard_c::StateID_Damage2",
+            "dAcNpcKyuiWizard_c::StateID_WakeUpDemo1st",
+            "dAcNpcKyuiWizard_c::StateID_WakeUpDemo",
+            "dAcNpcKyuiWizard_c::StateID_DragonHintDemoCheck",
+            "dAcNpcKyuiWizard_c::StateID_DragonHintDemo"
+        ]
+    },
+    "d_a_obj_bird_spNP": {
+        "name": "dAcObjBirdSp_c::m_allocator",
+        "states": []
+    },
+    "d_t_mole_mgrNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_truck_rail_colNP": {
+        "name": "dAcOTruckRailCol_c::m_allocator",
+        "states": [
+            "dAcOTruckRailCol_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_teni_rail_postNP": {
+        "name": "dAcOTeniRailPost::m_allocator",
+        "states": []
+    },
+    "d_a_obj_stopping_ropeNP": {
+        "name": "?",
+        "states": [
+            "dAcOStoppingRope_c::StateID_Wait",
+            "dAcOStoppingRope_c::StateID_SwitchOn"
+        ]
+    },
+    "d_a_obj_rock_skyNP": {
+        "name": "dAcOrockSky_c::m_allocator",
+        "states": []
+    },
+    "d_t_ksNP": {
+        "name": "?",
+        "states": [
+            "dTgKiesuTag_c::StateID_CreateChildren",
+            "dTgKiesuTag_c::StateID_ControlWait",
+            "dTgKiesuTag_c::StateID_ControlReturnToWait",
+            "dTgKiesuTag_c::StateID_ControlMove",
+            "dTgKiesuTag_c::StateID_ControlFighting",
+            "dTgKiesuTag_c::StateID_ControlPathMove",
+            "dTgKiesuTag_c::StateID_DoNothing"
+        ]
+    },
+    "d_a_obj_tumble_weedNP": {
+        "name": "dAcOTumbleWeed_c::m_allocator",
+        "states": [
+            "dAcOTumbleWeed_c::StateID_Wait",
+            "dAcOTumbleWeed_c::StateID_Slope"
+        ]
+    },
+    "d_a_obj_display_only_nbsNP": {
+        "name": "dAcOdisplayOnlyNbs_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_claw_shot_tgNP": {
+        "name": "dAcOclawShotTg_c::m_allocator",
+        "states": [
+            "dAcOclawShotTg_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_fire_obstacleNP": {
+        "name": "dAcOfireObstacle_c::m_allocator",
+        "states": [
+            "dAcOfireObstacle_c::StateID_Wait",
+            "dAcOfireObstacle_c::StateID_Vanish"
+        ]
+    },
+    "d_a_npc_graNP": {
+        "name": "dAcNpcGra_c::m_allocator",
+        "states": [
+            "dAcNpcGra_c::StateID_Wait",
+            "dAcNpcGra_c::StateID_Demo"
+        ]
+    },
+    "d_a_obj_belt_cvrNP": {
+        "name": "dAcObeltCvr_c::m_allocator",
+        "states": [
+            "dAcObeltCvr_c::StateID_Wait"
+        ]
+    },
+    "d_a_birdNP": {
+        "name": "dBird_c::m_allocator",
+        "states": [
+            "dBird_c::StateID_Wait",
+            "dBird_c::StateID_PreMove",
+            "dBird_c::StateID_Move",
+            "dBird_c::StateID_Hide",
+            "dBird_c::StateID_RideDemo",
+            "dBird_c::StateID_FirstRideDemo",
+            "dBird_c::StateID_OutAreaDemo",
+            "dBird_c::StateID_RideOff",
+            "dBird_c::StateID_OnGround",
+            "dBird_c::StateID_Tornado",
+            "dBird_c::StateID_SaveStartDemo",
+            "dBird_c::StateID_MiniGameWait",
+            "dBird_c::StateID_MiniGameMove",
+            "dBird_c::StateID_MiniGameEnd",
+            "dBird_c::StateID_MiniGameLevelUpDemo"
+        ]
+    },
+    "d_a_npc_terryNP": {
+        "name": "dAcNpcTerry_c::m_allocator",
+        "states": [
+            "dAcNpcTerry_c::StateID_Wait",
+            "dAcNpcTerry_c::StateID_Cycle",
+            "dAcNpcTerry_c::StateID_CycleGlance",
+            "dAcNpcTerry_c::StateID_HardlyCycle",
+            "dAcNpcTerry_c::StateID_HardlyCycleGlance",
+            "dAcNpcTerry_c::StateID_HardlyCycleService",
+            "dAcNpcTerry_c::StateID_NightWait"
+        ]
+    },
+    "d_a_b_girahimu_baseNP": {
+        "name": "?",
+        "states": [
+            "dAcGirahimuBase_c::StateID_Wait",
+            "dAcGirahimuBase_c::StateID_Walk",
+            "dAcGirahimuBase_c::StateID_Panch",
+            "dAcGirahimuBase_c::StateID_Catch",
+            "dAcGirahimuBase_c::StateID_CatchDamage",
+            "dAcGirahimuBase_c::StateID_GetSword",
+            "dAcGirahimuBase_c::StateID_Link_SwordWait",
+            "dAcGirahimuBase_c::StateID_Link_SwordWalk",
+            "dAcGirahimuBase_c::StateID_Link_SwordAttack",
+            "dAcGirahimuBase_c::StateID_ReturnSword",
+            "dAcGirahimuBase_c::StateID_LinkSwordGuardJust",
+            "dAcGirahimuBase_c::StateID_SearchSword",
+            "dAcGirahimuBase_c::StateID_HomeWarp",
+            "dAcGirahimuBase_c::StateID_PickUpSword",
+            "dAcGirahimuBase_c::StateID_ReleaseSword",
+            "dAcGirahimuBase_c::StateID_BackStep",
+            "dAcGirahimuBase_c::StateID_Escape",
+            "dAcGirahimuBase_c::StateID_EscapeBack",
+            "dAcGirahimuBase_c::StateID_FrontWarp",
+            "dAcGirahimuBase_c::StateID_FrontAttack",
+            "dAcGirahimuBase_c::StateID_BackWarp",
+            "dAcGirahimuBase_c::StateID_BackAttack",
+            "dAcGirahimuBase_c::StateID_Counter",
+            "dAcGirahimuBase_c::StateID_Run",
+            "dAcGirahimuBase_c::StateID_RunAttack",
+            "dAcGirahimuBase_c::StateID_BackWalk",
+            "dAcGirahimuBase_c::StateID_G_SwordDamage",
+            "dAcGirahimuBase_c::StateID_KnifeDamage"
+        ]
+    },
+    "d_a_bird_mobNP": {
+        "name": "dAcBirdMob_c::m_allocator",
+        "states": [
+            "dAcBirdMob_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_shedNP": {
+        "name": "dAcOShed_c::m_allocator",
+        "states": [
+            "dAcOShed_c::StateID_Wait",
+            "dAcOShed_c::StateID_Move"
+        ]
+    },
+    "d_a_obj_lampNP": {
+        "name": "dAcOLamp_c::m_allocator",
+        "states": [
+            "dAcOLamp_c::StateID_Wait"
+        ]
+    },
+    "d_t_megami_divingNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_npc_rescueNP": {
+        "name": "dAcNpcRescue_c::m_allocator",
+        "states": [
+            "dAcNpcRescue_c::StateID_Wait"
+        ]
+    },
+    "d_a_insect_cicadaNP": {
+        "name": "dAcInsectCicada_c::m_allocator",
+        "states": [
+            "dAcInsectCicada_c::StateID_Wait",
+            "dAcInsectCicada_c::StateID_Fly",
+            "dAcInsectCicada_c::StateID_Finalize",
+            "dAcInsectCicada_c::StateID_Dead"
+        ]
+    },
+    "d_a_obj_farmlandNP": {
+        "name": "dAcOFarmLand_c::m_allocator",
+        "states": [
+            "dAcOFarmLand_c::StateID_Wait",
+            "dAcOFarmLand_c::StateID_DummyEvent"
+        ]
+    },
+    "d_a_obj_terry_shopNP": {
+        "name": "dAcOterryShop_c::m_allocator",
+        "states": [
+            "dAcOterryShop_c::StateID_Move",
+            "dAcOterryShop_c::StateID_Stop",
+            "dAcOterryShop_c::StateID_Enter",
+            "dAcOterryShop_c::StateID_TakeOff"
+        ]
+    },
+    "d_a_obj_lighthouse_lightNP": {
+        "name": "dAcOlighthouseLight_c::m_allocator",
+        "states": [
+            "dAcOlighthouseLight_c::StateID_Wait",
+            "dAcOlighthouseLight_c::StateID_Move",
+            "dAcOlighthouseLight_c::StateID_Appear"
+        ]
+    },
+    "d_a_obj_utajima_pedestalNP": {
+        "name": "dAcOutajimaPedestal_c::m_allocator",
+        "states": [
+            "dAcOutajimaPedestal_c::StateID_Wait",
+            "dAcOutajimaPedestal_c::StateID_Move",
+            "dAcOutajimaPedestal_c::StateID_Reset"
+        ]
+    },
+    "d_a_npc_sorajima_male3NP": {
+        "name": "dAcNpcSma3_c::m_allocator",
+        "states": [
+            "dAcNpcSma3_c::StateID_Wait",
+            "dAcNpcSma3_c::StateID_Demo",
+            "dAcNpcSma3_c::StateID_Rhythm"
+        ]
+    },
+    "d_a_obj_lava_F200NP": {
+        "name": "dAcOlavaF200_c::m_allocator",
+        "states": []
+    },
+    "d_t_plightNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_push_blockNP": {
+        "name": "dAcOpushBlk_c::m_allocator",
+        "states": [
+            "dAcOpushBlk_c::StateID_Wait",
+            "dAcOpushBlk_c::StateID_Move",
+            "dAcOpushBlk_c::StateID_RopeGrab"
+        ]
+    },
+    "d_t_reactionNP": {
+        "name": "dTgReaction_c_c::m_allocator",
+        "states": [
+            "dTgReaction_c::StateID_Wait"
+        ]
+    },
+    "d_t_ro_at_target_managerNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_e_gekoNP": {
+        "name": "dAcEgeko_c::m_allocator",
+        "states": [
+            "dAcEgeko_c::StateID_Wait",
+            "dAcEgeko_c::StateID_Move",
+            "dAcEgeko_c::StateID_Search",
+            "dAcEgeko_c::StateID_Shield",
+            "dAcEgeko_c::StateID_Reflect",
+            "dAcEgeko_c::StateID_Damage"
+        ]
+    },
+    "d_a_npc_suisei_subNP": {
+        "name": "dAcNpcSuiseiSub_c::m_allocator",
+        "states": [
+            "dAcNpcSuiseiSub_c::StateID_NearPlayer",
+            "dAcNpcSuiseiSub_c::StateID_TalkSub",
+            "dAcNpcSuiseiSub_c::StateID_Wait",
+            "dAcNpcSuiseiSub_c::StateID_Walk",
+            "dAcNpcSuiseiSub_c::StateID_Turn",
+            "dAcNpcSuiseiSub_c::StateID_LookAwaySt",
+            "dAcNpcSuiseiSub_c::StateID_LookAway",
+            "dAcNpcSuiseiSub_c::StateID_Withstand",
+            "dAcNpcSuiseiSub_c::StateID_Pain",
+            "dAcNpcSuiseiSub_c::StateID_Surprised"
+        ]
+    },
+    "d_a_npc_aqua_dragonNP": {
+        "name": "dAcNpcAdr_c::m_allocator",
+        "states": [
+            "dAcNpcAdr_c::StateID_Wait"
+        ]
+    },
+    "d_a_e_maguppoNP": {
+        "name": "dAcEmaguppo_c::m_allocator",
+        "states": [
+            "dAcEmaguppo_c::StateID_Attack",
+            "dAcEmaguppo_c::StateID_Appear",
+            "dAcEmaguppo_c::StateID_Blow",
+            "dAcEmaguppo_c::StateID_Corner",
+            "dAcEmaguppo_c::StateID_Damage",
+            "dAcEmaguppo_c::StateID_Dead",
+            "dAcEmaguppo_c::StateID_Dive",
+            "dAcEmaguppo_c::StateID_RailReverse",
+            "dAcEmaguppo_c::StateID_RailWalk",
+            "dAcEmaguppo_c::StateID_Stomped",
+            "dAcEmaguppo_c::StateID_Stun",
+            "dAcEmaguppo_c::StateID_DivingWait",
+            "dAcEmaguppo_c::StateID_WaitAttack"
+        ]
+    },
+    "d_a_npc_daishinkanNP": {
+        "name": "dAcNpcDsk_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_chandelierNP": {
+        "name": "dAcOChandelier_c::m_allocator",
+        "states": [
+            "dAcOChandelier_c::StateID_Wait",
+            "dAcOChandelier_c::StateID_Fall",
+            "dAcOChandelier_c::StateID_End"
+        ]
+    },
+    "d_a_hidory_fireNP": {
+        "name": "dAcHidoryFire_c::m_allocator",
+        "states": [
+            "dAcHidoryFire_c::StateID_BulletMove",
+            "dAcHidoryFire_c::StateID_Damage"
+        ]
+    },
+    "d_a_obj_tenijimaNP": {
+        "name": "dAcOtenijima_c::m_allocator",
+        "states": []
+    },
+    "d_a_npc_rivalNP": {
+        "name": "dAcNpcRvl_c::m_allocator",
+        "states": [
+            "dAcNpcRvl_c::StateID_RaceInit",
+            "dAcNpcRvl_c::StateID_RaceRun",
+            "dAcNpcRvl_c::StateID_RaceDive",
+            "dAcNpcRvl_c::StateID_RaceRide"
+        ]
+    },
+    "d_a_obj_sailNP": {
+        "name": "dAcOSail_c::m_allocator",
+        "states": [
+            "dAcOSail_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_cannon_coverNP": {
+        "name": "dAcOcannonCover_c::m_allocator",
+        "states": [
+            "dAcOcannonCover_c::StateID_Wait",
+            "dAcOcannonCover_c::StateID_Open",
+            "dAcOcannonCover_c::StateID_Shake",
+            "dAcOcannonCover_c::StateID_Close",
+            "dAcOcannonCover_c::StateID_Play"
+        ]
+    },
+    "d_a_obj_wind03NP": {
+        "name": "dAcOwind03_c::m_allocator",
+        "states": [
+            "dAcOwind03_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_arrow_switchNP": {
+        "name": "dAcOarrowSwitch_c::m_allocator",
+        "states": [
+            "dAcOarrowSwitch_c::StateID_Off",
+            "dAcOarrowSwitch_c::StateID_On",
+            "dAcOarrowSwitch_c::StateID_FixedOn",
+            "dAcOarrowSwitch_c::StateID_OpenEye"
+        ]
+    },
+    "d_a_obj_lotus_flowerNP": {
+        "name": "dAcOLotusFlower_c::m_allocator",
+        "states": [
+            "dAcOLotusFlower_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_puzzle_islandNP": {
+        "name": "dAcOpuzzleIsland_c::m_allocator",
+        "states": []
+    },
+    "d_a_shop_sampleNP": {
+        "name": "dAcShopSample_c::m_allocator",
+        "states": [
+            "dAcShopSample_c::StateID_Wait",
+            "dAcShopSample_c::StateID_PickUp",
+            "dAcShopSample_c::StateID_PickingUp",
+            "dAcShopSample_c::StateID_PutBack"
+        ]
+    },
+    "d_a_obj_ship_windowNP": {
+        "name": "dAcOshipWindow_c::m_allocator",
+        "states": [
+            "dAcOshipWindow_c::StateID_Close",
+            "dAcOshipWindow_c::StateID_Move",
+            "dAcOshipWindow_c::StateID_Open"
+        ]
+    },
+    "d_a_e_orNP": {
+        "name": "dAcEor_c::m_allocator",
+        "states": [
+            "dAcEor_c::StateID_Wait",
+            "dAcEor_c::StateID_Appear",
+            "dAcEor_c::StateID_Attack",
+            "dAcEor_c::StateID_AttackCarry",
+            "dAcEor_c::StateID_Stun",
+            "dAcEor_c::StateID_Damage",
+            "dAcEor_c::StateID_Hide",
+            "dAcEor_c::StateID_Kyoro"
+        ]
+    },
+    "d_a_obj_trap_rock_1NP": {
+        "name": "dAcOtrapRock1_c::m_allocator",
+        "states": [
+            "dAcOtrapRock1_c::StateID_TrapWait",
+            "dAcOtrapRock1_c::StateID_TrapAction",
+            "dAcOtrapRock1_c::StateID_TrapReturn"
+        ]
+    },
+    "d_a_npc_pumpkin_masterNP": {
+        "name": "dAcNpcPma_c::m_allocator",
+        "states": [
+            "dAcNpcPma_c::StateID_Wait",
+            "dAcNpcPma_c::StateID_Demo"
+        ]
+    },
+    "d_a_obj_sw_dir_doorNP": {
+        "name": "dAcOSwDirDoor_c::m_allocator",
+        "states": [
+            "dAcOSwDirDoor_c::StateID_Wait",
+            "dAcOSwDirDoor_c::StateID_CorrectStart",
+            "dAcOSwDirDoor_c::StateID_Correct",
+            "dAcOSwDirDoor_c::StateID_Broken",
+            "dAcOSwDirDoor_c::StateID_BrokenEnd",
+            "dAcOSwDirDoor_c::StateID_DemoEnd"
+        ]
+    },
+    "d_a_morita_testNP": {
+        "name": "dAcJtest_c::m_allocator",
+        "states": [
+            "dAcJtest_c::StateID_FishNormalSwim",
+            "dAcJtest_c::StateID_FishEscapeSwim",
+            "dAcJtest_c::StateID_EelNormalSwim",
+            "dAcJtest_c::StateID_EelEscapeSwim",
+            "dAcJtest_c::StateID_GunkanuoSwim",
+            "dAcJtest_c::StateID_SkyTailFly",
+            "dAcJtest_c::StateID_BirdFly",
+            "dAcJtest_c::StateID_Remly",
+            "dAcJtest_c::StateID_OctaGrass",
+            "dAcJtest_c::StateID_WaterDragon"
+        ]
+    },
+    "d_a_b_bigboss2NP": {
+        "name": "dAcBBigBoss2_c::m_allocator",
+        "states": [
+            "dAcBBigBoss2_c::StateID_AppearWait",
+            "dAcBBigBoss2_c::StateID_AppearDemo",
+            "dAcBBigBoss2_c::StateID_Wait",
+            "dAcBBigBoss2_c::StateID_Walk",
+            "dAcBBigBoss2_c::StateID_Reach",
+            "dAcBBigBoss2_c::StateID_Turn",
+            "dAcBBigBoss2_c::StateID_ImpaAdvice",
+            "dAcBBigBoss2_c::StateID_ShakeHead",
+            "dAcBBigBoss2_c::StateID_HeadDamage",
+            "dAcBBigBoss2_c::StateID_HeadDamageThrow",
+            "dAcBBigBoss2_c::StateID_HeadPain",
+            "dAcBBigBoss2_c::StateID_StunPain",
+            "dAcBBigBoss2_c::StateID_HeadRecover",
+            "dAcBBigBoss2_c::StateID_DropByHand",
+            "dAcBBigBoss2_c::StateID_Attack",
+            "dAcBBigBoss2_c::StateID_FootBroken",
+            "dAcBBigBoss2_c::StateID_BombHit",
+            "dAcBBigBoss2_c::StateID_FootRecover",
+            "dAcBBigBoss2_c::StateID_ArmBroken",
+            "dAcBBigBoss2_c::StateID_ArmAttack",
+            "dAcBBigBoss2_c::StateID_ArmRecover",
+            "dAcBBigBoss2_c::StateID_Stun",
+            "dAcBBigBoss2_c::StateID_StunWait",
+            "dAcBBigBoss2_c::StateID_StunRecover",
+            "dAcBBigBoss2_c::StateID_StunDamage",
+            "dAcBBigBoss2_c::StateID_StunBombDamage",
+            "dAcBBigBoss2_c::StateID_Mount",
+            "dAcBBigBoss2_c::StateID_Fall",
+            "dAcBBigBoss2_c::StateID_MountDamage",
+            "dAcBBigBoss2_c::StateID_FrontFall",
+            "dAcBBigBoss2_c::StateID_Rush",
+            "dAcBBigBoss2_c::StateID_Rise",
+            "dAcBBigBoss2_c::StateID_Tied",
+            "dAcBBigBoss2_c::StateID_StunFrontFall",
+            "dAcBBigBoss2_c::StateID_BadAdvice",
+            "dAcBBigBoss2_c::StateID_CancelMount",
+            "dAcBBigBoss2_c::StateID_MountArmBroken",
+            "dAcBBigBoss2_c::StateID_LevelUp",
+            "dAcBBigBoss2_c::StateID_RushDamage",
+            "dAcBBigBoss2_c::StateID_GuardBallista",
+            "dAcBBigBoss2_c::StateID_Evacuation",
+            "dAcBBigBoss2_c::StateID_StoneWait",
+            "dAcBBigBoss2_c::StateID_SwordGameWait",
+            "dAcBBigBoss2_c::StateID_SwordGameEnd"
+        ]
+    },
+    "d_a_npc_akumakunNP": {
+        "name": "dAcNpcAkumakun_c::m_allocator",
+        "states": [
+            "dAcNpcAkumakun_c::StateID_Wait"
+        ]
+    },
+    "d_a_e_gunhoNP": {
+        "name": "dAcEgunho_c::m_allocator",
+        "states": [
+            "dAcEgunho_c::StateID_OpenClose",
+            "dAcEgunho_c::StateID_Wait",
+            "dAcEgunho_c::StateID_NormalMove",
+            "dAcEgunho_c::StateID_Search",
+            "dAcEgunho_c::StateID_AttackBullet",
+            "dAcEgunho_c::StateID_AttackBomb",
+            "dAcEgunho_c::StateID_Damage",
+            "dAcEgunho_c::StateID_Dead"
+        ]
+    },
+    "d_a_obj_stage_sinkNP": {
+        "name": "dAcOstageSink_c::m_allocator",
+        "states": [
+            "dAcOstageSink_c::StateID_Wait",
+            "dAcOstageSink_c::StateID_Move"
+        ]
+    },
+    "d_a_b_krNP": {
+        "name": "dAcBkr_c::m_allocator",
+        "states": [
+            "dAcBkr_c::StateID_StartDemo",
+            "dAcBkr_c::StateID_UnderWater",
+            "dAcBkr_c::StateID_Appear",
+            "dAcBkr_c::StateID_Fight",
+            "dAcBkr_c::StateID_Attack",
+            "dAcBkr_c::StateID_AttackCrash",
+            "dAcBkr_c::StateID_LastFight",
+            "dAcBkr_c::StateID_LastDamage",
+            "dAcBkr_c::StateID_ArmDamage",
+            "dAcBkr_c::StateID_ArmDamage2",
+            "dAcBkr_c::StateID_CoreDamage",
+            "dAcBkr_c::StateID_SmallDamage",
+            "dAcBkr_c::StateID_ArmRecover"
+        ]
+    },
+    "d_a_girahimu_sword_beamNP": {
+        "name": "dAcGirahimuSwordBeam_c::m_allocator",
+        "states": [
+            "dAcGirahimuSwordBeam_c::StateID_BulletMove",
+            "dAcGirahimuSwordBeam_c::StateID_Damage"
+        ]
+    },
+    "d_a_obj_colNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_fence_boko2NP": {
+        "name": "dAcOfenceBoko2_c::m_allocator",
+        "states": []
+    },
+    "d_a_e_geNP": {
+        "name": "dAcEge_c::m_allocator",
+        "states": [
+            "dAcEge_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_junk_motherNP": {
+        "name": "dAcNpcJunkMother_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_side_shutterNP": {
+        "name": "dAcOsideShutter_c::m_allocator",
+        "states": [
+            "dAcOsideShutter_c::StateID_Off",
+            "dAcOsideShutter_c::StateID_On",
+            "dAcOsideShutter_c::StateID_OffToOnWait",
+            "dAcOsideShutter_c::StateID_OffToOn",
+            "dAcOsideShutter_c::StateID_OnToOffWait",
+            "dAcOsideShutter_c::StateID_OnToOff"
+        ]
+    },
+    "d_a_obj_scattersandNP": {
+        "name": "dAcOScatterSand::m_allocator",
+        "states": []
+    },
+    "d_a_npc_regret_rivalNP": {
+        "name": "dAcNpcRegretRvl_c::m_allocator",
+        "states": [
+            "dAcNpcRegretRvl_c::StateID_Ready",
+            "dAcNpcRegretRvl_c::StateID_Punch"
+        ]
+    },
+    "d_a_b_nusi_bulletNP": {
+        "name": "dAcNusi_Bullet_c::m_allocator",
+        "states": [
+            "dAcNusi_Bullet_c::StateID_Move",
+            "dAcNusi_Bullet_c::StateID_Wait",
+            "dAcNusi_Bullet_c::StateID_Back"
+        ]
+    },
+    "d_t_miechanNP": {
+        "name": "?",
+        "states": [
+            "dTgMiechan_c::StateID_Search",
+            "dTgMiechan_c::StateID_Wait1",
+            "dTgMiechan_c::StateID_Wait2"
+        ]
+    },
+    "d_a_obj_lava_d201NP": {
+        "name": "dAcOLavaD201_c::m_allocator",
+        "states": [
+            "dAcOLavaD201_c::StateID_Wait",
+            "dAcOLavaD201_c::StateID_WaitOff",
+            "dAcOLavaD201_c::StateID_LavaIn",
+            "dAcOLavaD201_c::StateID_LavaOut"
+        ]
+    },
+    "d_a_npc_douguyanightNP": {
+        "name": "dAcNpcDouguyaNight_c::m_allocator",
+        "states": []
+    },
+    "d_a_bullet_gueNP": {
+        "name": "dAcBulletGue_c::m_allocator",
+        "states": [
+            "dAcBulletGue_c::StateID_Wait",
+            "dAcBulletGue_c::StateID_Hold",
+            "dAcBulletGue_c::StateID_TakeOff"
+        ]
+    },
+    "d_a_obj_water_switchNP": {
+        "name": "dAcOwaterSwitch_c::m_allocator",
+        "states": [
+            "dAcOwaterSwitch_c::StateID_Off",
+            "dAcOwaterSwitch_c::StateID_Wait1",
+            "dAcOwaterSwitch_c::StateID_Wait2",
+            "dAcOwaterSwitch_c::StateID_Wait3",
+            "dAcOwaterSwitch_c::StateID_On"
+        ]
+    },
+    "d_a_obj_siren_2dmapNP": {
+        "name": "dAcOsiren2dmap_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_tower_gearD101NP": {
+        "name": "dAcOTowerGearD101_c::m_allocator",
+        "states": [
+            "dAcOTowerGearD101_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_sink_floor_fNP": {
+        "name": "dAcOSinkFloorF_c::m_allocator",
+        "states": [
+            "dAcOSinkFloorF_c::StateID_Wait",
+            "dAcOSinkFloorF_c::StateID_Ride",
+            "dAcOSinkFloorF_c::StateID_Sink"
+        ]
+    },
+    "d_t_harpNP": {
+        "name": "dTgHarp_c::m_allocator",
+        "states": [
+            "dTgHarp_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_ground_coverNP": {
+        "name": "dAcOgroundCover_c::m_allocator",
+        "states": [
+            "dAcOgroundCover_c::StateID_Wait",
+            "dAcOgroundCover_c::StateID_Wait2",
+            "dAcOgroundCover_c::StateID_AppearWait",
+            "dAcOgroundCover_c::StateID_AppearOpen",
+            "dAcOgroundCover_c::StateID_AppearClose",
+            "dAcOgroundCover_c::StateID_Fight",
+            "dAcOgroundCover_c::StateID_Sealed"
+        ]
+    },
+    "d_a_fly_slbNP": {
+        "name": "dAcFlySlb_c::m_allocator",
+        "states": [
+            "dAcFlySlb_c::StateID_Fly"
+        ]
+    },
+    "d_a_obj_waterfall_D100NP": {
+        "name": "dAcOwaterfallD100_c::m_allocator",
+        "states": [
+            "dAcOwaterfallD100_c::StateID_Wait",
+            "dAcOwaterfallD100_c::StateID_Spout",
+            "dAcOwaterfallD100_c::StateID_After"
+        ]
+    },
+    "d_a_obj_fireNP": {
+        "name": "dAcOfire_c::m_allocator",
+        "states": [
+            "dAcOfire_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_fruitNP": {
+        "name": "dAcOFruit_c::m_allocator",
+        "states": [
+            "dAcOFruit_c::StateID_NormalWait",
+            "dAcOFruit_c::StateID_StickWait",
+            "dAcOFruit_c::StateID_GrabCarry",
+            "dAcOFruit_c::StateID_SwordCarry",
+            "dAcOFruit_c::StateID_BoomerangCarry",
+            "dAcOFruit_c::StateID_WhipCarry",
+            "dAcOFruit_c::StateID_Dead"
+        ]
+    },
+    "d_a_npc_pumpkin_daughterNP": {
+        "name": "dAcNpcPdu_c::m_allocator",
+        "states": [
+            "dAcNpcPdu_c::StateID_Wait",
+            "dAcNpcPdu_c::StateID_Demo",
+            "dAcNpcPdu_c::StateID_Manage",
+            "dAcNpcPdu_c::StateID_Sing"
+        ]
+    },
+    "d_a_npc_testmanNP": {
+        "name": "dAcNpcTmn_c::m_allocator",
+        "states": [
+            "dAcNpcTmn_c::StateID_Wait"
+        ]
+    },
+    "d_a_bird_zelda_trainingNP": {
+        "name": "dBird_ZeldaTraining_c::m_allocator",
+        "states": [
+            "dBird_ZeldaTraining_c::StateID_Wait",
+            "dBird_ZeldaTraining_c::StateID_Chase",
+            "dBird_ZeldaTraining_c::StateID_Finish"
+        ]
+    },
+    "d_t_barrel_posNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_npc_douguya_motherNP": {
+        "name": "dAcNpcDouguyaMother_c::m_allocator",
+        "states": []
+    },
+    "d_a_e_ocNP": {
+        "name": "dAcEoc_c::m_allocator",
+        "states": [
+            "dAcEoc_c::StateID_Wait",
+            "dAcEoc_c::StateID_Standby",
+            "dAcEoc_c::StateID_FindCall",
+            "dAcEoc_c::StateID_Fight",
+            "dAcEoc_c::StateID_Attack",
+            "dAcEoc_c::StateID_BigAttack",
+            "dAcEoc_c::StateID_Damage",
+            "dAcEoc_c::StateID_Fire",
+            "dAcEoc_c::StateID_Fail",
+            "dAcEoc_c::StateID_StabGuard",
+            "dAcEoc_c::StateID_Stun",
+            "dAcEoc_c::StateID_PipeRun",
+            "dAcEoc_c::StateID_PipeWait",
+            "dAcEoc_c::StateID_Whistle",
+            "dAcEoc_c::StateID_Flicked",
+            "dAcEoc_c::StateID_AirDamage",
+            "dAcEoc_c::StateID_Demo",
+            "dAcEoc_c::StateID_PipeChase",
+            "dAcEoc_c::StateID_SearchPipe",
+            "dAcEoc_c::StateID_GetPipe",
+            "dAcEoc_c::StateID_Summon",
+            "dAcEoc_c::StateID_BombCarry",
+            "dAcEoc_c::StateID_BombThrow",
+            "dAcEoc_c::StateID_Escape",
+            "dAcEoc_c::StateID_Equip",
+            "dAcEoc_c::StateID_WhipCapture",
+            "dAcEoc_c::StateID_DemoMove"
+        ]
+    },
+    "d_a_obj_vd_bulletNP": {
+        "name": "dAcObjVdb_c::m_allocator",
+        "states": [
+            "dAcObjVdb_c::StateID_BulletMove",
+            "dAcObjVdb_c::StateID_BulletLost"
+        ]
+    },
+    "d_a_obj_bubbleNP": {
+        "name": "dAcObubble_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_rope_baseNP": {
+        "name": "dAcOropeBase_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_clearness_wallNP": {
+        "name": "dAcOclearnessWall_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_bridge_stepNP": {
+        "name": "dAcOBridgeStep_c::m_allocator",
+        "states": [
+            "dAcOBridgeStep_c::StateID_Wait",
+            "dAcOBridgeStep_c::StateID_SwitchPushed",
+            "dAcOBridgeStep_c::StateID_BridgeUp",
+            "dAcOBridgeStep_c::StateID_BridgeUpAll"
+        ]
+    },
+    "d_t_map_markNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_t_sound_area_mgrNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_time_baseNP": {
+        "name": "dAcOTimeBase_c::m_allocator",
+        "states": [
+            "dAcOTimeBase_c::StateID_Wait",
+            "dAcOTimeBase_c::StateID_Event"
+        ]
+    },
+    "d_a_obj_utajima_lv2NP": {
+        "name": "dAcOutajimaLv2_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_saveNP": {
+        "name": "dAcOSave_c::m_allocator",
+        "states": [
+            "dAcOSave_c::StateID_Moss",
+            "dAcOSave_c::StateID_Shine",
+            "dAcOSave_c::StateID_Wait",
+            "dAcOSave_c::StateID_Query",
+            "dAcOSave_c::StateID_LightShaft",
+            "dAcOSave_c::StateID_Escape"
+        ]
+    },
+    "d_a_invisibleNP": {
+        "name": "?",
+        "states": [
+            "dAcInvisible::StateID_Wait"
+        ]
+    },
+    "d_a_b_vdNP": {
+        "name": "dAcBvd_c::m_allocator",
+        "states": [
+            "dAcBvd_c::StateID_Opening",
+            "dAcBvd_c::StateID_Wait",
+            "dAcBvd_c::StateID_WaitPlayer",
+            "dAcBvd_c::StateID_Run",
+            "dAcBvd_c::StateID_FireAttack",
+            "dAcBvd_c::StateID_Eat",
+            "dAcBvd_c::StateID_Damage",
+            "dAcBvd_c::StateID_BombDamage",
+            "dAcBvd_c::StateID_BodyReverse",
+            "dAcBvd_c::StateID_InitMove",
+            "dAcBvd_c::StateID_Dead"
+        ]
+    },
+    "d_t_telopNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_npc_daishinkan_nNP": {
+        "name": "dAcNpcDaishinkanN_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_door_dungeonNP": {
+        "name": "dAcObjDoorDungeon_c::m_allocator",
+        "states": []
+    },
+    "d_a_e_skytailNP": {
+        "name": "dAcESkytail_c::m_allocator",
+        "states": [
+            "dAcESkytail_c::StateID_RandomMove",
+            "dAcESkytail_c::StateID_Move",
+            "dAcESkytail_c::StateID_ParallelMove",
+            "dAcESkytail_c::StateID_FrontAttack",
+            "dAcESkytail_c::StateID_Charge",
+            "dAcESkytail_c::StateID_Dead",
+            "dAcESkytail_c::StateID_Skytail"
+        ]
+    },
+    "d_a_bird_rivalNP": {
+        "name": "dBird_Rival_c::m_allocator",
+        "states": [
+            "dBird_Rival_c::StateID_Wait",
+            "dBird_Rival_c::StateID_Chase",
+            "dBird_Rival_c::StateID_FrontAttack",
+            "dBird_Rival_c::StateID_BodyAttack",
+            "dBird_Rival_c::StateID_LevelUpDemo",
+            "dBird_Rival_c::StateID_CatchDemo",
+            "dBird_Rival_c::StateID_PathMove"
+        ]
+    },
+    "d_a_avater_race_mngNP": {
+        "name": "dAvater_Race_Mng_c::m_allocator",
+        "states": [
+            "dAvater_Race_Mng_c::StateID_StartWait",
+            "dAvater_Race_Mng_c::StateID_Race",
+            "dAvater_Race_Mng_c::StateID_Hide",
+            "dAvater_Race_Mng_c::StateID_Finish",
+            "dAvater_Race_Mng_c::StateID_LevelUpDemo",
+            "dAvater_Race_Mng_c::StateID_Message"
+        ]
+    },
+    "d_a_npc_thunder_dragon_boneNP": {
+        "name": "dAcNpcTdrB_c::m_allocator",
+        "states": [
+            "dAcNpcTdrB_c::StateID_Wait"
+        ]
+    },
+    "d_a_e_liza_tailNP": {
+        "name": "dAcEliza_tail_c::m_allocator",
+        "states": [
+            "dAcEliza_tail_c::StateID_Wait",
+            "dAcEliza_tail_c::StateID_Damage",
+            "dAcEliza_tail_c::StateID_WhipCatch",
+            "dAcEliza_tail_c::StateID_Get",
+            "dAcEliza_tail_c::StateID_InLava"
+        ]
+    },
+    "d_a_kanbanNP": {
+        "name": "dAcKanban_c::m_allocator",
+        "states": [
+            "dAcKanban_c::StateID_Wait",
+            "dAcKanban_c::StateID_Message",
+            "dAcKanban_c::StateID_PullOut"
+        ]
+    },
+    "d_a_e_bczNP": {
+        "name": "dAcEBcZ_c::m_allocator",
+        "states": [
+            "dAcEBcZ_c::StateID_Arise",
+            "dAcEBcZ_c::StateID_Wait",
+            "dAcEBcZ_c::StateID_Walk",
+            "dAcEBcZ_c::StateID_Find",
+            "dAcEBcZ_c::StateID_Chase",
+            "dAcEBcZ_c::StateID_HoldAttack",
+            "dAcEBcZ_c::StateID_HoldStart",
+            "dAcEBcZ_c::StateID_HoldWait",
+            "dAcEBcZ_c::StateID_HoldScream",
+            "dAcEBcZ_c::StateID_WhipTurn",
+            "dAcEBcZ_c::StateID_WhipStagger",
+            "dAcEBcZ_c::StateID_WindBlow",
+            "dAcEBcZ_c::StateID_KeepAwayFromShield",
+            "dAcEBcZ_c::StateID_Damage",
+            "dAcEBcZ_c::StateID_Down",
+            "dAcEBcZ_c::StateID_AriseFromTag",
+            "dAcEBcZ_c::StateID_RopeSearch",
+            "dAcEBcZ_c::StateID_RopeSearchWalk",
+            "dAcEBcZ_c::StateID_RopeSearchWait",
+            "dAcEBcZ_c::StateID_RopeWait",
+            "dAcEBcZ_c::StateID_RopeMove",
+            "dAcEBcZ_c::StateID_RopeHoldStart",
+            "dAcEBcZ_c::StateID_RopeHoldWait",
+            "dAcEBcZ_c::StateID_RopeHoldScream",
+            "dAcEBcZ_c::StateID_PoisonSwamp"
+        ]
+    },
+    "d_t_beetleNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_npc_grcNP": {
+        "name": "dAcNpcGrc_c::m_allocator",
+        "states": [
+            "dAcNpcGrc_c::StateID_Wait",
+            "dAcNpcGrc_c::StateID_Manage"
+        ]
+    },
+    "d_a_obj_vent_fanNP": {
+        "name": "dAcOventFan_c::m_allocator",
+        "states": [
+            "dAcOventFan_c::StateID_Normal",
+            "dAcOventFan_c::StateID_Reverse",
+            "dAcOventFan_c::StateID_Vacuum"
+        ]
+    },
+    "d_a_b_girahimu3_baseNP": {
+        "name": "?",
+        "states": [
+            "dAcGirahimu3Base_c::StateID_BackStep",
+            "dAcGirahimu3Base_c::StateID_Warp"
+        ]
+    },
+    "d_t_D3_scene_changeNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_t_bb_quakeNP": {
+        "name": "?",
+        "states": [
+            "dTgBBQuake_c::StateID_Wait",
+            "dTgBBQuake_c::StateID_Wake"
+        ]
+    },
+    "d_a_npc_shinkanNP": {
+        "name": "dAcNpcSkn_c::m_allocator",
+        "states": [
+            "dAcNpcSkn_c::StateID_RaceWatch",
+            "dAcNpcSkn_c::StateID_RaceEvt"
+        ]
+    },
+    "d_t_sword_battle_gameNP": {
+        "name": "?",
+        "states": [
+            "dTgSwordBattleGame_c::StateID_Wait",
+            "dTgSwordBattleGame_c::StateID_Manage"
+        ]
+    },
+    "d_a_controlNP": {
+        "name": "?",
+        "states": [
+            "dAcEnCl_c::StateID_pathMove",
+            "dAcEnCl_c::StateID_pathRoof",
+            "dAcEnCl_c::StateID_pathStop",
+            "dAcEnCl_c::StateID_rangeCheck_All",
+            "dAcEnCl_c::StateID_infinite",
+            "dAcEnCl_c::StateID_rangeMove",
+            "dAcEnCl_c::StateID_rangeSearch"
+        ]
+    },
+    "d_a_obj_utajima_main_mechaNP": {
+        "name": "dAcOutajimaMainMecha_c::m_allocator",
+        "states": [
+            "dAcOutajimaMainMecha_c::StateID_Before",
+            "dAcOutajimaMainMecha_c::StateID_Appear",
+            "dAcOutajimaMainMecha_c::StateID_Main",
+            "dAcOutajimaMainMecha_c::StateID_Roll",
+            "dAcOutajimaMainMecha_c::StateID_Disappear",
+            "dAcOutajimaMainMecha_c::StateID_After",
+            "dAcOutajimaMainMecha_c::StateID_StopperReset",
+            "dAcOutajimaMainMecha_c::StateID_Reset"
+        ]
+    },
+    "d_a_obj_fenceNP": {
+        "name": "dAcOFence_c::m_allocator",
+        "states": [
+            "dAcOFence_c::StateID_WaitOpen",
+            "dAcOFence_c::StateID_Open",
+            "dAcOFence_c::StateID_OpenPocoAPoco",
+            "dAcOFence_c::StateID_SuccessPocoAPoco",
+            "dAcOFence_c::StateID_StopOpenPocoAPoco",
+            "dAcOFence_c::StateID_StopOpenAfterglowPocoAPoco",
+            "dAcOFence_c::StateID_WaitClose",
+            "dAcOFence_c::StateID_Close",
+            "dAcOFence_c::StateID_RequestConfineEvent"
+        ]
+    },
+    "d_a_insect_grasshopperNP": {
+        "name": "dAcInsectGrasshopper_c::m_allocator",
+        "states": [
+            "dAcInsectGrasshopper_c::StateID_Wait",
+            "dAcInsectGrasshopper_c::StateID_Walk",
+            "dAcInsectGrasshopper_c::StateID_Jump",
+            "dAcInsectGrasshopper_c::StateID_Fly",
+            "dAcInsectGrasshopper_c::StateID_Finalize",
+            "dAcInsectGrasshopper_c::StateID_Dead"
+        ]
+    },
+    "d_a_obj_treasure_islandNP": {
+        "name": "dAcOtreasureIsland_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_trolley_shutterNP": {
+        "name": "dAcOTrolleyShutter_c::m_allocator",
+        "states": [
+            "dAcOTrolleyShutter_c::StateID_Wait",
+            "dAcOTrolleyShutter_c::StateID_OpenEvent"
+        ]
+    },
+    "d_a_obj_belt_obstacleNP": {
+        "name": "dAcObeltObstacle_c::m_allocator",
+        "states": [
+            "dAcObeltObstacle_c::StateID_Wait",
+            "dAcObeltObstacle_c::StateID_Init",
+            "dAcObeltObstacle_c::StateID_BeltMove",
+            "dAcObeltObstacle_c::StateID_TeniN",
+            "dAcObeltObstacle_c::StateID_TeniNonly"
+        ]
+    },
+    "d_a_bullet_maguppoNP": {
+        "name": "dAcBulletMaguppo_c::m_allocator",
+        "states": [
+            "dAcBulletMaguppo_c::StateID_Move"
+        ]
+    },
+    "d_title_managerNP": {
+        "name": "?",
+        "states": [
+            "dTitleMgr_c::StateID_Init",
+            "dTitleMgr_c::StateID_OpeningDemo",
+            "dTitleMgr_c::StateID_CheckSave",
+            "dTitleMgr_c::StateID_Title",
+            "dTitleMgr_c::StateID_FileSelect",
+            "dTitleMgr_c::StateID_Input"
+        ]
+    },
+    "d_a_obj_kumite_wallNP": {
+        "name": "dAcOkumiteWall_c::m_allocator",
+        "states": [
+            "dAcOkumiteWall_c::StateID_Wait",
+            "dAcOkumiteWall_c::StateID_Appear",
+            "dAcOkumiteWall_c::StateID_Exist",
+            "dAcOkumiteWall_c::StateID_Vanish"
+        ]
+    },
+    "d_a_obj_terry_bicycleNP": {
+        "name": "dAcOTerryBicycle_c::m_allocator",
+        "states": [
+            "dAcOTerryBicycle_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_azukariya_fatherNP": {
+        "name": "dAcNpcAzukariyaFather_c::m_allocator",
+        "states": []
+    },
+    "d_a_e_beamosNP": {
+        "name": "dAcEbeamos::m_allocator",
+        "states": [
+            "dAcEbeamos::StateID_Attack",
+            "dAcEbeamos::StateID_Beetle",
+            "dAcEbeamos::StateID_Blow",
+            "dAcEbeamos::StateID_Damage",
+            "dAcEbeamos::StateID_Dead",
+            "dAcEbeamos::StateID_Rail",
+            "dAcEbeamos::StateID_Shock",
+            "dAcEbeamos::StateID_Stun",
+            "dAcEbeamos::StateID_Wait",
+            "dAcEbeamos::StateID_Watch"
+        ]
+    },
+    "d_a_obj_distant_shipNP": {
+        "name": "dAcOdistantShip_c::m_allocator",
+        "states": []
+    },
+    "d_lyt_title_BGNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_shutterNP": {
+        "name": "dAcOShutter_c::m_allocator",
+        "states": [
+            "dAcOShutter_c::StateID_Wait",
+            "dAcOShutter_c::StateID_Open",
+            "dAcOShutter_c::StateID_Close"
+        ]
+    },
+    "d_a_e_phNP": {
+        "name": "dAcEPh_c::m_allocator",
+        "states": [
+            "dAcEPh_c::StateID_Stop",
+            "dAcEPh_c::StateID_PathMove"
+        ]
+    },
+    "d_a_demo_npc_birdNP": {
+        "name": "dAcDemoNpcBird_c::m_allocator",
+        "states": [
+            "dAcDemoNpcBird_c::StateID_Hide",
+            "dAcDemoNpcBird_c::StateID_Call",
+            "dAcDemoNpcBird_c::StateID_Fly1",
+            "dAcDemoNpcBird_c::StateID_Fly2",
+            "dAcDemoNpcBird_c::StateID_Fly3"
+        ]
+    },
+    "d_a_obj_stopper_rockNP": {
+        "name": "dAcOstopperRock_c::m_allocator",
+        "states": [
+            "dAcOstopperRock_c::StateID_Wait",
+            "dAcOstopperRock_c::StateID_Bomb"
+        ]
+    },
+    "d_a_obj_wood_boardNP": {
+        "name": "dAcOwoodBoard_c::m_allocator",
+        "states": [
+            "dAcOwoodBoard_c::StateID_Wait",
+            "dAcOwoodBoard_c::StateID_Break"
+        ]
+    },
+    "d_a_e_gumarmNP": {
+        "name": "dAcGumarm_c::m_allocator",
+        "states": [
+            "dAcGumarm_c::StateID_Hide",
+            "dAcGumarm_c::StateID_HideWait",
+            "dAcGumarm_c::StateID_HideWalk",
+            "dAcGumarm_c::StateID_HideMove",
+            "dAcGumarm_c::StateID_Wait",
+            "dAcGumarm_c::StateID_Walk",
+            "dAcGumarm_c::StateID_Appear",
+            "dAcGumarm_c::StateID_KeepRock",
+            "dAcGumarm_c::StateID_AttackMove",
+            "dAcGumarm_c::StateID_Attack",
+            "dAcGumarm_c::StateID_Lost",
+            "dAcGumarm_c::StateID_Find",
+            "dAcGumarm_c::StateID_FreezeStart",
+            "dAcGumarm_c::StateID_Freeze",
+            "dAcGumarm_c::StateID_FreezeEnd",
+            "dAcGumarm_c::StateID_Sink",
+            "dAcGumarm_c::StateID_KeepSink",
+            "dAcGumarm_c::StateID_Dead"
+        ]
+    },
+    "d_a_obj_sw_bank_smallNP": {
+        "name": "dAcOSwBankSmall_c::m_allocator",
+        "states": [
+            "dAcOSwBankSmall_c::StateID_Wait",
+            "dAcOSwBankSmall_c::StateID_Dial",
+            "dAcOSwBankSmall_c::StateID_Shift",
+            "dAcOSwBankSmall_c::StateID_Correct",
+            "dAcOSwBankSmall_c::StateID_CorrectEnd",
+            "dAcOSwBankSmall_c::StateID_BcDemo"
+        ]
+    },
+    "d_a_obj_amberNP": {
+        "name": "dAcOAmber_c::m_allocator",
+        "states": []
+    },
+    "d_a_avater_bulletNP": {
+        "name": "dAcAvater_Bullet_c::m_allocator",
+        "states": [
+            "dAcAvater_Bullet_c::StateID_Move",
+            "dAcAvater_Bullet_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_teni_railNP": {
+        "name": "dAcOTeniRail::m_allocator",
+        "states": []
+    },
+    "d_a_obj_island_LODNP": {
+        "name": "dAcOislandLOD_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_megami_islandNP": {
+        "name": "dAcOmegamiIsland_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_fortune_ringNP": {
+        "name": "dAcOfortuneRing_c::m_allocator",
+        "states": [
+            "dAcOfortuneRing_c::StateID_Wait",
+            "dAcOfortuneRing_c::StateID_Play"
+        ]
+    },
+    "d_a_b_girahimuNP": {
+        "name": "dAcGirahimu_c::m_allocator",
+        "states": [
+            "dAcGirahimu_c::StateID_G_SwordDemo",
+            "dAcGirahimu_c::StateID_G_SwordWait",
+            "dAcGirahimu_c::StateID_G_SwordDamage",
+            "dAcGirahimu_c::StateID_G_SwordPiyori",
+            "dAcGirahimu_c::StateID_Knife",
+            "dAcGirahimu_c::StateID_KnifeAttack",
+            "dAcGirahimu_c::StateID_Death",
+            "dAcGirahimu_c::StateID_DeathMiniGame",
+            "dAcGirahimu_c::StateID_CatchDamage"
+        ]
+    },
+    "d_a_npc_mole_normal2NP": {
+        "name": "dAcNpcMoleNormal2_c::m_allocator",
+        "states": [
+            "NPC_MOLE_NML_CLASS::StateID_DisAppear",
+            "NPC_MOLE_NML_CLASS::StateID_Appear",
+            "NPC_MOLE_NML_CLASS::StateID_Surprised"
+        ]
+    },
+    "d_a_obj_treasure_island_bNP": {
+        "name": "dAcOtreasureIslandB_c::m_allocator",
+        "states": [
+            "dAcOtreasureIslandB_c::StateID_Wait",
+            "dAcOtreasureIslandB_c::StateID_CoverBreak"
+        ]
+    },
+    "d_a_obj_stone_standNP": {
+        "name": "dAcOStoneStand_c::m_allocator",
+        "states": [
+            "dAcOStoneStand_c::StateID_Wait",
+            "dAcOStoneStand_c::StateID_Shake",
+            "dAcOStoneStand_c::StateID_OnSwitch"
+        ]
+    },
+    "d_a_npc_sorajima_man_eNP": {
+        "name": "dAcNpcSoManE_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_properaNP": {
+        "name": "dAcObjPropera_c::m_allocator",
+        "states": [
+            "dAcObjPropera_c::StateID_DemoThrow"
+        ]
+    },
+    "d_a_obj_goddess_statueNP": {
+        "name": "dAcOGoddessStatue_c::m_allocator",
+        "states": [
+            "dAcOGoddessStatue_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_cannonNP": {
+        "name": "dAcOcannon_c::m_allocator",
+        "states": [
+            "dAcOcannon_c::StateID_Wait",
+            "dAcOcannon_c::StateID_PreCharge",
+            "dAcOcannon_c::StateID_Move",
+            "dAcOcannon_c::StateID_AfterCharge",
+            "dAcOcannon_c::StateID_Shot",
+            "dAcOcannon_c::StateID_After"
+        ]
+    },
+    "d_a_bird_kobunANP": {
+        "name": "dBird_KobunA_c::m_allocator",
+        "states": [
+            "dBird_KobunA_c::StateID_Wait",
+            "dBird_KobunA_c::StateID_Chase",
+            "dBird_KobunA_c::StateID_FrontAttack",
+            "dBird_KobunA_c::StateID_PathMove",
+            "dBird_KobunA_c::StateID_LevelUpDemo",
+            "dBird_KobunA_c::StateID_BodyAttack"
+        ]
+    },
+    "d_t_restart_time_stoneNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_stage_krakenNP": {
+        "name": "dAcOstageKraken_c::m_allocator",
+        "states": [
+            "dAcOstageKraken_c::StateID_Wait",
+            "dAcOstageKraken_c::StateID_MarkLight",
+            "dAcOstageKraken_c::StateID_AroundMarkLight",
+            "dAcOstageKraken_c::StateID_MarkVanish"
+        ]
+    },
+    "d_a_obj_oct_grassNP": {
+        "name": "dAcOOctGrass_c::m_allocator",
+        "states": [
+            "dAcOOctGrass_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_control_panelNP": {
+        "name": "dAcOCtrlPnl_c::m_allocator",
+        "states": [
+            "dAcOCtrlPnl_c::StateID_Wait",
+            "dAcOCtrlPnl_c::StateID_Control",
+            "dAcOCtrlPnl_c::StateID_EndEvent"
+        ]
+    },
+    "d_a_obj_sand_floorNP": {
+        "name": "dAcOSandFloor_c::m_allocator",
+        "states": [
+            "dAcOSandFloor_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_junk_nightNP": {
+        "name": "dAcNpcJunkNight_c::m_allocator",
+        "states": [
+            "dAcNpcJunkNight_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_time_blockNP": {
+        "name": "dAcOTimeBlock_c::m_allocator",
+        "states": [
+            "dAcOTimeBlock_c::StateID_Wait",
+            "dAcOTimeBlock_c::StateID_TimeSlip"
+        ]
+    },
+    "d_a_obj_gearNP": {
+        "name": "dAcOGear_c::m_allocator",
+        "states": [
+            "dAcOGear_c::StateID_Wait",
+            "dAcOGear_c::StateID_Rotation",
+            "dAcOGear_c::StateID_Deboost",
+            "dAcOGear_c::StateID_Stop"
+        ]
+    },
+    "d_a_obj_appear_bridgeNP": {
+        "name": "dAcOappearBridge_c::m_allocator",
+        "states": [
+            "dAcOappearBridge_c::StateID_Wait",
+            "dAcOappearBridge_c::StateID_Appear",
+            "dAcOappearBridge_c::StateID_Disappear"
+        ]
+    },
+    "d_a_obj_flying_clawshot_targetNP": {
+        "name": "dAcOFlyingClawshotTarget_c::m_allocator",
+        "states": []
+    },
+    "d_a_npc_kobun2NP": {
+        "name": "dAcNpcKbn2_c::m_allocator",
+        "states": [
+            "dAcNpcKbn2_c::StateID_RaceInit",
+            "dAcNpcKbn2_c::StateID_RaceRun",
+            "dAcNpcKbn2_c::StateID_RaceDive",
+            "dAcNpcKbn2_c::StateID_RaceRide"
+        ]
+    },
+    "d_t_scene_changeNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_t_time_area_checkNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_tackleNP": {
+        "name": "dAcOTackle_c::m_allocator",
+        "states": [
+            "dAcOTackle_c::StateID_Wait",
+            "dAcOTackle_c::StateID_Broken",
+            "dAcOTackle_c::StateID_ResqueMole"
+        ]
+    },
+    "d_a_obj_tablewareNP": {
+        "name": "dAcOTableWare_c::m_allocator",
+        "states": [
+            "dAcOTableWare_c::StateID_Wait",
+            "dAcOTableWare_c::StateID_Down",
+            "dAcOTableWare_c::StateID_Drop",
+            "dAcOTableWare_c::StateID_WindMove"
+        ]
+    },
+    "d_a_npc_toilet_ghostNP": {
+        "name": "dAcNpcToiletGhost_c::m_allocator",
+        "states": [
+            "dAcNpcToiletGhost_c::StateID_Door1",
+            "dAcNpcToiletGhost_c::StateID_Door2",
+            "dAcNpcToiletGhost_c::StateID_Kill",
+            "dAcNpcToiletGhost_c::StateID_Delusion",
+            "dAcNpcToiletGhost_c::StateID_Wait1st",
+            "dAcNpcToiletGhost_c::StateID_Wait"
+        ]
+    },
+    "d_a_e_gunhobNP": {
+        "name": "dAcEgunhob_c::m_allocator",
+        "states": [
+            "dAcEgunhob_c::StateID_BulletMove",
+            "dAcEgunhob_c::StateID_BulletReflection",
+            "dAcEgunhob_c::StateID_BombWait",
+            "dAcEgunhob_c::StateID_BombMove",
+            "dAcEgunhob_c::StateID_BombDelete",
+            "dAcEgunhob_c::StateID_BombBomb"
+        ]
+    },
+    "d_a_obj_cloud_diveNP": {
+        "name": "dAcOcloudDive_c::m_allocator",
+        "states": [
+            "dAcOcloudDive_c::StateID_Wait",
+            "dAcOcloudDive_c::StateID_Dead"
+        ]
+    },
+    "d_a_e_mr_shieldNP": {
+        "name": "dAcE_Mr_Shield_c::m_allocator",
+        "states": [
+            "dAcE_Mr_Shield_c::StateID_Move",
+            "dAcE_Mr_Shield_c::StateID_Wait"
+        ]
+    },
+    "d_a_co_testNP": {
+        "name": "?",
+        "states": [
+            "dAcCoTest::StateID_Wait"
+        ]
+    },
+    "d_a_obj_wind04NP": {
+        "name": "dAcOwind04_c::m_allocator",
+        "states": [
+            "dAcOwind04_c::StateID_Wait",
+            "dAcOwind04_c::StateID_Loop",
+            "dAcOwind04_c::StateID_Stop",
+            "dAcOwind04_c::StateID_Dead"
+        ]
+    },
+    "d_a_npc_mole_normalNP": {
+        "name": "dAcNpcMoleNormal_c::m_allocator",
+        "states": [
+            "NPC_MOLE_NML_CLASS::StateID_DisAppear",
+            "NPC_MOLE_NML_CLASS::StateID_Appear",
+            "NPC_MOLE_NML_CLASS::StateID_Surprised"
+        ]
+    },
+    "d_t_gekotagNP": {
+        "name": "?",
+        "states": [
+            "dTgGekoTag::StateID_Wait"
+        ]
+    },
+    "d_a_npc_bird_zeldaNP": {
+        "name": "dAcNpcBdz_c::m_allocator",
+        "states": [
+            "dAcNpcBdz_c::StateID_Wait",
+            "dAcNpcBdz_c::StateID_Demo"
+        ]
+    },
+    "d_a_obj_spikeNP": {
+        "name": "dAcOspike_c::m_allocator",
+        "states": [
+            "dAcOspike_c::StateID_Wait"
+        ]
+    },
+    "d_a_b_kr_armNP": {
+        "name": "dAcBkra_c::m_allocator",
+        "states": [
+            "dAcBkra_c::StateID_Wait",
+            "dAcBkra_c::StateID_InRoom",
+            "dAcBkra_c::StateID_InRoomDemo",
+            "dAcBkra_c::StateID_Escape",
+            "dAcBkra_c::StateID_AttackA",
+            "dAcBkra_c::StateID_AttackB",
+            "dAcBkra_c::StateID_Damage"
+        ]
+    },
+    "d_a_obj_pumpkin_barNP": {
+        "name": "dAcOpumpkinBar_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_vacu_dustNP": {
+        "name": "dAcOVacuDust::m_allocator",
+        "states": []
+    },
+    "d_t_belt_obstacleNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_npc_bird_sowomanNP": {
+        "name": "dAcNpcBdsw_c::m_allocator",
+        "states": [
+            "dAcNpcBdsw_c::StateID_Wait",
+            "dAcNpcBdsw_c::StateID_Demo"
+        ]
+    },
+    "d_a_b_asuraNP": {
+        "name": "dAcBAsura_c::m_allocator",
+        "states": [
+            "dAcBAsura_c::StateID_Attack",
+            "dAcBAsura_c::StateID_AttackHigh",
+            "dAcBAsura_c::StateID_AttackB",
+            "dAcBAsura_c::StateID_BreakLegB",
+            "dAcBAsura_c::StateID_BreakWaitB",
+            "dAcBAsura_c::StateID_ChargeB",
+            "dAcBAsura_c::StateID_CutAllB",
+            "dAcBAsura_c::StateID_Damage",
+            "dAcBAsura_c::StateID_DamageB",
+            "dAcBAsura_c::StateID_Dead",
+            "dAcBAsura_c::StateID_DeadB",
+            "dAcBAsura_c::StateID_Disconnect",
+            "dAcBAsura_c::StateID_DisconnectB",
+            "dAcBAsura_c::StateID_Fire",
+            "dAcBAsura_c::StateID_Recover",
+            "dAcBAsura_c::StateID_RecoverB",
+            "dAcBAsura_c::StateID_StunB",
+            "dAcBAsura_c::StateID_SummonB",
+            "dAcBAsura_c::StateID_SwordGame",
+            "dAcBAsura_c::StateID_Wait",
+            "dAcBAsura_c::StateID_WaitB",
+            "dAcBAsura_c::StateID_Start",
+            "dAcBAsura_c::StateID_StartB",
+            "dAcBAsura_c::StateID_Test",
+            "dAcBAsura_c::StateID_TestB"
+        ]
+    },
+    "d_a_fishNP": {
+        "name": "dAcFish_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_vortexNP": {
+        "name": "dAcOVortex_c::m_allocator",
+        "states": [
+            "dAcOVortex_c::StateID_Wait",
+            "dAcOVortex_c::StateID_Appear"
+        ]
+    },
+    "d_a_b_asura_armNP": {
+        "name": "dAcAsuraArm_c::m_allocator",
+        "states": [
+            "dAcAsuraArm_c::StateID_Pulled",
+            "dAcAsuraArm_c::StateID_Wait",
+            "dAcAsuraArm_c::StateID_Demo"
+        ]
+    },
+    "d_a_obj_truckNP": {
+        "name": "dAcOtruck_c::m_allocator",
+        "states": [
+            "dAcOtruck_c::StateID_Wait",
+            "dAcOtruck_c::StateID_Ready",
+            "dAcOtruck_c::StateID_PathMove",
+            "dAcOtruck_c::StateID_Sink"
+        ]
+    },
+    "d_a_obj_skullNP": {
+        "name": "dAcOSkull_c::m_allocator",
+        "states": [
+            "dAcOSkull_c::StateID_NormalWait",
+            "dAcOSkull_c::StateID_GrabCarry",
+            "dAcOSkull_c::StateID_BoomerangCarry",
+            "dAcOSkull_c::StateID_WhipCarry",
+            "dAcOSkull_c::StateID_Dead"
+        ]
+    },
+    "d_a_e_sfNP": {
+        "name": "dAcEsf_c::m_allocator",
+        "states": [
+            "dAcEsf_c::StateID_Standby",
+            "dAcEsf_c::StateID_Home",
+            "dAcEsf_c::StateID_Fight",
+            "dAcEsf_c::StateID_Attack",
+            "dAcEsf_c::StateID_AttackB",
+            "dAcEsf_c::StateID_Attack2",
+            "dAcEsf_c::StateID_Guard",
+            "dAcEsf_c::StateID_Guard2",
+            "dAcEsf_c::StateID_GuardJust",
+            "dAcEsf_c::StateID_Damage",
+            "dAcEsf_c::StateID_Fail"
+        ]
+    },
+    "d_t_musasabiNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_t_barrelNP": {
+        "name": "?",
+        "states": [
+            "dTgBarrel_c::StateID_Wait",
+            "dTgBarrel_c::StateID_Stop"
+        ]
+    },
+    "d_a_obj_water_surfaceNP": {
+        "name": "dAcOwaterSurface_c::m_allocator",
+        "states": [
+            "dAcOwaterSurface_c::StateID_Wait",
+            "dAcOwaterSurface_c::StateID_Move",
+            "dAcOwaterSurface_c::StateID_After1",
+            "dAcOwaterSurface_c::StateID_After2"
+        ]
+    },
+    "d_a_npc_senpaiNP": {
+        "name": "dAcNpcSenpai_c::m_allocator",
+        "states": [
+            "dAcNpcSenpai_c::StateID_ReadyWatch1",
+            "dAcNpcSenpai_c::StateID_ReadyWatch2",
+            "dAcNpcSenpai_c::StateID_Watch",
+            "dAcNpcSenpai_c::StateID_Think"
+        ]
+    },
+    "d_a_obj_chairNP": {
+        "name": "dAcOChair_c::m_allocator",
+        "states": [
+            "dAcOChair_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_stream_lavaNP": {
+        "name": "dAcOstreamLava_c::m_allocator",
+        "states": [
+            "dAcOstreamLava_c::StateID_Wait",
+            "dAcOstreamLava_c::StateID_Stream"
+        ]
+    },
+    "d_a_obj_stage_crackNP": {
+        "name": "dAcOstageCrack_c::m_allocator",
+        "states": [
+            "dAcOstageCrack_c::StateID_Wait",
+            "dAcOstageCrack_c::StateID_Stay",
+            "dAcOstageCrack_c::StateID_Reverse",
+            "dAcOstageCrack_c::StateID_Delete"
+        ]
+    },
+    "d_a_obj_terry_holeNP": {
+        "name": "dAcOTerryHole_c::m_allocator",
+        "states": [
+            "dAcOTerryHole_c::StateID_Wait"
+        ]
+    },
+    "d_a_e_hidokarisNP": {
+        "name": "dAcEhidokaris_c::m_allocator",
+        "states": [
+            "dAcEhidokaris_c::StateID_Wait",
+            "dAcEhidokaris_c::StateID_BombWait",
+            "dAcEhidokaris_c::StateID_Dead"
+        ]
+    },
+    "d_t_ride_rock_setNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_himoNP": {
+        "name": "dAcOhimo_c::m_allocator",
+        "states": [
+            "dAcOhimo_c::StateID_Wait"
+        ]
+    },
+    "d_a_e_gueNP": {
+        "name": "dAcEgue_c::m_allocator",
+        "states": [
+            "dAcEgue_c::StateID_Attack",
+            "dAcEgue_c::StateID_Blow",
+            "dAcEgue_c::StateID_Damage",
+            "dAcEgue_c::StateID_FlyHome",
+            "dAcEgue_c::StateID_FlyPlayer",
+            "dAcEgue_c::StateID_Return",
+            "dAcEgue_c::StateID_Stay",
+            "dAcEgue_c::StateID_Stun"
+        ]
+    },
+    "d_a_b_bbshockwaveNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_D3_dummyNP": {
+        "name": "dAcOD3Dummy_c::m_allocator",
+        "states": [
+            "dAcOD3Dummy_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_sorajima_boyNP": {
+        "name": "dAcNpcSorajimaBoy_c::m_allocator",
+        "states": [
+            "dAcNpcSorajimaBoy_c::StateID_RollAttackReady",
+            "dAcNpcSorajimaBoy_c::StateID_RollAttackRun",
+            "dAcNpcSorajimaBoy_c::StateID_RollAttack",
+            "dAcNpcSorajimaBoy_c::StateID_RollAttackStand",
+            "dAcNpcSorajimaBoy_c::StateID_RollAttackWalkReturn",
+            "dAcNpcSorajimaBoy_c::StateID_AttackAfterWait",
+            "dAcNpcSorajimaBoy_c::StateID_Pursue",
+            "dAcNpcSorajimaBoy_c::StateID_Regret",
+            "dAcNpcSorajimaBoy_c::StateID_Pain",
+            "dAcNpcSorajimaBoy_c::StateID_Surprised",
+            "dAcNpcSorajimaBoy_c::StateID_Withstand"
+        ]
+    },
+    "d_a_npc_senpaia_motherNP": {
+        "name": "dAcNpcSenpaiAMother_c::m_allocator",
+        "states": []
+    },
+    "d_a_npc_mole_salNP": {
+        "name": "dAcNpcMoleSal_c::m_allocator",
+        "states": [
+            "dAcNpcMoleSal_c::StateID_Wait",
+            "dAcNpcMoleSal_c::StateID_After"
+        ]
+    },
+    "d_a_obj_sword_stabNP": {
+        "name": "dAcOWarp_c::m_allocator",
+        "states": [
+            "dAcOSwordStab_c::StateID_Wait"
+        ]
+    },
+    "d_a_insect_antNP": {
+        "name": "dAcInsectAnt_c::m_allocator",
+        "states": [
+            "dAcInsectAnt_c::StateID_Wait",
+            "dAcInsectAnt_c::StateID_Walk",
+            "dAcInsectAnt_c::StateID_Escape",
+            "dAcInsectAnt_c::StateID_Dig",
+            "dAcInsectAnt_c::StateID_Dead",
+            "dAcInsectAnt_c::StateID_Finalize"
+        ]
+    },
+    "d_a_obj_bulb_switchNP": {
+        "name": "dAcObulbSwitch_c::m_allocator",
+        "states": [
+            "dAcObulbSwitch_c::StateID_Close",
+            "dAcObulbSwitch_c::StateID_Open",
+            "dAcObulbSwitch_c::StateID_Move"
+        ]
+    },
+    "d_a_e_amNP": {
+        "name": "dAcEAm_c::m_allocator",
+        "states": [
+            "dAcEAm_c::StateID_Stop",
+            "dAcEAm_c::StateID_Appear",
+            "dAcEAm_c::StateID_StartWait",
+            "dAcEAm_c::StateID_Normal",
+            "dAcEAm_c::StateID_RetMove",
+            "dAcEAm_c::StateID_LongJump",
+            "dAcEAm_c::StateID_Wait",
+            "dAcEAm_c::StateID_Chance",
+            "dAcEAm_c::StateID_ChanceWait",
+            "dAcEAm_c::StateID_Damage",
+            "dAcEAm_c::StateID_Dead"
+        ]
+    },
+    "d_t_pumpkin_clayNP": {
+        "name": "?",
+        "states": [
+            "dTgPumpkinClay_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_aku_humanNP": {
+        "name": "dAcNpcAkuHuman_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_time_stoneNP": {
+        "name": "dAcOTimeStone_c::m_allocator",
+        "states": [
+            "dAcOTimeStone_c::StateID_Wait",
+            "dAcOTimeStone_c::StateID_TimeSlip",
+            "dAcOTimeStone_c::StateID_TimeSlipEnd"
+        ]
+    },
+    "d_t_sound_areaNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_npc_mole_tackle2NP": {
+        "name": "dAcNpcMoleTackle2_c::m_allocator",
+        "states": [
+            "dAcNpcMoleTackle2_c::StateID_DisAppear",
+            "dAcNpcMoleTackle2_c::StateID_Appear",
+            "dAcNpcMoleTackle2_c::StateID_Surprised"
+        ]
+    },
+    "d_a_obj_city_waterNP": {
+        "name": "dAcOcityWater_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_sword_candleNP": {
+        "name": "dAcOSwordCandle_c::m_allocator",
+        "states": [
+            "dAcOSwordCandle_c::StateID_Wait",
+            "dAcOSwordCandle_c::StateID_WaitClear"
+        ]
+    },
+    "d_a_obj_sw_dirNP": {
+        "name": "dAcOSwDir_c::m_allocator",
+        "states": [
+            "dAcOSwDir_c::StateID_Wait",
+            "dAcOSwDir_c::StateID_Done"
+        ]
+    },
+    "d_a_obj_ballista_f3NP": {
+        "name": "dAcOBallistaF3_c::m_allocator",
+        "states": [
+            "dAcOBallistaF3_c::StateID_Wait",
+            "dAcOBallistaF3_c::StateID_Shot",
+            "dAcOBallistaF3_c::StateID_Shot2",
+            "dAcOBallistaF3_c::StateID_ShotEnd",
+            "dAcOBallistaF3_c::StateID_FallStone",
+            "dAcOBallistaF3_c::StateID_EndDemo"
+        ]
+    },
+    "d_a_b_mgNP": {
+        "name": "dAcBmg_c::m_allocator",
+        "states": [
+            "dAcBmg_c::StateID_Start",
+            "dAcBmg_c::StateID_DiveWait",
+            "dAcBmg_c::StateID_Dive",
+            "dAcBmg_c::StateID_DiveWalk",
+            "dAcBmg_c::StateID_Fight",
+            "dAcBmg_c::StateID_HandAttack",
+            "dAcBmg_c::StateID_TailAttack",
+            "dAcBmg_c::StateID_DiveAttack",
+            "dAcBmg_c::StateID_LostArm",
+            "dAcBmg_c::StateID_MiddleDemo",
+            "dAcBmg_c::StateID_ArmDamage",
+            "dAcBmg_c::StateID_CoreDamage",
+            "dAcBmg_c::StateID_EyeBind",
+            "dAcBmg_c::StateID_BombDamage",
+            "dAcBmg_c::StateID_VacuumDamage",
+            "dAcBmg_c::StateID_End"
+        ]
+    },
+    "d_a_obj_diviner_crystalNP": {
+        "name": "dAcODivinerCrystal_c::m_allocator",
+        "states": [
+            "dAcODivinerCrystal_c::StateID_DemoThrow",
+            "dAcODivinerCrystal_c::StateID_Stay"
+        ]
+    },
+    "d_a_heartfNP": {
+        "name": "dAcHeartf_c::m_allocator",
+        "states": [
+            "dAcHeartf_c::StateID_Wait",
+            "dAcHeartf_c::StateID_Wind",
+            "dAcHeartf_c::StateID_Break",
+            "dAcHeartf_c::StateID_Sync",
+            "dAcHeartf_c::StateID_Water",
+            "dAcHeartf_c::StateID_Spore"
+        ]
+    },
+    "d_a_obj_siren_barrierNP": {
+        "name": "dAcOSirenBarrier_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_sw_bankNP": {
+        "name": "dAcOSwBank_c::m_allocator",
+        "states": [
+            "dAcOSwBank_c::StateID_Wait",
+            "dAcOSwBank_c::StateID_Dial",
+            "dAcOSwBank_c::StateID_Shift",
+            "dAcOSwBank_c::StateID_Correct"
+        ]
+    },
+    "d_a_obj_vacu_dust_partsNP": {
+        "name": "dAcOVacuDustParts_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_lotus_seedNP": {
+        "name": "dAcOLotusSeed_c::m_allocator",
+        "states": [
+            "dAcOLotusSeed_c::StateID_Init",
+            "dAcOLotusSeed_c::StateID_Stick",
+            "dAcOLotusSeed_c::StateID_Wait",
+            "dAcOLotusSeed_c::StateID_CarryGrab",
+            "dAcOLotusSeed_c::StateID_CarryWhip",
+            "dAcOLotusSeed_c::StateID_CarryBeetle",
+            "dAcOLotusSeed_c::StateID_Dead"
+        ]
+    },
+    "d_a_obj_bladeNP": {
+        "name": "dAcOblade_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_fence_konsaiNP": {
+        "name": "dAcOfenceKonsai_c::m_allocator",
+        "states": []
+    },
+    "d_a_npc_old_impaNP": {
+        "name": "dAcNpcOim_c::m_allocator",
+        "states": [
+            "dAcNpcOim_c::StateID_Pain",
+            "dAcNpcOim_c::StateID_Withstand",
+            "dAcNpcOim_c::StateID_Wait",
+            "dAcNpcOim_c::StateID_Demo"
+        ]
+    },
+    "d_t_streamNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_t_dungeon_startNP": {
+        "name": "dAcDungeonStartTag_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_rouletteNP": {
+        "name": "dAcObjRoulette_c::m_allocator",
+        "states": [
+            "dAcObjRoulette_c::StateID_DemoThrow",
+            "dAcObjRoulette_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_mole_soilNP": {
+        "name": "dAcOmoleSoil_c::m_allocator",
+        "states": [
+            "dAcOmoleSoil_c::StateID_Wait",
+            "dAcOmoleSoil_c::StateID_Appear",
+            "dAcOmoleSoil_c::StateID_DisAppear"
+        ]
+    },
+    "d_t_siren_time_attackNP": {
+        "name": "?",
+        "states": [
+            "dTgSirenTimeAttack_c::StateID_Wait",
+            "dTgSirenTimeAttack_c::StateID_Manage"
+        ]
+    },
+    "d_a_npc_moleNP": {
+        "name": "dAcNpcMole_c::m_allocator",
+        "states": [
+            "dAcNpcMole_c::StateID_Wait",
+            "dAcNpcMole_c::StateID_Run",
+            "dAcNpcMole_c::StateID_Curve",
+            "dAcNpcMole_c::StateID_WallHit",
+            "dAcNpcMole_c::StateID_Back",
+            "dAcNpcMole_c::StateID_Catch",
+            "dAcNpcMole_c::StateID_TackleWait",
+            "dAcNpcMole_c::StateID_Appear",
+            "dAcNpcMole_c::StateID_GiveItem",
+            "dAcNpcMole_c::StateID_GoUnderground",
+            "dAcNpcMole_c::StateID_PathMoveBack2",
+            "dAcNpcMole_c::StateID_Pain",
+            "dAcNpcMole_c::StateID_Surprised",
+            "dAcNpcMole_c::StateID_Withstand"
+        ]
+    },
+    "d_t_ship_slopeNP": {
+        "name": "?",
+        "states": [
+            "dTgShipSlope_c::StateID_Wait",
+            "dTgShipSlope_c::StateID_Stop"
+        ]
+    },
+    "d_t_noeffect_areaNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_b_bigbossbaseNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_bird_kobunBNP": {
+        "name": "dBird_KobunB_c::m_allocator",
+        "states": [
+            "dBird_KobunB_c::StateID_Wait",
+            "dBird_KobunB_c::StateID_Chase",
+            "dBird_KobunB_c::StateID_FrontAttack",
+            "dBird_KobunB_c::StateID_PathMove",
+            "dBird_KobunB_c::StateID_BodyAttack",
+            "dBird_KobunB_c::StateID_LevelUpDemo"
+        ]
+    },
+    "d_a_npc_sorajima_maleNP": {
+        "name": "dAcNpcSorajimaMale_c::m_allocator",
+        "states": [
+            "dAcNpcSorajimaMale_c::StateID_Walk"
+        ]
+    },
+    "d_a_obj_light_lineNP": {
+        "name": "dAcOlightLine_c::m_allocator",
+        "states": [
+            "dAcOlightLine_c::StateID_OutSide",
+            "dAcOlightLine_c::StateID_InSide"
+        ]
+    },
+    "d_a_obj_bridge_fallNP": {
+        "name": "dAcOBridgeFall_c::m_allocator",
+        "states": [
+            "dAcOBridgeFall_c::StateID_Wait",
+            "dAcOBridgeFall_c::StateID_Fall",
+            "dAcOBridgeFall_c::StateID_Shake"
+        ]
+    },
+    "d_a_obj_asura_pillarNP": {
+        "name": "dAcAsuraPillar_c::m_allocator",
+        "states": [
+            "dAcAsuraPillar_c::StateID_Damage",
+            "dAcAsuraPillar_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_terry_islandNP": {
+        "name": "dAcOterryIsland_c::m_allocator",
+        "states": [
+            "dAcOterryIsland_c::StateID_Wait",
+            "dAcOterryIsland_c::StateID_Vanish",
+            "dAcOterryIsland_c::StateID_Vacuum",
+            "dAcOterryIsland_c::StateID_Smoke"
+        ]
+    },
+    "d_a_obj_windmillNP": {
+        "name": "dAcOwindmill_c::m_allocator",
+        "states": [
+            "dAcOwindmill_c::StateID_Wait",
+            "dAcOwindmill_c::StateID_CameraMove",
+            "dAcOwindmill_c::StateID_Move",
+            "dAcOwindmill_c::StateID_Collect",
+            "dAcOwindmill_c::StateID_CollectStick"
+        ]
+    },
+    "d_t_sporeNP": {
+        "name": "dSporeTag_c::m_allocator",
+        "states": [
+            "dSporeTag_c::StateID_Wait"
+        ]
+    },
+    "d_a_insect_ladybugNP": {
+        "name": "dAcInsectLadybug_c::m_allocator",
+        "states": [
+            "dAcInsectLadybug_c::StateID_Wait",
+            "dAcInsectLadybug_c::StateID_Walk",
+            "dAcInsectLadybug_c::StateID_Escape",
+            "dAcInsectLadybug_c::StateID_Fly",
+            "dAcInsectLadybug_c::StateID_Finalize",
+            "dAcInsectLadybug_c::StateID_Dead"
+        ]
+    },
+    "d_a_npc_grdNP": {
+        "name": "dAcNpcGrd_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_rock_boatNP": {
+        "name": "dAcORockBoat_c::m_allocator",
+        "states": [
+            "dAcORockBoat_c::StateID_Appear",
+            "dAcORockBoat_c::StateID_Wait",
+            "dAcORockBoat_c::StateID_Move",
+            "dAcORockBoat_c::StateID_PreSink",
+            "dAcORockBoat_c::StateID_Sink"
+        ]
+    },
+    "d_a_obj_shutter_change_sceneNP": {
+        "name": "dAcOShutterChangeScene_c::m_allocator",
+        "states": [
+            "dAcOShutterChangeScene_c::StateID_WaitOpenShutter",
+            "dAcOShutterChangeScene_c::StateID_WaitOpenShutterForEvent",
+            "dAcOShutterChangeScene_c::StateID_OpenShutter",
+            "dAcOShutterChangeScene_c::StateID_WaitCloseShutter",
+            "dAcOShutterChangeScene_c::StateID_CloseShutter",
+            "dAcOShutterChangeScene_c::StateID_WaitOpenFence",
+            "dAcOShutterChangeScene_c::StateID_OpenFence",
+            "dAcOShutterChangeScene_c::StateID_CloseFence",
+            "dAcOShutterChangeScene_c::StateID_ObserveSwEye"
+        ]
+    },
+    "d_a_npc_mole_tackleNP": {
+        "name": "dAcNpcMoleTackle_c::m_allocator",
+        "states": [
+            "dAcNpcMoleTackle_c::StateID_DisAppear",
+            "dAcNpcMoleTackle_c::StateID_Appear",
+            "dAcNpcMoleTackle_c::StateID_Surprised"
+        ]
+    },
+    "d_a_obj_bbstoneNP": {
+        "name": "dAcOBBStone::m_allocator",
+        "states": [
+            "dAcOBBStone::StateID_Wait",
+            "dAcOBBStone::StateID_FirstWait",
+            "dAcOBBStone::StateID_FirstDemo"
+        ]
+    },
+    "d_a_e_hb_leafNP": {
+        "name": "dAcEhb_leaf_c::m_allocator",
+        "states": []
+    },
+    "d_a_npc_ce_ladyNP": {
+        "name": "dAcNpcCeLady_c::m_allocator",
+        "states": [
+            "dAcNpcCeLady_c::StateID_ReadyWatch1",
+            "dAcNpcCeLady_c::StateID_ReadyWatch2",
+            "dAcNpcCeLady_c::StateID_Watch",
+            "dAcNpcCeLady_c::StateID_Surprised"
+        ]
+    },
+    "d_a_e_lizarufosNP": {
+        "name": "dAcELizarufos_c::m_allocator",
+        "states": [
+            "dAcELizarufos_c::StateID_Demo",
+            "dAcELizarufos_c::StateID_Wait",
+            "dAcELizarufos_c::StateID_Kyoro",
+            "dAcELizarufos_c::StateID_Find",
+            "dAcELizarufos_c::StateID_Find2",
+            "dAcELizarufos_c::StateID_Move",
+            "dAcELizarufos_c::StateID_Search",
+            "dAcELizarufos_c::StateID_PathMove",
+            "dAcELizarufos_c::StateID_FightWait",
+            "dAcELizarufos_c::StateID_Provoke",
+            "dAcELizarufos_c::StateID_ArmAttack",
+            "dAcELizarufos_c::StateID_TailAttack",
+            "dAcELizarufos_c::StateID_FireAttack",
+            "dAcELizarufos_c::StateID_Step",
+            "dAcELizarufos_c::StateID_BackJump",
+            "dAcELizarufos_c::StateID_CliffJump",
+            "dAcELizarufos_c::StateID_GuardWait",
+            "dAcELizarufos_c::StateID_Guard",
+            "dAcELizarufos_c::StateID_JustGuard",
+            "dAcELizarufos_c::StateID_RetMove",
+            "dAcELizarufos_c::StateID_Damage",
+            "dAcELizarufos_c::StateID_Falter",
+            "dAcELizarufos_c::StateID_Stun",
+            "dAcELizarufos_c::StateID_Fall",
+            "dAcELizarufos_c::StateID_Dead"
+        ]
+    },
+    "d_a_obj_block_ropeNP": {
+        "name": "dAcOblockRope_c::m_allocator",
+        "states": [
+            "dAcOblockRope_c::StateID_Wait",
+            "dAcOblockRope_c::StateID_Delete"
+        ]
+    },
+    "d_a_obj_sand_D301NP": {
+        "name": "dAcOSandD301_c::m_allocator",
+        "states": [
+            "dAcOSandD301_c::StateID_Wait"
+        ]
+    },
+    "d_a_b_girahimu3_thirdNP": {
+        "name": "dAcGirahimu3Third_c::m_allocator",
+        "states": [
+            "dAcGirahimu3Third_c::StateID_Demo",
+            "dAcGirahimu3Third_c::StateID_SceneChange",
+            "dAcGirahimu3Third_c::StateID_Wait",
+            "dAcGirahimu3Third_c::StateID_Walk",
+            "dAcGirahimu3Third_c::StateID_GuardSword",
+            "dAcGirahimu3Third_c::StateID_Chance",
+            "dAcGirahimu3Third_c::StateID_SwordBeamDamage",
+            "dAcGirahimu3Third_c::StateID_RepairClaymore",
+            "dAcGirahimu3Third_c::StateID_Attack",
+            "dAcGirahimu3Third_c::StateID_CounterAttack",
+            "dAcGirahimu3Third_c::StateID_EscapeWarp",
+            "dAcGirahimu3Third_c::StateID_EscapeWarp2",
+            "dAcGirahimu3Third_c::StateID_GuardJust"
+        ]
+    },
+    "d_t_ship_windowNP": {
+        "name": "?",
+        "states": [
+            "dTgShipWindow_c::StateID_On",
+            "dTgShipWindow_c::StateID_Off"
+        ]
+    },
+    "d_t_dowsingNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_t_mistNP": {
+        "name": "dMistTag_c::m_allocator",
+        "states": [
+            "dMistTag_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_water_nutNP": {
+        "name": "dAcOWaterNut_c::m_allocator",
+        "states": [
+            "dAcOWaterNut_c::StateID_Wait",
+            "dAcOWaterNut_c::StateID_SwordCarry",
+            "dAcOWaterNut_c::StateID_Throw",
+            "dAcOWaterNut_c::StateID_Drop",
+            "dAcOWaterNut_c::StateID_Explode",
+            "dAcOWaterNut_c::StateID_Birth",
+            "dAcOWaterNut_c::StateID_Peel"
+        ]
+    },
+    "d_a_obj_rope_igaigaNP": {
+        "name": "dAcOropeIgaiga_c::m_allocator",
+        "states": [
+            "dAcOropeIgaiga_c::StateID_Init",
+            "dAcOropeIgaiga_c::StateID_Rope",
+            "dAcOropeIgaiga_c::StateID_Ground",
+            "dAcOropeIgaiga_c::StateID_Tree",
+            "dAcOropeIgaiga_c::StateID_Stick",
+            "dAcOropeIgaiga_c::StateID_Water"
+        ]
+    },
+    "d_a_obj_bellNP": {
+        "name": "dAcObell_c::m_allocator",
+        "states": [
+            "dAcObell_c::StateID_Wait",
+            "dAcObell_c::StateID_WaitRupee",
+            "dAcObell_c::StateID_After"
+        ]
+    },
+    "d_a_npc_kenseiNP": {
+        "name": "dAcNpcKensei_c::m_allocator",
+        "states": [
+            "dAcNpcKensei_c::StateID_Wait",
+            "dAcNpcKensei_c::StateID_LeadInit",
+            "dAcNpcKensei_c::StateID_LeadRestart",
+            "dAcNpcKensei_c::StateID_Lead",
+            "dAcNpcKensei_c::StateID_DemoWait",
+            "dAcNpcKensei_c::StateID_DemoReq",
+            "dAcNpcKensei_c::StateID_Kill"
+        ]
+    },
+    "d_a_obj_sandbagNP": {
+        "name": "dAcOSandbag_c::m_allocator",
+        "states": [
+            "dAcOSandbag_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_roulette_island_rNP": {
+        "name": "dAcOrouletteIslandR_c::m_allocator",
+        "states": [
+            "dAcOrouletteIslandR_c::StateID_Wait",
+            "dAcOrouletteIslandR_c::StateID_Move",
+            "dAcOrouletteIslandR_c::StateID_Reduce",
+            "dAcOrouletteIslandR_c::StateID_End"
+        ]
+    },
+    "d_a_npc_goddess_zeldaNP": {
+        "name": "dAcNpcGzl_c::m_allocator",
+        "states": [
+            "dAcNpcGzl_c::StateID_Pain",
+            "dAcNpcGzl_c::StateID_Withstand",
+            "dAcNpcGzl_c::StateID_Wait",
+            "dAcNpcGzl_c::StateID_Demo"
+        ]
+    },
+    "d_a_obj_ruined_saveNP": {
+        "name": "dAcOruinedSave_c::m_allocator",
+        "states": [
+            "dAcOruinedSave_c::StateID_Wait",
+            "dAcOruinedSave_c::StateID_Vanish"
+        ]
+    },
+    "d_a_obj_mole_coverNP": {
+        "name": "dAcOmoleCover_c::m_allocator",
+        "states": []
+    },
+    "d_a_messageNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_decoANP": {
+        "name": "dAcODecoA_c::m_allocator",
+        "states": [
+            "dAcODecoA_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_warpNP": {
+        "name": "dAcOWarp_c::m_allocator",
+        "states": [
+            "dAcOWarp_c::StateID_Wait",
+            "dAcOWarp_c::StateID_SirenFinish",
+            "dAcOWarp_c::StateID_GetItem",
+            "dAcOWarp_c::StateID_GateWait",
+            "dAcOWarp_c::StateID_GateOpen",
+            "dAcOWarp_c::StateID_GateIn",
+            "dAcOWarp_c::StateID_GateClear"
+        ]
+    },
+    "d_a_obj_buildingNP": {
+        "name": "dAcOBuilding_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_iron_stageNP": {
+        "name": "dAcOironStage_c::m_allocator",
+        "states": []
+    },
+    "d_t_group_summonNP": {
+        "name": "?",
+        "states": [
+            "dTgGroupSummon_c::StateID_Wait",
+            "dTgGroupSummon_c::StateID_PreSummon",
+            "dTgGroupSummon_c::StateID_Summoning",
+            "dTgGroupSummon_c::StateID_Watch",
+            "dTgGroupSummon_c::StateID_Demo"
+        ]
+    },
+    "d_a_obj_fruitBNP": {
+        "name": "dAcOFruitB_c::m_allocator",
+        "states": [
+            "dAcOFruitB_c::StateID_Stick",
+            "dAcOFruitB_c::StateID_Wait",
+            "dAcOFruitB_c::StateID_DummyEvent"
+        ]
+    },
+    "d_a_obj_switch_shutterNP": {
+        "name": "dAcOSwShutter_c::m_allocator",
+        "states": [
+            "dAcOSwShutter_c::StateID_Wait",
+            "dAcOSwShutter_c::StateID_Move",
+            "dAcOSwShutter_c::StateID_WaitEventEnd"
+        ]
+    },
+    "d_a_obj_slice_logNP": {
+        "name": "dAcOsliceLog_c::m_allocator",
+        "states": [
+            "dAcOsliceLog_c::StateID_Fall",
+            "dAcOsliceLog_c::StateID_Bound",
+            "dAcOsliceLog_c::StateID_Init",
+            "dAcOsliceLog_c::StateID_Wait",
+            "dAcOsliceLog_c::StateID_Slice"
+        ]
+    },
+    "d_a_obj_item_heart_containerNP": {
+        "name": "dAcOItemHeartContainer_c::m_allocator",
+        "states": [
+            "dAcOItemHeartContainer_c::StateID_Hide",
+            "dAcOItemHeartContainer_c::StateID_RequestAppearEvent",
+            "dAcOItemHeartContainer_c::StateID_AppearEffect",
+            "dAcOItemHeartContainer_c::StateID_Appear",
+            "dAcOItemHeartContainer_c::StateID_WaitFall",
+            "dAcOItemHeartContainer_c::StateID_Fall",
+            "dAcOItemHeartContainer_c::StateID_WaitGet",
+            "dAcOItemHeartContainer_c::StateID_WaitGetQuake"
+        ]
+    },
+    "d_a_obj_terry_switchNP": {
+        "name": "dAcOTerrySwitch_c::m_allocator",
+        "states": [
+            "dAcOTerrySwitch_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_rail_endNP": {
+        "name": "dAcORailEnd_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_uta_demo_pedestNP": {
+        "name": "dAcOutaDemoPedest_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_warp_holeNP": {
+        "name": "dAcOwarpHole_c::m_allocator",
+        "states": []
+    },
+    "d_a_npc_desertrobot_captainNP": {
+        "name": "dAcNpcDrbC_c::m_allocator",
+        "states": [
+            "dAcNpcDrbC_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_stage_debrisNP": {
+        "name": "dAcOstageDebris_c::m_allocator",
+        "states": [
+            "dAcOstageDebris_c::StateID_Wait",
+            "dAcOstageDebris_c::StateID_Break",
+            "dAcOstageDebris_c::StateID_After"
+        ]
+    },
+    "d_a_obj_kibakoNP": {
+        "name": "dAcOkibako_c::m_allocator",
+        "states": [
+            "dAcOkibako_c::StateID_Wait",
+            "dAcOkibako_c::StateID_Fire",
+            "dAcOkibako_c::StateID_PushPull",
+            "dAcOkibako_c::StateID_RopeGrab",
+            "dAcOkibako_c::StateID_DeleteEvent"
+        ]
+    },
+    "d_a_obj_truck_stopperNP": {
+        "name": "dAcOtruckStopper_c::m_allocator",
+        "states": [
+            "dAcOtruckStopper_c::StateID_Wait",
+            "dAcOtruckStopper_c::StateID_Break"
+        ]
+    },
+    "d_a_obj_bb_bridgeNP": {
+        "name": "dAcObbBridge_c::m_allocator",
+        "states": [
+            "dAcObbBridge_c::StateID_Wait",
+            "dAcObbBridge_c::StateID_BrokenDemo",
+            "dAcObbBridge_c::StateID_Broken"
+        ]
+    },
+    "d_a_obj_roulette_island_cNP": {
+        "name": "dAcOrouletteIslandC_c::m_allocator",
+        "states": [
+            "dAcOrouletteIslandC_c::StateID_Wait",
+            "dAcOrouletteIslandC_c::StateID_Play"
+        ]
+    },
+    "d_a_insect_dragonflyNP": {
+        "name": "dAcInsectDragonfly_c::m_allocator",
+        "states": [
+            "dAcInsectDragonfly_c::StateID_Wait",
+            "dAcInsectDragonfly_c::StateID_Move",
+            "dAcInsectDragonfly_c::StateID_Escape",
+            "dAcInsectDragonfly_c::StateID_Fly",
+            "dAcInsectDragonfly_c::StateID_Finalize",
+            "dAcInsectDragonfly_c::StateID_Dead"
+        ]
+    },
+    "d_t_mole_prohibitNP": {
+        "name": "?",
+        "states": [
+            "dTgMoleProhibit_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_step_time_slipNP": {
+        "name": "dAcOStepTimeSlip_c::m_allocator",
+        "states": [
+            "dAcOStepTimeSlip_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_hit_lever_swNP": {
+        "name": "dAcOhitLeverSw_c::m_allocator",
+        "states": [
+            "dAcOhitLeverSw_c::StateID_Right",
+            "dAcOhitLeverSw_c::StateID_Left",
+            "dAcOhitLeverSw_c::StateID_Move"
+        ]
+    },
+    "d_a_b_bigboss3NP": {
+        "name": "dAcBBigBoss3_c::m_allocator",
+        "states": [
+            "dAcBBigBoss3_c::StateID_AppearWait",
+            "dAcBBigBoss3_c::StateID_AppearDemo",
+            "dAcBBigBoss3_c::StateID_Wait",
+            "dAcBBigBoss3_c::StateID_Walk",
+            "dAcBBigBoss3_c::StateID_Reach",
+            "dAcBBigBoss3_c::StateID_Turn",
+            "dAcBBigBoss3_c::StateID_ImpaAdvice",
+            "dAcBBigBoss3_c::StateID_ShakeHead",
+            "dAcBBigBoss3_c::StateID_HeadDamage",
+            "dAcBBigBoss3_c::StateID_HeadDamageThrow",
+            "dAcBBigBoss3_c::StateID_HeadPain",
+            "dAcBBigBoss3_c::StateID_StunPain",
+            "dAcBBigBoss3_c::StateID_DropByHand",
+            "dAcBBigBoss3_c::StateID_Attack",
+            "dAcBBigBoss3_c::StateID_FootBroken",
+            "dAcBBigBoss3_c::StateID_BombHit",
+            "dAcBBigBoss3_c::StateID_FootRecover",
+            "dAcBBigBoss3_c::StateID_HeadRecover",
+            "dAcBBigBoss3_c::StateID_ArmBroken",
+            "dAcBBigBoss3_c::StateID_ArmRecover",
+            "dAcBBigBoss3_c::StateID_Stun",
+            "dAcBBigBoss3_c::StateID_StunWait",
+            "dAcBBigBoss3_c::StateID_StunRecover",
+            "dAcBBigBoss3_c::StateID_StunDamage",
+            "dAcBBigBoss3_c::StateID_StunBombDamage",
+            "dAcBBigBoss3_c::StateID_LevelUp",
+            "dAcBBigBoss3_c::StateID_GuardBallista",
+            "dAcBBigBoss3_c::StateID_ArmAttack",
+            "dAcBBigBoss3_c::StateID_PreFly",
+            "dAcBBigBoss3_c::StateID_PreFlyDemo",
+            "dAcBBigBoss3_c::StateID_Fly",
+            "dAcBBigBoss3_c::StateID_FlyPain",
+            "dAcBBigBoss3_c::StateID_FlyFall",
+            "dAcBBigBoss3_c::StateID_FlyFallGround",
+            "dAcBBigBoss3_c::StateID_FlyFallGroundWait",
+            "dAcBBigBoss3_c::StateID_FlyFallRecover",
+            "dAcBBigBoss3_c::StateID_FlyReach",
+            "dAcBBigBoss3_c::StateID_Evacuation",
+            "dAcBBigBoss3_c::StateID_StoneWait",
+            "dAcBBigBoss3_c::StateID_SwordGameWait",
+            "dAcBBigBoss3_c::StateID_SwordGameEnd"
+        ]
+    },
+    "d_a_obj_slice_log_partsNP": {
+        "name": "dAcOsliceLogParts_c::m_allocator",
+        "states": [
+            "dAcOsliceLogParts_c::StateID_Wait",
+            "dAcOsliceLogParts_c::StateID_Fly",
+            "dAcOsliceLogParts_c::StateID_Ground",
+            "dAcOsliceLogParts_c::StateID_GroundSecond",
+            "dAcOsliceLogParts_c::StateID_Shake",
+            "dAcOsliceLogParts_c::StateID_Vanish",
+            "dAcOsliceLogParts_c::StateID_Finish",
+            "dAcOsliceLogParts_c::StateID_GroundAftFin"
+        ]
+    },
+    "d_a_obj_bridge_buildingNP": {
+        "name": "dAcObridgeBuilding_c::m_allocator",
+        "states": [
+            "dAcObridgeBuilding_c::StateID_Wait",
+            "dAcObridgeBuilding_c::StateID_PreMove",
+            "dAcObridgeBuilding_c::StateID_Move",
+            "dAcObridgeBuilding_c::StateID_Shake",
+            "dAcObridgeBuilding_c::StateID_Across"
+        ]
+    },
+    "d_a_obj_ballistaNP": {
+        "name": "dAcOBallista_c::m_allocator",
+        "states": [
+            "dAcOBallista_c::StateID_Wait",
+            "dAcOBallista_c::StateID_Grab",
+            "dAcOBallista_c::StateID_Shot",
+            "dAcOBallista_c::StateID_ShotEnd",
+            "dAcOBallista_c::StateID_Cancel",
+            "dAcOBallista_c::StateID_DemoShot",
+            "dAcOBallista_c::StateID_DemoShot2",
+            "dAcOBallista_c::StateID_DemoShot3"
+        ]
+    },
+    "d_a_obj_kanban_stoneNP": {
+        "name": "dAcOKanbanStone_c::m_allocator",
+        "states": [
+            "dAcOKanbanStone_c::StateID_Wait",
+            "dAcOKanbanStone_c::StateID_Message"
+        ]
+    },
+    "d_SoftwareKeyboardNP": {
+        "name": "dSKB_c::m_allocator2",
+        "states": []
+    },
+    "d_a_e_hidoryNP": {
+        "name": "dAcEHidory_c::m_allocator",
+        "states": [
+            "dAcEHidory_c::StateID_Wait",
+            "dAcEHidory_c::StateID_Hovering",
+            "dAcEHidory_c::StateID_Attack",
+            "dAcEHidory_c::StateID_Whip_Damage",
+            "dAcEHidory_c::StateID_Damage",
+            "dAcEHidory_c::StateID_Death"
+        ]
+    },
+    "d_a_e_bc_arrowNP": {
+        "name": "dAcEbcarrow_c::m_allocator",
+        "states": [
+            "dAcEbcarrow_c::StateID_Move"
+        ]
+    },
+    "d_a_npc_mole_es_nmlNP": {
+        "name": "dAcNpcMoleEsNml_c::m_allocator",
+        "states": [
+            "dAcNpcMoleEsNml_c::StateID_DisAppear",
+            "dAcNpcMoleEsNml_c::StateID_Appear",
+            "dAcNpcMoleEsNml_c::StateID_Surprised"
+        ]
+    },
+    "d_t_kytagNP": {
+        "name": "dKytagTag_c::m_allocator",
+        "states": [
+            "dKytagTag_c::StateID_Wait"
+        ]
+    },
+    "d_a_e_cactusNP": {
+        "name": "dAcEcactus_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_ride_rockNP": {
+        "name": "dAcOrideRock_c::m_allocator",
+        "states": [
+            "dAcOrideRock_c::StateID_Wait",
+            "dAcOrideRock_c::StateID_Slope",
+            "dAcOrideRock_c::StateID_SlopeWait",
+            "dAcOrideRock_c::StateID_RideMove",
+            "dAcOrideRock_c::StateID_SwitchMove"
+        ]
+    },
+    "d_a_obj_bridge_timeNP": {
+        "name": "dAcOBridgeTime_c::m_allocator",
+        "states": [
+            "dAcOBridgeTime_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_ro_at_targetNP": {
+        "name": "dAcOroAtTarget_c::m_allocator",
+        "states": [
+            "dAcOroAtTarget_c::StateID_Wait",
+            "dAcOroAtTarget_c::StateID_Play",
+            "dAcOroAtTarget_c::StateID_Death"
+        ]
+    },
+    "d_profileNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_asura_swordNP": {
+        "name": "dAcAsuraSword_c::m_allocator",
+        "states": [
+            "dAcAsuraSword_c::StateID_Carried",
+            "dAcAsuraSword_c::StateID_Stop",
+            "dAcAsuraSword_c::StateID_Wait"
+        ]
+    },
+    "d_a_npc_beeNP": {
+        "name": "dAcNpcBee_c::m_allocator",
+        "states": []
+    },
+    "d_a_e_chaser_bNP": {
+        "name": "dAcEChb_c::m_allocator",
+        "states": [
+            "dAcEChb_c::StateID_Standby",
+            "dAcEChb_c::StateID_Chase",
+            "dAcEChb_c::StateID_Start",
+            "dAcEChb_c::StateID_Attack"
+        ]
+    },
+    "d_a_b_kr_hairNP": {
+        "name": "dAcBkrh_c::m_allocator",
+        "states": [
+            "dAcBkrh_c::StateID_Normal",
+            "dAcBkrh_c::StateID_Attack",
+            "dAcBkrh_c::StateID_Escape"
+        ]
+    },
+    "d_t_soundNP": {
+        "name": "dTgSound_c::m_allocator",
+        "states": []
+    },
+    "d_a_eelNP": {
+        "name": "dAcEel_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_tower_D101NP": {
+        "name": "dAcOTowerD101_c::m_allocator",
+        "states": [
+            "dAcOTowerD101_c::StateID_Wait"
+        ]
+    },
+    "d_t_light_shaft_effNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_obj_girahim_footNP": {
+        "name": "dAcOgirahimFoot_c::m_allocator",
+        "states": [
+            "dAcOgirahimFoot_c::StateID_Wait",
+            "dAcOgirahimFoot_c::StateID_Appear"
+        ]
+    },
+    "d_a_e_hpNP": {
+        "name": "dAcEHp_c::m_allocator",
+        "states": [
+            "dAcEHp_c::StateID_BobUpAndDown",
+            "dAcEHp_c::StateID_Chase",
+            "dAcEHp_c::StateID_Attack",
+            "dAcEHp_c::StateID_AtkWait",
+            "dAcEHp_c::StateID_Extract",
+            "dAcEHp_c::StateID_Petrify",
+            "dAcEHp_c::StateID_Fluster",
+            "dAcEHp_c::StateID_Escape",
+            "dAcEHp_c::StateID_Damage",
+            "dAcEHp_c::StateID_VcmDmg",
+            "dAcEHp_c::StateID_Stun",
+            "dAcEHp_c::StateID_Die",
+            "dAcEHp_c::StateID_Dummy"
+        ]
+    },
+    "d_a_obj_shutter_fenceNP": {
+        "name": "dAcOshutterfence_c::m_allocator",
+        "states": [
+            "dAcOshutterfence_c::StateID_Wait",
+            "dAcOshutterfence_c::StateID_Open"
+        ]
+    },
+    "d_a_obj_time_door_beforeNP": {
+        "name": "dAcOTimeDoorBefore_c::m_allocator",
+        "states": [
+            "dAcOTimeDoorBefore_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_log_waterNP": {
+        "name": "dAcOlogWater_c::m_allocator",
+        "states": [
+            "dAcOlogWater_c::StateID_Wait"
+        ]
+    },
+    "d_t_clef_managerNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_asura_bulletNP": {
+        "name": "dAcAsuraBullet_c::m_allocator",
+        "states": [
+            "dAcAsuraBullet_c::StateID_Attack",
+            "dAcAsuraBullet_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_lava_plateNP": {
+        "name": "dAcOLavaPlate_c::m_allocator",
+        "states": [
+            "dAcOLavaPlate_c::StateID_Wait",
+            "dAcOLavaPlate_c::StateID_Move",
+            "dAcOLavaPlate_c::StateID_Success"
+        ]
+    },
+    "d_a_obj_god_markNP": {
+        "name": "dAcOgodMark_c::m_allocator",
+        "states": [
+            "dAcOgodMark_c::StateID_Wait",
+            "dAcOgodMark_c::StateID_Shine"
+        ]
+    },
+    "d_t_pltchgNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_npc_kyui_elderNP": {
+        "name": "dAcNpcKyuiElder_c::m_allocator",
+        "states": [
+            "dAcNpcKyuiElder_c::StateID_Wait",
+            "dAcNpcKyuiElder_c::StateID_Hide"
+        ]
+    },
+    "d_a_obj_under_cloudNP": {
+        "name": "dAcOunderCloud_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_carry_stoneNP": {
+        "name": "dAcOcarryStone_c::m_allocator",
+        "states": [
+            "dAcOcarryStone_c::StateID_Wait",
+            "dAcOcarryStone_c::StateID_GrabCarry",
+            "dAcOcarryStone_c::StateID_Water",
+            "dAcOcarryStone_c::StateID_Slope",
+            "dAcOcarryStone_c::StateID_SlopeWait",
+            "dAcOcarryStone_c::StateID_MoveVacuum",
+            "dAcOcarryStone_c::StateID_ShakeWind",
+            "dAcOcarryStone_c::StateID_MoveMoleGlove",
+            "dAcOcarryStone_c::StateID_EggEnterSwitch"
+        ]
+    },
+    "d_a_npc_salbage_morryNP": {
+        "name": "dAcNpcSalbageMorry_c::m_allocator",
+        "states": [
+            "dAcNpcSalbageMorry_c::StateID_Wait",
+            "dAcNpcSalbageMorry_c::StateID_LookAway",
+            "dAcNpcSalbageMorry_c::StateID_After",
+            "dAcNpcSalbageMorry_c::StateID_Hide",
+            "dAcNpcSalbageMorry_c::StateID_PreHide",
+            "dAcNpcSalbageMorry_c::StateID_Temble",
+            "dAcNpcSalbageMorry_c::StateID_PreTemble"
+        ]
+    },
+    "d_a_e_magmaNP": {
+        "name": "dAcEmagma_c::m_allocator",
+        "states": [
+            "dAcEmagma_c::StateID_Birth",
+            "dAcEmagma_c::StateID_Move",
+            "dAcEmagma_c::StateID_BulletMove",
+            "dAcEmagma_c::StateID_Frame",
+            "dAcEmagma_c::StateID_Damage"
+        ]
+    },
+    "d_a_npc_mole_elderNP": {
+        "name": "dAcNpcMoleElder_c::m_allocator",
+        "states": [
+            "dAcNpcMoleElder_c::StateID_DisAppear",
+            "dAcNpcMoleElder_c::StateID_Appear",
+            "dAcNpcMoleElder_c::StateID_Wait",
+            "dAcNpcMoleElder_c::StateID_After",
+            "dAcNpcMoleElder_c::StateID_Surprised"
+        ]
+    },
+    "d_t_effect_genNP": {
+        "name": "dTgEffectGen_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_soilNP": {
+        "name": "dAcOsoil_c::m_allocator",
+        "states": [
+            "dAcOsoil_c::StateID_Soil",
+            "dAcOsoil_c::StateID_Hole",
+            "dAcOsoil_c::StateID_Ready"
+        ]
+    },
+    "d_t_time_door_beamNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_e_gerockNP": {
+        "name": "dAcEgerock_c::m_allocator",
+        "states": [
+            "dAcEgerock_c::StateID_Attack",
+            "dAcEgerock_c::StateID_Damage",
+            "dAcEgerock_c::StateID_FlyHome",
+            "dAcEgerock_c::StateID_Rail",
+            "dAcEgerock_c::StateID_Return",
+            "dAcEgerock_c::StateID_Shock",
+            "dAcEgerock_c::StateID_Stay",
+            "dAcEgerock_c::StateID_Vanish"
+        ]
+    },
+    "d_a_obj_bblargebombNP": {
+        "name": "dAcOBblargebomb_c::m_allocator",
+        "states": [
+            "dAcOBblargebomb_c::StateID_Wait",
+            "dAcOBblargebomb_c::StateID_Explode",
+            "dAcOBblargebomb_c::StateID_Carry",
+            "dAcOBblargebomb_c::StateID_WindCarry",
+            "dAcOBblargebomb_c::StateID_Birth",
+            "dAcOBblargebomb_c::StateID_Controled"
+        ]
+    },
+    "d_a_obj_water_F100NP": {
+        "name": "dAcOwaterF100_c::m_allocator",
+        "states": []
+    },
+    "d_a_npc_senpaia_mother_lodNP": {
+        "name": "dAcNpcSenpaiAMotherLOD_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_water_jarNP": {
+        "name": "dAcOWaterJar_c::m_allocator",
+        "states": [
+            "dAcOWaterJar_c::StateID_DemoThrow"
+        ]
+    },
+    "d_a_e_kgNP": {
+        "name": "dAcEkg_c::m_allocator",
+        "states": [
+            "dAcEkg_c::StateID_Wait",
+            "dAcEkg_c::StateID_Walk",
+            "dAcEkg_c::StateID_Find",
+            "dAcEkg_c::StateID_Chase",
+            "dAcEkg_c::StateID_Step",
+            "dAcEkg_c::StateID_Damage",
+            "dAcEkg_c::StateID_PlayerLost",
+            "dAcEkg_c::StateID_Return",
+            "dAcEkg_c::StateID_WindBlow",
+            "dAcEkg_c::StateID_Reverse",
+            "dAcEkg_c::StateID_BlowReturn",
+            "dAcEkg_c::StateID_JumpReady",
+            "dAcEkg_c::StateID_Jump",
+            "dAcEkg_c::StateID_JumpAttack_Hold",
+            "dAcEkg_c::StateID_Release",
+            "dAcEkg_c::StateID_Landing",
+            "dAcEkg_c::StateID_WallWait",
+            "dAcEkg_c::StateID_WallWalk",
+            "dAcEkg_c::StateID_WallFind",
+            "dAcEkg_c::StateID_WallStep",
+            "dAcEkg_c::StateID_WallJumpReady",
+            "dAcEkg_c::StateID_WallJump",
+            "dAcEkg_c::StateID_WindBlowAtWall",
+            "dAcEkg_c::StateID_HitAtWall",
+            "dAcEkg_c::StateID_DamageAtWall",
+            "dAcEkg_c::StateID_RoofWait",
+            "dAcEkg_c::StateID_RoofWalk",
+            "dAcEkg_c::StateID_RoofFall",
+            "dAcEkg_c::StateID_HangOn",
+            "dAcEkg_c::StateID_UnderWait",
+            "dAcEkg_c::StateID_UnderWalk",
+            "dAcEkg_c::StateID_UnderStep",
+            "dAcEkg_c::StateID_UnderJump",
+            "dAcEkg_c::StateID_SoundReaction",
+            "dAcEkg_c::StateID_SoundReactionAtWallRoof"
+        ]
+    },
+    "d_t_fence_synchronizerNP": {
+        "name": "?",
+        "states": []
+    },
+    "d_a_npc_sorajima_man_dNP": {
+        "name": "dAcNpcSoManD_c::m_allocator",
+        "states": []
+    },
+    "d_a_obj_decoBNP": {
+        "name": "dAcODecoB_c::m_allocator",
+        "states": [
+            "dAcODecoB_c::StateID_Wait"
+        ]
+    },
+    "d_a_obj_block_undergroundNP": {
+        "name": "dAcOBlockUnderground::m_allocator",
+        "states": []
+    },
+    "d_a_obj_bamboo_islandNP": {
+        "name": "dAcObambooIsland_c::m_allocator",
+        "states": []
+    },
+    "d_s_bootNP": {
+        "name": "?",
+        "states": [
+            "dScBoot_c::StateID_Init",
+            "dScBoot_c::StateID_Strap",
+            "dScBoot_c::StateID_Connect",
+            "dScBoot_c::StateID_Save"
+        ]
+    },
+    "d_a_b_girahimu3_firstNP": {
+        "name": "dAcGirahimu3First_c::m_allocator",
+        "states": [
+            "dAcGirahimu3First_c::StateID_Wait",
+            "dAcGirahimu3First_c::StateID_Walk",
+            "dAcGirahimu3First_c::StateID_Panch",
+            "dAcGirahimu3First_c::StateID_Kick",
+            "dAcGirahimu3First_c::StateID_Guard",
+            "dAcGirahimu3First_c::StateID_CounterGuard",
+            "dAcGirahimu3First_c::StateID_CounterGuardWalk",
+            "dAcGirahimu3First_c::StateID_Counter",
+            "dAcGirahimu3First_c::StateID_CounterStart",
+            "dAcGirahimu3First_c::StateID_KnockBack",
+            "dAcGirahimu3First_c::StateID_PreFall",
+            "dAcGirahimu3First_c::StateID_FallStart",
+            "dAcGirahimu3First_c::StateID_FallDemo",
+            "dAcGirahimu3First_c::StateID_Down",
+            "dAcGirahimu3First_c::StateID_DownDamage",
+            "dAcGirahimu3First_c::StateID_Death",
+            "dAcGirahimu3First_c::StateID_WakeUp",
+            "dAcGirahimu3First_c::StateID_SideStep",
+            "dAcGirahimu3First_c::StateID_HangAttack",
+            "dAcGirahimu3First_c::StateID_GuardJust",
+            "dAcGirahimu3First_c::StateID_BackJump"
+        ]
+    },
+    "d_a_e_ksNP": {
+        "name": "dAcEKs_c::m_allocator",
+        "states": [
+            "dAcEKs_c::StateID_Wait",
+            "dAcEKs_c::StateID_WakeUp",
+            "dAcEKs_c::StateID_ReturnToWait",
+            "dAcEKs_c::StateID_WaitReady",
+            "dAcEKs_c::StateID_Move",
+            "dAcEKs_c::StateID_Chase",
+            "dAcEKs_c::StateID_ChaseAttack",
+            "dAcEKs_c::StateID_Fighting",
+            "dAcEKs_c::StateID_AttackReady",
+            "dAcEKs_c::StateID_Attack",
+            "dAcEKs_c::StateID_Damage",
+            "dAcEKs_c::StateID_Stun",
+            "dAcEKs_c::StateID_WindBlow",
+            "dAcEKs_c::StateID_PathMove"
+        ]
+    },
+    "d_a_e_hidokariNP": {
+        "name": "dAcEhidokari_c::m_allocator",
+        "states": [
+            "dAcEhidokari_c::StateID_Wait",
+            "dAcEhidokari_c::StateID_Walk",
+            "dAcEhidokari_c::StateID_Kyoro",
+            "dAcEhidokari_c::StateID_Find",
+            "dAcEhidokari_c::StateID_Run",
+            "dAcEhidokari_c::StateID_Inside",
+            "dAcEhidokari_c::StateID_Stun",
+            "dAcEhidokari_c::StateID_WaitShell",
+            "dAcEhidokari_c::StateID_RunShell",
+            "dAcEhidokari_c::StateID_WalkShell",
+            "dAcEhidokari_c::StateID_FireShell",
+            "dAcEhidokari_c::StateID_RetShell",
+            "dAcEhidokari_c::StateID_NoShell",
+            "dAcEhidokari_c::StateID_Damage",
+            "dAcEhidokari_c::StateID_GuradShell",
+            "dAcEhidokari_c::StateID_Panic",
+            "dAcEhidokari_c::StateID_Dead"
+        ]
+    }
+}
