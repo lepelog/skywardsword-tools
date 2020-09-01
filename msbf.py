@@ -9,26 +9,41 @@ from util import *
 from storyflag import idx_to_story_flag
 import sceneChanges
 
+pause_re = re.compile(b'\x00\x0E\x00\x01\x00\x04\x00\x02(..)',re.DOTALL)
+item_re = re.compile(b'\x00\x0E\x00\x02\x00\x01\x00\x02(..)',re.DOTALL)
+
 TEXTREPLACEMENTS = {
     b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x00': '<r<'.encode('utf-16be'),  # red
+    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x01': '<rd<'.encode('utf-16be'), # also red
     b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x02': '<y+<'.encode('utf-16be'), # yellow-white
     b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x03': '<b<'.encode('utf-16be'),  # blue
     b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x04': '<g<'.encode('utf-16be'),  # green
     b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x05': '<y<'.encode('utf-16be'),  # yellow
+    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x07': '<g+<'.encode('utf-16be'), # green rupee green
+    # b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x06': '<?<'.encode('utf-16be'),  # literally only used once
+    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x08': '<b+<'.encode('utf-16be'), # blue rupee blue
     b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x09': '<r+<'.encode('utf-16be'), # red-white
+    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\n':   '<s<'.encode('utf-16be'),  # silver
+    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x0B': '<y+<'.encode('utf-16be'), # gold rupee gold
+    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x0C': '<black<'.encode('utf-16be'), # rupoor
     b'\x00\x0E\x00\x00\x00\x03\x00\x02\xFF\xFF': '>>'.encode('utf-16be'),   # end formatting
                 
     b'\x00\x0E\x00\x01\x00\x00\x00\x02\xFF\xFF': '[1]'.encode('utf-16be'),  # 1st answer
     b'\x00\x0E\x00\x01\x00\x01\x00\x02\x00\x00': '[2-]'.encode('utf-16be'), # 2nd answer (cancel)
     b'\x00\x0E\x00\x01\x00\x01\x00\x02\xFF\xFF': '[2]'.encode('utf-16be'),  # 2nd answer
+    b'\x00\x0E\x00\x01\x00\x01\x00\x02\xFF\x00': '[2?]'.encode('utf-16be'), # 2nd answer, but different?
     b'\x00\x0E\x00\x01\x00\x02\x00\x02\x00\x00': '[3-]'.encode('utf-16be'), # 3rd answer (cancel)
     b'\x00\x0E\x00\x01\x00\x02\x00\x02\xFF\xFF': '[3]'.encode('utf-16be'),  # 3rd answer
     b'\x00\x0E\x00\x01\x00\x03\x00\x02\x00\x00': '[4-]'.encode('utf-16be'), # 4rd answer (cancel)
     b'\x00\x0E\x00\x01\x00\x03\x00\x02\xFF\xFF': '[4]'.encode('utf-16be'),  # 4th answer
-    b'\x00\x0E\x00\x01\x00\x04\x00\x02\x00\x01': '~'.encode('utf-16be'),    # micro pause
-    b'\x00\x0E\x00\x01\x00\x04\x00\x02\x00\x05': '~~'.encode('utf-16be'),   # short pause
-    b'\x00\x0E\x00\x01\x00\x04\x00\x02\x00\x0F': '~~~'.encode('utf-16be'),  # long pause
-    # b'\x00\x0E\x00\x01\x00\x04\x00\x02': 'pause'.encode('utf-16be'), # this seems to exist as well?
+
+    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x00\x00\xCD': '<numeric arg0>'.encode('utf-16be'),
+    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x01\x00\xCD': '<numeric arg1>'.encode('utf-16be'),
+    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x02\x00\xCD': '<numeric arg2>'.encode('utf-16be'),
+    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x03\x00\xCD': '<numeric arg3>'.encode('utf-16be'),
+    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x04\x00\xCD': '<numeric arg4>'.encode('utf-16be'),
+
+    b'\x00\x0E\x00\x01\x00\x04\x00\x02\\': '<pause>'.encode('utf-16be'),
 
     b'\x00\x0E\x00\x01\x00\x0B\x00\x04\x00\x00\x00\x04': '<pling>'.encode('utf-16be'), # notice sound
                 
@@ -44,6 +59,7 @@ TEXTREPLACEMENTS = {
 }
 
 LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US']
+# LANGS = ['en_US']
 
 cumulative_flags_set = [b'\x00'*0x10]*len(flagindex_names)
 
@@ -147,6 +163,13 @@ def parseMSB(fname):
             indices = [struct.unpack('>i',seg_data[4+4*i : 8+4*i])[0] for i in range(count)]
             for i in range(count): # for every item of text
                 bytestring = seg_data[indices[i] : (indices[i+1] if i + 1 < count else seg_len) - 2]
+
+                # 2 bytes after \x00\x0E\x00\x01\x00\x04\x00\x02 set the length
+                bytestring = pause_re.sub(lambda x: f'<pause{ord(x.group(1).decode("utf-16be")):02X}>'.encode('utf-16be'), bytestring)
+
+                # 2 bytes after \x00\x0E\x00\x02\x00\x01\x00\x02 is the itemid
+                bytestring = item_re.sub(lambda x: f'<item{ord(x.group(1).decode("utf-16be")):02X}>'.encode('utf-16be'), bytestring)
+
                 # decoding special characters:
                 for characters, meaning in TEXTREPLACEMENTS.items():
                     bytestring = bytestring.replace(characters, meaning)
@@ -281,7 +304,16 @@ def interpretFlow(item, strings, attrs):
             assert item['param3'] in (13, 22, 30)
             return str(item)
         elif item['subType']==6:
-            assert item['param3'] in (12, 38, 46, 56, 57)
+            if item['param3'] == 38:
+                assert item['param1'] == 0
+                return "open_item_wheel(%d)"%item['param2']
+            if item['param3'] == 57:
+                assert item['param1'] == 0
+                return "open_adventure_pouch(%d)"%item['param2']
+            if item['param3'] == 56:
+                assert item['param1'] == 0
+                return "open_dowsing_wheel(%d)"%item['param2']
+            assert item['param3'] in (12, 46)
             return str(item)
         else:
             raise Exception
