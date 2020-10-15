@@ -121,7 +121,7 @@ def objAddExtraInfo(parsed_item):
     elif parsed_item['name'] in ['FrmLand','SwWall','SwDir2','BrgFall','D300Obj','TSBase']: # SwWall: wall switch, BrgFall: drawbridges in ET and fire dragon room, D300Obj: LMF in lanayru desert, TSBase: time shift orb base
         # flag is third byte
         extraInfo['scenefid'] = (params1 >> 8) & 0xFF
-    elif parsed_item['name'] in ['TgReact','saveObj','HrpHint','BlsRock','TowerB','WdBoard','SStatue','FShutte','Lotus','WaterSW','FireObs','StprRc','Gear','Lotus','MDvTg','chest','IslTreB','RoAtLog','swsyako','TgDefea','SwHrp','SwdStb','TAgo']:# WdBoard: board near staldra in skyview, SStatue are statues you can bomb down in lanayru, FShutte: iron bars, Lotus: lillypad in AC, WaterSW: thirsty frog, FireObs: fire wall, StprRc: stopper rock in ET, Gear: Ropes to cut in ET and fire dragon room, MDvTg: megami diving tag used for diving after sailcloth, chest: wardrobes, IslTreB: Treasure island in the sky, RoAtLog: Roll attack log, swsyako: lanayru generators to feed with ampilus, TgDefea: Tag after defeated boss, SwHrp: Harp playing related, SwdStb: warps to triforce room
+    elif parsed_item['name'] in ['TgReact','saveObj','HrpHint','BlsRock','TowerB','WdBoard','SStatue','FShutte','Lotus','WaterSW','FireObs','StprRc','Gear','Lotus','MDvTg','chest','IslTreB','RoAtLog','swsyako','TgDefea','SwHrp','SwdStb','TAgo','SdCdl']:# WdBoard: board near staldra in skyview, SStatue are statues you can bomb down in lanayru, FShutte: iron bars, Lotus: lillypad in AC, WaterSW: thirsty frog, FireObs: fire wall, StprRc: stopper rock in ET, Gear: Ropes to cut in ET and fire dragon room, MDvTg: megami diving tag used for diving after sailcloth, chest: wardrobes, IslTreB: Treasure island in the sky, RoAtLog: Roll attack log, swsyako: lanayru generators to feed with ampilus, TgDefea: Tag after defeated boss, SwHrp: Harp playing related, SwdStb: warps to triforce room, SdCdl: Crests to hit with skyward strike after dungeons (not isle of songs)
         # flag is fourth byte
         extraInfo['scenefid'] = params1 & 0xFF
         if parsed_item['name'] == 'Lotus':
@@ -134,6 +134,8 @@ def objAddExtraInfo(parsed_item):
             extraInfo['tgreactitemid'] = params2 >> 24
             subtypes = ['bonk','slingshot','gust bellow blow','underwater something']
             extraInfo['subtype'] = subtypes[params1 >> 28]
+        elif parsed_item['name']=='SdCdl':
+            extraInfo['scen_link']=(params1 >> 8) & 0xF
         elif parsed_item['name']=='saveObj':
             # that one skyloft statue
             if parsed_item['anglez'] == 0xFFFE:
@@ -208,7 +210,7 @@ def objAddExtraInfo(parsed_item):
         extraInfo['scen_link'] = (params1 >> 8) & 0xFF
         extraInfo['talk_behaviour'] = params1 >> 16
         extraInfo['subtype'] = params1 & 0xFF
-    elif parsed_item['name']=='TBox':
+    elif parsed_item['name']=='TBox': # note: if the first 4 bits are 0, the chest won't spawn at all, if it's 1 the chest being open is determined by the sceneflag instead of the chestflag and if it's 0xF=15, it uses the chestflag to determine if it should be open
         spawnscenef=((params1 & 0x0FF00000) >> 20)
         extraInfo['spawnscenefid']=spawnscenef
         extraInfo['setscenefid']=(parsed_item['anglex']&0xFF)

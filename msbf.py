@@ -261,10 +261,14 @@ def interpretFlow(item, strings, attrs):
                 return "story_flags[%d /* %s */] = false;" % (item['param2'], idx_to_story_flag(item['param2']))
             elif item['param3']==8:
                 return "rupees += %d;" % item['param2']
-            elif item['param3']==9 and item['param1']==0:
+            elif item['param3']==9:
+                assert item['param1']==0
                 return "give_item(%d 0x%02X);" % (item['param2'], item['param2'])
+            elif item['param3']==43:
+                assert item['param1'] == 0
+                return "give_gratitude_crystals();"
             else:
-                assert item['param3'] in (6,24,26,31,32,34,36,37,43,44,45,49,52,53,55,58,59)
+                assert item['param3'] in (6,24,26,31,32,34,36,37,44,45,49,52,53,55,58,59)
                 return str(item)
 
         elif item['subType']==1:

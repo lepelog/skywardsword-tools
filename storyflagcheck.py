@@ -1,6 +1,6 @@
 import re
 import glob
-from allobjects import all_story_flags, raw_stages
+from allobjects import all_story_flags, raw_stages, totally_all_objects
 from storyflag import idx_to_story_flag
 from collections import defaultdict
 
@@ -25,10 +25,10 @@ def add_event_sf(by_sf):
                     check_matches.append((shortfile, linenr+1, int(checkm[1])))
     for match in set_matches:
         link=f'{match[0]}#L{match[1]}'
-        by_sf[match[2]].append(f'{"set" if match[3] else "unset"}: [{link}](https://github.com/lepelog/skywardsword-tools/blob/output/event2/{link})')
+        by_sf[match[2]].append(f'{"set" if match[3] else "unset"}: [{link}](https://github.com/lepelog/skywardsword-tools/blob/output/en_US/event2/{link})')
     for match in check_matches:
         link=f'{match[0]}#L{match[1]}'
-        by_sf[match[2]].append(f'checked: [{link}](https://github.com/lepelog/skywardsword-tools/blob/output/event2/{link})')
+        by_sf[match[2]].append(f'checked: [{link}](https://github.com/lepelog/skywardsword-tools/blob/output/en_US/event2/{link})')
 
 def add_EVNT_sf(by_sf):
     for stage, stagedata in raw_stages.items():
@@ -39,10 +39,17 @@ def add_EVNT_sf(by_sf):
                     by_sf[evnt['story_flag1']].append(txt)
                 if evnt['story_flag2'] != -1:
                     by_sf[evnt['story_flag2']].append(txt)
+
+def add_obj_sf(by_sf):
+    for obj in totally_all_objects:
+        for key, val in obj.get('extra_info',{}).items():
+            if key.endswith('storyfid'):
+                by_sf[val].append(f'({obj["name"]}, {obj["stageid"]}, l{obj["layerid"]}, r{obj["roomid"]}, id: {obj["id"]})')
 print('| index | memory | meaning | sources |\n| ---- | ---- | ---- | ---- |')
 by_sf=defaultdict(list)
 add_event_sf(by_sf)
 add_EVNT_sf(by_sf)
+add_obj_sf(by_sf)
 # storyflags=[]
 for fidx, flag in enumerate(all_story_flags):
     print(f'{fidx} | {idx_to_story_flag(fidx)} | {flag} | {", ".join(by_sf[fidx])} |')
