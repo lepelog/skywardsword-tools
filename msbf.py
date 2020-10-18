@@ -291,6 +291,8 @@ def interpretFlow(item, strings, attrs):
                 elif '008' in fname:
                     scen = sceneChanges.sc008
                 return "changeScene(%d, %d) // %s" % (item['param1'], item['param2'], scen[item['param1']] if scen is not None else '')
+            elif item['param3']==23:
+                return "check_item_flag(%d, %d)" % (item['param1'], item['param2'])
             elif item['param3']==28:
                 return "temp_flags[%d /* %s */] = true;" % (item['param1'], idx_to_scene_flag(item['param1']))
             elif item['param3']==29:    # assuming it matches 28 (unconfirmed)
