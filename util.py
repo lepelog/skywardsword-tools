@@ -83,6 +83,11 @@ flagindex_to_stages = [
                    ["S300"],
                    ["S000"]]
 
+stage_to_flagindex = {}
+for i, stages in enumerate(flagindex_to_stages):
+    for stage in stages:
+        stage_to_flagindex[stage] = i
+
 flagindex_names = ["Skyloft",
                    "Faron Woods",
                    "Lake Floria",

@@ -241,6 +241,8 @@ def objAddExtraInfo(parsed_item):
     elif parsed_item['name']=='KanbanS':
         extraInfo['talk_behaviour']=params1 & 0xFFFF
         extraInfo['setscenefid']= (params1 >> 0x10) & 0xFF
+    elif parsed_item['name']=='AutoMes':
+        extraInfo['talk_behaviour']=params1 & 0xFFFF
     elif parsed_item['name'] == 'BlockUg':
         extraInfo['scenefid'] = (params1 >> 8) & 0xFF
         extraInfo['2scenefid'] = (params1 >> 16) & 0xFF
