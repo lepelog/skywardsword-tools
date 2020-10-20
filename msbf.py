@@ -165,10 +165,10 @@ def parseMSB(fname):
                 bytestring = seg_data[indices[i] : (indices[i+1] if i + 1 < count else seg_len) - 2]
 
                 # 2 bytes after \x00\x0E\x00\x01\x00\x04\x00\x02 set the length
-                bytestring = pause_re.sub(lambda x: f'<pause{ord(x.group(1).decode("utf-16be")):02X}>'.encode('utf-16be'), bytestring)
+                bytestring = pause_re.sub(lambda x: rf'<pause{ord(x.group(1).decode("utf-16be")):02X}>'.encode('utf-16be'), bytestring)
 
                 # 2 bytes after \x00\x0E\x00\x02\x00\x01\x00\x02 is the itemid
-                bytestring = item_re.sub(lambda x: f'<item{ord(x.group(1).decode("utf-16be")):02X}>'.encode('utf-16be'), bytestring)
+                bytestring = item_re.sub(lambda x: rf'<item{ord(x.group(1).decode("utf-16be")):02X}>'.encode('utf-16be'), bytestring)
 
                 # decoding special characters:
                 for characters, meaning in TEXTREPLACEMENTS.items():
@@ -187,7 +187,7 @@ def parseMSB(fname):
 def interpretFlow(item, strings, attrs):
     if item['type']=='type1': # type-1 (text)
         msbt_file, msbt_line = item['param3'], item['param4']
-        return 'printf(/* textboxtype: %d, unk: %d */ "%s")' % (attrs[msbt_line]['unk1'], attrs[msbt_line]['unk2'], strings[msbt_line])
+        return 'printf(/* textboxtype: %d, unk: %d, line: %d */ "%s")' % (attrs[msbt_line]['unk1'], attrs[msbt_line]['unk2'], msbt_line, strings[msbt_line])
 
     elif item['type']=='start': # type-4
         return 'start()'

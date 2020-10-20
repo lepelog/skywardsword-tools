@@ -174,6 +174,9 @@ def objAddExtraInfo(parsed_item):
         extraInfo['scenefid'] = (params1 >> 10) & 0xFF
         if parsed_item['name'] == 'Item':
             extraInfo['itemid'] = params1 & 0xFF
+            extraInfo['unk_param2'] = (params1 >> 20) & 0xF
+            extraInfo['unk_param3'] = (params1 >> 9) & 0x1 # mask unknown
+            extraInfo['unk_param5'] = (params1 >> 19) & 0x1
     elif parsed_item['name'] in ['HitLVSW', 'ArrowSW']: # ArrowSW: Bow switches, HitLVSW: underground switches to move gates in FS
         extraInfo['scenefid'] = (params1 >> 10) & 0xFF
         extraInfo['2scenefid'] = (params1 >> 18) & 0xFF
@@ -259,7 +262,7 @@ def objAddExtraInfo(parsed_item):
     elif parsed_item['name']=='ScChang':
         extraInfo['scen_link']=params1 & 0xFF
         extraInfo['trigscenefid']=(params1 >> 24) & 0xFF
-        triggerstoryf=(((parsed_item['anglex']>>8)<<8) | (parsed_item['anglex']&0xFF))&0x7FF
+        triggerstoryf=parsed_item['anglex']&0x7FF
         untriggerstoryf=parsed_item['anglez']&0x7FF
         extraInfo['trigstoryfid']=triggerstoryf
         extraInfo['untrigstoryfid']=untriggerstoryf
@@ -275,8 +278,8 @@ def objAddExtraInfo(parsed_item):
         extraInfo['setscenefid'] = (params1 >> 8) & 0xFF
         extraInfo['event'] = params1 & 0xFF
     elif parsed_item['name'] == 'EvfTag':
-        extraInfo['trigstoryfid'] = (params1 >> 19) & 0x3FF
-        extraInfo['setstoryfid'] = (params1 >> 8) & 0x3FF
+        extraInfo['trigstoryfid'] = (params1 >> 19) & 0x7FF
+        extraInfo['setstoryfid'] = (params1 >> 8) & 0x7FF
         extraInfo['event'] = params1 & 0xFF
     elif parsed_item['name'] == 'TDoorB': # closed gate of time
         extraInfo['trigstoryfid'] = params1 & 0x7FF
