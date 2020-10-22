@@ -267,6 +267,9 @@ def interpretFlow(item, strings, attrs):
             elif item['param3']==43:
                 assert item['param1'] == 0
                 return "give_gratitude_crystals();"
+            elif item['param3']==53:
+                assert item['param1']==0
+                return "set_item_flag(%d /* 0x%02X */);" % (item['param2'], item['param2'])
             else:
                 assert item['param3'] in (6,24,26,31,32,34,36,37,44,45,49,52,53,55,58,59)
                 return str(item)
@@ -293,6 +296,8 @@ def interpretFlow(item, strings, attrs):
                 return "changeScene(%d, %d) // %s" % (item['param1'], item['param2'], scen[item['param1']] if scen is not None else '')
             elif item['param3']==23:
                 return "check_item_flag(%d, %d)" % (item['param1'], item['param2'])
+            elif item['param3']==25:
+                return "add_to_counter(%d, %d)" % (item['param1'], item['param2'])
             elif item['param3']==28:
                 return "temp_flags[%d /* %s */] = true;" % (item['param1'], idx_to_scene_flag(item['param1']))
             elif item['param3']==29:    # assuming it matches 28 (unconfirmed)

@@ -152,6 +152,8 @@ def objAddExtraInfo(parsed_item):
                 extraInfo['name'] = map_text['SAVEOBJ_NAME_UNKNOWN']
             else:
                 extraInfo['name'] = map_text['SAVEOBJ_NAME_%02d' % extraInfo['name_id']]
+        elif parsed_item['name'] == 'HrpHint':
+            extraInfo['talk_behaviour'] = parsed_item['anglez']
     elif parsed_item['name'] in ['Barrel','TimeStn','EAm']: # TimeStn: time shift stone, EAm: Armos
         # flag is between byte 1 and 2
         extraInfo['scenefid'] = (params1 >> 20) & 0xFF
