@@ -56,10 +56,11 @@ TEXTREPLACEMENTS = {
     b'\x00\x0e\x00\x02\x00\x04\x00\x02\x05\xCD': '(2)'.encode('utf-16be'),  # 1 Button
     b'\x00\x0E\x00\x02\x00\x04\x00\x02\x11\xCD': '(v)'.encode('utf-16be'),  # down button
     b'\x00\x0e\x00\x02\x00\x04\x00\x02\x10\xCD': '(^)'.encode('utf-16be'),  # up Button
+    b'\x00\x0e\x00\x02\x00\x04\x00\x02\x00\x19\x00C\x00D': '(X)'.encode('utf-16be'), # marker X
 }
 
-LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US']
-# LANGS = ['en_US']
+# LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US']
+LANGS = ['en_US']
 
 cumulative_flags_set = [b'\x00'*0x10]*len(flagindex_names)
 
