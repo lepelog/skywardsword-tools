@@ -1,5 +1,6 @@
 import re
 import glob
+from pathlib import Path
 from allobjects import all_story_flags, raw_stages, totally_all_objects
 from storyflag import idx_to_story_flag
 from collections import defaultdict
@@ -12,10 +13,10 @@ def add_event_sf(by_sf):
     set_matches=[]
     check_matches=[]
 
-    for file in glob.glob('output/event2/*.c'):
+    for file in Path('output/en_US/event2').glob('*.c'):
     # for file in glob.glob('output/event2/100-*.c'):
-        with open(file) as f:
-            shortfile=file[14:]
+        with file.open() as f:
+            shortfile=file.parts[-1]
             for linenr, line in enumerate(f.readlines()):
                 setm = set_sf_re.match(line)
                 if setm != None:

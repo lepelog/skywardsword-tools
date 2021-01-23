@@ -463,6 +463,10 @@ def parseObj(objtype, quantity, data):
             elif objtype == 'STIF':
                 #Stage Info
                 assert quantity == 1
+                # wtf2 seems to be fog distance
+                # wtf3 seems to be default draw distance (some actors override it though)
+                # byte1 belongs to flagindex (is short)
+                # byte4 is beacon area index
                 parsed_item = unpack('wtf1 wtf2 wtf3 byte1 flagindex byte3 byte4 unk1 map_name_id unk2','>3fbbbb2sb1s',item)
                 flagindex = parsed_item['flagindex']
                 return parsed_item

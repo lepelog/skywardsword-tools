@@ -42,6 +42,15 @@ TEXTREPLACEMENTS = {
     b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x02\x00\xCD': '<numeric arg2>'.encode('utf-16be'),
     b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x03\x00\xCD': '<numeric arg3>'.encode('utf-16be'),
     b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x04\x00\xCD': '<numeric arg4>'.encode('utf-16be'),
+    #                                           index; if bytes used together?
+    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x00\x01\xCD': '<numeric arg0(1)>'.encode('utf-16be'),
+    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x01\x02\xCD': '<numeric arg1(2)>'.encode('utf-16be'),
+    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x02\x02\xCD': '<numeric arg2(2)>'.encode('utf-16be'),
+
+    '\x0E\x02\x02\x04\x00\x00'.encode('utf-16be')              : '<string arg0>'.encode('utf-16be'),
+    '\x0E\x02\x02\x04\x00\x01'.encode('utf-16be')              : '<string arg1>'.encode('utf-16be'),
+    '\x0E\x02\x02\x04\x00\x02'.encode('utf-16be')              : '<string arg2>'.encode('utf-16be'),
+    '\x0E\x02\x02\x04\x00\x03'.encode('utf-16be')              : '<string arg3>'.encode('utf-16be'),
 
     b'\x00\x0E\x00\x01\x00\x04\x00\x02\\': '<pause>'.encode('utf-16be'),
 
@@ -59,8 +68,8 @@ TEXTREPLACEMENTS = {
     b'\x00\x0e\x00\x02\x00\x04\x00\x02\x00\x19\x00C\x00D': '(X)'.encode('utf-16be'), # marker X
 }
 
-# LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US']
-LANGS = ['en_US']
+LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US']
+# LANGS = ['en_US']
 
 cumulative_flags_set = [b'\x00'*0x10]*len(flagindex_names)
 
@@ -271,6 +280,10 @@ def interpretFlow(item, strings, attrs):
             elif item['param3']==53:
                 assert item['param1']==0
                 return "set_item_flag(%d /* 0x%02X */);" % (item['param2'], item['param2'])
+            elif item['param3'] == 59:
+                assert item['param1']==0
+                assert item['param2']==0
+                return "open_collection_screen();"
             else:
                 assert item['param3'] in (6,24,26,31,32,34,36,37,44,45,49,52,53,55,58,59)
                 return str(item)
