@@ -1,0 +1,4220 @@
+[
+    {
+        "actor_id": 0,
+        "name": "TITLE",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 1,
+        "name": "E3_TITLE",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 2,
+        "name": "E3_GAMEEND",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 3,
+        "name": "THPPLAYER",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 4,
+        "name": "GAME",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 5,
+        "name": "STAGE_MANAGER",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 6,
+        "name": "STAGE",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 7,
+        "name": "STAGE_SELECT",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 8,
+        "name": "VIEW_CLIP_TAG",
+        "obj_name": "V_Clip",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 9,
+        "name": "START_TAG",
+        "obj_name": "DStartT",
+        "rel_name": "d_t_dungeon_start"
+    },
+    {
+        "actor_id": 10,
+        "name": "MAP_AREA_TAG",
+        "obj_name": "MapArea",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 11,
+        "name": "TRUCK_RAIL",
+        "obj_name": "TruRail",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 12,
+        "name": "TAG_STREAM",
+        "obj_name": "StreamT",
+        "rel_name": "d_t_stream"
+    },
+    {
+        "actor_id": 13,
+        "name": "COL_BOMSLD",
+        "obj_name": "CBomSld",
+        "rel_name": "d_t_col_bomb_shield"
+    },
+    {
+        "actor_id": 14,
+        "name": "OBJ_STAGE_KRAKEN",
+        "obj_name": "STKrake",
+        "rel_name": "d_a_obj_stage_kraken"
+    },
+    {
+        "actor_id": 15,
+        "name": "OBJ_STAGE_KRAKEN_PARTS",
+        "obj_name": "STKraPt",
+        "rel_name": "d_a_obj_stage_kraken_parts"
+    },
+    {
+        "actor_id": 16,
+        "name": "OBJ_TIME_STONE",
+        "obj_name": "TimeStn",
+        "rel_name": "d_a_obj_time_stone"
+    },
+    {
+        "actor_id": 17,
+        "name": "OBJ_SW",
+        "obj_name": "Sw",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 18,
+        "name": "OBJ_BLOCK_ROPE",
+        "obj_name": "BlkRope",
+        "rel_name": "d_a_obj_block_rope"
+    },
+    {
+        "actor_id": 19,
+        "name": "OBJ_PUSH_BLOCK",
+        "obj_name": "PushBlk",
+        "rel_name": "d_a_obj_push_block"
+    },
+    {
+        "actor_id": 20,
+        "name": "OBJ_KIBAKO",
+        "obj_name": "Kibako",
+        "rel_name": "d_a_obj_kibako"
+    },
+    {
+        "actor_id": 21,
+        "name": "OBJ_LOG",
+        "obj_name": "Log",
+        "rel_name": "d_a_obj_log"
+    },
+    {
+        "actor_id": 22,
+        "name": "OBJ_LOG_WATER",
+        "obj_name": "LogWtr",
+        "rel_name": "d_a_obj_log_water"
+    },
+    {
+        "actor_id": 23,
+        "name": "OBJ_BELT_CVR",
+        "obj_name": "BeltCvr",
+        "rel_name": "d_a_obj_belt_cvr"
+    },
+    {
+        "actor_id": 24,
+        "name": "OBJ_DRUM",
+        "obj_name": "Drum",
+        "rel_name": "d_a_obj_drum"
+    },
+    {
+        "actor_id": 25,
+        "name": "OBJ_BELT_OBSTACLE",
+        "obj_name": "Obstacl",
+        "rel_name": "d_a_obj_belt_obstacle"
+    },
+    {
+        "actor_id": 26,
+        "name": "OBJ_HIMO",
+        "obj_name": "Himo",
+        "rel_name": "d_a_obj_himo"
+    },
+    {
+        "actor_id": 27,
+        "name": "OBJ_SPIDER_LINE",
+        "obj_name": "SpiderL",
+        "rel_name": "d_a_obj_spider_line"
+    },
+    {
+        "actor_id": 28,
+        "name": "OBJ_WIND",
+        "obj_name": "Wind",
+        "rel_name": "d_a_obj_wind"
+    },
+    {
+        "actor_id": 29,
+        "name": "OBJ_WIND03",
+        "obj_name": "Wind03",
+        "rel_name": "d_a_obj_wind03"
+    },
+    {
+        "actor_id": 30,
+        "name": "OBJ_WIND04",
+        "obj_name": "Wind04",
+        "rel_name": "d_a_obj_wind04"
+    },
+    {
+        "actor_id": 31,
+        "name": "OBJ_TORNADO",
+        "obj_name": "Tornado",
+        "rel_name": "d_a_obj_tornado"
+    },
+    {
+        "actor_id": 32,
+        "name": "OBJ_SWITCH_WALL",
+        "obj_name": "SwWall",
+        "rel_name": "d_a_obj_switch_wall"
+    },
+    {
+        "actor_id": 33,
+        "name": "OBJ_TOWER_D101",
+        "obj_name": "ftower",
+        "rel_name": "d_a_obj_tower_D101"
+    },
+    {
+        "actor_id": 34,
+        "name": "OBJ_DOOR_DUNGEON_D200",
+        "obj_name": "Door200",
+        "rel_name": "d_a_obj_door_dungeonD200"
+    },
+    {
+        "actor_id": 35,
+        "name": "OBJ_DOOR_DUNGEON",
+        "obj_name": "DoorDun",
+        "rel_name": "d_a_obj_door_dungeon"
+    },
+    {
+        "actor_id": 36,
+        "name": "OBJ_WOOD_BOARD",
+        "obj_name": "WdBoard",
+        "rel_name": "d_a_obj_wood_board"
+    },
+    {
+        "actor_id": 37,
+        "name": "OBJ_CLAW_SHOT_TG",
+        "obj_name": "ClawSTg",
+        "rel_name": "d_a_obj_claw_shot_tg"
+    },
+    {
+        "actor_id": 38,
+        "name": "OBJ_BULB_SWITCH",
+        "obj_name": "BulbSW",
+        "rel_name": "d_a_obj_bulb_switch"
+    },
+    {
+        "actor_id": 39,
+        "name": "OBJ_SIDE_SHUTTER",
+        "obj_name": "SideST",
+        "rel_name": "d_a_obj_side_shutter"
+    },
+    {
+        "actor_id": 40,
+        "name": "OBJ_HIT_LEVER_SW",
+        "obj_name": "HitLVSW",
+        "rel_name": "d_a_obj_hit_lever_sw"
+    },
+    {
+        "actor_id": 41,
+        "name": "OBJ_FENCE_IRON",
+        "obj_name": "FenceIr",
+        "rel_name": "d_a_obj_fence_iron"
+    },
+    {
+        "actor_id": 42,
+        "name": "OBJ_UPDOWN_LAVA",
+        "obj_name": "UDLava",
+        "rel_name": "d_a_obj_updown_lava"
+    },
+    {
+        "actor_id": 43,
+        "name": "OBJ_BB_OBJECTS",
+        "obj_name": "BBObjs",
+        "rel_name": "d_a_obj_bb_objects"
+    },
+    {
+        "actor_id": 44,
+        "name": "OBJ_BRIDGE_BUILDING",
+        "obj_name": "BridgeB",
+        "rel_name": "d_a_obj_bridge_building"
+    },
+    {
+        "actor_id": 45,
+        "name": "OBJ_CANNON",
+        "obj_name": "Cannon",
+        "rel_name": "d_a_obj_cannon"
+    },
+    {
+        "actor_id": 46,
+        "name": "OBJ_ROULETTE_ISLAND_C",
+        "obj_name": "RouletC",
+        "rel_name": "d_a_obj_roulette_island_c"
+    },
+    {
+        "actor_id": 47,
+        "name": "OBJ_ROULETTE_ISLAND_R",
+        "obj_name": "RouletR",
+        "rel_name": "d_a_obj_roulette_island_r"
+    },
+    {
+        "actor_id": 48,
+        "name": "OBJ_BRIDGE_STRETCH",
+        "obj_name": "BridgeS",
+        "rel_name": "d_a_obj_bridge_stretch"
+    },
+    {
+        "actor_id": 49,
+        "name": "OBJ_IRON_STAGE",
+        "obj_name": "IronStg",
+        "rel_name": "d_a_obj_iron_stage"
+    },
+    {
+        "actor_id": 50,
+        "name": "OBJ_UTAJIMA_STOPPER",
+        "obj_name": "UtaStop",
+        "rel_name": "d_a_obj_utajima_stopper"
+    },
+    {
+        "actor_id": 51,
+        "name": "OBJ_UTAJIMA_MAIN_MECHA",
+        "obj_name": "UtaMain",
+        "rel_name": "d_a_obj_utajima_main_mecha"
+    },
+    {
+        "actor_id": 52,
+        "name": "OBJ_UTAJIMA_PEDESTAL",
+        "obj_name": "UtaPeds",
+        "rel_name": "d_a_obj_utajima_pedestal"
+    },
+    {
+        "actor_id": 53,
+        "name": "OBJ_UTAJIMA_ISLAND",
+        "obj_name": "UtaLand",
+        "rel_name": "d_a_obj_utajima_island"
+    },
+    {
+        "actor_id": 54,
+        "name": "OBJ_CANNON_COVER",
+        "obj_name": "CannonC",
+        "rel_name": "d_a_obj_cannon_cover"
+    },
+    {
+        "actor_id": 55,
+        "name": "OBJ_UTAJIMA",
+        "obj_name": "Utajima",
+        "rel_name": "d_a_obj_utajima"
+    },
+    {
+        "actor_id": 56,
+        "name": "OBJ_UTAJIMA_LV2",
+        "obj_name": "UtaLv2",
+        "rel_name": "d_a_obj_utajima_lv2"
+    },
+    {
+        "actor_id": 57,
+        "name": "OBJ_PUZZLE_ISLAND",
+        "obj_name": "PzlLand",
+        "rel_name": "d_a_obj_puzzle_island"
+    },
+    {
+        "actor_id": 58,
+        "name": "OBJ_FENCE_BOKO",
+        "obj_name": "FenceBk",
+        "rel_name": "d_a_obj_fence_boko"
+    },
+    {
+        "actor_id": 59,
+        "name": "OBJ_FENCE_BOKO2",
+        "obj_name": "FenceB2",
+        "rel_name": "d_a_obj_fence_boko2"
+    },
+    {
+        "actor_id": 60,
+        "name": "OBJ_WINDMILL",
+        "obj_name": "Windmil",
+        "rel_name": "d_a_obj_windmill"
+    },
+    {
+        "actor_id": 61,
+        "name": "OBJ_PINWHEEL",
+        "obj_name": "Pinwhel",
+        "rel_name": "d_a_obj_pinwheel"
+    },
+    {
+        "actor_id": 62,
+        "name": "OBJ_LIGHTHOUSE_HARP",
+        "obj_name": "LHHarp",
+        "rel_name": "d_a_obj_lighthouse_harp"
+    },
+    {
+        "actor_id": 63,
+        "name": "OBJ_FENCE_KONSAI",
+        "obj_name": "FenceKs",
+        "rel_name": "d_a_obj_fence_konsai"
+    },
+    {
+        "actor_id": 64,
+        "name": "OBJ_STAGE_SINK",
+        "obj_name": "STSink",
+        "rel_name": "d_a_obj_stage_sink"
+    },
+    {
+        "actor_id": 65,
+        "name": "OBJ_STAGE_WATER",
+        "obj_name": "STWater",
+        "rel_name": "d_a_obj_stage_water"
+    },
+    {
+        "actor_id": 66,
+        "name": "OBJ_STAGE_COVER",
+        "obj_name": "STCover",
+        "rel_name": "d_a_obj_stage_cover"
+    },
+    {
+        "actor_id": 67,
+        "name": "OBJ_STAGE_CRACK",
+        "obj_name": "STCrack",
+        "rel_name": "d_a_obj_stage_crack"
+    },
+    {
+        "actor_id": 68,
+        "name": "OBJ_TERRY_ISLAND",
+        "obj_name": "IslTery",
+        "rel_name": "d_a_obj_terry_island"
+    },
+    {
+        "actor_id": 69,
+        "name": "OBJ_INSECT_ISLAND",
+        "obj_name": "IslIns",
+        "rel_name": "d_a_obj_insect_island"
+    },
+    {
+        "actor_id": 70,
+        "name": "OBJ_SHRINE_AFTER",
+        "obj_name": "ShriAft",
+        "rel_name": "d_a_obj_shrine_after"
+    },
+    {
+        "actor_id": 71,
+        "name": "OBJ_SHRINE_BEFORE",
+        "obj_name": "ShriBef",
+        "rel_name": "d_a_obj_shrine_before"
+    },
+    {
+        "actor_id": 72,
+        "name": "OBJ_SHIP_WINDOW",
+        "obj_name": "ShipWin",
+        "rel_name": "d_a_obj_ship_window"
+    },
+    {
+        "actor_id": 73,
+        "name": "OBJ_WATER_SURFACE",
+        "obj_name": "WaterSf",
+        "rel_name": "d_a_obj_water_surface"
+    },
+    {
+        "actor_id": 74,
+        "name": "OBJ_PUMPKIN_BAR",
+        "obj_name": "PumpBar",
+        "rel_name": "d_a_obj_pumpkin_bar"
+    },
+    {
+        "actor_id": 75,
+        "name": "OBJ_TREASURE_ISLAND",
+        "obj_name": "IslTrea",
+        "rel_name": "d_a_obj_treasure_island"
+    },
+    {
+        "actor_id": 76,
+        "name": "OBJ_SEALED_DOOR",
+        "obj_name": "SldDoor",
+        "rel_name": "d_a_obj_sealed_door"
+    },
+    {
+        "actor_id": 77,
+        "name": "OBJ_EVIL_FIELD",
+        "obj_name": "EvilFld",
+        "rel_name": "d_a_obj_evil_field"
+    },
+    {
+        "actor_id": 78,
+        "name": "OBJ_MEGAMI_ISLAND",
+        "obj_name": "IslMegm",
+        "rel_name": "d_a_obj_megami_island"
+    },
+    {
+        "actor_id": 79,
+        "name": "OBJ_CITY",
+        "obj_name": "City",
+        "rel_name": "d_a_obj_city"
+    },
+    {
+        "actor_id": 80,
+        "name": "OBJ_BAMBOO_ISLAND",
+        "obj_name": "IslBamb",
+        "rel_name": "d_a_obj_bamboo_island"
+    },
+    {
+        "actor_id": 81,
+        "name": "OBJ_STREAM_LAVA",
+        "obj_name": "StrLava",
+        "rel_name": "d_a_obj_stream_lava"
+    },
+    {
+        "actor_id": 82,
+        "name": "OBJ_DOWN_LAVA",
+        "obj_name": "DwnLava",
+        "rel_name": "d_a_obj_down_lava"
+    },
+    {
+        "actor_id": 83,
+        "name": "OBJ_APPEAR_BRIDGE",
+        "obj_name": "ApBridg",
+        "rel_name": "d_a_obj_appear_bridge"
+    },
+    {
+        "actor_id": 84,
+        "name": "OBJ_TRUCK_STOPPER",
+        "obj_name": "TrukStp",
+        "rel_name": "d_a_obj_truck_stopper"
+    },
+    {
+        "actor_id": 85,
+        "name": "OBJ_ISLAND_NUSI",
+        "obj_name": "IslNusi",
+        "rel_name": "d_a_obj_island_nusi"
+    },
+    {
+        "actor_id": 86,
+        "name": "OBJ_ROCK_SKY",
+        "obj_name": "RockSky",
+        "rel_name": "d_a_obj_rock_sky"
+    },
+    {
+        "actor_id": 87,
+        "name": "OBJ_TREASURE_ISLAND_B",
+        "obj_name": "IslTreB",
+        "rel_name": "d_a_obj_treasure_island_b"
+    },
+    {
+        "actor_id": 88,
+        "name": "OBJ_WATER_F100",
+        "obj_name": "WtrF100",
+        "rel_name": "d_a_obj_water_F100"
+    },
+    {
+        "actor_id": 89,
+        "name": "OBJ_BELL",
+        "obj_name": "Bell",
+        "rel_name": "d_a_obj_bell"
+    },
+    {
+        "actor_id": 90,
+        "name": "OBJ_SHRINE_BEF_INSIDE",
+        "obj_name": "ShriIns",
+        "rel_name": "d_a_obj_shrine_bef_inside"
+    },
+    {
+        "actor_id": 91,
+        "name": "OBJ_WINDMILL_DESERT",
+        "obj_name": "WndMilD",
+        "rel_name": "d_a_obj_windmill_desert"
+    },
+    {
+        "actor_id": 92,
+        "name": "OBJ_CITY_WATER",
+        "obj_name": "CityWtr",
+        "rel_name": "d_a_obj_city_water"
+    },
+    {
+        "actor_id": 93,
+        "name": "OBJ_MOLE_COVER",
+        "obj_name": "MoleCvr",
+        "rel_name": "d_a_obj_mole_cover"
+    },
+    {
+        "actor_id": 94,
+        "name": "OBJ_DESERT_DEBRIS",
+        "obj_name": "DstDbrs",
+        "rel_name": "d_a_obj_desert_debris"
+    },
+    {
+        "actor_id": 95,
+        "name": "OBJ_BB_BROKEN_PARTS",
+        "obj_name": "BBParts",
+        "rel_name": "d_a_obj_bb_broken_parts"
+    },
+    {
+        "actor_id": 96,
+        "name": "OBJ_KUMITE_WALL",
+        "obj_name": "KmtWall",
+        "rel_name": "d_a_obj_kumite_wall"
+    },
+    {
+        "actor_id": 97,
+        "name": "OBJ_WATER_SHIELD",
+        "obj_name": "WtrShld",
+        "rel_name": "d_a_obj_water_shield"
+    },
+    {
+        "actor_id": 98,
+        "name": "OBJ_BSTONE",
+        "obj_name": "Bstone",
+        "rel_name": "d_a_obj_bstone"
+    },
+    {
+        "actor_id": 99,
+        "name": "OBJ_WIND02",
+        "obj_name": "Wind02",
+        "rel_name": "d_a_obj_wind02"
+    },
+    {
+        "actor_id": 100,
+        "name": "OBJ_LEAF_SWING",
+        "obj_name": "LeafSwg",
+        "rel_name": "d_a_obj_leaf_swing"
+    },
+    {
+        "actor_id": 101,
+        "name": "RIDE_ROCK_SET_TAG",
+        "obj_name": "RRckTag",
+        "rel_name": "d_t_ride_rock_set"
+    },
+    {
+        "actor_id": 102,
+        "name": "OBJ_RIDE_ROCK",
+        "obj_name": "RidRock",
+        "rel_name": "d_a_obj_ride_rock"
+    },
+    {
+        "actor_id": 103,
+        "name": "OBJ_MOVE_LIFT_VOL",
+        "obj_name": "MvLiftV",
+        "rel_name": "d_a_obj_move_lift_vol"
+    },
+    {
+        "actor_id": 104,
+        "name": "OBJ_TRUCK",
+        "obj_name": "Truck",
+        "rel_name": "d_a_obj_truck"
+    },
+    {
+        "actor_id": 105,
+        "name": "OBJ_TERRY_SHOP",
+        "obj_name": "Tshop",
+        "rel_name": "d_a_obj_terry_shop"
+    },
+    {
+        "actor_id": 106,
+        "name": "OBJ_TRAP_ROCK_1",
+        "obj_name": "TrapRc1",
+        "rel_name": "d_a_obj_trap_rock_1"
+    },
+    {
+        "actor_id": 107,
+        "name": "OBJ_STOPPER_ROCK",
+        "obj_name": "StprRc",
+        "rel_name": "d_a_obj_stopper_rock"
+    },
+    {
+        "actor_id": 108,
+        "name": "OBJ_SHUTTER_FENCE",
+        "obj_name": "FShutte",
+        "rel_name": "d_a_obj_shutter_fence"
+    },
+    {
+        "actor_id": 109,
+        "name": "OBJ_SINK_FLOOR_F",
+        "obj_name": "SnkFlrF",
+        "rel_name": "d_a_obj_sink_floor_f"
+    },
+    {
+        "actor_id": 110,
+        "name": "E_GUMARM",
+        "obj_name": "EGumarm",
+        "rel_name": "d_a_e_gumarm"
+    },
+    {
+        "actor_id": 111,
+        "name": "OBJ_STEP_GUMARM",
+        "obj_name": "StpGm",
+        "rel_name": "d_a_obj_step_gumarm"
+    },
+    {
+        "actor_id": 112,
+        "name": "OBJ_BRIDGE_FALL",
+        "obj_name": "BrgFall",
+        "rel_name": "d_a_obj_bridge_fall"
+    },
+    {
+        "actor_id": 113,
+        "name": "OBJ_BRIDGE_STEP",
+        "obj_name": "BrgStp",
+        "rel_name": "d_a_obj_bridge_step"
+    },
+    {
+        "actor_id": 114,
+        "name": "OBJ_BRIDGE_BONE",
+        "obj_name": "BrgBn",
+        "rel_name": "d_a_obj_bridge_bone"
+    },
+    {
+        "actor_id": 115,
+        "name": "OBJ_BB_BRIDGE",
+        "obj_name": "BBbrg",
+        "rel_name": "d_a_obj_bb_bridge"
+    },
+    {
+        "actor_id": 116,
+        "name": "OBJ_BRIDGE_TIME",
+        "obj_name": "BrgTs",
+        "rel_name": "d_a_obj_bridge_time"
+    },
+    {
+        "actor_id": 117,
+        "name": "OBJ_BOAT",
+        "obj_name": "Boat",
+        "rel_name": "d_a_obj_boat"
+    },
+    {
+        "actor_id": 118,
+        "name": "OBJ_BALLISTA",
+        "obj_name": "Blst",
+        "rel_name": "d_a_obj_ballista"
+    },
+    {
+        "actor_id": 119,
+        "name": "OBJ_BALLISTA_F3",
+        "obj_name": "BlstF3",
+        "rel_name": "d_a_obj_ballista_f3"
+    },
+    {
+        "actor_id": 120,
+        "name": "OBJ_TIME_BOAT",
+        "obj_name": "TBoat",
+        "rel_name": "d_a_obj_time_boat"
+    },
+    {
+        "actor_id": 121,
+        "name": "OBJ_GODDESS_STATUE",
+        "obj_name": "SngGS",
+        "rel_name": "d_a_obj_goddess_statue"
+    },
+    {
+        "actor_id": 122,
+        "name": "OBJ_STONE_STAND",
+        "obj_name": "SndStn",
+        "rel_name": "d_a_obj_stone_stand"
+    },
+    {
+        "actor_id": 123,
+        "name": "OBJ_TIME_STAGE_BG",
+        "obj_name": "StgBgTs",
+        "rel_name": "d_a_obj_time_stage_bg"
+    },
+    {
+        "actor_id": 124,
+        "name": "OBJ_WARP_HOLE",
+        "obj_name": "WarpH",
+        "rel_name": "d_a_obj_warp_hole"
+    },
+    {
+        "actor_id": 125,
+        "name": "OBJ_GEAR",
+        "obj_name": "Gear",
+        "rel_name": "d_a_obj_gear"
+    },
+    {
+        "actor_id": 126,
+        "name": "OBJ_DESERT",
+        "obj_name": "ODesert",
+        "rel_name": "d_a_obj_desert"
+    },
+    {
+        "actor_id": 127,
+        "name": "OBJ_D300",
+        "obj_name": "D300Obj",
+        "rel_name": "d_a_obj_D300"
+    },
+    {
+        "actor_id": 128,
+        "name": "OBJ_SEA_F301",
+        "obj_name": "SeaF301",
+        "rel_name": "d_a_obj_sea_F301"
+    },
+    {
+        "actor_id": 129,
+        "name": "OBJ_DESERT_AGO",
+        "obj_name": "TAgo",
+        "rel_name": "d_a_obj_desert_ago"
+    },
+    {
+        "actor_id": 130,
+        "name": "OBJ_DESERT_METER",
+        "obj_name": "D2Mtr",
+        "rel_name": "d_a_obj_desert_meter"
+    },
+    {
+        "actor_id": 131,
+        "name": "OBJ_NEEDLE_DESERT",
+        "obj_name": "DNdl",
+        "rel_name": "d_a_obj_needle_desert"
+    },
+    {
+        "actor_id": 132,
+        "name": "OBJ_LOTUS",
+        "obj_name": "Lotus",
+        "rel_name": "d_a_obj_lotus"
+    },
+    {
+        "actor_id": 133,
+        "name": "OBJ_TARZAN_POLE",
+        "obj_name": "TPole",
+        "rel_name": "d_a_obj_tarzan_pole"
+    },
+    {
+        "actor_id": 134,
+        "name": "OBJ_STEP_TIME_SLIP",
+        "obj_name": "StepTS",
+        "rel_name": "d_a_obj_step_time_slip"
+    },
+    {
+        "actor_id": 135,
+        "name": "OBJ_TIME_BASE",
+        "obj_name": "TSBase",
+        "rel_name": "d_a_obj_time_base"
+    },
+    {
+        "actor_id": 136,
+        "name": "OBJ_SWITCH_SHUTTER",
+        "obj_name": "swsht",
+        "rel_name": "d_a_obj_switch_shutter"
+    },
+    {
+        "actor_id": 137,
+        "name": "OBJ_WATERFALL_D101",
+        "obj_name": "wfall",
+        "rel_name": "d_a_obj_waterfall_D101"
+    },
+    {
+        "actor_id": 138,
+        "name": "OBJ_ROLL_PILLAR",
+        "obj_name": "rpiller",
+        "rel_name": "d_a_obj_roll_pillar"
+    },
+    {
+        "actor_id": 139,
+        "name": "OBJ_CHEST",
+        "obj_name": "chest",
+        "rel_name": "d_a_obj_chest"
+    },
+    {
+        "actor_id": 140,
+        "name": "OBJ_ROCK_BOAT",
+        "obj_name": "MagBoat",
+        "rel_name": "d_a_obj_rock_boat"
+    },
+    {
+        "actor_id": 141,
+        "name": "OBJ_BLOCK_UNDERGROUND",
+        "obj_name": "BlockUg",
+        "rel_name": "d_a_obj_block_underground"
+    },
+    {
+        "actor_id": 142,
+        "name": "OBJ_UNDERGROUND",
+        "obj_name": "Uground",
+        "rel_name": "d_a_obj_underground"
+    },
+    {
+        "actor_id": 143,
+        "name": "OBJ_TROLLEY",
+        "obj_name": "trolley",
+        "rel_name": "d_a_obj_trolley"
+    },
+    {
+        "actor_id": 144,
+        "name": "OBJ_LAVA_PLATE",
+        "obj_name": "LvPlt",
+        "rel_name": "d_a_obj_lava_plate"
+    },
+    {
+        "actor_id": 145,
+        "name": "OBJ_SAND_FLOOR",
+        "obj_name": "sandflr",
+        "rel_name": "d_a_obj_sand_floor"
+    },
+    {
+        "actor_id": 146,
+        "name": "OBJ_SW_SYAKO",
+        "obj_name": "swsyako",
+        "rel_name": "d_a_obj_sw_syako"
+    },
+    {
+        "actor_id": 147,
+        "name": "OBJ_SYAKO_SHUTTER",
+        "obj_name": "syashtr",
+        "rel_name": "d_a_obj_syako_shutter"
+    },
+    {
+        "actor_id": 148,
+        "name": "OBJ_DUNGEON_SHIP",
+        "obj_name": "d2ship",
+        "rel_name": "d_a_obj_dungeon_ship"
+    },
+    {
+        "actor_id": 149,
+        "name": "OBJ_NEEDLE_UNDERGROUND",
+        "obj_name": "needleU",
+        "rel_name": "d_a_obj_needle_underground"
+    },
+    {
+        "actor_id": 150,
+        "name": "OBJ_STEP_STATUE",
+        "obj_name": "SStatue",
+        "rel_name": "d_a_obj_step_statue"
+    },
+    {
+        "actor_id": 151,
+        "name": "OBJ_GRAVE",
+        "obj_name": "Grave",
+        "rel_name": "d_a_obj_grave"
+    },
+    {
+        "actor_id": 152,
+        "name": "OBJ_SHED",
+        "obj_name": "Shed",
+        "rel_name": "d_a_obj_shed"
+    },
+    {
+        "actor_id": 153,
+        "name": "OBJ_GIRAHIMU_FLOOR",
+        "obj_name": "GhFlr",
+        "rel_name": "d_a_obj_girahimu_floor"
+    },
+    {
+        "actor_id": 154,
+        "name": "OBJ_TENIJIMA",
+        "obj_name": "TimeIs",
+        "rel_name": "d_a_obj_tenijima"
+    },
+    {
+        "actor_id": 155,
+        "name": "OBJ_SAND_D301",
+        "obj_name": "SndD301",
+        "rel_name": "d_a_obj_sand_D301"
+    },
+    {
+        "actor_id": 156,
+        "name": "OBJ_DOOR_BOSSD101",
+        "obj_name": "BDrD101",
+        "rel_name": "d_a_obj_door_bossD101"
+    },
+    {
+        "actor_id": 157,
+        "name": "OBJ_BOXCAGE_F300",
+        "obj_name": "BoxCage",
+        "rel_name": "d_a_obj_boxcage_F300"
+    },
+    {
+        "actor_id": 158,
+        "name": "OBJ_TOWER_HAND_D101",
+        "obj_name": "TowerHa",
+        "rel_name": "d_a_obj_tower_hand_D101"
+    },
+    {
+        "actor_id": 159,
+        "name": "OBJ_DORMITORY_GATE",
+        "obj_name": "DmtGate",
+        "rel_name": "d_a_obj_dormitory_gate"
+    },
+    {
+        "actor_id": 160,
+        "name": "OBJ_PISTON",
+        "obj_name": "Piston",
+        "rel_name": "d_a_obj_piston"
+    },
+    {
+        "actor_id": 161,
+        "name": "OBJ_FRUIT_TREE",
+        "obj_name": "FrtTree",
+        "rel_name": "d_a_obj_fruit_tree"
+    },
+    {
+        "actor_id": 162,
+        "name": "OBJ_FARMLAND",
+        "obj_name": "FrmLand",
+        "rel_name": "d_a_obj_farmland"
+    },
+    {
+        "actor_id": 163,
+        "name": "OBJ_PROPELLER_LIFT",
+        "obj_name": "PrpLift",
+        "rel_name": "d_a_obj_propeller_lift"
+    },
+    {
+        "actor_id": 164,
+        "name": "OBJ_D3_DUMMY",
+        "obj_name": "D3Dummy",
+        "rel_name": "d_a_obj_D3_dummy"
+    },
+    {
+        "actor_id": 165,
+        "name": "B_BIGBOSS_BASE",
+        "obj_name": "BBigBoB",
+        "rel_name": "d_a_b_bigbossbase"
+    },
+    {
+        "actor_id": 166,
+        "name": "B_BIGBOSS",
+        "obj_name": "BBigBos",
+        "rel_name": "d_a_b_bigboss"
+    },
+    {
+        "actor_id": 167,
+        "name": "B_BIGBOSS2",
+        "obj_name": "BBigBo2",
+        "rel_name": "d_a_b_bigboss2"
+    },
+    {
+        "actor_id": 168,
+        "name": "B_BIGBOSS3",
+        "obj_name": "BBigBo3",
+        "rel_name": "d_a_b_bigboss3"
+    },
+    {
+        "actor_id": 169,
+        "name": "B_VD",
+        "obj_name": "Bvd",
+        "rel_name": "d_a_b_vd"
+    },
+    {
+        "actor_id": 170,
+        "name": "OBJ_VDB",
+        "obj_name": "Vdb",
+        "rel_name": "d_a_obj_vd_bullet"
+    },
+    {
+        "actor_id": 171,
+        "name": "E_CAPTAIN",
+        "obj_name": "ECptn",
+        "rel_name": "d_a_e_captain"
+    },
+    {
+        "actor_id": 172,
+        "name": "OBJ_TRUCK_RAIL_COL",
+        "obj_name": "TrRaiCo",
+        "rel_name": "d_a_obj_truck_rail_col"
+    },
+    {
+        "actor_id": 173,
+        "name": "BIRD",
+        "obj_name": "PyBird",
+        "rel_name": "d_a_bird"
+    },
+    {
+        "actor_id": 174,
+        "name": "BIRD_TARGET",
+        "obj_name": "BirdT",
+        "rel_name": "d_a_bird_target"
+    },
+    {
+        "actor_id": 175,
+        "name": "BIRD_NPC",
+        "obj_name": "BirdNpc",
+        "rel_name": "d_a_bird_npc"
+    },
+    {
+        "actor_id": 176,
+        "name": "BIRD_KOBUNA",
+        "obj_name": "BirdKA",
+        "rel_name": "d_a_bird_kobunA"
+    },
+    {
+        "actor_id": 177,
+        "name": "BIRD_KOBUNB",
+        "obj_name": "BirdKB",
+        "rel_name": "d_a_bird_kobunB"
+    },
+    {
+        "actor_id": 178,
+        "name": "BIRD_RIVAL",
+        "obj_name": "BirdR",
+        "rel_name": "d_a_bird_rival"
+    },
+    {
+        "actor_id": 179,
+        "name": "BIRD_ZELDA_TRAINING",
+        "obj_name": "BirdZT",
+        "rel_name": "d_a_bird_zelda_training"
+    },
+    {
+        "actor_id": 180,
+        "name": "AVATER_RACE_MNG",
+        "obj_name": "RaceM",
+        "rel_name": "d_a_avater_race_mng"
+    },
+    {
+        "actor_id": 181,
+        "name": "AVATER_BULLET",
+        "obj_name": "BirdB",
+        "rel_name": "d_a_avater_bullet"
+    },
+    {
+        "actor_id": 182,
+        "name": "NUSI_BASE",
+        "obj_name": "NusiS",
+        "rel_name": "d_a_nusi_base"
+    },
+    {
+        "actor_id": 183,
+        "name": "NUSI_NPC",
+        "obj_name": "NusiNpc",
+        "rel_name": "d_a_nusi_npc"
+    },
+    {
+        "actor_id": 184,
+        "name": "B_NUSI",
+        "obj_name": "NusiB",
+        "rel_name": "d_a_b_nusi"
+    },
+    {
+        "actor_id": 185,
+        "name": "B_NUSI_TENTAKLE",
+        "obj_name": "NusiT",
+        "rel_name": "d_a_b_nusi_tentakle"
+    },
+    {
+        "actor_id": 186,
+        "name": "B_NUSI_BULLET",
+        "obj_name": "NusiBt",
+        "rel_name": "d_a_b_nusi_bullet"
+    },
+    {
+        "actor_id": 187,
+        "name": "OBJ_LIGHT_LINE",
+        "obj_name": "LightLi",
+        "rel_name": "d_a_obj_light_line"
+    },
+    {
+        "actor_id": 188,
+        "name": "OBJ_LIGHT_SHAFT_SMALL",
+        "obj_name": "LtSftS",
+        "rel_name": "d_a_obj_light_shaft_small"
+    },
+    {
+        "actor_id": 189,
+        "name": "TAG_LIGHT_SHAFT_EFF",
+        "obj_name": "LSEff",
+        "rel_name": "d_t_light_shaft_eff"
+    },
+    {
+        "actor_id": 190,
+        "name": "MEGAMI_DIVING_TAG",
+        "obj_name": "MDvTg",
+        "rel_name": "d_t_megami_diving"
+    },
+    {
+        "actor_id": 191,
+        "name": "COMMON_BULLET",
+        "obj_name": "Bullet",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 192,
+        "name": "E_SYAKOMAITO",
+        "obj_name": "ESyako",
+        "rel_name": "d_a_e_syakomaito"
+    },
+    {
+        "actor_id": 193,
+        "name": "E_MR",
+        "obj_name": "EMr",
+        "rel_name": "d_a_e_mr"
+    },
+    {
+        "actor_id": 194,
+        "name": "E_PH",
+        "obj_name": "EPh",
+        "rel_name": "d_a_e_ph"
+    },
+    {
+        "actor_id": 195,
+        "name": "B_KR",
+        "obj_name": "BKr",
+        "rel_name": "d_a_b_kr"
+    },
+    {
+        "actor_id": 196,
+        "name": "B_KRH",
+        "obj_name": "BKrH",
+        "rel_name": "d_a_b_kr_hair"
+    },
+    {
+        "actor_id": 197,
+        "name": "B_KRA",
+        "obj_name": "BKrA",
+        "rel_name": "d_a_b_kr_arm"
+    },
+    {
+        "actor_id": 198,
+        "name": "OBJ_FLYING_CLAWSHOT_TARGET",
+        "obj_name": "FlyingC",
+        "rel_name": "d_a_obj_flying_clawshot_target"
+    },
+    {
+        "actor_id": 199,
+        "name": "OBJ_DIS_SHIP",
+        "obj_name": "DisShip",
+        "rel_name": "d_a_obj_distant_ship"
+    },
+    {
+        "actor_id": 200,
+        "name": "PLAYER",
+        "obj_name": "Link",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 201,
+        "name": "TAG_SHUTTER_FENCE_PERMISSION",
+        "obj_name": "FencePe",
+        "rel_name": "d_t_shutter_fence_permission"
+    },
+    {
+        "actor_id": 202,
+        "name": "SHUTTER",
+        "obj_name": "TstShtr",
+        "rel_name": "d_a_obj_shutter"
+    },
+    {
+        "actor_id": 203,
+        "name": "OBJ_SHUTTER_CHANGE_SCENE",
+        "obj_name": "ShtCS",
+        "rel_name": "d_a_obj_shutter_change_scene"
+    },
+    {
+        "actor_id": 204,
+        "name": "OBJ_DOOR_BOSS",
+        "obj_name": "DoorBs",
+        "rel_name": "d_a_obj_door_boss"
+    },
+    {
+        "actor_id": 205,
+        "name": "OBJ_DOOR",
+        "obj_name": "Door",
+        "rel_name": "d_a_obj_door"
+    },
+    {
+        "actor_id": 206,
+        "name": "OBJ_FENCE",
+        "obj_name": "Fence",
+        "rel_name": "d_a_obj_fence"
+    },
+    {
+        "actor_id": 207,
+        "name": "TAG_SHUTTER_FENCE_FORBIDDANCE",
+        "obj_name": "FenceFo",
+        "rel_name": "d_t_shutter_fence_forbiddance"
+    },
+    {
+        "actor_id": 208,
+        "name": "OBJ_TROLLEY_SHUTTER",
+        "obj_name": "trlshut",
+        "rel_name": "d_a_obj_trolley_shutter"
+    },
+    {
+        "actor_id": 209,
+        "name": "OBJ_TR_SHUTTER_CS",
+        "obj_name": "TrShtCs",
+        "rel_name": "d_a_obj_tr_shutter_cs"
+    },
+    {
+        "actor_id": 210,
+        "name": "OBJ_BG",
+        "obj_name": "ObjBg",
+        "rel_name": "d_a_obj_bg"
+    },
+    {
+        "actor_id": 211,
+        "name": "BOOMERANG",
+        "obj_name": "Boom",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 212,
+        "name": "GENKI_MGR_TAG",
+        "obj_name": "GkMgTag",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 213,
+        "name": "TAG_MIECHAN",
+        "obj_name": "TgMien",
+        "rel_name": "d_t_miechan"
+    },
+    {
+        "actor_id": 214,
+        "name": "DEMO_NPC_BIRD",
+        "obj_name": "DbidNpc",
+        "rel_name": "d_a_demo_npc_bird"
+    },
+    {
+        "actor_id": 215,
+        "name": "NPC_RVL",
+        "obj_name": "NpcRvl",
+        "rel_name": "d_a_npc_rival"
+    },
+    {
+        "actor_id": 216,
+        "name": "NPC_RIVAL_LOD",
+        "obj_name": "NpcRvlL",
+        "rel_name": "d_a_npc_rival_lod"
+    },
+    {
+        "actor_id": 217,
+        "name": "NPC_KBN",
+        "obj_name": "NpcKbn",
+        "rel_name": "d_a_npc_kobun"
+    },
+    {
+        "actor_id": 218,
+        "name": "NPC_KBN2",
+        "obj_name": "NpcKbn2",
+        "rel_name": "d_a_npc_kobun2"
+    },
+    {
+        "actor_id": 219,
+        "name": "NPC_KOBUN_B_NIGHT",
+        "obj_name": "NpcKb2N",
+        "rel_name": "d_a_npc_kobun_b_night"
+    },
+    {
+        "actor_id": 220,
+        "name": "NPC_SKN",
+        "obj_name": "NpcSkn",
+        "rel_name": "d_a_npc_shinkan"
+    },
+    {
+        "actor_id": 221,
+        "name": "NPC_SKN2",
+        "obj_name": "NpcSkn2",
+        "rel_name": "d_a_npc_shinkan2"
+    },
+    {
+        "actor_id": 222,
+        "name": "NPC_GZL",
+        "obj_name": "NpcGzl",
+        "rel_name": "d_a_npc_goddess_zelda"
+    },
+    {
+        "actor_id": 223,
+        "name": "NPC_ZLD",
+        "obj_name": "NpcZld",
+        "rel_name": "d_a_npc_zelda"
+    },
+    {
+        "actor_id": 224,
+        "name": "NPC_DSK",
+        "obj_name": "NpcDsk",
+        "rel_name": "d_a_npc_daishinkan"
+    },
+    {
+        "actor_id": 225,
+        "name": "NPC_DRB",
+        "obj_name": "NpcDrb",
+        "rel_name": "d_a_npc_desertrobot"
+    },
+    {
+        "actor_id": 226,
+        "name": "NPC_DRBC",
+        "obj_name": "NpcDrbC",
+        "rel_name": "d_a_npc_desertrobot_captain"
+    },
+    {
+        "actor_id": 227,
+        "name": "NPC_CE_FRIEND",
+        "obj_name": "NpcCbFd",
+        "rel_name": "d_a_npc_ce_friend"
+    },
+    {
+        "actor_id": 228,
+        "name": "NPC_CE_LADY",
+        "obj_name": "NpcCbLd",
+        "rel_name": "d_a_npc_ce_lady"
+    },
+    {
+        "actor_id": 229,
+        "name": "NPC_TOILET_GHOST",
+        "obj_name": "NpcGost",
+        "rel_name": "d_a_npc_toilet_ghost"
+    },
+    {
+        "actor_id": 230,
+        "name": "NPC_SORAJIMA_FATHER",
+        "obj_name": "NpcSoFa",
+        "rel_name": "d_a_npc_sorajima_father"
+    },
+    {
+        "actor_id": 231,
+        "name": "NPC_SORAJIMA_MOTHER",
+        "obj_name": "NpcSoMo",
+        "rel_name": "d_a_npc_sorajima_mother"
+    },
+    {
+        "actor_id": 232,
+        "name": "NPC_SORAJIMA_GIRL",
+        "obj_name": "NpcSoG",
+        "rel_name": "d_a_npc_sorajima_girl"
+    },
+    {
+        "actor_id": 233,
+        "name": "NPC_KYUI_WIZARD",
+        "obj_name": "NpcKyuW",
+        "rel_name": "d_a_npc_kyui_wizard"
+    },
+    {
+        "actor_id": 234,
+        "name": "NPC_KYUI_FIRST",
+        "obj_name": "Npckyu1",
+        "rel_name": "d_a_npc_kyui_first"
+    },
+    {
+        "actor_id": 235,
+        "name": "NPC_ORD_KYUI",
+        "obj_name": "NpcOkyu",
+        "rel_name": "d_a_npc_ord_kyui"
+    },
+    {
+        "actor_id": 236,
+        "name": "NPC_KYUI_ELDER",
+        "obj_name": "NpcKyuE",
+        "rel_name": "d_a_npc_kyui_elder"
+    },
+    {
+        "actor_id": 237,
+        "name": "NPC_KYUI_THIRD",
+        "obj_name": "Npckyu3",
+        "rel_name": "d_a_npc_kyui_third"
+    },
+    {
+        "actor_id": 238,
+        "name": "NPC_KYUI4",
+        "obj_name": "Npckyu4",
+        "rel_name": "d_a_npc_kyui4"
+    },
+    {
+        "actor_id": 239,
+        "name": "NPC_TMN",
+        "obj_name": "NpcTmn",
+        "rel_name": "d_a_npc_testman"
+    },
+    {
+        "actor_id": 240,
+        "name": "NPC_SALESMAN_S",
+        "obj_name": "NpcSalS",
+        "rel_name": "d_a_npc_salesman_s"
+    },
+    {
+        "actor_id": 241,
+        "name": "NPC_DOUGUYA_NIGHT",
+        "obj_name": "NpcDoNi",
+        "rel_name": "d_a_npc_douguyanight"
+    },
+    {
+        "actor_id": 242,
+        "name": "NPC_MED_WIFE_NIGHT",
+        "obj_name": "NpcMWNi",
+        "rel_name": "d_a_npc_medicinewifenight"
+    },
+    {
+        "actor_id": 243,
+        "name": "NPC_MED_HUS_NIGHT",
+        "obj_name": "NpcMHNi",
+        "rel_name": "d_a_npc_medicine_husband_night"
+    },
+    {
+        "actor_id": 244,
+        "name": "NPC_JUNK_NIGHT",
+        "obj_name": "NpcJkNi",
+        "rel_name": "d_a_npc_junk_night"
+    },
+    {
+        "actor_id": 245,
+        "name": "NPC_AZUKARIYA_NIGHT",
+        "obj_name": "NpcAzNi",
+        "rel_name": "d_a_npc_azukariya_night"
+    },
+    {
+        "actor_id": 246,
+        "name": "NPC_DOUGUYA_MOTHER",
+        "obj_name": "NpcDoMo",
+        "rel_name": "d_a_npc_douguya_mother"
+    },
+    {
+        "actor_id": 247,
+        "name": "NPC_DOUGUYA_MOTHER_LOD",
+        "obj_name": "NpcDoML",
+        "rel_name": "d_a_npc_douguya_mother_lod"
+    },
+    {
+        "actor_id": 248,
+        "name": "NPC_JUNK_MOTHER",
+        "obj_name": "NpcJkMo",
+        "rel_name": "d_a_npc_junk_mother"
+    },
+    {
+        "actor_id": 249,
+        "name": "NPC_JUNK_MOTHER_LOD",
+        "obj_name": "NpcJkML",
+        "rel_name": "d_a_npc_junk_mother_lod"
+    },
+    {
+        "actor_id": 250,
+        "name": "NPC_SENPAIA_MOTHER",
+        "obj_name": "NpcSAMo",
+        "rel_name": "d_a_npc_senpaia_mother"
+    },
+    {
+        "actor_id": 251,
+        "name": "NPC_SENPAIA_MOTHER_LOD",
+        "obj_name": "NpcSAML",
+        "rel_name": "d_a_npc_senpaia_mother_lod"
+    },
+    {
+        "actor_id": 252,
+        "name": "NPC_SORAJIMA_MAN_E",
+        "obj_name": "NpcSMnE",
+        "rel_name": "d_a_npc_sorajima_man_e"
+    },
+    {
+        "actor_id": 253,
+        "name": "NPC_SORAJIMA_MAN_D",
+        "obj_name": "NpcSMnD",
+        "rel_name": "d_a_npc_sorajima_man_d"
+    },
+    {
+        "actor_id": 254,
+        "name": "NPC_AZUKARIYA_FATHER",
+        "obj_name": "NpcAzFa",
+        "rel_name": "d_a_npc_azukariya_father"
+    },
+    {
+        "actor_id": 255,
+        "name": "NPC_DAISHINKAN_N",
+        "obj_name": "NpcDskN",
+        "rel_name": "d_a_npc_daishinkan_n"
+    },
+    {
+        "actor_id": 256,
+        "name": "NPC_SORAJIMA_MALE",
+        "obj_name": "NpcSoma",
+        "rel_name": "d_a_npc_sorajima_male"
+    },
+    {
+        "actor_id": 257,
+        "name": "NPC_BDSW",
+        "obj_name": "NpcBdsw",
+        "rel_name": "d_a_npc_bird_sowoman"
+    },
+    {
+        "actor_id": 258,
+        "name": "NPC_SORAJIMA_FEMALE",
+        "obj_name": "NpcSowo",
+        "rel_name": "d_a_npc_sorajima_female"
+    },
+    {
+        "actor_id": 259,
+        "name": "NPC_KENSEI",
+        "obj_name": "NpcKen",
+        "rel_name": "d_a_npc_kensei"
+    },
+    {
+        "actor_id": 260,
+        "name": "NPC_TALK_KENSEI",
+        "obj_name": "NpcKenT",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 261,
+        "name": "NPC_BDZ",
+        "obj_name": "NpcBdz",
+        "rel_name": "d_a_npc_bird_zelda"
+    },
+    {
+        "actor_id": 262,
+        "name": "NPC_OIM",
+        "obj_name": "NpcOim",
+        "rel_name": "d_a_npc_old_impa"
+    },
+    {
+        "actor_id": 263,
+        "name": "NPC_YIM",
+        "obj_name": "NpcYim",
+        "rel_name": "d_a_npc_young_impa"
+    },
+    {
+        "actor_id": 264,
+        "name": "NPC_BGR",
+        "obj_name": "NpcBgr",
+        "rel_name": "d_a_npc_bamboo_goron"
+    },
+    {
+        "actor_id": 265,
+        "name": "NPC_SLTK",
+        "obj_name": "NpcSltk",
+        "rel_name": "d_a_npc_saltalk"
+    },
+    {
+        "actor_id": 266,
+        "name": "NPC_SLB2",
+        "obj_name": "NpcSlb2",
+        "rel_name": "d_a_npc_volcano_f2_salbo"
+    },
+    {
+        "actor_id": 267,
+        "name": "NPC_SMA3",
+        "obj_name": "NpcSma3",
+        "rel_name": "d_a_npc_sorajima_male3"
+    },
+    {
+        "actor_id": 268,
+        "name": "NPC_SMA2",
+        "obj_name": "NpcSma2",
+        "rel_name": "d_a_npc_sorajima_male2"
+    },
+    {
+        "actor_id": 269,
+        "name": "NPC_PMA",
+        "obj_name": "NpcPma",
+        "rel_name": "d_a_npc_pumpkin_master"
+    },
+    {
+        "actor_id": 270,
+        "name": "NPC_PDU",
+        "obj_name": "NpcPdu",
+        "rel_name": "d_a_npc_pumpkin_daughter"
+    },
+    {
+        "actor_id": 271,
+        "name": "NPC_ICGK",
+        "obj_name": "NpcIcgK",
+        "rel_name": "d_a_npc_insect_capture_game_kobun"
+    },
+    {
+        "actor_id": 272,
+        "name": "NPC_PCS",
+        "obj_name": "NpcPcs",
+        "rel_name": "d_a_npc_pumpkin_clay_shooting"
+    },
+    {
+        "actor_id": 273,
+        "name": "NPC_FDR",
+        "obj_name": "NpcFdr",
+        "rel_name": "d_a_npc_fire_dragon"
+    },
+    {
+        "actor_id": 274,
+        "name": "NPC_TDR",
+        "obj_name": "NpcTdr",
+        "rel_name": "d_a_npc_thunder_dragon"
+    },
+    {
+        "actor_id": 275,
+        "name": "NPC_TDS",
+        "obj_name": "NpcTds",
+        "rel_name": "d_a_npc_thunder_dragon_skull"
+    },
+    {
+        "actor_id": 276,
+        "name": "NPC_TDRB",
+        "obj_name": "NpcTdrB",
+        "rel_name": "d_a_npc_thunder_dragon_bone"
+    },
+    {
+        "actor_id": 277,
+        "name": "TAG_SWORD_BATTLE_GAME",
+        "obj_name": "TgSBG",
+        "rel_name": "d_t_sword_battle_game"
+    },
+    {
+        "actor_id": 278,
+        "name": "TAG_SIREN_TIME_ATTACK",
+        "obj_name": "TgSTA",
+        "rel_name": "d_t_siren_time_attack"
+    },
+    {
+        "actor_id": 279,
+        "name": "NPC_ADR",
+        "obj_name": "NpcAdr",
+        "rel_name": "d_a_npc_aqua_dragon"
+    },
+    {
+        "actor_id": 280,
+        "name": "NPC_GHM",
+        "obj_name": "NpcGhm",
+        "rel_name": "d_a_npc_girahim"
+    },
+    {
+        "actor_id": 281,
+        "name": "NPC_SHA",
+        "obj_name": "NpcSha",
+        "rel_name": "d_a_npc_uranaiya"
+    },
+    {
+        "actor_id": 282,
+        "name": "NPC_GRA",
+        "obj_name": "NpcGra",
+        "rel_name": "d_a_npc_gra"
+    },
+    {
+        "actor_id": 283,
+        "name": "NPC_GRC",
+        "obj_name": "NpcGrc",
+        "rel_name": "d_a_npc_grc"
+    },
+    {
+        "actor_id": 284,
+        "name": "NPC_GRD",
+        "obj_name": "NpcGrd",
+        "rel_name": "d_a_npc_grd"
+    },
+    {
+        "actor_id": 285,
+        "name": "NPC_SORAJIMA_BOY",
+        "obj_name": "NpcSoBo",
+        "rel_name": "d_a_npc_sorajima_boy"
+    },
+    {
+        "actor_id": 286,
+        "name": "NPC_AKUMAKUN",
+        "obj_name": "NpcAkum",
+        "rel_name": "d_a_npc_akumakun"
+    },
+    {
+        "actor_id": 287,
+        "name": "NPC_AKU_HUMAN",
+        "obj_name": "NpcAkuH",
+        "rel_name": "d_a_npc_aku_human"
+    },
+    {
+        "actor_id": 288,
+        "name": "NPC_SUISEI",
+        "obj_name": "NpcSui",
+        "rel_name": "d_a_npc_suisei"
+    },
+    {
+        "actor_id": 289,
+        "name": "NPC_SUISEI_SUB",
+        "obj_name": "NpcSuiS",
+        "rel_name": "d_a_npc_suisei_sub"
+    },
+    {
+        "actor_id": 290,
+        "name": "NPC_SUISEI_NORMAL",
+        "obj_name": "NpcSuiN",
+        "rel_name": "d_a_npc_suisei_normal"
+    },
+    {
+        "actor_id": 291,
+        "name": "MOLE_MGR_TAG",
+        "obj_name": "MoMgTag",
+        "rel_name": "d_t_mole_mgr"
+    },
+    {
+        "actor_id": 292,
+        "name": "NPC_MOLE_MG",
+        "obj_name": "NpcMlMg",
+        "rel_name": "d_a_npc_mole_mg"
+    },
+    {
+        "actor_id": 293,
+        "name": "NPC_MOLE",
+        "obj_name": "NpcMole",
+        "rel_name": "d_a_npc_mole"
+    },
+    {
+        "actor_id": 294,
+        "name": "NPC_MOLE_NORMAL",
+        "obj_name": "NpcMoN",
+        "rel_name": "d_a_npc_mole_normal"
+    },
+    {
+        "actor_id": 295,
+        "name": "NPC_MOLE_NORMAL2",
+        "obj_name": "NpcMoN2",
+        "rel_name": "d_a_npc_mole_normal2"
+    },
+    {
+        "actor_id": 296,
+        "name": "NPC_MOLE_ES_NML",
+        "obj_name": "NpcMoEN",
+        "rel_name": "d_a_npc_mole_es_nml"
+    },
+    {
+        "actor_id": 297,
+        "name": "NPC_MOLE_TACKLE",
+        "obj_name": "NpcMoT",
+        "rel_name": "d_a_npc_mole_tackle"
+    },
+    {
+        "actor_id": 298,
+        "name": "NPC_MOLE_TACKLE2",
+        "obj_name": "NpcMoT2",
+        "rel_name": "d_a_npc_mole_tackle2"
+    },
+    {
+        "actor_id": 299,
+        "name": "NPC_CHEF",
+        "obj_name": "NpcChef",
+        "rel_name": "d_a_npc_chef"
+    },
+    {
+        "actor_id": 300,
+        "name": "NPC_SLFB",
+        "obj_name": "NpcSlFB",
+        "rel_name": "d_a_npc_salbage_robot_fly_base"
+    },
+    {
+        "actor_id": 301,
+        "name": "NPC_SLRP",
+        "obj_name": "NpcSlRp",
+        "rel_name": "d_a_npc_salbage_robot_repair"
+    },
+    {
+        "actor_id": 302,
+        "name": "NPC_SLFL",
+        "obj_name": "NpcSlFl",
+        "rel_name": "d_a_npc_salbage_robot_fly"
+    },
+    {
+        "actor_id": 303,
+        "name": "NPC_TERRY",
+        "obj_name": "NpcTer",
+        "rel_name": "d_a_npc_terry"
+    },
+    {
+        "actor_id": 304,
+        "name": "NPC_DIVE_GAME_JUDGE",
+        "obj_name": "NpcDgJg",
+        "rel_name": "d_a_npc_dive_game_judge"
+    },
+    {
+        "actor_id": 305,
+        "name": "KNIGHT_LEADER_BIRD",
+        "obj_name": "KndBird",
+        "rel_name": "d_a_knight_leader_bird"
+    },
+    {
+        "actor_id": 306,
+        "name": "NPC_KNIGHT_LEADER",
+        "obj_name": "NpcKnld",
+        "rel_name": "d_a_npc_knight_leader"
+    },
+    {
+        "actor_id": 307,
+        "name": "NPC_SENPAI",
+        "obj_name": "NpcSenp",
+        "rel_name": "d_a_npc_senpai"
+    },
+    {
+        "actor_id": 308,
+        "name": "NPC_SENPAI_B",
+        "obj_name": "NpcSenb",
+        "rel_name": "d_a_npc_senpai_b"
+    },
+    {
+        "actor_id": 309,
+        "name": "NPC_REGRET_RIVAL",
+        "obj_name": "NpcRvlR",
+        "rel_name": "d_a_npc_regret_rival"
+    },
+    {
+        "actor_id": 310,
+        "name": "NPC_RESCUE",
+        "obj_name": "NpcResc",
+        "rel_name": "d_a_npc_rescue"
+    },
+    {
+        "actor_id": 311,
+        "name": "NPC_SLB",
+        "obj_name": "NpcSlrb",
+        "rel_name": "d_a_npc_salbage_robot"
+    },
+    {
+        "actor_id": 312,
+        "name": "FLY_SLB",
+        "obj_name": "FlySlrb",
+        "rel_name": "d_a_fly_slb"
+    },
+    {
+        "actor_id": 313,
+        "name": "OBJ_PROPERA",
+        "obj_name": "Propera",
+        "rel_name": "d_a_obj_propera"
+    },
+    {
+        "actor_id": 314,
+        "name": "OBJ_ROULETTE",
+        "obj_name": "Roulete",
+        "rel_name": "d_a_obj_roulette"
+    },
+    {
+        "actor_id": 315,
+        "name": "NPC_MOLE_ELDER",
+        "obj_name": "NpcMoEl",
+        "rel_name": "d_a_npc_mole_elder"
+    },
+    {
+        "actor_id": 316,
+        "name": "NPC_SALBAGE_MORRY",
+        "obj_name": "NpcSlKy",
+        "rel_name": "d_a_npc_salbage_morry"
+    },
+    {
+        "actor_id": 317,
+        "name": "NPC_MOLE_SAL",
+        "obj_name": "NpcMoS",
+        "rel_name": "d_a_npc_mole_sal"
+    },
+    {
+        "actor_id": 318,
+        "name": "OBJ_POT_SAL",
+        "obj_name": "PotSal",
+        "rel_name": "d_a_obj_pot_sal"
+    },
+    {
+        "actor_id": 319,
+        "name": "OBJ_MOLE_SOIL",
+        "obj_name": "MoSoil",
+        "rel_name": "d_a_obj_mole_soil"
+    },
+    {
+        "actor_id": 320,
+        "name": "LITTLE_BIRD_MGR",
+        "obj_name": "LBmaker",
+        "rel_name": "d_a_little_bird_mgr"
+    },
+    {
+        "actor_id": 321,
+        "name": "LITTLE_BIRD",
+        "obj_name": "LBird",
+        "rel_name": "d_a_little_bird"
+    },
+    {
+        "actor_id": 322,
+        "name": "FISH_MGR",
+        "obj_name": "Fmaker",
+        "rel_name": "d_a_fish_mgr"
+    },
+    {
+        "actor_id": 323,
+        "name": "FISH",
+        "obj_name": "Fish",
+        "rel_name": "d_a_fish"
+    },
+    {
+        "actor_id": 324,
+        "name": "EEL",
+        "obj_name": "Eel",
+        "rel_name": "d_a_eel"
+    },
+    {
+        "actor_id": 325,
+        "name": "JSTUDIO_SYSOBJ",
+        "obj_name": "$sys",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 326,
+        "name": "JSTUDIO_ACTOR",
+        "obj_name": "$act63",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 327,
+        "name": "B_BBSHWV",
+        "obj_name": "BBigShc",
+        "rel_name": "d_a_b_bbshockwave"
+    },
+    {
+        "actor_id": 328,
+        "name": "NPC_BBRVL",
+        "obj_name": "NpcBRvl",
+        "rel_name": "d_a_npc_bbrvl"
+    },
+    {
+        "actor_id": 329,
+        "name": "OBJ_BIGBOMB_FLOWER",
+        "obj_name": "BBombf",
+        "rel_name": "d_a_obj_bigbomb_flower"
+    },
+    {
+        "actor_id": 330,
+        "name": "OBJ_BBLARGEBOMB",
+        "obj_name": "OBBLBom",
+        "rel_name": "d_a_obj_bblargebomb"
+    },
+    {
+        "actor_id": 331,
+        "name": "OBJ_BSTN",
+        "obj_name": "OBBStn",
+        "rel_name": "d_a_obj_bbstone"
+    },
+    {
+        "actor_id": 332,
+        "name": "B_MG",
+        "obj_name": "BMg",
+        "rel_name": "d_a_b_mg"
+    },
+    {
+        "actor_id": 333,
+        "name": "B_LASTBOSS",
+        "obj_name": "BLasBos",
+        "rel_name": "d_a_b_lastboss"
+    },
+    {
+        "actor_id": 334,
+        "name": "J_TEST",
+        "obj_name": "J_Test",
+        "rel_name": "d_a_morita_test"
+    },
+    {
+        "actor_id": 335,
+        "name": "E_AM",
+        "obj_name": "EAm",
+        "rel_name": "d_a_e_am"
+    },
+    {
+        "actor_id": 336,
+        "name": "T_QUAKE",
+        "obj_name": "BBQuake",
+        "rel_name": "d_t_bb_quake"
+    },
+    {
+        "actor_id": 337,
+        "name": "T_KUMITE",
+        "obj_name": "TKumite",
+        "rel_name": "d_t_musou"
+    },
+    {
+        "actor_id": 338,
+        "name": "GROUP_TEST",
+        "obj_name": "GroupT",
+        "rel_name": "d_t_group_test"
+    },
+    {
+        "actor_id": 339,
+        "name": "GROUP_SUMMON",
+        "obj_name": "GroupS",
+        "rel_name": "d_t_group_summon"
+    },
+    {
+        "actor_id": 340,
+        "name": "T_BCAL",
+        "obj_name": "TBcal",
+        "rel_name": "d_t_bcal_tag"
+    },
+    {
+        "actor_id": 341,
+        "name": "E_SM",
+        "obj_name": "ESm",
+        "rel_name": "d_a_e_sm"
+    },
+    {
+        "actor_id": 342,
+        "name": "E_BEAMOS",
+        "obj_name": "EBeamos",
+        "rel_name": "d_a_e_beamos"
+    },
+    {
+        "actor_id": 343,
+        "name": "GEKO_TAG",
+        "obj_name": "GekoTag",
+        "rel_name": "d_t_gekotag"
+    },
+    {
+        "actor_id": 344,
+        "name": "E_GEKO",
+        "obj_name": "EGeko",
+        "rel_name": "d_a_e_geko"
+    },
+    {
+        "actor_id": 345,
+        "name": "E_SIREN",
+        "obj_name": "ESiren",
+        "rel_name": "d_a_e_siren"
+    },
+    {
+        "actor_id": 346,
+        "name": "E_PO",
+        "obj_name": "EPo",
+        "rel_name": "d_a_e_po"
+    },
+    {
+        "actor_id": 347,
+        "name": "OBJ_RING",
+        "obj_name": "ORing",
+        "rel_name": "d_a_obj_ring"
+    },
+    {
+        "actor_id": 348,
+        "name": "E_OR",
+        "obj_name": "EOr",
+        "rel_name": "d_a_e_or"
+    },
+    {
+        "actor_id": 349,
+        "name": "E_OR_CANNON",
+        "obj_name": "EOrCann",
+        "rel_name": "d_a_e_or_cannon"
+    },
+    {
+        "actor_id": 350,
+        "name": "OR_CANN_BULLET",
+        "obj_name": "OrCaBul",
+        "rel_name": "d_a_or_cannon_bullet"
+    },
+    {
+        "actor_id": 351,
+        "name": "E_EYE",
+        "obj_name": "EEye",
+        "rel_name": "d_a_e_eye"
+    },
+    {
+        "actor_id": 352,
+        "name": "OBJ_HOLE",
+        "obj_name": "OHole",
+        "rel_name": "d_a_obj_hole"
+    },
+    {
+        "actor_id": 353,
+        "name": "OBJ_INTO_HOLE",
+        "obj_name": "InHole",
+        "rel_name": "d_a_obj_into_hole"
+    },
+    {
+        "actor_id": 354,
+        "name": "E_SPARK",
+        "obj_name": "ESpark",
+        "rel_name": "d_a_e_spark"
+    },
+    {
+        "actor_id": 355,
+        "name": "E_MAGMA",
+        "obj_name": "EMagma",
+        "rel_name": "d_a_e_magma"
+    },
+    {
+        "actor_id": 356,
+        "name": "E_MAGUPPO",
+        "obj_name": "EMagupp",
+        "rel_name": "d_a_e_maguppo"
+    },
+    {
+        "actor_id": 357,
+        "name": "MAGUPPO_BULLET",
+        "obj_name": "MagpB",
+        "rel_name": "d_a_bullet_maguppo"
+    },
+    {
+        "actor_id": 358,
+        "name": "E_BS",
+        "obj_name": "EBs",
+        "rel_name": "d_a_e_bs"
+    },
+    {
+        "actor_id": 359,
+        "name": "E_SF",
+        "obj_name": "ESf",
+        "rel_name": "d_a_e_sf"
+    },
+    {
+        "actor_id": 360,
+        "name": "E_SF4",
+        "obj_name": "ESf4",
+        "rel_name": "d_a_e_sf4"
+    },
+    {
+        "actor_id": 361,
+        "name": "E_ST",
+        "obj_name": "Est",
+        "rel_name": "d_a_e_st"
+    },
+    {
+        "actor_id": 362,
+        "name": "E_ST_WIRE",
+        "obj_name": "Estwire",
+        "rel_name": "d_a_e_st_wire"
+    },
+    {
+        "actor_id": 363,
+        "name": "ENEMY_CONTROL",
+        "obj_name": "EnCl",
+        "rel_name": "d_a_control"
+    },
+    {
+        "actor_id": 364,
+        "name": "KIESU_TAG",
+        "obj_name": "KiesuTa",
+        "rel_name": "d_t_ks"
+    },
+    {
+        "actor_id": 365,
+        "name": "E_KS",
+        "obj_name": "EKs",
+        "rel_name": "d_a_e_ks"
+    },
+    {
+        "actor_id": 366,
+        "name": "E_HB",
+        "obj_name": "Ehb",
+        "rel_name": "d_a_e_hb"
+    },
+    {
+        "actor_id": 367,
+        "name": "E_HB_LEAF",
+        "obj_name": "EhbLeaf",
+        "rel_name": "d_a_e_hb_leaf"
+    },
+    {
+        "actor_id": 368,
+        "name": "E_REMLY",
+        "obj_name": "ERemly",
+        "rel_name": "d_a_e_remly"
+    },
+    {
+        "actor_id": 369,
+        "name": "E_LIZARUFOS",
+        "obj_name": "ELizaru",
+        "rel_name": "d_a_e_lizarufos"
+    },
+    {
+        "actor_id": 370,
+        "name": "E_LIZA_TAIL",
+        "obj_name": "ELiTail",
+        "rel_name": "d_a_e_liza_tail"
+    },
+    {
+        "actor_id": 371,
+        "name": "E_HIDOKARI",
+        "obj_name": "EHidoK",
+        "rel_name": "d_a_e_hidokari"
+    },
+    {
+        "actor_id": 372,
+        "name": "E_HIDOKARIS",
+        "obj_name": "EHidoS",
+        "rel_name": "d_a_e_hidokaris"
+    },
+    {
+        "actor_id": 373,
+        "name": "E_HYDRA",
+        "obj_name": "EHydra",
+        "rel_name": "d_a_e_hydra"
+    },
+    {
+        "actor_id": 374,
+        "name": "E_GUNHO",
+        "obj_name": "EGunho",
+        "rel_name": "d_a_e_gunho"
+    },
+    {
+        "actor_id": 375,
+        "name": "E_GUNHOB",
+        "obj_name": "EGunhob",
+        "rel_name": "d_a_e_gunhob"
+    },
+    {
+        "actor_id": 376,
+        "name": "E_BFISH",
+        "obj_name": "EBfish",
+        "rel_name": "d_a_e_battleshipfish"
+    },
+    {
+        "actor_id": 377,
+        "name": "E_CACTUS",
+        "obj_name": "ECactus",
+        "rel_name": "d_a_e_cactus"
+    },
+    {
+        "actor_id": 378,
+        "name": "E_HOC",
+        "obj_name": "EHoc",
+        "rel_name": "d_a_e_hoc"
+    },
+    {
+        "actor_id": 379,
+        "name": "E_OC",
+        "obj_name": "EOc",
+        "rel_name": "d_a_e_oc"
+    },
+    {
+        "actor_id": 380,
+        "name": "E_KGIRA",
+        "obj_name": "EKGira",
+        "rel_name": "d_a_e_kumite_gira"
+    },
+    {
+        "actor_id": 381,
+        "name": "OBJ_PIPE",
+        "obj_name": "OPipe",
+        "rel_name": "d_a_obj_pipe"
+    },
+    {
+        "actor_id": 382,
+        "name": "E_BC",
+        "obj_name": "EBc",
+        "rel_name": "d_a_e_bc"
+    },
+    {
+        "actor_id": 383,
+        "name": "E_BCE",
+        "obj_name": "EBce",
+        "rel_name": "d_a_e_bce"
+    },
+    {
+        "actor_id": 384,
+        "name": "E_BCAL",
+        "obj_name": "EBcaL",
+        "rel_name": "d_a_e_bcal"
+    },
+    {
+        "actor_id": 385,
+        "name": "E_BCARROW",
+        "obj_name": "BcArrow",
+        "rel_name": "d_a_e_bc_arrow"
+    },
+    {
+        "actor_id": 386,
+        "name": "E_BCALARROW",
+        "obj_name": "BcAlArr",
+        "rel_name": "d_a_e_bcal_arrow"
+    },
+    {
+        "actor_id": 387,
+        "name": "BCZ_TAG",
+        "obj_name": "BcZTag",
+        "rel_name": "d_t_bcz"
+    },
+    {
+        "actor_id": 388,
+        "name": "E_BCZ",
+        "obj_name": "EBcZ",
+        "rel_name": "d_a_e_bcz"
+    },
+    {
+        "actor_id": 389,
+        "name": "E_SKYTAIL",
+        "obj_name": "ESktl",
+        "rel_name": "d_a_e_skytail"
+    },
+    {
+        "actor_id": 390,
+        "name": "E_HP",
+        "obj_name": "EHp",
+        "rel_name": "d_a_e_hp"
+    },
+    {
+        "actor_id": 391,
+        "name": "E_CHB",
+        "obj_name": "EChb",
+        "rel_name": "d_a_e_chaser_b"
+    },
+    {
+        "actor_id": 392,
+        "name": "E_GUE",
+        "obj_name": "EGue",
+        "rel_name": "d_a_e_gue"
+    },
+    {
+        "actor_id": 393,
+        "name": "GUE_BULLET",
+        "obj_name": "GueB",
+        "rel_name": "d_a_bullet_gue"
+    },
+    {
+        "actor_id": 394,
+        "name": "E_GE",
+        "obj_name": "EGe",
+        "rel_name": "d_a_e_ge"
+    },
+    {
+        "actor_id": 395,
+        "name": "E_RUPEE_GUE",
+        "obj_name": "ERupGue",
+        "rel_name": "d_a_e_rupee_gue"
+    },
+    {
+        "actor_id": 396,
+        "name": "E_GEROCK",
+        "obj_name": "EGerock",
+        "rel_name": "d_a_e_gerock"
+    },
+    {
+        "actor_id": 397,
+        "name": "E_TN2",
+        "obj_name": "EChaser",
+        "rel_name": "d_a_e_tn2"
+    },
+    {
+        "actor_id": 398,
+        "name": "E_HIDORY",
+        "obj_name": "EHidory",
+        "rel_name": "d_a_e_hidory"
+    },
+    {
+        "actor_id": 399,
+        "name": "HIDORY_FIRE",
+        "obj_name": "HdrFire",
+        "rel_name": "d_a_hidory_fire"
+    },
+    {
+        "actor_id": 400,
+        "name": "E_WS",
+        "obj_name": "EWs",
+        "rel_name": "d_a_e_ws"
+    },
+    {
+        "actor_id": 401,
+        "name": "NPC_BIRD",
+        "obj_name": "NpcBird",
+        "rel_name": "d_a_npc_bird"
+    },
+    {
+        "actor_id": 402,
+        "name": "B_GIRAHIMU_BASE",
+        "obj_name": "BGhB",
+        "rel_name": "d_a_b_girahimu_base"
+    },
+    {
+        "actor_id": 403,
+        "name": "B_GIRAHIMU",
+        "obj_name": "BGh",
+        "rel_name": "d_a_b_girahimu"
+    },
+    {
+        "actor_id": 404,
+        "name": "B_GIRAHIMU2",
+        "obj_name": "BGh2",
+        "rel_name": "d_a_b_girahimu2"
+    },
+    {
+        "actor_id": 405,
+        "name": "B_GIRAHIMU3_BASE",
+        "obj_name": "BGh3B",
+        "rel_name": "d_a_b_girahimu3_base"
+    },
+    {
+        "actor_id": 406,
+        "name": "B_GIRAHIMU3_FIRST",
+        "obj_name": "BGh3Fst",
+        "rel_name": "d_a_b_girahimu3_first"
+    },
+    {
+        "actor_id": 407,
+        "name": "B_GIRAHIMU3_SECOND",
+        "obj_name": "BGh3Snd",
+        "rel_name": "d_a_b_girahimu3_second"
+    },
+    {
+        "actor_id": 408,
+        "name": "B_GIRAHIMU3_THIRD",
+        "obj_name": "BGh3Trd",
+        "rel_name": "d_a_b_girahimu3_third"
+    },
+    {
+        "actor_id": 409,
+        "name": "OBJ_GH_SW_L",
+        "obj_name": "OGhSwL",
+        "rel_name": "d_a_obj_girahimu_sword_link"
+    },
+    {
+        "actor_id": 410,
+        "name": "OBJ_GH_KNIFE",
+        "obj_name": "OGhKf",
+        "rel_name": "d_a_obj_girahimu_knife"
+    },
+    {
+        "actor_id": 411,
+        "name": "OBJ_BIRD_SP_UP",
+        "obj_name": "BSpUp",
+        "rel_name": "d_a_obj_bird_sp"
+    },
+    {
+        "actor_id": 412,
+        "name": "GH_SWORD_BEAM",
+        "obj_name": "GhSBeam",
+        "rel_name": "d_a_girahimu_sword_beam"
+    },
+    {
+        "actor_id": 413,
+        "name": "B_ASURA",
+        "obj_name": "BAsura",
+        "rel_name": "d_a_b_asura"
+    },
+    {
+        "actor_id": 414,
+        "name": "ASURA_ARM",
+        "obj_name": "AsuArm",
+        "rel_name": "d_a_b_asura_arm"
+    },
+    {
+        "actor_id": 415,
+        "name": "ASURA_FOOT",
+        "obj_name": "AsuFoo",
+        "rel_name": "d_a_b_asura_foot"
+    },
+    {
+        "actor_id": 416,
+        "name": "ASURA_BULLET",
+        "obj_name": "AsuraB",
+        "rel_name": "d_a_asura_bullet"
+    },
+    {
+        "actor_id": 417,
+        "name": "ASURA_SWORD",
+        "obj_name": "AsuraS",
+        "rel_name": "d_a_obj_asura_sword"
+    },
+    {
+        "actor_id": 418,
+        "name": "ASURA_PILLAR",
+        "obj_name": "AsuraP",
+        "rel_name": "d_a_obj_asura_pillar"
+    },
+    {
+        "actor_id": 419,
+        "name": "INVISIBLE",
+        "obj_name": "Invisi",
+        "rel_name": "d_a_invisible"
+    },
+    {
+        "actor_id": 420,
+        "name": "E_MR_SHIELD",
+        "obj_name": "EMrTate",
+        "rel_name": "d_a_e_mr_shield"
+    },
+    {
+        "actor_id": 421,
+        "name": "E_KG",
+        "obj_name": "EKg",
+        "rel_name": "d_a_e_kg"
+    },
+    {
+        "actor_id": 422,
+        "name": "NPC_HONEYCOMB",
+        "obj_name": "HnComb",
+        "rel_name": "d_a_npc_honeycomb"
+    },
+    {
+        "actor_id": 423,
+        "name": "NPC_BEE",
+        "obj_name": "Bee",
+        "rel_name": "d_a_npc_bee"
+    },
+    {
+        "actor_id": 424,
+        "name": "HEART_FLOWER",
+        "obj_name": "Heartf",
+        "rel_name": "d_a_heartf"
+    },
+    {
+        "actor_id": 425,
+        "name": "BOMBF",
+        "obj_name": "Bombf",
+        "rel_name": "d_a_bombf"
+    },
+    {
+        "actor_id": 426,
+        "name": "BOMB",
+        "obj_name": "Bomb",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 427,
+        "name": "OBJ_CARRY_STONE",
+        "obj_name": "CyStone",
+        "rel_name": "d_a_obj_carry_stone"
+    },
+    {
+        "actor_id": 428,
+        "name": "OBJ_ROLL_ROCK",
+        "obj_name": "RolRock",
+        "rel_name": "d_a_obj_roll_rock"
+    },
+    {
+        "actor_id": 429,
+        "name": "COL_STP",
+        "obj_name": "ColStp",
+        "rel_name": "d_a_col_stp"
+    },
+    {
+        "actor_id": 430,
+        "name": "KANBAN",
+        "obj_name": "Kanban",
+        "rel_name": "d_a_kanban"
+    },
+    {
+        "actor_id": 431,
+        "name": "OBJ_BAMBOO",
+        "obj_name": "Bamboo",
+        "rel_name": "d_a_obj_bamboo"
+    },
+    {
+        "actor_id": 432,
+        "name": "OBJ_SWHIT",
+        "obj_name": "Swhit",
+        "rel_name": "d_a_obj_swhit"
+    },
+    {
+        "actor_id": 433,
+        "name": "OBJ_SW_SWORD_BEAM",
+        "obj_name": "SwSB",
+        "rel_name": "d_a_obj_sw_sword_beam"
+    },
+    {
+        "actor_id": 434,
+        "name": "OBJ_SW_HARP",
+        "obj_name": "SwHrp",
+        "rel_name": "d_a_obj_sw_harp"
+    },
+    {
+        "actor_id": 435,
+        "name": "OBJ_SIREN_BARRIER",
+        "obj_name": "SrnSk",
+        "rel_name": "d_a_obj_siren_barrier"
+    },
+    {
+        "actor_id": 436,
+        "name": "OBJ_TOGE_TRAP",
+        "obj_name": "TgTrap",
+        "rel_name": "d_a_obj_toge_trap"
+    },
+    {
+        "actor_id": 437,
+        "name": "PUMPKIN",
+        "obj_name": "PmpknDe",
+        "rel_name": "d_a_pumpkin"
+    },
+    {
+        "actor_id": 438,
+        "name": "OBJ_PUMPKIN_LEAF",
+        "obj_name": "Pumpkin",
+        "rel_name": "d_a_obj_pumpkin_leaf"
+    },
+    {
+        "actor_id": 439,
+        "name": "OBJ_WATER_NUT_LEAF",
+        "obj_name": "wnleaf",
+        "rel_name": "d_a_obj_water_nut_leaf"
+    },
+    {
+        "actor_id": 440,
+        "name": "OBJ_WATER_NUT",
+        "obj_name": "wnut",
+        "rel_name": "d_a_obj_water_nut"
+    },
+    {
+        "actor_id": 441,
+        "name": "OBJ_TABLEWARE",
+        "obj_name": "tware",
+        "rel_name": "d_a_obj_tableware"
+    },
+    {
+        "actor_id": 442,
+        "name": "OBJ_SW_WHIPLEVER",
+        "obj_name": "sw_whip",
+        "rel_name": "d_a_obj_sw_whiplever"
+    },
+    {
+        "actor_id": 443,
+        "name": "OBJ_MUSHROOM",
+        "obj_name": "SKinoko",
+        "rel_name": "d_a_obj_mushroom"
+    },
+    {
+        "actor_id": 444,
+        "name": "WOODAREA_TAG",
+        "obj_name": "WoodTg2",
+        "rel_name": "d_a_t_wood_area"
+    },
+    {
+        "actor_id": 445,
+        "name": "OBJ_FRUIT",
+        "obj_name": "fruit",
+        "rel_name": "d_a_obj_fruit"
+    },
+    {
+        "actor_id": 446,
+        "name": "OBJ_SKULL",
+        "obj_name": "skull",
+        "rel_name": "d_a_obj_skull"
+    },
+    {
+        "actor_id": 447,
+        "name": "SOUND_TAG",
+        "obj_name": "TgSound",
+        "rel_name": "d_t_sound"
+    },
+    {
+        "actor_id": 448,
+        "name": "OBJ_ROCK_DRAGON",
+        "obj_name": "RkDrgn",
+        "rel_name": "d_a_obj_rock_dragon"
+    },
+    {
+        "actor_id": 449,
+        "name": "TAG_INSECT",
+        "obj_name": "InsctTg",
+        "rel_name": "d_t_insect"
+    },
+    {
+        "actor_id": 450,
+        "name": "INSECT_LADYBUG",
+        "obj_name": "Ladybug",
+        "rel_name": "d_a_insect_ladybug"
+    },
+    {
+        "actor_id": 451,
+        "name": "INSECT_DRAGONFLY",
+        "obj_name": "Drgnfly",
+        "rel_name": "d_a_insect_dragonfly"
+    },
+    {
+        "actor_id": 452,
+        "name": "INSECT_BEETLE",
+        "obj_name": "Kuwagat",
+        "rel_name": "d_a_insect_beetle"
+    },
+    {
+        "actor_id": 453,
+        "name": "INSECT_GRASSHOPPER",
+        "obj_name": "Mantis",
+        "rel_name": "d_a_insect_grasshopper"
+    },
+    {
+        "actor_id": 454,
+        "name": "INSECT_CICADA",
+        "obj_name": "Cicada",
+        "rel_name": "d_a_insect_cicada"
+    },
+    {
+        "actor_id": 455,
+        "name": "INSECT_ANT",
+        "obj_name": "Ant",
+        "rel_name": "d_a_insect_ant"
+    },
+    {
+        "actor_id": 456,
+        "name": "INSECT_BUTTERFLY",
+        "obj_name": "Butrfly",
+        "rel_name": "d_a_insect_butterfly"
+    },
+    {
+        "actor_id": 457,
+        "name": "INSECT_SCARAB",
+        "obj_name": "Scarab",
+        "rel_name": "d_a_insect_scarab"
+    },
+    {
+        "actor_id": 458,
+        "name": "INSECT_FIREFLY",
+        "obj_name": "Firefly",
+        "rel_name": "d_a_insect_firefly"
+    },
+    {
+        "actor_id": 459,
+        "name": "OBJ_SAIL",
+        "obj_name": "Sail",
+        "rel_name": "d_a_obj_sail"
+    },
+    {
+        "actor_id": 460,
+        "name": "OBJ_LOTUS_FLOWER",
+        "obj_name": "LtsFlwr",
+        "rel_name": "d_a_obj_lotus_flower"
+    },
+    {
+        "actor_id": 461,
+        "name": "OBJ_LOTUS_SEED",
+        "obj_name": "LtsSeed",
+        "rel_name": "d_a_obj_lotus_seed"
+    },
+    {
+        "actor_id": 462,
+        "name": "OBJ_SHUTTER_LOCK",
+        "obj_name": "lock",
+        "rel_name": "d_a_obj_lock"
+    },
+    {
+        "actor_id": 463,
+        "name": "OBJ_LAMP",
+        "obj_name": "LampF",
+        "rel_name": "d_a_obj_lamp"
+    },
+    {
+        "actor_id": 464,
+        "name": "TAG_ROCK_BOAT",
+        "obj_name": "TgRBoat",
+        "rel_name": "d_t_rock_boat"
+    },
+    {
+        "actor_id": 465,
+        "name": "OBJ_TOWER_GEAR_D101",
+        "obj_name": "TGrD101",
+        "rel_name": "d_a_obj_tower_gearD101"
+    },
+    {
+        "actor_id": 466,
+        "name": "OBJ_SHUTTER_WATER_D101",
+        "obj_name": "ShtrWtr",
+        "rel_name": "d_a_obj_shutter_waterD101"
+    },
+    {
+        "actor_id": 467,
+        "name": "OBJ_ANCIENT_JEWELS",
+        "obj_name": "AncJwls",
+        "rel_name": "d_a_obj_ancient_jewels"
+    },
+    {
+        "actor_id": 468,
+        "name": "OBJ_MG_PUMPKIN",
+        "obj_name": "MgPmpkn",
+        "rel_name": "d_a_obj_mg_pumpkin"
+    },
+    {
+        "actor_id": 469,
+        "name": "OBJ_FLAG",
+        "obj_name": "Flag",
+        "rel_name": "d_a_obj_flag"
+    },
+    {
+        "actor_id": 470,
+        "name": "OBJ_CHANDELIER",
+        "obj_name": "Chandel",
+        "rel_name": "d_a_obj_chandelier"
+    },
+    {
+        "actor_id": 471,
+        "name": "TAG_PUMPKIN_CLAY",
+        "obj_name": "TgClay",
+        "rel_name": "d_t_pumpkin_clay"
+    },
+    {
+        "actor_id": 472,
+        "name": "TAG_REACTION",
+        "obj_name": "TgReact",
+        "rel_name": "d_t_reaction"
+    },
+    {
+        "actor_id": 473,
+        "name": "OBJ_SPORE",
+        "obj_name": "Spore",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 474,
+        "name": "OBJ_FRUIT_B",
+        "obj_name": "FruitB",
+        "rel_name": "d_a_obj_fruitB"
+    },
+    {
+        "actor_id": 475,
+        "name": "OBJ_DIVINER_CRYSTAL",
+        "obj_name": "DivCrst",
+        "rel_name": "d_a_obj_diviner_crystal"
+    },
+    {
+        "actor_id": 476,
+        "name": "TAG_NOEFFECT_AREA",
+        "obj_name": "TgNoEff",
+        "rel_name": "d_t_noeffect_area"
+    },
+    {
+        "actor_id": 477,
+        "name": "TAG_D3_SCENE_CHANGE",
+        "obj_name": "TgD3Chg",
+        "rel_name": "d_t_D3_scene_change"
+    },
+    {
+        "actor_id": 478,
+        "name": "OBJ_DECOA",
+        "obj_name": "DecoA",
+        "rel_name": "d_a_obj_decoA"
+    },
+    {
+        "actor_id": 479,
+        "name": "OBJ_DECOB",
+        "obj_name": "DecoB",
+        "rel_name": "d_a_obj_decoB"
+    },
+    {
+        "actor_id": 480,
+        "name": "OBJ_SANDBAG",
+        "obj_name": "Sandbag",
+        "rel_name": "d_a_obj_sandbag"
+    },
+    {
+        "actor_id": 481,
+        "name": "OBJ_PAINT",
+        "obj_name": "Paint",
+        "rel_name": "d_a_obj_paint"
+    },
+    {
+        "actor_id": 482,
+        "name": "OBJ_CONTROL_PANEL",
+        "obj_name": "CtrlPnl",
+        "rel_name": "d_a_obj_control_panel"
+    },
+    {
+        "actor_id": 483,
+        "name": "OBJ_UG_SWITCH",
+        "obj_name": "UgSwitc",
+        "rel_name": "d_a_obj_underground_switch"
+    },
+    {
+        "actor_id": 484,
+        "name": "OBJ_CLEARNESS_WALL",
+        "obj_name": "ClrWall",
+        "rel_name": "d_a_obj_clearness_wall"
+    },
+    {
+        "actor_id": 485,
+        "name": "OBJ_RUINED_SAVE",
+        "obj_name": "RuinSav",
+        "rel_name": "d_a_obj_ruined_save"
+    },
+    {
+        "actor_id": 486,
+        "name": "OBJ_TRIFORCE",
+        "obj_name": "TriForc",
+        "rel_name": "d_a_obj_triforce"
+    },
+    {
+        "actor_id": 487,
+        "name": "OBJ_KANBAN_STONE",
+        "obj_name": "KanbanS",
+        "rel_name": "d_a_obj_kanban_stone"
+    },
+    {
+        "actor_id": 488,
+        "name": "TBOX",
+        "obj_name": "TBox",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 489,
+        "name": "OBJ_BUBBLE",
+        "obj_name": "Bubble",
+        "rel_name": "d_a_obj_bubble"
+    },
+    {
+        "actor_id": 490,
+        "name": "OBJ_VSD",
+        "obj_name": "vmSand",
+        "rel_name": "d_a_obj_scattersand"
+    },
+    {
+        "actor_id": 491,
+        "name": "OBJ_SOIL",
+        "obj_name": "Soil",
+        "rel_name": "d_a_obj_soil"
+    },
+    {
+        "actor_id": 492,
+        "name": "OBJ_IVY_ROPE",
+        "obj_name": "IvyRope",
+        "rel_name": "d_a_obj_ivy_rope"
+    },
+    {
+        "actor_id": 493,
+        "name": "OBJ_GRASS_COIL",
+        "obj_name": "Gcoil",
+        "rel_name": "d_a_obj_grass_coil"
+    },
+    {
+        "actor_id": 494,
+        "name": "OBJ_ROPE_IGAIGA",
+        "obj_name": "RopeIga",
+        "rel_name": "d_a_obj_rope_igaiga"
+    },
+    {
+        "actor_id": 495,
+        "name": "OBJ_FIRE",
+        "obj_name": "Fire",
+        "rel_name": "d_a_obj_fire"
+    },
+    {
+        "actor_id": 496,
+        "name": "OBJ_TUBO",
+        "obj_name": "Tubo",
+        "rel_name": "d_a_obj_tubo"
+    },
+    {
+        "actor_id": 497,
+        "name": "OBJ_TUBO_BIG",
+        "obj_name": "BigTubo",
+        "rel_name": "d_a_obj_tubo_big"
+    },
+    {
+        "actor_id": 498,
+        "name": "OBJ_CHAIR",
+        "obj_name": "CharE",
+        "rel_name": "d_a_obj_chair"
+    },
+    {
+        "actor_id": 499,
+        "name": "TIME_AREA",
+        "obj_name": "Warp",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 500,
+        "name": "OBJ_BLAST_ROCK",
+        "obj_name": "BlsRock",
+        "rel_name": "d_a_obj_blast_rock"
+    },
+    {
+        "actor_id": 501,
+        "name": "OBJ_SW_DIR",
+        "obj_name": "SwDir",
+        "rel_name": "d_a_obj_sw_dir"
+    },
+    {
+        "actor_id": 502,
+        "name": "OBJ_SW_DIR_DOOR",
+        "obj_name": "SwDir2",
+        "rel_name": "d_a_obj_sw_dir_door"
+    },
+    {
+        "actor_id": 503,
+        "name": "OBJ_SW_BANK",
+        "obj_name": "SwBnk",
+        "rel_name": "d_a_obj_sw_bank"
+    },
+    {
+        "actor_id": 504,
+        "name": "OBJ_SW_BANK_SMALL",
+        "obj_name": "SwBnkS",
+        "rel_name": "d_a_obj_sw_bank_small"
+    },
+    {
+        "actor_id": 505,
+        "name": "T_FAIRY",
+        "obj_name": "FairyTa",
+        "rel_name": "d_t_fairytag"
+    },
+    {
+        "actor_id": 506,
+        "name": "OBJ_FAIRY",
+        "obj_name": "Fairy",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 507,
+        "name": "BIRD_MOB",
+        "obj_name": "BrdMob",
+        "rel_name": "d_a_bird_mob"
+    },
+    {
+        "actor_id": 508,
+        "name": "OBJ_BALLISTA_HANDLE",
+        "obj_name": "BlstH",
+        "rel_name": "d_a_obj_ballista_handle"
+    },
+    {
+        "actor_id": 509,
+        "name": "OBJ_TIME_BOAT_BULLET",
+        "obj_name": "TBoatB",
+        "rel_name": "d_a_obj_time_boat_bullet"
+    },
+    {
+        "actor_id": 510,
+        "name": "OBJ_TIME_DOOR",
+        "obj_name": "TDoor",
+        "rel_name": "d_a_obj_time_door"
+    },
+    {
+        "actor_id": 511,
+        "name": "OBJ_TIME_DOOR_BEFORE",
+        "obj_name": "TDoorB",
+        "rel_name": "d_a_obj_time_door_before"
+    },
+    {
+        "actor_id": 512,
+        "name": "TAG_TIME_DOOR_BEAM",
+        "obj_name": "TgTDB",
+        "rel_name": "d_t_time_door_beam"
+    },
+    {
+        "actor_id": 513,
+        "name": "OBJ_COL",
+        "obj_name": "Col",
+        "rel_name": "d_a_obj_col"
+    },
+    {
+        "actor_id": 514,
+        "name": "OBJ_DAYNIGHT",
+        "obj_name": "DNight",
+        "rel_name": "d_a_obj_daynight"
+    },
+    {
+        "actor_id": 515,
+        "name": "OBJ_BUILDING",
+        "obj_name": "ObjBld",
+        "rel_name": "d_a_obj_building"
+    },
+    {
+        "actor_id": 516,
+        "name": "OBJ_OCT_GRASS",
+        "obj_name": "OcGrs",
+        "rel_name": "d_a_obj_oct_grass"
+    },
+    {
+        "actor_id": 517,
+        "name": "OBJ_OCT_GRASS_LEAF",
+        "obj_name": "OcGrsL",
+        "rel_name": "d_a_obj_oct_grass_leaf"
+    },
+    {
+        "actor_id": 518,
+        "name": "OBJ_TUMBLE_WEED",
+        "obj_name": "TWeed",
+        "rel_name": "d_a_obj_tumble_weed"
+    },
+    {
+        "actor_id": 519,
+        "name": "TUMBLE_WEED_TAG",
+        "obj_name": "TgTw",
+        "rel_name": "d_t_tumble_weed"
+    },
+    {
+        "actor_id": 520,
+        "name": "OBJ_FLOWER_ANCIENT",
+        "obj_name": "AFlw",
+        "rel_name": "d_a_obj_flower_ancient"
+    },
+    {
+        "actor_id": 521,
+        "name": "OBJ_BARREL",
+        "obj_name": "Barrel",
+        "rel_name": "d_a_obj_barrel"
+    },
+    {
+        "actor_id": 522,
+        "name": "OBJ_WARP",
+        "obj_name": "WarpObj",
+        "rel_name": "d_a_obj_warp"
+    },
+    {
+        "actor_id": 523,
+        "name": "OBJ_WATER_MARK",
+        "obj_name": "WtrMrk",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 524,
+        "name": "OBJ_WATER_JAR",
+        "obj_name": "WtrJar",
+        "rel_name": "d_a_obj_water_jar"
+    },
+    {
+        "actor_id": 525,
+        "name": "OBJ_STOPPING_ROPE",
+        "obj_name": "StpRope",
+        "rel_name": "d_a_obj_stopping_rope"
+    },
+    {
+        "actor_id": 526,
+        "name": "OBJ_TRAP_BIRD_WOOD",
+        "obj_name": "TrpBrdW",
+        "rel_name": "d_a_obj_trap_bird_wood"
+    },
+    {
+        "actor_id": 527,
+        "name": "OBJ_TACKLE",
+        "obj_name": "Tckl",
+        "rel_name": "d_a_obj_tackle"
+    },
+    {
+        "actor_id": 528,
+        "name": "TACKLE_TAG",
+        "obj_name": "TgTckl",
+        "rel_name": "d_t_tackle"
+    },
+    {
+        "actor_id": 529,
+        "name": "OBJ_VORTEX",
+        "obj_name": "Vortex",
+        "rel_name": "d_a_obj_vortex"
+    },
+    {
+        "actor_id": 530,
+        "name": "OBJ_TOWER_BOMB",
+        "obj_name": "TowerB",
+        "rel_name": "d_a_obj_tower_bomb"
+    },
+    {
+        "actor_id": 531,
+        "name": "OBJ_SEAT_SWORD",
+        "obj_name": "SwrdSt",
+        "rel_name": "d_a_obj_seat_sword"
+    },
+    {
+        "actor_id": 532,
+        "name": "OBJ_POLE_STONY",
+        "obj_name": "PoleStn",
+        "rel_name": "d_a_obj_pole_stony"
+    },
+    {
+        "actor_id": 533,
+        "name": "OBJ_SWORD_CANDLE",
+        "obj_name": "SdCdl",
+        "rel_name": "d_a_obj_sword_candle"
+    },
+    {
+        "actor_id": 534,
+        "name": "OBJ_SAVE",
+        "obj_name": "saveObj",
+        "rel_name": "d_a_obj_save"
+    },
+    {
+        "actor_id": 535,
+        "name": "OBJ_POOL_COCK",
+        "obj_name": "PlCock",
+        "rel_name": "d_a_obj_pool_cock"
+    },
+    {
+        "actor_id": 536,
+        "name": "OBJ_FIREWALL",
+        "obj_name": "FWall",
+        "rel_name": "d_a_obj_firewall"
+    },
+    {
+        "actor_id": 537,
+        "name": "HARP_TAG",
+        "obj_name": "HrpTg",
+        "rel_name": "d_t_harp"
+    },
+    {
+        "actor_id": 538,
+        "name": "OBJ_SWORD_STAB",
+        "obj_name": "SwdStb",
+        "rel_name": "d_a_obj_sword_stab"
+    },
+    {
+        "actor_id": 539,
+        "name": "OBJ_GODDESS_CUBE",
+        "obj_name": "GodCube",
+        "rel_name": "d_a_obj_goddess_cube"
+    },
+    {
+        "actor_id": 540,
+        "name": "OBJ_TIME_BLOCK",
+        "obj_name": "TSBlk",
+        "rel_name": "d_a_obj_time_block"
+    },
+    {
+        "actor_id": 541,
+        "name": "OBJ_MOVE_ELEC",
+        "obj_name": "MvElc",
+        "rel_name": "d_a_obj_move_elec"
+    },
+    {
+        "actor_id": 542,
+        "name": "OBJ_LAVA_D201",
+        "obj_name": "LvD201",
+        "rel_name": "d_a_obj_lava_d201"
+    },
+    {
+        "actor_id": 543,
+        "name": "OBJ_HARP_HINT",
+        "obj_name": "HrpHint",
+        "rel_name": "d_a_obj_harp_hint"
+    },
+    {
+        "actor_id": 544,
+        "name": "OBJ_F302_LIGHT",
+        "obj_name": "F302Lt",
+        "rel_name": "d_a_obj_F302_light"
+    },
+    {
+        "actor_id": 545,
+        "name": "OBJ_TOD3_STONE",
+        "obj_name": "ToD3Stn",
+        "rel_name": "d_a_obj_toD3_stone_figure"
+    },
+    {
+        "actor_id": 546,
+        "name": "OBJ_B300_SAND",
+        "obj_name": "B300Snd",
+        "rel_name": "d_a_obj_B300_sand"
+    },
+    {
+        "actor_id": 547,
+        "name": "T_DOWSING",
+        "obj_name": "Dowsing",
+        "rel_name": "d_t_dowsing"
+    },
+    {
+        "actor_id": 548,
+        "name": "T_MAP_MARK",
+        "obj_name": "MapMark",
+        "rel_name": "d_t_map_mark"
+    },
+    {
+        "actor_id": 549,
+        "name": "BEETLE_TAG",
+        "obj_name": "BtlTgC",
+        "rel_name": "d_t_beetle"
+    },
+    {
+        "actor_id": 550,
+        "name": "EFFECT_GEN_TAG",
+        "obj_name": "EffGnT",
+        "rel_name": "d_t_effect_gen"
+    },
+    {
+        "actor_id": 551,
+        "name": "TAG_TIME_AREA_CHECK",
+        "obj_name": "TChk",
+        "rel_name": "d_t_time_area_check"
+    },
+    {
+        "actor_id": 552,
+        "name": "TAG_RESTART_TIME_STONE",
+        "obj_name": "TgRstTs",
+        "rel_name": "d_t_restart_time_stone"
+    },
+    {
+        "actor_id": 553,
+        "name": "SHOP_SAMPLE",
+        "obj_name": "ShpSmpl",
+        "rel_name": "d_a_shop_sample"
+    },
+    {
+        "actor_id": 554,
+        "name": "OBJ_TERRY_GIMMICK",
+        "obj_name": "TerrGmk",
+        "rel_name": "d_a_obj_terry_gimmick"
+    },
+    {
+        "actor_id": 555,
+        "name": "OBJ_TERRY_SWITCH",
+        "obj_name": "TerrSw",
+        "rel_name": "d_a_obj_terry_switch"
+    },
+    {
+        "actor_id": 556,
+        "name": "OBJ_TERRY_HOLE",
+        "obj_name": "TerrHol",
+        "rel_name": "d_a_obj_terry_hole"
+    },
+    {
+        "actor_id": 557,
+        "name": "OBJ_TERRY_BIKE",
+        "obj_name": "TerBike",
+        "rel_name": "d_a_obj_terry_bicycle"
+    },
+    {
+        "actor_id": 558,
+        "name": "OBJ_JUNK_REPAIR",
+        "obj_name": "JunkRep",
+        "rel_name": "d_a_obj_junk_repairing"
+    },
+    {
+        "actor_id": 559,
+        "name": "CO_TEST",
+        "obj_name": "CoTest",
+        "rel_name": "d_a_co_test"
+    },
+    {
+        "actor_id": 560,
+        "name": "OBJ_ARROW_SWITCH",
+        "obj_name": "ArrowSW",
+        "rel_name": "d_a_obj_arrow_switch"
+    },
+    {
+        "actor_id": 561,
+        "name": "OBJ_VENT_FAN",
+        "obj_name": "VentFan",
+        "rel_name": "d_a_obj_vent_fan"
+    },
+    {
+        "actor_id": 562,
+        "name": "OBJ_ELECTRIC_LIGHT",
+        "obj_name": "ElLight",
+        "rel_name": "d_a_obj_electric_light"
+    },
+    {
+        "actor_id": 563,
+        "name": "OBJ_WATER_SWITCH",
+        "obj_name": "WaterSW",
+        "rel_name": "d_a_obj_water_switch"
+    },
+    {
+        "actor_id": 564,
+        "name": "OBJ_ROTATION_LIGHT",
+        "obj_name": "RoLight",
+        "rel_name": "d_a_obj_rotation_light"
+    },
+    {
+        "actor_id": 565,
+        "name": "OBJ_HOLE_MINIGAME",
+        "obj_name": "HoleMNG",
+        "rel_name": "d_a_obj_hole_minigame"
+    },
+    {
+        "actor_id": 566,
+        "name": "OBJ_CLOUD_DIVE",
+        "obj_name": "CloudSD",
+        "rel_name": "d_a_obj_cloud_dive"
+    },
+    {
+        "actor_id": 567,
+        "name": "OBJ_MUSASABI",
+        "obj_name": "Musasab",
+        "rel_name": "d_a_obj_musasabi"
+    },
+    {
+        "actor_id": 568,
+        "name": "OBJ_FORTUNE_RING",
+        "obj_name": "Fortune",
+        "rel_name": "d_a_obj_fortune_ring"
+    },
+    {
+        "actor_id": 569,
+        "name": "OBJ_BLOW_COAL",
+        "obj_name": "BlwCoal",
+        "rel_name": "d_a_obj_blow_coal"
+    },
+    {
+        "actor_id": 570,
+        "name": "OBJ_SPIKE",
+        "obj_name": "Spike",
+        "rel_name": "d_a_obj_spike"
+    },
+    {
+        "actor_id": 571,
+        "name": "OBJ_WATER_SPOUT",
+        "obj_name": "WaterSp",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 572,
+        "name": "OBJ_SMOKE",
+        "obj_name": "Smoke",
+        "rel_name": "d_a_obj_smoke"
+    },
+    {
+        "actor_id": 573,
+        "name": "OBJ_LIGHTHOUSE_LIGHT",
+        "obj_name": "LHLight",
+        "rel_name": "d_a_obj_lighthouse_light"
+    },
+    {
+        "actor_id": 574,
+        "name": "OBJ_WATER_IGAIGA",
+        "obj_name": "WatrIga",
+        "rel_name": "d_a_obj_water_igaiga"
+    },
+    {
+        "actor_id": 575,
+        "name": "OBJ_BLADE",
+        "obj_name": "Blade",
+        "rel_name": "d_a_obj_blade"
+    },
+    {
+        "actor_id": 576,
+        "name": "OBJ_FIRE_OBSTACLE",
+        "obj_name": "FireObs",
+        "rel_name": "d_a_obj_fire_obstacle"
+    },
+    {
+        "actor_id": 577,
+        "name": "OBJ_FIRE_PILLAR",
+        "obj_name": "FirePil",
+        "rel_name": "d_a_obj_fire_pillar"
+    },
+    {
+        "actor_id": 578,
+        "name": "OBJ_GUARD_LOG",
+        "obj_name": "GuardLg",
+        "rel_name": "d_a_obj_guard_log"
+    },
+    {
+        "actor_id": 579,
+        "name": "OBJ_SLICE_LOG",
+        "obj_name": "SliceLg",
+        "rel_name": "d_a_obj_slice_log"
+    },
+    {
+        "actor_id": 580,
+        "name": "OBJ_SLICE_LOG_PARTS",
+        "obj_name": "SlicePt",
+        "rel_name": "d_a_obj_slice_log_parts"
+    },
+    {
+        "actor_id": 581,
+        "name": "OBJ_STAGE_DEBRIS",
+        "obj_name": "Debris",
+        "rel_name": "d_a_obj_stage_debris"
+    },
+    {
+        "actor_id": 582,
+        "name": "OBJ_GROUND_COVER",
+        "obj_name": "GrCover",
+        "rel_name": "d_a_obj_ground_cover"
+    },
+    {
+        "actor_id": 583,
+        "name": "OBJ_CUMUL_CLOUD",
+        "obj_name": "CmCloud",
+        "rel_name": "d_a_obj_cumul_cloud"
+    },
+    {
+        "actor_id": 584,
+        "name": "OBJ_UNDER_CLOUD",
+        "obj_name": "UdCloud",
+        "rel_name": "d_a_obj_under_cloud"
+    },
+    {
+        "actor_id": 585,
+        "name": "OBJ_WATERFALL_F102",
+        "obj_name": "WFF102",
+        "rel_name": "d_a_obj_waterfall_F102"
+    },
+    {
+        "actor_id": 586,
+        "name": "OBJ_GOD_MARK",
+        "obj_name": "GodMark",
+        "rel_name": "d_a_obj_god_mark"
+    },
+    {
+        "actor_id": 587,
+        "name": "OBJ_IMPA_DOOR",
+        "obj_name": "ImpaDor",
+        "rel_name": "d_a_obj_impa_door"
+    },
+    {
+        "actor_id": 588,
+        "name": "OBJ_WATERFALL_D100",
+        "obj_name": "WtFD100",
+        "rel_name": "d_a_obj_waterfall_D100"
+    },
+    {
+        "actor_id": 589,
+        "name": "OBJ_GIRAHIM_FOOT",
+        "obj_name": "GiraFot",
+        "rel_name": "d_a_obj_girahim_foot"
+    },
+    {
+        "actor_id": 590,
+        "name": "OBJ_ISLAND_LOD",
+        "obj_name": "IslLOD",
+        "rel_name": "d_a_obj_island_LOD"
+    },
+    {
+        "actor_id": 591,
+        "name": "OBJ_UTA_DEMO_PEDEST",
+        "obj_name": "DemoPds",
+        "rel_name": "d_a_obj_uta_demo_pedest"
+    },
+    {
+        "actor_id": 592,
+        "name": "OBJ_LAVA_F200",
+        "obj_name": "LavF200",
+        "rel_name": "d_a_obj_lava_F200"
+    },
+    {
+        "actor_id": 593,
+        "name": "OBJ_ROPE_BASE",
+        "obj_name": "RopeBas",
+        "rel_name": "d_a_obj_rope_base"
+    },
+    {
+        "actor_id": 594,
+        "name": "OBJ_SUN_LIGHT",
+        "obj_name": "SnLight",
+        "rel_name": "d_a_obj_sun_light"
+    },
+    {
+        "actor_id": 595,
+        "name": "OBJ_SIREN_2DMAP",
+        "obj_name": "Siren2D",
+        "rel_name": "d_a_obj_siren_2dmap"
+    },
+    {
+        "actor_id": 596,
+        "name": "OBJ_DISPLAY_ONLY_NBS",
+        "obj_name": "DiOnNbs",
+        "rel_name": "d_a_obj_display_only_nbs"
+    },
+    {
+        "actor_id": 597,
+        "name": "OBJ_AMBER",
+        "obj_name": "Amber",
+        "rel_name": "d_a_obj_amber"
+    },
+    {
+        "actor_id": 598,
+        "name": "OBJ_BIRD_STATUE",
+        "obj_name": "BirdSta",
+        "rel_name": "d_a_obj_bird_statue"
+    },
+    {
+        "actor_id": 599,
+        "name": "OBJ_F400_GATE_LEAF",
+        "obj_name": "F400Gat",
+        "rel_name": "d_a_obj_F400_gate_leaf"
+    },
+    {
+        "actor_id": 600,
+        "name": "OBJ_F400_GATE_SEAL",
+        "obj_name": "F400GaS",
+        "rel_name": "d_a_obj_F400_gate_seal"
+    },
+    {
+        "actor_id": 601,
+        "name": "OBJ_MAPPARTS",
+        "obj_name": "MpParts",
+        "rel_name": "d_a_obj_mapparts"
+    },
+    {
+        "actor_id": 602,
+        "name": "OBJ_RO_AT_TARGET",
+        "obj_name": "RoAtTar",
+        "rel_name": "d_a_obj_ro_at_target"
+    },
+    {
+        "actor_id": 603,
+        "name": "RO_AT_TAR_MANAGER_TAG",
+        "obj_name": "RoAtTag",
+        "rel_name": "d_t_ro_at_target_manager"
+    },
+    {
+        "actor_id": 604,
+        "name": "TAG_MUSASABI",
+        "obj_name": "MssbTag",
+        "rel_name": "d_t_musasabi"
+    },
+    {
+        "actor_id": 605,
+        "name": "TAG_MAP_INST",
+        "obj_name": "MapInst",
+        "rel_name": "d_t_map_inst"
+    },
+    {
+        "actor_id": 606,
+        "name": "TAG_AUTO_MESSAGE",
+        "obj_name": "AutoMes",
+        "rel_name": "d_t_auto_message"
+    },
+    {
+        "actor_id": 607,
+        "name": "TAG_SHIP_SLOPE",
+        "obj_name": "ShipSlp",
+        "rel_name": "d_t_ship_slope"
+    },
+    {
+        "actor_id": 608,
+        "name": "TAG_SHIP_FLOOD",
+        "obj_name": "ShipFld",
+        "rel_name": "d_t_ship_flood"
+    },
+    {
+        "actor_id": 609,
+        "name": "TAG_BARREL",
+        "obj_name": "BarrlTg",
+        "rel_name": "d_t_barrel"
+    },
+    {
+        "actor_id": 610,
+        "name": "TAG_BARREL_POS",
+        "obj_name": "BarPsTg",
+        "rel_name": "d_t_barrel_pos"
+    },
+    {
+        "actor_id": 611,
+        "name": "TAG_HEAT_RESIST",
+        "obj_name": "HeatRst",
+        "rel_name": "d_t_heat_resist"
+    },
+    {
+        "actor_id": 612,
+        "name": "TAG_HOLY_WATER",
+        "obj_name": "HolyWtr",
+        "rel_name": "d_t_holy_water"
+    },
+    {
+        "actor_id": 613,
+        "name": "TAG_BELT_OBSTACLE",
+        "obj_name": "BltObsT",
+        "rel_name": "d_t_belt_obstacle"
+    },
+    {
+        "actor_id": 614,
+        "name": "TAG_DRUM",
+        "obj_name": "DrumTag",
+        "rel_name": "d_t_drum"
+    },
+    {
+        "actor_id": 615,
+        "name": "TAG_ROLL_ATTACK_LOG",
+        "obj_name": "RoAtLog",
+        "rel_name": "d_t_roll_attack_log"
+    },
+    {
+        "actor_id": 616,
+        "name": "TAG_SHIP_WINDOW",
+        "obj_name": "SpWinTg",
+        "rel_name": "d_t_ship_window"
+    },
+    {
+        "actor_id": 617,
+        "name": "ARROW",
+        "obj_name": "Arrow",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 618,
+        "name": "MASS_OBJ_TAG",
+        "obj_name": "MassTag",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 619,
+        "name": "SOUND_AREA_MGR",
+        "obj_name": "TgSndMg",
+        "rel_name": "d_t_sound_area_mgr"
+    },
+    {
+        "actor_id": 620,
+        "name": "TAG_SOUND_AREA",
+        "obj_name": "TgSndAr",
+        "rel_name": "d_t_sound_area"
+    },
+    {
+        "actor_id": 621,
+        "name": "ATT_TAG",
+        "obj_name": "AttTag",
+        "rel_name": "d_t_at0"
+    },
+    {
+        "actor_id": 622,
+        "name": "TLP_TAG",
+        "obj_name": "TlpTag",
+        "rel_name": "d_t_telop"
+    },
+    {
+        "actor_id": 623,
+        "name": "SKYENEMY_T",
+        "obj_name": "SkEnmyT",
+        "rel_name": "d_t_skyEnemy"
+    },
+    {
+        "actor_id": 624,
+        "name": "TOUCH_TAG",
+        "obj_name": "TouchTa",
+        "rel_name": "d_t_touch"
+    },
+    {
+        "actor_id": 625,
+        "name": "CAMERA_TAG",
+        "obj_name": "CamTag",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 626,
+        "name": "CAMERA2_TAG",
+        "obj_name": "Cam2Tag",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 627,
+        "name": "ACTION_TAG",
+        "obj_name": "ActTag",
+        "rel_name": "d_t_action"
+    },
+    {
+        "actor_id": 628,
+        "name": "SC_CHANGE_TAG",
+        "obj_name": "ScChang",
+        "rel_name": "d_t_scene_change"
+    },
+    {
+        "actor_id": 629,
+        "name": "GATE2GND_TAG",
+        "obj_name": "GateGnd",
+        "rel_name": "d_t_gate_to_ground"
+    },
+    {
+        "actor_id": 630,
+        "name": "ALLDIE_TAG",
+        "obj_name": "DieTag",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 631,
+        "name": "SW_TAG",
+        "obj_name": "SwTag",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 632,
+        "name": "PL_RESTART",
+        "obj_name": "PlRsTag",
+        "rel_name": "d_t_player_restart"
+    },
+    {
+        "actor_id": 633,
+        "name": "SW_AREA_TAG",
+        "obj_name": "SwAreaT",
+        "rel_name": "d_t_sw_area"
+    },
+    {
+        "actor_id": 634,
+        "name": "SIREN_TAG",
+        "obj_name": "SirenTg",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 635,
+        "name": "TAG_TKEVNT",
+        "obj_name": "TkEvnt",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 636,
+        "name": "MOLE_PROHIBIT_TAG",
+        "obj_name": "MoleTag",
+        "rel_name": "d_t_mole_prohibit"
+    },
+    {
+        "actor_id": 637,
+        "name": "TAG_DEFEAT_BOSS",
+        "obj_name": "TgDefea",
+        "rel_name": "d_t_defeat_boss"
+    },
+    {
+        "actor_id": 638,
+        "name": "TAG_TIMER",
+        "obj_name": "TgTimer",
+        "rel_name": "d_t_timer"
+    },
+    {
+        "actor_id": 639,
+        "name": "TAG_FENCE_SYNCHRONIZER",
+        "obj_name": "TgFence",
+        "rel_name": "d_t_fence_synchronizer"
+    },
+    {
+        "actor_id": 640,
+        "name": "TAG_GENKI_DOWSING_TARGET",
+        "obj_name": "GenkiDT",
+        "rel_name": "d_t_genki_dws_tgt"
+    },
+    {
+        "actor_id": 641,
+        "name": "ITEM",
+        "obj_name": "Item",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 642,
+        "name": "OBJ_ITEM_HEART_CONTAINER",
+        "obj_name": "HeartCo",
+        "rel_name": "d_a_obj_item_heart_container"
+    },
+    {
+        "actor_id": 643,
+        "name": "OBJ_CLEF",
+        "obj_name": "Clef",
+        "rel_name": "d_a_obj_clef"
+    },
+    {
+        "actor_id": 644,
+        "name": "OBJ_FRUIT_GUTS_LEAF",
+        "obj_name": "LeafGut",
+        "rel_name": "d_a_obj_fruit_guts_leaf"
+    },
+    {
+        "actor_id": 645,
+        "name": "OBJ_SWRD_PRJ",
+        "obj_name": "SwrdPrj",
+        "rel_name": "d_a_obj_swrd_prj"
+    },
+    {
+        "actor_id": 646,
+        "name": "OBJ_VACU_DUST_PARTS",
+        "obj_name": "VacuDsP",
+        "rel_name": "d_a_obj_vacu_dust_parts"
+    },
+    {
+        "actor_id": 647,
+        "name": "OBJ_VACU_DUST",
+        "obj_name": "VacuDst",
+        "rel_name": "d_a_obj_vacu_dust"
+    },
+    {
+        "actor_id": 648,
+        "name": "OBJ_RAIL_POST",
+        "obj_name": "RailPst",
+        "rel_name": "d_a_obj_rail_post"
+    },
+    {
+        "actor_id": 649,
+        "name": "OBJ_RAIL_END",
+        "obj_name": "RailEnd",
+        "rel_name": "d_a_obj_rail_end"
+    },
+    {
+        "actor_id": 650,
+        "name": "OBJ_TENI_RAIL",
+        "obj_name": "TRail",
+        "rel_name": "d_a_obj_teni_rail"
+    },
+    {
+        "actor_id": 651,
+        "name": "OBJ_TENI_RAIL_POST",
+        "obj_name": "TRalPst",
+        "rel_name": "d_a_obj_teni_rail_post"
+    },
+    {
+        "actor_id": 652,
+        "name": "OBJ_FORCE_SIGN",
+        "obj_name": "ForceS",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 653,
+        "name": "TAG_FORCE_GET_FLAG",
+        "obj_name": "ForceGT",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 654,
+        "name": "TAG_CLEF_MANAGER",
+        "obj_name": "TgClefM",
+        "rel_name": "d_t_clef_manager"
+    },
+    {
+        "actor_id": 655,
+        "name": "TAG_CLEF_GAME",
+        "obj_name": "TgClefG",
+        "rel_name": "d_t_clef_game"
+    },
+    {
+        "actor_id": 656,
+        "name": "TAG_MINIGAME_INSECT_CAPTURE",
+        "obj_name": "TgMICap",
+        "rel_name": "d_t_minigame_insect_capture"
+    },
+    {
+        "actor_id": 657,
+        "name": "CAMERA",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 658,
+        "name": "WEATHER_TAG",
+        "obj_name": "weather",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 659,
+        "name": "SPORE_TAG",
+        "obj_name": "SporeTg",
+        "rel_name": "d_t_spore"
+    },
+    {
+        "actor_id": 660,
+        "name": "MIST_TAG",
+        "obj_name": "MistTg",
+        "rel_name": "d_t_mist"
+    },
+    {
+        "actor_id": 661,
+        "name": "SPARKS_TAG",
+        "obj_name": "SparkTg",
+        "rel_name": "d_t_sparks"
+    },
+    {
+        "actor_id": 662,
+        "name": "SPARKS2_TAG",
+        "obj_name": "SpkTg2",
+        "rel_name": "d_t_sparks2"
+    },
+    {
+        "actor_id": 663,
+        "name": "KYTAG_TAG",
+        "obj_name": "Kytag",
+        "rel_name": "d_t_kytag"
+    },
+    {
+        "actor_id": 664,
+        "name": "LBTHUNDER_TAG",
+        "obj_name": "LbTnder",
+        "rel_name": "d_t_lb_thunder"
+    },
+    {
+        "actor_id": 665,
+        "name": "PLTCHG_TAG",
+        "obj_name": "PltChg",
+        "rel_name": "d_t_pltchg"
+    },
+    {
+        "actor_id": 666,
+        "name": "PLIGHT_TAG",
+        "obj_name": "Plight",
+        "rel_name": "d_t_plight"
+    },
+    {
+        "actor_id": 667,
+        "name": "VRBOX_TAG",
+        "obj_name": "Vrbox",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 668,
+        "name": "NPC_INV",
+        "obj_name": "NpcInv",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 669,
+        "name": "NPC_TKE",
+        "obj_name": "NpcTke",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 670,
+        "name": "NPC_STR",
+        "obj_name": "NpcStr",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 671,
+        "name": "MESSAGE_ACTOR",
+        "obj_name": "Message",
+        "rel_name": "d_a_message"
+    },
+    {
+        "actor_id": 672,
+        "name": "LIGHT_OBJECT",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 673,
+        "name": "MESSAGE",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 674,
+        "name": "LYT_CONTROL_GAME",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 675,
+        "name": "LYT_DEMO_DOWSING",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 676,
+        "name": "LYT_CONTROL_TITLE",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 677,
+        "name": "LYT_DROP_LINE",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 678,
+        "name": "LYT_FORCE_LINE",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 679,
+        "name": "LYT_ENEMY_ICON",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 680,
+        "name": "LYT_MINI_GAME",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 681,
+        "name": "LYT_SUIRYU_SCORE",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 682,
+        "name": "LYT_SUIRYU_SCORE_COMP",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 683,
+        "name": "LYT_BOSS_CAPTION",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 684,
+        "name": "LYT_PAUSE",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 685,
+        "name": "LYT_GAMEOVER_MGR",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 686,
+        "name": "LYT_SAVE_MGR",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 687,
+        "name": "TITLE_MANAGER",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 688,
+        "name": "LYT_TITLE_BG",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 689,
+        "name": "LYT_SHOP",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 690,
+        "name": "LYT_DEPOSIT",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 691,
+        "name": "LYT_DEMO_TITLE",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 692,
+        "name": "LYT_END_ROLL",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 693,
+        "name": "LYT_SEEKER_STONE",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 694,
+        "name": "LYT_FILESELECT",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 695,
+        "name": "SKB",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 696,
+        "name": "EVENT_TAG",
+        "obj_name": "EvntTag",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 697,
+        "name": "EVENTF_TAG",
+        "obj_name": "EvfTag",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 698,
+        "name": "C_GAME",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 699,
+        "name": "C_BASE",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 700,
+        "name": "BOOT",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 701,
+        "name": "ROOM",
+        "obj_name": "",
+        "rel_name": ""
+    },
+    {
+        "actor_id": 702,
+        "name": "LAST",
+        "obj_name": "",
+        "rel_name": ""
+    }
+]
