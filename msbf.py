@@ -68,8 +68,8 @@ TEXTREPLACEMENTS = {
     b'\x00\x0e\x00\x02\x00\x04\x00\x02\x00\x19\x00C\x00D': '(X)'.encode('utf-16be'), # marker X
 }
 
-LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US']
-# LANGS = ['en_US']
+# LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US']
+LANGS = ['en_US']
 
 cumulative_flags_set = [b'\x00'*0x10]*len(flagindex_names)
 
@@ -398,11 +398,17 @@ if __name__ == "__main__":
                     if lineStr is not None:
                         file.write(('/*<%3d>*/ '%(lineId) if lineId else ' '*10)+'\t'*indent+lineStr+'\n')
                 assert len(already_printed) == len(parsed['FLW3']['flow'])
+
+            text_index_to_label = {}
+            for labelrow in parsedMsbt['LBL1']:
+                for label in labelrow:
+                    text_index_to_label[label['value']] = label['name']
             
             filename = fname.split(os.sep)[-1]
             # output/event: raw event data
             (outdir / "event").mkdir(parents=True, exist_ok=True)
             (outdir / "event" / filename.replace('.msbf','.json')).write_text(objToJson(parsed), encoding='utf-8')
+            # (outdir / "event" / filename.replace('.msbf','_text.json')).write_text(objToJson(parsedMsbt), encoding='utf-8')
 
             # output/event2: interpreted event data
             (outdir / "event2").mkdir(parents=True, exist_ok=True)
@@ -412,8 +418,8 @@ if __name__ == "__main__":
             # output/text: text only
             (outdir / "text").mkdir(parents=True, exist_ok=True)
             with (outdir / "text" / filename.replace('.msbf','.txt')).open('w', encoding='utf-8') as f:
-                for line in parsedMsbt['TXT2']:
-                    f.write(line + '\n')
+                for linenum, line in enumerate(parsedMsbt['TXT2']):
+                    f.write(text_index_to_label[linenum] + ': ' + line + '\n')
 
         # output/cumulSceneFlags.txt: a listing of scene flags found to be set by the event system
         with open('output/cumulSceneFlags.txt','w') as f:
