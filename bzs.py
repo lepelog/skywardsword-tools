@@ -337,6 +337,12 @@ def objAddExtraInfo(parsed_item):
         extraInfo['set2scenefid'] = (params1 >> 8) & 0xFF
     elif parsed_item['name'] == 'MapMark':
         extraInfo['trigstoryfid'] = (params1 >> 12) & 0x7FF
+    elif parsed_item['name'] == 'SwrdPrj':
+        flag_add = (params1 >> 3) & 0x1F
+        if flag_add != 0x1F:
+            extraInfo['flag_add'] = flag_add
+            extraInfo['exhaustedstoryfid'] = 0x190 + extraInfo['flag_add']
+            extraInfo['spawnstoryfid'] = 0x1AE + extraInfo['flag_add']
     #     extraInfo['map_pop_id'] = (parsed_item['anglez'] & 0xFF00) >> 8
     #     key = 'MAP_POP_%02d'%extraInfo['map_pop_id']
     #     extraInfo['map_pop'] = map_text.get(key, 'not found')
