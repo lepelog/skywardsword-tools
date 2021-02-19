@@ -11,6 +11,7 @@ import sceneChanges
 
 pause_re = re.compile(b'\x00\x0E\x00\x01\x00\x04\x00\x02(..)',re.DOTALL)
 item_re = re.compile(b'\x00\x0E\x00\x02\x00\x01\x00\x02(..)',re.DOTALL)
+call_next_entrypoint_re = re.compile(b'\x00\x0E\x00\x01\x00\x0C\x00\x04\x00\x06(..)',re.DOTALL)
 
 TEXTREPLACEMENTS = {
     b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x00': '<r<'.encode('utf-16be'),  # red
@@ -68,8 +69,8 @@ TEXTREPLACEMENTS = {
     b'\x00\x0e\x00\x02\x00\x04\x00\x02\x00\x19\x00C\x00D': '(X)'.encode('utf-16be'), # marker X
 }
 
-# LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US']
-LANGS = ['en_US']
+LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US']
+# LANGS = ['en_US']
 
 cumulative_flags_set = [b'\x00'*0x10]*len(flagindex_names)
 
@@ -179,6 +180,9 @@ def parseMSB(fname):
 
                 # 2 bytes after \x00\x0E\x00\x02\x00\x01\x00\x02 is the itemid
                 bytestring = item_re.sub(lambda x: rf'<item{ord(x.group(1).decode("utf-16be")):02X}>'.encode('utf-16be'), bytestring)
+
+                # 
+                bytestring = call_next_entrypoint_re.sub(lambda x: f'<entrypoint_{ord(x.group(1).decode("utf-16be")):03}>'.encode('utf-16be'), bytestring)
 
                 # decoding special characters:
                 for characters, meaning in TEXTREPLACEMENTS.items():
