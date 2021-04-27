@@ -136,6 +136,8 @@ def objAddExtraInfo(parsed_item):
             extraInfo['subtype'] = subtypes[params1 >> 28]
         elif parsed_item['name']=='SdCdl':
             extraInfo['scen_link']=(params1 >> 8) & 0xF
+        elif parsed_item['name'] == 'TowerB':
+            extraInfo['event_id'] = (params1 >> 8) & 0xFF
         elif parsed_item['name']=='saveObj':
             # that one skyloft statue
             if parsed_item['anglez'] == 0xFFFE:
@@ -159,6 +161,8 @@ def objAddExtraInfo(parsed_item):
         extraInfo['scenefid'] = (params1 >> 20) & 0xFF
         if parsed_item['name'] == 'Barrel':
             extraInfo['2scenefid'] = (params1 >> 12) & 0xFF
+        elif parsed_item['name'] == 'TimeStn':
+            extraInfo['subtype'] = (params1 >> 0x1C) 
     elif parsed_item['name'] in ['Tubo','Soil','Wind','ColStp','EEye','Est','Wind03','SldDoor','Wind02','ERemly','RolRock','Fire','SwBnkS','Char','TouchTa']: # ColStp: Logs before skyloft cave and elsewhere, EEye: Eyes in Skyview, Est: Spider, Wind03: water spot in AC, SldDoor: Door after bosses, Wind02: Appears in Eldin, probably lava fountains, ERemly: Remlit, RolRock: Rolling rocks, SwBnkS: small lanayru node & sandship switches to rotate, Char: Chair
         # flag is between byte 3 and 4
         extraInfo['scenefid'] = (params1 >> 4) & 0xFF
@@ -420,7 +424,7 @@ def parseObj(objtype, quantity, data):
                 parsed_item = unpack('unk1 posx posy posz angle unk2 name','>4s3ff8s16s', item)
                 parsed_item['name'] = toStr(parsed_item['name'])
             elif objtype in ('PATH','SPTH'):
-                parsed_item = item
+                parsed_item = unpack('unk1 pnt_start_idx pnt_total_count unk2','>2sHH6s', item)
             elif objtype in ('PNT ','SPNT'):
                 parsed_item = unpack('posx posy posz unk','>3f4s',item)
             elif objtype == 'BPNT':
