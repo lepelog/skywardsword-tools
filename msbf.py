@@ -320,6 +320,8 @@ def interpretFlow(item, strings, attrs):
                 return "temp_flags[%d /* %s */] = true;" % (item['param1'], idx_to_scene_flag(item['param1']))
             elif item['param3']==29:    # assuming it matches 28 (unconfirmed)
                 return "temp_flags[%d /* %s */] = false;" % (item['param1'], idx_to_scene_flag(item['param1']))
+            elif item['param3']==33:
+                return "make_actor_do_something(%d, %d)" % (item['param1'], item['param2'])
             elif item['param3']==39:
                 return "set_camera(%d, %d)"%(item['param1'], item['param2'])
             else:
