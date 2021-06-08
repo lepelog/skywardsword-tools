@@ -283,6 +283,7 @@ def objAddExtraInfo(parsed_item):
         extraInfo['trigscenefid'] = (params1 >> 16) & 0xFF
         extraInfo['setscenefid'] = (params1 >> 8) & 0xFF
         extraInfo['event'] = params1 & 0xFF
+        extraInfo['subType'] = 'unsetflag' if (params1 >> 0x18) & 0x3 == 0 else 'setflag'
     elif parsed_item['name'] == 'EvfTag':
         extraInfo['trigstoryfid'] = (params1 >> 19) & 0x7FF
         extraInfo['setstoryfid'] = (params1 >> 8) & 0x7FF
@@ -350,6 +351,9 @@ def objAddExtraInfo(parsed_item):
     #     extraInfo['map_pop_id'] = (parsed_item['anglez'] & 0xFF00) >> 8
     #     key = 'MAP_POP_%02d'%extraInfo['map_pop_id']
     #     extraInfo['map_pop'] = map_text.get(key, 'not found')
+    elif parsed_item['name'] == 'EBfish':
+        extraInfo['appearscenefid'] = parsed_item['anglez']&0xFF
+        extraInfo['diescenefid'] = parsed_item['anglez']>>8
     if 'flagid' in extraInfo:
         extraInfo['areaflag'] = flag_id_to_sheet_rep(extraInfo['flagid'])
     if 'itemid' in extraInfo:
