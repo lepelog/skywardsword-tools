@@ -115,7 +115,7 @@ def objAddExtraInfo(parsed_item):
         if parsed_item['name'] == 'TlpTag':
             extraInfo['nameidx'] = (params1 >> 8) & 0xFF
             extraInfo['name'] = map_text['MAP_%02d'%extraInfo['nameidx']]
-    if parsed_item['name'] in ['Log','trolley','Fence','Chandel']:#Chandel: Chandelier in Lumpy Pumpkin
+    if parsed_item['name'] in ['Log','trolley','Fence','Chandel','Est']:#Chandel: Chandelier in Lumpy Pumpkin
         # flag is second byte
         extraInfo['scenefid'] = (params1 >> 16) & 0xFF
     elif parsed_item['name'] in ['FrmLand','SwWall','SwDir2','BrgFall','D300Obj','TSBase']: # SwWall: wall switch, BrgFall: drawbridges in ET and fire dragon room, D300Obj: LMF in lanayru desert, TSBase: time shift orb base
@@ -163,7 +163,7 @@ def objAddExtraInfo(parsed_item):
             extraInfo['2scenefid'] = (params1 >> 12) & 0xFF
         elif parsed_item['name'] == 'TimeStn':
             extraInfo['subtype'] = (params1 >> 0x1C) 
-    elif parsed_item['name'] in ['Tubo','Soil','Wind','ColStp','EEye','Est','Wind03','SldDoor','Wind02','ERemly','RolRock','Fire','SwBnkS','Char','TouchTa']: # ColStp: Logs before skyloft cave and elsewhere, EEye: Eyes in Skyview, Est: Spider, Wind03: water spot in AC, SldDoor: Door after bosses, Wind02: Appears in Eldin, probably lava fountains, ERemly: Remlit, RolRock: Rolling rocks, SwBnkS: small lanayru node & sandship switches to rotate, Char: Chair
+    elif parsed_item['name'] in ['Tubo','Soil','Wind','ColStp','EEye','Wind03','SldDoor','Wind02','ERemly','RolRock','Fire','SwBnkS','Char','TouchTa']: # ColStp: Logs before skyloft cave and elsewhere, EEye: Eyes in Skyview, Est: Spider, Wind03: water spot in AC, SldDoor: Door after bosses, Wind02: Appears in Eldin, probably lava fountains, ERemly: Remlit, RolRock: Rolling rocks, SwBnkS: small lanayru node & sandship switches to rotate, Char: Chair
         # flag is between byte 3 and 4
         extraInfo['scenefid'] = (params1 >> 4) & 0xFF
         if parsed_item['name'] == 'SldDoor':
