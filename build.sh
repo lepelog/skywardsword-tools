@@ -14,6 +14,7 @@ python3 msbf.py
 python3 bzs.py
 python3 stb.py
 python3 navi-table.py
+python3 zevdat.py
 
 # navigate into the build output directory
 # cd output
