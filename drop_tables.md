@@ -30,7 +30,10 @@ Jelly Blob | 5% | 9,75% | 14,26%
 ## Bokoblin (EBc)
 item \\ medals | 0 | 1 | 2
 :----: | :-----: | :----: | :----:
-Ornamental Skull or Golden Skull (unknown why which one) | 7% | 13,51% | 19,56%
+Ornamental Skull or Golden Skull | 7% | 13,51% | 19,56%
+
+After the game decides to drop a skull, there is a 25% chance of dropping a golden one
+and a 75% chance of dropping an ornamental one
 
 ## Technoblin (EBce)
 Drop has 7% chance, then 25% golden skull and 75% ornamental skull
