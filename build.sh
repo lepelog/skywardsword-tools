@@ -6,7 +6,7 @@ set -e
 mkdir -p output/event
 mkdir -p output/event2
 mkdir -p output/stage
-mkdir -p output_hd/stage
+mkdir -p output/stageHD
 mkdir -p output/text
 mkdir -p output/demo
 

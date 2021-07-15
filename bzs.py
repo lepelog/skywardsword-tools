@@ -529,7 +529,7 @@ def do_extract_bzs(basedir, outdir):
             assert len(stage['rooms']) == len(stage['RMPL'])
         else:
             assert len(stage['rooms']) == 1
-        f2=open('%s/stage/%s.json'%(outdir,stageid),'w',encoding='utf-8')
+        f2=open('output/%s/%s.json'%(outdir,stageid),'w',encoding='utf-8')
         f2.write(objToJson(stage))
         s = objToJson(stage)
         f2.close()
@@ -540,7 +540,7 @@ def do_extract_bzs(basedir, outdir):
         print(flagindex_names[i])
         print(sprintHex(cumulative_flags_set[i]))
 
-do_extract_bzs('Stage','output')
-do_extract_bzs('StageHD','output_hd')
+do_extract_bzs('Stage','stage')
+do_extract_bzs('StageHD','stageHD')
 
 
