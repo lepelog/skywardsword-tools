@@ -509,45 +509,38 @@ def parseObj(objtype, quantity, data):
 
         return parsed
 
+def do_extract_bzs(basedir, outdir):
+    for stageid in os.listdir(basedir):
+        stage_scens = []
+        flagindex = None
+        print(stageid+' - '+stagenames[stageid])
+        stagepath = '%s/%s/%s_stg_l0/dat/stage.bzs'%(basedir,stageid,stageid)
+        stage = parseBzs(open(stagepath, 'rb').read())
+        stage['rooms'] = collections.OrderedDict()
+        for i in range(ROOMCOUNT):
+            roomid = 'r%02d'%i
+            roompath = '%s/%s/%s_stg_l0/rarc/%s_r%02d/dat/room.bzs' % (basedir,stageid,stageid,stageid,i)
+            if os.path.isfile(roompath):
+                print(stageid, roomid)
+                stage_scens = []
+                room = parseBzs(open(roompath, 'rb').read())
+                stage['rooms'][roomid]=room
+        if 'RMPL' in stage:
+            assert len(stage['rooms']) == len(stage['RMPL'])
+        else:
+            assert len(stage['rooms']) == 1
+        f2=open('%s/stage/%s.json'%(outdir,stageid),'w',encoding='utf-8')
+        f2.write(objToJson(stage))
+        s = objToJson(stage)
+        f2.close()
+    print('-----------------------------------------------')
+    print('50 51 52 53 54 55 56 57 58 59 5A 5B 5C 5D 5E 5F')
+    print('-----------------------------------------------')
+    for i in range(len(flagindex_names)):
+        print(flagindex_names[i])
+        print(sprintHex(cumulative_flags_set[i]))
 
+do_extract_bzs('Stage','output')
+do_extract_bzs('StageHD','output_hd')
 
-for stageid in os.listdir('Stage'):
-    stage_scens = []
-    flagindex = None
-    print(stageid+' - '+stagenames[stageid])
-    stagepath = 'Stage/%s/%s_stg_l0/dat/stage.bzs'%(stageid,stageid)
-    stage = parseBzs(open(stagepath, 'rb').read())
-    stage['rooms'] = collections.OrderedDict()
-    for i in range(ROOMCOUNT):
-        roomid = 'r%02d'%i
-        roompath = 'Stage/%s/%s_stg_l0/rarc/%s_r%02d/dat/room.bzs' % (stageid,stageid,stageid,i)
-        if os.path.isfile(roompath):
-            print(stageid, roomid)
-            stage_scens = []
-            room = parseBzs(open(roompath, 'rb').read())
-            stage['rooms'][roomid]=room
-    if 'RMPL' in stage:
-        assert len(stage['rooms']) == len(stage['RMPL'])
-    else:
-        assert len(stage['rooms']) == 1
-    f2=open('output/stage/%s.json'%stageid,'w',encoding='utf-8')
-    f2.write(objToJson(stage))
-    s = objToJson(stage)
-    #if '"r01"' in s:
-    #    for roomid in stage['rooms']:
-    #        room = stage['rooms'][roomid]
-    #        r = objToJson(room)
-    #        if 'saveObj' in r and len(room['PLY ']) > 1:
-    #            for ply in room['PLY ']:
-    #                if ply['play_cutscene'] != -1:
-    #                    print('!!!!!! '+stageid+' '+roomid+' entrance '+str(ply['entrance_id']))
-    f2.close()
-
-
-print('-----------------------------------------------')
-print('50 51 52 53 54 55 56 57 58 59 5A 5B 5C 5D 5E 5F')
-print('-----------------------------------------------')
-for i in range(len(flagindex_names)):
-    print(flagindex_names[i])
-    print(sprintHex(cumulative_flags_set[i]))
 
