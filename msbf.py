@@ -69,8 +69,8 @@ TEXTREPLACEMENTS = {
     b'\x00\x0e\x00\x02\x00\x04\x00\x02\x00\x19\x00C\x00D': '(X)'.encode('utf-16be'), # marker X
 }
 
-LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US']
-# LANGS = ['en_US']
+LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US','de_DE_hd','en_GB_hd','es_ES_hd','fr_FR_hd','it_IT_hd','en_US_hd','es_US_hd','fr_US_hd']
+# LANGS = ['en_GB_hd','en_GB']
 
 cumulative_flags_set = [b'\x00'*0x10]*len(flagindex_names)
 
@@ -119,7 +119,7 @@ def parseMSB(fname):
                     assert item['param2'] >= 0
                     assert item.pop('next') == -1
                     assert item['param3'] >= 0
-                    assert item['param4'] in (2,3,4)    # number of options
+                    assert item['param4'] in (2,3,4,5)    # number of options
                     assert item['param5'] >= 0          # index into branch_points of first item
                 elif item['type'] == 'type3':
                     assert item['subType'] in (0,1,2,4,6)
@@ -159,7 +159,7 @@ def parseMSB(fname):
         elif seg_id == 'ATR1':
             parsed['ATR1'] = []
             count, two = struct.unpack('>ii',seg_data[:8])
-            assert two == 2
+            # assert two == 2
             for i in range(count):
                 value = struct.unpack('>bb',seg_data[8+2*i:8+2*(i+1)])
                 atr = collections.OrderedDict()
@@ -201,7 +201,8 @@ def parseMSB(fname):
 def interpretFlow(item, strings, attrs):
     if item['type']=='type1': # type-1 (text)
         msbt_file, msbt_line = item['param3'], item['param4']
-        return 'printf(/* textboxtype: %d, unk: %d, line: %d */ "%s")' % (attrs[msbt_line]['unk1'], attrs[msbt_line]['unk2'], msbt_line, strings[msbt_line])
+        # return 'printf(/* textboxtype: %d, unk: %d, line: %d */ "%s")' % (attrs[msbt_line]['unk1'], attrs[msbt_line]['unk2'], msbt_line, strings[msbt_line])
+        return 'printf("%s")' % strings[msbt_line]
 
     elif item['type']=='start': # type-4
         return 'start()'
@@ -242,7 +243,7 @@ def interpretFlow(item, strings, attrs):
             else:
                 # 21 has 2 options, 22 has 4, both only appear related to fi
                 # 7 seems to be contextually for something computed above that statement
-                assert item['param3'] in (7,21,22)
+                # assert item['param3'] in (7,21,22)
                 return 'switch (%s) {' % str(item)
 
         elif item['subType']==0:
@@ -289,7 +290,7 @@ def interpretFlow(item, strings, attrs):
                 assert item['param2']==0
                 return "open_collection_screen();"
             else:
-                assert item['param3'] in (6,24,26,31,32,34,36,37,44,45,49,52,53,55,58,59)
+                # assert item['param3'] in (6,24,26,31,32,34,36,37,44,45,49,52,53,55,58,59)
                 return str(item)
 
         elif item['subType']==1:
@@ -403,7 +404,7 @@ if __name__ == "__main__":
                         file.write(' '*10+'\t'*indent+'flw_'+str(lineId)+':\n')
                     if lineStr is not None:
                         file.write(('/*<%3d>*/ '%(lineId) if lineId else ' '*10)+'\t'*indent+lineStr+'\n')
-                assert len(already_printed) == len(parsed['FLW3']['flow'])
+                # assert len(already_printed) == len(parsed['FLW3']['flow'])
 
             text_index_to_label = {}
             for labelrow in parsedMsbt['LBL1']:
