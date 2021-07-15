@@ -1,0 +1,97 @@
+{
+    "FLW3": {
+        "flow": {
+            "0": {
+                "type": "start",
+                "next": 5
+            },
+            "1": {
+                "type": "type1",
+                "next": -1,
+                "param3": 149,
+                "param4": 34
+            },
+            "2": {
+                "type": "start",
+                "next": 4
+            },
+            "3": {
+                "type": "type1",
+                "next": -1,
+                "param3": 149,
+                "param4": 22
+            },
+            "4": {
+                "type": "type3",
+                "subType": 0,
+                "param1": 0,
+                "param2": 12,
+                "next": 3,
+                "param3": 53
+            },
+            "5": {
+                "type": "type3",
+                "subType": 0,
+                "param1": 0,
+                "param2": 82,
+                "next": 1,
+                "param3": 0
+            },
+            "6": {
+                "type": "start",
+                "next": 7
+            },
+            "7": {
+                "type": "type3",
+                "subType": 0,
+                "param1": 0,
+                "param2": 82,
+                "next": 8,
+                "param3": 1
+            },
+            "8": {
+                "type": "type1",
+                "next": -1,
+                "param3": 149,
+                "param4": 36
+            }
+        },
+        "branch_points": []
+    },
+    "FEN1": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            {
+                "name": "299_00",
+                "value": 0
+            }
+        ],
+        [
+            {
+                "name": "299_01",
+                "value": 2
+            }
+        ],
+        [
+            {
+                "name": "299_02",
+                "value": 6
+            }
+        ],
+        [],
+        [],
+        [],
+        []
+    ]
+}

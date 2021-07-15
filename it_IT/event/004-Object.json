@@ -1,0 +1,633 @@
+{
+    "FLW3": {
+        "flow": {
+            "0": {
+                "type": "start",
+                "next": 2
+            },
+            "1": {
+                "type": "start",
+                "next": 3
+            },
+            "2": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 0
+            },
+            "3": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 2
+            },
+            "4": {
+                "type": "start",
+                "next": 5
+            },
+            "5": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 3
+            },
+            "6": {
+                "type": "start",
+                "next": 7
+            },
+            "7": {
+                "type": "type1",
+                "next": 8,
+                "param3": 50,
+                "param4": 4
+            },
+            "8": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 0,
+                "param4": 2,
+                "param5": 0
+            },
+            "9": {
+                "type": "start",
+                "next": 12
+            },
+            "10": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 8
+            },
+            "11": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 9
+            },
+            "12": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 17,
+                "param4": 2,
+                "param5": 2
+            },
+            "13": {
+                "type": "switch",
+                "subType": 0,
+                "param2": 0,
+                "param3": 20,
+                "param4": 2,
+                "param5": 4
+            },
+            "14": {
+                "type": "start",
+                "next": 15
+            },
+            "15": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 5
+            },
+            "16": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 10
+            },
+            "17": {
+                "type": "start",
+                "next": 16
+            },
+            "18": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 11
+            },
+            "19": {
+                "type": "start",
+                "next": 18
+            },
+            "20": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 12
+            },
+            "21": {
+                "type": "start",
+                "next": 20
+            },
+            "22": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 13
+            },
+            "23": {
+                "type": "start",
+                "next": 22
+            },
+            "24": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 14
+            },
+            "25": {
+                "type": "start",
+                "next": 38
+            },
+            "26": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 15
+            },
+            "27": {
+                "type": "start",
+                "next": 42
+            },
+            "28": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 16
+            },
+            "29": {
+                "type": "start",
+                "next": 28
+            },
+            "30": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 21
+            },
+            "31": {
+                "type": "start",
+                "next": 51
+            },
+            "32": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 23
+            },
+            "33": {
+                "type": "start",
+                "next": 32
+            },
+            "34": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 24
+            },
+            "35": {
+                "type": "start",
+                "next": 34
+            },
+            "36": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 25
+            },
+            "37": {
+                "type": "start",
+                "next": 36
+            },
+            "38": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 26
+            },
+            "39": {
+                "type": "start",
+                "next": 24
+            },
+            "40": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 27
+            },
+            "41": {
+                "type": "start",
+                "next": 40
+            },
+            "42": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 28
+            },
+            "43": {
+                "type": "start",
+                "next": 26
+            },
+            "44": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 29
+            },
+            "45": {
+                "type": "start",
+                "next": 44
+            },
+            "46": {
+                "type": "start",
+                "next": 47
+            },
+            "47": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 1
+            },
+            "48": {
+                "type": "start",
+                "next": 49
+            },
+            "49": {
+                "type": "type1",
+                "next": 50,
+                "param3": 50,
+                "param4": 34
+            },
+            "50": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 1,
+                "param4": 3,
+                "param5": 6
+            },
+            "51": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 19,
+                "param3": 3,
+                "param4": 2,
+                "param5": 9
+            },
+            "52": {
+                "type": "type1",
+                "next": 53,
+                "param3": 50,
+                "param4": 22
+            },
+            "53": {
+                "type": "type1",
+                "next": 55,
+                "param3": 50,
+                "param4": 18
+            },
+            "54": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 20
+            },
+            "55": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 0,
+                "param4": 2,
+                "param5": 11
+            },
+            "56": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 17
+            },
+            "57": {
+                "type": "start",
+                "next": 58
+            },
+            "58": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 19,
+                "param3": 3,
+                "param4": 2,
+                "param5": 13
+            },
+            "59": {
+                "type": "type1",
+                "next": 60,
+                "param3": 50,
+                "param4": 19
+            },
+            "60": {
+                "type": "type1",
+                "next": 62,
+                "param3": 50,
+                "param4": 18
+            },
+            "61": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 20
+            },
+            "62": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 0,
+                "param4": 2,
+                "param5": 15
+            },
+            "63": {
+                "type": "start",
+                "next": 64
+            },
+            "64": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 30
+            },
+            "65": {
+                "type": "start",
+                "next": 66
+            },
+            "66": {
+                "type": "type1",
+                "next": 67,
+                "param3": 50,
+                "param4": 35
+            },
+            "67": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 0,
+                "param4": 2,
+                "param5": 17
+            },
+            "68": {
+                "type": "start",
+                "next": 69
+            },
+            "69": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 36
+            },
+            "70": {
+                "type": "start",
+                "next": 71
+            },
+            "71": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 843,
+                "param3": 3,
+                "param4": 2,
+                "param5": 19
+            },
+            "72": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 38
+            },
+            "73": {
+                "type": "type1",
+                "next": 74,
+                "param3": 50,
+                "param4": 37
+            },
+            "74": {
+                "type": "type3",
+                "subType": 0,
+                "param1": 0,
+                "param2": 843,
+                "next": -1,
+                "param3": 0
+            },
+            "75": {
+                "type": "start",
+                "next": 76
+            },
+            "76": {
+                "type": "type1",
+                "next": 77,
+                "param3": 50,
+                "param4": 31
+            },
+            "77": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 104,
+                "param3": 6,
+                "param4": 2,
+                "param5": 21
+            },
+            "78": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 33
+            },
+            "79": {
+                "type": "type1",
+                "next": -1,
+                "param3": 50,
+                "param4": 32
+            }
+        },
+        "branch_points": [
+            -1,
+            -1,
+            13,
+            -1,
+            11,
+            10,
+            -1,
+            -1,
+            -1,
+            30,
+            52,
+            52,
+            54,
+            56,
+            59,
+            59,
+            61,
+            -1,
+            -1,
+            72,
+            73,
+            78,
+            79
+        ]
+    },
+    "FEN1": [
+        [
+            {
+                "name": "004_106",
+                "value": 29
+            }
+        ],
+        [
+            {
+                "name": "004_107",
+                "value": 57
+            }
+        ],
+        [
+            {
+                "name": "004_014",
+                "value": 9
+            },
+            {
+                "name": "004_108",
+                "value": 31
+            }
+        ],
+        [
+            {
+                "name": "004_015",
+                "value": 14
+            },
+            {
+                "name": "004_109",
+                "value": 33
+            }
+        ],
+        [
+            {
+                "name": "004_016",
+                "value": 48
+            }
+        ],
+        [
+            {
+                "name": "004_110",
+                "value": 35
+            },
+            {
+                "name": "004_017",
+                "value": 65
+            }
+        ],
+        [
+            {
+                "name": "004_111",
+                "value": 37
+            },
+            {
+                "name": "004_018",
+                "value": 68
+            }
+        ],
+        [
+            {
+                "name": "004_001",
+                "value": 0
+            },
+            {
+                "name": "004_112",
+                "value": 39
+            },
+            {
+                "name": "004_019",
+                "value": 70
+            }
+        ],
+        [
+            {
+                "name": "004_002",
+                "value": 1
+            },
+            {
+                "name": "004_113",
+                "value": 41
+            }
+        ],
+        [
+            {
+                "name": "004_003",
+                "value": 4
+            },
+            {
+                "name": "004_114",
+                "value": 43
+            }
+        ],
+        [
+            {
+                "name": "004_115",
+                "value": 45
+            },
+            {
+                "name": "004_004",
+                "value": 46
+            }
+        ],
+        [
+            {
+                "name": "004_116",
+                "value": 63
+            }
+        ],
+        [
+            {
+                "name": "004_117",
+                "value": 75
+            }
+        ],
+        [
+            {
+                "name": "004_100",
+                "value": 17
+            }
+        ],
+        [
+            {
+                "name": "004_008",
+                "value": 6
+            },
+            {
+                "name": "004_101",
+                "value": 19
+            }
+        ],
+        [
+            {
+                "name": "004_102",
+                "value": 21
+            }
+        ],
+        [
+            {
+                "name": "004_103",
+                "value": 23
+            }
+        ],
+        [
+            {
+                "name": "004_104",
+                "value": 25
+            }
+        ],
+        [
+            {
+                "name": "004_105",
+                "value": 27
+            }
+        ]
+    ]
+}

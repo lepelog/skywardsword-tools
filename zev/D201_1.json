@@ -1,0 +1,4726 @@
+{
+    "header": {
+        "magic": 30554,
+        "evntcount": 13,
+        "actorcount": 24,
+        "unk1count": 54,
+        "unk2count": 54,
+        "unk3count": 190,
+        "alwaysev": "45 76",
+        "unk4count": 66,
+        "unk5count": 242,
+        "unk6count": 77
+    },
+    "evnts": [
+        {
+            "name": "D101IronFence",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 0,
+            "actorcount": 2
+        },
+        {
+            "name": "D201_1Intro",
+            "dummy1": "00",
+            "unk1": 1,
+            "dummy2": "00 00",
+            "actorindex": 9,
+            "actorcount": 2
+        },
+        {
+            "name": "D201_1Liza",
+            "dummy1": "00",
+            "unk1": 1,
+            "dummy2": "00 00",
+            "actorindex": 11,
+            "actorcount": 1
+        },
+        {
+            "name": "D201_1R01Gmam",
+            "dummy1": "00",
+            "unk1": 1,
+            "dummy2": "00 00",
+            "actorindex": 12,
+            "actorcount": 1
+        },
+        {
+            "name": "D201_1R05Gmam",
+            "dummy1": "00",
+            "unk1": 1,
+            "dummy2": "00 00",
+            "actorindex": 13,
+            "actorcount": 1
+        },
+        {
+            "name": "D201_1R05Ground",
+            "dummy1": "00",
+            "unk1": 1,
+            "dummy2": "00 00",
+            "actorindex": 19,
+            "actorcount": 1
+        },
+        {
+            "name": "D201_1R05Mag",
+            "dummy1": "00",
+            "unk1": 1,
+            "dummy2": "00 00",
+            "actorindex": 18,
+            "actorcount": 1
+        },
+        {
+            "name": "D201_1R05Open",
+            "dummy1": "00",
+            "unk1": 1,
+            "dummy2": "00 00",
+            "actorindex": 23,
+            "actorcount": 1
+        },
+        {
+            "name": "D201_1R05shatta",
+            "dummy1": "00",
+            "unk1": 1,
+            "dummy2": "00 00",
+            "actorindex": 20,
+            "actorcount": 3
+        },
+        {
+            "name": "D201_1R08Lava",
+            "dummy1": "00",
+            "unk1": 1,
+            "dummy2": "00 00",
+            "actorindex": 14,
+            "actorcount": 1
+        },
+        {
+            "name": "MoleAppear",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 2,
+            "actorcount": 3
+        },
+        {
+            "name": "MoleAppearTackleA",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 15,
+            "actorcount": 3
+        },
+        {
+            "name": "MoleGiveItem",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 5,
+            "actorcount": 4
+        }
+    ],
+    "actors": [
+        {
+            "name": "@starter",
+            "unk1": 6,
+            "unk2": 0,
+            "actindex": 0,
+            "actcount": 2
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 0,
+            "actindex": 2,
+            "actcount": 2
+        },
+        {
+            "name": "@starter",
+            "unk1": 31,
+            "unk2": 1,
+            "actindex": 4,
+            "actcount": 1
+        },
+        {
+            "name": "Link",
+            "unk1": 2,
+            "unk2": 1,
+            "actindex": 5,
+            "actcount": 1
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 1,
+            "actindex": 6,
+            "actcount": 1
+        },
+        {
+            "name": "NpcMole@near",
+            "unk1": 31,
+            "unk2": 2,
+            "actindex": 7,
+            "actcount": 3
+        },
+        {
+            "name": "Link",
+            "unk1": 2,
+            "unk2": 2,
+            "actindex": 10,
+            "actcount": 2
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 2,
+            "actindex": 12,
+            "actcount": 3
+        },
+        {
+            "name": "TBox@near",
+            "unk1": 12,
+            "unk2": 2,
+            "actindex": 15,
+            "actcount": 1
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 3,
+            "actindex": 16,
+            "actcount": 1
+        },
+        {
+            "name": "Director",
+            "unk1": 0,
+            "unk2": 3,
+            "actindex": 17,
+            "actcount": 2
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 4,
+            "actindex": 19,
+            "actcount": 3
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 5,
+            "actindex": 22,
+            "actcount": 3
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 6,
+            "actindex": 25,
+            "actcount": 3
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 7,
+            "actindex": 28,
+            "actcount": 6
+        },
+        {
+            "name": "NpcMole",
+            "unk1": 31,
+            "unk2": 8,
+            "actindex": 34,
+            "actcount": 1
+        },
+        {
+            "name": "Link",
+            "unk1": 2,
+            "unk2": 8,
+            "actindex": 35,
+            "actcount": 1
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 8,
+            "actindex": 36,
+            "actcount": 1
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 9,
+            "actindex": 37,
+            "actcount": 6
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 10,
+            "actindex": 43,
+            "actcount": 3
+        },
+        {
+            "name": "Director",
+            "unk1": 0,
+            "unk2": 11,
+            "actindex": 46,
+            "actcount": 2
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 11,
+            "actindex": 48,
+            "actcount": 2
+        },
+        {
+            "name": "Credit",
+            "unk1": 4,
+            "unk2": 11,
+            "actindex": 50,
+            "actcount": 3
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 12,
+            "actindex": 53,
+            "actcount": 1
+        }
+    ],
+    "unk1s": [
+        {
+            "name": "Wait",
+            "next": -1,
+            "actorindex": 0,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 0,
+            "dummy1": 1,
+            "actor": {
+                "name": "@starter",
+                "unk1": 6,
+                "unk2": 0,
+                "actindex": 0,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "Open",
+            "next": 2,
+            "actorindex": 0,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 1,
+            "dummy1": 1,
+            "actor": {
+                "name": "@starter",
+                "unk1": 6,
+                "unk2": 0,
+                "actindex": 0,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "Approach",
+            "next": -1,
+            "actorindex": 1,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 2,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 0,
+                "actindex": 2,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "Wait",
+            "next": -1,
+            "actorindex": 1,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 3,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 0,
+                "actindex": 2,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "wait",
+            "next": -1,
+            "actorindex": 2,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 4,
+            "dummy1": 1,
+            "actor": {
+                "name": "@starter",
+                "unk1": 31,
+                "unk2": 1,
+                "actindex": 4,
+                "actcount": 1
+            }
+        },
+        {
+            "name": "wait",
+            "next": -1,
+            "actorindex": 3,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 5,
+            "dummy1": 1,
+            "actor": {
+                "name": "Link",
+                "unk1": 2,
+                "unk2": 1,
+                "actindex": 5,
+                "actcount": 1
+            }
+        },
+        {
+            "name": "talk",
+            "next": -1,
+            "actorindex": 4,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 6,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 1,
+                "actindex": 6,
+                "actcount": 1
+            }
+        },
+        {
+            "name": "wait",
+            "next": -1,
+            "actorindex": 5,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 7,
+            "dummy1": 1,
+            "actor": {
+                "name": "NpcMole@near",
+                "unk1": 31,
+                "unk2": 2,
+                "actindex": 7,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "talk",
+            "next": 13,
+            "actorindex": 5,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 8,
+            "dummy1": 1,
+            "actor": {
+                "name": "NpcMole@near",
+                "unk1": 31,
+                "unk2": 2,
+                "actindex": 7,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "delete",
+            "next": -1,
+            "actorindex": 5,
+            "unk3": 2,
+            "dummy0": 0,
+            "thisindex": 9,
+            "dummy1": 1,
+            "actor": {
+                "name": "NpcMole@near",
+                "unk1": 31,
+                "unk2": 2,
+                "actindex": 7,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "wait0",
+            "next": -1,
+            "actorindex": 6,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 10,
+            "dummy1": 1,
+            "actor": {
+                "name": "Link",
+                "unk1": 2,
+                "unk2": 2,
+                "actindex": 10,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "wait",
+            "next": 12,
+            "actorindex": 6,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 11,
+            "dummy1": 1,
+            "actor": {
+                "name": "Link",
+                "unk1": 2,
+                "unk2": 2,
+                "actindex": 10,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "look",
+            "next": -1,
+            "actorindex": 7,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 12,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 2,
+                "actindex": 12,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "wait",
+            "next": -1,
+            "actorindex": 7,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 13,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 2,
+                "actindex": 12,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "back",
+            "next": 9,
+            "actorindex": 7,
+            "unk3": 2,
+            "dummy0": 0,
+            "thisindex": 14,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 2,
+                "actindex": 12,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "wait",
+            "next": -1,
+            "actorindex": 8,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 15,
+            "dummy1": 1,
+            "actor": {
+                "name": "TBox@near",
+                "unk1": 12,
+                "unk2": 2,
+                "actindex": 15,
+                "actcount": 1
+            }
+        },
+        {
+            "name": "c01",
+            "next": -1,
+            "actorindex": 9,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 16,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 3,
+                "actindex": 16,
+                "actcount": 1
+            }
+        },
+        {
+            "name": "colchg",
+            "next": -1,
+            "actorindex": 10,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 17,
+            "dummy1": 1,
+            "actor": {
+                "name": "Director",
+                "unk1": 0,
+                "unk2": 3,
+                "actindex": 17,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "back",
+            "next": -1,
+            "actorindex": 10,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 18,
+            "dummy1": 1,
+            "actor": {
+                "name": "Director",
+                "unk1": 0,
+                "unk2": 3,
+                "actindex": 17,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "c00",
+            "next": -1,
+            "actorindex": 11,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 19,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 4,
+                "actindex": 19,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "c01",
+            "next": -1,
+            "actorindex": 11,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 20,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 4,
+                "actindex": 19,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "c02",
+            "next": -1,
+            "actorindex": 11,
+            "unk3": 2,
+            "dummy0": 0,
+            "thisindex": 21,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 4,
+                "actindex": 19,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "c00",
+            "next": -1,
+            "actorindex": 12,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 22,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 5,
+                "actindex": 22,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "c01",
+            "next": -1,
+            "actorindex": 12,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 23,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 5,
+                "actindex": 22,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "c02",
+            "next": -1,
+            "actorindex": 12,
+            "unk3": 2,
+            "dummy0": 0,
+            "thisindex": 24,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 5,
+                "actindex": 22,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "c00",
+            "next": -1,
+            "actorindex": 13,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 25,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 6,
+                "actindex": 25,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "c01",
+            "next": -1,
+            "actorindex": 13,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 26,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 6,
+                "actindex": 25,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "c02",
+            "next": -1,
+            "actorindex": 13,
+            "unk3": 2,
+            "dummy0": 0,
+            "thisindex": 27,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 6,
+                "actindex": 25,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "c00",
+            "next": -1,
+            "actorindex": 14,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 28,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 7,
+                "actindex": 28,
+                "actcount": 6
+            }
+        },
+        {
+            "name": "c01",
+            "next": -1,
+            "actorindex": 14,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 29,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 7,
+                "actindex": 28,
+                "actcount": 6
+            }
+        },
+        {
+            "name": "c02",
+            "next": -1,
+            "actorindex": 14,
+            "unk3": 2,
+            "dummy0": 0,
+            "thisindex": 30,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 7,
+                "actindex": 28,
+                "actcount": 6
+            }
+        },
+        {
+            "name": "c00_",
+            "next": -1,
+            "actorindex": 14,
+            "unk3": 3,
+            "dummy0": 0,
+            "thisindex": 31,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 7,
+                "actindex": 28,
+                "actcount": 6
+            }
+        },
+        {
+            "name": "c01_",
+            "next": -1,
+            "actorindex": 14,
+            "unk3": 4,
+            "dummy0": 0,
+            "thisindex": 32,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 7,
+                "actindex": 28,
+                "actcount": 6
+            }
+        },
+        {
+            "name": "c02_",
+            "next": -1,
+            "actorindex": 14,
+            "unk3": 5,
+            "dummy0": 0,
+            "thisindex": 33,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 7,
+                "actindex": 28,
+                "actcount": 6
+            }
+        },
+        {
+            "name": "talk",
+            "next": -1,
+            "actorindex": 15,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 34,
+            "dummy1": 1,
+            "actor": {
+                "name": "NpcMole",
+                "unk1": 31,
+                "unk2": 8,
+                "actindex": 34,
+                "actcount": 1
+            }
+        },
+        {
+            "name": "talk",
+            "next": -1,
+            "actorindex": 16,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 35,
+            "dummy1": 1,
+            "actor": {
+                "name": "Link",
+                "unk1": 2,
+                "unk2": 8,
+                "actindex": 35,
+                "actcount": 1
+            }
+        },
+        {
+            "name": "look_all",
+            "next": -1,
+            "actorindex": 17,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 36,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 8,
+                "actindex": 36,
+                "actcount": 1
+            }
+        },
+        {
+            "name": "c00",
+            "next": -1,
+            "actorindex": 18,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 37,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 9,
+                "actindex": 37,
+                "actcount": 6
+            }
+        },
+        {
+            "name": "c01",
+            "next": -1,
+            "actorindex": 18,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 38,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 9,
+                "actindex": 37,
+                "actcount": 6
+            }
+        },
+        {
+            "name": "c02",
+            "next": -1,
+            "actorindex": 18,
+            "unk3": 2,
+            "dummy0": 0,
+            "thisindex": 39,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 9,
+                "actindex": 37,
+                "actcount": 6
+            }
+        },
+        {
+            "name": "c00_",
+            "next": -1,
+            "actorindex": 18,
+            "unk3": 3,
+            "dummy0": 0,
+            "thisindex": 40,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 9,
+                "actindex": 37,
+                "actcount": 6
+            }
+        },
+        {
+            "name": "c01_",
+            "next": -1,
+            "actorindex": 18,
+            "unk3": 4,
+            "dummy0": 0,
+            "thisindex": 41,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 9,
+                "actindex": 37,
+                "actcount": 6
+            }
+        },
+        {
+            "name": "c02_",
+            "next": -1,
+            "actorindex": 18,
+            "unk3": 5,
+            "dummy0": 0,
+            "thisindex": 42,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 9,
+                "actindex": 37,
+                "actcount": 6
+            }
+        },
+        {
+            "name": "c00",
+            "next": -1,
+            "actorindex": 19,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 43,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 10,
+                "actindex": 43,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "c01",
+            "next": -1,
+            "actorindex": 19,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 44,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 10,
+                "actindex": 43,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "c02",
+            "next": -1,
+            "actorindex": 19,
+            "unk3": 2,
+            "dummy0": 0,
+            "thisindex": 45,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 10,
+                "actindex": 43,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "c1",
+            "next": -1,
+            "actorindex": 20,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 46,
+            "dummy1": 1,
+            "actor": {
+                "name": "Director",
+                "unk1": 0,
+                "unk2": 11,
+                "actindex": 46,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "c2",
+            "next": 48,
+            "actorindex": 20,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 47,
+            "dummy1": 1,
+            "actor": {
+                "name": "Director",
+                "unk1": 0,
+                "unk2": 11,
+                "actindex": 46,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "c00",
+            "next": -1,
+            "actorindex": 21,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 48,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 11,
+                "actindex": 48,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "c00_",
+            "next": -1,
+            "actorindex": 21,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 49,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 11,
+                "actindex": 48,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "wait",
+            "next": -1,
+            "actorindex": 22,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 50,
+            "dummy1": 1,
+            "actor": {
+                "name": "Credit",
+                "unk1": 4,
+                "unk2": 11,
+                "actindex": 50,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "mole",
+            "next": 48,
+            "actorindex": 22,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 51,
+            "dummy1": 1,
+            "actor": {
+                "name": "Credit",
+                "unk1": 4,
+                "unk2": 11,
+                "actindex": 50,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "back",
+            "next": 49,
+            "actorindex": 22,
+            "unk3": 2,
+            "dummy0": 0,
+            "thisindex": 52,
+            "dummy1": 1,
+            "actor": {
+                "name": "Credit",
+                "unk1": 4,
+                "unk2": 11,
+                "actindex": 50,
+                "actcount": 3
+            }
+        },
+        {
+            "name": "c00",
+            "next": -1,
+            "actorindex": 23,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 53,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 12,
+                "actindex": 53,
+                "actcount": 1
+            }
+        }
+    ],
+    "unk2s": [
+        {
+            "name": "act0",
+            "eventSubManagerIndex": 0,
+            "thisindex": 0,
+            "unk3Index": 0,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "Wait",
+                "next": -1,
+                "actorindex": 0,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 0,
+                "dummy1": 1,
+                "actor": {
+                    "name": "@starter",
+                    "unk1": 6,
+                    "unk2": 0,
+                    "actindex": 0,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "act1",
+            "eventSubManagerIndex": 1,
+            "thisindex": 1,
+            "unk3Index": 0,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "Open",
+                "next": 2,
+                "actorindex": 0,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 1,
+                "dummy1": 1,
+                "actor": {
+                    "name": "@starter",
+                    "unk1": 6,
+                    "unk2": 0,
+                    "actindex": 0,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "move",
+            "eventSubManagerIndex": 3,
+            "thisindex": 2,
+            "unk3Index": 0,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "Approach",
+                "next": -1,
+                "actorindex": 1,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 2,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 0,
+                    "actindex": 2,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "wait",
+            "eventSubManagerIndex": 1,
+            "thisindex": 3,
+            "unk3Index": 6,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "Wait",
+                "next": -1,
+                "actorindex": 1,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 3,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 0,
+                    "actindex": 2,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "mowt",
+            "eventSubManagerIndex": 1,
+            "thisindex": 4,
+            "unk3Index": 6,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "wait",
+                "next": -1,
+                "actorindex": 2,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 4,
+                "dummy1": 1,
+                "actor": {
+                    "name": "@starter",
+                    "unk1": 31,
+                    "unk2": 1,
+                    "actindex": 4,
+                    "actcount": 1
+                }
+            }
+        },
+        {
+            "name": "talk",
+            "eventSubManagerIndex": 5,
+            "thisindex": 5,
+            "unk3Index": 6,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "wait",
+                "next": -1,
+                "actorindex": 3,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 5,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Link",
+                    "unk1": 2,
+                    "unk2": 1,
+                    "actindex": 5,
+                    "actcount": 1
+                }
+            }
+        },
+        {
+            "name": "talk",
+            "eventSubManagerIndex": 5,
+            "thisindex": 6,
+            "unk3Index": 6,
+            "unk3Count": 2,
+            "asdfunk1": {
+                "name": "talk",
+                "next": -1,
+                "actorindex": 4,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 6,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 1,
+                    "actindex": 6,
+                    "actcount": 1
+                }
+            }
+        },
+        {
+            "name": "mowt",
+            "eventSubManagerIndex": 1,
+            "thisindex": 7,
+            "unk3Index": 8,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "wait",
+                "next": -1,
+                "actorindex": 5,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 7,
+                "dummy1": 1,
+                "actor": {
+                    "name": "NpcMole@near",
+                    "unk1": 31,
+                    "unk2": 2,
+                    "actindex": 7,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "motk",
+            "eventSubManagerIndex": 2,
+            "thisindex": 8,
+            "unk3Index": 8,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "talk",
+                "next": 13,
+                "actorindex": 5,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 8,
+                "dummy1": 1,
+                "actor": {
+                    "name": "NpcMole@near",
+                    "unk1": 31,
+                    "unk2": 2,
+                    "actindex": 7,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "modl",
+            "eventSubManagerIndex": 3,
+            "thisindex": 9,
+            "unk3Index": 8,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "delete",
+                "next": -1,
+                "actorindex": 5,
+                "unk3": 2,
+                "dummy0": 0,
+                "thisindex": 9,
+                "dummy1": 1,
+                "actor": {
+                    "name": "NpcMole@near",
+                    "unk1": 31,
+                    "unk2": 2,
+                    "actindex": 7,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "noIn",
+            "eventSubManagerIndex": 7,
+            "thisindex": 10,
+            "unk3Index": 8,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "wait0",
+                "next": -1,
+                "actorindex": 6,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 10,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Link",
+                    "unk1": 2,
+                    "unk2": 2,
+                    "actindex": 10,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "talk",
+            "eventSubManagerIndex": 5,
+            "thisindex": 11,
+            "unk3Index": 8,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "wait",
+                "next": 12,
+                "actorindex": 6,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 11,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Link",
+                    "unk1": 2,
+                    "unk2": 2,
+                    "actindex": 10,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 12,
+            "unk3Index": 8,
+            "unk3Count": 5,
+            "asdfunk1": {
+                "name": "look",
+                "next": -1,
+                "actorindex": 7,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 12,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 2,
+                    "actindex": 12,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "talk",
+            "eventSubManagerIndex": 5,
+            "thisindex": 13,
+            "unk3Index": 13,
+            "unk3Count": 2,
+            "asdfunk1": {
+                "name": "wait",
+                "next": -1,
+                "actorindex": 7,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 13,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 2,
+                    "actindex": 12,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "back",
+            "eventSubManagerIndex": 9,
+            "thisindex": 14,
+            "unk3Index": 15,
+            "unk3Count": 1,
+            "asdfunk1": {
+                "name": "back",
+                "next": 9,
+                "actorindex": 7,
+                "unk3": 2,
+                "dummy0": 0,
+                "thisindex": 14,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 2,
+                    "actindex": 12,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "wait",
+            "eventSubManagerIndex": 0,
+            "thisindex": 15,
+            "unk3Index": 16,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "wait",
+                "next": -1,
+                "actorindex": 8,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 15,
+                "dummy1": 1,
+                "actor": {
+                    "name": "TBox@near",
+                    "unk1": 12,
+                    "unk2": 2,
+                    "actindex": 15,
+                    "actcount": 1
+                }
+            }
+        },
+        {
+            "name": "rsca",
+            "eventSubManagerIndex": 12,
+            "thisindex": 16,
+            "unk3Index": 16,
+            "unk3Count": 1,
+            "asdfunk1": {
+                "name": "c01",
+                "next": -1,
+                "actorindex": 9,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 16,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 3,
+                    "actindex": 16,
+                    "actcount": 1
+                }
+            }
+        },
+        {
+            "name": "plet",
+            "eventSubManagerIndex": 15,
+            "thisindex": 17,
+            "unk3Index": 17,
+            "unk3Count": 1,
+            "asdfunk1": {
+                "name": "colchg",
+                "next": -1,
+                "actorindex": 10,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 17,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Director",
+                    "unk1": 0,
+                    "unk2": 3,
+                    "actindex": 17,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "pret",
+            "eventSubManagerIndex": 26,
+            "thisindex": 18,
+            "unk3Index": 18,
+            "unk3Count": 1,
+            "asdfunk1": {
+                "name": "back",
+                "next": -1,
+                "actorindex": 10,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 18,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Director",
+                    "unk1": 0,
+                    "unk2": 3,
+                    "actindex": 17,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 19,
+            "unk3Index": 19,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c00",
+                "next": -1,
+                "actorindex": 11,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 19,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 4,
+                    "actindex": 19,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "move",
+            "eventSubManagerIndex": 3,
+            "thisindex": 20,
+            "unk3Index": 25,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c01",
+                "next": -1,
+                "actorindex": 11,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 20,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 4,
+                    "actindex": 19,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 21,
+            "unk3Index": 31,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c02",
+                "next": -1,
+                "actorindex": 11,
+                "unk3": 2,
+                "dummy0": 0,
+                "thisindex": 21,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 4,
+                    "actindex": 19,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 22,
+            "unk3Index": 37,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c00",
+                "next": -1,
+                "actorindex": 12,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 22,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 5,
+                    "actindex": 22,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "move",
+            "eventSubManagerIndex": 3,
+            "thisindex": 23,
+            "unk3Index": 43,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c01",
+                "next": -1,
+                "actorindex": 12,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 23,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 5,
+                    "actindex": 22,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 24,
+            "unk3Index": 49,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c02",
+                "next": -1,
+                "actorindex": 12,
+                "unk3": 2,
+                "dummy0": 0,
+                "thisindex": 24,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 5,
+                    "actindex": 22,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 25,
+            "unk3Index": 55,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c00",
+                "next": -1,
+                "actorindex": 13,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 25,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 6,
+                    "actindex": 25,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "move",
+            "eventSubManagerIndex": 3,
+            "thisindex": 26,
+            "unk3Index": 61,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c01",
+                "next": -1,
+                "actorindex": 13,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 26,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 6,
+                    "actindex": 25,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 27,
+            "unk3Index": 67,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c02",
+                "next": -1,
+                "actorindex": 13,
+                "unk3": 2,
+                "dummy0": 0,
+                "thisindex": 27,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 6,
+                    "actindex": 25,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 28,
+            "unk3Index": 73,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c00",
+                "next": -1,
+                "actorindex": 14,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 28,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 7,
+                    "actindex": 28,
+                    "actcount": 6
+                }
+            }
+        },
+        {
+            "name": "move",
+            "eventSubManagerIndex": 3,
+            "thisindex": 29,
+            "unk3Index": 79,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c01",
+                "next": -1,
+                "actorindex": 14,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 29,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 7,
+                    "actindex": 28,
+                    "actcount": 6
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 30,
+            "unk3Index": 85,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c02",
+                "next": -1,
+                "actorindex": 14,
+                "unk3": 2,
+                "dummy0": 0,
+                "thisindex": 30,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 7,
+                    "actindex": 28,
+                    "actcount": 6
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 31,
+            "unk3Index": 91,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c00_",
+                "next": -1,
+                "actorindex": 14,
+                "unk3": 3,
+                "dummy0": 0,
+                "thisindex": 31,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 7,
+                    "actindex": 28,
+                    "actcount": 6
+                }
+            }
+        },
+        {
+            "name": "move",
+            "eventSubManagerIndex": 3,
+            "thisindex": 32,
+            "unk3Index": 97,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c01_",
+                "next": -1,
+                "actorindex": 14,
+                "unk3": 4,
+                "dummy0": 0,
+                "thisindex": 32,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 7,
+                    "actindex": 28,
+                    "actcount": 6
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 33,
+            "unk3Index": 103,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c02_",
+                "next": -1,
+                "actorindex": 14,
+                "unk3": 5,
+                "dummy0": 0,
+                "thisindex": 33,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 7,
+                    "actindex": 28,
+                    "actcount": 6
+                }
+            }
+        },
+        {
+            "name": "mowt",
+            "eventSubManagerIndex": 1,
+            "thisindex": 34,
+            "unk3Index": 109,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "talk",
+                "next": -1,
+                "actorindex": 15,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 34,
+                "dummy1": 1,
+                "actor": {
+                    "name": "NpcMole",
+                    "unk1": 31,
+                    "unk2": 8,
+                    "actindex": 34,
+                    "actcount": 1
+                }
+            }
+        },
+        {
+            "name": "talk",
+            "eventSubManagerIndex": 5,
+            "thisindex": 35,
+            "unk3Index": 109,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "talk",
+                "next": -1,
+                "actorindex": 16,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 35,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Link",
+                    "unk1": 2,
+                    "unk2": 8,
+                    "actindex": 35,
+                    "actcount": 1
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 36,
+            "unk3Index": 109,
+            "unk3Count": 4,
+            "asdfunk1": {
+                "name": "look_all",
+                "next": -1,
+                "actorindex": 17,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 36,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 8,
+                    "actindex": 36,
+                    "actcount": 1
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 37,
+            "unk3Index": 113,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c00",
+                "next": -1,
+                "actorindex": 18,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 37,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 9,
+                    "actindex": 37,
+                    "actcount": 6
+                }
+            }
+        },
+        {
+            "name": "move",
+            "eventSubManagerIndex": 3,
+            "thisindex": 38,
+            "unk3Index": 119,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c01",
+                "next": -1,
+                "actorindex": 18,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 38,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 9,
+                    "actindex": 37,
+                    "actcount": 6
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 39,
+            "unk3Index": 125,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c02",
+                "next": -1,
+                "actorindex": 18,
+                "unk3": 2,
+                "dummy0": 0,
+                "thisindex": 39,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 9,
+                    "actindex": 37,
+                    "actcount": 6
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 40,
+            "unk3Index": 131,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c00_",
+                "next": -1,
+                "actorindex": 18,
+                "unk3": 3,
+                "dummy0": 0,
+                "thisindex": 40,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 9,
+                    "actindex": 37,
+                    "actcount": 6
+                }
+            }
+        },
+        {
+            "name": "move",
+            "eventSubManagerIndex": 3,
+            "thisindex": 41,
+            "unk3Index": 137,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c01_",
+                "next": -1,
+                "actorindex": 18,
+                "unk3": 4,
+                "dummy0": 0,
+                "thisindex": 41,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 9,
+                    "actindex": 37,
+                    "actcount": 6
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 42,
+            "unk3Index": 143,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c02_",
+                "next": -1,
+                "actorindex": 18,
+                "unk3": 5,
+                "dummy0": 0,
+                "thisindex": 42,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 9,
+                    "actindex": 37,
+                    "actcount": 6
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 43,
+            "unk3Index": 149,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c00",
+                "next": -1,
+                "actorindex": 19,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 43,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 10,
+                    "actindex": 43,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "move",
+            "eventSubManagerIndex": 3,
+            "thisindex": 44,
+            "unk3Index": 155,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c01",
+                "next": -1,
+                "actorindex": 19,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 44,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 10,
+                    "actindex": 43,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 45,
+            "unk3Index": 161,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c02",
+                "next": -1,
+                "actorindex": 19,
+                "unk3": 2,
+                "dummy0": 0,
+                "thisindex": 45,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 10,
+                    "actindex": 43,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "mole",
+            "eventSubManagerIndex": 16,
+            "thisindex": 46,
+            "unk3Index": 167,
+            "unk3Count": 1,
+            "asdfunk1": {
+                "name": "c1",
+                "next": -1,
+                "actorindex": 20,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 46,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Director",
+                    "unk1": 0,
+                    "unk2": 11,
+                    "actindex": 46,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "mole",
+            "eventSubManagerIndex": 16,
+            "thisindex": 47,
+            "unk3Index": 168,
+            "unk3Count": 1,
+            "asdfunk1": {
+                "name": "c2",
+                "next": 48,
+                "actorindex": 20,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 47,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Director",
+                    "unk1": 0,
+                    "unk2": 11,
+                    "actindex": 46,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 48,
+            "unk3Index": 169,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c00",
+                "next": -1,
+                "actorindex": 21,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 48,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 11,
+                    "actindex": 48,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 49,
+            "unk3Index": 175,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c00_",
+                "next": -1,
+                "actorindex": 21,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 49,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 11,
+                    "actindex": 48,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "wait",
+            "eventSubManagerIndex": 0,
+            "thisindex": 50,
+            "unk3Index": 181,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "wait",
+                "next": -1,
+                "actorindex": 22,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 50,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Credit",
+                    "unk1": 4,
+                    "unk2": 11,
+                    "actindex": 50,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "mole",
+            "eventSubManagerIndex": 11,
+            "thisindex": 51,
+            "unk3Index": 181,
+            "unk3Count": 1,
+            "asdfunk1": {
+                "name": "mole",
+                "next": 48,
+                "actorindex": 22,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 51,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Credit",
+                    "unk1": 4,
+                    "unk2": 11,
+                    "actindex": 50,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "mole",
+            "eventSubManagerIndex": 11,
+            "thisindex": 52,
+            "unk3Index": 182,
+            "unk3Count": 2,
+            "asdfunk1": {
+                "name": "back",
+                "next": 49,
+                "actorindex": 22,
+                "unk3": 2,
+                "dummy0": 0,
+                "thisindex": 52,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Credit",
+                    "unk1": 4,
+                    "unk2": 11,
+                    "actindex": 50,
+                    "actcount": 3
+                }
+            }
+        },
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 53,
+            "unk3Index": 184,
+            "unk3Count": 6,
+            "asdfunk1": {
+                "name": "c00",
+                "next": -1,
+                "actorindex": 23,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 53,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 12,
+                    "actindex": 53,
+                    "actcount": 1
+                }
+            }
+        }
+    ],
+    "unk3s": [
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 0,
+            "datalen": 3,
+            "data": [
+                0.0,
+                215.0,
+                50.0
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 3,
+            "datalen": 9,
+            "data": [
+                0.0,
+                420.0,
+                750.0,
+                390.0,
+                325.0,
+                660.0,
+                -340.0,
+                290.0,
+                650.0
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 12,
+            "datalen": 1,
+            "data": [
+                60.0
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 0,
+            "datalen": 1,
+            "data": [
+                15
+            ]
+        },
+        {
+            "name": "tgt ",
+            "unk1": 5,
+            "datatype": 2,
+            "dataindex": 0,
+            "datalen": 9,
+            "data": "@starter"
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 1,
+            "datalen": 1,
+            "data": [
+                71
+            ]
+        },
+        {
+            "name": "spkr",
+            "unk1": 0,
+            "datatype": 2,
+            "dataindex": 9,
+            "datalen": 8,
+            "data": "NpcMole"
+        },
+        {
+            "name": "lsnr",
+            "unk1": 1,
+            "datatype": 2,
+            "dataindex": 17,
+            "datalen": 5,
+            "data": "Link"
+        },
+        {
+            "name": "tgt ",
+            "unk1": 5,
+            "datatype": 2,
+            "dataindex": 22,
+            "datalen": 10,
+            "data": "TBox@near"
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 13,
+            "datalen": 3,
+            "data": [
+                0.0,
+                50.0,
+                0.0
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 16,
+            "datalen": 3,
+            "data": [
+                0.0,
+                100.0,
+                210.0
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 19,
+            "datalen": 1,
+            "data": [
+                50.0
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 2,
+            "datalen": 1,
+            "data": [
+                60
+            ]
+        },
+        {
+            "name": "spkr",
+            "unk1": 0,
+            "datatype": 2,
+            "dataindex": 32,
+            "datalen": 8,
+            "data": "NpcMole"
+        },
+        {
+            "name": "lsnr",
+            "unk1": 1,
+            "datatype": 2,
+            "dataindex": 40,
+            "datalen": 5,
+            "data": "Link"
+        },
+        {
+            "name": "flag",
+            "unk1": 0,
+            "datatype": 0,
+            "dataindex": 3,
+            "datalen": 1,
+            "data": [
+                30
+            ]
+        },
+        {
+            "name": "name",
+            "unk1": 0,
+            "datatype": 2,
+            "dataindex": 45,
+            "datalen": 19,
+            "data": "D201_StageIntro_c3"
+        },
+        {
+            "name": "aftr",
+            "unk1": 1,
+            "datatype": 0,
+            "dataindex": 4,
+            "datalen": 1,
+            "data": [
+                10
+            ]
+        },
+        {
+            "name": "aftr",
+            "unk1": 0,
+            "datatype": 0,
+            "dataindex": 5,
+            "datalen": 1,
+            "data": [
+                2
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 6,
+            "datalen": 1,
+            "data": [
+                30
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 20,
+            "datalen": 1,
+            "data": [
+                52.44343948364258
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 21,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 22,
+            "datalen": 3,
+            "data": [
+                -1222.69921875,
+                493.6921081542969,
+                -4701.751953125
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 25,
+            "datalen": 3,
+            "data": [
+                -872.6453857421875,
+                536.0836791992188,
+                -4701.751953125
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 7,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 8,
+            "datalen": 1,
+            "data": [
+                60
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 28,
+            "datalen": 1,
+            "data": [
+                52.44343948364258
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 29,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 30,
+            "datalen": 3,
+            "data": [
+                -1780.4425048828125,
+                458.2518310546875,
+                -4701.751953125
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 33,
+            "datalen": 3,
+            "data": [
+                -1428.4970703125,
+                479.907958984375,
+                -4701.751953125
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 9,
+            "datalen": 1,
+            "data": [
+                7
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 10,
+            "datalen": 1,
+            "data": [
+                30
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 36,
+            "datalen": 1,
+            "data": [
+                52.44343948364258
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 37,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 38,
+            "datalen": 3,
+            "data": [
+                -1780.4425048828125,
+                458.2518310546875,
+                -4701.751953125
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 41,
+            "datalen": 3,
+            "data": [
+                -1428.4970703125,
+                479.907958984375,
+                -4701.751953125
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 11,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 12,
+            "datalen": 1,
+            "data": [
+                40
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 44,
+            "datalen": 1,
+            "data": [
+                52.00001525878906
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 45,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 46,
+            "datalen": 3,
+            "data": [
+                6633.77587890625,
+                809.8037109375,
+                -4679.15673828125
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 49,
+            "datalen": 3,
+            "data": [
+                6828.0205078125,
+                1227.679443359375,
+                -4676.12109375
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 13,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 14,
+            "datalen": 1,
+            "data": [
+                90
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 52,
+            "datalen": 1,
+            "data": [
+                52.00001525878906
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 53,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 54,
+            "datalen": 3,
+            "data": [
+                6529.2724609375,
+                -165.1377716064453,
+                -4680.7900390625
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 57,
+            "datalen": 3,
+            "data": [
+                6828.0205078125,
+                185.7008514404297,
+                -4676.12109375
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 15,
+            "datalen": 1,
+            "data": [
+                7
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 16,
+            "datalen": 1,
+            "data": [
+                60
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 60,
+            "datalen": 1,
+            "data": [
+                52.00001525878906
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 61,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 62,
+            "datalen": 3,
+            "data": [
+                6529.2724609375,
+                -165.1377716064453,
+                -4680.7900390625
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 65,
+            "datalen": 3,
+            "data": [
+                6828.0205078125,
+                185.7008514404297,
+                -4676.12109375
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 17,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 18,
+            "datalen": 1,
+            "data": [
+                30
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 68,
+            "datalen": 1,
+            "data": [
+                54.39970397949219
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 69,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 70,
+            "datalen": 3,
+            "data": [
+                -8141.78955078125,
+                1187.08642578125,
+                -9709.572265625
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 73,
+            "datalen": 3,
+            "data": [
+                -8591.4970703125,
+                1681.1640625,
+                -9709.572265625
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 19,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 20,
+            "datalen": 1,
+            "data": [
+                90
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 76,
+            "datalen": 1,
+            "data": [
+                54.39970397949219
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 77,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 78,
+            "datalen": 3,
+            "data": [
+                -7919.72021484375,
+                789.9345703125,
+                -9709.572265625
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 81,
+            "datalen": 3,
+            "data": [
+                -8287.7998046875,
+                1347.4912109375,
+                -9709.572265625
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 21,
+            "datalen": 1,
+            "data": [
+                7
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 22,
+            "datalen": 1,
+            "data": [
+                30
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 84,
+            "datalen": 1,
+            "data": [
+                54.39970397949219
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 85,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 86,
+            "datalen": 3,
+            "data": [
+                -7919.72021484375,
+                789.9345703125,
+                -9709.572265625
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 89,
+            "datalen": 3,
+            "data": [
+                -8287.7998046875,
+                1347.4912109375,
+                -9709.572265625
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 23,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 24,
+            "datalen": 1,
+            "data": [
+                30
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 92,
+            "datalen": 1,
+            "data": [
+                62.00028991699219
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 93,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 94,
+            "datalen": 3,
+            "data": [
+                -3924.475341796875,
+                999.7101440429688,
+                -7248.65966796875
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 97,
+            "datalen": 3,
+            "data": [
+                -3677.543701171875,
+                1187.3863525390625,
+                -6996.07666015625
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 25,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 26,
+            "datalen": 1,
+            "data": [
+                90
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 100,
+            "datalen": 1,
+            "data": [
+                62.00028991699219
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 101,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 102,
+            "datalen": 3,
+            "data": [
+                -3814.91650390625,
+                1082.9775390625,
+                -7136.5966796875
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 105,
+            "datalen": 3,
+            "data": [
+                -3567.98486328125,
+                1270.65380859375,
+                -6884.013671875
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 27,
+            "datalen": 1,
+            "data": [
+                7
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 28,
+            "datalen": 1,
+            "data": [
+                5
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 108,
+            "datalen": 1,
+            "data": [
+                62.00028991699219
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 109,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 110,
+            "datalen": 3,
+            "data": [
+                -3817.78173828125,
+                1080.7999267578125,
+                -7139.52734375
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 113,
+            "datalen": 3,
+            "data": [
+                -3570.85009765625,
+                1268.4761962890625,
+                -6886.9443359375
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 29,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 30,
+            "datalen": 1,
+            "data": [
+                31
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 116,
+            "datalen": 1,
+            "data": [
+                67.84440612792969
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 117,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 118,
+            "datalen": 3,
+            "data": [
+                -4515.06494140625,
+                386.6656188964844,
+                -5192.57763671875
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 121,
+            "datalen": 3,
+            "data": [
+                -4520.97998046875,
+                396.12152099609375,
+                -4890.19287109375
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 31,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 32,
+            "datalen": 1,
+            "data": [
+                170
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 124,
+            "datalen": 1,
+            "data": [
+                67.84440612792969
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 125,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 126,
+            "datalen": 3,
+            "data": [
+                -4552.36376953125,
+                446.3031921386719,
+                -3285.471435546875
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 129,
+            "datalen": 3,
+            "data": [
+                -4558.27880859375,
+                455.759033203125,
+                -2983.088134765625
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 33,
+            "datalen": 1,
+            "data": [
+                7
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 34,
+            "datalen": 1,
+            "data": [
+                15
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 132,
+            "datalen": 1,
+            "data": [
+                67.84440612792969
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 133,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 134,
+            "datalen": 3,
+            "data": [
+                -4552.36376953125,
+                446.3031921386719,
+                -3285.471435546875
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 137,
+            "datalen": 3,
+            "data": [
+                -4558.27880859375,
+                455.759033203125,
+                -2983.088134765625
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 35,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "tgt ",
+            "unk1": 5,
+            "datatype": 2,
+            "dataindex": 64,
+            "datalen": 13,
+            "data": "NpcMole@near"
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 140,
+            "datalen": 3,
+            "data": [
+                0.0,
+                50.0,
+                300.0
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 143,
+            "datalen": 3,
+            "data": [
+                -200.0,
+                200.0,
+                -50.0
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 36,
+            "datalen": 1,
+            "data": [
+                68
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 37,
+            "datalen": 1,
+            "data": [
+                30
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 146,
+            "datalen": 1,
+            "data": [
+                62.002532958984375
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 147,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 148,
+            "datalen": 3,
+            "data": [
+                -7298.736328125,
+                1754.0596923828125,
+                -9546.7373046875
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 151,
+            "datalen": 3,
+            "data": [
+                -7298.72216796875,
+                2234.006103515625,
+                -9548.1640625
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 38,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 39,
+            "datalen": 1,
+            "data": [
+                40
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 154,
+            "datalen": 1,
+            "data": [
+                62.002532958984375
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 155,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 156,
+            "datalen": 3,
+            "data": [
+                -7298.736328125,
+                1696.7850341796875,
+                -9546.5654296875
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 159,
+            "datalen": 3,
+            "data": [
+                -7298.72216796875,
+                2176.7314453125,
+                -9547.9921875
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 40,
+            "datalen": 1,
+            "data": [
+                7
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 41,
+            "datalen": 1,
+            "data": [
+                30
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 162,
+            "datalen": 1,
+            "data": [
+                62.002532958984375
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 163,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 164,
+            "datalen": 3,
+            "data": [
+                -7298.736328125,
+                1696.7850341796875,
+                -9546.5654296875
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 167,
+            "datalen": 3,
+            "data": [
+                -7298.72216796875,
+                2176.7314453125,
+                -9547.9921875
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 42,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 43,
+            "datalen": 1,
+            "data": [
+                30
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 170,
+            "datalen": 1,
+            "data": [
+                62.002532958984375
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 171,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 172,
+            "datalen": 3,
+            "data": [
+                -6696.087890625,
+                549.3558959960938,
+                -6213.2080078125
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 175,
+            "datalen": 3,
+            "data": [
+                -6453.009765625,
+                781.866943359375,
+                -5870.85986328125
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 44,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 45,
+            "datalen": 1,
+            "data": [
+                30
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 178,
+            "datalen": 1,
+            "data": [
+                62.002532958984375
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 179,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 180,
+            "datalen": 3,
+            "data": [
+                -6761.1240234375,
+                487.14666748046875,
+                -6304.80712890625
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 183,
+            "datalen": 3,
+            "data": [
+                -6518.0458984375,
+                719.65771484375,
+                -5962.458984375
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 46,
+            "datalen": 1,
+            "data": [
+                7
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 47,
+            "datalen": 1,
+            "data": [
+                5
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 186,
+            "datalen": 1,
+            "data": [
+                62.002532958984375
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 187,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 188,
+            "datalen": 3,
+            "data": [
+                -6761.1240234375,
+                487.14666748046875,
+                -6304.80712890625
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 191,
+            "datalen": 3,
+            "data": [
+                -6518.0458984375,
+                719.65771484375,
+                -5962.458984375
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 48,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 49,
+            "datalen": 1,
+            "data": [
+                30
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 194,
+            "datalen": 1,
+            "data": [
+                52.000038146972656
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 195,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 196,
+            "datalen": 3,
+            "data": [
+                -7050.23291015625,
+                -245.81845092773438,
+                -8310.1748046875
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 199,
+            "datalen": 3,
+            "data": [
+                -6960.703125,
+                -103.4082260131836,
+                -8628.4638671875
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 50,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 51,
+            "datalen": 1,
+            "data": [
+                120
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 202,
+            "datalen": 1,
+            "data": [
+                52.000038146972656
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 203,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 204,
+            "datalen": 3,
+            "data": [
+                -6507.34228515625,
+                -240.85757446289062,
+                -9335.9404296875
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 207,
+            "datalen": 3,
+            "data": [
+                -6547.66064453125,
+                -103.4082260131836,
+                -9005.658203125
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 52,
+            "datalen": 1,
+            "data": [
+                7
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 53,
+            "datalen": 1,
+            "data": [
+                30
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 210,
+            "datalen": 1,
+            "data": [
+                52.000038146972656
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 211,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 212,
+            "datalen": 3,
+            "data": [
+                -6507.34228515625,
+                -240.85757446289062,
+                -9335.9404296875
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 215,
+            "datalen": 3,
+            "data": [
+                -6547.66064453125,
+                -103.4082260131836,
+                -9005.658203125
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 54,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "mode",
+            "unk1": 0,
+            "datatype": 0,
+            "dataindex": 55,
+            "datalen": 1,
+            "data": [
+                2
+            ]
+        },
+        {
+            "name": "mode",
+            "unk1": 0,
+            "datatype": 0,
+            "dataindex": 56,
+            "datalen": 1,
+            "data": [
+                0
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 57,
+            "datalen": 1,
+            "data": [
+                15
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 218,
+            "datalen": 1,
+            "data": [
+                60.0000114440918
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 219,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 220,
+            "datalen": 3,
+            "data": [
+                -5488.185546875,
+                -572.1139526367188,
+                -9686.2255859375
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 223,
+            "datalen": 3,
+            "data": [
+                -6091.3876953125,
+                -46.622474670410156,
+                -9686.2255859375
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 58,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 59,
+            "datalen": 1,
+            "data": [
+                90
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 226,
+            "datalen": 1,
+            "data": [
+                60.0000114440918
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 227,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 228,
+            "datalen": 3,
+            "data": [
+                -5489.7138671875,
+                -486.7361755371094,
+                -9686.2255859375
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 231,
+            "datalen": 3,
+            "data": [
+                -6273.9921875,
+                -328.9349060058594,
+                -9686.2255859375
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 60,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "mode",
+            "unk1": 0,
+            "datatype": 0,
+            "dataindex": 61,
+            "datalen": 1,
+            "data": [
+                0
+            ]
+        },
+        {
+            "name": "mode",
+            "unk1": 0,
+            "datatype": 0,
+            "dataindex": 62,
+            "datalen": 1,
+            "data": [
+                1
+            ]
+        },
+        {
+            "name": "when",
+            "unk1": 1,
+            "datatype": 0,
+            "dataindex": 63,
+            "datalen": 1,
+            "data": [
+                1
+            ]
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 64,
+            "datalen": 1,
+            "data": [
+                30
+            ]
+        },
+        {
+            "name": "fovy",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 234,
+            "datalen": 1,
+            "data": [
+                57.87963104248047
+            ]
+        },
+        {
+            "name": "bank",
+            "unk1": 3,
+            "datatype": 1,
+            "dataindex": 235,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        },
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 236,
+            "datalen": 3,
+            "data": [
+                -7594.29443359375,
+                513.445068359375,
+                -9520.21484375
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 239,
+            "datalen": 3,
+            "data": [
+                -7193.5869140625,
+                563.0381469726562,
+                -9587.134765625
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 65,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        }
+    ],
+    "ints": [
+        15,
+        71,
+        60,
+        30,
+        10,
+        2,
+        30,
+        4,
+        60,
+        7,
+        30,
+        4,
+        40,
+        4,
+        90,
+        7,
+        60,
+        4,
+        30,
+        4,
+        90,
+        7,
+        30,
+        4,
+        30,
+        4,
+        90,
+        7,
+        5,
+        4,
+        31,
+        4,
+        170,
+        7,
+        15,
+        4,
+        68,
+        30,
+        4,
+        40,
+        7,
+        30,
+        4,
+        30,
+        4,
+        30,
+        7,
+        5,
+        4,
+        30,
+        4,
+        120,
+        7,
+        30,
+        4,
+        2,
+        0,
+        15,
+        4,
+        90,
+        4,
+        0,
+        1,
+        1,
+        30,
+        4
+    ],
+    "floats": [
+        0.0,
+        215.0,
+        50.0,
+        0.0,
+        420.0,
+        750.0,
+        390.0,
+        325.0,
+        660.0,
+        -340.0,
+        290.0,
+        650.0,
+        60.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        100.0,
+        210.0,
+        50.0,
+        52.44343948364258,
+        0.0,
+        -1222.69921875,
+        493.6921081542969,
+        -4701.751953125,
+        -872.6453857421875,
+        536.0836791992188,
+        -4701.751953125,
+        52.44343948364258,
+        0.0,
+        -1780.4425048828125,
+        458.2518310546875,
+        -4701.751953125,
+        -1428.4970703125,
+        479.907958984375,
+        -4701.751953125,
+        52.44343948364258,
+        0.0,
+        -1780.4425048828125,
+        458.2518310546875,
+        -4701.751953125,
+        -1428.4970703125,
+        479.907958984375,
+        -4701.751953125,
+        52.00001525878906,
+        0.0,
+        6633.77587890625,
+        809.8037109375,
+        -4679.15673828125,
+        6828.0205078125,
+        1227.679443359375,
+        -4676.12109375,
+        52.00001525878906,
+        0.0,
+        6529.2724609375,
+        -165.1377716064453,
+        -4680.7900390625,
+        6828.0205078125,
+        185.7008514404297,
+        -4676.12109375,
+        52.00001525878906,
+        0.0,
+        6529.2724609375,
+        -165.1377716064453,
+        -4680.7900390625,
+        6828.0205078125,
+        185.7008514404297,
+        -4676.12109375,
+        54.39970397949219,
+        0.0,
+        -8141.78955078125,
+        1187.08642578125,
+        -9709.572265625,
+        -8591.4970703125,
+        1681.1640625,
+        -9709.572265625,
+        54.39970397949219,
+        0.0,
+        -7919.72021484375,
+        789.9345703125,
+        -9709.572265625,
+        -8287.7998046875,
+        1347.4912109375,
+        -9709.572265625,
+        54.39970397949219,
+        0.0,
+        -7919.72021484375,
+        789.9345703125,
+        -9709.572265625,
+        -8287.7998046875,
+        1347.4912109375,
+        -9709.572265625,
+        62.00028991699219,
+        0.0,
+        -3924.475341796875,
+        999.7101440429688,
+        -7248.65966796875,
+        -3677.543701171875,
+        1187.3863525390625,
+        -6996.07666015625,
+        62.00028991699219,
+        0.0,
+        -3814.91650390625,
+        1082.9775390625,
+        -7136.5966796875,
+        -3567.98486328125,
+        1270.65380859375,
+        -6884.013671875,
+        62.00028991699219,
+        0.0,
+        -3817.78173828125,
+        1080.7999267578125,
+        -7139.52734375,
+        -3570.85009765625,
+        1268.4761962890625,
+        -6886.9443359375,
+        67.84440612792969,
+        0.0,
+        -4515.06494140625,
+        386.6656188964844,
+        -5192.57763671875,
+        -4520.97998046875,
+        396.12152099609375,
+        -4890.19287109375,
+        67.84440612792969,
+        0.0,
+        -4552.36376953125,
+        446.3031921386719,
+        -3285.471435546875,
+        -4558.27880859375,
+        455.759033203125,
+        -2983.088134765625,
+        67.84440612792969,
+        0.0,
+        -4552.36376953125,
+        446.3031921386719,
+        -3285.471435546875,
+        -4558.27880859375,
+        455.759033203125,
+        -2983.088134765625,
+        0.0,
+        50.0,
+        300.0,
+        -200.0,
+        200.0,
+        -50.0,
+        62.002532958984375,
+        0.0,
+        -7298.736328125,
+        1754.0596923828125,
+        -9546.7373046875,
+        -7298.72216796875,
+        2234.006103515625,
+        -9548.1640625,
+        62.002532958984375,
+        0.0,
+        -7298.736328125,
+        1696.7850341796875,
+        -9546.5654296875,
+        -7298.72216796875,
+        2176.7314453125,
+        -9547.9921875,
+        62.002532958984375,
+        0.0,
+        -7298.736328125,
+        1696.7850341796875,
+        -9546.5654296875,
+        -7298.72216796875,
+        2176.7314453125,
+        -9547.9921875,
+        62.002532958984375,
+        0.0,
+        -6696.087890625,
+        549.3558959960938,
+        -6213.2080078125,
+        -6453.009765625,
+        781.866943359375,
+        -5870.85986328125,
+        62.002532958984375,
+        0.0,
+        -6761.1240234375,
+        487.14666748046875,
+        -6304.80712890625,
+        -6518.0458984375,
+        719.65771484375,
+        -5962.458984375,
+        62.002532958984375,
+        0.0,
+        -6761.1240234375,
+        487.14666748046875,
+        -6304.80712890625,
+        -6518.0458984375,
+        719.65771484375,
+        -5962.458984375,
+        52.000038146972656,
+        0.0,
+        -7050.23291015625,
+        -245.81845092773438,
+        -8310.1748046875,
+        -6960.703125,
+        -103.4082260131836,
+        -8628.4638671875,
+        52.000038146972656,
+        0.0,
+        -6507.34228515625,
+        -240.85757446289062,
+        -9335.9404296875,
+        -6547.66064453125,
+        -103.4082260131836,
+        -9005.658203125,
+        52.000038146972656,
+        0.0,
+        -6507.34228515625,
+        -240.85757446289062,
+        -9335.9404296875,
+        -6547.66064453125,
+        -103.4082260131836,
+        -9005.658203125,
+        60.0000114440918,
+        0.0,
+        -5488.185546875,
+        -572.1139526367188,
+        -9686.2255859375,
+        -6091.3876953125,
+        -46.622474670410156,
+        -9686.2255859375,
+        60.0000114440918,
+        0.0,
+        -5489.7138671875,
+        -486.7361755371094,
+        -9686.2255859375,
+        -6273.9921875,
+        -328.9349060058594,
+        -9686.2255859375,
+        57.87963104248047,
+        0.0,
+        -7594.29443359375,
+        513.445068359375,
+        -9520.21484375,
+        -7193.5869140625,
+        563.0381469726562,
+        -9587.134765625
+    ],
+    "stringbytes": "40 73 74 61 72 74 65 72 00 4E 70 63 4D 6F 6C 65 00 4C 69 6E 6B 00 54 42 6F 78 40 6E 65 61 72 00 4E 70 63 4D 6F 6C 65 00 4C 69 6E 6B 00 44 32 30 31 5F 53 74 61 67 65 49 6E 74 72 6F 5F 63 33 00 4E 70 63 4D 6F 6C 65 40 6E 65 61 72 00",
+    "strings": "b'@starter\\x00NpcMole\\x00Link\\x00TBox@near\\x00NpcMole\\x00Link\\x00D201_StageIntro_c3\\x00NpcMole@near\\x00'"
+}

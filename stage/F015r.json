@@ -1,0 +1,630 @@
+{
+    "LYSE": [
+        {
+            "story_flag": -1,
+            "night": 1,
+            "layer": 2
+        },
+        {
+            "story_flag": -1,
+            "night": 0,
+            "layer": 1
+        }
+    ],
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 160000.0,
+        "wtf3": 10000.0,
+        "byte1": 0,
+        "flagindex": 0,
+        "byte3": 4,
+        "byte4": 0,
+        "unk1": "FF 03",
+        "map_name_id": 53,
+        "unk2": "FF"
+    },
+    "LAY ": {
+        "l0": {
+            "OBJN": [
+                "MapArea"
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": 415.51361083984375,
+                    "posy": -71.76309204101562,
+                    "posz": -43.378562927246094,
+                    "sizex": 2100.0,
+                    "sizey": 500.0,
+                    "sizez": 2872.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "MapArea"
+                }
+            ]
+        },
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "OBJN": [
+                "LampC",
+                "FlvsB",
+                "LampD",
+                "PltA00",
+                "PltB00",
+                "CharA",
+                "CupA02",
+                "CupB02"
+            ],
+            "ARCN": [
+                "LampC",
+                "FlvsB",
+                "LampD",
+                "PltA00",
+                "PltB00",
+                "CharA",
+                "PLSitDown",
+                "CupA02",
+                "CupB02"
+            ],
+            "SCEN": [
+                {
+                    "name": "F000",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 35,
+                    "byte4": 2,
+                    "byte5": 0,
+                    "flag6": 0,
+                    "zero": 0,
+                    "flag8": 0
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": -1,
+                    "posx": 207.79241943359375,
+                    "posy": 0.0,
+                    "posz": -207.79229736328125,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 11,
+                    "posx": -350.0,
+                    "posy": 0.0,
+                    "posz": 0.0,
+                    "anglex": 0,
+                    "angley": 16384,
+                    "anglez": 0,
+                    "entrance_id": 1
+                }
+            ],
+            "SOBJ": [
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 500.32000732421875,
+                    "posy": 10.0,
+                    "posz": 9.720000267028809,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 35460,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "CharA"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 399.260009765625,
+                    "posy": 10.0,
+                    "posz": -373.2900085449219,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 2805,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "CharA"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 496.32000732421875,
+                    "posy": 101.45000457763672,
+                    "posz": -149.07000732421875,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 35498,
+                    "anglez": 0,
+                    "id": "FC 02",
+                    "name": "CupA02"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 413.45001220703125,
+                    "posy": 101.45000457763672,
+                    "posz": -226.53001403808594,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 2716,
+                    "anglez": 0,
+                    "id": "FC 03",
+                    "name": "CupB02"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 427.8700256347656,
+                    "posy": 101.45000457763672,
+                    "posz": -135.98001098632812,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 04",
+                    "name": "PltA00"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 499.21002197265625,
+                    "posy": 101.45000457763672,
+                    "posz": -224.22000122070312,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 05",
+                    "name": "PltB00"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 374.760009765625,
+                    "posy": 101.45000457763672,
+                    "posz": -170.36000061035156,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 18939,
+                    "anglez": 0,
+                    "id": "FC 06",
+                    "name": "FlvsB"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 1039.030029296875,
+                    "posy": 635.280029296875,
+                    "posz": 30.650001525878906,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 07",
+                    "name": "LampC"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 1108.02001953125,
+                    "posy": 599.9500122070312,
+                    "posz": 225.73001098632812,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 08",
+                    "name": "LampC"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 899.1900024414062,
+                    "posy": 608.010009765625,
+                    "posz": -143.52000427246094,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 09",
+                    "name": "LampC"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 626.2000122070312,
+                    "posy": 545.800048828125,
+                    "posz": 758.9800415039062,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 0A",
+                    "name": "LampC"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 287.4300231933594,
+                    "posy": 643.6100463867188,
+                    "posz": -343.5600280761719,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 0B",
+                    "name": "LampD"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 285.1300048828125,
+                    "posy": 647.6200561523438,
+                    "posz": 477.760009765625,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 0C",
+                    "name": "LampD"
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "DNight",
+                        "chest",
+                        "AttTag",
+                        "Door",
+                        "SwAreaT",
+                        "EffGnT"
+                    ],
+                    "ARCN": [
+                        "TansuInside",
+                        "DoorA00",
+                        "Tansu",
+                        "PLBed",
+                        "PLChest",
+                        "DoorAnim"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "00 00 00 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": -350.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 65535,
+                            "angley": 49152,
+                            "anglez": 65535,
+                            "id": "FC 0D",
+                            "name": "Door",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scen_link": 0,
+                                "talk_behaviour": 0,
+                                "subtype": 0,
+                                "scenef": "no flag"
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -134.2885284423828,
+                            "posy": 0.0,
+                            "posz": -665.107421875,
+                            "anglex": 0,
+                            "angley": 30947,
+                            "anglez": 0,
+                            "id": "FC 0E",
+                            "name": "DNight",
+                            "extra_info": {
+                                "sleep_storyfid": 2047,
+                                "sleep_storyf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 716.2598876953125,
+                            "posy": 0.0,
+                            "posz": -598.8787841796875,
+                            "anglex": 0,
+                            "angley": 31493,
+                            "anglez": 0,
+                            "id": "FC 0F",
+                            "name": "DNight",
+                            "extra_info": {
+                                "sleep_storyfid": 2047,
+                                "sleep_storyf": "-"
+                            }
+                        },
+                        {
+                            "params1": "1F 02 FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 303.32000732421875,
+                            "posy": 10.0,
+                            "posz": -774.5399780273438,
+                            "anglex": 0,
+                            "angley": 64080,
+                            "anglez": 0,
+                            "id": "FC 10",
+                            "name": "chest",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": -253.3631134033203,
+                            "posy": -24.73381805419922,
+                            "posz": 1.0299949645996094,
+                            "sizex": 671.0,
+                            "sizey": 100.0,
+                            "sizez": 432.0,
+                            "anglex": 64207,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 11",
+                            "name": "SwAreaT",
+                            "extra_info": {
+                                "setstoryfid": 719,
+                                "unsetstoryfid": 2047,
+                                "setscenefid": 255,
+                                "unsetscenefid": 255,
+                                "setstoryf": "Scrap Shop Owner Gondo's House entered (name on map appears)",
+                                "unsetstoryf": "-",
+                                "setscenef": "no flag",
+                                "unsetscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF 04 02",
+                            "params2": "FF FF FF FF",
+                            "posx": 760.0,
+                            "posy": 52.5,
+                            "posz": 535.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 12",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -282.0884094238281,
+                            "posy": -20.260814666748047,
+                            "posz": 5.128859043121338,
+                            "sizex": 200.0,
+                            "sizey": 100.0,
+                            "sizez": 130.0,
+                            "anglex": 0,
+                            "angley": 16566,
+                            "anglez": 0,
+                            "id": "FC 13",
+                            "name": "AttTag"
+                        }
+                    ]
+                },
+                "l1": {
+                    "OBJN": [
+                        "NpcJkMo"
+                    ],
+                    "ARCN": [
+                        "JunkMother"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FC FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 320.0,
+                            "posy": 10.0,
+                            "posz": 660.0,
+                            "anglex": 65535,
+                            "angley": 62806,
+                            "anglez": 12208,
+                            "id": "FC 14",
+                            "name": "NpcJkMo",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "untrigstoryfid": 2047,
+                                "talk_behaviour": 12208,
+                                "trigstoryf": "-",
+                                "untrigstoryf": "-"
+                            }
+                        }
+                    ]
+                },
+                "l2": {
+                    "OBJN": [
+                        "NpcSlFB",
+                        "NpcJkNi",
+                        "JunkRep",
+                        "NpcSlRp",
+                        "NpcJkMo"
+                    ],
+                    "ARCN": [
+                        "DesertRobot_motion",
+                        "DesertRobot_Sal",
+                        "JunkMother",
+                        "DesertRobotN",
+                        "DesertRobot",
+                        "Junk"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FC FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 974.783203125,
+                            "posy": 10.0,
+                            "posz": -53.123252868652344,
+                            "anglex": 65535,
+                            "angley": 56252,
+                            "anglez": 12206,
+                            "id": "FC 14",
+                            "name": "NpcJkNi",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "untrigstoryfid": 2047,
+                                "talk_behaviour": 12206,
+                                "trigstoryf": "-",
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FC FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 320.0,
+                            "posy": 10.0,
+                            "posz": 660.0,
+                            "anglex": 65535,
+                            "angley": 62806,
+                            "anglez": 12207,
+                            "id": "FC 15",
+                            "name": "NpcJkMo",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "untrigstoryfid": 2047,
+                                "talk_behaviour": 12207,
+                                "trigstoryf": "-",
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 867.2632446289062,
+                            "posy": 70.18000030517578,
+                            "posz": 33.96698760986328,
+                            "anglex": 0,
+                            "angley": 21663,
+                            "anglez": 0,
+                            "id": "FC 16",
+                            "name": "JunkRep"
+                        },
+                        {
+                            "params1": "FF E5 B9 F0",
+                            "params2": "FF 5F FF FF",
+                            "posx": 648.7709350585938,
+                            "posy": 142.46890258789062,
+                            "posz": 361.2671813964844,
+                            "anglex": 65535,
+                            "angley": 39140,
+                            "anglez": 12223,
+                            "id": "FC 17",
+                            "name": "NpcSlRp",
+                            "extra_info": {
+                                "trigstoryfid": 366,
+                                "untrigstoryfid": 2047,
+                                "talk_behaviour": 12223,
+                                "trigstoryf": "Unset when Scrapper has a job, set when he has finished it",
+                                "untrigstoryf": "-"
+                            }
+                        }
+                    ]
+                },
+                "l3": {},
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}

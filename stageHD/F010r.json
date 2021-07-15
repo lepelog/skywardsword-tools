@@ -1,0 +1,605 @@
+{
+    "LYSE": [
+        {
+            "story_flag": -1,
+            "night": 0,
+            "layer": 1
+        },
+        {
+            "story_flag": -1,
+            "night": 0,
+            "layer": 0
+        }
+    ],
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 160000.0,
+        "wtf3": 10000.0,
+        "byte1": 0,
+        "flagindex": 21,
+        "byte3": 0,
+        "byte4": 0,
+        "unk1": "FF 03",
+        "map_name_id": 30,
+        "unk2": "FF"
+    },
+    "LYLT": [
+        {
+            "layer": 13,
+            "demo_high": 44,
+            "demo_low": 1,
+            "dummy": -1
+        },
+        {
+            "layer": 14,
+            "demo_high": 48,
+            "demo_low": 1,
+            "dummy": -1
+        },
+        {
+            "layer": 15,
+            "demo_high": 50,
+            "demo_low": 1,
+            "dummy": -1
+        }
+    ],
+    "LAY ": {
+        "l0": {
+            "OBJN": [
+                "MapArea"
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": -47.685787200927734,
+                    "posy": -5114.373046875,
+                    "posz": 130.0,
+                    "sizex": 15000.0,
+                    "sizey": 11000.0,
+                    "sizez": 13000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "MapArea"
+                },
+                {
+                    "params1": "FF FF FF 01",
+                    "params2": "FF FF FF FF",
+                    "posx": 13200.0,
+                    "posy": -4000.98974609375,
+                    "posz": -11150.0,
+                    "sizex": 10000.0,
+                    "sizey": 5000.0,
+                    "sizez": 10000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "MapArea"
+                }
+            ]
+        },
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "FILE": "00 00 FF FF",
+            "SCEN": [
+                {
+                    "name": "F023",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 4,
+                    "byte4": 2,
+                    "byte5": 1,
+                    "flag6": 0,
+                    "zero": 0,
+                    "flag8": 0
+                },
+                {
+                    "name": "F010r",
+                    "room": 0,
+                    "layer": 1,
+                    "entrance": 1,
+                    "byte4": 2,
+                    "byte5": 0,
+                    "flag6": 0,
+                    "zero": 0,
+                    "flag8": 0
+                },
+                {
+                    "name": "F010r",
+                    "room": 0,
+                    "layer": 13,
+                    "entrance": 2,
+                    "byte4": 2,
+                    "byte5": 0,
+                    "flag6": 0,
+                    "zero": 0,
+                    "flag8": 0
+                },
+                {
+                    "name": "F010r",
+                    "room": 0,
+                    "layer": 14,
+                    "entrance": 3,
+                    "byte4": 2,
+                    "byte5": 0,
+                    "flag6": 0,
+                    "zero": 0,
+                    "flag8": 0
+                },
+                {
+                    "name": "F010r",
+                    "room": 0,
+                    "layer": 15,
+                    "entrance": 4,
+                    "byte4": 2,
+                    "byte5": 0,
+                    "flag6": 0,
+                    "zero": 0,
+                    "flag8": 0
+                }
+            ],
+            "CAM ": [
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 7200.0,
+                    "posy": -1292.0792236328125,
+                    "posz": 4700.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 00",
+                    "name": "FieldGakemae"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 218.02182006835938,
+                    "posy": 900.6727294921875,
+                    "posz": 3981.119873046875,
+                    "angle": 45.0,
+                    "unk2": "15 55 F2 7E 00 00 00 01",
+                    "name": "FixedOnly"
+                }
+            ],
+            "EVNT": [
+                {
+                    "unk1": "00 00",
+                    "story_flag1": 71,
+                    "story_flag2": -1,
+                    "unk2": "64 02 FF",
+                    "exit_id": 1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 39,
+                    "dummy1": -1,
+                    "item": 187,
+                    "dummy2": -1,
+                    "name": "demo01"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": 72,
+                    "story_flag2": -1,
+                    "unk2": "64 02 FF",
+                    "exit_id": 1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 40,
+                    "dummy1": -1,
+                    "item": 188,
+                    "dummy2": -1,
+                    "name": "demo01"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": 73,
+                    "story_flag2": -1,
+                    "unk2": "64 02 FF",
+                    "exit_id": 1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 41,
+                    "dummy1": -1,
+                    "item": 189,
+                    "dummy2": -1,
+                    "name": "demo01"
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 1,
+                    "posx": 0.0,
+                    "posy": 395.57000732421875,
+                    "posz": 4850.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": -1,
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 307.597412109375,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 1
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 0,
+                    "byte4": -1,
+                    "posx": 3600.0,
+                    "posy": 0.0,
+                    "posz": 2700.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 2
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 1,
+                    "byte4": -1,
+                    "posx": 3850.0,
+                    "posy": 0.0,
+                    "posz": 2700.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 3
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 2,
+                    "byte4": -1,
+                    "posx": 4100.0,
+                    "posy": 0.0,
+                    "posz": 2700.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 4
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "NpcTke",
+                        "Dowsing",
+                        "CamTag",
+                        "saveObj",
+                        "ScChang",
+                        "SwSB"
+                    ],
+                    "ARCN": [
+                        "GoddessSymbolSc"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "FF FF 00 35",
+                            "params2": "FF 5F FF FF",
+                            "posx": -179.46446228027344,
+                            "posy": 395.57000732421875,
+                            "posz": 4651.8583984375,
+                            "anglex": 65535,
+                            "angley": 32768,
+                            "anglez": 65535,
+                            "id": "FC 01",
+                            "name": "saveObj",
+                            "extra_info": {
+                                "scenefid": 53,
+                                "tosky_scen_link": 255,
+                                "name_id": 255,
+                                "subtype": "normal",
+                                "name": "Bird Statue",
+                                "scenef": "scene flag: 0x7 20"
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF F1 32",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": -500.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 00",
+                            "name": "SwSB"
+                        },
+                        {
+                            "params1": "FF E1 1F 11",
+                            "params2": "FF 1F FF FF",
+                            "posx": 3600.0,
+                            "posy": 0.0,
+                            "posz": 3000.0,
+                            "anglex": 18431,
+                            "angley": 65535,
+                            "anglez": 19971,
+                            "id": "FC 02",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 71,
+                                "untrigstoryfid": 2047,
+                                "talk_behaviour": 19971,
+                                "triggerarea": 255,
+                                "trigscenefid": 255,
+                                "untrigscenefid": 71,
+                                "trigstoryf": "Learn Farore's Courage (Faron Woods layer 3 / Deep Woods layer 3)",
+                                "untrigstoryf": "-",
+                                "trigscenef": "no flag",
+                                "untrigscenef": "scene flag: 0x9 80"
+                            }
+                        },
+                        {
+                            "params1": "FF E1 23 11",
+                            "params2": "FF 1F FF FF",
+                            "posx": 3850.0,
+                            "posy": 0.0,
+                            "posz": 3000.0,
+                            "anglex": 18687,
+                            "angley": 65535,
+                            "anglez": 19972,
+                            "id": "FC 03",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 72,
+                                "untrigstoryfid": 2047,
+                                "talk_behaviour": 19972,
+                                "triggerarea": 255,
+                                "trigscenefid": 255,
+                                "untrigscenefid": 72,
+                                "trigstoryf": "Learn Nayru's Wisdom",
+                                "untrigstoryf": "-",
+                                "trigscenef": "no flag",
+                                "untrigscenef": "scene flag: 0x8 01"
+                            }
+                        },
+                        {
+                            "params1": "FF E1 27 11",
+                            "params2": "FF 1F FF FF",
+                            "posx": 4100.0,
+                            "posy": 0.0,
+                            "posz": 3000.0,
+                            "anglex": 18943,
+                            "angley": 65535,
+                            "anglez": 19973,
+                            "id": "FC 04",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 73,
+                                "untrigstoryfid": 2047,
+                                "talk_behaviour": 19973,
+                                "triggerarea": 255,
+                                "trigscenefid": 255,
+                                "untrigscenefid": 73,
+                                "trigstoryf": "Learn Din's Power",
+                                "untrigstoryf": "-",
+                                "trigscenef": "no flag",
+                                "untrigscenef": "scene flag: 0x8 02"
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF FF 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 5000.0,
+                            "sizex": 600.0,
+                            "sizey": 600.0,
+                            "sizez": 200.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 05",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 0,
+                                "trigscenefid": 255,
+                                "trigstoryfid": 2047,
+                                "untrigstoryfid": 2047,
+                                "trigscenef": "no flag",
+                                "trigstoryf": "-",
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF 01 01",
+                            "params2": "FF DF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 4600.0,
+                            "sizex": 800.0,
+                            "sizey": 600.0,
+                            "sizez": 600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 06",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "untrigscenefid": 255,
+                                "camidx": 1,
+                                "trigscenef": "no flag",
+                                "untrigscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF F2 FF FF",
+                            "params2": "FF DF FF FF",
+                            "posx": 0.0004189999890513718,
+                            "posy": 56.59185791015625,
+                            "posz": 16028.5556640625,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 07",
+                            "name": "Dowsing",
+                            "extra_info": {
+                                "option": "Eldin Trial",
+                                "trigstoryfid": 2047,
+                                "untrigstoryfid": 2047,
+                                "trigscenefid": 255,
+                                "untrigscenefid": 255,
+                                "trigstoryf": "-",
+                                "untrigstoryf": "-",
+                                "trigscenef": "no flag",
+                                "untrigscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF F1 FF FF",
+                            "params2": "FF DF FF FF",
+                            "posx": 0.0004189999890513718,
+                            "posy": 56.59185791015625,
+                            "posz": 16028.5556640625,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 08",
+                            "name": "Dowsing",
+                            "extra_info": {
+                                "option": "Lanayru Trial",
+                                "trigstoryfid": 2047,
+                                "untrigstoryfid": 2047,
+                                "trigscenefid": 255,
+                                "untrigscenefid": 255,
+                                "trigstoryf": "-",
+                                "untrigstoryf": "-",
+                                "trigscenef": "no flag",
+                                "untrigscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF F0 FF FF",
+                            "params2": "FF DF FF FF",
+                            "posx": 0.0004189999890513718,
+                            "posy": 56.59185791015625,
+                            "posz": 16028.5556640625,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 09",
+                            "name": "Dowsing",
+                            "extra_info": {
+                                "option": "Faron Trial",
+                                "trigstoryfid": 2047,
+                                "untrigstoryfid": 2047,
+                                "trigscenefid": 255,
+                                "untrigscenefid": 255,
+                                "trigstoryf": "-",
+                                "untrigstoryf": "-",
+                                "trigscenef": "no flag",
+                                "untrigscenef": "no flag"
+                            }
+                        }
+                    ]
+                },
+                "l1": {
+                    "OBJN": [
+                        "DemoPds"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 0A",
+                            "name": "DemoPds"
+                        }
+                    ]
+                },
+                "l2": {},
+                "l3": {},
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}

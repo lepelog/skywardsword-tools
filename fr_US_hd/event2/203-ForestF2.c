@@ -1,0 +1,1072 @@
+          void entrypoint_203_55() {
+/*<147>*/ 	start()
+/*<149>*/ 	switch (story_flags[188 /* us: 805A9AE9 0x08, jp: 805ACD69 0x08 */]) {
+          	  case 0:
+/*<148>*/ 		printf("La probabilité d'éteindre les flammes au volcan en\ntransportant la <r<cuvette >>jusque là\x2010bas est de 85 %.\n\n\nJe vous recommande de l'emprunter au dragon.")
+          	  case 1:
+/*<150>*/ 		printf("La <r<cuvette >>est remplie d'eau. La probabilité qu'elle\npuisse éteindre les flammes au volcan est de 85 %.\n\n\nJe vous <pling>conseille de l'emprunter au dragon.")
+/*<167>*/ 		story_flags[188 /* us: 805A9AE9 0x08, jp: 805ACD69 0x08 */] = true;
+          	}
+          }
+
+          void entrypoint_203_72() {
+/*<163>*/ 	start()
+/*<162>*/ 	printf("Eh, le maître en vert. Regarde le pro!\nC'est de ça que ç'a l'air, un vrai héros, vrrrrt!")
+          }
+
+          void entrypoint_203_03() {
+/*<420>*/ 	start()
+/*<421>*/ 	switch (story_flags[16 /* us: 805A9ADB 0x02, jp: 805ACD5B 0x02 */]) {
+          	  case 0:
+/*<422>*/ 		printf("\x0E\x01\x09\x04\x00\x04C'est bien beau, la paix... Mais, c'est un peu\nennuyant, par bouts.\n\n\n\x0E\x01\x09\x04\x11\x05Bon. En fin de compte, j'ai pas grand-chose\nà me plaindre.")
+          	  case 1:
+/*<423>*/ 		printf("\x0E\x01\x09\x04\x00\x14Au cas où tu n'avais pas remarqué, on essaie\nde se cacher. Tu ferais mieux de partir,\ntu risques de nous attirer des monstres!")
+          	}
+          }
+
+          void entrypoint_203_90() {
+/*< 25>*/ 	start()
+/*< 26>*/ 	printf("\x0E\x01\x09\x04\x00\x0FMmmh\x2010hmm...")
+          }
+
+          void entrypoint_203_56() {
+/*<151>*/ 	start()
+/*<177>*/ 	switch (scene_flags[127 /* 0xE 80 */]) {
+          	  case 0:
+/*<178>*/ 		printf("Bien...<pause0F> Dois\x2010je appeler le robot?\n[1]Oui[2]Oh non, pas lui")
+          		flw_153:
+/*<153>*/ 		switch (choice(2)) {
+          		  case 0:
+/*<152>*/ 			printf("Très bien, \x0E\x01\x12\x04\x00\x05Maître. Je l'appelle immédiatement.")
+          		  case 1:
+/*<181>*/ 			switch (scene_flags[127 /* 0xE 80 */]) {
+          			  case 0:
+/*<182>*/ 				printf("\x0E\x01\x12\x04\x00\x01Maître...<pause0F> Ce n'est pas le moment de faire le difficile.\nArrêtez vos enfantillages.\n\n\nJe l'appelle immédiatement.")
+          			  case 1:
+/*<154>*/ 				printf("\x0E\x01\x12\x04\x00\x01Maître...<pause0F> Ce n'est pas le moment de faire le difficile.\nJe l'appelle immédiatement.")
+          			}
+          		}
+          	  case 1:
+/*<155>*/ 		printf("Dois\x2010je appeler le robot pour qu'il transporte la\ncuvette jusqu'au volcan?\n[1]Oui[2]Oh non, pas lui")
+          		goto flw_153
+          	}
+          }
+
+          void entrypoint_203_73() {
+/*<165>*/ 	start()
+/*<164>*/ 	printf("J'attendrai dans le ciel, comme d'habitude!")
+/*<588>*/ 	story_flags[818 /* us: 805A9B30 0x04, jp: 805ACDB0 0x04 */] = false;
+          }
+
+          void entrypoint_203_04() {
+/*<441>*/ 	start()
+/*<442>*/ 	switch (zone_temp_flags[11 /* 0x0 08 */]) {
+          	  case 0:
+/*<445>*/ 		{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 15, 'next': 443, 'param3': 6}
+/*<443>*/ 		printf("\x0E\x01\x09\x04\x00\x04Il est parfois bon de passer du temps pour soi,\nà penser...\n\n\n\x0E\x01\x09\x04\x00\x01Et rester assis, c'est bon pour la relaxation!")
+/*<444>*/ 		scene_flags[1 'Faron Woods'][54 /* 0x7 40 */] = true;
+          	  case 1:
+/*<424>*/ 		switch (story_flags[16 /* us: 805A9ADB 0x02, jp: 805ACD5B 0x02 */]) {
+          		  case 0:
+/*<426>*/ 			switch (story_flags[55 /* us: 805A9ADC 0x04, jp: 805ACD5C 0x04 */]) {
+          			  case 0:
+/*<427>*/ 				printf("\x0E\x01\x09\x04\x00\x13Avec toi, c'est même pas drôle de se cacher!\nTu me trouves toujours tout de suite.")
+          			  case 1:
+/*<428>*/ 				printf("\x0E\x01\x09\x04\x11\x13Tu m'as encore trouvé, tu es vraiment trop fort!\n\n\n\n\x0E\x01\x09\x04\x0B\x07En récompense, je vais te donner quelque chose\nque j'ai trouvé pendant mes parties de cachette.")
+/*<430>*/ 				give_item(176 0xB0);
+/*<429>*/ 				printf("\x0E\x01\x09\x04\x00\x14Chut, c'est un secret! Ne le dis à personne!")
+/*<431>*/ 				story_flags[55 /* us: 805A9ADC 0x04, jp: 805ACD5C 0x04 */] = true;
+          			}
+          		  case 1:
+/*<425>*/ 			printf("\x0E\x01\x09\x04\x00\x07C'est ici que nous avons élu domicile. Il y a\nassez de nourriture pour tout le monde.\nOn y est bien, finalement!")
+          		}
+          	}
+          }
+
+          void entrypoint_203_05() {
+/*<  2>*/ 	start()
+/*<224>*/ 	switch (story_flags[65 /* us: 805A9ADF 0x10, jp: 805ACD5F 0x10 */]) {
+          	  case 0:
+/*<432>*/ 		switch (story_flags[16 /* us: 805A9ADB 0x02, jp: 805ACD5B 0x02 */]) {
+          		  case 0:
+/*<433>*/ 			printf("\x0E\x01\x09\x04\x00\x02C'est un peu dommage que l'eau ait à nouveau\nbaissé... La natation me remettait en forme!")
+/*<486>*/ 			printf("\x0E\x01\x09\x04\x00\x06Hohoho!")
+/*<532>*/ 			entrypoint_203_09();
+          		  case 1:
+/*<434>*/ 			printf("\x0E\x01\x09\x04\x00\x0ELe dragon d'eau a reconnu ta valeur?\nOn aura tout vu!")
+/*<531>*/ 			entrypoint_203_09();
+          		}
+          	  case 1:
+/*<225>*/ 		switch (story_flags[64 /* us: 805A9ADF 0x08, jp: 805ACD5F 0x08 */]) {
+          		  case 0:
+/*<226>*/ 			printf("\x0E\x01\x09\x04\x00\x0ETu as rencontré madame le dragon d'eau?\nOh, si tu savais comme je t'envie!")
+/*<530>*/ 			entrypoint_203_09();
+          		  case 1:
+/*<  5>*/ 			switch (scene_flags[55 /* 0x7 80 */]) {
+          			  case 0:
+/*<  9>*/ 				switch (story_flags[60 /* us: 805A9ADC 0x80, jp: 805ACD5C 0x80 */]) {
+          				  case 0:
+/*< 13>*/ 					switch (story_flags[63 /* us: 805A9ADC 0x40, jp: 805ACD5C 0x40 */]) {
+          					  case 0:
+/*< 15>*/ 						switch (temp_flags[5 /* 0x1 20 */]) {
+          						  case 0:
+          							flw_16:
+/*< 16>*/ 							printf("\x0E\x01\x09\x04\x00\x02Le monde ne cesse de me surprendre.\nJ'aimerais aussi rencontrer cet ermite.")
+/*<334>*/ 							printf("\x0E\x01\x09\x04\x00\x06Hohoho!")
+/*<529>*/ 							entrypoint_203_09();
+          						  case 1:
+/*< 14>*/ 							printf("\x0E\x01\x09\x04\x00\x0ETu as rencontré un ermite? Oh, et moi qui\ncroyais que nous n'étions que cinq Kikwis!")
+/*< 17>*/ 							temp_flags[5 /* 0x1 20 */] = true;
+          							goto flw_16
+          						}
+          					  case 1:
+/*< 12>*/ 						printf("\x0E\x01\x09\x04\x00\x0EHein? Tu es allé jusqu'au sommet de l'arbre?\n\n\n\n\x0E\x01\x09\x04\x00\x08Et tu y as trouvé quelqu'un? Il faut que j'aille\nvoir ça!")
+/*<528>*/ 						entrypoint_203_09();
+          					}
+          				  case 1:
+/*< 11>*/ 					switch (scene_flags[19 /* 0x3 08 */]) {
+          					  case 0:
+/*<  8>*/ 						printf("\x0E\x01\x09\x04\x00\x0EOh, tu as réussi à entrer dans l'arbre?")
+/*< 80>*/ 						printf("\x0E\x01\x09\x04\x00\x02Si tu arrives à monter jusqu'à son sommet,\ntu trouveras peut\x2010être quelque chose...\nEt la vue doit être superbe!")
+/*<527>*/ 						entrypoint_203_09();
+          					  case 1:
+/*< 10>*/ 						printf("\x0E\x01\x09\x04\x00\x03Il y a certainement des endroits dans cette forêt\noù tu n'es pas encore allé.\n\n\n\x0E\x01\x09\x04\x00\x08Grâce à l'écaille du dragon d'eau, tu peux\nmaintenant <g<nager sous l'eau >>en maintenant (A)\nenfoncé si tu es à la surface.")
+/*<526>*/ 						entrypoint_203_09();
+          					}
+          				}
+          			  case 1:
+/*<436>*/ 				switch (story_flags[206 /* us: 805A9AF0 0x04, jp: 805ACD70 0x04 */]) {
+          				  case 0:
+/*< 20>*/ 					{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 0, 'next': 328, 'param3': 31}
+/*<328>*/ 					{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 20, 'next': 327, 'param3': 6}
+/*<327>*/ 					set_camera(1, 0)
+/*<330>*/ 					{'type': 'type3', 'subType': 4, 'param1': 0, 'param2': 0, 'next': 3, 'param3': 13}
+/*<  3>*/ 					printf("\x0E\x01\x09\x04\x00\x0EOh, tu as trouvé l'écaille du dragon d'eau!\n\n\n\n\x0E\x01\x09\x04\x00\x02On dit que celui qui la porte peut nager dans\nl'eau comme un dragon vole dans le ciel!")
+/*<329>*/ 					set_camera(-1, 0)
+/*<  6>*/ 					{'type': 'type3', 'subType': 4, 'param1': 0, 'param2': 0, 'next': 7, 'param3': 13}
+/*<  7>*/ 					printf("\x0E\x01\x09\x04\x00\x03Il y a sûrement des endroits dans cette forêt\noù tu n'es jamais allé.\n\n\n\x0E\x01\x09\x04\x00\x08Utilise le pouvoir de l'écaille pour faire\nun brin d'exploration!")
+/*<331>*/ 					{'type': 'type3', 'subType': 4, 'param1': 0, 'param2': 0, 'next': 332, 'param3': 13}
+/*<332>*/ 					printf("\x0E\x01\x09\x04\x00\x06Hohoho!")
+/*<333>*/ 					scene_flags[1 'Faron Woods'][55 /* 0x7 80 */] = true;
+/*<525>*/ 					entrypoint_203_09();
+          				  case 1:
+/*<435>*/ 					printf("\x0E\x01\x09\x04\x00\x03Oh, tu n'as donc pas trouvé ton amie dans\nles profondeurs de la forêt, ka-kwa?\n\n\n\x0E\x01\x09\x04\x00\x02Ne te décourage pas. Tu la retrouveras.\nComme nous, les Kikwis, qui nous sommes\nretrouvés.")
+/*<524>*/ 					entrypoint_203_09();
+          				}
+          			}
+          		}
+          	}
+          }
+
+          void entrypoint_203_91() {
+/*< 49>*/ 	start()
+/*< 51>*/ 	switch (story_flags[64 /* us: 805A9ADF 0x08, jp: 805ACD5F 0x08 */]) {
+          	  case 0:
+/*< 70>*/ 		switch (adventure_pouch_has(7 0x0007)) {
+          		  case 0:
+/*<319>*/ 			switch (temp_flags[2 /* 0x1 04 */]) {
+          			  case 0:
+/*<320>*/ 				printf("\x0E\x01\x09\x04\x09\x707Comment? Tu as déjà mon <b<eau sacrée>>?\nEh bien, verse\x2010la vite dans ma cuvette!")
+          				flw_351:
+/*<351>*/ 				story_flags[85 /* us: 805A9AE8 0x02, jp: 805ACD68 0x02 */] = true;
+/*<515>*/ 				{'type': 'type3', 'subType': 1, 'param1': 4, 'param2': -1, 'next': -1, 'param3': 42}
+          			  case 1:
+/*<549>*/ 				printf("\x0E\x01\x09\x04\x00\x0FMmmh\x2010hmm...")
+/*<318>*/ 				printf("\x0E\x01\x09\x04\x07\x709Oh! De la véritable <b<eau sacrée>>! Tu me l'as\ndonc apportée.\n\n\nVerse\x2010la vite dans ma cuvette!")
+          				goto flw_351
+          			}
+          		  case 1:
+/*<548>*/ 			printf("\x0E\x01\x09\x04\x00\x0FMmmh\x2010hmm...")
+/*< 69>*/ 			printf("\x0E\x01\x09\x04\x07\x706Apporte\x2010moi vite mon eau sacrée. Je te guiderai\nalors vers la flamme.")
+          		}
+          	  case 1:
+/*< 53>*/ 		switch (scene_flags[0 /* 0x1 01 */]) {
+          		  case 0:
+/*< 50>*/ 			printf("\x0E\x01\x09\x04\x00\x0FMmmh\x2010hmm...")
+/*< 58>*/ 			printf("\x0E\x01\x09\x04\x09\x706Si tu m'apportes de l'<b<eau sacrée>>, je te guiderai\nvers la flamme.\n[1]D'accord[2-]Non merci")
+/*< 60>*/ 			switch (choice(2)) {
+          			  case 0:
+          				flw_61:
+/*< 61>*/ 				entrypoint_203_52();
+          			  case 1:
+/*< 59>*/ 				printf("\x0E\x01\x09\x04\x09\x704Oh, je vois. Tu n'es qu'un humain, après tout!")
+/*<473>*/ 				temp_flags[0 /* 0x1 01 */] = true;
+          			}
+          		  case 1:
+/*<282>*/ 			switch (temp_flags[1 /* 0x1 02 */]) {
+          			  case 0:
+/*<457>*/ 				{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 0, 'next': 454, 'param3': 49}
+/*<454>*/ 				{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 20, 'next': 455, 'param3': 6}
+/*<455>*/ 				set_camera(11, 0)
+/*<456>*/ 				{'type': 'type3', 'subType': 2, 'param1': 3, 'param2': 356, 'next': 283, 'param3': 15}
+          				flw_283:
+/*<283>*/ 				printf("\x0E\x01\x09\x04\x00\x0FTu es dans un lieu sacré, l'endroit où je vis...\n\n\n\n\x0E\x01\x09\x04\x09\x700Tu n'as rien à faire ici.\n\n\n\nComment as\x2010tu fait pour entrer?\n[1]Madame le\ndragon d'eau?[2]Je me suis\nperdu")
+/*< 54>*/ 				switch (choice(2)) {
+          				  case 0:
+/*<458>*/ 					scene_flags[2 'Lake Floria'][0 /* 0x1 01 */] = true;
+/*<474>*/ 					set_camera(27, 0)
+/*<475>*/ 					printf("\x0E\x01\x09\x04\x07\x903En effet, je suis <b<Firone>>, le dragon d'eau à qui\nla Déesse a confié cette région.\n\n\nMalgré mon apparence, je suis une envoyée\nde la Déesse.\n\n\n\x0E\x01\x09\x04\x09\x900<pause0A>.<pause0A>.<pause0A>.<pause0A>\n\x0E\x01\x09\x04\x00\x07Hmm?")
+/*<451>*/ 					set_camera(11, 0)
+/*<452>*/ 					printf("\x0E\x01\x09\x04\x09\x900\x0E\x01\x06\x02\xFECDMais dis\x2010moi...<pause0F> \x0E\x01\x09\x04\x00\x06\x0E\x01\x06\x02\x2CDTu portes mon <b<écaille>>...\n\n\n\n\x0E\x01\x09\x04\x09\x700C'est une relique que seul l'élu de la Déesse\npeut posséder. \x0E\x01\x09\x04\x00\x05Serait\x2010ce donc toi?\n\n\n\x0E\x01\x09\x04\x07\x700Cependant, même si c'était le cas, aucun humain\nn'est censé pouvoir s'approcher d'ici...")
+/*<453>*/ 					set_camera(27, 0)
+/*< 55>*/ 					printf("\x0E\x01\x09\x04\x07\x704Je vois...<pause1E> Cet ermite a la langue bien pendue...\n\n\n\n\x0E\x01\x09\x04\x09\x910Je lui avais pourtant interdit de parler de ce\nlieu à qui que ce soit! Je le mangerai donc\nla prochaine fois que je le verrai.\n\n\x0E\x01\x09\x04\x07\x900Mais laissons cela...<pause1E> Tu es donc venu quérir\nla <r<flamme sacrée>>?\n[1]Oui[2]J'ai oublié")
+/*<284>*/ 					switch (choice(2)) {
+          					  case 0:
+/*<285>*/ 						printf("\x0E\x01\x09\x04\x09\x704Hmm, c'est bien ce que je pensais.")
+          						flw_463:
+/*<463>*/ 						printf("\x0E\x01\x09\x04\x09\x700Mais j'ai du mal à croire que la Déesse ait\npu choisir un enfant aussi chétif que toi...\n\n\n\x0E\x01\x09\x04\x07\x703Je vais donc te tester.\n\n\n\nVois\x2010tu, j'ai été blessée par un certain <b<Ghirahim\n>>qui se prétend monarque démoniaque, et j'ai\ndu mal à me soigner.")
+/*<465>*/ 						set_camera(28, 0)
+/*<464>*/ 						printf("\x0E\x01\x09\x04\x07\x70FL'eau contenue dans cette cuvette est de l'<b<eau\nsacrée>>. Elle a des propriétés curatives.\n\n\n\x0E\x01\x09\x04\x09\x700Mais ses effets sont faibles à présent...\nIl m'en faut une plus fraîche et plus puissante.\n\n\n\x0E\x01\x09\x04\x09\x906Va donc <r<<pling>me chercher de l'eau sacrée>>. Il faut\nqu'elle ressemble à celle de cette cuvette.")
+/*<450>*/ 						set_camera(27, 0)
+/*< 56>*/ 						printf("Si tu fais cela pour moi, je te guiderai vers la\n<r<flamme sacrée >>que tu cherches. Qu'en dis\x2010tu?\n[1]D'accord[2-]Non merci")
+/*< 57>*/ 						switch (choice(2)) {
+          						  case 0:
+/*<466>*/ 							temp_flags[3 /* 0x1 08 */] = true;
+          							goto flw_61
+          						  case 1:
+/*<286>*/ 							printf("\x0E\x01\x09\x04\x09\x704Oh, je vois. Tu n'es qu'un humain, après tout!")
+/*<287>*/ 							temp_flags[0 /* 0x1 01 */] = true;
+/*<460>*/ 							{'type': 'type3', 'subType': 1, 'param1': 3, 'param2': -1, 'next': -1, 'param3': 42}
+          						}
+          					  case 1:
+/*<291>*/ 						set_camera(11, 0)
+/*<292>*/ 						printf("\x0E\x01\x09\x04\x09\x910\x0E\x01\x08\x02\x1CDOserais\x2010tu te moquer de moi?\n\n\n\n\x0E\x01\x09\x04\x01\x900Je dois bien reconnaître qu'au moins tu es\ncourageux.")
+/*<296>*/ 						set_camera(27, 0)
+          						goto flw_463
+          					}
+          				  case 1:
+/*<289>*/ 					set_camera(11, 0)
+/*<290>*/ 					printf("\x0E\x01\x09\x04\x09\x910Me prendrais\x2010tu pour une idiote?\n\n\n\nDéguerpis tout de suite, ou je te mange la tête!")
+/*<459>*/ 					{'type': 'type3', 'subType': 1, 'param1': 3, 'param2': -1, 'next': -1, 'param3': 42}
+          				}
+          			  case 1:
+/*<449>*/ 				{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 0, 'next': 298, 'param3': 49}
+/*<298>*/ 				{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 20, 'next': 412, 'param3': 6}
+/*<412>*/ 				set_camera(11, 0)
+/*<448>*/ 				{'type': 'type3', 'subType': 2, 'param1': 3, 'param2': 356, 'next': 52, 'param3': 15}
+/*< 52>*/ 				printf("\x0E\x01\x09\x04\x00\x01\x0E\x01\x08\x02\x2CD!!!\n\n\n\nQu'est-ce que tu fais ici, l'humain?")
+/*<281>*/ 				temp_flags[1 /* 0x1 02 */] = true;
+/*<288>*/ 				set_camera(27, 0)
+          				goto flw_283
+          			}
+          		}
+          	}
+          }
+
+          void entrypoint_203_57() {
+/*<156>*/ 	start()
+/*<157>*/ 	printf("\x0E\x01\x12\x04\x00\x01Maître, retournons dans le ciel et dirigeons\x2010nous\nvers le volcan.")
+/*<166>*/ 	story_flags[186 /* us: 805A9AE9 0x02, jp: 805ACD69 0x02 */] = true;
+/*<206>*/ 	story_flags[677 /* us: 805A9B20 0x40, jp: 805ACDA0 0x40 */] = true;
+/*<280>*/ 	story_flags[366 /* us: 805A9B03 0x10, jp: 805ACD83 0x10 */] = false;
+/*<176>*/ 	scene_flags[2 'Lake Floria'][127 /* 0xE 80 */] = true;
+/*<316>*/ 	story_flags[669 /* us: 805A9B1E 0x08, jp: 805ACD9E 0x08 */] = false;
+/*<203>*/ 	story_flags[324 /* us: 805A9AFF 0x04, jp: 805ACD7F 0x04 */] = false;
+/*<204>*/ 	story_flags[365 /* us: 805A9B03 0x08, jp: 805ACD83 0x08 */] = false;
+/*<202>*/ 	story_flags[372 /* us: 805A9B02 0x04, jp: 805ACD82 0x04 */] = false;
+/*<205>*/ 	story_flags[397 /* us: 805A9B0F 0x80, jp: 805ACD8F 0x80 */] = false;
+/*<200>*/ 	story_flags[471 /* us: 805A9B0E 0x08, jp: 805ACD8E 0x08 */] = false;
+/*<201>*/ 	story_flags[480 /* us: 805A9B11 0x10, jp: 805ACD91 0x10 */] = false;
+          }
+
+          void entrypoint_203_06() {
+/*< 31>*/ 	start()
+/*<392>*/ 	printf("\x0E\x01\x09\x04\x03\x0FJ'allais presque oublier de t'avertir... <pause0F>Madame\nle dragon d'eau insiste sur les bonnes manières,\nalors conduis-toi comme il faut.\n\n\x0E\x01\x09\x04\x01\x00Si elle se fâche...<pause3C> \x0E\x01\x09\x04\x00\x0Belle peut t'avaler tout rond\ncomme un citron, sans hésitation!")
+/*<447>*/ 	set_camera(18, 0)
+/*<393>*/ 	printf("\x0E\x01\x09\x04\x03\x06Ne dis à personne que je t'ai parlé de la flamme\nde Farore, entendu?\n\n\nNi de loin, ni de cyprès! \x0E\x01\x09\x04\x01\x00J'ai pas envie de finir\nen salade!\n\n\n\x0E\x01\x09\x04\x03\x07Et surveille bien ton langage!\nEt ton comportement!")
+/*<446>*/ 	set_camera(20, 0)
+/*<387>*/ 	printf("\x0E\x01\x09\x04\x00\x13Moi, je retourne à la sieste.")
+/*<388>*/ 	story_flags[63 /* us: 805A9ADC 0x40, jp: 805ACD5C 0x40 */] = true;
+/*<389>*/ 	{'type': 'type3', 'subType': 1, 'param1': 4, 'param2': -1, 'next': -1, 'param3': 42}
+          }
+
+          void entrypoint_203_92() {
+/*< 68>*/ 	start()
+/*<172>*/ 	switch (story_flags[16 /* us: 805A9ADB 0x02, jp: 805ACD5B 0x02 */]) {
+          	  case 0:
+/*<488>*/ 		switch (scene_flags[1 /* 0x1 02 */]) {
+          		  case 0:
+/*<497>*/ 			entrypoint_203_85();
+          		  case 1:
+/*<487>*/ 			printf("\x0E\x01\x09\x04\x07\x702Les monstres ont été chassés de la forêt.\nJe suis satisfaite.\n\n\nJe vois que tu es digne de l'épée que tu portes.\n\n\n\n\x0E\x01\x09\x04\x07\x704La première fois que je t'ai vu, tu ne croyais\npas en toi\x2010même, mais...<pause1E> maintenant, tu es\nplein de confiance.\n\n\x0E\x01\x09\x04\x07\x706Mais il faut continuer à faire progresser ton\nâme pour accomplir la mission de la Déesse!")
+/*<489>*/ 			scene_flags[2 'Lake Floria'][1 /* 0x1 02 */] = true;
+          		}
+          	  case 1:
+/*<173>*/ 		switch (story_flags[186 /* us: 805A9AE9 0x02, jp: 805ACD69 0x02 */]) {
+          		  case 0:
+/*<170>*/ 			printf("\x0E\x01\x09\x04\x07\x702Tu peux me rendre ma cuvette quand tu n'en\nauras plus besoin. En attendant, fais\x2010en ce\nqu'il te plaît.")
+          		  case 1:
+/*<171>*/ 			switch (story_flags[467 /* us: 805A9B0F 0x10, jp: 805ACD8F 0x10 */]) {
+          			  case 0:
+/*<174>*/ 				switch (scene_flags[127 /* 0xE 80 */]) {
+          				  case 0:
+/*<175>*/ 					printf("\x0E\x01\x09\x04\x07\x707Comment? Tu veux encore emprunter ma\n<r<cuvette>>?<pause1E> \x0E\x01\x09\x04\x00\x05Hmm...<pause0F> Bon, très bien.\n\n\nTout à l'heure, un petit impudent est venu me\nla rendre...\n\n\n\x0E\x01\x09\x04\x07\x706Je lui pardonne, mais c'est bien parce que tu le\nconnais... Pense un peu à l'éduquer!")
+          				  case 1:
+/*<169>*/ 					printf("\x0E\x01\x09\x04\x00\x06Oh, c'est toi? Alors, as\x2010tu pu faire évoluer ton\népée?\n\n\n\x0E\x01\x09\x04\x07\x707Comment? Tu souhaiterais que je te prête ma\n<r<cuvette>>?<pause1E> \x0E\x01\x09\x04\x00\x05Hmm,<pause0F> pourquoi pas...\n\n\nPuisque mon pouvoir est revenu, elle ne m'est\nplus vraiment utile...\n\n\n\x0E\x01\x09\x04\x07\x706Fais\x2010en ce qu'il te plaît. Allez, va!")
+          				}
+          			  case 1:
+/*<168>*/ 				switch (story_flags[11 /* us: 805A9AD8 0x10, jp: 805ACD58 0x10 */]) {
+          				  case 0:
+/*< 86>*/ 					printf("\x0E\x01\x09\x04\x07\x702Pour que tu puisses faire évoluer le pouvoir de\nton épée, ton âme doit grandir.")
+          				  case 1:
+/*< 74>*/ 					switch (story_flags[66 /* us: 805A9ADF 0x20, jp: 805ACD5F 0x20 */]) {
+          					  case 0:
+/*< 73>*/ 						printf("\x0E\x01\x09\x04\x07\x70FGhirahim... Je lui ferai payer ce qu'il a fait.")
+          					  case 1:
+/*< 71>*/ 						printf("\x0E\x01\x09\x04\x09\x900Ah, je sens que ma puissance me revient...")
+          					}
+          				}
+          			}
+          		}
+          	}
+          }
+
+          void entrypoint_203_58() {
+/*<299>*/ 	start()
+/*<301>*/ 	{'type': 'type3', 'subType': 1, 'param1': 31, 'param2': 0, 'next': 300, 'param3': 40}
+/*<300>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 15, 'next': 302, 'param3': 6}
+/*<302>*/ 	{'type': 'type3', 'subType': 1, 'param1': 340, 'param2': 0, 'next': 310, 'param3': 51}
+/*<310>*/ 	{'type': 'type3', 'subType': 1, 'param1': 1, 'param2': 0, 'next': 307, 'param3': 40}
+/*<307>*/ 	{'type': 'type3', 'subType': 1, 'param1': 3, 'param2': -1, 'next': 308, 'param3': 16}
+/*<308>*/ 	{'type': 'type3', 'subType': 1, 'param1': 100, 'param2': 3, 'next': 309, 'param3': 17}
+/*<309>*/ 	set_camera(13, 0)
+/*<304>*/ 	printf("\x0E\x01\x12\x04\x00\x0BMaître, veuillez prendre connaissance de ces\ninformations pertinentes :\n\n\nNous nous trouvons au sud\x2010ouest de la forêt de Firone.\nVeuillez vérifier votre position sur la carte.")
+/*<321>*/ 	scene_flags[1 'Faron Woods'][56 /* 0x6 01 */] = true;
+/*<322>*/ 	{'type': 'type3', 'subType': 4, 'param1': 256, 'param2': 0, 'next': 305, 'param3': 30}
+/*<305>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 0, 'next': 306, 'param3': 34}
+/*<306>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 15, 'next': 303, 'param3': 6}
+/*<303>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 0, 'next': 311, 'param3': 36}
+/*<311>*/ 	set_camera(14, 0)
+/*<312>*/ 	{'type': 'type3', 'subType': 1, 'param1': 4, 'param2': -1, 'next': -1, 'param3': 42}
+          }
+
+          void entrypoint_203_93() {
+/*< 72>*/ 	start()
+/*<187>*/ 	set_camera(3, 0)
+/*<198>*/ 	{'type': 'type3', 'subType': 1, 'param1': 100, 'param2': 0, 'next': 79, 'param3': 17}
+/*< 79>*/ 	printf("\x0E\x01\x09\x04\x07\x705Regarde.")
+/*<188>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 101, 'next': 190, 'param3': 32}
+/*<190>*/ 	{'type': 'type3', 'subType': 1, 'param1': 0, 'param2': 101, 'next': 189, 'param3': 17}
+/*<189>*/ 	{'type': 'type3', 'subType': 1, 'param1': 100, 'param2': 101, 'next': 270, 'param3': 17}
+/*<270>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 15, 'next': 268, 'param3': 6}
+/*<268>*/ 	set_camera(5, 0)
+/*<269>*/ 	{'type': 'type3', 'subType': 4, 'param1': 9, 'param2': 0, 'next': 266, 'param3': 13}
+/*<266>*/ 	printf("\x0E\x01\x09\x04\x00\x300\x0E\x01\x05\x04<\x00\x0E\x01\x08\x02\x1CDHmmmmmm\x0E\x01\x06\x02\xFCCD...")
+/*<265>*/ 	set_camera(4, 0)
+/*<267>*/ 	printf("")
+/*< 78>*/ 	scene_flags[2 'Lake Floria'][100 /* 0xD 10 */] = true;
+/*<273>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 60, 'next': 196, 'param3': 6}
+/*<196>*/ 	{'type': 'type3', 'subType': 4, 'param1': 0, 'param2': 0, 'next': 194, 'param3': 13}
+/*<194>*/ 	{'type': 'type3', 'subType': 1, 'param1': 0, 'param2': 100, 'next': 191, 'param3': 17}
+/*<191>*/ 	printf("\x0E\x01\x09\x04\x00\x06La flamme sacrée se trouve par ici.\n\n\n\nElle est cachée derrière cette chute depuis si\nlongtemps, les monstres ont dû s'y installer.")
+/*<274>*/ 	set_camera(8, 0)
+/*<195>*/ 	set_camera(3, 0)
+/*<192>*/ 	printf("\x0E\x01\x09\x04\x07\x704Mais si tu es réellement l'élu de la Déesse,\ncela ne devrait pas te poser de problèmes.\n\n\nNous nous reverrons. D'ici là, sois prudent.\n\n\n\n\x0E\x01\x09\x04\x07\x703Au revoir!")
+/*<193>*/ 	set_camera(6, 0)
+/*<278>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 15, 'next': 277, 'param3': 6}
+/*<277>*/ 	{'type': 'type3', 'subType': 1, 'param1': 100, 'param2': 0, 'next': 199, 'param3': 17}
+/*<199>*/ 	make_actor_do_something(0, 0)
+/*<314>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 15, 'next': 279, 'param3': 6}
+/*<279>*/ 	{'type': 'type3', 'subType': 1, 'param1': 100, 'param2': 101, 'next': 313, 'param3': 17}
+/*<313>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 15, 'next': 197, 'param3': 6}
+/*<197>*/ 	story_flags[66 /* us: 805A9ADF 0x20, jp: 805ACD5F 0x20 */] = true;
+/*<271>*/ 	set_camera(7, 0)
+/*<272>*/ 	{'type': 'type3', 'subType': 1, 'param1': 4, 'param2': -1, 'next': -1, 'param3': 42}
+          }
+
+          void entrypoint_203_07() {
+/*<352>*/ 	start()
+/*<353>*/ 	printf("\x0E\x01\x05\x04<\x00\x0E\x01\x08\x02\x2CDKwiii!")
+          }
+
+          void entrypoint_203_59() {
+/*<476>*/ 	start()
+/*<477>*/ 	printf("Le niveau de l'eau a baissé. La forêt est revenue\nà son état originel.")
+/*<478>*/ 	entrypoint_006_04();
+          }
+
+          void entrypoint_203_94() {
+/*<207>*/ 	start()
+/*<315>*/ 	{'type': 'type3', 'subType': 1, 'param1': 100, 'param2': 0, 'next': 209, 'param3': 17}
+/*<209>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 15, 'next': 210, 'param3': 6}
+/*<210>*/ 	{'type': 'type3', 'subType': 1, 'param1': 0, 'param2': 100, 'next': 208, 'param3': 17}
+/*<208>*/ 	printf("\x0E\x01\x09\x04\x07\x702Ton épée a évolué, on dirait.")
+/*<212>*/ 	{'type': 'type3', 'subType': 4, 'param1': 0, 'param2': 1792, 'next': 211, 'param3': 13}
+/*<211>*/ 	printf("Malgré ton apparence de bambin, tu serais donc\nl'élu de la Déesse...")
+/*<215>*/ 	set_camera(3, 0)
+/*<214>*/ 	{'type': 'type3', 'subType': 4, 'param1': 0, 'param2': 4, 'next': 213, 'param3': 13}
+/*<213>*/ 	printf("\x0E\x01\x09\x04\x07\x700Cependant, tu n'as pas encore atteint la\ngrandeur d'âme que ton épée exige.")
+/*<217>*/ 	{'type': 'type3', 'subType': 4, 'param1': 0, 'param2': 0, 'next': 216, 'param3': 13}
+/*<216>*/ 	printf("Prépare\x2010toi à entraîner davantage ton esprit!")
+/*<481>*/ 	set_camera(32, 0)
+/*<480>*/ 	{'type': 'type3', 'subType': 4, 'param1': 0, 'param2': 6, 'next': 479, 'param3': 13}
+/*<479>*/ 	printf("\x0E\x01\x09\x04\x07\x700Au revoir!")
+/*<483>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 101, 'next': 484, 'param3': 32}
+/*<484>*/ 	{'type': 'type3', 'subType': 1, 'param1': 100, 'param2': 101, 'next': 485, 'param3': 17}
+/*<485>*/ 	make_actor_do_something(0, 0)
+/*<482>*/ 	set_camera(9, 0)
+/*<218>*/ 	story_flags[118 /* us: 805A9AEA 0x08, jp: 805ACD6A 0x08 */] = true;
+/*<275>*/ 	set_camera(10, 0)
+/*<276>*/ 	{'type': 'type3', 'subType': 1, 'param1': 4, 'param2': -1, 'next': -1, 'param3': 42}
+          }
+
+          void entrypoint_203_08() {
+/*<390>*/ 	start()
+/*<391>*/ 	printf("\x0E\x01\x09\x04\x01\x0B\x0E\x01\x05\x04<\x00\x0E\x01\x08\x02\x2CDMinute, mon poivron!")
+          }
+
+          void entrypoint_203_95() {
+/*<335>*/ 	start()
+/*<336>*/ 	printf("\x0E\x01\x09\x04\x07\x705Regarde.")
+          }
+
+          void entrypoint_203_60() {
+/*<500>*/ 	start()
+/*<501>*/ 	printf("Glou! C'est surprenant qu'un humain puisse\nvenir jusqu'ici, glou. C'est très profond, glou!\n\n\nTu n'aurais pas un peu fait des <r<tourbillons>>,\npar hasard, glou?")
+          }
+
+          void entrypoint_203_09() {
+/*<519>*/ 	start()
+/*<520>*/ 	switch (story_flags[481 /* us: 805A9B11 0x20, jp: 805ACD91 0x20 */]) {
+          	  case 0:
+/*<523>*/ 		printf("\x0E\x01\x09\x04\x00\x08Et sinon, comment va Kamom dans son\nnouveau chez\x2010lui?")
+          	  case 1:
+/*<521>*/ 		switch (story_flags[1094 /* us: 805A9B52 0x10, jp: 805ACDD2 0x10 */]) {
+          		  case 0:
+/*<522>*/ 			printf("\x0E\x01\x09\x04\x00\x08En passant, il paraît que Kamom souhaite\nquitter la forêt? Quel brave petit Kikwi!")
+          		  case 1:
+          		}
+          	}
+          }
+
+          void entrypoint_203_96() {
+/*<337>*/ 	start()
+/*<339>*/ 	printf("\x0E\x01\x09\x04\x00\x300\x0E\x01\x05\x04<\x00\x0E\x01\x08\x02\x1CDHmmmmmm\x0E\x01\x06\x02\xFCCD...")
+          }
+
+          void entrypoint_203_61() {
+/*<502>*/ 	start()
+/*<503>*/ 	printf("Dis, l'humain, glou! Tu connais le <r<saut\ntourbillon>>, glou?\n\n\nFais un tourbillon en te <r<dirigeant vers la\nsurface de l'eau>>, et tu feras un saut plein\nde style, glou!")
+          }
+
+          void entrypoint_203_97() {
+/*<340>*/ 	start()
+/*<338>*/ 	printf("")
+          }
+
+          void entrypoint_203_62() {
+/*<504>*/ 	start()
+/*<505>*/ 	printf("Oh, un humain, glou! Un humain, glou!<pause14>\nQuelle forme étrange, glou...")
+          }
+
+          void entrypoint_203_10() {
+/*<579>*/ 	start()
+/*<580>*/ 	story_flags[62 /* us: 805A9ADF 0x02, jp: 805ACD5F 0x02 */] = true;
+/*<581>*/ 	set_camera(24, 0)
+/*<582>*/ 	printf("\x0E\x01\x09\x04\x00\x03Va compléter le dessin sur la porte au sud de la\nforêt en utilisant le pouvoir de la Déesse. Allez,\nhoux!")
+/*<583>*/ 	{'type': 'type3', 'subType': 4, 'param1': 0, 'param2': 0, 'next': 584, 'param3': 30}
+/*<584>*/ 	printf("\x0E\x01\x09\x04\x00\x09Utilise tes balises pour mémoriser les endroits\nmarqués d'une \x0E\x02\x04\x02\x19CD.")
+/*<585>*/ 	set_camera(18, 0)
+          	flw_406:
+/*<406>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 0, 'next': 35, 'param3': 34}
+/*< 35>*/ 	printf("\x0E\x01\x09\x04\x01\x06Tout va bien, petit pin? Tu as mémorisé où se\ntrouvent les dessins?\n[1]Oui[2-]Pas encore")
+/*< 36>*/ 	switch (choice(2)) {
+          	  case 0:
+/*< 45>*/ 		switch (story_flags[63 /* us: 805A9ADC 0x40, jp: 805ACD5C 0x40 */]) {
+          		  case 0:
+/*< 46>*/ 			printf("\x0E\x01\x09\x04\x00\x13Moi, je retourne à la sieste.")
+          		  case 1:
+/*< 47>*/ 			printf("\x0E\x01\x09\x04\x03\x07Fais bien attention à toi, ne cherche pas trop\nles pépins.")
+/*< 48>*/ 			story_flags[61 /* us: 805A9ADF 0x01, jp: 805ACD5F 0x01 */] = true;
+          		}
+          	  case 1:
+/*< 38>*/ 		printf("\x0E\x01\x09\x04\x00\x03Tu as la mémoire bien courge.")
+          		flw_37:
+/*< 37>*/ 		{'type': 'type3', 'subType': 4, 'param1': 0, 'param2': 0, 'next': 32, 'param3': 30}
+/*< 32>*/ 		switch (story_flags[62 /* us: 805A9ADF 0x02, jp: 805ACD5F 0x02 */]) {
+          		  case 0:
+/*< 33>*/ 			printf("\x0E\x01\x09\x04\x00\x09Utilise tes balises pour mémoriser les endroits\nmarqués d'une \x0E\x02\x04\x02\x19CD.")
+          			goto flw_406
+          		  case 1:
+/*< 34>*/ 			story_flags[62 /* us: 805A9ADF 0x02, jp: 805ACD5F 0x02 */] = true;
+/*<411>*/ 			printf("\x0E\x01\x09\x04\x01\x04À l'opposé du sud se trouve le nord... Près de\ncette \x0E\x02\x04\x02\x19CD, plus exactement.")
+          			goto flw_406
+          		}
+          	}
+          }
+
+          void entrypoint_203_80() {
+/*< 87>*/ 	start()
+/*<104>*/ 	switch (story_flags[111 /* us: 805A9AEB 0x10, jp: 805ACD6B 0x10 */]) {
+          	  case 0:
+/*<105>*/ 		switch (story_flags[112 /* us: 805A9AEB 0x20, jp: 805ACD6B 0x20 */]) {
+          		  case 0:
+/*<121>*/ 			switch (story_flags[113 /* us: 805A9AEB 0x40, jp: 805ACD6B 0x40 */]) {
+          			  case 0:
+/*<129>*/ 				switch (story_flags[114 /* us: 805A9AEB 0x80, jp: 805ACD6B 0x80 */]) {
+          				  case 0:
+/*<138>*/ 					switch (scene_flags[15 /* 0x0 80 */]) {
+          					  case 0:
+/*<140>*/ 						switch (temp_flags[15 /* 0x0 80 */]) {
+          						  case 0:
+/*<262>*/ 							switch (temp_flags[16 /* 0x3 01 */]) {
+          							  case 0:
+/*<263>*/ 								printf("Par ici, glou!")
+          							  case 1:
+/*<261>*/ 								printf("Madame le dragon d'eau se trouve par ici, glou.\nAttends une petite minute, glou.")
+/*<264>*/ 								temp_flags[16 /* 0x3 01 */] = true;
+          							}
+          						  case 1:
+/*<139>*/ 							printf("Enfin arrivés, glou!")
+/*<142>*/ 							temp_flags[15 /* 0x0 80 */] = true;
+          						}
+          					  case 1:
+/*<141>*/ 						printf("Wow, glou! Tu es bien le messager de la Déesse,\nglou! Ça paraît, glou!")
+/*<143>*/ 						scene_flags[2 'Lake Floria'][15 /* 0x0 80 */] = true;
+          					}
+          				  case 1:
+/*<130>*/ 					switch (scene_flags[14 /* 0x0 40 */]) {
+          					  case 0:
+/*<345>*/ 						{'type': 'type3', 'subType': 4, 'param1': 10, 'param2': 0, 'next': 131, 'param3': 13}
+/*<131>*/ 						switch (temp_flags[14 /* 0x0 40 */]) {
+          						  case 0:
+/*<132>*/ 							printf("Gros poisson... Gentil poisson...\nTout doux, poisson... Glou!")
+          						  case 1:
+/*<555>*/ 							scene_flags[2 'Lake Floria'][50 /* 0x7 04 */] = false;
+/*<554>*/ 							scene_flags[2 'Lake Floria'][51 /* 0x7 08 */] = true;
+/*<556>*/ 							printf("Glou glou! Ce poisson, glou! Ce sont des\npoissons comme lui qui ont attaqué madame\nle dragon d'eau, glou!\n\nFais attention, glou!")
+/*<557>*/ 							temp_flags[14 /* 0x0 40 */] = true;
+/*<550>*/ 							{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 101, 'next': 551, 'param3': 32}
+/*<551>*/ 							{'type': 'type3', 'subType': 1, 'param1': 100, 'param2': 101, 'next': 552, 'param3': 17}
+/*<552>*/ 							set_camera(33, 0)
+/*<553>*/ 							{'type': 'type3', 'subType': 1, 'param1': 3, 'param2': -1, 'next': -1, 'param3': 42}
+          						}
+          					  case 1:
+/*<133>*/ 						printf("Wow! Un saut parfait, glou!\n\n\n\nEnfin, on sait tous les deux que sans l'écaille\ndu dragon d'eau, t'aurais jamais été capable\nde réussir, glou!")
+/*<134>*/ 						scene_flags[2 'Lake Floria'][14 /* 0x0 40 */] = true;
+          					}
+          				}
+          			  case 1:
+/*<122>*/ 				switch (scene_flags[13 /* 0x0 20 */]) {
+          				  case 0:
+/*<124>*/ 					switch (temp_flags[13 /* 0x0 20 */]) {
+          					  case 0:
+/*<125>*/ 						printf("Si tu ne peux pas passer au travers, saute\npar\x2010dessus, glou!")
+/*<587>*/ 						{'type': 'type3', 'subType': 1, 'param1': 0, 'param2': 0, 'next': -1, 'param3': 42}
+          					  case 1:
+/*<123>*/ 						printf("Par ici, glou, par ici, glou!\nVite, glou, vite, glou!\n\n\nGlou? Tu ne peux pas passer, glou?\nÊtre humain, c'est pas pratique, glou!\nEssaie de passer par\x2010dessus, glou!")
+/*<127>*/ 						temp_flags[13 /* 0x0 20 */] = true;
+          					}
+          				  case 1:
+/*<126>*/ 					printf("Oh! Super, glou! Madame le dragon d'eau est\npar là, glou. Suis\x2010moi, glou!")
+/*<128>*/ 					scene_flags[2 'Lake Floria'][13 /* 0x0 20 */] = true;
+          				}
+          			}
+          		  case 1:
+/*<113>*/ 			switch (scene_flags[12 /* 0x0 10 */]) {
+          			  case 0:
+/*<115>*/ 				switch (temp_flags[12 /* 0x0 10 */]) {
+          				  case 0:
+/*<116>*/ 					printf("Il te suffira d'un <r<tourbillon>> pour te débarrasser\nde ces monstres piquants, glou!")
+          				  case 1:
+/*<114>*/ 					printf("Glou? L'ami que je devais retrouver ici n'est\npas là, glou...\n\n\nEt en plus, un tas de rochers bloque le passage,\nglou! Mais qu'est\x2010ce qu'on peut faire, glou?")
+/*<118>*/ 					temp_flags[12 /* 0x0 10 */] = true;
+          				}
+          			  case 1:
+/*<117>*/ 				printf("Aaah, glou! Je ne l'ai pas vu venir, celle-là...\nTu as du talent, pour un humain, glou!\n\n\nMais.<pause0A>.<pause0A>.<pause0A> c'est l'<b<écaille du dragon d'eau>>, glou!\n\n\n\nCe qui voudrait dire...<pause0F> que tu es le <r<messager\nguidé par la Déesse >>dont parlait madame\nle dragon d'eau, glou?\n\nOh, mais dans ce cas-là, tu pourrais peut\x2010être\nsauver le dragon, glou!\n[1]Que lui\narrive\x2010t\x2010il?[2]Amène\x2010moi\nà elle")
+/*<498>*/ 				switch (choice(2)) {
+          				  case 0:
+          					flw_499:
+/*<499>*/ 					printf("Il y a pas longtemps,<pause0F> un drôle de gars\naccompagné de monstres a attaqué madame\nle dragon, glou.\n\nComme elle est très forte, elle les a presque\ntous mangés, mais glou...\n\n\nIls étaient si nombreux que le gars bizarre\na réussi à la blesser, glou...\n\n\nEt maintenant elle n'a plus assez d'eau pour se\nsoigner, glou!\n\n\nS'il te plaît, va voir le dragon et écoute son\nhistoire, glou!\n\n\nJe vais te guider jusqu'à elle, glou.")
+/*<119>*/ 					scene_flags[2 'Lake Floria'][12 /* 0x0 10 */] = true;
+          				  case 1:
+          					goto flw_499
+          				}
+          			}
+          		}
+          	  case 1:
+/*<106>*/ 		switch (scene_flags[11 /* 0x0 08 */]) {
+          		  case 0:
+/*<108>*/ 			switch (temp_flags[11 /* 0x0 08 */]) {
+          			  case 0:
+/*<109>*/ 				printf("Tu ne passeras jamais si tu ne sais pas faire\nde <g<tourbillon>>, glou!")
+/*<586>*/ 				{'type': 'type3', 'subType': 1, 'param1': 0, 'param2': 0, 'next': -1, 'param3': 42}
+          			  case 1:
+/*<107>*/ 				printf("Ha, ha, glou! Beuh, bye! Tu ne pourras pas\nentrer ici, glou!\n\n\nViens me chercher, si t'es capable, glou!")
+/*<111>*/ 				temp_flags[11 /* 0x0 08 */] = true;
+          			}
+          		  case 1:
+/*<508>*/ 			switch (scene_flags[110 /* 0xC 40 */]) {
+          			  case 0:
+/*<110>*/ 				printf("Mais tu as la tête dure, glou! Si tu t'approches\nencore, je vais le dire à madame le dragon\nd'eau!")
+/*<112>*/ 				scene_flags[2 'Lake Floria'][11 /* 0x0 08 */] = true;
+          			  case 1:
+/*<509>*/ 				printf("Glou! Encore un autre humain, glou!\n\n\n\nBon... Tout doucement... J'évite de le regarder\ndans les yeux... Et je disparais... Glou!")
+/*<510>*/ 				scene_flags[2 'Lake Floria'][110 /* 0xC 40 */] = true;
+          			}
+          		}
+          	}
+          }
+
+          void entrypoint_203_98() {
+/*<341>*/ 	start()
+/*<342>*/ 	printf("\x0E\x01\x09\x04\x00\x06La flamme sacrée se trouve par ici.\n\n\n\nElle est cachée derrière cette chute depuis si\nlongtemps, les monstres ont dû s'y installer.")
+          }
+
+          void entrypoint_203_63() {
+/*<506>*/ 	start()
+/*<507>*/ 	printf("Ici, ça a toujours été un endroit calme et\npaisible, mais depuis que cet humain bizarre\nest venu, glou...\n\nDe gros poissons sèment la panique, on peut\nmême plus faire la sieste tranquille, glou!")
+          }
+
+          void entrypoint_203_81() {
+/*< 88>*/ 	start()
+/*< 90>*/ 	switch (story_flags[16 /* us: 805A9ADB 0x02, jp: 805ACD5B 0x02 */]) {
+          	  case 0:
+/*<101>*/ 		printf("Quand la forêt était pleine d'eau, j'étais de\ngarde ici, glou.\n\n\nJ'adorais ça. J'aurais voulu que ça continue,\nglou... Ça me fait de la peine, glou.")
+/*<562>*/ 		set_camera(34, 0)
+/*<103>*/ 		make_actor_do_something(0, 0)
+/*<102>*/ 		printf("De la peine, glou!\nDe la peine, glou!")
+          		flw_563:
+/*<563>*/ 		{'type': 'type3', 'subType': 1, 'param1': 1, 'param2': -1, 'next': -1, 'param3': 42}
+          	  case 1:
+/*<323>*/ 		switch (story_flags[200 /* us: 805A9AEF 0x04, jp: 805ACD6F 0x04 */]) {
+          		  case 0:
+/*<324>*/ 			printf("Madame le dragon d'eau est sortie, glou.")
+/*<561>*/ 			set_camera(34, 0)
+/*<326>*/ 			make_actor_do_something(0, 0)
+/*<325>*/ 			printf("Sortie, glou, sortie, glou!")
+          			goto flw_563
+          		  case 1:
+/*< 89>*/ 			switch (story_flags[65 /* us: 805A9ADF 0x10, jp: 805ACD5F 0x10 */]) {
+          			  case 0:
+/*< 98>*/ 				printf("Le dragon d'eau va beaucoup mieux, glou!\nC'est grâce à toi, glou!")
+/*<560>*/ 				set_camera(34, 0)
+/*<100>*/ 				make_actor_do_something(0, 0)
+/*< 99>*/ 				printf("Grâce à toi, glou, grâce à toi, glou!")
+          				goto flw_563
+          			  case 1:
+/*< 93>*/ 				switch (random(2)) {
+          				  case 0:
+/*< 95>*/ 					printf("S'il te plaît, aide madame le dragon d'eau, glou...")
+/*<558>*/ 					set_camera(34, 0)
+/*< 97>*/ 					make_actor_do_something(0, 0)
+/*< 96>*/ 					printf("Aide\x2010la, glou! Aide\x2010la, glou!")
+          					goto flw_563
+          				  case 1:
+/*< 91>*/ 					printf("Madame le dragon d'eau t'attend, glou.\nVa lui parler, glou!")
+/*<559>*/ 					set_camera(34, 0)
+/*< 94>*/ 					make_actor_do_something(0, 0)
+/*< 92>*/ 					printf("Parle\x2010lui, glou, parle\x2010lui, glou!")
+          					goto flw_563
+          				}
+          			}
+          		}
+          	}
+          }
+
+          void entrypoint_203_99() {
+/*<343>*/ 	start()
+/*<344>*/ 	printf("\x0E\x01\x09\x04\x07\x704Mais si tu es réellement l'élu de la Déesse,\ncela ne devrait pas te poser de problèmes.\n\n\nNous nous reverrons. D'ici là, sois prudent.\n\n\n\n\x0E\x01\x09\x04\x07\x703Au revoir!")
+/*<518>*/ 	story_flags[66 /* us: 805A9ADF 0x20, jp: 805ACD5F 0x20 */] = true;
+          }
+
+          void entrypoint_203_64() {
+/*<511>*/ 	start()
+/*<512>*/ 	printf("Regarde l'autre, là, toujours en train d'essayer\nde s'attirer les faveurs du dragon d'eau, glou!\n\n\nMais moi, je vais pas suivre son exemple, glou!\nJe ne suis pas un mouton, glou!")
+          }
+
+          void entrypoint_203_82() {
+/*<120>*/ 	start()
+/*<136>*/ 	switch (random(2)) {
+          	  case 0:
+/*<137>*/ 		printf("Par ici, glou, par ici, glou!\nVite, glou, vite, glou!\n\n\nGlou? Tu ne peux pas passer, glou?\nÊtre humain, c'est pas pratique, glou!\nEssaie de passer par\x2010dessus, glou!")
+          	  case 1:
+/*<135>*/ 		printf("Ha, ha, glou! Beuh, bye! Tu ne pourras pas\nentrer ici, glou!\n\n\nViens me chercher, si t'es capable, glou!")
+          	}
+          }
+
+          void entrypoint_203_65() {
+/*<513>*/ 	start()
+/*<514>*/ 	printf("Belle maison, n'est\x2010ce pas, glou?\nPas si facile d'accès, mais bon, glou...")
+          }
+
+          void entrypoint_203_83() {
+/*<233>*/ 	start()
+/*<245>*/ 	switch (story_flags[64 /* us: 805A9ADF 0x08, jp: 805ACD5F 0x08 */]) {
+          	  case 0:
+/*<246>*/ 		switch (story_flags[65 /* us: 805A9ADF 0x10, jp: 805ACD5F 0x10 */]) {
+          		  case 0:
+/*<248>*/ 			switch (story_flags[16 /* us: 805A9ADB 0x02, jp: 805ACD5B 0x02 */]) {
+          			  case 0:
+/*<251>*/ 				printf("Dommage que le niveau de l'eau ait à nouveau\nbaissé, glou.")
+          			  case 1:
+/*<250>*/ 				printf("Madame le dragon d'eau se porte bien\nmaintenant, glou. Mille mercis, glou!")
+          			}
+          		  case 1:
+/*<249>*/ 			printf("Madame le dragon d'eau ne va pas très bien.\nFais quelque chose, glou!")
+          		}
+          	  case 1:
+/*<252>*/ 		switch (scene_flags[19 /* 0x3 08 */]) {
+          		  case 0:
+/*<247>*/ 			printf("Le dragon d'eau est gentil, mais il vaut mieux\nne pas l'énerver, compris, glou?")
+/*<253>*/ 			printf("Et chut, c'est un secret, glou!")
+          		  case 1:
+/*<234>*/ 			printf("Glou glou! Ne me mange pas, glou!\n[1]Madame le\ndragon d'eau?[2]Je ne te\nmangerai pas")
+/*<236>*/ 			switch (choice(2)) {
+          			  case 0:
+/*<241>*/ 				switch (scene_flags[25 /* 0x2 02 */]) {
+          				  case 0:
+/*<244>*/ 					printf("Mais non, glou!<pause1E> Tu cherches madame le dragon\nd'eau, glou?\n\n\nElle est gentille, mais il ne faut pas l'énerver,\ncompris, glou?")
+          					flw_239:
+/*<239>*/ 					printf("Et chut, c'est un secret, glou!")
+/*<240>*/ 					scene_flags[2 'Lake Floria'][19 /* 0x3 08 */] = true;
+          				  case 1:
+/*<237>*/ 					printf("Mais non, glou!<pause1E> Tu cherches madame le dragon\nd'eau, glou?\n\n\nJe vais te dire où elle est, parce que tu portes\nson écaille, ami humain, glou.")
+/*<242>*/ 					{'type': 'type3', 'subType': 4, 'param1': 0, 'param2': 0, 'next': 238, 'param3': 30}
+/*<238>*/ 					printf("Le dragon d'eau est par ici, glou!\nNote\x2010le tout de suite, glou!")
+/*<243>*/ 					{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 0, 'next': 239, 'param3': 34}
+          					goto flw_239
+          				}
+          			  case 1:
+/*<235>*/ 				printf("Glou?<pause0F> Ah, tant mieux, glou!\n\n\n\nJe me cachais parce que j'avais peur des affreux\npoissons qui étaient passés par ici, y'a pas\nlongtemps, glou...")
+          			}
+          		}
+          	}
+          }
+
+          void entrypoint_203_49() {
+/*<564>*/ 	start()
+/*<565>*/ 	printf("Écoutez bien, \x0E\x01\x12\x04\x00\x01Maître.\nEntendez\x2010vous quelque chose?")
+          }
+
+          void entrypoint_203_50() {
+/*<  4>*/ 	start()
+/*<255>*/ 	set_camera(-1, 0)
+/*<254>*/ 	printf("Félicitations, \x0E\x01\x12\x04\x00\x04Maître Link.")
+/*<256>*/ 	printf("Vous avez surmonté l'épreuve, et acquis la force\nnécessaire pour vous mettre en quête de la flamme\nsacrée.")
+/*<258>*/ 	set_camera(2, 0)
+/*<257>*/ 	printf("Cette <y<écaille du dragon d'eau>> est l'une des reliques\nde la Déesse.\n\n\nGrâce à la puissance du <b<dragon d'eau>>, le grand esprit\naquatique, vous pouvez à présent nager sous l'eau!")
+/*<260>*/ 	set_camera(-1, 0)
+/*<259>*/ 	printf("La flamme se trouve quelque part dans cette forêt,\nprobablement à un endroit où vous n'êtes pas encore\nallé.")
+          }
+
+          void entrypoint_203_85() {
+/*<490>*/ 	start()
+/*<492>*/ 	printf("\x0E\x01\x09\x04\x07\x707Des questions, dis\x2010tu? À propos de quoi?\n[1]Le dragon\nde feu[2]Le dragon\nde foudre[3]La forêt[4-]Non rien")
+/*<491>*/ 	switch (choice(4)) {
+          	  case 0:
+/*<493>*/ 		printf("\x0E\x01\x09\x04\x07\x704Ah, celui\x2010là...<pause0F> Il a reçu de la Déesse le pouvoir\nde protéger le volcan.\n\n\nC'est un excentrique qui vit dans une vraie\nfournaise. Alors si tu ne peux pas tolérer la\nchaleur, tu ferais mieux de t'en tenir loin. ")
+          	  case 1:
+/*<494>*/ 		printf("\x0E\x01\x09\x04\x07\x704Ah, celui\x2010là...<pause0F> Il a reçu de la Déesse le pouvoir\nde protéger le désert.\n\n\nC'est le plus vieux des dragons, même s'il n'a\njamais fait attention à sa santé...<pause0F> Je me\ndemande ce qu'il devient.")
+          	  case 2:
+/*<495>*/ 		printf("\x0E\x01\x09\x04\x07\x704Autrefois, lorsque les humains vivaient sur\nla terre, ils vivaient en harmonie avec la\nnature...\n\nMais ne trouves\x2010tu pas que la forêt est plus\nbelle maintenant que les humains l'ont quittée?")
+          	  case 3:
+/*<496>*/ 		printf("\x0E\x01\x09\x04\x07\x706Ne néglige pas l'entraînement de ton âme!\nTu dois accomplir la mission de la Déesse.")
+          	}
+          }
+
+          void entrypoint_203_51() {
+/*< 18>*/ 	start()
+/*<349>*/ 	set_camera(15, 0)
+/*<346>*/ 	set_camera(16, 0)
+/*<347>*/ 	{'type': 'type3', 'subType': 2, 'param1': 35, 'param2': 356, 'next': 348, 'param3': 15}
+/*<348>*/ 	{'type': 'type3', 'subType': 1, 'param1': 31, 'param2': 0, 'next': 146, 'param3': 40}
+/*<146>*/ 	{'type': 'type3', 'subType': 4, 'param1': 8, 'param2': 0, 'next': 29, 'param3': 13}
+/*< 29>*/ 	{'type': 'type3', 'subType': 1, 'param1': -1, 'param2': 0, 'next': 27, 'param3': 35}
+/*< 27>*/ 	{'type': 'type3', 'subType': 1, 'param1': 3, 'param2': -1, 'next': 144, 'param3': 16}
+/*<144>*/ 	{'type': 'type3', 'subType': 1, 'param1': 0, 'param2': 99, 'next': 350, 'param3': 17}
+/*<350>*/ 	printf("Vous êtes à la cime de l'arbre.\n\n\n\nObservez les environs, vous découvrirez peut\x2010être\ndes endroits inexplorés.")
+/*< 19>*/ 	story_flags[60 /* us: 805A9ADC 0x80, jp: 805ACD5C 0x80 */] = true;
+/*<566>*/ 	scene_flags[1 'Faron Woods'][51 /* 0x7 08 */] = true;
+/*< 44>*/ 	make_actor_do_something(0, 0)
+/*<145>*/ 	{'type': 'type3', 'subType': 1, 'param1': 3, 'param2': 0, 'next': 394, 'param3': 17}
+/*<394>*/ 	set_camera(17, 0)
+/*<395>*/ 	{'type': 'type3', 'subType': 1, 'param1': 100, 'param2': 0, 'next': 381, 'param3': 17}
+/*<381>*/ 	printf("\x0E\x01\x12\x04\x00\x01Maître, regardez...")
+/*<382>*/ 	set_camera(18, 0)
+/*<386>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 30, 'next': 383, 'param3': 6}
+/*<383>*/ 	printf("Vous avez découvert un nouveau Kikwi.\n\n\n\nLa probabilité que le bruit qu'on entend depuis un\nmoment soit le ronflement de ce Kikwi est de 90 %.")
+/*<384>*/ 	set_camera(19, 0)
+/*<385>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 30, 'next': 30, 'param3': 6}
+/*< 30>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 0, 'next': 28, 'param3': 36}
+/*< 28>*/ 	{'type': 'type3', 'subType': 1, 'param1': 4, 'param2': -1, 'next': -1, 'param3': 42}
+          }
+
+          void entrypoint_203_86() {
+/*<398>*/ 	start()
+/*<399>*/ 	printf("\x0E\x01\x09\x04\x09\x900Ah, je sens que ma puissance me revient...")
+          }
+
+          void entrypoint_203_00() {
+          	start()
+/*< 81>*/ 	switch (story_flags[65 /* us: 805A9ADF 0x10, jp: 805ACD5F 0x10 */]) {
+          	  case 0:
+/*<541>*/ 		switch (story_flags[16 /* us: 805A9ADB 0x02, jp: 805ACD5B 0x02 */]) {
+          		  case 0:
+/*<542>*/ 			printf("\x0E\x01\x09\x04\x01\x14Petit pin! Je t'ai dit mille fois de ne pas dire à\nmadame le dragon que c'est moi qui t'ai révélé\nle secret!\n\nQuand la forêt s'est retrouvée inondée, j'ai cru\nque j'allais me faire croquer!\n\n\n\x0E\x01\x09\x04\x01\x07Bon, par contre, il y a moins de monstres\net la paix est revenue dans la forêt...")
+          			flw_540:
+/*<540>*/ 			printf("\x0E\x01\x09\x04\x00\x13Moi, je retourne à la sieste.")
+          		  case 1:
+/*<543>*/ 			printf("\x0E\x01\x09\x04\x01\x01Mais tu vas finir par me rendre chèvrefeuille...\n\n\n\n\x0E\x01\x09\x04\x01\x07Oh, petit pin! Madame le dragon a reconnu ta\nvaleur? Bravo!\n\n\nBon, sans vouloir voler tes lauriers, elle a\nreconnu la mienne bien avant la tienne...")
+          			goto flw_540
+          		}
+          	  case 1:
+/*< 82>*/ 		switch (scene_flags[50 /* 0x7 04 */]) {
+          		  case 0:
+/*<536>*/ 			switch (story_flags[64 /* us: 805A9ADF 0x08, jp: 805ACD5F 0x08 */]) {
+          			  case 0:
+/*<538>*/ 				switch (adventure_pouch_has(7 0x0007)) {
+          				  case 0:
+/*<539>*/ 					printf("\x0E\x01\x09\x04\x01\x01Par ma rhubarbe, quel sauvageon!\n\n\n\n\x0E\x01\x09\x04\x01\x07Voilà donc l'eau favorite de madame le\ndragon...\n\n\nÇa me froisserait pas la feuille si tu lui disais\nque ça vient de moi...")
+          					goto flw_540
+          				  case 1:
+/*<544>*/ 					printf("\x0E\x01\x09\x04\x01\x01Par ma rhubarbe, quel sauvageon!\n\n\n\n\x0E\x01\x09\x04\x01\x06Kwaa? Il faut que tu trouves de l'eau sacrée\npour madame le dragon?\n\n\nJe crois qu'il y a une source d'eau pure au fond\ndu temple, non? L'eau d'une des chutes pourrait\nplaire au dragon.")
+          					goto flw_540
+          				}
+          			  case 1:
+/*<537>*/ 				printf("\x0E\x01\x09\x04\x01\x01Par ma rhubarbe, quel sauvageon!\n\n\n\n\x0E\x01\x09\x04\x01\x07Oh, tu as pu ouvrir la porte qui mène au lac!\n\n\n\nNe dis surtout pas à madame le dragon que je\nt'ai dit comment faire! Je suis pas pressé de\nnourrir les chrysanthèmes...")
+          				goto flw_540
+          			}
+          		  case 1:
+/*< 83>*/ 			switch (story_flags[62 /* us: 805A9ADF 0x02, jp: 805ACD5F 0x02 */]) {
+          			  case 0:
+/*< 39>*/ 				switch (story_flags[61 /* us: 805A9ADF 0x01, jp: 805ACD5F 0x01 */]) {
+          				  case 0:
+/*< 40>*/ 					printf("\x0E\x01\x09\x04\x01\x04Kwaa! Encore toi? Tu as quelque rose à me\ndire, par tous les sapins?\n[1]Oui[2-]Non")
+/*< 41>*/ 					switch (choice(2)) {
+          					  case 0:
+/*< 42>*/ 						printf("\x0E\x01\x09\x04\x00\x03Va compléter le dessin sur la porte au sud de la\nforêt en utilisant le pouvoir de la Déesse. Allez,\nhoux!")
+          						goto flw_37
+          					  case 1:
+/*< 43>*/ 						printf("\x0E\x01\x09\x04\x00\x13Moi, je retourne à la sieste.")
+          					}
+          				  case 1:
+          					goto flw_37
+          				}
+          			  case 1:
+/*<356>*/ 				printf("\x0E\x01\x09\x04\x00\x14Kiwi se permet de déranger mon sommeil?")
+/*<375>*/ 				set_camera(20, 0)
+/*<569>*/ 				switch (story_flags[226 /* us: 805A9AF2 0x08, jp: 805ACD72 0x08 */]) {
+          				  case 0:
+/*<570>*/ 					printf("\x0E\x01\x09\x04\x01\x01\x0E\x01\x06\x02\xFCCDKwaa?<pause0F>\x0E\x01\x06\x02Í On s'est déjà rencontrés?\n[1]Oui[2]Pas sûr")
+/*<571>*/ 					switch (choice(2)) {
+          					  case 0:
+/*<575>*/ 						set_camera(18, 0)
+/*<574>*/ 						printf("\x0E\x01\x09\x04\x00\x07Ah, oui, tu es en <r<mode héroïque>>, petit pin!\nTu sais donc ce que tu as à faire!\n[1]Bien sûr![2]J'ai oublié")
+/*<576>*/ 						switch (choice(2)) {
+          						  case 0:
+/*<578>*/ 							entrypoint_203_10();
+          						  case 1:
+/*<577>*/ 							printf("\x0E\x01\x09\x04\x00\x03Par tous les artichauts, on dirait bien que\ntu as perdu la ciboulette...")
+          							flw_378:
+/*<378>*/ 							set_camera(20, 0)
+          							flw_379:
+/*<379>*/ 							printf("\x0E\x01\x09\x04\x01\x06Bien, tu promets de ne jamais dire à kiwi que\nce soit ce que je vais te révéler maintenant?\n[1]Je le promets[2]Je refuse")
+/*< 21>*/ 							switch (choice(2)) {
+          							  case 0:
+          								flw_354:
+/*<354>*/ 								printf("\x0E\x01\x09\x04\x03\x08Très bien, petit pin, je vais tout te dire.\nEt souviens\x2010toi, c'est un secret!")
+          								flw_355:
+/*<355>*/ 								set_camera(18, 0)
+/*<364>*/ 								printf("\x0E\x01\x09\x04\x03\x04La flamme que tu cherches...<pause0F> s'appelle\nla <b<<pling>flamme de Farore>>.\n\n\n\x0E\x01\x09\x04\x01\x00Son histoire remonte au temps radis, euh, jadis,\nquand la Déesse était parmi nous...")
+/*<365>*/ 								set_camera(21, 0)
+/*<366>*/ 								printf("\x0E\x01\x09\x04\x00\x02Elle fut confiée au grand esprit qui règne\nsur la <b<forêt de Firone>>, le <b<dragon d'eau>>.")
+/*<367>*/ 								set_camera(22, 0)
+/*<368>*/ 								printf("\x0E\x01\x09\x04\x00\x04Il est dit que la Déesse la laissa ici pour qu'elle\npuisse un jour être remise à <b<celui qui viendra\ndu ciel>>...")
+/*<369>*/ 								set_camera(20, 0)
+/*<370>*/ 								printf("Et ça pourrait bien être toi, petit pois...\n\n\n\n\x0E\x01\x09\x04\x03\x09Le temps est venu pour toi de rencontrer\nle dragon d'eau.")
+/*<371>*/ 								set_camera(23, 0)
+/*<372>*/ 								printf("Le dragon d'eau qui protège la flamme vit\ndans le grand lac au sud de la forêt.")
+/*<373>*/ 								set_camera(24, 0)
+/*<374>*/ 								printf("\x0E\x01\x09\x04\x00\x04Cependant, la porte qui permet d'accéder au lac\nest solidement fermée pour empêcher les intrus\nd'entrer...\n\n\x0E\x01\x09\x04\x00\x07Mais je vais te révéler comment on ouvre cette\nporte, petit pin.")
+/*<407>*/ 								set_camera(25, 0)
+/*<408>*/ 								printf("\x0E\x01\x09\x04\x01\x04Le dessin gravé sur la porte...<pause0F> Il faut y insuffler\nle <r<pouvoir de la Déesse>>.\n\n\n\x0E\x01\x09\x04\x00\x09Mais attention!<pause0F> Il manque une partie du\ndessin... Il faut le compléter.")
+/*<409>*/ 								set_camera(18, 0)
+/*<410>*/ 								printf("\x0E\x01\x09\x04\x03\x01Pour savoir comment compléter le dessin, il te\nfaudra trouver un symbole identique à celui de\nla porte.")
+          								goto flw_37
+          							  case 1:
+/*<380>*/ 								set_camera(18, 0)
+/*< 22>*/ 								printf("\x0E\x01\x09\x04\x03\x14\x0E\x01\x08\x02\x2CDKwaa?\n\n\n\n\x0E\x01\x09\x04\x01\x06Alors que je m'apprêtais à tout te dire,\ntu refuses de promettre?!\n[1]Dis\x2010moi tout[2]Je refuse")
+/*< 23>*/ 								switch (choice(2)) {
+          								  case 0:
+          									goto flw_354
+          								  case 1:
+/*< 24>*/ 									printf("\x0E\x01\x09\x04\x03\x0B\x0E\x01\x08\x02\x2CDKwaa? Chardon?\n\n\n\n\x0E\x01\x09\x04\x01\x03Bon, bon. Je n'insiste plus.<pause0F> Tu as fait le chemin\njusqu'ici, je vais te le dire quand même.")
+          									goto flw_355
+          								}
+          							}
+          						}
+          					  case 1:
+/*<572>*/ 						printf("\x0E\x01\x09\x04\x00\x03Ah, ma mémoire me joue des topinambours...\nJ'ai eu comme un sentiment de déjà\x2010vu.")
+/*<573>*/ 						set_camera(18, 0)
+          						flw_363:
+/*<363>*/ 						printf("\x0E\x01\x09\x04\x03\x06Bon mais...<pause0F> Quel bourgeon t'amène?\n[1]Où est\nla flamme?[2]Non, rien")
+/*<360>*/ 						switch (choice(2)) {
+          						  case 0:
+/*<361>*/ 							printf("\x0E\x01\x09\x04\x01\x01Oh ho, pour retrouver ton amie, tu cherches\nla flamme qui affûtera ton épée comme un\nroseau?\n\nUn humain qui me voit, et qui cherche la\nflamme?<pause0F> Quel étrange pois chiche...")
+          							goto flw_378
+          						  case 1:
+/*<396>*/ 							set_camera(20, 0)
+/*<397>*/ 							printf("\x0E\x01\x09\x04\x01\x14Si tu avais les feuilles bien ouvertes, tu saurais\ndéjà que je veille sur la forêt depuis mon\nperchoir.\n\nJe sais tout, pistou! Tu cherches la flamme qui\naffûtera ton épée!")
+          							goto flw_379
+          						}
+          					}
+          				  case 1:
+/*<357>*/ 					printf("\x0E\x01\x09\x04\x01\x01Oh, doux raisin! Quelle rareté! Un humain!\n\n\n\nJe suis l'<b<ermite>> Kikwi de ces bois, protecteur\nde la fougère et de l'épinette!\n\n\n\x0E\x01\x09\x04\x01\x06Je ne sais quelle échalote t'amène, mais\nil semble étrange que tu me voies!\n[1]Oui, je te vois[2]Non, je ne\nte vois pas")
+/*<358>*/ 					switch (choice(2)) {
+          					  case 0:
+/*<362>*/ 						printf("\x0E\x01\x09\x04\x00\x07Quel \x153illet tu as! Même les autres Kikwis\nne sont pas tous capables de me voir...")
+/*<377>*/ 						set_camera(18, 0)
+          						goto flw_363
+          					  case 1:
+/*<376>*/ 						set_camera(18, 0)
+/*<359>*/ 						printf("\x0E\x01\x09\x04\x03\x0BTu mens comme un arracheur de pissenlits!\n\n\n\n\x0E\x01\x09\x04\x01\x14Si tu as pu me réveiller en me rentrant dans le\nchou, c'est bien parce que tu me voyais, voyou!")
+          						goto flw_363
+          					}
+          				}
+          			}
+          		}
+          	}
+          }
+
+          void entrypoint_203_52() {
+/*< 62>*/ 	start()
+/*< 65>*/ 	story_flags[64 /* us: 805A9ADF 0x08, jp: 805ACD5F 0x08 */] = true;
+/*<468>*/ 	switch (temp_flags[3 /* 0x1 08 */]) {
+          	  case 0:
+/*<516>*/ 		{'type': 'type3', 'subType': 1, 'param1': 4, 'param2': 0, 'next': 467, 'param3': 35}
+/*<467>*/ 		set_camera(30, 0)
+          		flw_64:
+/*< 64>*/ 		{'type': 'type3', 'subType': 1, 'param1': 3, 'param2': -1, 'next': 84, 'param3': 16}
+/*< 84>*/ 		switch (adventure_pouch_has(7 0x0007)) {
+          		  case 0:
+/*< 85>*/ 			printf("Analyse de l'eau de la cuvette\x0E\x01\x06\x02\xFCCD...<pause0F> \x0E\x01\x06\x02ÍSa <pling><r<composition est\nidentique >>à celle de la source de la contemplation,\n\x0E\x01\x12\x04\x00\x01Maître.")
+/*<186>*/ 			{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 0, 'next': 517, 'param3': 36}
+/*<517>*/ 			{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 15, 'next': 317, 'param3': 6}
+/*<317>*/ 			temp_flags[2 /* 0x1 04 */] = true;
+/*<470>*/ 			switch (temp_flags[3 /* 0x1 08 */]) {
+          			  case 0:
+/*<469>*/ 				set_camera(31, 0)
+          				flw_183:
+/*<183>*/ 				{'type': 'type3', 'subType': 1, 'param1': 0, 'param2': -1, 'next': 185, 'param3': 16}
+/*<185>*/ 				entrypoint_203_91();
+          			  case 1:
+          				goto flw_183
+          			}
+          		  case 1:
+/*< 67>*/ 			printf("Analyse de l'eau de la cuvette\x0E\x01\x06\x02\xFCCD...<pause0F> \x0E\x01\x06\x02Í<pling>Ajout à la <r<fonction\ndétection>> opéré. Vous pouvez à présent rechercher\nl'eau sacrée.")
+/*<568>*/ 			open_dowsing_wheel(5)
+/*<567>*/ 			story_flags[818 /* us: 805A9B30 0x04, jp: 805ACDB0 0x04 */] = true;
+/*<230>*/ 			switch (adventure_pouch_has(1 0x0001)) {
+          			  case 0:
+/*<231>*/ 				printf("\x0E\x01\x12\x04\x00\x01Maître, vous avez un <y<flacon vide >>parmi vos\npossessions. Veuillez l'utiliser pour transporter l'eau.")
+          				flw_66:
+/*< 66>*/ 				{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 0, 'next': 297, 'param3': 36}
+/*<297>*/ 				{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 15, 'next': 462, 'param3': 6}
+/*<462>*/ 				{'type': 'type3', 'subType': 1, 'param1': 0, 'param2': -1, 'next': 294, 'param3': 16}
+/*<294>*/ 				set_camera(12, 0)
+/*<293>*/ 				printf("\x0E\x01\x09\x04\x00\x05Ce chemin mène à la forêt de Firone.")
+/*<471>*/ 				switch (temp_flags[0 /* 0x1 01 */]) {
+          				  case 0:
+/*<295>*/ 					set_camera(-1, 0)
+          					flw_184:
+/*<184>*/ 					printf("\x0E\x01\x09\x04\x09\x706Alors va! Ne me fais pas attendre.")
+/*<461>*/ 					{'type': 'type3', 'subType': 1, 'param1': 3, 'param2': -1, 'next': -1, 'param3': 42}
+          				  case 1:
+/*<472>*/ 					set_camera(27, 0)
+          					goto flw_184
+          				}
+          			  case 1:
+/*<229>*/ 				printf("\x0E\x01\x12\x04\x00\x01Maître, vous n'avez pas de récipient disponible. Il vous\nen faudra un pour pouvoir transporter de l'eau.")
+          				goto flw_66
+          			}
+          		}
+          	  case 1:
+/*< 63>*/ 		{'type': 'type3', 'subType': 1, 'param1': -1, 'param2': 0, 'next': 64, 'param3': 35}
+          		goto flw_64
+          	}
+          }
+
+          void entrypoint_203_87() {
+/*<400>*/ 	start()
+/*<401>*/ 	printf("Contemple ma véritable apparence!\n\n\n\nJe suis<b< Firone>>, le dragon d'eau, à qui la Déesse\na confié la protection de cette forêt!")
+          }
+
+          void entrypoint_203_01() {
+/*<  1>*/ 	start()
+/*<413>*/ 	switch (story_flags[16 /* us: 805A9ADB 0x02, jp: 805ACD5B 0x02 */]) {
+          	  case 0:
+/*<414>*/ 		printf("\x0E\x01\x09\x04\x00\x07Les méchants intrus ont disparu! Enfin!\nNous avons retrouvé la paix et l'harmonie!\n\n\n\x0E\x01\x09\x04\x00\x04J'aimerais que tu puisses aussi vivre dans\nla paix et l'harmonie avec ton amie créature!")
+          	  case 1:
+/*<415>*/ 		printf("\x0E\x01\x09\x04\x00\x01Hé! Ho! C'est moi! Tu as retrouvé la fille\nque tu recherchais?\n[1]Qui es\x2010tu?[2]Pas encore")
+/*<533>*/ 		switch (choice(2)) {
+          		  case 0:
+/*<534>*/ 			printf("\x0E\x01\x09\x04\x11\x13Tu ne te souviens pas de moi?<pause1E>\nTu me déçois!\n\n\n\x0E\x01\x09\x04\x0B\x04Pour nous différencier, nous, les Kikwis, tu\nn'as qu'à ouvrir ta carte! Notre nom apparaît\nsi tu pointes le curseur sur nous.")
+          		  case 1:
+/*<535>*/ 			printf("\x0E\x01\x09\x04\x11\x13C'est dommage... Ce serait bien que vous soyez\nréunis, comme les Kikwis!")
+          		}
+          	}
+          }
+
+          void entrypoint_203_53() {
+/*< 75>*/ 	start()
+/*<221>*/ 	story_flags[68 /* us: 805A9ADF 0x80, jp: 805ACD5F 0x80 */] = true;
+/*<219>*/ 	{'type': 'type3', 'subType': 1, 'param1': -1, 'param2': 0, 'next': 220, 'param3': 35}
+/*<220>*/ 	{'type': 'type3', 'subType': 1, 'param1': 3, 'param2': -1, 'next': 227, 'param3': 16}
+/*<227>*/ 	{'type': 'type3', 'subType': 1, 'param1': 0, 'param2': 3, 'next': 223, 'param3': 17}
+/*<223>*/ 	printf("")
+/*<222>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 0, 'next': 228, 'param3': 36}
+/*<228>*/ 	{'type': 'type3', 'subType': 1, 'param1': 3, 'param2': -1, 'next': -1, 'param3': 42}
+          }
+
+          void entrypoint_203_70() {
+/*<159>*/ 	start()
+/*<158>*/ 	printf("Mam'selle Fay! Bzzzt! Désolé de t'avoir\nfait attendre!")
+          }
+
+          void entrypoint_203_88() {
+/*<402>*/ 	start()
+/*<545>*/ 	switch (temp_flags[2 /* 0x1 04 */]) {
+          	  case 0:
+/*<546>*/ 		printf("\x0E\x01\x09\x04\x09\x700Tu m'as apporté l'<b<eau sacrée >>que je désirais,\net je t'en remercie, humain.\n\n\nJe comprends à présent comment tu as pu\nsurmonter l'épreuve et mettre la main sur\n<b<mon écaille>>.")
+          	  case 1:
+/*<547>*/ 		printf("\x0E\x01\x09\x04\x09\x700Tu m'as apporté l'<b<eau sacrée >>que je t'avais\ndemandée, et je t'en remercie, humain.\n\n\nJe comprends à présent comment tu as pu\nsurmonter l'épreuve de la Déesse et mettre\nla main sur <b<mon écaille>>.")
+          	}
+          }
+
+          void entrypoint_203_54() {
+/*< 76>*/ 	start()
+/*< 77>*/ 	printf("La probabilité que ce dessin soit celui dont parlait\nl'ermite est de 80 %.")
+/*<232>*/ 	set_camera(26, 0)
+/*<437>*/ 	printf("Je vous recommande de bien mémoriser sa forme.")
+/*<438>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 15, 'next': 439, 'param3': 6}
+/*<439>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 0, 'next': 440, 'param3': 36}
+/*<440>*/ 	{'type': 'type3', 'subType': 0, 'param1': 0, 'param2': 15, 'next': -1, 'param3': 6}
+          }
+
+          void entrypoint_203_71() {
+/*<161>*/ 	start()
+/*<179>*/ 	switch (scene_flags[127 /* 0xE 80 */]) {
+          	  case 0:
+/*<180>*/ 		printf("Han, vvrrrroup! Encore cette <r<cuvette>>?<pause0F> Euh, pas\nde problème. Euh, c'est beau, laissez\x2010moi faire!\nVrrrm!")
+          	  case 1:
+/*<160>*/ 		printf("Ouf, ç'a l'air lourd tout ça...<pause0F> Bzzrrt!\nMais pour moi, rien de plus facile!")
+          	}
+          }
+
+          void entrypoint_203_89() {
+/*<403>*/ 	start()
+/*<404>*/ 	printf("\x0E\x01\x09\x04\x07\x700Je vais donc te guider vers la <r<flamme sacrée>>,\ncomme je te l'ai promis.\n\n\nSuis\x2010moi!")
+/*<405>*/ 	changeScene(2, 0) // 
+          }
+
+          void entrypoint_203_02() {
+/*<416>*/ 	start()
+/*<417>*/ 	switch (story_flags[16 /* us: 805A9ADB 0x02, jp: 805ACD5B 0x02 */]) {
+          	  case 0:
+/*<418>*/ 		printf("\x0E\x01\x09\x04\x09\x0CTout le monde dit que la paix est revenue\ndans la forêt, mais j'en crois pas un mot!\n\n\n\x0E\x01\x09\x04\x07\x13Il doit bien y avoir un endroit sûr, où nous\npourrions nous tenir droits et fiers, comme\ndes carottes!")
+          	  case 1:
+/*<419>*/ 		printf("\x0E\x01\x09\x04\x09\x0CJusqu'à quand serons\x2010nous obligés de vivre\ndans la peur comme ça?\n\n\n\x0E\x01\x09\x04\x07\x13Il doit bien y avoir un endroit sûr, où nous\npourrions nous tenir droits et fiers, comme\ndes carottes!")
+          	}
+          }
+

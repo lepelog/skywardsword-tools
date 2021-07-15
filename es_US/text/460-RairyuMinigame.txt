@@ -1,0 +1,116 @@
+RAIRYU_00: \x0E\x01\x09\x04\x0B\xC01¡Link!\nMe alegro de verte, muchacho.\n¡Has hecho bien en venir!\n\n\x0E\x01\x09\x04\x00\x00¡Bueno, bueno, bueno!...\n¿Qué te parece si nos divertimos\nun poco, campeón?\n\n\x0E\x01\x09\x04\x00\xC00¿O quizá un espléndido guerrero\ncomo tú no tiene tiempo para andar\nentreteniéndose con jueguecitos?\n\n\x0E\x01\x09\x04\x0D\xC00Te propongo una cosa: aprovechar\ntu experiencia para que pasemos\nun buen rato.\n\n\x0E\x01\x09\x04\x07\xC00¡Debes mirar al pasado para entender\nel futuro! Aprender de la experiencia,\npor así decirlo. Llámalo como quieras, \npero es un buen ejercicio. \nSe trata de enfrentarte de nuevo a las\ndificultades que ya has superado.\n\x0E\x01\x09\x04\x00\xC0A¿Qué me dices, Link?\n[1]¡Genial![2-]No sé...
+RAIRYU_01: \x0E\x01\x09\x04\x00\xB06¡Ja! ¡Así habla un héroe de verdad!\nNo esperaba menos de ti, muchacho.\n\n\n\x0E\x01\x09\x04\x0B\xC00Ahora, con tu permiso, voy a repasar\ntus experiencias pasadas.\n\n\n\x0E\x01\x06\x02\xFBCD...\n\n\n\n\x0E\x01\x09\x04\x00\xC08Vaya, vaya, vaya.\n¡Por lo que veo, has vivido aventuras\ncomo para llenar un libro entero!\n\nHas librado <r<combates>> contra temibles\nmonstruos... E incluso has salido bien\nparado de tu paso por <r<Hypnea>>. Eres\ntodo un campeón, ¿sabes?\n\x0E\x01\x09\x04\x0D\xC00Muy bien, ¡decidido!\nTe propongo dos desafíos diferentes.\n\n\n\x0E\x01\x09\x04\x00\xC00Elige el que prefieras.\n¿Por cuál te decantas?\n\n[1]Combate[2]Hypnea[3-]Ninguno
+RAIRYU_02: \x0E\x01\x09\x04\x00\xC05¿Qué dices? ¿Cómo que no quieres?\n¡Eso no es diversión ni es nada!\nVaya héroe...\n\n\x0E\x01\x09\x04\x07\xC00Bueno, no importa. Si cambias de idea,\npuedes volver por aquí cuando quieras.\n¡Te estaré esperando!
+RAIRYU_03: \x0E\x01\x09\x04\x07\xC01¡Hola, Link!\nDime, ¿quieres librar un <r<combate>> épico\no enfrentarte al juicio de <r<Hypnea>>?\n[1]Combate[2]Hypnea[3-]Nada
+RAIRYU_04: \x0E\x01\x09\x04\x07\xC01¡Hola, Link!\n¡Puedo ver en tus ojos que vienes\ndispuesto a divertirte un rato!\n\n\x0E\x01\x09\x04\x00\xC00¿Te gustaría enfrentarte de nuevo\na tus aventuras pasadas?\n\n[1]Claro que sí[2-]No sé...
+BATTLE_00: \x0E\x01\x09\x04\x0B\xC0D¡Pues que sea un <r<combate>>, entonces!\n¡Ja! ¡Sí señor, me gusta tu actitud!\n\n\nEn estos <r<combates>> deberás enfrentarte\na algunos de los rivales más fuertes de\nlos que te has encontrado hasta ahora.\n¡Tú eliges, quien tú quieras!\n\x0E\x01\x09\x04\x00\xC00Y yo usaré mi poder para recrear\nel momento de la batalla.\nSe trata de volver a pelear...<pause0F>\n¡y vencer!\nSi superas el reto con éxito, tengo\nun premio reservado para ti. ¡Espero\nque te tomes el asunto en serio!\n\n\x0E\x01\x09\x04\x0D\xC00Pero... <pause0A>aunque se trate de un juego,\nmás te vale emplearte a fondo. Esto\nes un combate real: <r<si el enemigo te \nderrota, será tu fin>>...\n¡No podrás volver a casa en una pieza!\n\x0E\x01\x09\x04\x00\xC0ABueno, ¿qué dices?... ¿Te atreves?\n[1]¡Claro![2-]No
+BATTLE_01: \x0E\x01\x09\x04\x10\xC0B<pause0F>Oye, campeón, ¿va todo bien?\nTe han dado una buena paliza...\n¿Tienes fuerzas para seguir?\n[1]Sí[2-]No
+BATTLE_02: \x0E\x01\x09\x04\x07\xC09¿Estás seguro, muchacho?<pause0F>\nBueno, es tu vida la que está en juego,\ntú decides... Tampoco puedo obligarte\na seguir si no quieres.\n\x0E\x01\x09\x04\x00\xC00De acuerdo. ¡Es mejor una retirada\na tiempo que ver el fin en el campo\nde batalla! Si quieres volver\na intentarlo, ya sabes dónde estoy.
+BATTLE_03: \x0E\x01\x09\x04\x07\xC06¡Ja! ¡Palabra de guerrero!\nA ver, ¿por dónde empezamos?...
+BATTLE_04: \x0E\x01\x09\x04\x00\x09Mmm, en tus inicios peleaste contra...<pause14>\nAh, sí, ya lo tengo.\n¿Qué me dices de estos enemigos?\n[1]Grahim[2]Malócula[3]Moldarg[4]El Cautivo
+BATTLE_04_01: \x0E\x01\x09\x04\x00\x09Si nos fijamos en la parte central\nde tu aventura... Veamos... <pause14>¡Ya está!\n¿Qué me dices de estos enemigos?\n[1]Koloktos[2]Daidagos[3]Grahim[4]El Cautivo
+BATTLE_04_02: \x0E\x01\x09\x04\x00\x09Veamos tus combates más recientes...<pause14>\nPor lo visto, el único que puede ser\nun buen desafío es <b<El Cautivo>>.
+BATTLE_04_03: \x0E\x01\x09\x04\x00\x09Veamos tus combates más recientes...<pause14>\n¿Qué te parecen estos dos desafíos?\n[1]El Cautivo[2]La Horda
+BATTLE_04_04: \x0E\x01\x09\x04\x00\x09Si prefieres un combate más reciente...<pause14>\n¿Qué me dices de estos?\n[1]El Cautivo[2]La Horda[3]Grahim
+BATTLE_04_05: \x0E\x01\x09\x04\x00\x09Si prefieres un combate más reciente...<pause14>\n¿Qué me dices de estos?\n[1]El Cautivo[2]La Horda[3]Grahim[4]Heraldo
+BATTLE_04_06: \x0E\x01\x09\x04\x00\x09¡Ja! Veo que prefieres un combate más\nreciente...<pause14> ¿Qué me dices de estos?\n[1]Koloktos[2]Daidagos[3]Grahim[4]El Cautivo
+BATTLE_05: \x0E\x01\x09\x04\x0B\xC0D¡Genial, <b<Malócula>> es la elegida!\nEs el enemigo con forma de bola\nde fuego con el que peleaste en\nel <b<templo terrenal>>.
+BATTLE_05_01: \x0E\x01\x09\x04\x0B\xC0D¡Genial, <b<Grahim>> es el elegido!\nEs ese tipo tan repulsivo contra\nel que peleaste en el <b<templo de\nla contemplación>>.
+BATTLE_05_02: \x0E\x01\x09\x04\x0B\xC0D¡Genial, <b<Malócula>> es la elegida!\nEs el enemigo con forma de bola\nde fuego con el que peleaste en\nel <b<templo terrenal>>.
+BATTLE_05_03: \x0E\x01\x09\x04\x0B\xC0D¡Genial, el <b<Moldarg >>es el elegido!\nEs aquel escorpión enorme con el que\npeleaste en la <b<refinería de Lanayru>>.
+BATTLE_05_04: \x0E\x01\x09\x04\x0B\xC0D¡Genial, <b<El Cautivo >>es el elegido!\nEs aquel monstruo enorme con\nel que peleaste en la <b<tierra del\npresidio>>.
+BATTLE_05_05: \x0E\x01\x09\x04\x0B\xC09¡Genial, <b<Koloktos >>es el elegido!\nEs el monstruo espadachín de seis\nbrazos con el que peleaste en\nla <b<gran caverna ancestral>>.
+BATTLE_05_06: \x0E\x01\x09\x04\x0B\xC0D¡Genial, <b<Daidagos>> es el elegido!\nEs aquel monstruo tan raro de un solo\nojo con el que peleaste en el <b<galeón de\nlas arenas>>.
+BATTLE_05_07: \x0E\x01\x09\x04\x0B\xC0D¡Genial, <b<Grahim>> es el elegido!\nEs ese tipo tan repulsivo con\nel que peleaste por segunda vez \nen el <b<gran santuario antiguo>>.
+BATTLE_05_08: \x0E\x01\x09\x04\x0B\xC0D¡Genial, <b<El Cautivo>> es el elegido!\nEs aquel monstruo enorme con\nel que peleaste por segunda vez\nen la <b<tierra del presidio>>.
+BATTLE_05_09: \x0E\x01\x09\x04\x0B\xC0D¡Genial, <b<El Cautivo>> es el elegido!\nEs aquel monstruo enorme con\nel que peleaste por tercera vez\nen la <b<tierra del presidio>>.
+BATTLE_05_10: \x0E\x01\x09\x04\x0B\xC0D¡Genial, eliges enfrentarte a <b<la Horda>>!\nSe trata de un batallón de monstruos\ninvocados por <b<Grahim>> en la <b<tierra\ndel presidio>>.
+BATTLE_05_11: \x0E\x01\x09\x04\x0B\xC0D¡Genial, <b<Grahim>> es el elegido!\nEs ese tipo tan repulsivo con\nel que peleaste por tercera vez\nen la <b<tierra del presidio>>.
+BATTLE_05_12: \x0E\x01\x09\x04\x0B\xC0D¡Oh, eliges al <b<Heraldo de la Muerte>>!\n¡Parece que has peleado con enemigos\ntemibles, amigo! ¡Este tipo da\nescalofríos!
+BATTLE_06: \x0E\x01\x09\x04\x0D\xC00¡Ah! <pause0F>¡Se me había pasado comentarte\nuna cosa! Qué cabeza la mía...\n\n\nPara el combate solo dispondrás de\nlos objetos <r<que tenías en el momento\ndel combate original>>. Los mismos; \nni uno más, ni uno menos.\n\x0E\x01\x09\x04\x07\xC00¡<r<Y tampoco puedes utilizar el contenido\nde la alforja>>! No sería justo...\nPor muy fuerte que sea tu enemigo,\nsigue siendo el mismo de antes.\n\x0E\x01\x09\x04\x00\xC00Así nadie parte con ventaja. Aunque,\nbueno... Si insistes, te dejaré usar<r<\nel escudo que más te guste>>.
+BATTLE_07: \x0E\x01\x09\x04\x00\xC00Perfecto, pues si ya tienes todo lo que \nnecesitas... ¿empezamos?\n[1]¡Vamos![2-]Mejor no
+BATTLE_08: \x0E\x01\x09\x04\x07\xC0D¡Valor, muchacho!
+BATTLE_09: \x0E\x01\x09\x04\x00\xC05¡Ja! ¿Se te ha acabado el ardor\nguerrero, campeón?...<pause14> Qué lástima.\nBueno, por mí no hay problema.\nVuelve cuando quieras intentarlo.\n\x0E\x01\x09\x04\x07\xC00Y si querías cambiar de escudo,\nequípate con el que más te guste\ny vuelve a hablar conmigo.
+BATTLE_10: \x0E\x01\x09\x04\x00\xC00Piensa en un enemigo al que te hayas\nenfrentado en algún momento de tu\nviaje y con el que quieras volver a\nmedirte.\n[1]Uno del\nprincipio[2]Uno de\nla mitad[3]Uno del\nfinal[4-]Olvídalo
+BATTLE_10_01: \x0E\x01\x09\x04\x07\xC00Piensa en un enemigo con el que hayas\nluchado en algún momento de tu\nviaje y con el que te apetezca\nvolver a medirte.[1]Uno del\nprincipio[2]Uno\nreciente[3-]Olvídalo
+BATTLE_11: \x0E\x01\x09\x04\x0B\xC07¡Oooh, Link!\n¡Ha sido impresionante, muchacho!\n¡Eres un guerrero excelente!
+BATTLE_12: \x0E\x01\x09\x04\x0B\xC07¡Qué bueno! Bien hecho, campeón.\n¡Has dado todo un espectáculo!
+BATTLE_13: Has tardado <numeric arg0>:<numeric arg1(2)>.<numeric arg2(2)>\nen derrotar a <b<<string arg0>>>.
+BATTLE_14: \x0E\x01\x09\x04\x00\x08Y ahora que lo pienso, campeón...\nPor ser la primera vez que vences\na este monstruo en mi juego,\nte mereces un premio.\x0E\x01\x09\x04\x0C\xB06
+BATTLE_15: \x0E\x01\x09\x04\x00\x06¡Increíble! ¡Has batido tu récord!\nNo puedo dejar que te vayas con las\nmanos vacías. ¡Toma, esto es para ti!\x0E\x01\x09\x04\x0C\xB06
+BATTLE_16: Pero muchacho... ¡Si no has podido ni\nbatir tu propio récord! La próxima vez\nintenta esforzarte como un auténtico\nguerrero, ¿eh?
+BATTLE_16_07: Ay, muchacho... ¡Si no has podido ni \nbatir tu propio récord! Pero reconozco\nque has derrotado a todos los rivales,\ny eso también tiene su mérito.
+BATTLE_16_01: Para tu información, si quieres llevarte\nel mejor premio, vas a tener que\nmejorar este tiempo: <r<<r<<numeric arg3><r<:>><r<\x0E\x02\x03\x06\x00\x04\x2CD>>.\n\n¡Ja! ¡Más te vale darlo todo en la arena\nde batalla si quieres tener alguna\nposibilidad, campeón!
+BATTLE_16_02: \x0E\x01\x09\x04\x0B\xC09¡Ya van ocho victorias seguidas!\n¡Increíble! ¡Te felicito!
+BATTLE_16_03: \x0E\x01\x09\x04\x0B\xC09¡Impresionante, campeón!\n¡Has logrado nueve victorias seguidas!\n¡Esto sí que no me lo esperaba!\n¡Muy bien!
+BATTLE_16_04: \x0E\x01\x09\x04\x0B\xC09¡¿Diez victorias seguidas?!\n¡Eres increíble, campeón!
+BATTLE_16_05: \x0E\x01\x09\x04\x0B\xC09Me estoy quedando sin palabras,\ncampeón. Once victorias seguidas...\n¡Esto no lo había visto en mi vida!\n¡Eres una espada con piernas!
+BATTLE_16_06: \x0E\x01\x09\x04\x0B\xC09¡Doce combates, doce victorias!\n¡Eres el mejor, campeón!...\n¡Eres un héroe de verdad!
+BATTLE_16_08: \x0E\x01\x09\x04\x0B\xC09¿Qué pasa aquí? Llevas la alforja llena\ny en la consigna tampoco te cabe nada\nmás, campeón. Así que me temo que no\npuedes llevarte este escudo. 
+BATTLE_16_09: ¡Qué pena! En fin, siempre puedes\nintentarlo de nuevo la próxima vez.\n\x0E\x01\x09\x04\x0C\xB06Al menos toma estas 1000 rupias,\nseguro que te serán de utilidad.\n
+BATTLE_17: \x0E\x01\x09\x04\x10\xC00Por cierto... <pause0F>Link,\n¿quieres librar otro combate ahora\nmismo?\n\n\x0E\x01\x09\x04\x0B\xC09No te pido que pelees gratis, ¿eh?\nCada vez que logres una victoria y\ndecidas continuar, la recompensa se\nincrementa. ¡Merece la pena resistir!\n¡Uno de los premios es un <r<escudo\nde lo más resistente>>! ¿Qué? Vuelve a\nbullirte el ardor guerrero en las venas,\n¿verdad, campeón?\n\x0E\x01\x09\x04\x0D\xC00No obstante...<pause14>\nYa sé que lo sabes, pero te recuerdo\nque, si pierdes, todo se habrá acabado.\n¡Debes saber el riesgo que corres!\nNo olvides que el <r<indicador del escudo\ny el número de corazones >>se conservan\nde un combate a otro. ¡Ja! ¡No me digas\nque no es un reto fascinante!
+BATTLE_18: Si lo dejas ahora, te llevas...\n<r<<string arg1>>>.\nPero si sigues, puedes llevarte...\n¡<r<<string arg2>>>!\n\x0E\x01\x09\x04\x00\n¿Qué me dices? ¿Quieres continuar?\n[1]Sí[2-]Me voy
+BATTLE_19: \x0E\x01\x09\x04\x00\x08¡Ese es mi muchacho! Ahora bien, tengo\nque decirte una cosa, campeón.\n\n\n\x0E\x01\x09\x04\x07\x900Cuando libras varios combates seguidos\nsoy yo quien elige qué adversario va a\nvenir después.\n\nAsí tú no te tienes que preocupar de\ndecidir, ¡y la sorpresa lo hace todo aún\nmás divertido! Bueno, basta de charla. \n¡Que empiece la batalla!
+BATTLE_20: \x0E\x01\x09\x04\x00\x08¡Así me gusta, campeón! El próximo\ncombate será el número <numeric arg3>. \nDebes ganar <numeric arg4> más para\nsuperar el reto.\nBueno, ¡adelante con la batalla!
+BATTLE_21: \x0E\x01\x09\x04\x00\x05Lo entiendo, muchacho, lo entiendo...<pause0F>\nTampoco tienes que hacer lo imposible.\nAdemás, no se puede derrotar \ndragones desde el otro mundo, ¿eh?\n\x0E\x01\x09\x04\x0C\xB06Pero bueno, ¡lo has hecho muy bien!\nLo prometido es deuda, esto es para ti.
+BATTLE_22_00: Toma, 5 rupias. ¡Oye, no me mires así!
+BATTLE_22_01: Aquí tienes 20 rupias. ¡No te las gastes\ntodas a la vez, campeón!
+BATTLE_22_13: ¡Aquí tienes, 50 rupias! Sí, son todas\npara ti, campeón...
+BATTLE_22_02: ¡Toma, 100 rupias! ¡Ja! Ya puedes\ncomprarte algo bonito a mi salud.
+BATTLE_22_03: Estas 200 rupias son para ti, campeón.\n¡Es un premio más que merecido!
+BATTLE_22_04: Ahí tienes, 300 rupias... ¡todas para ti!\nNo te las gastes en tonterías, ¿eh?
+BATTLE_22_05: ¡Aquí tienes 500 rupias! ¡¿A que nunca\nhabías visto tanto dinero junto?!
+BATTLE_22_06: ¡Mira! ¡1000 rupias! Te ha tocado\nel primer premio, muchacho...\n¡Cantidades así no se ven todos los días!
+BATTLE_22_07: ¡2000 rupias para el caballero!\n¡Qué gran botín!
+BATTLE_22_08: \x0E\x01\x09\x04\x0C\xB06Toma, esto es para ti.
+BATTLE_22_09: \x0E\x01\x09\x04\x0C\xB00¡Aquí tienes tu premio!
+BATTLE_22_10: \x0E\x01\x09\x04\x0C\xB00¡Toma esto, te lo has ganado!
+BATTLE_22_11: ¡Qué barbaridad! ¡3000 rupias!\n¡¿Qué vas a hacer con tanto dinero?!
+BATTLE_22_12: ¡Pero...! ¡Has ganado 9900 rupias!\n¡Me has dejado las arcas vacías,\ncampeón!
+BATTLE_22_14: \x0E\x01\x09\x04\x01\xC09Vuelve por aquí a disfrutar de los\ncombates cuando quieras. ¡Nos vemos,\ncampeón!
+SIREN_00: \x0E\x01\x09\x04\x00\x06¿Quieres probar suerte en <r<Hypnea>>?\n¡Ja! ¡Me encanta ver que aceptas de\nbuena gana un desafío como los\nde antes!\n\x0E\x01\x09\x04\x07\xC00Verás, los retos de <r<Hypnea>> se basan\nen los juicios que has superado hasta\nahora, recreados especialmente\npor mí.\nPero como hacer los juicios sin más\nno me parece muy divertido, te voy a\ncronometrar.\n\nSi logras un buen tiempo, te llevarás\nun buen premio. Pero...<pause14>\nsi te alcanza un guardián, uno solo,\nel juicio de Hypnea habrá acabado.\nSi fracasas, volverás con <r<bastante \nmenos salud>>. ¡Quedas avisado!\n\x0E\x01\x09\x04\x07\xC0A¿Qué? ¿Seguro que quieres probar?\n[1]¡Claro![2-]Mejor no
+SIREN_01: <pause0F>\x0E\x01\x09\x04\x00\x05¿Qué crees que es esto?...\nNo merece la pena arriesgar la vida\nhasta esos extremos, campeón... \n\nVamos, déjalo por hoy. Una retirada a\ntiempo es una victoria, ¿no lo sabías?\n\n\nVuelve cuando hayas recuperado un\npoco el aliento, por lo menos.
+SIREN_02: \x0E\x01\x09\x04\x00\x06¡Ja! ¡Tus palabras son música para mis\noídos, señor héroe! Bien, elige el juicio\nque prefieras.\n[1]El de\nFarore[2]El de\nDin[3]El de\nNayru[4-]Ninguno
+SIREN_03: 
+SIREN_03_01: \x0E\x01\x09\x04\x00\x06¡Ja! ¡Tus palabras son música para mis\noídos, señor héroe! Bien, elige el juicio\nque prefieras.\n[1]El de\nFarore[2]El de\nDin[3]El de\nNayru[4]Otro
+SIREN_03_02: \x0E\x01\x09\x04\x00\x05¿Otro juicio? ¿Cuál?\n\n[1]El de\nNeburia[2]Los otros[3-]Ninguno
+SIREN_03_03: \x0E\x01\x09\x04\x00\n¡Decídete de una vez, campeón!\n¿Dónde quieres ir a batirte?\n\n[1]Farone[2]Eldin[3]Lanayru[4]Otro sitio
+SIREN_13: Veamos, tu mejor tiempo para esta\nárea es de <numeric arg0>:<numeric arg1(2)>.<numeric arg2(2)> en total.
+SIREN_04: \x0E\x01\x09\x04\x0B\xC0DMuy bien, ¡adelante!\n¡Cierra los ojos y concéntrate!
+SIREN_05: \x0E\x01\x09\x04\x00\x07¡Ja, Link! ¡Has obtenido\nhasta la última lágrima! ¡Eres un héroe\nde tomo y lomo!
+SIREN_06: \x0E\x01\x09\x04\x00\x07¡Buen trabajo, campeón! ¡Has logrado\nvolver en una pieza!
+SIREN_17: \x0E\x01\x09\x04\x00\x0B¡¿Pero qué ha pasado?! ¡Lo has\nestropeado, campeón!...\n\n\nEl fracaso tiene un precio, ya lo sabes.\nNo te quedan muchos corazones...\nEs mejor que los recuperes antes de\nvolver por aquí.
+SIREN_07: Has tardado en completar el juicio\n<numeric arg0>:<numeric arg1(2)>.<numeric arg2(2)> en total.
+SIREN_08: \x0E\x01\x09\x04\x00\xC05Esta ha sido la primera vez que superas\neste juicio de <r<Hypnea>> para mí.\n¡Te felicito, campeón!\x0E\x01\x09\x04\x0C\xB06
+SIREN_09: \x0E\x01\x09\x04\x0B\xC09¡Bien, has conseguido un nuevo récord!\nEsto hay que celebrarlo, campeón.\n\x0E\x01\x09\x04\x0C\xB00¡Toma, aquí tienes tu premio!
+SIREN_10: \x0E\x01\x09\x04\x00\x07¡Increíble! Casi fundes el cronómetro...\n¡Has estado genial, Link!\n\n\nPor haber sido tan rápido, te mereces\nalgo especial... ¡Toma! \x0E\x01\x09\x04\x0C\xB06
+SIREN_14: \x0E\x01\x09\x04\x00\x07Has hecho un tiempo impresionante.\nToma, este premio es para ti. \x0E\x01\x09\x04\x0C\xB06
+SIREN_15: \x0E\x01\x09\x04\x00\x0BMmm... No ha sido impresionante...<pause14>\npero al menos te has esforzado. Toma.\x0E\x01\x09\x04\x0C\xB06
+SIREN_16: \x0E\x01\x09\x04\x00\x0B¡Ja! ¿Es una broma?<pause14> ¡Tienes que\nhacerlo con más ganas, campeón!\n\n\nLa próxima vez, intenta que parezca\nque te esfuerzas... ¡Si no, no te vas\na llevar más que esto!\x0E\x01\x09\x04\x0C\xB06
+SIREN_11: \x0E\x01\x09\x04\x00\n¿Qué me dices, Link?\n¿Otro juicio de <r<Hypnea>>?\n[1]¡Sí![2-]No
+SIREN_12: \x0E\x01\x09\x04\x00\x05Pche... ¡Qué aburrido!<pause14>\nBueno, si cambias de opinión, ya sabes\ndónde estoy.
+DF3_02: \x0E\x01\x09\x04\x0B\xC08Ya veo que no tienes mucha paciencia,\n¿eh, Link?\n\n\n\x0E\x01\x09\x04\x00\x00¡Muy bien, como tú quieras!\n¡Empezaremos enseguida!\n\n\n\x0E\x01\x09\x04\x00\xC00¿O quizá un espléndido guerrero\ncomo tú no tiene tiempo para andar\nentreteniéndose con jueguecitos?\n\n\x0E\x01\x09\x04\x0D\xC00Te propongo una cosa: aprovechar\ntu experiencia para que pasemos\nun buen rato.\n\n\x0E\x01\x09\x04\x07\xC00¡Debes mirar al pasado para entender\nel futuro! Aprender de la experiencia,\npor así decirlo. Llámalo como quieras, \npero es un buen ejercicio. \nSe trata de enfrentarte de nuevo a las\ndificultades que ya has superado.\n\x0E\x01\x09\x04\x00\xC0A¿Qué me dices, Link?\n[1]¡Genial![2-]No sé...
+BOSS_NAME_00: Grahim
+BOSS_NAME_01: Malócula
+BOSS_NAME_02: Moldarg
+BOSS_NAME_03: Koloktos
+BOSS_NAME_04: Daidagos
+BOSS_NAME_05: El Cautivo
+BOSS_NAME_06: El Cautivo
+BOSS_NAME_07: El Cautivo
+BOSS_NAME_08: La Horda
+BOSS_NAME_09: Heraldo de la Muerte
+REWARD_NAME_00: 20 rupias
+REWARD_NAME_01: un tesoro pequeño
+REWARD_NAME_02: 100 rupias
+REWARD_NAME_03: una pieza de corazón
+REWARD_NAME_04: 300 rupias
+REWARD_NAME_05: un tesoro inusual
+REWARD_NAME_06: 500 rupias
+REWARD_NAME_07: un escudo muy resistente
+REWARD_NAME_08: 2000 rupias
+REWARD_NAME_09: 3 tesoros inusuales
+REWARD_NAME_10: 3000 rupias
+REWARD_NAME_11: 9900 rupias
+REWARD_NAME_12: 200 rupias
+REWARD_NAME_13: 1000 rupias

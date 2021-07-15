@@ -1,0 +1,263 @@
+TOWN2_01: \x0E\x01\x09\x04\x00\nSí, sí, adelante, adelante...\nBien, dígame... ¿qué desea?\n\n[1]Comprar[2]Bueno, yo...
+TOWN2_02: \x0E\x01\x09\x04\x0F\x409Mire, para eso mejor será que venga\na mi establecimiento mañana.
+TOWN2_03: \x0E\x01\x09\x04\x13\x609Bueno... ¿qué? ¿Es que no desea\nnada en particular?
+TOWN2_04: ¿Cómo dice? ¿Pregunta por qué soy\nbrusco? ¿Y dice que durante el día\nparecía una persona distinta?\n\n\x0E\x01\x09\x04\x10\x60BBueno, supongo que estoy cansado\ndespués de tener todo el día la misma\nsonrisa bobalicona de vendedor.\n\nPero no piense mal de mí, por favor.\n\n\n\nEn fin, a lo que íbamos...\n\n\n\nSupongo que ha venido a hacer uso de\nla <r<tienda de utensilios nocturna>>, ¿no?\n\n[1]¿Qué es?[2]Así es
+TOWN2_05: \x0E\x01\x09\x04\x00\x09Aaah, por lo que veo es su primera vez.\nEn fin... Está bien, se lo explicaré.
+TOWN2_06: \x0E\x01\x09\x04\x0F\x409¡Debería haber empezado por ahí!
+TOWN2_07: \x0E\x01\x09\x04\x12\x600Digamos que durante la noche\nmi especialidad comercial cambia...\nEs decir, que me dedico a <r<comprar\ntesoros>>.\nPero no compro lo primero que veo,\npues solo acepto los <r<tesoros que\naparecen aquí señalados>>...\n\n\x0E\x01\x09\x04\x10\x600Bien, ya podemos ir al grano.
+TOWN2_09: \x0E\x01\x09\x04\x00\n¿Quiere venderme algún tesoro?
+TOWN2_10a: \x0E\x01\x09\x04\x12\x600Esto es lo que acepto hoy:\n\n\n\n<y<<string arg0>\n<y<<string arg1><y<\n<y<<string arg2><y<\n<y<<string arg3><y<>>\n\x0E\x01\x09\x04\x10\x600¿Se ha decidido ya?\n[1]Vendo[2-]No vendo
+TOWN2_36a: Bueno, ¿qué desea vender?\n\n\n\nOpción 1: <y<<string arg2>>>\nOpción 2: <y<<string arg3>>>\nOpción 3: <y<<string arg0>>>\nOpción 4: <y<<string arg1>>>[1]Opción 3[2]Opción 4[3]Opción 1[4]Opción 2
+TOWN2_32: \x0E\x01\x09\x04\x12\x600Ajá, en ese caso le daré <numeric arg0> \x0E\x03\x04\x02\x1CD\npor cada unidad.
+TOWN2_33: \x0E\x01\x09\x04\x12\x600Ajá, en ese caso le daré <numeric arg1> \x0E\x03\x04\x02\x1CD\npor cada unidad.
+TOWN2_34: \x0E\x01\x09\x04\x12\x600Ajá, en ese caso le daré <numeric arg2> \x0E\x03\x04\x02\x1CD\npor cada unidad.
+TOWN2_35: \x0E\x01\x09\x04\x12\x600Ajá, en ese caso le daré <numeric arg3> \x0E\x03\x04\x02\x1CD\npor cada unidad.
+TOWN2_16: \x0E\x01\x09\x04\x10\x600Por lo que veo tiene <numeric arg4>.\n¿Cuántas desea vender?\n[1]Una[2]Cinco[3]Todas[4-]Ninguna
+TOWN2_37: <y<\x0E\x01\x09\x04\x12\x900>>Así que me vende <numeric arg0>, ¿no es así?\nLe puedo dar <numeric arg1> \x0E\x03\x04\x02\x1CD. ¿Hay trato?\n[1]Sí[2-]Olvídelo
+TOWN2_12: \x0E\x01\x09\x04\x0F\x409¡No tiene suficiente!\n¿Está intentando burlarse de mí?
+TOWN2_38: \x0E\x01\x09\x04\x0F\x409¿Le parece bien hacerme perder\nel tiempo a estas horas de la noche?\n\n\n¡Ni siquiera tiene una sola unidad de\nese tesoro! ¿Tiene alguna otra cosa que\ndesee vender?\n[1]Así es[2-]Olvídelo
+TOWN2_13: \x0E\x01\x09\x04\x10\x80AMuy bien. Tome, aquí tiene su dinero.
+TOWN2_14: Gracias. ¡Vuelva en otra ocasión!
+TOWN2_15: \x0E\x01\x09\x04\x0F\x0CDe acuerdo. Bueno, ya sabe dónde\nencontrarme cuando quiera vender\nalgo.
+TOWN2_17: \x0E\x01\x09\x04\x00\xFF01Vaya, mira a quién tenemos aquí... \nSi es Link... ¿A qué has\nvenido, si puede saberse?
+TOWN2_31: <r<\x0E\x01\x09\x04\x00\x300>>¿Qué? ¿Preguntas qué estoy haciendo?\n\n\n\n\x0E\x01\x09\x04ÿ\x114Pues admirar mi colección...\nMi colección de <r<insectos>>.
+TOWN2_29: \x0E\x01\x09\x04\x01\xFF00Los insectos son increíbles. ¡Casi tanto\ncomo el gran Vilán! Incluso más,\ndiría yo...\n\nBueno, no tanto...<pause1E> Vilán siempre\nestará por encima de cualquier\ninsecto...
+TOWN2_30: Pero seguro que te haces una idea.\n<r<Me encantan los insectos>>, y mi sueño\nes coleccionarlos todos.\n\nNo te imaginas lo mucho que\nme gustaría tener una isla llena\nde todo tipo de insectos...
+TOWN2_18: \x0E\x01\x09\x04ÿ\xFF01¡Ya sé!\n\n\n\nTe <r<pagaré >>por todos y cada uno\nde los <r<insectos >>que me traigas.\n¡En cuanto <r<veas uno>>, ya sabes lo\nque tienes que hacer!\n¡Te aseguro que, en lo que respecta\na los insectos, pagaré cualquier precio!\n[1]Está bien[2]No, gracias
+TOWN2_19: \x0E\x01\x09\x04\x03\xFF04Ji, ji, ji... ¡Con tu ayuda, mi colección\nde insectos será la mejor del mundo!
+TOWN2_20: \x0E\x01\x09\x04\x01\xFF05¡¿Pero qué...?! ¡Se lo voy a contar\ntodo a Vilán!
+TOWN2_21: Por lo general, suelo estar aquí de\nnoche. Así que ya sabes dónde debes\nbuscarme cuando quieras venderme\nalgún insecto.\n\x0E\x01\x09\x04\x12\x100Sin embargo, no creas que compro así,\nsin más. Todo <r<depende de cómo esté\nese día>>. Por cierto, no se te ocurra\ndecirle nada de esto a Vilán.\nRecuerda; si deseas hablar de insectos,\ntendrá que ser <r<durante la noche>>.\nDigamos que me gusta guardar\nlas apariencias...\n\x0E\x01\x09\x04\x03\xFF14¿Está claro, Link?\nAl final, espero que esto te guste\ntanto como a mí...
+TOWN2_24: ¡A ver qué tienes por ahí!
+TOWN2_22: \x0E\x01\x09\x04\x03\x01¡Vaya, Link! Justo ahora\nestaba pensando en ti. Seguro que\nhe desarrollado algún nuevo sentido\n\"insectil\"...
+TOWN2_23: \x0E\x01\x09\x04\x03\x01¡Ah, eres tú, Link! Hoy\nestoy con la mosca detrás de la oreja...\nSupongo que es la expresión apropiada,\ntratándose de mí... En fin...
+TOWN2_36: \x0E\x01\x09\x04\x03\x01No sabes lo que me ha pasado...\nHace un rato, a medianoche, fui\na la cueva que hay tras la cascada.\n¿Y sabes lo que encontré?\nPues un montón de <r<sacraliposas\n>>revoloteando en un lugar totalmente\nvacío. ¡No tengo idea de por qué\nestaban ahí todas juntas!\n¡No te imaginas cómo me pica la\ncuriosidad! Así que ya sabes, si te\ninteresa, yo que tú me asomaría a la\ncueva a medianoche.
+TOWN2_39: ¿Y bien? ¿Qué fantásticos insectos\nme has traído hoy?
+TOWN2_62: Hoy quiero algún ejemplar de:\n<y<<string arg0>>>\n<y<<string arg1>>>\n<y<<string arg2>>>\n¿Qué me dices?\n[1]Vendo[2-]Olvídalo
+TOWN2_25: \x0E\x01\x09\x04\x01\xFF13Entonces nada...\n\x0E\x01\x09\x04\x00\x500No te ha entrado el hormigueo\nde vender, ¿no?
+TOWN2_64: ¿Qué quieres vender?\n<y<<y<[1]<string arg0>[2]<string arg1>[3]<string arg2><y<>>
+TOWN2_142: Deja que piense... ¿Cuántas rupias\npodría darte por ejemplar?\nMmm... <numeric arg0>, y es mi última oferta.
+TOWN2_209: Deja que piense... ¿Cuántas rupias\npodría darte por ejemplar?\nMmm... <numeric arg1>, y es mi última oferta.
+TOWN2_210: Deja que piense... ¿Cuántas rupias\npodría darte por ejemplar?\nMmm... <numeric arg2>, y es mi última oferta.
+TOWN2_26: \x0E\x01\x09\x04\x03\xFF04Gracias. Tú sí que sabes. Se nota\nque no matarías ni una mosca...\n\n\nY eso es algo muy bueno, claro.\nAsí que ya sabes, Link.\nVuelve cuando quieras.
+TOWN2_27: \x0E\x01\x09\x04\x10\xFF0C¡Pero si ni siquiera tienes un ejemplar\nde ese insecto! Te crees muy avispado,\n¿no?\n\n\x0E\x01\x09\x04\x01\xFF00A ver, ¿tienes algún otro insecto que\nquieras vender?\n[1]Pues sí[2-]Olvídalo
+TOWN2_28: Tienes <numeric arg4>... ¿Cuántos ejemplares\npiensas venderme?\n\n[1]Uno[2]Cinco[3]Todos[4-]Ninguno
+TOWN2_42: \x0E\x01\x09\x04\x12\x100Te veo poco avispado...\n¿No ves que no tienes tantos?\nVamos, volveré a preguntártelo.
+TOWN2_43: \x0E\x01\x09\x04\x03\x14A ver, a ver... ¡Te doy <numeric arg1> \x0E\x03\x04\x02\x1CD!\n[1]Bueno[2-]Olvídalo
+TOWN2_44: Genial, aquí tienes el dinero.
+TOWN2_49: \x0E\x01\x09\x04\x00\x00Zzzzzz... Zzzz...
+TOWN2_50: \x0E\x01\x09\x04\x00\x03¡No consigo que mi hijo se duerma!\n¡Estoy perdido! ¡¿Qué voy a hacer?!\n[1]Es horrible[2]¿Y tu esposa?
+TOWN2_50_01: \x0E\x01\x09\x04\x00\x04Muy cierto... ¡Pero en realidad\nno importa! ¡Sigue siendo mi hijo\na pesar de todo!\n\nTú todavía no tienes hijos, pero algún\ndía lo entenderás, algún día...
+TOWN2_50_02: \x0E\x01\x09\x04\x00\x07Ah, mi esposa<pause0A>.<pause0A>.<pause0A>. Como comprenderás,\ndespués de llevar el negocio todo el\ndía, está cansadísima.\n\n\x0E\x01\x09\x04\x0D\xF06Así que por lo menos durante la noche\nla dejo descansar...
+TOWN2_51: \x0E\x01\x06\x02\xFCCDAy...<pause2D>\x0E\x01\x06\x02Í \x0E\x01\x09\x04\x0D\x00Ay...\x0E\x01\x05\x04A\x00
+TOWN2_110: Uf... Hoy tampoco he dormido nada...\n[1]¿Qué te pasa?[2]Se te ve cansado
+TOWN2_52: \x0E\x01\x09\x04\x10\xF06Vaya, gracias por el interés.
+TOWN2_53: \x0E\x01\x09\x04\x10\xF07Por lo que veo, te has dado cuenta...
+TOWN2_54: \x0E\x01\x09\x04\x0D\xF00Como ves, últimamente mi hijo se pasa\ntoda la noche llorando y no hay\nforma de conseguir que se duerma.\n\nJamás había tenido problemas para\ndormir, pero desde que perdió eso,\nnada...\n[1]¿Eso?[2]No será...
+TOWN2_55: \x0E\x01\x09\x04\x10\xF01Su <y<sonajero>>...
+TOWN2_56: \x0E\x01\x09\x04\x10\xF04Ah, ya veo que lo sabías.\nPues sí, se trata de su <y<sonajero>>.
+TOWN2_57: \x0E\x01\x09\x04\x00\xF00En cuanto lo ve deja de llorar, pero\npor desgracia lo perdió el otro día.\n<r<Se lo llevó un pájaro>>. Supongo que lo\nconfundiría con comida o algo así.\n\x0E\x01\x09\x04\x0E\xF00Por supuesto, es imposible que se lo\nhaya comido, así que todavía <r<debe de\nestar en algún lugar de la ciudad>>.\n\nPero por más que lo busco, no logro\nencontrarlo por ninguna parte.\n\n\n\x0E\x01\x09\x04\x00\x09Si hubiera alguien tan amable\nde ayudarme a buscarlo...
+TOWN2_58: \x0E\x01\x09\x04\x0D\xF09Ojalá una persona gentil me ayudara\na encontrar el <y<sonajero >>de mi bebé...\n\n\n<r<\x0E\x01\x09\x04\x10\x00Un pájaro se lo llevó>>, así que debe\nde seguir todavía por aquí, en <r<algún\nlugar de la ciudad>>.\n\n\x0E\x01\x09\x04\x0D\x00Ay, no, seguro que hoy tampoco logro\ndormir... Ni siquiera un poquito...
+TOWN2_59: \x0E\x01\x09\x04\x00\xE0D¡E... eso es...! ¡Su <y<sonajero>>!\n¡Lo has encontrado!
+TOWN2_60: ¡Sííí, ya está! ¡Bueno, a mimir!\x0E\x01\x05\x04x\x00
+TOWN2_61: \x0E\x01\x09\x04\x00\xE08¡Qué alegría! ¡Ya verás qué diferencia!\nSeguro que ahora duerme como...\n¡como un bebé!\n\n¡Sí! ¡Y yo no pienso despertarme en una\nsemana por lo menos!\n\n\n\x0E\x01\x09\x04\x10\xE00¡No sabes cuánto te lo agradezco!\n¡Te debo una! ¡Y muy grande!
+TOWN2_91: \x0E\x01\x09\x04\x00\xE08Ahora ya puedo volver a dormir como\nuna persona normal. ¡Muchas gracias!
+TOWN2_63: \x0E\x01\x09\x04\x00\x08Muchas gracias. No te imaginas\nlo que todo esto significa para mí.
+TOWN2_66: \x0E\x01\x06\x02\xFCCD5... 6... 7...
+TOWN2_195: Ung... guh... goh...
+TOWN2_193: \x0E\x01\x06\x02\xFECD55... 56... 57...
+TOWN2_196: Nuooh... guoooh...
+TOWN2_194: 3985... 3986...\n3987... 3988...
+TOWN2_197: ¡Uoooooooh!
+TOWN2_192: \x0E\x01\x09\x04\x00\x10Ufff... arfff... pfuuu...\n\n\n\n\x0E\x01\x09\x04\x10\x1600Ah, buenas noches, Link...\n\n\n\n¿Que qué estoy haciendo?\nPues ya ves, entrenando...\n\n\nNo soportaba más estar tan debilucho\ny enclenque, así que intento ponerme\nun poco en forma.\n\nPero como me da vergüenza que los\ndemás vean que no puedo levantar ni\nun pequeño barril, entreno de noche...\n\n\x0E\x01\x09\x04\x00\x1711Aunque me parece que esto no\nfunciona... Me canso demasiado\ny en dos segundos lo dejo.\nNo puede ser...
+TOWN2_212: Ay... Si al menos tuviera alguna <r<poción\npara aumentar la resistencia>>...
+TOWN2_214: \x0E\x01\x09\x04\x00\x03¡Pero no, nada de eso! ¡Lo que tengo\nque hacer es esforzarme más!\n\n\n¡Y además tengo que conseguirlo\nyo solito!
+TOWN2_215: \x0E\x01\x09\x04\x00\x03¡No... no te preocupes! ¡No pienso\nabandonar tan pronto esta vez!
+TOWN2_67: \x0E\x01\x09\x04\x00\x11Uffff... uffff... Ya no puedo más...\n\n\n\nSi al menos tuviera <r<una poción para\naumentar la resistencia>>...
+TOWN2_68: \x0E\x01\x09\x04\x00\x11Uffff... Uffff... Link...\neso que llevas ahí no será una <y<poción\nde resistencia>>, ¿verdad?\n\nPorque no sabes el favor tan grande\nque me harías...\n[1]Toma[2-]Lo siento
+TOWN2_213: \x0E\x01\x09\x04\x00\x0B¡Oye, Link!\nEso que llevas ahí no será una <y<poción\nde resistencia>>, por casualidad...\n\nPorque no sabes el favor tan grande\nque me harías...\n[1]Toma[2-]Lo siento
+TOWN2_69: \x0E\x01\x09\x04\x00\x11Va... vaya... Lo siento mucho, no\ndebería haberte molestado con\nmis problemas...
+TOWN2_70: \x0E\x01\x09\x04\x00\x0B¡¿En serio?! ¡Muchas gracias!\n¡Te debo una!
+TOWN2_71: \x0E\x01\x09\x04\x00\x10Y... ¡energía renovada!
+TOWN2_103: \x0E\x01\x09\x04\x00\x12Vaya... ¿pero estás seguro de que\nahora podré ponerme fuerte como\nun neburí?\n[1]Depende de ti[2]¡Pues claro!
+TOWN2_72: \x0E\x01\x09\x04\x00\x09¡¿En serio?! ¡Estupendo!\n¡Me dedicaré a entrenar en cuerpo\ny alma! ¡Se acabaron los lloriqueos!
+TOWN2_73: \x0E\x01\x09\x04\x00\x1609¿En... en serio? Vaya, has sonado\ntan convincente que incluso me veo\ncon posibilidades de lograrlo...
+TOWN2_74: \x0E\x01\x09\x04\x00\x1800Gracias, Link.\n¡Verás como pronto seré muy fuerte!\n\n\n\x0E\x01\x09\x04\x15\x1800¡Muy bien, voy a continuar!\n¡Vuelve por aquí cuando quieras y\nverás qué cambio!
+TOWN2_75: \x0E\x01\x09\x04\x07\x1602¡Verás como pronto seré muy fuerte!\n¡Vuelve cuando quieras y verás\nqué cambio!
+TOWN2_76: \x0E\x01\x09\x04\x00\x10Uffff... Uffff... Ah, eres tú,\nLink.\n\n\n\x0E\x01\x09\x04\xC10\xFF00Desde lo del otro día no he dejado de\nentrenar, pero últimamente me siento\nun poco débil.\n\n¿Crees que es posible que se trate de\ncansancio acumulado?
+TOWN2_216: Oye, Link...\nNo tendrás por ahí un poco más de\n<y<poción de resistencia>>, ¿verdad?
+TOWN2_217: \x0E\x01\x09\x04\x00\x03¡Pero qué estoy diciendo! ¡Así no!\n¡No puedo estar siempre dependiendo\nde los demás!\n\n¡Tengo que conseguirlo yo solito!
+TOWN2_218: \x0E\x01\x09\x04\x00\x0B¡Oye, Link!\nEso que llevas ahí no será una <y<poción\nde resistencia>>, por casualidad...\n\nMe preguntaba si no te importaría\nvolver a darme un poquito...\n[1]Toma[2-]Olvídalo
+TOWN2_78: \x0E\x01\x09\x04\x00\x10Ufff... ufff...\n\n\n\nOye, Link...\nNo tendrás por ahí un poco de <y<poción\nde resistencia>>, ¿verdad?\n[1]Toma[2-]Olvídalo
+TOWN2_79: \x0E\x01\x09\x04\x00\x11Ah, bueno... Siento mucho haber sido\ntan descarado...
+TOWN2_219: ¡No te preocupes! ¡Tengo que aprender\na valerme por mí mismo!
+TOWN2_80: \x0E\x01\x09\x04\x00\x0B¿En serio? ¡Muchas gracias!\n¡Te debo una!
+TOWN2_81: \x0E\x01\x09\x04\x00\x10Ufff... ¡He vuelto a la vida!\n¡Ya no podía más del cansancio!
+TOWN2_190: \x0E\x01\x09\x04\x00\x12Aunque a veces me preocupo bastante\nporque parece interminable,\nde verdad.\n\n¿Hasta cuándo tengo que seguir\npara ponerme tan fuerte como tú,\nLink?\n\n¿Cuántas flexiones crees que harían\nfalta para no parecer un debilucho?\n\n[1]Unas mil[2]Muchas
+TOWN2_82: \x0E\x01\x09\x04\x00S¡¿Ta... tantas?!\n\n\n\n\x0E\x01\x09\x04\x10\xE00Vaya... Por lo visto el camino hacia\nla fuerza es bastante duro...
+TOWN2_83: \x0E\x01\x09\x04\x00\x07¿Muchas? ¡Pues claro!\n¡Ahora lo entiendo!\n\n\n\x0E\x01\x09\x04\x07\x800Lo que estás tratando de decirme es\nque bastará con hacer unas cuantas\nhasta perder la cuenta, ¿no?
+TOWN2_84: \x0E\x01\x09\x04\x01\x1600¡Entendido! ¡Ahora que sé lo que tengo\nque hacer, mejoraré muy pronto!\n\n\n\x0E\x01\x09\x04\x00\x1800¡Vuelve cuando quieras para ver el\nresultado!
+TOWN2_85: \x0E\x01\x09\x04\x00\x02¡Link, ya verás! ¡Ganaré\ntanto músculo que cuando me veas\nte vas a llevar un susto de muerte!
+TOWN2_86: \x0E\x01\x09\x04\x15\x190ALo estoy consiguiendo...\n¡No hay que preocuparse!\n\n\n\x0E\x01\x09\x04\x01\x1600¡Eh, Link! ¡Llegas en el \nmomento justo! Hay una cosa que\nme gustaría preguntarte.\n\n\x0E\x01\x09\x04\x07\x1800Verás, hace un rato intenté levantar un\nbarril, y lo conseguí con un solo brazo.\n\n\n\x0E\x01\x09\x04\x00\x1600¿Crees que soy un poco más fuerte\nque antes?\n\n\nLink, ¿qué te parece?\n¿Me ves más fuerte?\n[1]¡Mucho![2]Claro
+TOWN2_88: \x0E\x01\x09\x04\x00\x180B¿En serio? ¡Muchas gracias!\n¡No sabes lo contento que estoy!
+TOWN2_89: \x0E\x01\x09\x04\x07\x1809¿Eh? ¡No seas exagerado!\nPero lo cierto es que estoy muy\ncontento, la verdad.
+TOWN2_87: \x0E\x01\x09\x04\x00\x1600Todo esto lo he conseguido gracias a ti,\nLink.\n\n\n\x0E\x01\x09\x04\x01\x1900Si no me hubieras animado todo este\ntiempo, jamás lo habría logrado.\n\n\n\x0E\x01\x09\x04\x07\x180B¡Muchísimas gracias!
+TOWN2_90: \x0E\x01\x09\x04\x15\x180A¡Todavía tengo que mejorar!\n¡Y no pienso parar hasta que consiga\nlevantar un barril con un solo dedo!
+TOWN2_92: \x0E\x01\x09\x04\x15\x180ALo estoy consiguiendo...\n¡No hay que preocuparse!
+TOWN2_93: \x0E\x01\x09\x04\n\xC12No puede ser... Qué problemón...\nQué problemón...\n[1]¿Qué pasa?[2]Cálmate
+TOWN2_94: \x0E\x01\x09\x04\x00\x411Vaya, gracias por escucharme,\nLink. Ojalá todo el mundo\nfuera tan amable como tú.
+TOWN2_95: \x0E\x01\x09\x04\x0B\x500¡¿Cómo que me tranquilice?!\nAh, lo siento... No quería gritarte...
+TOWN2_96: \x0E\x01\x09\x04\x00\x400Verás... <r<Mi hermana pequeña >>se fue\nhace un rato a dar un paseo con su\nneburí y no ha vuelto todavía.\n\nCuando vi que tardaba demasiado,\nempecé a buscarla por todas partes,\npero... ni rastro de ella.\n\n\x0E\x01\x09\x04\x0B\x500Espero que no le haya pasado nada,\npero estoy tan preocupado...
+TOWN2_106: \x0E\x01\x09\x04\x00\x411Oye, Link...\n¿Por qué no me ayudas a buscarla?
+TOWN2_106_1: \x0E\x01\x09\x04\x0D\x400Me habló sobre una <b<isla con forma\nde ruleta >>que apareció hace poco.\n¡Se ha ido hacia el <r<suroeste>>!
+TOWN2_106_2: \x0E\x01\x09\x04\x01\x400¡Cuento contigo, Link!
+TOWN2_97: \x0E\x01\x09\x04\n\xC12Qué voy a hacer, qué voy a hacer...\n\n\n\nSiempre le digo que conviene llevar\nuna poción por si le ocurre algo\nal neburí...\n\nY justo el día que se la deja en casa,\nle ha pasado esto...
+TOWN2_97_1: \x0E\x01\x09\x04\x0D\x400Mi hermana decía que sentía mucha\ncuriosidad por esa <b<isla con forma de\nruleta>>. ¡Creo que se ha ido hacia el\n<r<suroeste>>!
+TOWN2_97_2: \x0E\x01\x09\x04\x01\x400¿Me vas a ayudar a buscarla,\nLink?
+TOWN2_107: \x0E\x01\x09\x04\x0B\x50D¡¿Cómo?! ¡¿Dices que has visto\na mi hermana?! ¡¿Y que su neburí\nestá herido y no puede volar?!\n\n\x0E\x01\x09\x04\n\xC00¡Entonces tienes que llevarle esto\nenseguida! Toma, son<y<\x0E\x01\x09\x04\x00\x400 esporas de\nchampiñón>>. Seguro que se cura muy\npronto.
+TOWN2_143: \x0E\x01\x09\x04\x00\x50D¡Pero si no puedes llevar más cosas\nencima! \x0E\x01\x09\x04\x00\x400¡Haz algo de espacio en\ntu alforja y vuelve después!
+TOWN2_198: \x0E\x01\x09\x04\x0B\x404Si las usa, se pondrá bien enseguida y\npodrá volver por sí mismo. \x0E\x01\x09\x04\x00\xC00¡Tienes que \nllevárselas a mi hermana! \x0E\x01\x09\x04\x00\x400Y luego te\npuedes quedar con la <r<botella vacía>>.\n¡Cuento contigo, Link!
+TOWN2_108: \x0E\x01\x09\x04\x0B\x406¿Eh? ¿Dónde has metido las <y<esporas de\nchampiñón>>? ¿Aún no se las has dado?\n\n\n\x0E\x01\x09\x04\n\x400Bueno, si se te acaban puedes <r<sacar\nmás de los champiñones >>que crecen\nen una isla flotante cercana.\n\n¡Cuento contigo, Link!
+TOWN2_144: \x0E\x01\x09\x04\x0B\x409Si has hecho un poco de espacio en\ntu alforja, podrás llevarte esto.\n\n\n<y<\x0E\x01\x09\x04\n\x400>>Con estas <y<esporas de champiñón>>,\nseguro que el neburí se cura\nenseguida de sus heridas.
+TOWN2_109: \x0E\x01\x09\x04\x0B\x409¿Qué pasa, Link?\n¡Tienes que llevarle esas <y<<y<esporas de\nchampiñón<y< >>a mi hermana cuanto antes!\n\x0E\x01\x09\x04\n\x400¡Cuento contigo!
+TOWN2_115: \x0E\x01\x09\x04\x0B\xE09¡Hola, Link! ¡Mi hermana\nha regresado sana y salva!\n\n\n\x0E\x01\x09\x04\n\x400La verdad es que estaba muy\npreocupado, pero al final todo\nha salido bien.\n\n\x0E\x01\x09\x04\x0B\x400¡Y todo gracias a ti, Link!\n¡Te debo una!
+TOWN2_115_01: \x0E\x01\x09\x04\x0B\xE09¡Link, mi hermana está\na salvo!\n\n\n\x0E\x01\x09\x04\n\x400No sé qué habría hecho si le hubiera\npasado algo... ¡Me he quitado un \npeso de encima!\n\n¿Cómo? ¿Dices que fuiste tú el que\nle llevó la medicina?<pause14> ¿En serio?\n\x0E\x01\x09\x04\x0B\x400¡Muchísimas gracias!\n\nEsto no es ni la mitad de lo que\nte mereces por lo que has hecho,\npero acéptalo, por favor.
+TOWN2_115_02: \x0E\x01\x09\x04\x0B\xA05Vaya, qué lástima... Quería darte esta\n<y<botella vacía>>, pero al parecer no te\nqueda espacio libre en la alforja ni\ntampoco en la consigna...\nBueno, puedo guardártela. Si consigues\nhacer algo de espacio, ven a verme\nmás tarde y será toda tuya.
+TOWN2_115_03: \x0E\x01\x09\x04\x0B\x400Este artículo sirve para una gran\nmultitud de cosas. ¡Gracias, gracias!
+TOWN2_117: \x0E\x01\x09\x04\x0B\xE09Ah, Link, muchas gracias\npor salvar a mi hermana. Estoy\nen deuda contigo.
+TOWN2_117_01: \x0E\x01\x09\x04\x00\x01¡Hola, Link!\nÚltimamente no se ve a Zelda por\naquí... ¿Sabes si le ha pasado algo?
+TOWN2_117_02: \x0E\x01\x09\x04\x00\x01¡Hola, Link!\n\n\n\n\x0E\x01\x09\x04\n\x400¿Cómo dices?, ¿<r<dos hojas de viento>>?<pause1E>\n¡No me cuentes acertijos raros, que no\nsé de esas cosas! ¡Pregúntale a un\n<r<vidente>> o algo así!
+TOWN2_117_03: \x0E\x01\x09\x04\n\x405¡¿Has visto eso?! ¡¿Lo has visto?!\n¡De repente ha surgido un rayo de\nluz desde aquella torre hacia el gran\ncúmulo!\nEs como si estuviera pidiendo que\nalguien lo siga hasta allí...
+TOWN2_117_04: \x0E\x01\x09\x04\x00\x01¡Hola, Link!\n¿No te parece que hace mucho que\nno vemos juntos a esos tres granujas\nque tú y yo sabemos?\nMe pregunto si se habrán decidido\na estudiar de una vez por todas...
+TOWN2_117_05: \x0E\x01\x09\x04\x00\x01¡Hola, Link!\nAcabo de llegar de visitar esa\nmisteriosa isla de la ruleta de la\nque me habló mi hermana.\nHabía un tipo muy raro que no dejaba\nde hablar de una <r<ruleta >>que se le había \ncaído y había desaparecido bajo las\nnubes.\nNo sé cómo piensa que va a poder\nrecuperarla... ¡Yo daría la ruleta\npor perdida!
+TOWN2_117_06: \x0E\x01\x09\x04\x00\x01¡Hola, Link!\nSiempre que te veo tienes prisa\npara llegar a algún sitio, ¿eh?
+TOWN2_204: \x0E\x01\x09\x04\n\x405¿Por qué les gustará tanto este lugar\na las mariposas? Aquí no hay nada...
+TOWN2_204_01: \x0E\x01\x09\x04\x00\x01Oye, hace un momento, en la plaza... \nNo habrás hecho de las tuyas, ¿verdad?\nEs que al ver cómo el cielo se oscurecía\nasí, tan de repente...
+TOWN2_204_02: \x0E\x01\x09\x04\x00\x01¿Has oído el estruendo ese tan grande?\nParecía como si la isla fuera a estallar\nen pedazos. ¿Qué habrá pasado?
+TOWN2_222: \x0E\x01\x09\x04\x0B\x409¡La isla de la Diosa ha desaparecido!\n¡Es terrible!\n\n\n\x0E\x01\x09\x04\n\x400Sin duda esto no presagia nada bueno,\nes obvio...
+TOWN2_224: \x0E\x01\x09\x04\n\xA00Por cierto, tu compañero ese de la\nacademia de caballeros, el tal <b<Vestro>>...\n\n\nDice que encontró el paraíso de\nlos insectos <r<dentro del gran cúmulo>>.\nSe nota que le gustan esos insectos...\n\n\x0E\x01\x09\x04\x0B\x400De todas formas, me pregunto qué\ntendrá pensado hacer por allí...
+TOWN2_226: \x0E\x01\x09\x04\x01\x400Por cierto, ¡<b<Vestro >>dice que tiene\npensado construir un paraíso de\ninsectos dentro de una isla del <r<gran\ncúmulo>>!
+TOWN2_226_01: \x0E\x01\x09\x04\x01\x400Ahora que me acuerdo, hace un rato he\nvisto a <b<Vestro>> volando hacia el cúmulo.\nIba muy contento, decía no sé qué\nde un <r<insecto muy raro>>.\n¡Este chico!... Si no cambia, va a volver\na tener problemas con los exámenes.\nDebería preocuparse menos por los\ninsectos y estudiar un poco más.
+TOWN2_98: \x0E\x01\x09\x04\x00\x50B¡Hola, Link!\n¡Llegas justo a tiempo!\n\n\n\x0E\x01\x09\x04\x12\x200Verás, mi neburí se ha hecho daño\nmientras paseábamos y no puede volar.\n\x0E\x01\x09\x04\x01\x1500Hemos aterrizado aquí como hemos\npodido, pero ahora no sé qué hacer.\n\x0E\x01\x09\x04\x12\x1500No podemos volver hasta que no se\ncure, pero para eso necesito<r< >>algún\ntipo de <r<medicina>>.\n\nClaro, tiene que ser <r<medicina\nespecial para neburís>>.\n\n\nLink, tú... \x0E\x01\x09\x04\x15\x200¿tú podrías\ntraerme medicina para neburís?\n[1]Claro[2]Lo siento
+TOWN2_99: \x0E\x01\x09\x04\x0B\x409¡Muchísimas gracias! ¡Te debo la vida!
+TOWN2_100: \x0E\x01\x09\x04\x0C\x1513¿Eh? ¿Es que acaso no tienes corazón?\n\x0E\x01\x09\x04\x0B\x409Menos mal que sé que estás bromeando,\nque si no...
+TOWN2_101: <r<Mi hermano tiene la medicina para\nel neburí>>. Lo mejor será que vayas\na hablar con él.\n\nMe imagino que estará esperándome\n<r<en la plaza de Neburia>>. Pobre, seguro\nque está hecho un manojo de nervios...
+TOWN2_211: \x0E\x01\x09\x04\x09\x509Oye, ¡pero si tienes la medicina!\n¿Y por qué no dices nada? Esas\n<y<esporas de champiñón >>son lo que\nnecesitamos...\nCon ellas, mi pequeño se curará\nde inmediato. Si no es mucha molestia,\n¿te importaría dármelas?\n[1]Aquí tienes[2-]Lo siento
+TOWN2_231: \x0E\x01\x09\x04\x00\x50BEntonces, ¿me das las esporas de\nchampiñón? Con ellas, mi pequeño\nse curará de inmediato.\n[1]Aquí tienes[2-]Lo siento
+TOWN2_229: Vaya, supongo que era mucho pedir...\n¿Podrías al menos hablar con mi\nhermano y contarle lo que ha pasado?
+TOWN2_102: Cómo, ¿dices que ya has estado con él?\nPerfecto, eso lo hace todo mucho\nmás sencillo.
+TOWN2_104: Yo te espero aquí con este pequeño,\n¿de acuerdo?\n\n\nYa sabes lo que tienes que hacer,\n¡confío en ti!
+TOWN2_105: <r<\x0E\x01\x09\x04\x00\x01M>><r<<r<i hermano tiene l<r<a medicina para\nel neburí>>... Ve a buscarlo, ¡deprisa! \n\n\nYo te espero aquí junto a este pequeño.\nPor favor, ¡tienes que ayudarnos!
+TOWN2_111: \x0E\x01\x09\x04\x00\x0B¡Son las <y<esporas de champiñón>>!\nMenos mal que has podido traerlas...\n\n[1]Tómalas[2-]Lo siento
+TOWN2_112: \x0E\x01\x09\x04\x00\x1113Cómo... ¿Cómo puedes ser tan cruel?
+TOWN2_113: \x0E\x01\x09\x04\x0B\x409¡Muchas gracias! Con esto podré curar \nlas heridas de mi pájaro.
+TOWN2_189: \x0E\x01\x09\x04\x00\x04Ya verás como se pone bien en menos\nque canta un neburí.
+TOWN2_116: \x0E\x01\x09\x04\x00\x09Menos mal... Empezaba a temer\nque ya fuera demasiado tarde.\n¡Pero has venido justo a tiempo!\n\nMi pájaro y yo te debemos la vida...\n¡Muchas gracias!
+TOWN2_114: \x0E\x01\x09\x04\x00\x04Bueno, será mejor que me vaya.\n¡Nos vemos en Neburia!
+TOWN2_118: \x0E\x01\x09\x04\x00\x0BHola, Link.\nOye, muchas gracias por tu ayuda.\n\n\n\x0E\x01\x09\x04\x00\x400Mi neburí vuelve a estar sano\ncomo un roble. De verdad, no sé\nqué hubiéramos hecho sin ti... \n¡Muchísimas gracias!
+TOWN2_118_01: \x0E\x01\x09\x04\x00\x01¿Qué tal, Link?\nOye, hace mucho que no veo a esa chica\nrubia tan agradable de la academia...\n\nSe llamaba Zelda, ¿verdad<pause05>.<pause05>.<pause05>.<pause05>?\nAntes iban juntos a todas partes...\n¿Qué pasa? ¿Es que ya no se hablan?
+TOWN2_118_02: \x0E\x01\x09\x04\x00\x01Hola, Link.\n\n\n\n\x0E\x01\x09\x04\x11W¿<r<Dos grandes hojas>>, dices? No sé a qué\nse referirá, la verdad...\n\n\n\x0E\x01\x09\x04\x01\x00Bueno, ahora que lo pienso, las aspas\nde los <r<molinos >>de Neburia podrían\nconsiderarse unas hojas, y además\nestán bastante altas... ¿no crees?
+TOWN2_118_03: \x0E\x01\x09\x04\x00\x13Durante un instante, parecía que\nlas tinieblas devoraban por completo\nel cielo... ¿Qué podría provocar\nalgo así?
+TOWN2_118_04: \x0E\x01\x09\x04\x00W¿La Trifuerza?<pause14> No lo sé, chico...\nNi siquiera había oído mencionar\nel nombre antes.\n\nTe aconsejo que hables con el director\nde la academia. Si alguien sabe algo\nsobre ese tipo de cosas, es él.
+TOWN2_118_05: \x0E\x01\x09\x04\x00\x01¿Qué tal, Link?\n\n\n\n\x0E\x01\x09\x04\x0C\x200Oye, ¿has aprendido a ejecutar la\nlegendaria técnica de vuelo llamada\n\"tirabuzón aéreo\"?<pause1E> Ah, ¿en serio?\n\x0E\x01\x09\x04\x0C\x50B¡Pues te felicito!
+TOWN2_118_06: \x0E\x01\x09\x04\x00\x13¿Has sentido ese temblor tan fuerte?\nNo sé a qué se habrá debido...\n¿Tú sabes lo que está pasando?
+TOWN2_223: \x0E\x01\x09\x04\x00\x01¡Link... la isla de la Diosa\nha desaparecido!\n\n\n\x0E\x01\x09\x04\x00\x1513Qué pena... ¡Con lo que les gustaba\na los neburís posarse allí para descansar!
+TOWN2_119: Oooh...
+TOWN2_201: Oooh...\nPor caridad... \nQue alguien me ayude...
+TOWN2_120: Oooh...\nNecesito <r<papel>>...\n\n\n<r<Un poco de papel>>, por caridad...\nAlguien, quien sea...\nPapel, por favor...\n\nMe sirve <r<cualquier cosa>>...\nmientras sea de <r<papel>>...\nOooh...
+TOWN2_128: Ah... ¡<r<Papel>>!...\n¡Me has traído <r<papel>>!...\n\n\nTe abriré la puerta...\nPasa, pasa, por favor...
+TOWN2_129: \x0E\x01\x09\x04\x00\x01Por favor, olvida lo del papel\nque te pedí...\nAdiós...
+TOWN2_131: Oooh... <r<Papel>>...\nNecesito <r<papel>>...\nPor caridad...\n\nNo pido mucho...\n<r<Solo un poco de papel>>...\n[1]Toma esta\ncarta[2-]Lo siento
+TOWN2_133: \x0E\x01\x09\x04\x05\x03Uuuf... Por favor... papeeel...
+TOWN2_132: \x0E\x01\x09\x04\x0B\x04¿Eh?\n¿Me la das, de verdad?...\nQué alegría...
+TOWN2_220: Pero... esto parece una carta dirigida\na alguien... No sé si está bien usarla\npara...\n[1]Descuida[2-]Mejor no
+TOWN2_134: \x0E\x01\x09\x04\x00\x02Pues gracias...\nLa usaré con sumo cuidado...\n\n\nPero soy una señorita, así que no me\npreguntes para qué la quiero...\n\n\nHasta la vista... \nMi amable benefactor...
+TOWN2_136: \x0E\x01\x09\x04\x00\x04Ah...\nEres el amable jovencito del otro día...
+TOWN2_221: \x0E\x01\x09\x04\x06\x02Me alegro de volver a verte...\nGracias a ti, he encontrado a mi\npríncipe azul...\n\nSí, creo que ya sabes quién es...\n\n\n\n\x0E\x01\x09\x04\x0C\x00Por supuesto, todo empezó con\naquella carta que me diste...\n\n\n\x0E\x01\x09\x04\x06\x00¡Sus dulces palabras me han robado\nel corazón!
+TOWN2_225: \x0E\x01\x09\x04\x00\x02Ay, no puedo pensar en otra cosa\nque no sea él, de noche y de día...\nMe siento tan llena de vida...
+TOWN2_135: \x0E\x01\x09\x04\x00\x02Oh, querido mío...\nTe amaré toda mi vida...\nEstaré siempre a tu lado...
+TOWN2_121: Hmm... ¿Debo dar yo el primer paso\no esperar a que ella venga a mí?
+TOWN2_122: ¡Aah! ¡Link, qué susto me\nhas dado! Ten más cuidado, ¿eh?\n\n\n\x0E\x01\x09\x04\x17\x1800Vamos, ¡lárgate y no me molestes más,\nque estoy pensando en un asunto\nde mucha importancia!\n[1]¿Cuál?[2]Te ayudo
+TOWN2_123: ¿Cómo? ¿Y desde cuándo te interesas\ntú por mis problemas?\n\n\n\x0E\x01\x09\x04\x00\x1C¡Puf!... Eres la última persona a la\nque se me ocurriría pedirle consejo.\nPero bueno, ya que insistes...
+TOWN2_124: ¿Lo dices en serio?\n\n\n\n\x0E\x01\x09\x04\x00\x1CHum... No sé si me gusta que metas\nlas narices en mis asuntos, pero ya\nque insistes...
+TOWN2_125: Quizá puedas ayudarme. Es cierto\nque tú y yo no nos llevamos muy bien,\npero también me consta que sabes\ntratar a las mujeres...\nYa está, ¡decidido! Link,\nte voy a encomendar una tarea.
+TOWN2_227: Quiero que le des este <r<papel >>a cierta\npersona. Es un asunto muy importante,\n¡así que asegúrate de que lo reciba sin\nfalta!
+TOWN2_203: \x0E\x01\x09\x04\x00\x08Pero bueno... ¿Se puede saber\nqué haces, mirando hacia el retrete?
+TOWN2_228: ¿Dices que había alguien pidiendo\npapel en el retrete por la noche?
+TOWN2_203a: \x0E\x01\x09\x04\x00\x1B1BOye, ¡ni se te ocurra! Esto no es\nun simple papel... ¡es una <r<carta>>!\n\n\n\x0E\x01\x09\x04\x17\x2500He puesto todo mi corazón en estas\nlíneas... Cada palabra, cada frase... \n¡Rebosa amor por los cuatro costados!\n\n\x0E\x01\x09\x04\x17\x1800¡Y tú pensando en usarla como papel\nhigiénico!...
+TOWN2_230: A ver, escucha... La persona a la que va\ndirigida es una alumna de último curso,\n<b<Grusi>>.\n\n\x0E\x01\x09\x04\x01\xC11¿Sa... sabes quién te digo? Esa chica\ntan bonita que lleva siempre una <r<boina\nmuy redondeada>>.\n\n\x0E\x01\x09\x04\x17\x1800No vayas a dársela a <r<la loca del retrete>>,\n¿eh? ¡Que te conozco!
+TOWN2_233: Bueno, aquí tienes la carta...\n¡Pero no se te ocurra leerla!
+TOWN2_126: ¡Cuento contigo, Link!\nSi todo va bien, puede que incluso\nte deje entrar en la pandilla.\nBueno, gracias y todo eso. 
+TOWN2_127: \x0E\x01\x09\x04\x00\x02¿Lo entiendes, Link?\nTienes que darle la carta a la alumna\nde la <r<boina>>. \n\n\x0E\x01\x09\x04\x01\x1B00Como se la des a <r<la loca del retrete>>...\n¡no sé lo que te hago!
+TOWN2_130: \x0E\x01\x09\x04\x00\x08¿Qué quieres, Link?...\nEstoy ocupado pensando en Grusi,\n¿o es que no me ves?\n\nSi tienes algo que decirme, vuelve\npor la mañana. ¡Vamos, lárgate!
+TOWN2_205: \x0E\x01\x09\x04\x00\x13¡¿Cómo?! ¿Dices que... que ya le has\ndado la carta a <b<Grusi>>...?\n\n\n\x0E\x01\x09\x04\x01\x2500¡Ay, qué nervios! ¿Y ahora qué hago?...\nDebería ir a hablar con ella, a ver qué\nme responde, ¿no?\n\n\x0E\x01\x08\x02\xFFCD\x0E\x01\x09\x04\x01\x1F00Qué vergüenza...
+TOWN2_235: \x0E\x01\x09\x04\x00\x0FBuf... Me pregunto si <b<Grusi>> habrá\ncomprendido lo que siento por ella... \n\n\n\x0E\x01\x08\x02\xFFCD\x0E\x01\x09\x04\x01\x1F00¿Qué debo hacer? Se me va a salir el corazón\npor la boca de tantos nervios...
+TOWN2_139: \x0E\x01\x09\x04\x00\x10Je, je, je... ¡Se acabó la tiranía de\n<b<Vilán>>! Ahora este cuarto es mío\ny solo mío.
+TOWN2_137: \x0E\x01\x09\x04\x00TZzz... zzz... Ay, no me despeines...\nZzz... zzz...
+TOWN2_188: \x0E\x01\x09\x04\x00\x17Grrr... Dichoso <b<Cocu>>... ¡Te odio!\n¡Prometo que me vengaré!
+TOWN2_140: \x0E\x01\x09\x04\x00\x02¡Oye, Link! Le diste\nmi carta a Grusi, ¿verdad?\n[1]Pues...[2]¿Qué carta?
+TOWN2_141: \x0E\x01\x09\x04\x11\x1F1D¡¿Cómo?! ¿Dices que se la diste...\na la loca del retrete?
+TOWN2_145: \x0E\x01\x09\x04\x15\x1F12¿Eh? ¿¡Cómo que qué carta!?\n\n\n\n\x0E\x01\x09\x04\x11\x1B00Oye... no se la habrás dado a la loca\ndel retrete, ¿verdad? ¡Porque solo\na ti se te ocurriría hacer algo así!
+TOWN2_146: \x0E\x01\x09\x04\x01\x1F00¡Te lo dije! ¡Te advertí que era una\ncarta para Grusi!... ¡Me prometiste\nque se la darías a ella!\n\n\x0E\x01\x09\x04\x1A\x1F17¡Lo has estropeado todo!\n¿Crees que tienes derecho a jugar \ncon los sentimientos de la gente?\n¡Ojalá te devore un neburí salvaje!\nNo quiero volver a verte en mi vida.\n¡Te odio, Link!
+TOWN2_208: \x0E\x01\x09\x04\x00\x1F18¡¡¡Nooooo!!!
+TOWN2_148: 
+TOWN2_181: \x0E\x01\x09\x04\x1B\x1F17¿Es que no vas a dejarme en paz,\nLink?... ¿No te parece\nbastante lo que me has hecho?\n\n\x0E\x01\x09\x04\x1C\x1F00No sé quién será la loca del retrete,\npero solo de pensar que haya leído\nmi carta... Ay, qué desastre.
+TOWN2_147: \x0E\x01\x09\x04\x1B\x1F17¿Qué quieres, Link?\n¡Te advierto que no he olvidado lo\nque me has hecho!\n\nDesde aquello apenas puedo dormir\npor las noches. Aunque es mejor, \nporque no tengo más que pesadillas...\n\nNo sé qué puede estar pasando; es como\nsi la cama estuviera embrujada o algo\nasí... Quizá es la maldición de <b<Vilán>>.\n\n\x0E\x01\x09\x04\x1C\x1A18¡Por favor, Link!\n¡Ayúdame!
+TOWN2_187: \x0E\x01\x09\x04\x1B\x1F1BDesde aquello apenas puedo dormir\npor las noches. Y casi mejor, porque no\ntengo más que pesadillas horripilantes.\n¿Estará la cama embrujada? \n¡Quizá es la maldición de <b<Vilán>>!\n¡Por favor, Link!\n¡Ayúdame!
+TOWN2_186: \x0E\x01\x09\x04\x00\x17Todo se ha acabado... \nYa no importa nada...\n\n\n\x0E\x01\x09\x04\x1C\x1F00¿Qué miras, Link?\n¿Has venido a reírte de mí?\nVamos, déjame tranquilo...
+TOWN2_138: \x0E\x01\x09\x04\x00\x01Oye, Link... ¿Puedo\npreguntarte qué opinas de <b<Cocu>>?\n[1]Buen tipo[2]¿Por qué?
+TOWN2_149: \x0E\x01\x09\x04\x0B\x70A¿Verdad que sí? Es agradable, atento,\nsiempre puedes confiar en él...\n¡Y además es guapo! ¿Qué más puede\npedir una chica?\n\x0E\x01\x09\x04\x0C\x416Ejem... Esteee... Vaya, creo que\nme he dejado llevar por la emoción.\nNo sé qué me ha pasado.\n\n\x0E\x01\x09\x04\x08\x400Perdona, no pretendía molestarte\ncon mis tonterías.\n
+TOWN2_150: \x0E\x01\x09\x04\x01\x406¿Cómo? Pues verás... \n\n\n\n\x0E\x01\x09\x04\x08\x416Na... nada, olvídalo. No sé por qué te\nhe preguntado algo así. Soy una boba...
+TOWN2_150_1: \x0E\x01\x09\x04\x01\x404¡Vaya...<pause14> Link!\n¡Felicidades por pasar de curso!\n\n\n\x0E\x01\x09\x04\x08\x400¡Así que el uniforme de caballero de\neste año es verde! <pause14>Me gusta mucho. \n\n\n\x0E\x01\x09\x04\n\x1000Si Zelda te viera vestido así, estaría\norgullosa de ti...\n\n\n\x0E\x01\x09\x04\x00\x406¡No te preocupes! Seguro que está\nbien. Ya verás como vuelve antes\nde lo que tú crees.
+TOWN2_150_2: \x0E\x01\x09\x04\x00\x1001¡Ese uniforme te sienta genial!\n\n\n\n\x0E\x01\x09\x04\x00\x40AAunque todavía te falta mucho para\nllegar a la altura de Cocu, claro...\n¡Ji, ji!
+TOWN2_151: \x0E\x01\x09\x04\x00\x14Ay... ¿Qué tiene que hacer una para\nque <b<Cocu>> se fije en ella?
+TOWN2_152: \x0E\x01\x09\x04\x08\x404¡Uah! ¡Link!\n\n\n\n¿Qué... qué pasa? No habrás...\n\x0E\x01\x08\x02\xFECDNo habrás oído lo que acabo de decir, ¿verdad?\x0E\x01\x08\x02Í\n\n[1]Toma esta\ncarta[2]Claro\nque no...
+TOWN2_153: \x0E\x01\x09\x04\x01\x406¿Qué pasa, Link?\nA veces parece que estás planeando\nalgo...
+TOWN2_154: \x0E\x01\x09\x04\x08\x906¿Eh, una carta...? ¿Y es para mí?<pause0A>.<pause0A>.<pause0A>.<pause0A>\n¡Ay! ¿No será de <b<Cocu>>?\n[1]Léela[2]Olvídalo
+TOWN2_155: \x0E\x01\x09\x04\x08\x912¿Pero qué te pasa?\n¡No te burles de mí!
+TOWN2_156: \x0E\x01\x09\x04\x0E\x90AGra... gracias por traérmela... \nVamos a ver...
+TOWN2_200: \x0E\x01\x09\x04\x10\x400¿De quién será?...
+TOWN2_157: \x0E\x01\x09\x04\x10\xD00Veamos...<pause14> \x0E\x01\x06\x02\xFECDBuf, qué letra...\x0E\x01\x06\x02Í\n\n\n\n\x0E\x01\x09\x04\x10\x400Aunque eso es lo de menos, claro.\nLo importante es lo que diga...
+TOWN2_202: \"Querida Grusi:\nMi amor por ti es más grande que\nel ancho cielo y más puro que las\nnubes mismas\".\n\x0E\x01\x09\x04\x13\x1200\"Si accedes a salir conmigo, me harás\nel hombre más feliz sobre la faz de\nNeburia. A tus pies: <b<Corvy>>\".\n\n\x0E\x01\x09\x04\x00\x500.<pause0A>.<pause0A>.<pause0A>.<pause0A>.<pause0A>.<pause0A>.<pause0A>.<pause0A>.\n\n\n\n\x0E\x01\x09\x04\x01\xD00Pero, oye... ¿Ese <b<Corvy >>no es uno de\nlos de la pandilla de <b<Vilán>>?\n\n\n\x0E\x01\x09\x04\x0C\x400¿Ese tipo me ha escrito a mí\nuna carta de amor?\n\n\n\x0E\x01\x09\x04\x0B\x712Lo que me faltaba...
+TOWN2_158: \x0E\x01\x09\x04\x00\x09Aunque la verdad es que es una carta\nmuy bonita. Se ve que le ha puesto\nmucho sentimiento.\n\nQuizá debería darle una oportunidad\na <b<Corvy>> y salir con él...\n\n\n\x0E\x01\x09\x04\x08\x900¡Y que te lo crees! Es broma, bobo...\n\n\n\n\x0E\x01\x09\x04\x01\xD14Ay... Pero... me pregunto qué pensaría\n<b<Cocu>> si se llegara a enterar de esto.
+TOWN2_159: \x0E\x01\x09\x04\x00\x01Gracias por traerme la carta,\nLink.\n\n\n\x0E\x01\x09\x04\x01\xD14Ay... ¿Cómo se tomaría <b<Cocu >>esto\nsi se llegara a enterar?
+TOWN2_206: \x0E\x01\x09\x04\x08\x909Ji, ji... Te debo una, Link.\nGracias a ti, tengo un novio genial.\nAunque me siento un poco mal\npor el pobre <b<Corvy>>... 
+TOWN2_160: \x0E\x01\x09\x04\x00\x01Oye, Link... No sé cómo\nlo haces, pero cada día estás más\natractivo. ¡Y ese uniforme te queda\nmuy bien!\n¡Te estás convirtiendo en un hombre\nhecho y derecho!
+TOWN2_160_01: \x0E\x01\x09\x04\x00\x06¿Cómo? ¿La Trifuerza, dices?...<pause1E>\n¿Y qué se supone que es eso?
+TOWN2_160_02: \x0E\x01\x09\x04\x08\xE06¿Cómo? ¿Ya has aprendido a hacer \nel tirabuzón aéreo con tu neburí?\n\n\n\x0E\x01\x09\x04\x08\x909¡Eres impresionante!<pause1E>\x0E\x01\x09\x04\x0C\x400 Aunque...<pause14> debo\ndecirte que Cocu también domina\nesa maniobra. ¡Es todo un experto!
+TOWN2_160_03: \x0E\x01\x09\x04\x0C\x456¿Se puede saber qué ha pasado ahí fuera?\nQué estruendo...
+TOWN2_161: \x0E\x01\x09\x04\x00\x01¡Hola, Link!\n¡Felicidades por pasar de curso!\nY ya veo que estrenas uniforme...\n¡Te sienta muy bien!\n\x0E\x01\x09\x04\x10\x1100Pero bueno, ahora no es momento\npara frivolidades... Todavía no puedo\ncreer que Zelda haya desaparecido.\n\n\x0E\x01\x09\x04\x0C\x1400Sé que ella y tú eran buenos amigos,\nasí que me imagino cómo debes\nde sentirte.\n\n\x0E\x01\x09\x04\x08\x1400Pero no te desanimes; ten confianza\ny sé positivo. ¡Estoy convencido\nde que sigue viva y de que volverá\npronto! Ánimo.
+TOWN2_161_01: \x0E\x01\x09\x04\x00\x01¡Hola, Link!\n¿Qué tal estás, compañero?\n¿Un poco más animado?\n\n\x0E\x01\x09\x04\x09\x1400Aunque no lo creas, yo también tengo\nmis problemas... ¡y bastante grandes!\nPero delante de los amigos me hago\nel fuerte, para no preocuparlos.\n\x0E\x01\x09\x04\x11\x400Y así, poco a poco parece que\nlos problemas se van diluyendo.\n¡O al menos eso creo! A mí me\nfunciona bastante bien.
+TOWN2_161_02: \x0E\x01\x09\x04\x00\x05¡Hola, Link!\nMe alegra verte con tan buena\ncara últimamente.\n\n\x0E\x01\x09\x04\x00\x40B¡Que no decaiga el ánimo! <pause14>\nYa verás como Zelda volverá antes\nde lo que piensas. ¡Ten confianza!
+TOWN2_161_03: \x0E\x01\x09\x04\x00\x01¡Oye, Link!\n¿Qué tal estás?\n\n\n\x0E\x01\x09\x04\x0C\x1400¿Cómo dices? ¿La Trifuerza\nescondida por la Diosa?...\n \n\n\x0E\x01\x09\x04\x10\x1100Mmm... Me temo que yo no te voy\na servir de mucha ayuda...\n\n\n\x0E\x01\x09\x04\x08\x1400Será mejor que les preguntes a los\nprofesores sobre ese tema.
+TOWN2_161_04: \x0E\x01\x09\x04\x00\x1101¡Link!\nTe voy a contar una cosa, pero tienes\nque prometerme que no se lo vas a\ncontar a nadie, ¿de acuerdo?\n\x0E\x01\x09\x04\x0C\x400Salí a dar un paseo y, de repente,\nemergieron unas extrañas ruinas\nbajo la isla de la Diosa.\n\n\x0E\x01\x09\x04\x11\xE00¿Qué está ocurriendo en Neburia?\n¡Ya no reconozco este lugar!
+TOWN2_161_05: \x0E\x01\x09\x04\x0C\x401¿Te has enterado?\n¡La isla de la Diosa se ha hundido!\n<pause1E>Es la peor tragedia en la historia\nde Neburia...\n\x0E\x01\x09\x04\x11\xE00Aunque puede que la Diosa esté\nintentando decirnos que debemos\nandar nuestro propio camino sin\nsu protección.
+TOWN2_161_06: \x0E\x01\x09\x04\x0C\x40B\x0E\x01\x08\x02\xFECDAdemás, yo ya tengo mi propia diosa...
+TOWN2_162: \x0E\x01\x09\x04\x00\x01¡Hola! ¿Qué se te ofrece,\nLink?
+TOWN2_191: \x0E\x01\x09\x04\x01\xC09¿Cómo? ¿Que alguien le ha mandado\na <b<Grusi >>una carta de amor?...\n\n\n\x0E\x01\x09\x04\x0F\x1100Va... vaya... Interesante...\n\n\n\n\x0E\x01\x09\x04\x0C\xC54Y, ejem, este... ¿Te ha dicho ella qué\nes lo que piensa hacer al respecto?\n\n\n[1]Salir con él[2]No sé
+TOWN2_163: \x0E\x01\x09\x04\x11\xE53¡¿Cómo?! ¡No puede ser!...
+TOWN2_164: \x0E\x01\x09\x04\x0F\x1118Ya, cómo vas a saberlo, claro. Pu... pues\nme gustaría enterarme, la verdad...
+TOWN2_165: \x0E\x01\x09\x04\x11\xE09Eh... no sé por qué he dicho eso.\nDespués de todo, solo somos amigos...\n<b<Grusi>> puede hacer lo que ella quiera,\npor supuesto.\nSi quiere salir con alguien, no es\nasunto mío...\n\n\n\x0E\x01\x09\x04\x0C\xC00Pero lo que no puedo permitir es\nque eso afecte al ambiente dentro\nde la academia... ¡Todos somos\ncompañeros, al fin y al cabo!\n\x0E\x01\x09\x04\x08\xC00Tú me entiendes... Lo ideal es elegir\nlibremente a quién amar, ¿no?\nDe hecho, si no es así, no creo que\npueda considerarse amor verdadero.\n\x0E\x01\x09\x04\x0B\xC00Mi deber es asegurarme de que\nGrusi elija su amor sin ningún\ntipo de trabas ni condicionantes.\n\n\x0E\x01\x09\x04\x11\xE00¡Porque yo también tengo derecho\na amar a quien quiera! ¡Claro que sí!\n¡Y nadie me lo puede negar!\n\n\x0E\x01\x09\x04\x0C\xC1B¿Tengo razón o no, Link?\n[1]No sé[2]¿Ella te gusta?
+TOWN2_165_1: \x0E\x01\x09\x04\x11\xE53¡No... no digas tonterías,\nLink!\n\n\n\x0E\x01\x09\x04\x12\xC00Qué cosas se te ocurren...\n¡Me temo que has malentendido\ntodo lo que he dicho!\n
+TOWN2_165_2: \x0E\x01\x09\x04\x0F\x1152Bu... bueno, mejor lo dejamos...\n¡Ahora no es momento para hablar\nde estas cosas!
+TOWN2_165_3: \x0E\x01\x09\x04\x10\x1117En fin, no importa. Oye...\n\n\n\n\n\x0E\x01\x09\x04\x0F\xC00¿Me harías un gran favor?\nSi pudieras enterarte de qué es\nlo que decide finalmente Grusi...\n¡Pero trata de ser discreto!
+TOWN2_166: \x0E\x01\x09\x04\x00\x18Mmm...\n\n\n\n\x0E\x01\x09\x04\x0F\x1100Si tú sintieras un interés especial, por\ncualquier motivo, en saber cómo\nacaba esa historia... No estaría mal\nvisto que fueras a preguntarle, ¿no?\n\x0E\x01\x09\x04\x11\xE00No lo digo porque yo tenga curiosidad,\n¿eh? Es que me gusta estudiar el amor\ndesde un punto de vista, digamos...\nteórico.
+TOWN2_167: \x0E\x01\x09\x04\x0C\x401¡Eh, Link! Gracias a ti\ntengo una novia maravillosa.\n¡Te debo una, compañero!
+TOWN2_168: Tú eres el autor de la carta, ¿no?
+TOWN2_169: Pues... sí...
+TOWN2_170: \x0E\x01\x09\x04\x1400\x09Ji, ji, ji... Se te da muy bien escribir\ncartas de amor. ¡Muchas gracias!
+TOWN2_171: \x0E\x01\x09\x04\x500\x11Ejem, no... no es para tanto...
+TOWN2_207: Bueno, en... entonces...\n¿Cuál es tu respuesta?...
+TOWN2_172: \x0E\x01\x09\x04\x1400\x12¿Mi respuesta? Ah, tienes razón.\nEn estos casos se suele responder, ¿no?
+TOWN2_173: \x0E\x01\x09\x04\x500\x2519Por... Por favor, ¡sal conmigo!
+TOWN2_174: ¡Alto ahí!
+TOWN2_175: Si vas a salir con alguien...\n¿por qué no sales conmigo?\nLo que quiero decir es que...\n¡me encantaría que fueses mi novia!
+TOWN2_176: \x0E\x01\x09\x04\x500\x1B09¿Pero qué...? ¡Un momento!\n¿Por qué te entrometes en este asunto?
+TOWN2_177: Este... yo...\x0E\x01\x09\x04\x1400\x900 Quiero salir con Cocu.
+TOWN2_199: \x0E\x01\x09\x04\x515\xC10¡Ja, ja, lo sabía! Grusi solo tiene\nojos para... Oye, un momento...
+TOWN2_178: \x0E\x01\x09\x04\x511\x1D1D¿Có... cómo?
+TOWN2_179: \x0E\x01\x09\x04\x1201\xFF00¿Lo dices en serio? ¿Me eliges a mí?
+TOWN2_180: ¡Pues claro! \x0E\x01\x09\x04\x1400\x900Me has hecho muy feliz.\nGracias...
+TOWN2_182: \x0E\x01\x09\x04\x500\x1D17Esto no puede estar pasando...\nNo es justo... ¿Por qué? ¿Por qué?...
+TOWN2_183: \x0E\x01\x09\x04\x500\x18¡¡¡Buaaaah!!!
+TOWN2_184: \x0E\x01\x09\x04\x1200\x01¡Link!
+TOWN2_185: Desde el momento en el que me dijiste\nlo de la carta, me di cuenta de mis\nsentimientos por ella.\n\n\x0E\x01\x09\x04\x1209\xC00Y me dije a mí mismo que no podía\npermitir que otro me la arrebatara.\n\n\n\x0E\x01\x09\x04\x1201\x400Si no llega a ser por ti, quizá nunca\nme hubiera dado cuenta de todo esto.\n\n\n\x0E\x01\x09\x04\x1208\x0B¡Muchas gracias, compañero!\nLa verdad es que no sé cómo\nagradecértelo...

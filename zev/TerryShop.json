@@ -1,0 +1,302 @@
+{
+    "header": {
+        "magic": 30554,
+        "evntcount": 1,
+        "actorcount": 3,
+        "unk1count": 5,
+        "unk2count": 5,
+        "unk3count": 4,
+        "alwaysev": "45 76",
+        "unk4count": 2,
+        "unk5count": 4,
+        "unk6count": 0
+    },
+    "evnts": [
+        {
+            "name": "TerryShopEnter",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 0,
+            "actorcount": 3
+        }
+    ],
+    "actors": [
+        {
+            "name": "Tshop",
+            "unk1": 25,
+            "unk2": 0,
+            "actindex": 0,
+            "actcount": 2
+        },
+        {
+            "name": "Link",
+            "unk1": 2,
+            "unk2": 0,
+            "actindex": 2,
+            "actcount": 2
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 0,
+            "actindex": 4,
+            "actcount": 1
+        }
+    ],
+    "unk1s": [
+        {
+            "name": "wait",
+            "next": -1,
+            "actorindex": 0,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 0,
+            "dummy1": 1,
+            "actor": {
+                "name": "Tshop",
+                "unk1": 25,
+                "unk2": 0,
+                "actindex": 0,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "enter",
+            "next": 3,
+            "actorindex": 0,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 1,
+            "dummy1": 1,
+            "actor": {
+                "name": "Tshop",
+                "unk1": 25,
+                "unk2": 0,
+                "actindex": 0,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "equip_off",
+            "next": -1,
+            "actorindex": 1,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 2,
+            "dummy1": 1,
+            "actor": {
+                "name": "Link",
+                "unk1": 2,
+                "unk2": 0,
+                "actindex": 2,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "enter",
+            "next": -1,
+            "actorindex": 1,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 3,
+            "dummy1": 1,
+            "actor": {
+                "name": "Link",
+                "unk1": 2,
+                "unk2": 0,
+                "actindex": 2,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "wait",
+            "next": -1,
+            "actorindex": 2,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 4,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 0,
+                "actindex": 4,
+                "actcount": 1
+            }
+        }
+    ],
+    "unk2s": [
+        {
+            "name": "wait",
+            "eventSubManagerIndex": 0,
+            "thisindex": 0,
+            "unk3Index": 0,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "wait",
+                "next": -1,
+                "actorindex": 0,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 0,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Tshop",
+                    "unk1": 25,
+                    "unk2": 0,
+                    "actindex": 0,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "entr",
+            "eventSubManagerIndex": 1,
+            "thisindex": 1,
+            "unk3Index": 0,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "enter",
+                "next": 3,
+                "actorindex": 0,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 1,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Tshop",
+                    "unk1": 25,
+                    "unk2": 0,
+                    "actindex": 0,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "uneq",
+            "eventSubManagerIndex": 13,
+            "thisindex": 2,
+            "unk3Index": 0,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "equip_off",
+                "next": -1,
+                "actorindex": 1,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 2,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Link",
+                    "unk1": 2,
+                    "unk2": 0,
+                    "actindex": 2,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "walk",
+            "eventSubManagerIndex": 2,
+            "thisindex": 3,
+            "unk3Index": 0,
+            "unk3Count": 4,
+            "asdfunk1": {
+                "name": "enter",
+                "next": -1,
+                "actorindex": 1,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 3,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Link",
+                    "unk1": 2,
+                    "unk2": 0,
+                    "actindex": 2,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "wait",
+            "eventSubManagerIndex": 1,
+            "thisindex": 4,
+            "unk3Index": 4,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "wait",
+                "next": -1,
+                "actorindex": 2,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 4,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 0,
+                    "actindex": 4,
+                    "actcount": 1
+                }
+            }
+        }
+    ],
+    "unk3s": [
+        {
+            "name": "pos0",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 0,
+            "datalen": 3,
+            "data": [
+                80.0,
+                0.0,
+                -140.0
+            ]
+        },
+        {
+            "name": "prm1",
+            "unk1": 1,
+            "datatype": 0,
+            "dataindex": 0,
+            "datalen": 1,
+            "data": [
+                4
+            ]
+        },
+        {
+            "name": "prm0",
+            "unk1": 3,
+            "datatype": 0,
+            "dataindex": 1,
+            "datalen": 1,
+            "data": [
+                1
+            ]
+        },
+        {
+            "name": "ang0",
+            "unk1": 2,
+            "datatype": 1,
+            "dataindex": 3,
+            "datalen": 1,
+            "data": [
+                0.0
+            ]
+        }
+    ],
+    "ints": [
+        4,
+        1
+    ],
+    "floats": [
+        80.0,
+        0.0,
+        -140.0,
+        0.0
+    ],
+    "stringbytes": "",
+    "strings": "b''"
+}

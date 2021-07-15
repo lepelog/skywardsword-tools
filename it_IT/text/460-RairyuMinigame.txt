@@ -1,0 +1,116 @@
+RAIRYU_00: \x0E\x01\x09\x04\x0B\xC01Link! Hai fatto bene a\nvenire! È bello vederti.\n\n\n\x0E\x01\x09\x04\x00\x00Bene, allora!\nChe ne dici di divertirci un po'?\n\n\n\x0E\x01\x09\x04\x00\xC00O forse un impavido guerriero come te\nnon ha tempo per queste cose?\n\n\n\x0E\x01\x09\x04\x0D\xC00Che ne dici di qualcosa che comprenda\ntutte le fatiche e le prove affrontate\nfinora?\n\n\x0E\x01\x09\x04\x07\xC00Il passato è la chiave per comprendere\nil futuro. Apprendi dalle tue passate\nesperienze. Questo è il mio consiglio.\n\n\x0E\x01\x09\x04\x00\xC0ADunque, Link?\n[1]Va bene![2-]Non ora
+RAIRYU_01: \x0E\x01\x09\x04\x00\xB06La risposta che mi aspettavo da un eroe\ncome te!\n\n\n\x0E\x01\x09\x04\x0B\xC00Dunque, se me lo concedi, darò\nun'occhiata alle tue esperienze passate.\n\n\n\x0E\x01\x06\x02\xFBCD...\n\n\n\n\x0E\x01\x09\x04\x00\xC08Dunque, hai avuto modo di fare\nnotevoli esperienze. Hai vinto\n<r<battaglie >>contro temibili mostri.\n\nE anche le prove dell'<r<Oltremondo\n>>sono state ostacoli ostici.\n\n\n\x0E\x01\x09\x04\x0D\xC00La decisione è presa. Dovrai\naffrontare di nuovo una\ndelle due sfide. \n\n\x0E\x01\x09\x04\x00\xC00Quale scegli? La decisione spetta a te.\n[1]Battaglia[2]Prova[3-]Niente
+RAIRYU_02: \x0E\x01\x09\x04\x00\xC05Come? Ti rifiuti? Questo non è\ndivertente!\n\n\n\x0E\x01\x09\x04\x07\xC00Non importa. Tuttavia, torna pure\nse cambi idea.
+RAIRYU_03: \x0E\x01\x09\x04\x07\xC01Link! Sei qui per\nuna <r<battaglia>> o una prova\ndell'<r<Oltremondo>>?\n[1]Battaglia[2]Prova[3-]Niente
+RAIRYU_04: \x0E\x01\x09\x04\x07\xC01Link! Immagino che tu\nabbia finalmente deciso di accettare\nla mia offerta!\n\n\x0E\x01\x09\x04\x00\xC00Sei pronto ad affinare le tue abilità\nulteriormente?\n[1]Sì[2-]Non ora
+BATTLE_00: \x0E\x01\x09\x04\x0B\xC0DE una <r<battaglia>> sia! Questo è lo spirito\ngiusto!\n\n\nCon <r<battaglia >>intendo che dovrai \nscegliere di combattere con uno degli\navversari più temibili tra quelli che\nhai incontrato finora.\n\n\x0E\x01\x09\x04\x00\xC00Grazie al mio potere, lo farò rivivere\naffinché tu possa affrontarlo come hai\ngià fatto in passato.\nVinci e riceverai un premio. <pause0F>Tuttavia...\n\x0E\x01\x09\x04\x0D\xC00Devi prestare molta attenzione.\n<r<Se perdi è la fine>>, non tornerai\na casa!\n\x0E\x01\x09\x04\x00\xC0ATe la senti?\n[1]Sì![2-]No
+BATTLE_01: \x0E\x01\x09\x04\x10\xC0B... <pause0F>Ehi! Non sembri proprio in forma!\nSei sicuro di voler affrontare questa\nsfida?\n[1]Sì[2-]No
+BATTLE_02: \x0E\x01\x09\x04\x07\xC09Dunque è così?<pause0F> Non ti forzerò.\nSe muori, beh... muori.\n\n\n\x0E\x01\x09\x04\x00\xC00Bene, allora. Ma se decidi di\nprovarci più tardi, torna\npure da me.
+BATTLE_03: \x0E\x01\x09\x04\x07\xC06Così parla un vero guerriero!\nBene, da dove cominciamo?
+BATTLE_04: \x0E\x01\x09\x04\x00\x09All'inizio hai combattuto... ah, capisco.<pause14>\nD'accordo. Che ne dici di questi\navversari?\n[1]Ghiraim[2]Occhio\ndi fuoco[3]Skorpyo[4]Il Recluso
+BATTLE_04_01: \x0E\x01\x09\x04\x00\x09Nel mezzo della tua avventura...\n<pause14>Ecco. Che ne dici di questi\navversari?\n[1]Malgare[2]Meduclope[3]Ghiraim[4]Il Recluso
+BATTLE_04_02: \x0E\x01\x09\x04\x00\x09Vediamo le battaglie più recenti...<pause14>\nL'unica battaglia degna di essere\nchiamata tale è avvenuta contro\nil <b<Recluso>>.
+BATTLE_04_03: \x0E\x01\x09\x04\x00\x09Vediamo le battaglie più recenti...<pause14>\nChe ne dici di questi avversari?\n[1]Il Recluso[2]L'orda
+BATTLE_04_04: \x0E\x01\x09\x04\x00\x09Tra le battaglie più recenti...<pause14>\nEcco. Che ne dici di questi avversari?\n[1]Il Recluso[2]L'orda[3]Ghiraim
+BATTLE_04_05: \x0E\x01\x09\x04\x00\x09Tra le battaglie più recenti...<pause14>\nSì, che ne dici di questi avversari?\n[1]Il Recluso[2]L'orda[3]Ghiraim[4]Mortipher
+BATTLE_04_06: \x0E\x01\x09\x04\x00\x09Tra le ultime battaglie...<pause14>\nEcco sì, che ne dici di questi avversari?\n[1]Malgare[2]Meduclope[3]Ghiraim[4]Il Recluso
+BATTLE_05: <b<\x0E\x01\x09\x04\x0B\xC0DOcchio di fuoco>> sia! Incontrerai il tuo\navversario nel <b<Santuario della Terra>>.
+BATTLE_05_01: <b<\x0E\x01\x09\x04\x0B\xC0DGhiraim>> sia! Il raccapricciante nemico\nche hai combattuto nel <b<Santuario\ndel Cielo>>.
+BATTLE_05_02: \x0E\x01\x09\x04\x0B\xC0D<b<Occhio di fuoco>> sia! Incontrerai il tuo\navversario nel <b<Santuario della Terra>>.
+BATTLE_05_03: <b<\x0E\x01\x09\x04\x0B\xC0DSkorpyo>> sia! Il nemico dalla forma\ndi scorpione affrontato nell'<b<opificio\ndi Ranel>>.
+BATTLE_05_04: \x0E\x01\x09\x04\x0B\xC0D<b<Recluso>> sia! L'imponente creatura\nche hai affrontato nella\n<b<Terra dell'esilio>>.
+BATTLE_05_05: <b<\x0E\x01\x09\x04\x0B\xC09Malgare >>sia! Il mostro a sei braccia che\nhai affrontato nell'<b<antico sacrario>>.
+BATTLE_05_06: <b<\x0E\x01\x09\x04\x0B\xC0DMeduclope>> sia! Il bizzarro mostro\nciclopico affrontato sul <b<galeone delle\nsabbie>>.
+BATTLE_05_07: <b<\x0E\x01\x09\x04\x0B\xC0DGhiraim>> sia! Il viscido essere\naffrontato nel <b<Grande Santuario\nAntico>>.
+BATTLE_05_08: <b<\x0E\x01\x09\x04\x0B\xC0DRecluso>> sia! La gargantuesca\ncreatura che hai affrontato nella\n<b<Terra dell'esilio>>.
+BATTLE_05_09: <b<\x0E\x01\x09\x04\x0B\xC0DRecluso>> sia! L'imponente creatura\nche hai affrontato nella\n<b<Terra dell'esilio>>.
+BATTLE_05_10: <b<\x0E\x01\x09\x04\x0B\xC0DL'orda>> sia! L'esercito di mostri evocato\nda <b<Ghiraim>> nella <b<Terra dell'esilio>>.
+BATTLE_05_11: <b<\x0E\x01\x09\x04\x0B\xC0DGhiraim>> sia! Il viscido essere\naffrontato nella <b<Terra dell'esilio>>.
+BATTLE_05_12: <b<\x0E\x01\x09\x04\x0B\xC0DMortipher>> sia! Hai affrontato nemici\nincredibili! Questo mi fa venire\ni brividi.
+BATTLE_06: \x0E\x01\x09\x04\x0D\xC00Ah! <pause0F>Ho dimenticato di dirti una cosa!\nIn battaglia potrai usare solo<r<\nl'equipaggiamento che possedevi\nal tempo>>.\n\x0E\x01\x09\x04\x07\xC00E <r<nessun oggetto dalla tua borsa>>!\nAnche se l'avversario è formidabile,\nlo hai già combattuto in passato.\nNessun vantaggio.\n\x0E\x01\x09\x04\x00\xC00Tuttavia, ritengo che lasciarti\ncombattere senza nulla sia ingiusto.\nPotrai portare con te <r<il tuo attuale\nscudo>>, se ne hai uno.
+BATTLE_07: \x0E\x01\x09\x04\x00\xC00Allora, sei a posto con\nl'equipaggiamento? Vuoi che dia\ninizio alla battaglia?\n[1]Sì![2-]No
+BATTLE_08: \x0E\x01\x09\x04\x07\xC0DPreparati psicologicamente!
+BATTLE_09: \x0E\x01\x09\x04\x00\xC05Dunque hai cambiato idea?<pause14> Nessun\nproblema da parte mia, potrai tornare\nquando vuoi.\n\n\x0E\x01\x09\x04\x07\xC00Se vuoi sostituire o equipaggiare lo\nscudo, fallo pure e torna da me\nquando sei pronto.
+BATTLE_10: \x0E\x01\x09\x04\x00\xC00Pensa al momento in cui, nel corso\ndelle tue peripezie, hai incontrato\nil nemico che vorresti sfidare di nuovo.\n[1]All'inizio[2]Nel mezzo[3]Alla fine[4-]Lascio\nperdere
+BATTLE_10_01: \x0E\x01\x09\x04\x07\xC00Pensa al momento in cui, nel corso\ndelle tue peripezie, hai incontrato il\nnemico che vorresti sfidare di nuovo.\n[1]All'inizio[2]Poco fa[3-]Lascio\nperdere
+BATTLE_11: \x0E\x01\x09\x04\x0B\xC07Wow, Link! Notevole\ndimostrazione, sei un grande\nguerriero!
+BATTLE_12: \x0E\x01\x09\x04\x0B\xC07Ben fatto. Ancora una volta,\nun'eccellente battaglia!
+BATTLE_13: Il tempo impiegato per sconfiggere\n<b<<string arg0>>> è \x0E\x02\x03\x06\x00\x00\x2CD:<numeric arg1(2)>.<numeric arg2(2)>.
+BATTLE_14: \x0E\x01\x09\x04\x00\x08Aspetta un momento. Poiché è la prima\nvolta che sconfiggi quel nemico per il\nmio sollazzo, puoi avere questo.\x0E\x01\x09\x04\x0C\xB06
+BATTLE_15: \x0E\x01\x09\x04\x00\x06Bel lavoro! Hai un nuovo record!\nMeriti un premio. Ecco, prendi questo.\x0E\x01\x09\x04\x0C\xB06
+BATTLE_16: Cosa è successo?! Non hai battuto il\ntuo record! Devi impegnarti\npiù a fondo.
+BATTLE_16_07: Cosa è successo?! Non hai battuto il\ntuo record! Eppure, è comunque un\ngrande risultato sconfiggere di\nnuovo ogni tuo nemico.
+BATTLE_16_01: Per tua informazione, dovrai battere\nquesto tempo se vuoi ambire al premio\nmigliore: <r<<r<\x0E\x02\x03\x06\x00\x03\x2CD<r<:<r<\x0E\x02\x03\x06\x00\x04\x2CD<r<>>.\nDovrai dare il meglio di te!
+BATTLE_16_02: \x0E\x01\x09\x04\x0B\xC09Hai riportato 8 vittorie di seguito!\nImpressionante! Complimenti!
+BATTLE_16_03: \x0E\x01\x09\x04\x0B\xC09Woooow! Hai riportato 9 vittorie\ndi seguito! Chi l'avrebbe mai pensato?
+BATTLE_16_04: \x0E\x01\x09\x04\x0B\xC09Hai riportato 10 vittorie di seguito!!!\nChe guerriero straordinario!
+BATTLE_16_05: \x0E\x01\x09\x04\x0B\xC09Continui a stupirmi. 11 vittorie di\nseguito... Non ho mai visto nulla\ndi simile!
+BATTLE_16_06: \x0E\x01\x09\x04\x0B\xC0912 battaglie, 12 vittorie! Sei una\nmacchina da guerra! Il prototipo\ndel guerriero!
+BATTLE_16_08: \x0E\x01\x09\x04\x0B\xC09Che succede? La tua borsa è piena e lo\nè anche il deposito. Dunque non credo\nche potrò darti questo scudo.
+BATTLE_16_09: Non ho altra scelta che darti 1000\nrupie, invece.\x0E\x01\x09\x04\x0C\xB06 Potrai ottenerlo in una\nprossima sfida!
+BATTLE_17: \x0E\x01\x09\x04\x10\xC00In ogni caso...<pause0F> Link.\nChe ne diresti di un'altra battaglia\nproprio ora?\n\n\x0E\x01\x09\x04\x0B\xC09È rischioso, sappilo, ma se vincerai\npiù battaglie consecutive otterrai\nun premio persino più ambito.\n\nTra le mie ricompense troverai\nuno <r<scudo resistentissimo>>.\nImmagino tu sia interessato, vero?\n\n\x0E\x01\x09\x04\x0D\xC00Tuttavia...<pause14> anche se lo sai già,\nti ricordo che se perdi sarà la fine.\n\n\nInoltre, la <r<resistenza dello scudo e la\nvitalità >>non si recuperano passando di\nbattaglia in battaglia. Questo rende\nla sfida ancora più epica!
+BATTLE_18: Se ti fermi ora, riceverai come premio\n<r<<string arg1>>>.\nPerò, con la prossima vittoria avrai\n<r<<string arg2>>>!\n\x0E\x01\x09\x04\x00\nChe ne pensi? Desideri continuare?\n[1]Sì[2-]No
+BATTLE_19: \x0E\x01\x09\x04\x00\x08Così parla un vero guerriero! Ma c'è\nqualcosa che devi sapere.\n\n\n\x0E\x01\x09\x04\x07\x900Da una battaglia all'altra, sarò io a\nscegliere il tuo prossimo avversario.\nUna preoccupazione in meno per te,\nnon trovi?\nE poi c'è più suspense! Ora basta\ncon le ciance, si combatte!
+BATTLE_20: \x0E\x01\x09\x04\x00\x08Così si fa!\n\n\n\nLa prossima è la battaglia n. <numeric arg3>.\nDevi vincerne ancora <numeric arg4> per\nsconfiggere tutti gli avversari.\n\nE ora continuiamo, senza\nalcun indugio!
+BATTLE_21: \x0E\x01\x09\x04\x00\x05Molto bene...<pause0F> non c'è bisogno di\nstrafare. Quando muori...\nbeh, muori.\n\n\x0E\x01\x09\x04\x0C\xB06Hai comunque superato te stesso!\nCome promesso, ecco a te.
+BATTLE_22_00: Eccoti 5 rupie. Non guardarmi così!
+BATTLE_22_01: Eccoti 20 rupie. Non spenderle tutte in\nuna volta sola!
+BATTLE_22_13: Eccoti 50 rupie! Forza, sono tue.
+BATTLE_22_02: Eccoti 100 rupie! Fai un acquisto\noculato!
+BATTLE_22_03: Eccoti 200 rupie! Te le sei guadagnate!
+BATTLE_22_04: 300 rupie! Potrai comprarti qualcosa\ndi bello!
+BATTLE_22_05: Eccoti 500 rupie! Sono una bella cifra,\nvero?
+BATTLE_22_06: Guarda un po'! 1000 rupie!\nMai visto una cifra simile?
+BATTLE_22_07: 2000 rupie! Hai vinto alla lotteria!
+BATTLE_22_08: \x0E\x01\x09\x04\x0C\xB06Ecco a te, prendi questo.
+BATTLE_22_09: \x0E\x01\x09\x04\x0C\xB00Ecco il tuo premio!
+BATTLE_22_10: \x0E\x01\x09\x04\x0C\xB00Hai vinto questo!
+BATTLE_22_11: Mamma mia! 3000 rupie!\nCome le spenderai?
+BATTLE_22_12: E questa volta sono 9900 rupie!\nMi hai letteralmente sbancato!
+BATTLE_22_14: \x0E\x01\x09\x04\x01\xC09Torna pure quando vuoi!\nA presto!
+SIREN_00: \x0E\x01\x09\x04\x00\x06Vuoi tentare una prova\ndell'<r<Oltremondo>>? Mi piace chi ha il\ncoraggio di affrontare una dura sfida!\n\n\x0E\x01\x09\x04\x07\xC00Le prove dell'<r<Oltremondo >>vengono\nrivissute sulla base di quelle già\naffrontate finora. Io le ricreerò\nper te adesso.\nPer rendere la cosa più emozionante,\ncronometrerò la tua prestazione.\nPotresti anche vincere un premio.\n\nTuttavia...<pause14> fallirai la prova se\nverrai colpito da un guardiano\nanche solo una volta.\n\nIn tal caso, tornerai qui <r<con la\nvitalità gravemente ridotta>>.\n\n\n\x0E\x01\x09\x04\x07\xC0ADunque, vuoi ancora provare?\n[1]Sì![2-]No
+SIREN_01: ...<pause0F> \x0E\x01\x09\x04\x00\x05Cosa credi che sia un gioco?\nNon ne vale la pena rischiare la vita.\nVatti a riposare un po'.\n\nTorna quando avrai recuperato\nla tua vitalità.
+SIREN_02: \x0E\x01\x09\x04\x00\x06Questo volevo sentire, impavido\nguerriero! Ora scegli una prova\ndell'Oltremondo.\n[1]Foresta[2]Vulcano[3]Deserto[4-]Niente
+SIREN_03: 
+SIREN_03_01: \x0E\x01\x09\x04\x00\x06Questo volevo sentire, impavido\nguerriero! Ora scegli una prova\ndell'Oltremondo.\n[1]Foresta[2]Vulcano[3]Deserto[4]Altro
+SIREN_03_02: \x0E\x01\x09\x04\x00\x05Un altro luogo? Dove, dunque?\n[1]Oltrenuvola[2]Precedenti[3-]Niente
+SIREN_03_03: \x0E\x01\x09\x04\x00\nPrendi una decisione! Quale posto\nscegli?\n[1]Foresta[2]Vulcano[3]Deserto[4]Altro
+SIREN_13: Bene, vediamo un po'. Il tuo record\nqui è \x0E\x02\x03\x06\x00\x00\x2CD:<numeric arg1(2)>.<numeric arg2(2)>.
+SIREN_04: \x0E\x01\x09\x04\x0B\xC0DOra possiamo cominciare! Chiudi gli\nocchi e concentrati!
+SIREN_05: \x0E\x01\x09\x04\x00\x07Link!\nLe hai raccolte tutte!\nSei un vero guerriero!
+SIREN_06: \x0E\x01\x09\x04\x00\x07Ben fatto. Sei tornato tutto intero.
+SIREN_17: \x0E\x01\x09\x04\x00\x0BCosa combini? Che disastro!\n\n\n\nE il fallimento ha un prezzo. Ti sono\nrimasti appena pochi cuori. Meglio\nripristinarli prima di riprovarci.
+SIREN_07: Hai finito in \x0E\x02\x03\x06\x00\x00\x2CD:<numeric arg1(2)>.<numeric arg2(2)>.
+SIREN_08: \x0E\x01\x09\x04\x00\xC05A quanto pare è la prima volta che\nporti a termine questa prova\ndell'Oltremondo per me. Ti meriti\nun premio.\x0E\x01\x09\x04\x0C\xB06
+SIREN_09: \x0E\x01\x09\x04\x0B\xC09Hai stabilito un nuovo record!\nHo il premio adatto.\n\x0E\x01\x09\x04\x0C\xB00Eccotelo.
+SIREN_10: \x0E\x01\x09\x04\x00\x07Incredibile! Ottimo lavoro,\nLink! Davvero un\nbuon tempo!\n\nMeriti qualcosa di speciale.\nEcco a te! \x0E\x01\x09\x04\x0C\xB06
+SIREN_14: \x0E\x01\x09\x04\x00\x07Davvero un ottimo risultato.\nEccoti il premio. \x0E\x01\x09\x04\x0C\xB06
+SIREN_15: \x0E\x01\x09\x04\x00\x0BMmh... Nulla di speciale...<pause14> Hai\ncomunque fatto del tuo meglio,\necco qui.\x0E\x01\x09\x04\x0C\xB06
+SIREN_16: \x0E\x01\x09\x04\x00\x0BOh, andiamo.<pause14> Puoi fare sicuramente\ndi meglio.\n\n\nMagari mettici un po' più d'impegno\nla prossima volta! Tutto quello che\nposso darti è questo.\x0E\x01\x09\x04\x0C\xB06
+SIREN_11: \x0E\x01\x09\x04\x00\nAllora, Link? Che ne dici\ndi un'altra <r<prova dell'Oltremondo>>?\n[1]Sì![2-]No
+SIREN_12: \x0E\x01\x09\x04\x00\x05Che noia, mi viene da sbadigliare!<pause14>\nBeh, se cambi idea, sai dove\ntrovarmi.
+DF3_02: \x0E\x01\x09\x04\x0B\xC08Che c'è, Link?!\nNon vedi l'ora di sapere cosa sto\npreparando per te?!\n\n\x0E\x01\x09\x04\x00\x00E va bene, allora! Significa che\ninizieremo immantinente!\n\n\n\x0E\x01\x09\x04\x00\xC00Immagino che essere un coraggioso\nguerriero sia un impegno a tempo\npieno che non lascia spazio per altro...\n\n\x0E\x01\x09\x04\x0D\xC00Che ne diresti di riaffrontare qualcuna\ndelle difficoltà che hai dovuto superare\nfinora?\n\n\x0E\x01\x09\x04\x07\xC00Trovo che il modo migliore per\nmigliorarsi sia imparare il più\npossibile dalle esperienze passate!\n\n\x0E\x01\x09\x04\x00\xC0AAllora, Link, che ne\ndici? Te la senti?\n[1]Sì, lo farò![2-]Uhm...
+BOSS_NAME_00: Ghiraim
+BOSS_NAME_01: Occhio di fuoco
+BOSS_NAME_02: Skorpyo
+BOSS_NAME_03: Malgare
+BOSS_NAME_04: Meduclope
+BOSS_NAME_05: il Recluso
+BOSS_NAME_06: il Recluso
+BOSS_NAME_07: il Recluso
+BOSS_NAME_08: l'orda
+BOSS_NAME_09: Mortipher
+REWARD_NAME_00: 20 rupie
+REWARD_NAME_01: un piccolo tesoro
+REWARD_NAME_02: 100 rupie
+REWARD_NAME_03: un frammento di cuore
+REWARD_NAME_04: 300 rupie
+REWARD_NAME_05: un tesoro raro
+REWARD_NAME_06: 500 rupie
+REWARD_NAME_07: uno scudo resistentissimo
+REWARD_NAME_08: 2000 rupie
+REWARD_NAME_09: tre tesori rari
+REWARD_NAME_10: 3000 rupie
+REWARD_NAME_11: 9900 rupie
+REWARD_NAME_12: 200 rupie
+REWARD_NAME_13: 1000 rupie

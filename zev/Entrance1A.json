@@ -1,0 +1,241 @@
+{
+    "header": {
+        "magic": 30554,
+        "evntcount": 1,
+        "actorcount": 3,
+        "unk1count": 4,
+        "unk2count": 4,
+        "unk3count": 3,
+        "alwaysev": "45 76",
+        "unk4count": 1,
+        "unk5count": 0,
+        "unk6count": 39
+    },
+    "evnts": [
+        {
+            "name": "DoorDungeonD100Open",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 0,
+            "actorcount": 3
+        }
+    ],
+    "actors": [
+        {
+            "name": "@player",
+            "unk1": 2,
+            "unk2": 0,
+            "actindex": 0,
+            "actcount": 1
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 0,
+            "actindex": 1,
+            "actcount": 1
+        },
+        {
+            "name": "@starter",
+            "unk1": 6,
+            "unk2": 0,
+            "actindex": 2,
+            "actcount": 2
+        }
+    ],
+    "unk1s": [
+        {
+            "name": "Wait",
+            "next": -1,
+            "actorindex": 0,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 0,
+            "dummy1": 1,
+            "actor": {
+                "name": "@player",
+                "unk1": 2,
+                "unk2": 0,
+                "actindex": 0,
+                "actcount": 1
+            }
+        },
+        {
+            "name": "Anm",
+            "next": -1,
+            "actorindex": 1,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 1,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 0,
+                "actindex": 1,
+                "actcount": 1
+            }
+        },
+        {
+            "name": "Wait",
+            "next": -1,
+            "actorindex": 2,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 2,
+            "dummy1": 1,
+            "actor": {
+                "name": "@starter",
+                "unk1": 6,
+                "unk2": 0,
+                "actindex": 2,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "Open",
+            "next": 1,
+            "actorindex": 2,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 3,
+            "dummy1": 1,
+            "actor": {
+                "name": "@starter",
+                "unk1": 6,
+                "unk2": 0,
+                "actindex": 2,
+                "actcount": 2
+            }
+        }
+    ],
+    "unk2s": [
+        {
+            "name": "wait",
+            "eventSubManagerIndex": 1,
+            "thisindex": 0,
+            "unk3Index": 0,
+            "unk3Count": 1,
+            "asdfunk1": {
+                "name": "Wait",
+                "next": -1,
+                "actorindex": 0,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 0,
+                "dummy1": 1,
+                "actor": {
+                    "name": "@player",
+                    "unk1": 2,
+                    "unk2": 0,
+                    "actindex": 0,
+                    "actcount": 1
+                }
+            }
+        },
+        {
+            "name": "rsca",
+            "eventSubManagerIndex": 12,
+            "thisindex": 1,
+            "unk3Index": 1,
+            "unk3Count": 2,
+            "asdfunk1": {
+                "name": "Anm",
+                "next": -1,
+                "actorindex": 1,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 1,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 0,
+                    "actindex": 1,
+                    "actcount": 1
+                }
+            }
+        },
+        {
+            "name": "act0",
+            "eventSubManagerIndex": 0,
+            "thisindex": 2,
+            "unk3Index": 3,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "Wait",
+                "next": -1,
+                "actorindex": 2,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 2,
+                "dummy1": 1,
+                "actor": {
+                    "name": "@starter",
+                    "unk1": 6,
+                    "unk2": 0,
+                    "actindex": 2,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "act2",
+            "eventSubManagerIndex": 2,
+            "thisindex": 3,
+            "unk3Index": 3,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "Open",
+                "next": 1,
+                "actorindex": 2,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 3,
+                "dummy1": 1,
+                "actor": {
+                    "name": "@starter",
+                    "unk1": 6,
+                    "unk2": 0,
+                    "actindex": 2,
+                    "actcount": 2
+                }
+            }
+        }
+    ],
+    "unk3s": [
+        {
+            "name": "prm0",
+            "unk1": 0,
+            "datatype": 0,
+            "dataindex": 0,
+            "datalen": 1,
+            "data": [
+                1
+            ]
+        },
+        {
+            "name": "name",
+            "unk1": 0,
+            "datatype": 2,
+            "dataindex": 0,
+            "datalen": 30,
+            "data": "player_DoorOpen_Entrance1A_01"
+        },
+        {
+            "name": "tgt ",
+            "unk1": 1,
+            "datatype": 2,
+            "dataindex": 30,
+            "datalen": 9,
+            "data": "@starter"
+        }
+    ],
+    "ints": [
+        1
+    ],
+    "floats": [],
+    "stringbytes": "70 6C 61 79 65 72 5F 44 6F 6F 72 4F 70 65 6E 5F 45 6E 74 72 61 6E 63 65 31 41 5F 30 31 00 40 73 74 61 72 74 65 72 00",
+    "strings": "b'player_DoorOpen_Entrance1A_01\\x00@starter\\x00'"
+}

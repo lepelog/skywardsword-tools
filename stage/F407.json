@@ -1,0 +1,473 @@
+{
+    "LYSE": [
+        {
+            "story_flag": 342,
+            "night": 0,
+            "layer": 7
+        },
+        {
+            "story_flag": 133,
+            "night": 0,
+            "layer": 6
+        },
+        {
+            "story_flag": 200,
+            "night": 0,
+            "layer": 5
+        },
+        {
+            "story_flag": 132,
+            "night": 0,
+            "layer": 4
+        },
+        {
+            "story_flag": 13,
+            "night": 0,
+            "layer": 3
+        },
+        {
+            "story_flag": 140,
+            "night": 0,
+            "layer": 2
+        },
+        {
+            "story_flag": 138,
+            "night": 0,
+            "layer": 1
+        }
+    ],
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 160000.0,
+        "wtf3": 20000.0,
+        "byte1": 0,
+        "flagindex": 10,
+        "byte3": 0,
+        "byte4": 1,
+        "unk1": "FF 00",
+        "map_name_id": 1,
+        "unk2": "FF"
+    },
+    "PCAM": [
+        {
+            "pos1x": 0.0,
+            "pos1y": 0.0,
+            "pos1z": 0.0,
+            "pos2x": 0.0,
+            "pos2y": 0.0,
+            "pos2z": 0.0,
+            "angle": 0.0,
+            "wtf": 1.0,
+            "unk": "14 FF FF FF"
+        }
+    ],
+    "LYLT": [
+        {
+            "layer": 13,
+            "demo_high": 59,
+            "demo_low": 1,
+            "dummy": -1
+        },
+        {
+            "layer": 14,
+            "demo_high": 70,
+            "demo_low": 1,
+            "dummy": -1
+        },
+        {
+            "layer": 15,
+            "demo_high": 70,
+            "demo_low": 2,
+            "dummy": -1
+        }
+    ],
+    "LAY ": {
+        "l0": {},
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "OBJN": [
+                "WoodTag"
+            ],
+            "FILE": "FF FF FF FF",
+            "SCEN": [
+                {
+                    "name": "F404",
+                    "room": 2,
+                    "layer": 0,
+                    "entrance": 1,
+                    "byte4": 2,
+                    "byte5": 0,
+                    "flag6": 0,
+                    "zero": 0,
+                    "flag8": 0
+                },
+                {
+                    "name": "F402",
+                    "room": 2,
+                    "layer": 0,
+                    "entrance": 12,
+                    "byte4": 2,
+                    "byte5": 0,
+                    "flag6": 0,
+                    "zero": 0,
+                    "flag8": 1
+                },
+                {
+                    "name": "F407",
+                    "room": 0,
+                    "layer": 15,
+                    "entrance": 3,
+                    "byte4": 2,
+                    "byte5": 1,
+                    "flag6": 0,
+                    "zero": 0,
+                    "flag8": 0
+                }
+            ],
+            "EVNT": [
+                {
+                    "unk1": "00 00",
+                    "story_flag1": 344,
+                    "story_flag2": -1,
+                    "unk2": "64 02 FF",
+                    "exit_id": 0,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 29,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "demo01"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 02 FF",
+                    "exit_id": 2,
+                    "unk3": "00 08 00",
+                    "skipevent": 3,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 32,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "demo01"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": 345,
+                    "story_flag2": 342,
+                    "unk2": "64 02 FF",
+                    "exit_id": 1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 50,
+                    "sceneflag2": 255,
+                    "skipflag": 32,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "demo01"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": 345,
+                    "story_flag2": 342,
+                    "unk2": "64 01 FF",
+                    "exit_id": 1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 50,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "DefaultSkip"
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 0,
+                    "byte4": -1,
+                    "posx": -863.0187377929688,
+                    "posy": 7599.990234375,
+                    "posz": 8904.201171875,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 1,
+                    "byte4": -1,
+                    "posx": -964.4851684570312,
+                    "posy": 7599.990234375,
+                    "posz": 8904.2021484375,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 1
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": -1,
+                    "posx": 68.67030334472656,
+                    "posy": 7599.990234375,
+                    "posz": 8904.201171875,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 2
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 2,
+                    "byte4": -1,
+                    "posx": -1082.8624267578125,
+                    "posy": 7599.990234375,
+                    "posz": 8904.2021484375,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 3
+                }
+            ],
+            "SOBJ": [
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 2927.14013671875,
+                    "posy": 7645.98046875,
+                    "posz": 10524.3408203125,
+                    "sizex": 3.240000009536743,
+                    "sizey": 4.579999923706055,
+                    "sizez": 3.240000009536743,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "WoodTag"
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "FrmLand",
+                        "Door",
+                        "ShriIns",
+                        "TDoor",
+                        "FruitB",
+                        "FrtTree"
+                    ],
+                    "ARCN": [
+                        "DoorB00",
+                        "PLBury",
+                        "MoundShovelD",
+                        "GetSeedLife",
+                        "GetFruitB",
+                        "FruitB",
+                        "DoorAnim",
+                        "TimeDoorB"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "00 00 01 04",
+                            "params2": "FF 5F FF FF",
+                            "posx": -1760.0,
+                            "posy": 7600.0,
+                            "posz": 10341.0,
+                            "anglex": 5889,
+                            "angley": 16384,
+                            "anglez": 32,
+                            "id": "FC 05",
+                            "name": "Door",
+                            "extra_info": {
+                                "scenefid": 23,
+                                "scen_link": 1,
+                                "talk_behaviour": 0,
+                                "subtype": 4,
+                                "scenef": "scene flag: 0x3 80"
+                            }
+                        },
+                        {
+                            "params1": "00 00 01 04",
+                            "params2": "FF 5F FF FF",
+                            "posx": -1760.0,
+                            "posy": 7600.0,
+                            "posz": 10499.0,
+                            "anglex": 5889,
+                            "angley": 49152,
+                            "anglez": 32,
+                            "id": "FC 06",
+                            "name": "Door",
+                            "extra_info": {
+                                "scenefid": 23,
+                                "scen_link": 1,
+                                "talk_behaviour": 0,
+                                "subtype": 4,
+                                "scenef": "scene flag: 0x3 80"
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF E0 29 55",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 7600.0,
+                            "posz": 10250.0,
+                            "anglex": 0,
+                            "angley": 32768,
+                            "anglez": 0,
+                            "id": "FC 01",
+                            "name": "TDoor",
+                            "extra_info": {
+                                "trigstoryfid": 341,
+                                "trigstoryf": "Gate of Time opened (Hylia's Temple layer 1)"
+                            }
+                        },
+                        {
+                            "params1": "FF 26 25 01",
+                            "params2": "FF FF FF FF",
+                            "posx": 2910.0,
+                            "posy": 7657.26025390625,
+                            "posz": 10531.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 02",
+                            "name": "FrmLand",
+                            "extra_info": {
+                                "scenefid": 37,
+                                "scenef": "scene flag: 0x5 20"
+                            }
+                        },
+                        {
+                            "params1": "FF FF 25 01",
+                            "params2": "FF FF FF FF",
+                            "posx": 2850.0,
+                            "posy": 7640.0,
+                            "posz": 10550.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 03",
+                            "name": "FrtTree"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 04",
+                            "name": "ShriIns"
+                        }
+                    ]
+                },
+                "l1": {},
+                "l2": {},
+                "l3": {},
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {
+                    "OBJN": [
+                        "Door"
+                    ],
+                    "ARCN": [
+                        "DoorF",
+                        "PLDoorLarge",
+                        "DoorAnim"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "00 00 00 07",
+                            "params2": "FF 5F FF FF",
+                            "posx": 0.0,
+                            "posy": 7600.0,
+                            "posz": 8200.0,
+                            "anglex": 65280,
+                            "angley": 0,
+                            "anglez": 1056,
+                            "id": "FC 07",
+                            "name": "Door",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scen_link": 0,
+                                "talk_behaviour": 0,
+                                "subtype": 7,
+                                "scenef": "no flag"
+                            }
+                        }
+                    ]
+                },
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}

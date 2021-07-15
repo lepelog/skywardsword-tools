@@ -1,0 +1,229 @@
+{
+    "header": {
+        "magic": 30554,
+        "evntcount": 1,
+        "actorcount": 2,
+        "unk1count": 3,
+        "unk2count": 3,
+        "unk3count": 5,
+        "alwaysev": "45 76",
+        "unk4count": 2,
+        "unk5count": 6,
+        "unk6count": 9
+    },
+    "evnts": [
+        {
+            "name": "BirdTrapBroken",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 0,
+            "actorcount": 2
+        }
+    ],
+    "actors": [
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 0,
+            "actindex": 0,
+            "actcount": 1
+        },
+        {
+            "name": "@starter",
+            "unk1": 6,
+            "unk2": 0,
+            "actindex": 1,
+            "actcount": 2
+        }
+    ],
+    "unk1s": [
+        {
+            "name": "Wait",
+            "next": -1,
+            "actorindex": 0,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 0,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 0,
+                "actindex": 0,
+                "actcount": 1
+            }
+        },
+        {
+            "name": "Wait",
+            "next": -1,
+            "actorindex": 1,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 1,
+            "dummy1": 1,
+            "actor": {
+                "name": "@starter",
+                "unk1": 6,
+                "unk2": 0,
+                "actindex": 1,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "SceneChange",
+            "next": 0,
+            "actorindex": 1,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 2,
+            "dummy1": 1,
+            "actor": {
+                "name": "@starter",
+                "unk1": 6,
+                "unk2": 0,
+                "actindex": 1,
+                "actcount": 2
+            }
+        }
+    ],
+    "unk2s": [
+        {
+            "name": "fixd",
+            "eventSubManagerIndex": 2,
+            "thisindex": 0,
+            "unk3Index": 0,
+            "unk3Count": 5,
+            "asdfunk1": {
+                "name": "Wait",
+                "next": -1,
+                "actorindex": 0,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 0,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 0,
+                    "actindex": 0,
+                    "actcount": 1
+                }
+            }
+        },
+        {
+            "name": "act0",
+            "eventSubManagerIndex": 0,
+            "thisindex": 1,
+            "unk3Index": 5,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "Wait",
+                "next": -1,
+                "actorindex": 1,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 1,
+                "dummy1": 1,
+                "actor": {
+                    "name": "@starter",
+                    "unk1": 6,
+                    "unk2": 0,
+                    "actindex": 1,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "act1",
+            "eventSubManagerIndex": 1,
+            "thisindex": 2,
+            "unk3Index": 5,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "SceneChange",
+                "next": 0,
+                "actorindex": 1,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 2,
+                "dummy1": 1,
+                "actor": {
+                    "name": "@starter",
+                    "unk1": 6,
+                    "unk2": 0,
+                    "actindex": 1,
+                    "actcount": 2
+                }
+            }
+        }
+    ],
+    "unk3s": [
+        {
+            "name": "at  ",
+            "unk1": 0,
+            "datatype": 1,
+            "dataindex": 0,
+            "datalen": 3,
+            "data": [
+                0.0,
+                200.0,
+                0.0
+            ]
+        },
+        {
+            "name": "pos ",
+            "unk1": 1,
+            "datatype": 1,
+            "dataindex": 3,
+            "datalen": 3,
+            "data": [
+                0.0,
+                400.0,
+                300.0
+            ]
+        },
+        {
+            "name": "tgt ",
+            "unk1": 5,
+            "datatype": 2,
+            "dataindex": 0,
+            "datalen": 9,
+            "data": "@starter"
+        },
+        {
+            "name": "cnt ",
+            "unk1": 4,
+            "datatype": 0,
+            "dataindex": 0,
+            "datalen": 1,
+            "data": [
+                60
+            ]
+        },
+        {
+            "name": "way ",
+            "unk1": 7,
+            "datatype": 0,
+            "dataindex": 1,
+            "datalen": 1,
+            "data": [
+                68
+            ]
+        }
+    ],
+    "ints": [
+        60,
+        68
+    ],
+    "floats": [
+        0.0,
+        200.0,
+        0.0,
+        0.0,
+        400.0,
+        300.0
+    ],
+    "stringbytes": "40 73 74 61 72 74 65 72 00",
+    "strings": "b'@starter\\x00'"
+}

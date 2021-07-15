@@ -1,0 +1,264 @@
+{
+    "header": {
+        "magic": 30554,
+        "evntcount": 1,
+        "actorcount": 3,
+        "unk1count": 5,
+        "unk2count": 5,
+        "unk3count": 1,
+        "alwaysev": "45 76",
+        "unk4count": 1,
+        "unk5count": 0,
+        "unk6count": 0
+    },
+    "evnts": [
+        {
+            "name": "TreasureBoxOpenSmall",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 0,
+            "actorcount": 3
+        }
+    ],
+    "actors": [
+        {
+            "name": "@starter",
+            "unk1": 12,
+            "unk2": 0,
+            "actindex": 0,
+            "actcount": 2
+        },
+        {
+            "name": "@player",
+            "unk1": 2,
+            "unk2": 0,
+            "actindex": 2,
+            "actcount": 2
+        },
+        {
+            "name": "Camera",
+            "unk1": 1,
+            "unk2": 0,
+            "actindex": 4,
+            "actcount": 1
+        }
+    ],
+    "unk1s": [
+        {
+            "name": "Correct",
+            "next": -1,
+            "actorindex": 0,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 0,
+            "dummy1": 1,
+            "actor": {
+                "name": "@starter",
+                "unk1": 12,
+                "unk2": 0,
+                "actindex": 0,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "Open",
+            "next": 2,
+            "actorindex": 0,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 1,
+            "dummy1": 1,
+            "actor": {
+                "name": "@starter",
+                "unk1": 12,
+                "unk2": 0,
+                "actindex": 0,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "Unequip",
+            "next": -1,
+            "actorindex": 1,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 2,
+            "dummy1": 1,
+            "actor": {
+                "name": "@player",
+                "unk1": 2,
+                "unk2": 0,
+                "actindex": 2,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "Open",
+            "next": 0,
+            "actorindex": 1,
+            "unk3": 1,
+            "dummy0": 0,
+            "thisindex": 3,
+            "dummy1": 1,
+            "actor": {
+                "name": "@player",
+                "unk1": 2,
+                "unk2": 0,
+                "actindex": 2,
+                "actcount": 2
+            }
+        },
+        {
+            "name": "GameCamera",
+            "next": -1,
+            "actorindex": 2,
+            "unk3": 0,
+            "dummy0": 0,
+            "thisindex": 4,
+            "dummy1": 1,
+            "actor": {
+                "name": "Camera",
+                "unk1": 1,
+                "unk2": 0,
+                "actindex": 4,
+                "actcount": 1
+            }
+        }
+    ],
+    "unk2s": [
+        {
+            "name": "crct",
+            "eventSubManagerIndex": 5,
+            "thisindex": 0,
+            "unk3Index": 0,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "Correct",
+                "next": -1,
+                "actorindex": 0,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 0,
+                "dummy1": 1,
+                "actor": {
+                    "name": "@starter",
+                    "unk1": 12,
+                    "unk2": 0,
+                    "actindex": 0,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "open",
+            "eventSubManagerIndex": 2,
+            "thisindex": 1,
+            "unk3Index": 0,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "Open",
+                "next": 2,
+                "actorindex": 0,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 1,
+                "dummy1": 1,
+                "actor": {
+                    "name": "@starter",
+                    "unk1": 12,
+                    "unk2": 0,
+                    "actindex": 0,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "uneq",
+            "eventSubManagerIndex": 13,
+            "thisindex": 2,
+            "unk3Index": 0,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "Unequip",
+                "next": -1,
+                "actorindex": 1,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 2,
+                "dummy1": 1,
+                "actor": {
+                    "name": "@player",
+                    "unk1": 2,
+                    "unk2": 0,
+                    "actindex": 2,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "trea",
+            "eventSubManagerIndex": 16,
+            "thisindex": 3,
+            "unk3Index": 0,
+            "unk3Count": 1,
+            "asdfunk1": {
+                "name": "Open",
+                "next": 0,
+                "actorindex": 1,
+                "unk3": 1,
+                "dummy0": 0,
+                "thisindex": 3,
+                "dummy1": 1,
+                "actor": {
+                    "name": "@player",
+                    "unk1": 2,
+                    "unk2": 0,
+                    "actindex": 2,
+                    "actcount": 2
+                }
+            }
+        },
+        {
+            "name": "gcam",
+            "eventSubManagerIndex": 11,
+            "thisindex": 4,
+            "unk3Index": 1,
+            "unk3Count": 0,
+            "asdfunk1": {
+                "name": "GameCamera",
+                "next": -1,
+                "actorindex": 2,
+                "unk3": 0,
+                "dummy0": 0,
+                "thisindex": 4,
+                "dummy1": 1,
+                "actor": {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 0,
+                    "actindex": 4,
+                    "actcount": 1
+                }
+            }
+        }
+    ],
+    "unk3s": [
+        {
+            "name": "prm0",
+            "unk1": 0,
+            "datatype": 0,
+            "dataindex": 0,
+            "datalen": 1,
+            "data": [
+                1
+            ]
+        }
+    ],
+    "ints": [
+        1
+    ],
+    "floats": [],
+    "stringbytes": "",
+    "strings": "b''"
+}

@@ -1,0 +1,695 @@
+{
+    "LYSE": [
+        {
+            "story_flag": 375,
+            "night": 1,
+            "layer": 4
+        },
+        {
+            "story_flag": 375,
+            "night": 0,
+            "layer": 3
+        },
+        {
+            "story_flag": -1,
+            "night": 1,
+            "layer": 2
+        },
+        {
+            "story_flag": -1,
+            "night": 0,
+            "layer": 1
+        }
+    ],
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 160000.0,
+        "wtf3": 10000.0,
+        "byte1": 0,
+        "flagindex": 0,
+        "byte3": 4,
+        "byte4": 0,
+        "unk1": "FF 03",
+        "map_name_id": 52,
+        "unk2": "FF"
+    },
+    "LAY ": {
+        "l0": {
+            "OBJN": [
+                "MapArea"
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": -106.69361877441406,
+                    "posy": -125.07615661621094,
+                    "posz": 430.4869384765625,
+                    "sizex": 3000.0,
+                    "sizey": 500.0,
+                    "sizez": 2500.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "MapArea"
+                }
+            ]
+        },
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "OBJN": [
+                "PlntB",
+                "PlntC00",
+                "LampA",
+                "LampB"
+            ],
+            "ARCN": [
+                "PlntB",
+                "PlntC00",
+                "LampA",
+                "LampB"
+            ],
+            "SCEN": [
+                {
+                    "name": "F000",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 33,
+                    "byte4": 2,
+                    "byte5": 0,
+                    "flag6": 0,
+                    "zero": 0,
+                    "flag8": 0
+                }
+            ],
+            "EVNT": [
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "DelivarySuisho"
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 0,
+                    "byte4": -1,
+                    "posx": 5.821495056152344,
+                    "posy": 0.0,
+                    "posz": 232.5684051513672,
+                    "anglex": 0,
+                    "angley": 182,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 11,
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": -300.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 1
+                }
+            ],
+            "SOBJ": [
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -185.3400115966797,
+                    "posy": 618.5700073242188,
+                    "posz": 724.8900146484375,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "LampB"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -234.5600128173828,
+                    "posy": 657.8400268554688,
+                    "posz": 763.1300048828125,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "LampB"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 328.59002685546875,
+                    "posy": 623.6700439453125,
+                    "posz": 191.6300048828125,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 02",
+                    "name": "LampA"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 378.030029296875,
+                    "posy": 644.1600341796875,
+                    "posz": 655.9100341796875,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 03",
+                    "name": "LampA"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -330.3000183105469,
+                    "posy": 623.6700439453125,
+                    "posz": 68.84000396728516,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 04",
+                    "name": "LampA"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -600.9600219726562,
+                    "posy": 636.77001953125,
+                    "posz": 561.1600341796875,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 05",
+                    "name": "LampA"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -360.3800048828125,
+                    "posy": 668.75,
+                    "posz": 1056.080078125,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 06",
+                    "name": "LampA"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -777.8800048828125,
+                    "posy": 148.37001037597656,
+                    "posz": 797.4000244140625,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 49369,
+                    "anglez": 0,
+                    "id": "FC 07",
+                    "name": "PlntC00"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 139.1400146484375,
+                    "posy": 108.58000183105469,
+                    "posz": 1153.9901123046875,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 391,
+                    "anglez": 0,
+                    "id": "FC 08",
+                    "name": "PlntC00"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 491.9200134277344,
+                    "posy": 99.64000701904297,
+                    "posz": 71.0300064086914,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 18204,
+                    "anglez": 0,
+                    "id": "FC 09",
+                    "name": "PlntB"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -645.6600341796875,
+                    "posy": 74.80000305175781,
+                    "posz": 256.70001220703125,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 48735,
+                    "anglez": 0,
+                    "id": "FC 0A",
+                    "name": "PlntB"
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "DecoA",
+                        "NpcSlrb",
+                        "NpcSha",
+                        "DNight",
+                        "DivCrst",
+                        "chest",
+                        "AttTag",
+                        "Door",
+                        "Item",
+                        "SwAreaT",
+                        "EffGnT",
+                        "TgReact",
+                        "GkMgTag"
+                    ],
+                    "ARCN": [
+                        "TansuInside",
+                        "DecoA",
+                        "DoorA00",
+                        "F004rCrystalWell",
+                        "DesertRobot_motion",
+                        "DesertRobot_Sal",
+                        "DesertRobot",
+                        "Tansu",
+                        "PLBed",
+                        "PLChest",
+                        "Uranaiya",
+                        "DoorAnim"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "00 00 00 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": -300.0,
+                            "anglex": 65535,
+                            "angley": 32768,
+                            "anglez": 65535,
+                            "id": "FC 0B",
+                            "name": "Door",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scen_link": 0,
+                                "talk_behaviour": 0,
+                                "subtype": 0,
+                                "scenef": "no flag"
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -709.1663818359375,
+                            "posy": 100.0,
+                            "posz": 560.8500366210938,
+                            "anglex": 0,
+                            "angley": 64626,
+                            "anglez": 0,
+                            "id": "FC 0C",
+                            "name": "DNight",
+                            "extra_info": {
+                                "sleep_storyfid": 2047,
+                                "sleep_storyf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -340.0,
+                            "posy": 135.0,
+                            "posz": 1280.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 0D",
+                            "name": "DecoA"
+                        },
+                        {
+                            "params1": "1F 00 FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -713.0,
+                            "posy": 50.0,
+                            "posz": 985.0,
+                            "anglex": 0,
+                            "angley": 17203,
+                            "anglez": 0,
+                            "id": "FC 0E",
+                            "name": "chest",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "2E E5 C9 FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": -80.885009765625,
+                            "posy": 71.81280517578125,
+                            "posz": 880.7496948242188,
+                            "anglex": 65535,
+                            "angley": 40232,
+                            "anglez": 11816,
+                            "id": "FC 0F",
+                            "name": "NpcSha",
+                            "extra_info": {
+                                "trigstoryfid": 370,
+                                "untrigstoryfid": 375,
+                                "talk_behaviour": 11816,
+                                "trigstoryf": " Talking to past Impa after meeting Batreaux or Meeting Batreaux after talking to past Impa  (Bazaar layer 2)",
+                                "untrigstoryf": "Set after Sleeping after the Fortune Teller crystals (Bazaar layer 3)"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF DF FF FF",
+                            "posx": -812.51220703125,
+                            "posy": 39.34770202636719,
+                            "posz": 385.56207275390625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 10",
+                            "name": "NpcSlrb",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "untrigstoryfid": 2047,
+                                "talk_behaviour": 0,
+                                "trigstoryf": "-",
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 11",
+                            "params2": "FF FF FF FF",
+                            "posx": -281.0027770996094,
+                            "posy": 54.10308074951172,
+                            "posz": 542.4009399414062,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 11",
+                            "name": "DivCrst"
+                        }
+                    ],
+                    "SOBJ": [
+                        {
+                            "params1": "0F F0 00 B3",
+                            "params2": "13 7F FF FF",
+                            "posx": -334.7424621582031,
+                            "posy": 123.03758239746094,
+                            "posz": 1177.173828125,
+                            "sizex": 1.4500000476837158,
+                            "sizey": 1.4500000476837158,
+                            "sizez": 1.4500000476837158,
+                            "anglex": 65535,
+                            "angley": 38230,
+                            "anglez": 0,
+                            "id": "FC 14",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 179,
+                                "tgreactitemid": 19,
+                                "subtype": "bonk",
+                                "scenef": "temp flag: 0x7 08"
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -800.0,
+                            "posy": 0.0,
+                            "posz": -150.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 12",
+                            "name": "GkMgTag"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 13.881311416625977,
+                            "posy": -24.73381805419922,
+                            "posz": -261.3712158203125,
+                            "sizex": 671.0,
+                            "sizey": 100.0,
+                            "sizez": 479.0,
+                            "anglex": 64206,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 13",
+                            "name": "SwAreaT",
+                            "extra_info": {
+                                "setstoryfid": 718,
+                                "unsetstoryfid": 2047,
+                                "setscenefid": 255,
+                                "unsetscenefid": 255,
+                                "setstoryf": "Fortune Teller Sparrot's House entered (name on map appears)",
+                                "unsetstoryf": "-",
+                                "setscenef": "no flag",
+                                "unsetscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF 04 02",
+                            "params2": "FF FF FF FF",
+                            "posx": 550.0,
+                            "posy": 15.5,
+                            "posz": 560.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 15",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 2.6169118881225586,
+                            "posy": -20.975351333618164,
+                            "posz": -236.36012268066406,
+                            "sizex": 200.0,
+                            "sizey": 100.0,
+                            "sizez": 130.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 16",
+                            "name": "AttTag"
+                        }
+                    ]
+                },
+                "l1": {
+                    "OBJN": [
+                        "DivCrst"
+                    ],
+                    "ARCN": [
+                        "F004rCrystalWell",
+                        "F004rCrystalUnwell"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "CB A1 72 F0",
+                            "params2": "FF FF FF FF",
+                            "posx": -150.000732421875,
+                            "posy": 106.77000427246094,
+                            "posz": 795.66748046875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 17",
+                            "name": "DivCrst"
+                        }
+                    ]
+                },
+                "l2": {
+                    "OBJN": [
+                        "NpcSha",
+                        "DivCrst"
+                    ],
+                    "ARCN": [
+                        "F004rCrystalWell",
+                        "F004rCrystalUnwell",
+                        "Uranaiya"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "2E 5F FD FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": -80.885009765625,
+                            "posy": 71.81280517578125,
+                            "posz": 880.7496948242188,
+                            "anglex": 65535,
+                            "angley": 40232,
+                            "anglez": 11130,
+                            "id": "FC 17",
+                            "name": "NpcSha",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "untrigstoryfid": 370,
+                                "talk_behaviour": 11130,
+                                "trigstoryf": "-",
+                                "untrigstoryf": " Talking to past Impa after meeting Batreaux or Meeting Batreaux after talking to past Impa  (Bazaar layer 2)"
+                            }
+                        },
+                        {
+                            "params1": "CB A1 72 F0",
+                            "params2": "FF FF FF FF",
+                            "posx": -150.000732421875,
+                            "posy": 106.77000427246094,
+                            "posz": 795.66748046875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 18",
+                            "name": "DivCrst"
+                        }
+                    ]
+                },
+                "l3": {},
+                "l4": {
+                    "OBJN": [
+                        "NpcSha"
+                    ],
+                    "ARCN": [
+                        "Uranaiya"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF E5 DD FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": -80.885009765625,
+                            "posy": 71.81280517578125,
+                            "posz": 880.7496948242188,
+                            "anglex": 65535,
+                            "angley": 40232,
+                            "anglez": 11130,
+                            "id": "FC 17",
+                            "name": "NpcSha",
+                            "extra_info": {
+                                "trigstoryfid": 375,
+                                "untrigstoryfid": 2047,
+                                "talk_behaviour": 11130,
+                                "trigstoryf": "Set after Sleeping after the Fortune Teller crystals (Bazaar layer 3)",
+                                "untrigstoryf": "-"
+                            }
+                        }
+                    ]
+                },
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}

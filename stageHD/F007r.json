@@ -1,0 +1,416 @@
+{
+    "LYSE": [
+        {
+            "story_flag": -1,
+            "night": 1,
+            "layer": 2
+        },
+        {
+            "story_flag": -1,
+            "night": 0,
+            "layer": 1
+        }
+    ],
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 160000.0,
+        "wtf3": 10000.0,
+        "byte1": 0,
+        "flagindex": 0,
+        "byte3": 4,
+        "byte4": 0,
+        "unk1": "FF 03",
+        "map_name_id": 62,
+        "unk2": "FF"
+    },
+    "RMPL": {
+        "0": []
+    },
+    "LAY ": {
+        "l0": {
+            "OBJN": [
+                "MapArea"
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": 4.82427978515625,
+                    "posy": -148.5031280517578,
+                    "posz": -24.646503448486328,
+                    "sizex": 1800.0,
+                    "sizey": 500.0,
+                    "sizez": 1800.0,
+                    "anglex": 0,
+                    "angley": 37866,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "MapArea"
+                }
+            ]
+        },
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "OBJN": [
+                "FlvsC",
+                "CupA00",
+                "CupA01",
+                "FlvsA"
+            ],
+            "ARCN": [
+                "FlvsC",
+                "CupA00",
+                "CupA01",
+                "FlvsA"
+            ],
+            "FILE": "FF FF FF FF",
+            "SCEN": [
+                {
+                    "name": "F000",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 32,
+                    "byte4": 2,
+                    "byte5": 0,
+                    "flag6": 0,
+                    "zero": 0,
+                    "flag8": 0
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": -1,
+                    "posx": -1.0673060417175293,
+                    "posy": 0.0,
+                    "posz": 218.66993713378906,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 11,
+                    "posx": -4.603085041046143,
+                    "posy": 0.0,
+                    "posz": 487.4540100097656,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 1
+                }
+            ],
+            "SOBJ": [
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 360.3800048828125,
+                    "posy": 99.29000091552734,
+                    "posz": -33.30000305175781,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "CupA01"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 383.1000061035156,
+                    "posy": 99.29000091552734,
+                    "posz": 6.210000038146973,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "CupA00"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 465.1400146484375,
+                    "posy": 163.37001037597656,
+                    "posz": -188.32000732421875,
+                    "sizex": 1.2999999523162842,
+                    "sizey": 1.2999999523162842,
+                    "sizez": 1.2999999523162842,
+                    "anglex": 0,
+                    "angley": 16875,
+                    "anglez": 0,
+                    "id": "FC 02",
+                    "name": "FlvsA"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -291.5,
+                    "posy": 68.75,
+                    "posz": 160.1400146484375,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 45731,
+                    "anglez": 0,
+                    "id": "FC 03",
+                    "name": "FlvsC"
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "DNight",
+                        "AttTag",
+                        "Door",
+                        "SwAreaT",
+                        "EffGnT"
+                    ],
+                    "ARCN": [
+                        "DoorA00",
+                        "PLBed",
+                        "DoorAnim"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "00 00 00 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 410.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 04",
+                            "name": "Door",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scen_link": 0,
+                                "talk_behaviour": 0,
+                                "subtype": 0,
+                                "scenef": "no flag"
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF E0 24",
+                            "params2": "FF FF FF FF",
+                            "posx": -345.3310241699219,
+                            "posy": 51.0,
+                            "posz": -25.172813415527344,
+                            "anglex": 0,
+                            "angley": 32768,
+                            "anglez": 0,
+                            "id": "FC 05",
+                            "name": "DNight",
+                            "extra_info": {
+                                "sleep_storyfid": 36,
+                                "sleep_storyf": "Hero's Tunic / Fi Unlocked if you have a sword (Skyloft layers 4&5 / Sky layer 2 / Knight Academy layers 3&4 / Sealed Grounds layer 1 / Behind The Temple layer 1 / Goddess Statue layers 2&3)"
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF 04 02",
+                            "params2": "FF FF FF FF",
+                            "posx": 335.0,
+                            "posy": 20.0,
+                            "posz": -315.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 06",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": -2.0479700565338135,
+                            "posy": -24.73381805419922,
+                            "posz": 365.1805114746094,
+                            "sizex": 671.0,
+                            "sizey": 100.0,
+                            "sizez": 192.0,
+                            "anglex": 64201,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 07",
+                            "name": "SwAreaT",
+                            "extra_info": {
+                                "setstoryfid": 713,
+                                "unsetstoryfid": 2047,
+                                "setscenefid": 255,
+                                "unsetscenefid": 255,
+                                "setstoryf": "Piper's House entered (name on map appears)",
+                                "unsetstoryf": "-",
+                                "setscenef": "no flag",
+                                "unsetscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 2.091830015182495,
+                            "posy": -5.77866792678833,
+                            "posz": 348.34332275390625,
+                            "sizex": 200.0,
+                            "sizey": 100.0,
+                            "sizez": 130.0,
+                            "anglex": 0,
+                            "angley": 32768,
+                            "anglez": 0,
+                            "id": "FC 08",
+                            "name": "AttTag"
+                        }
+                    ]
+                },
+                "l1": {
+                    "OBJN": [
+                        "NpcChef"
+                    ],
+                    "ARCN": [
+                        "Chef"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "04 9F FF FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 70.84000396728516,
+                            "posy": 2.180000066757202,
+                            "posz": -357.1300048828125,
+                            "anglex": 65535,
+                            "angley": 32946,
+                            "anglez": 10014,
+                            "id": "FC 09",
+                            "name": "NpcChef",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "untrigstoryfid": 36,
+                                "talk_behaviour": 10014,
+                                "trigstoryf": "-",
+                                "untrigstoryf": "Hero's Tunic / Fi Unlocked if you have a sword (Skyloft layers 4&5 / Sky layer 2 / Knight Academy layers 3&4 / Sealed Grounds layer 1 / Behind The Temple layer 1 / Goddess Statue layers 2&3)"
+                            }
+                        }
+                    ]
+                },
+                "l2": {
+                    "OBJN": [
+                        "NpcSoBo",
+                        "NpcChef"
+                    ],
+                    "ARCN": [
+                        "Chef",
+                        "SoBoyA"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 70.84000396728516,
+                            "posy": 2.180000066757202,
+                            "posz": -357.1300048828125,
+                            "anglex": 65535,
+                            "angley": 32946,
+                            "anglez": 10014,
+                            "id": "FC 09",
+                            "name": "NpcChef",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "untrigstoryfid": 2047,
+                                "talk_behaviour": 10014,
+                                "trigstoryf": "-",
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF 5F FF FC",
+                            "posx": 209.92478942871094,
+                            "posy": 2.5,
+                            "posz": -148.2090301513672,
+                            "anglex": 65535,
+                            "angley": 59347,
+                            "anglez": 12205,
+                            "id": "FC 0A",
+                            "name": "NpcSoBo",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "untrigstoryfid": 2047,
+                                "talk_behaviour": 12205,
+                                "trigstoryf": "-",
+                                "untrigstoryf": "-"
+                            }
+                        }
+                    ]
+                },
+                "l3": {},
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}
