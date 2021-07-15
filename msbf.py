@@ -69,7 +69,7 @@ TEXTREPLACEMENTS = {
     b'\x00\x0e\x00\x02\x00\x04\x00\x02\x00\x19\x00C\x00D': '(X)'.encode('utf-16be'), # marker X
 }
 
-LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US','de_DE_hd','en_GB_hd','es_ES_hd','fr_FR_hd','it_IT_hd','en_US_hd','es_US_hd','fr_US_hd']
+LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US','de_DE_hd','en_GB_hd','es_ES_hd','fr_FR_hd','it_IT_hd','en_US_hd','es_US_hd','fr_US_hd','nl_NL_hd']
 # LANGS = ['en_GB_hd','en_GB']
 
 cumulative_flags_set = [b'\x00'*0x10]*len(flagindex_names)
