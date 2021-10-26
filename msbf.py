@@ -70,7 +70,7 @@ TEXTREPLACEMENTS = {
 }
 
 LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US','de_DE_hd','en_GB_hd','es_ES_hd','fr_FR_hd','it_IT_hd','en_US_hd','es_US_hd','fr_US_hd','nl_NL_hd']
-# LANGS = ['en_GB_hd','en_GB']
+# LANGS = ['en_US']
 
 cumulative_flags_set = [b'\x00'*0x10]*len(flagindex_names)
 
@@ -289,8 +289,11 @@ def interpretFlow(item, strings, attrs):
                 assert item['param1']==0
                 assert item['param2']==0
                 return "open_collection_screen();"
+            elif item['param3'] == 6:
+                # param1 is part of the wait time as well, but always 0
+                return "wait_frames(%d)" % item['param2']
             else:
-                # assert item['param3'] in (6,24,26,31,32,34,36,37,44,45,49,52,53,55,58,59)
+                # assert item['param3'] in (24,26,31,32,34,36,37,44,45,49,52,53,55,58,59)
                 return str(item)
 
         elif item['subType']==1:
