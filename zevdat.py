@@ -2,6 +2,7 @@ from util import toStr, unpack, objToJson
 from collections import OrderedDict
 from pathlib import Path
 import struct
+import sys
 
 def parse_zevdat(zevdat: bytes):
     out = OrderedDict()
@@ -169,7 +170,19 @@ def event_to_graphviz(event) -> str:
     return out + '\n}'
 
 if __name__ == '__main__':
-    process_all()
+    if len(sys.argv) == 1:
+        process_all()
+    elif len(sys.argv) == 3:
+        evntfile = sys.argv[1]
+        evntname = sys.argv[2]
+        evnt = get_event(evntfile, evntname)
+        if evnt is None:
+            print(f"cannot fine event '{evntname}'", file=sys.stderr)
+            exit(1)
+        print(event_to_graphviz(evnt))
+    else:
+        usage = "python3 zevdat.py filename eventname\nExample: python3 zevdat.py F300 SalbageFayCall2"
+        print(usage, file=sys.stderr)
 # evnt = get_event("F300", "SalbageFayCall2")
 # print(event_to_graphviz(evnt))
 
