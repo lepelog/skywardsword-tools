@@ -3,6 +3,7 @@ from collections import OrderedDict
 from pathlib import Path
 import struct
 import sys
+import subprocess
 
 def parse_zevdat(zevdat: bytes):
     out = OrderedDict()
@@ -140,6 +141,10 @@ def process_all():
         #     break
         parsed = parse_zevdat(zevfile.read_bytes())
         name = zevfile.parts[-1][:-8]
+        # for event in parsed["evnts"]:
+        #     eventname = event["name"]
+        #     proc = subprocess.Popen(["dot", "-Tpng", "-o", f"graphviztest/{eventname}.png"], stdin=subprocess.PIPE)
+        #     proc.communicate(input=event_to_graphviz(event).encode("ASCII"))
         with (outdir / f'{name}.json').open('w') as f:
             f.write(objToJson(parsed))
 
@@ -149,9 +154,11 @@ def get_event(filename, evnt_name):
 
 def event_to_graphviz(event) -> str:
     out = "digraph {\n"
+    out += f'label="{event["name"]}";\n'
     # draw each actor
     for actoridx, actor in enumerate(event['actors']):
-        out += f'actor{actoridx} [label="{actor["name"]}"];\n'
+        out += f'subgraph cluster_{actoridx} {{\n'
+        out += f'label="{actor["name"]}";\n'
         # draw each action of the actor
         for i in range(len(actor['acts1'])):
             unk1 = actor['acts1'][i]
@@ -159,10 +166,16 @@ def event_to_graphviz(event) -> str:
             out += f'action{actionidx} [label="{unk1["name"]}"];\n'
             # line from previous
             if i == 0:
-                prev = f"actor{actoridx}"
+                pass
             else:
-                prev = f"action{actionidx-1}"
-            out += f"{prev} -> action{actionidx};\n"
+                out += f"action{actionidx-1} -> action{actionidx};\n"
+        out += "}\n"
+
+    for actor in event['actors']:
+        # draw each action of the actor
+        for i in range(len(actor['acts1'])):
+            unk1 = actor['acts1'][i]
+            actionidx = unk1['thisindex']
             # if this waits
             waitfor = unk1['waitfor']
             if waitfor != -1:
