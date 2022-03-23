@@ -13,66 +13,110 @@ pause_re = re.compile(b'\x00\x0E\x00\x01\x00\x04\x00\x02(..)',re.DOTALL)
 item_re = re.compile(b'\x00\x0E\x00\x02\x00\x01\x00\x02(..)',re.DOTALL)
 call_next_entrypoint_re = re.compile(b'\x00\x0E\x00\x01\x00\x0C\x00\x04\x00\x06(..)',re.DOTALL)
 
-TEXTREPLACEMENTS = {
-    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x00': '<r<'.encode('utf-16be'),  # red
-    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x01': '<rd<'.encode('utf-16be'), # also red
-    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x02': '<y+<'.encode('utf-16be'), # yellow-white
-    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x03': '<b<'.encode('utf-16be'),  # blue
-    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x04': '<g<'.encode('utf-16be'),  # green
-    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x05': '<y<'.encode('utf-16be'),  # yellow
-    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x07': '<g+<'.encode('utf-16be'), # green rupee green
-    # b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x06': '<?<'.encode('utf-16be'),  # literally only used once
-    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x08': '<b+<'.encode('utf-16be'), # blue rupee blue
-    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x09': '<r+<'.encode('utf-16be'), # red-white
-    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\n':   '<s<'.encode('utf-16be'),  # silver
-    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x0B': '<y+<'.encode('utf-16be'), # gold rupee gold
-    b'\x00\x0E\x00\x00\x00\x03\x00\x02\x00\x0C': '<black<'.encode('utf-16be'), # rupoor
-    b'\x00\x0E\x00\x00\x00\x03\x00\x02\xFF\xFF': '>>'.encode('utf-16be'),   # end formatting
-                
-    b'\x00\x0E\x00\x01\x00\x00\x00\x02\xFF\xFF': '[1]'.encode('utf-16be'),  # 1st answer
-    b'\x00\x0E\x00\x01\x00\x01\x00\x02\x00\x00': '[2-]'.encode('utf-16be'), # 2nd answer (cancel)
-    b'\x00\x0E\x00\x01\x00\x01\x00\x02\xFF\xFF': '[2]'.encode('utf-16be'),  # 2nd answer
-    b'\x00\x0E\x00\x01\x00\x01\x00\x02\xFF\x00': '[2?]'.encode('utf-16be'), # 2nd answer, but different?
-    b'\x00\x0E\x00\x01\x00\x02\x00\x02\x00\x00': '[3-]'.encode('utf-16be'), # 3rd answer (cancel)
-    b'\x00\x0E\x00\x01\x00\x02\x00\x02\xFF\xFF': '[3]'.encode('utf-16be'),  # 3rd answer
-    b'\x00\x0E\x00\x01\x00\x03\x00\x02\x00\x00': '[4-]'.encode('utf-16be'), # 4rd answer (cancel)
-    b'\x00\x0E\x00\x01\x00\x03\x00\x02\xFF\xFF': '[4]'.encode('utf-16be'),  # 4th answer
+COLORS = {
+    0: "red",
+    1: "also red",
+    2: "yellow white",
+    3: "blue",
+    4: "green",
+    5: "yellow",
+    6: "fi",
+    7: "green rupee",
+    8: "blue rupee",
+    9: "red rupee",
+    10: "silver",
+    11: "gold",
+    12: "black",
+}
 
-    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x00\x00\xCD': '<numeric arg0>'.encode('utf-16be'),
-    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x01\x00\xCD': '<numeric arg1>'.encode('utf-16be'),
-    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x02\x00\xCD': '<numeric arg2>'.encode('utf-16be'),
-    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x03\x00\xCD': '<numeric arg3>'.encode('utf-16be'),
-    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x04\x00\xCD': '<numeric arg4>'.encode('utf-16be'),
-    #                                           index; if bytes used together?
-    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x00\x01\xCD': '<numeric arg0(1)>'.encode('utf-16be'),
-    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x01\x02\xCD': '<numeric arg1(2)>'.encode('utf-16be'),
-    b'\x00\x0E\x00\x02\x00\x03\x00\x06\x00\x00\x00\x02\x02\xCD': '<numeric arg2(2)>'.encode('utf-16be'),
+ICONS = {
+    0: '(A)',  # A button
+    1: '(B)',  # B button
+    2: '(-)',  # - button
+    3: '(+)',  # + button
+    4: '(1)',  # 1 Button
+    5: '(2)',  # 2 Button
+    6: '(C)',  # C button
+    7: '(Z)',  # Z button
+    8: '(ControlStick2)',
+    9: '(StickUp)',
+    14: '(ControlStick)',
+    17: '(v)',  # down button
+    16: '(^)',  # up Button
+    24: '(Hand)',
+    25: '(X)', # marker X
+    26: '(O)', # insect marker
 
-    '\x0E\x02\x02\x04\x00\x00'.encode('utf-16be')              : '<string arg0>'.encode('utf-16be'),
-    '\x0E\x02\x02\x04\x00\x01'.encode('utf-16be')              : '<string arg1>'.encode('utf-16be'),
-    '\x0E\x02\x02\x04\x00\x02'.encode('utf-16be')              : '<string arg2>'.encode('utf-16be'),
-    '\x0E\x02\x02\x04\x00\x03'.encode('utf-16be')              : '<string arg3>'.encode('utf-16be'),
-
-    b'\x00\x0E\x00\x01\x00\x04\x00\x02\\': '<pause>'.encode('utf-16be'),
-
-    b'\x00\x0E\x00\x01\x00\x0B\x00\x04\x00\x00\x00\x04': '<pling>'.encode('utf-16be'), # notice sound
-                
-    b'\x00\x0E\x00\x02\x00\x00\x00\x00':         'Link'.encode('utf-16be'), # heroname
-    b'\x00\x0E\x00\x02\x00\x04\x00\x02\x00\xCD': '(A)'.encode('utf-16be'),  # A button
-    b'\x00\x0E\x00\x02\x00\x04\x00\x02\x01\xCD': '(B)'.encode('utf-16be'),  # B button
-    b'\x00\x0E\x00\x02\x00\x04\x00\x02\x06\xCD': '(C)'.encode('utf-16be'),  # C button
-    b'\x00\x0E\x00\x02\x00\x04\x00\x02\x07\xCD': '(Z)'.encode('utf-16be'),  # Z button
-    b'\x00\x0e\x00\x02\x00\x04\x00\x02\x04\xCD': '(1)'.encode('utf-16be'),  # 1 Button
-    b'\x00\x0e\x00\x02\x00\x04\x00\x02\x05\xCD': '(2)'.encode('utf-16be'),  # 1 Button
-    b'\x00\x0E\x00\x02\x00\x04\x00\x02\x11\xCD': '(v)'.encode('utf-16be'),  # down button
-    b'\x00\x0e\x00\x02\x00\x04\x00\x02\x10\xCD': '(^)'.encode('utf-16be'),  # up Button
-    b'\x00\x0e\x00\x02\x00\x04\x00\x02\x00\x19\x00C\x00D': '(X)'.encode('utf-16be'), # marker X
 }
 
 LANGS = ['de_DE','en_GB','es_ES','fr_FR','it_IT','en_US','es_US','fr_US','de_DE_hd','en_GB_hd','es_ES_hd','fr_FR_hd','it_IT_hd','en_US_hd','es_US_hd','fr_US_hd','nl_NL_hd']
 # LANGS = ['en_US']
 
 cumulative_flags_set = [b'\x00'*0x10]*len(flagindex_names)
+
+def process_utf16_ss(byts: bytes) -> str:
+    cur_pos = 0
+    out_str = ""
+    while cur_pos < len(byts):
+        cur_char = struct.unpack(">H", byts[cur_pos:cur_pos + 2])[0]
+        if cur_char == 0xE:
+            command, extra_len = struct.unpack(">IxB", byts[cur_pos + 2:cur_pos + 8])
+            extra_bytes = byts[cur_pos+8:cur_pos+8+extra_len]
+            cur_pos += extra_len + 8
+            out_str += process_text_cmd(command, extra_bytes)
+        else:
+            char = byts[cur_pos:cur_pos + 2].decode('utf-16be')
+            out_str += char
+            cur_pos += 2
+    return out_str
+
+unknown_commands = set()
+
+def process_text_cmd(command, extra_bytes) -> str:
+    if command == 3:
+        color_cmd, = struct.unpack(">h", extra_bytes)
+        if color_cmd == -1:
+            return ">coloroff>"
+        else:
+            return f"<color {COLORS.get(color_cmd, color_cmd)}<"
+    elif command == 0x1000C:
+        index, entrypoint = struct.unpack(">HH", extra_bytes)
+        return f"<entrypoint_{index}_{entrypoint}>"
+    elif command == 0x10004:
+        duration, = struct.unpack(">H", extra_bytes)
+        return f"<pause {duration}>"
+    elif command == 0x1000B:
+        sound, = struct.unpack(">I", extra_bytes)
+        return f"<sound {sound}>"
+    elif command == 0x20000:
+        return f"<heroname>"
+    elif command == 0x20001:
+        item, = struct.unpack(">H", extra_bytes)
+        return f"<item {item}>"
+    elif command == 0x20003:
+        index, a0, a1 = struct.unpack(">IBB", extra_bytes)
+        assert a1 == 0xCD
+        return f"<numeric arg{index} {a0}>"
+    elif command == 0x20004:
+        index, cd = struct.unpack(">BB", extra_bytes)
+        assert cd == 0xCD
+        if icon := ICONS.get(index):
+            return icon
+        else:
+            return f"<icon {index}>"
+    elif command == 0x20002:
+        index, = struct.unpack(">I", extra_bytes)
+        return f"<string arg{index}>"
+    elif command in (0x10000, 0x10001, 0x10002, 0x10003):
+        extra = ""
+        if extra_bytes == b'\xFF\xFF':
+            extra = "-" # cancel
+        if extra_bytes == b'\xFF\x00':
+            extra = "?" # cancel but different?
+        return f"[{command + 1 & 0xFF}{extra}]"
+    else:
+        unknown_commands.add(command)
+        return f"<0x{command:X}:0x{extra_bytes.hex()}>"
 
 def parseMSB(fname):
     print(fname)
@@ -174,23 +218,8 @@ def parseMSB(fname):
             indices = [struct.unpack('>i',seg_data[4+4*i : 8+4*i])[0] for i in range(count)]
             for i in range(count): # for every item of text
                 bytestring = seg_data[indices[i] : (indices[i+1] if i + 1 < count else seg_len) - 2]
-
-                # 2 bytes after \x00\x0E\x00\x01\x00\x04\x00\x02 set the length
-                bytestring = pause_re.sub(lambda x: rf'<pause{ord(x.group(1).decode("utf-16be")):02X}>'.encode('utf-16be'), bytestring)
-
-                # 2 bytes after \x00\x0E\x00\x02\x00\x01\x00\x02 is the itemid
-                bytestring = item_re.sub(lambda x: rf'<item{ord(x.group(1).decode("utf-16be")):02X}>'.encode('utf-16be'), bytestring)
-
-                # 
-                bytestring = call_next_entrypoint_re.sub(lambda x: f'<entrypoint_{ord(x.group(1).decode("utf-16be")):03}>'.encode('utf-16be'), bytestring)
-
-                # decoding special characters:
-                for characters, meaning in TEXTREPLACEMENTS.items():
-                    bytestring = bytestring.replace(characters, meaning)
-                # continue
                 
-                string = bytestring.decode('utf-16be').replace('\n','\\n').replace('"','\\"')
-                string = re.sub(r'[^\x20-\xFF]',lambda x: f'\\x{ord(x.group()):02X}', string)
+                string = process_utf16_ss(bytestring).replace('\n','\\n').replace('"','\\"')
                 parsed['TXT2'].append(string)
         else:
             raise Exception('unimplemented '+seg_id)
@@ -437,3 +466,4 @@ if __name__ == "__main__":
             f.write('                          -----------------------------------------------\n')
             for i in range(len(flagindex_names)):
                 f.write('%24s  %s\n' % (flagindex_names[i], sprintHex(cumulative_flags_set[i])))
+    print(unknown_commands)
