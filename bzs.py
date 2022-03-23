@@ -216,9 +216,11 @@ def objAddExtraInfo(parsed_item):
             extraInfo['untrigscenefid']=(parsed_item['anglex']>>8)
     elif parsed_item['name']=='Door':
         extraInfo['scenefid']=(parsed_item['anglex']>>8)
+        extraInfo['subtype2']=parsed_item['anglex'] & 0xFF
         extraInfo['scen_link'] = (params1 >> 8) & 0xFF
         extraInfo['talk_behaviour'] = params1 >> 16
-        extraInfo['subtype'] = params1 & 0xFF
+        extraInfo['subtype'] = params1 & 0x3F
+        extraInfo['locked'] = bool((params1 >> 6) & 1)
     elif parsed_item['name']=='TBox': # note: if the first 4 bits are 0, the chest won't spawn at all, if it's 1 the chest being open is determined by the sceneflag instead of the chestflag and if it's 0xF=15, it uses the chestflag to determine if it should be open
         spawnscenef=((params1 & 0x0FF00000) >> 20)
         extraInfo['spawnscenefid']=spawnscenef
@@ -421,7 +423,7 @@ def parseObj(objtype, quantity, data):
                 return parsed_item
             elif objtype == 'SCEN':
                 #link to other stage
-                parsed_item = unpack('name room layer entrance byte4 byte5 flag6 zero flag8','>32sbbbbbbbb',item)
+                parsed_item = unpack('name room layer entrance night transtype fadeframestype zero saveprompt','>32sbbbbbbbb',item)
                 parsed_item['name'] = toStr(parsed_item['name'])
                 stage_scens.append(parsed_item)
             elif objtype == 'CAM ':
