@@ -573,6 +573,18 @@ TDoor:
     mask: 0x7FF
     shift: 0
 TstShtr:
+  subtype:
+    mask: 0xF
+    shift: 0
+  side1room:
+    mask: 0x3F
+    shift: 20
+  side2room:
+    mask: 0x3F
+    shift: 26
+  unk_bit: # inverted in the actor
+    mask: 1
+    shift: 18
   side1scenefid:
     mask: 0xFF
     shift: 0
