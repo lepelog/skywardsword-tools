@@ -14,23 +14,42 @@ all_exits=[]
 
 used_layers=defaultdict(set)
 
+existing_entrances = defaultdict(set)
+
 for stageid, data in raw_stages.items():
     for roomid, room in data['rooms'].items():
         rid=int(roomid[1:])
-        for eid, ext in enumerate(room.get('SCEN',[])):
-            all_exits.append(OrderedDict(fromstage=stageid, fromroom=rid, exitid=eid, **ext))
-        for entr in room.get('PLY ', []):
-            all_entrances.append(OrderedDict(stage=stageid, room=rid, **entr))
+        # for eid, ext in enumerate(room.get('SCEN',[])):
+        #     entr_name = f"r{ext['room']:02}:{ext['entrance']:02}"
+        #     existing_entrances[entr_name].add(ext['name'])
+            # if ext['saveprompt'] == 1:
+            #     print(f"stage: {ext['name']}, room: {ext['room']}, entrance: {ext['entrance']}")
+        for ply in room.get('PLY ', []):
+            entr_name = f"r{rid:02}:{ply['entrance_id']:02}"
+            existing_entrances[entr_name].add(stageid)
+
+
+print(existing_entrances)
+
+cleaned = sorted(existing_entrances.items(), key=lambda x: x[0])
+
+cdict = {}
+
+for clean in cleaned:
+    cdict[clean[0]] = sorted(clean[1])
+    print(f"{clean[0]}: {sorted(clean[1])}")
+
+# print(cdict)
 
 # stage, room, entranceid
-entrance_set={}
-for entrance in all_entrances:
-    entrance_set[(entrance['stage'], entrance['room'], entrance['entrance_id'])]=entrance
+# entrance_set={}
+# for entrance in all_entrances:
+#     entrance_set[(entrance['stage'], entrance['room'], entrance['entrance_id'])]=entrance
 
-exit_set={}
-for eexit in all_exits:
-    exit_set[(eexit['name'], eexit['room'], eexit['entrance'])]=eexit
-    used_layers[eexit['name']].add(eexit['layer'])
+# exit_set={}
+# for eexit in all_exits:
+#     exit_set[(eexit['name'], eexit['room'], eexit['entrance'])]=eexit
+#     used_layers[eexit['name']].add(eexit['layer'])
 
 # for stageid, stage in raw_stages.items():
 #     for layermapping in stage.get('LYSE',[]):
