@@ -24,6 +24,7 @@ jobs:
 
     - name: Build and Deploy
       run: |
+        pip3 install PyYAML
         bash build.sh
         cd output
         git init

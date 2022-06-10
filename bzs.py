@@ -8,6 +8,7 @@ import storyflag
 import tboxSubtypes
 from util import *
 import re
+import yaml
 
 ROOMCOUNT = 16
 LAYERCOUNT = 29
@@ -78,6 +79,15 @@ with open('allstoryflags.json') as f:
     storyflagnames = json.load(f)
 with open('allsceneflags.json') as f:
     sceneflagnames = json.load(f)
+with open('actor_params.yaml') as f:
+    actor_params = yaml.safe_load(f)
+
+PARAM_STUFF = set(['mask','shift','bitfield_name','values'])
+
+for param_defs in actor_params.values():
+    for param_def in param_defs.values():
+        for name in param_def.keys():
+            assert name in PARAM_STUFF, name
 
 def parseBzs(data):
     name,count,_ff,offset = struct.unpack('>4shhi',data[:12])
@@ -108,266 +118,41 @@ def objAddExtraInfo(parsed_item):
     extraInfo = collections.OrderedDict()
     params1 = read_word(parsed_item['params1'])
     params2 = read_word(parsed_item['params2'])
-    # sceneflags
-    if parsed_item['name'] in ['TlpTag', 'EMagupp']: # EMagupp: spume
-        # flag is first byte
-        extraInfo['scenefid'] = params1 >> 24
-        if parsed_item['name'] == 'TlpTag':
-            extraInfo['nameidx'] = (params1 >> 8) & 0xFF
-            extraInfo['name'] = map_text['MAP_%02d'%extraInfo['nameidx']]
-    if parsed_item['name'] in ['Log','trolley','Fence','Chandel','Est']:#Chandel: Chandelier in Lumpy Pumpkin
-        # flag is second byte
-        extraInfo['scenefid'] = (params1 >> 16) & 0xFF
-    elif parsed_item['name'] in ['FrmLand','SwWall','SwDir2','BrgFall','D300Obj','TSBase']: # SwWall: wall switch, BrgFall: drawbridges in ET and fire dragon room, D300Obj: LMF in lanayru desert, TSBase: time shift orb base
-        # flag is third byte
-        extraInfo['scenefid'] = (params1 >> 8) & 0xFF
-    elif parsed_item['name'] in ['TgReact','saveObj','HrpHint','BlsRock','TowerB','WdBoard','SStatue','FShutte','Lotus','WaterSW','FireObs','StprRc','Gear','Lotus','MDvTg','chest','IslTreB','RoAtLog','swsyako','TgDefea','SwHrp','SwdStb','TAgo','SdCdl']:# WdBoard: board near staldra in skyview, SStatue are statues you can bomb down in lanayru, FShutte: iron bars, Lotus: lillypad in AC, WaterSW: thirsty frog, FireObs: fire wall, StprRc: stopper rock in ET, Gear: Ropes to cut in ET and fire dragon room, MDvTg: megami diving tag used for diving after sailcloth, chest: wardrobes, IslTreB: Treasure island in the sky, RoAtLog: Roll attack log, swsyako: lanayru generators to feed with ampilus, TgDefea: Tag after defeated boss, SwHrp: Harp playing related, SwdStb: warps to triforce room, SdCdl: Crests to hit with skyward strike after dungeons (not isle of songs)
-        # flag is fourth byte
-        extraInfo['scenefid'] = params1 & 0xFF
-        if parsed_item['name'] == 'Lotus':
-            extraInfo['2scenefid'] = (params1 >> 0xE) & 0xFF
-        elif parsed_item['name']=='BlsRock':
-            # sceneflag for walls, that can be half broken
-            extraInfo['2scenefid']=(params1 >> 0x18) & 0xFF
-        elif parsed_item['name']=='TgReact':
-            # uses a different item table
-            extraInfo['tgreactitemid'] = params2 >> 24
-            subtypes = ['bonk','slingshot','gust bellow blow','underwater something']
-            extraInfo['subtype'] = subtypes[params1 >> 28]
-        elif parsed_item['name']=='SdCdl':
-            extraInfo['scen_link']=(params1 >> 8) & 0xF
-        elif parsed_item['name'] == 'TowerB':
-            extraInfo['event_id'] = (params1 >> 8) & 0xFF
-        elif parsed_item['name']=='saveObj':
-            # that one skyloft statue
-            if parsed_item['anglez'] == 0xFFFE:
-                extraInfo['scenefid']=0xFF
-            # statues with story flag instead of scene flag
-            elif (parsed_item['anglex']>>8) != 0xFF:
-                extraInfo['scenefid'] = 0xFF
-                extraInfo['setstoryfid'] = parsed_item['anglex']&0x7FF
-            extraInfo['tosky_scen_link'] = (params1 >> 16) & 0xFF
-            extraInfo['name_id'] = params2 & 0xFF
-            subtypes = ['normal','overworld','dungeon']
-            extraInfo['subtype'] = subtypes[(params1>>8)&0xFF]
-            if extraInfo['name_id'] == 0xFF:
-                extraInfo['name'] = map_text['SAVEOBJ_NAME_UNKNOWN']
+    # if parsed_item['name'].startswith('Npc'):
+    param_defs = actor_params.get(parsed_item['name'])
+    if param_defs is None and parsed_item['name'].startswith('Npc'):
+        param_defs = actor_params['Npc']
+    if param_defs is not None:
+        for prm_name, prm_def in param_defs.items():
+            bitfield_name = prm_def.get('bitfield_name', 'params1')
+            if bitfield_name == 'params1':
+                val = params1
+            elif bitfield_name == 'params2':
+                val = params2
             else:
-                extraInfo['name'] = map_text['SAVEOBJ_NAME_%02d' % extraInfo['name_id']]
-        elif parsed_item['name'] == 'HrpHint':
-            extraInfo['talk_behaviour'] = parsed_item['anglez']
-    elif parsed_item['name'] in ['Barrel','TimeStn','EAm']: # TimeStn: time shift stone, EAm: Armos
-        # flag is between byte 1 and 2
-        extraInfo['scenefid'] = (params1 >> 20) & 0xFF
-        if parsed_item['name'] == 'Barrel':
-            extraInfo['2scenefid'] = (params1 >> 12) & 0xFF
-        elif parsed_item['name'] == 'TimeStn':
-            extraInfo['subtype'] = (params1 >> 0x1C) 
-    elif parsed_item['name'] in ['Tubo','Soil','Wind','ColStp','EEye','Wind03','SldDoor','Wind02','ERemly','RolRock','Fire','SwBnkS','Char','TouchTa']: # ColStp: Logs before skyloft cave and elsewhere, EEye: Eyes in Skyview, Est: Spider, Wind03: water spot in AC, SldDoor: Door after bosses, Wind02: Appears in Eldin, probably lava fountains, ERemly: Remlit, RolRock: Rolling rocks, SwBnkS: small lanayru node & sandship switches to rotate, Char: Chair
-        # flag is between byte 3 and 4
-        extraInfo['scenefid'] = (params1 >> 4) & 0xFF
-        if parsed_item['name'] == 'SldDoor':
-            extraInfo['2scenefid'] = (params1 >> 0xD) & 0xFF 
-        if parsed_item['name'] == 'Fire':
-            extraInfo['checkscenefid'] = (params1 >> 0x16) & 0xFF
-    elif parsed_item['name'] in ['Kibako', 'PushBlk','vmSand','Truck','BlkRope','Heartf','Windmill']: # vmSand is sand dust to blow away, Truck: minecart at shipcart, BlkRope: Box hanging from rope, Heartf: heartflowers
-        # flag is between byte 2 and 3
-        extraInfo['scenefid'] = (params1 >> 12) & 0xFF
-        if parsed_item['name'] == 'Windmill':
-            extraInfo['2scenefid'] = (params1 >> 4) & 0xFF
-    elif parsed_item['name'] in ['Item','ShtCS']:
-        # flag is between byte 2 and 3 with bit shift
-        extraInfo['scenefid'] = (params1 >> 10) & 0xFF
-        if parsed_item['name'] == 'Item':
-            extraInfo['itemid'] = params1 & 0xFF
-            extraInfo['unk_param2'] = (params1 >> 20) & 0xF
-            extraInfo['unk_param3'] = (params1 >> 9) & 0x1 # mask unknown
-            extraInfo['unk_param5'] = (params1 >> 19) & 0x1
-    elif parsed_item['name'] in ['HitLVSW', 'ArrowSW']: # ArrowSW: Bow switches, HitLVSW: underground switches to move gates in FS
-        extraInfo['scenefid'] = (params1 >> 10) & 0xFF
-        extraInfo['2scenefid'] = (params1 >> 18) & 0xFF
-    elif parsed_item['name'] == 'BlwCoal': # Hot Floor to blow out with gust bellows
-        extraInfo['scenefid'] = (params1) & 0xFF
-        extraInfo['2scenefid'] = (params1 >> 8) & 0xFF
-    elif parsed_item['name'] == 'BulbSW': # switches you can whip in ancient cistern
-        extraInfo['scenefid'] = (params1 >> 2) & 0xFF
-    elif parsed_item['name'] == 'sw_whip':
-        extraInfo['1scenefid'] = (params1 >> 2) & 0xFF
-        extraInfo['2scenefid'] = (params1 >> 10) & 0xFF
-    elif parsed_item['name'] == 'Swhit': # crystal switches hittable with any damage
-        extraInfo['setscenefid'] = (params1 >> 3) & 0xFF
-        extraInfo['unsetscenefid'] = (params1 >> 0xb) & 0xFF
-    elif parsed_item['name'] == 'FenceIr': # Iron gate, openable with sceneflag
-        extraInfo['scenefid'] = params1 & 0xFF
-    elif parsed_item['name'] == 'DoorBs': # boss door
-        extraInfo['scenefid'] = (params1 >> 6) & 0xFF
-    elif parsed_item['name'] == 'EHidoK':
-        extraInfo['scenefid'] = (params1 >> 0x15) & 0xFF
-    elif parsed_item['name'].startswith('Npc'):
-        triggerstoryf=(params1 >> 10) & 0x7FF
-        untriggerstoryf=(params1 >> 21) & 0x7FF
-        extraInfo['trigstoryfid']=triggerstoryf
-        extraInfo['untrigstoryfid']=untriggerstoryf
-        extraInfo['talk_behaviour']=parsed_item['anglez']
-        # there might be more Npc actors with this sceneflag behaviour but needs testing
-        if parsed_item['name']=='NpcTke':
-            extraInfo['triggerarea']=parsed_item['angley'] & 0xFF
-            extraInfo['trigscenefid']=(parsed_item['anglex']&0xFF)
-            extraInfo['untrigscenefid']=(parsed_item['anglex']>>8)
-    elif parsed_item['name']=='Door':
-        extraInfo['scenefid']=(parsed_item['anglex']>>8)
-        extraInfo['subtype2']=parsed_item['anglex'] & 0xFF
-        extraInfo['scen_link'] = (params1 >> 8) & 0xFF
-        extraInfo['talk_behaviour'] = params1 >> 16
-        extraInfo['subtype'] = params1 & 0x3F
-        extraInfo['locked'] = bool((params1 >> 6) & 1)
-    elif parsed_item['name']=='TBox': # note: if the first 4 bits are 0, the chest won't spawn at all, if it's 1 the chest being open is determined by the sceneflag instead of the chestflag and if it's 0xF=15, it uses the chestflag to determine if it should be open
-        spawnscenef=((params1 & 0x0FF00000) >> 20)
-        extraInfo['spawnscenefid']=spawnscenef
-        extraInfo['setscenefid']=(parsed_item['anglex']&0xFF)
-        extraInfo['itemid']=parsed_item['anglez']&0x1FF
-        subtype = tboxSubtypes.tboxSubtypes[extraInfo['itemid']]
-        if subtype == 3:# goddess chest
-            # the special items for goddess chest are only used to
-            # determine that this is a goddess chest
-            extraInfo['itemid'] = 0x1FF - extraInfo['itemid']
-            extraInfo['trigstoryfid']=params2&0x7FF
-        extraInfo['subtype']=['Normal','Small','Boss','Goddess'][subtype]
-        extraInfo['chestid']=(parsed_item['anglez']&0xFE00)>>9
-    elif parsed_item['name']=='DNight':
-        extraInfo['sleep_storyfid']=params1 & 0x07FF
-    elif parsed_item['name']=='WarpObj':
-        extraInfo['scen_link']=(params1 >> 16) & 0xFF
-        extraInfo['trigscenefid']=(params1 >> 8) & 0xFF
-        extraInfo['untrigscenefid']=params1 & 0xFF
-    elif parsed_item['name']=='IvyRope': # IvyRope: Ropes, used for the ones you need to balance and the ones you can swing on
-        extraInfo['scenefid']=parsed_item['anglez'] & 0xFF
-        extraInfo['2scenefid']=(params1 >> 12) & 0xFF
-    elif parsed_item['name'] == 'TChk':
-        extraInfo['scenefid'] = (params1 >> 8) & 0xFF
-        extraInfo['2scenefid'] = params1 & 0xFF
-    elif parsed_item['name']=='Kanban':
-        extraInfo['talk_behaviour']=(params1 >> 4) & 0xFFFF
-        extraInfo['setscenefid']= (params1 >> 0x18) & 0xFF
-    elif parsed_item['name']=='KanbanS':
-        extraInfo['talk_behaviour']=params1 & 0xFFFF
-        extraInfo['setscenefid']= (params1 >> 0x10) & 0xFF
-    elif parsed_item['name']=='AutoMes':
-        extraInfo['talk_behaviour']=params1 & 0xFFFF
-    elif parsed_item['name'] == 'BlockUg':
-        extraInfo['scenefid'] = (params1 >> 8) & 0xFF
-        extraInfo['2scenefid'] = (params1 >> 16) & 0xFF
-    elif parsed_item['name'] == 'LvPlt':
-        extraInfo['checkscenefid'] = (params1) & 0xFF
-        extraInfo['setscenefid'] = (params1 >> 8) & 0xFF
-    elif parsed_item['name'] == 'Piston':# Pistons in Sandship engine room
-        extraInfo['setscenefid'] = parsed_item['anglez'] >> 8
-    elif parsed_item['name'] == 'DoorDun': # dungeon door
-        extraInfo['setscenefid'] = (params1 >> 8) & 0xFF
-        extraInfo['checkscenefid'] = (params1 >> 16) & 0xFF
-    elif parsed_item['name']=='GodCube':
-        extraInfo['storyfid']=params1&0x7FF
-    elif parsed_item['name']=='ScChang':
-        extraInfo['scen_link']=params1 & 0xFF
-        extraInfo['trigscenefid']=(params1 >> 24) & 0xFF
-        triggerstoryf=parsed_item['anglex']&0x7FF
-        untriggerstoryf=parsed_item['anglez']&0x7FF
-        extraInfo['trigstoryfid']=triggerstoryf
-        extraInfo['untrigstoryfid']=untriggerstoryf
-    elif parsed_item['name'] == 'SwAreaT':
-        extraInfo['setstoryfid']=parsed_item['anglex']&0x7FF
-        extraInfo['unsetstoryfid']=parsed_item['anglez']&0x7FF
-        extraInfo['setscenefid'] = params1 & 0xFF
-        extraInfo['unsetscenefid'] = (params1 >> 8) & 0xFF
-    elif parsed_item['name'] == 'DieTag':
-        extraInfo['setscenefid'] = (params1 & 0x00000FF0) >> 4
-    elif parsed_item['name'] == 'EvntTag':
-        extraInfo['trigscenefid'] = (params1 >> 16) & 0xFF
-        extraInfo['setscenefid'] = (params1 >> 8) & 0xFF
-        extraInfo['event'] = params1 & 0xFF
-        extraInfo['subType'] = 'unsetflag' if (params1 >> 0x18) & 0x3 == 0 else 'setflag'
-    elif parsed_item['name'] == 'EvfTag':
-        extraInfo['trigstoryfid'] = (params1 >> 19) & 0x7FF
-        extraInfo['setstoryfid'] = (params1 >> 8) & 0x7FF
-        extraInfo['event'] = params1 & 0xFF
-    elif parsed_item['name'] == 'TDoorB': # closed gate of time
-        extraInfo['trigstoryfid'] = params1 & 0x7FF
-        extraInfo['untrigstoryfid'] = (params1>>11) & 0x7FF
-        extraInfo['setscenefid'] = (params1>>22) & 0xFF
-    elif parsed_item['name'] == 'TDoor': # opened gate of time
-        extraInfo['trigstoryfid'] = params1 & 0x7FF
-    elif parsed_item['name'] == 'TstShtr': # TstShtr: Dungeon door
-        extraInfo['side1scenefid'] = (parsed_item['anglex']&0xFF)
-        extraInfo['side2scenefid'] = (parsed_item['anglex']>>8)
-    elif parsed_item['name'] == 'PlRsTag':
-        # byte 1 always FF
-        # byte 2 left 6 bytes {'010001', '110101', '110111', '010011', '110001', '010101', '110011', '111011'}
-        # unk2 always FF DF FF FF
-        extraInfo['trigscenefid'] = parsed_item['anglez']&0xFF
-        extraInfo['untrigscenefid'] = (parsed_item['anglez']>>8)&0xFF
-        extraInfo['roomid'] = (params1>>12)&0x3F
-        extraInfo['entranceid'] = params1 & 0xFF
-        # all bits set mean stay in the same room
-        if extraInfo['roomid'] == 63:
-            del extraInfo['roomid']
-    elif parsed_item['name'] == 'Dowsing':
-        extraInfo['option'] = DOWSING_OPTIONS[(params1 >> 16) & 0xF]
-        extraInfo['trigstoryfid'] = parsed_item['anglez'] & 0x7FF
-        extraInfo['untrigstoryfid'] = (params1 >> 20) & 0x7FF
-        extraInfo['trigscenefid'] = (params1 >> 8) & 0xFF
-        extraInfo['untrigscenefid'] = params1 & 0xFF
-    elif parsed_item['name'] in ('CamTag', 'Cam2Tag'): # special cameras, idk where the difference is
-        extraInfo['trigscenefid'] = (params1 >> 16) & 0xFF
-        extraInfo['untrigscenefid'] = parsed_item['anglez'] & 0xFF
-        extraInfo['camidx'] = (params1) & 0xFF
-    elif parsed_item['name'] == 'SwTag':
-        # tag to set sceneflag based on multiple other sceneflags
-        # first 4 bits always F, then 6 bits counts (counting n flags up from the following sceneflag), 8 bits start sceneflag (it watches range that+count)
-        # then 8 bits set sceneflag, then 6 unknown bits
-        extraInfo['trigscenefid'] = (params1>>14)&0xFF
-        extraInfo['setscenefid'] = (params1>>6)&0xFF
-        extraInfo['count'] = (params1>>22)&0x3F
-    elif parsed_item['name'] == 'TgTimer':
-        extraInfo['trigscenefid'] = (params1>>16)&0xFF
-        extraInfo['setscenefid'] = (params1>>24)&0xFF
-    elif parsed_item['name'] == 'WndMilD':
-        extraInfo['setscenefid'] = (params1>>0)&0xFF
-        extraInfo['2setscenefid'] = ((params1>>0)&0xFF)+1
-        extraInfo['checkscenefid'] = (params1>>8)&0xFF
-    elif parsed_item['name'] in ['EBc', 'EMr', 'EBce','EBeamos']:
-        # set when the enemy dies
-        extraInfo['setscenefid'] = parsed_item['anglez']&0xFF
-    elif parsed_item['name'] == 'EHydra':
-        extraInfo['setscenefid'] = (params1>>22)&0xFF
-    elif parsed_item['name'] == 'EGumarm': # Magmanos
-        extraInfo['setscenefid'] = params1 & 0xFF
-        extraInfo['set2scenefid'] = (params1 >> 8) & 0xFF
-    elif parsed_item['name'] == 'MapMark':
-        extraInfo['trigstoryfid'] = (params1 >> 12) & 0x7FF
-    elif parsed_item['name'] == 'SwrdPrj':
-        flag_add = (params1 >> 3) & 0x1F
-        if flag_add != 0x1F:
-            extraInfo['flag_add'] = flag_add
-            extraInfo['exhaustedstoryfid'] = 0x190 + extraInfo['flag_add']
-            extraInfo['spawnstoryfid'] = 0x1AE + extraInfo['flag_add']
-    #     extraInfo['map_pop_id'] = (parsed_item['anglez'] & 0xFF00) >> 8
-    #     key = 'MAP_POP_%02d'%extraInfo['map_pop_id']
-    #     extraInfo['map_pop'] = map_text.get(key, 'not found')
-    elif parsed_item['name'] == 'EBfish':
-        extraInfo['appearscenefid'] = parsed_item['anglez']&0xFF
-        extraInfo['diescenefid'] = parsed_item['anglez']>>8
-    if 'flagid' in extraInfo:
-        extraInfo['areaflag'] = flag_id_to_sheet_rep(extraInfo['flagid'])
-    if 'itemid' in extraInfo:
-        extraInfo['item']=itemnames.get(str(extraInfo['itemid']), '?')
-    for key in list(extraInfo.keys()):
-        if key.endswith('storyfid'):
-            info = extraInfo[key]
-            extraInfo[key[:-2]]=storyflagnames[info] if info < len(storyflagnames) else '-'
-        if key.endswith('scenefid'):
-            info = extraInfo[key]
-            extraInfo[key[:-2]]=flag_id_to_sheet_rep(info)
-            
+                val = parsed_item[bitfield_name]
+            val = (val >> prm_def['shift']) & prm_def['mask']
+            if values := prm_def.get('values'):
+                val = values[val]
+            extraInfo[prm_name] = val
+
+            # goddess wall stuff
+            # extraInfo['exhaustedstoryfid'] = 0x190 + extraInfo['flag_add']
+            # extraInfo['spawnstoryfid'] = 0x1AE + extraInfo['flag_add']
+            if 'itemid' == prm_name:
+                extraInfo['item']=itemnames.get(str(val), '?')
+            elif prm_name.endswith('storyfid'):
+                extraInfo[prm_name[:-2]]=storyflagnames[val] if val < len(storyflagnames) else '-'
+            elif prm_name.endswith('scenefid'):
+                extraInfo[prm_name[:-2]]=flag_id_to_sheet_rep(val)
+            elif prm_name == 'map_name_idx':
+                extraInfo['name'] = map_text['MAP_%02d' % val]
+            elif prm_name == 'saveobj_name_id':
+                if val == 0xFF:
+                    extraInfo['name'] = map_text['SAVEOBJ_NAME_UNKNOWN']
+                else:
+                    extraInfo['name'] = map_text['SAVEOBJ_NAME_%02d' % val]
+    
     if len(extraInfo) > 0:
         parsed_item['extra_info'] = extraInfo
 
