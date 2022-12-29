@@ -230,8 +230,8 @@ def parseMSB(fname):
 def interpretFlow(item, strings, attrs):
     if item['type']=='type1': # type-1 (text)
         msbt_file, msbt_line = item['param3'], item['param4']
-        # return 'printf(/* textboxtype: %d, unk: %d, line: %d */ "%s")' % (attrs[msbt_line]['unk1'], attrs[msbt_line]['unk2'], msbt_line, strings[msbt_line])
-        return 'printf("%s")' % strings[msbt_line]
+        return 'printf(/* textboxtype: %d, unk: %d, line: %d */ "%s")' % (attrs[msbt_line]['unk1'], attrs[msbt_line]['unk2'], msbt_line, strings[msbt_line])
+        # return 'printf("%s")' % strings[msbt_line]
 
     elif item['type']=='start': # type-4
         return 'start()'
