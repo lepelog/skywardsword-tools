@@ -457,8 +457,8 @@ if __name__ == "__main__":
             # output/text: text only
             (outdir / "text").mkdir(parents=True, exist_ok=True)
             with (outdir / "text" / filename.replace('.msbf','.txt')).open('w', encoding='utf-8') as f:
-                for linenum, line in enumerate(parsedMsbt['TXT2']):
-                    f.write(text_index_to_label[linenum] + ': ' + line + '\n')
+                for linenum, (line, atr1) in enumerate(zip(parsedMsbt['TXT2'], parsedMsbt["ATR1"])):
+                    f.write(f"(unk1: {atr1['unk1']:02}, unk2: {atr1['unk2']}) {text_index_to_label[linenum]}: {line}\n")
 
         # output/cumulSceneFlags.txt: a listing of scene flags found to be set by the event system
         with open('output/cumulSceneFlags.txt','w') as f:
