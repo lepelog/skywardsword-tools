@@ -1,3 +1,440 @@
+V_Clip:
+  someIndex: #"0x805b5668 : byte array of 64 bytes used for updates?"
+    mask: 0x3F 
+    shift: 0
+  unk1: # if FF: arr[someIndex] | 2, else arr[someIndex] | 1. (draw func)"
+    mask: 0xF
+    shift: 8
+  areaIdx:
+    mask: 0xF
+    shift: 12
+# DStartT: # unused params
+MapArea:
+  someToggle:
+    mask: 0xF
+    shift: 0
+  mapParams: # if 0x00000080 != 0, mapParams -= 16
+    mask: 0xF
+    shift: 4
+TruRail:
+  pathIndex:
+    mask: 0xFF
+    shift: 0
+  railType: # 0 - start, 1-splitL, 2-splitR, 3-after jump, 4-Merge?
+    mask: 0xF
+    shift: 8
+StreamT: # lots of unks. I assume it has to deal with speed, angle, connections, etc
+  000000FF:
+    mask: 0xFF
+    shift: 0
+  0000FF00:
+    mask: 0xFF
+    shift: 8
+  00FF0000:
+    mask: 0xFF
+    shift: 16
+  isSand: # only active with sand, changing it made things not flow on it?
+    mask: 0xF
+    shift: 24
+  F0000000:
+    mask: 0xF
+    shift: 28
+  unkAngZ: # countLeadingZeros((rotz & 0x3) - 1) >> 5
+    mask: 0x3
+    shift: 0
+    bitfield_name: anglez
+CBomSld:
+  unk: # not yet found where its used
+    mask: 0xFF
+    shift: 0
+# STKrake: # params unused
+# STKraPt: # params unused
+TimeStn: #this is a bit odd?
+  # 0000|00000000|00|00000000|00|00000000 
+  anotherscenefid: 
+    mask: 0xFF
+    shift: 0
+  letsStoneDisappear_inv: # 0 means it can
+    mask: 0x3
+    shift: 8
+  eventId:
+    mask: 0xFF
+    shift: 10
+  isFirstStone:
+    mask: 0x3
+    shift: 18
+  scenefid:
+    mask: 0xFF
+    shift: 20
+  subtype:
+    mask: 0xF
+    shift: 28
+  # it also uses rotation - unk atm
+Sw: # floor switches
+  switchType:
+    mask: 0xF
+    shift: 0
+  offscenefid:
+    mask: 0xFF
+    shift: 4
+  canBeSeen: # only not 0x3 in minecart escort.
+    mask: 0x3
+    shift: 12
+  onscenefid:
+    mask: 0xFF
+    shift: 14
+BlkRope: # blocks on ropes
+  isWoodenBlock:
+    mask: 0xF
+    shift: 0
+  pathIdxForPushBlk:
+    mask: 0xFF
+    shift: 4
+  scenefid:
+    mask: 0xFF
+    shift: 12
+  ropeLenScale:
+    mask: 0xF
+    shift: 20
+  boxNumber:
+    mask: 0xFF
+    shift: 24
+PushBlk: # iron Blocks
+  hanging:
+    mask: 0xF
+    shift: 0
+  pathIdx:
+    mask: 0xFF
+    shift: 4
+  goalscenefid:
+    mask: 0xFF
+    shift: 12
+  restrictscenefid:
+    mask: 0xFF
+    shift: 20
+  hasSwitchGoal:
+    mask: 0x3
+    shift: 28
+  canHalfPush: # allows setting the flag easier for push destinations
+    mask: 0x3
+    shift: 30
+Kibako: # wooden Boxes
+  hanging:
+    mask: 0xF
+    shift: 0
+  restrictscenefid:
+    mask: 0xFF
+    shift: 4
+  destroyedOrPushedscenefid:
+    mask: 0xFF
+    shift: 12
+  eventIndex:
+    mask: 0xFF
+    shift: 20
+  pathIndex:
+    mask: 0xFF
+    shift: 0
+    bitfield_name: params2
+Log:
+  eventIndex:
+    mask: 0xFF
+    shift: 0
+  pathIndex:
+    mask: 0xFF
+    shift: 8
+  scenefid:
+    mask: 0xFF
+    shift: 16
+  logInteractionType: # 1 is none-move, 0 is move once, 2 is resetable
+    mask: 0x3 # only 3 states used 0, 1, 2
+    shift: 24
+    values: ["Move once", "none move", "resetable", "-"]
+LogWtr: # used in SV
+  logType: # 0-float, 1-step (idk its what the game says)
+    mask: 0xF
+    shift: 0
+  1scenefid:
+    mask: 0xFF
+    shift: 4
+  2scenefid:
+    mask: 0xFF
+    shift: 12
+BeltCvr:
+  orientation:
+    mask: 0x3
+    shift: 0
+  modelType:
+    mask: 0xF
+    shift: 2
+  scenefid:
+    mask: 0xFF
+    shift: 6
+  isActive:
+    mask: 0x1
+    shift: 14
+  startingDir:
+    mask: 0x1
+    shift: 15
+  setSpeeds:
+    mask: 0x3
+    shift: 16
+  customSpeeds:
+    mask: 0x3F
+    shift: 18
+  Dirscenefid:
+    mask: 0xFF
+    shift: 24
+# Drum: # unused -  like log????
+Obstacl: #obstacles on belt - will revisted later ( TODO: BltObsTg Spawns them)
+  unk1:
+    mask: 0xF
+    shift: 0
+  unk2:
+    mask: 0xFF
+    shift: 4
+  unk3:
+    mask: 0x1
+    shift: 12
+  unk4:
+    mask: 0xF
+    shift: 13
+  unk5:
+    mask: 0x1
+    shift: 17
+  unk6:
+    mask: 0x1
+    shift: 0x18
+Himo: # unused like Drum
+  unk1:
+    mask: 0xF
+    shift: 0
+  unk2:
+    mask: 0xF
+    shift: 4
+  scenefid:
+    mask: 0xFF
+    shift: 8
+  eventIndex:
+    mask: 0xFF
+    shift: 16
+  unkColliderThing:
+    mask: 0x1
+    shift: 24
+SpiderL:
+  spawnlineType: # 0 is none, 1 is On web, 2 is on line
+    mask: 0xF
+    shift: 0
+    values: ["None", "On Web", "On Line", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]
+  scenefid:
+    mask: 0xFF
+    shift: 4
+Wind: # air vents
+  unk1:
+    mask: 0x7
+    shift: 0
+  isBigVent:
+    mask: 0x1
+    shift: 3
+  scenefid:
+    mask: 0xFF
+    shift: 4
+  unk4:
+    mask: 0xF
+    shift: 12
+  unk5:
+    mask: 0xF
+    shift: 16
+  pathIndex:
+    mask: 0xFF
+    shift: 20
+  unk6:
+    mask: 0x1
+    shift: 28
+  unk7:
+    mask: 0x1
+    shift: 29
+  unk8:
+    mask: 0x1
+    shift: 30
+  fromDigSpot: # could be wrong, wifi cutout when i was trying to check lmao
+    mask: 0x1
+    shift: 31
+  unk10:
+    mask: 0xFF
+    shift: 0 # rotz
+    bitfield_name: anglez
+  unk11:
+    mask: 0x3
+    shift: 8 # rotz
+    bitfield_name: anglez
+  unk12:
+    mask: 0x3F
+    shift: 10 # rotz
+    bitfield_name: anglez
+# Wind04: # TODO: Finish Later
+Wind03: # water spot in Ancient Cistern # TODO: finish later
+  scenefid:
+    mask: 0xFF
+    shift: 4
+Tornado:
+  subtype:
+    mask: 0xF
+    shift: 0
+SwWall:
+  unk1:
+    mask: 0xFF
+    shift: 0
+  scenefid:
+    mask: 0xFF
+    shift: 8
+  unk1: # 3 states, 0, 1, 2. 3->0
+    mask: 0x3
+    shift: 24
+ftower: #TODO: revist when visting shutter
+  scenefid:
+    mask: 0xFF
+    shift: 0
+  2scenefid:
+    mask: 0xFE
+    shift: 8
+# Door200: Params Unused 
+DoorDun:
+  subtype: # 1 - SV, 2 - lakeF, 3 - dragLair, 0 - ET
+    mask: 0xFF
+    shift: 0
+    values: ["ET", "SV", "LakeF", "DragLair"]
+  openscenefid:
+    mask: 0xFF
+    shift: 8
+  unlockscenefid:
+    mask: 0xFF
+    shift: 16
+WdBoard: # Wooden Boards
+  scenefid:
+    mask: 0xFF
+    shift: 0
+  subtype: # 0 for A, 1 for B. 0(or3) is underwater, 1 is SV type 
+    mask: 0x3
+    shift: 8
+    values: ["A-UnderWater", "B - SV", "-", "A-UnderWater"]
+ClawSTg:
+  modeltype:
+    mask: 0x3
+    shift: 0
+  anotherType:
+    mask: 0xF
+    shift: 6
+BulbSW:
+  startingState: # if flag is SET -> 1-Close, 0-Open.
+    mask: 0x3
+    shift: 0
+  scenefid:
+    mask: 0xFF
+    shift: 2
+  eventIndex:
+    mask: 0xFF
+    shift: 10
+SideST:
+  scenefid:
+    mask: 0xFF
+    shift: 0
+  unk1:
+    mask: 0xFF
+    shift: 8
+  subtype:
+    mask: 0x3
+    shift: 16
+  unk2:
+    mask: 0xFF
+    shift: 18
+  roomIndex: 
+    mask: 0x3F
+    shift: 26 
+HitLVSW:
+  startingState: # 1 is left, 0 is right
+    mask: 0x3
+    shift: 0
+  timeOpen: # seems to be in half-seconds
+    mask: 0xFF
+    shift: 2
+  rightscenefid: # open right
+    mask: 0xFF
+    shift: 10
+  leftscenefid: # open left
+    mask: 0xFF
+    shift: 18
+FenceIr:
+  scenefid:
+    mask: 0xFF
+    shift: 0
+  openEventIndex:
+    mask: 0xFF
+    shift: 8
+  subtype: # 0 is big, 1 is small
+    mask: 0x3
+    shift: 16
+    values: ["Big", "Small", "-", "-"]
+  staysOpen: # 1 means normal, 0 means blocking a propeller platform. 0 will try to reclose it
+    mask: 0x1
+    shift: 18
+    values: ["recloses", "stays"]
+  closeEventIndex:
+    mask: 0xFF
+    shift: 19
+UDLava:
+  subtype: # represents which one to target, enum in ghidra
+    mask: 0x3
+    shift: 0
+  scenefid:
+    mask: 0xFF
+    shift: 2
+BBObjs: # other objects during imprisoned fights
+  subtype: # the different objects in the fight
+    mask: 0xF
+    shift: 0
+  firststoryfid:
+    mask: 0x3FF
+    shift: 4
+  secondstoryfid:
+    mask: 0x3FF
+    shift: 15
+BridgeB:
+  scenefid:
+    mask: 0xFF
+    shift: 0
+  eventIndex:
+    mask: 0xFF
+    shift: 8
+# Cannon: # No params are used
+RouletC:
+  unk1:
+    mask: 0xF
+    shift: 0
+  unk2:
+    mask: 0xF
+    shift: 4
+# RouletR: # No params are used
+BridgeS: # only in AC, the curved bridge to rope
+  scenefid:
+    mask: 0xFF
+    shift: 0
+  eventIndex:
+    mask: 0xFF
+    shift: 8
+# IronStg: # unused?
+UtaStop: # the stoppers in the IoS puzzle
+  switchesscenefid: # C1, C2, C3 -> deals with the three switches
+    mask: 0xFF
+    shift: 0
+  unk1: # I think the Ring it blocks
+    mask: 0xF
+    shift: 8
+  unk2: # 0(0000), A(1010), 3(0011), 9(1001), 1(0001)
+    mask: 0xF
+    shift: 12
+  waitscenefid:
+    mask: 0xFF
+    shift: 16
 TlpTag:
   scenefid:
     mask: 0xFF
@@ -9,10 +446,6 @@ EMagupp:
   scenefid:
     mask: 0xFF
     shift: 24
-Log: # faron woods logs
-  scenefid:
-    mask: 0xFF
-    shift: 16
 trolley: # push minecart in lanayru desert
   scenefid:
     mask: 0xFF
@@ -26,10 +459,6 @@ Chandel: # lumpy pumpkin chandelier
     mask: 0xFF
     shift: 16
 FrmLand: # life tree seedling spot
-  scenefid:
-    mask: 0xFF
-    shift: 8
-SwWall: # wall switch
   scenefid:
     mask: 0xFF
     shift: 8
@@ -78,9 +507,12 @@ saveObj: # save bird statue
     shift: 0
     bitfield_name: params2
 HrpHint: # gossip/shiekah stone
-  scenefid:
+  spawnscenefid:
     mask: 0xFF
     shift: 0
+  subtype:
+    mask: 0xF
+    shift: 24
   talk_behaviour:
     mask: 0xFFFF
     shift: 0
@@ -99,10 +531,6 @@ TowerB: # towers, that fall down in eldin
   event_id:
     mask: 0xFF
     shift: 8
-WdBoard: # underwater breakable boards
-  scenefid:
-    mask: 0xFF
-    shift: 0
 SStatue: # statues you can bomb down in lanayru
   scenefid:
     mask: 0xFF
@@ -184,22 +612,11 @@ Barrel:
   2scenefid:
     mask: 0xFF
     shift: 12
-TimeStn:
-  scenefid:
-    mask: 0xFF
-    shift: 20
-  subtype:
-    mask: 0xF
-    shift: 28
 Tubo: # little pots
   scenefid:
     mask: 0xFF
     shift: 4
 Soil: # dig spots
-  scenefid:
-    mask: 0xFF
-    shift: 4
-Wind:
   scenefid:
     mask: 0xFF
     shift: 4
@@ -212,10 +629,6 @@ EEye: # Eyes in Skyview
     mask: 0xFF
     shift: 4
 Est: # Spider
-  scenefid:
-    mask: 0xFF
-    shift: 4
-Wind03: # water spot in Ancient Cistern
   scenefid:
     mask: 0xFF
     shift: 4
@@ -257,14 +670,6 @@ TouchTa:
   scenefid:
     mask: 0xFF
     shift: 4
-Kibako:
-  scenefid:
-    mask: 0xFF
-    shift: 12
-PushBlk:
-  scenefid:
-    mask: 0xFF
-    shift: 12
 vmSand:
   scenefid:
     mask: 0xFF
@@ -300,13 +705,6 @@ Item:
   unk_param5:
     mask: 0x1
     shift: 19
-HitLVSW:
-  scenefid:
-    mask: 0xFF
-    shift: 10
-  2scenefid:
-    mask: 0xFF
-    shift: 18
 ArrowSW:
   scenefid:
     mask: 0xFF
@@ -321,10 +719,6 @@ BlwCoal:
   2scenefid:
     mask: 0xFF
     shift: 8
-BulbSW:
-  scenefid:
-    mask: 0xFF
-    shift: 2
 sw_whip:
   scenefid:
     mask: 0xFF
@@ -339,10 +733,6 @@ Swhit:
   unsetscenefid:
     mask: 0xFF
     shift: 11
-FenceIr:
-  scenefid:
-    mask: 0xFF
-    shift: 0
 DoorBs:
   scenefid:
     mask: 0xFF
@@ -492,13 +882,6 @@ Piston:
     mask: 0xFF
     shift: 8
     bitfield_name: anglez
-DoorDun:
-  setscenefid:
-    mask: 0xFF
-    shift: 8
-  checkscenefid:
-    mask: 0xFF
-    shift: 16
 GodCube:
   storyfid:
     mask: 0x7FF
