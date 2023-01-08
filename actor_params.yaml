@@ -435,6 +435,306 @@ UtaStop: # the stoppers in the IoS puzzle
   waitscenefid:
     mask: 0xFF
     shift: 16
+UtaMain: #center mech
+  notFinishedMaybe: 
+    mask: 0xFF
+    shift: 0
+  finishedscenefid:
+    mask: 0xFF
+    shift: 8
+  eventIdx:
+    mask: 0xFF
+    shift: 16
+  unk:
+    mask: 0x3
+    shift: 24
+UtaPeds: # the three pedastals lining up with corresponding bridge pieces
+  indicatesRing: # gets sent to Utajima Island 0xF
+    mask: 0xF
+    shift: 0
+  unk2: # gets multiplied by 32, then sign bit changed - sent to Utajama Island 0xF0
+    mask: 0xFF
+    shift: 4
+UtaLand: # matches with UtaPeds
+  indicatesRing:
+    mask: 0xF
+    shift: 0
+  unk2:
+    mask: 0xF
+    shift: 4
+# CannonC: # cannon cover - unused params
+# Utajima: # main IoS island - unused params
+# UtaLv2: # not found in stage files - unused params (IslCave)
+# PzlLand: # the puzzle part of IoS - unused paramas
+# FenceBk: # fences in boko base? around boko huts? unused params anyway
+# FenceB2: # ^^
+Windmil:
+  inPlacescenfid:
+    mask: 0xFF
+    shift: 4
+  beingblownscenefid:
+    mask: 0xFF
+    shift: 12
+  hasPinwheel: # will spawn it
+    mask: 0x1
+    shift: 20
+  setRotaion: # rotation needed to face tower - not actual rot, but notches
+    mask: 0xF
+    shift: 0
+# Pinwhel: params unused - spawned by Windmil
+LHHarp: # the harp area thats raised from windmills
+  unk: # seems unused atm - maybe set later TODO
+    mask: 0xFF
+    shift: 0
+# FenceKs: # no params used
+# STSink: # no params used - in Sandship
+# STWater: # no params used
+# STCover: # no params used
+STCrack: # spawned by Tentalus
+  unk1:
+    mask: 0xFF
+    shift: 0
+  unk2:
+    mask: 0xF
+    shift: 8
+# IslTery: # no params used
+# IslIns: # no params used
+# ShriAft: # no params used
+# ShriBef: # no params used
+ShipWin: 
+  watchscenefid:
+    mask: 0xFF
+    shift: 0
+  csscenefid:
+    mask: 0xFF
+    shift: 0
+    bitfield_name: anglez
+  unk:
+    mask: 0x1
+    shift: 24
+  CloseEvnt:
+    mask: 0xFF
+    shift: 8
+  OpenEvnt:
+    mask: 0xFF
+    shift: 16
+WaterSf: # Water Surface
+  scenefid: # both flags will raise the level
+    mask: 0xFF
+    shift: 0
+  2scenefid:
+    mask: 0xFF
+    shift: 8
+  subtype:
+    mask: 0xF
+    shift: 16
+  eventIdx:
+    mask: 0xFF
+    shift: 20
+  matchesWaterFall: # matches WtFD100 (waterfall spouts in SV) # TODO
+    mask: 0xF
+    shift: 28
+  PcamIdx:
+    mask: 0xFF
+    shift: 0
+    bitfield_name: anglex
+# PumpBar: no params used 
+IslTrea: 
+  subtype:
+    mask: 0xF
+    shift: 0
+    values:
+      - lIslTreA'
+      - lIslTreB'
+      - lIslTreC - water'
+      - lIslTreD'
+      - lIslTreE'
+      - lIslTreF'
+      - lIslTreG'
+      - lIslTreH'
+SldDoor: # Door after bosses
+  openscenefid:
+    mask: 0xFF
+    shift: 4
+  firstopenscenefid:
+    mask: 0xFF
+    shift: 13
+  ignoreFirstOpenFlag: # they shoulda just chedked to see if it was 0xFF...
+    mask: 0x1
+    shift: 12
+  subtype:
+    mask: 0xF
+    shift: 0
+    values: ['Din', 'Ferore', 'Nayru', 'Goodess'] # who the hell cant spell xD (the game says this)
+EvilFld:
+  isSloped:
+    mask: 0x1
+    shift: 6
+  waterType:
+    mask: 0x3
+    shift: 0
+    values: ['localized area', 'Skylofts Water']
+  subtype:
+    mask: 0xF
+    shift: 2
+    values: ['Static', 'Move Skyloft', 'Move Farons', 'Move Lanayrus','-','-','-','-','-','-','-','-','-','-','-','Static']
+IslMegm: 
+  subtype:
+    mask: 0x3
+    shift: 0
+    values: ['Normal', 'Sky Keep Exposed']
+# City: # params unused - checks flags for things, not params 
+# IslBamb: # unused params
+StrLava:  # lava streams in FS and Skeep
+  subtype:
+    mask: 0xF
+    shift: 0
+    values:
+      - 'FlowLavaD2_A'
+      - 'FlowLavaD2_B'
+      - 'FlowLavaLast_2A'
+      - 'FlowLavaLast_2B'
+      - 'FlowLavaLast_2C'
+  shouldStreamscenefid:
+    mask: 0xFF
+    shift: 4
+  eventId:
+    mask: 0xFF
+    shift: 12
+  canBeDrawn:
+    mask: 0x1
+    shift: 20
+DwnLava: # lava spouts in FS ?
+  subtype:
+    mask: 0x3
+    shift: 0
+    values:
+      - 'DwnLavaD2_A'
+      - 'DwnLavaD2_B'
+  movescenefid:
+    mask: 0xFF
+    shift: 2
+  eventId:
+    mask: 0xFF
+    shift: 10
+  canBeDrawn:
+    mask: 0x1
+    shift: 18
+ApBridg: # the appearing platform in FS
+  areaIdx:
+    mask: 0xFF
+    shift: 0
+  eventId: # goes unused lmao
+    mask: 0xFF
+    shift: 8
+# TrukStp: # params unused - The barricade on eds of rails in the minecart minigafme
+# IslNusi: # params unused - Pumpkin soup isalnd
+RockSky: # The Rocsk in the sky - can have boosts
+  subtype:
+    mask: 0xF
+    shift: 0
+    values: 
+      - 'RockSkyA'
+      - 'RockSkyB'
+      - 'RockSkyC'
+      - 'RockSkyD (Zipper)'
+IslTreB: # treasure islands in the sky
+  scenefid:
+    mask: 0xFF
+    shift: 0
+# WtrF100: # Water in Faron unused Params
+# Bell: # the bell on knight academy - unused params
+# ShriIns: # no params - the foliage in the temple making it look worn?
+WndMilD: # the windmill doors in LMF - the setscenefid is itself + 1 for what it does
+  setscenefid:
+    mask: 0xFF
+    shift: 0
+  openedscenefid:
+    mask: 0xFF
+    shift: 8
+# CityWtr: # skyloft water - no params used
+# MoleCvr: # covers to the bazzar (Mall cover lmao) - no params used
+DstDbrs: # debris infront of the first gate of time in lanayru desert
+  storyf: # setting it will remove it
+    mask: 0x7FF
+    shift: 0
+BBParts: # broken parts of the temple in the whirlpool
+  scenefid:
+    mask: 0xFF
+    shift: 0
+KmtWall: # the diamand wall in horde and g3 fights
+  storyf:
+    mask: 0x7FF
+    shift: 0
+  startingState: # negated
+    mask: 0x1
+    shift: 11
+    values: ['Wait', 'Exist']
+  unk: # negated
+    mask: 0x1
+    shift: 12
+# WtrShld: # no params used - waterfall infront of AC
+Bstone: # unsued ? cannot find in stage files or Ghidra search currently TODO
+  subtype:
+    mask: 0xF
+    shift: 0
+Wind02: # Appears in Eldin, probably lava fountains
+  scenefid:
+    mask: 0xFF
+    shift: 4
+  unk1:
+    mask: 0xF
+    shift: 0
+  unkType1: # type1 and type2 decided by unk1
+    mask: 0xF
+    shift: 12
+  unkType2:
+    mask: 0xF
+    shift: 16
+  negatedUnk2:
+    mask: 0x1
+    shift: 20
+  negatedUnk3:
+    mask: 0x1
+    shift: 28
+  negatedUnk4:
+    mask: 0x1
+    shift: 29
+  negatedUnk5:
+    mask: 0x1
+    shift: 30
+LeafSwg: # swinging platforms (skeep and inside great tree)
+  unk: # converts to float at somepoint
+    mask: 0xFF
+    shift: 0
+  subtype: # why.. they are all the same anyway
+    mask: 0xF
+    shift: 8
+RRckTag: # areas or checkpoints where the ball will save its position
+  pntIndex1:
+    mask: 0x1F
+    shift: 4
+  pntIndex2:
+    mask: 0xF
+    shift: 9
+  BallFreescenefid:
+    mask: 0xFF
+    shift: 13
+  Clearedscenfid:
+    mask: 0xFF
+    shift: 21
+  subtype:
+    mask: 0xF
+    shift: 0
+    values: ['no flags', 'check scnFlg1', 'check scnFlg2', 'check both flags']
+RidRock: # ball in ET
+  pathIdx:
+    mask: 0xFF
+    shift: 0
+  isFreescenefid:
+    mask: 0xFF
+    shift: 8
+# TODO LEFT OFF HERE
 TlpTag:
   scenefid:
     mask: 0xFF
@@ -570,10 +870,6 @@ chest: # wardrobes
   scenefid:
     mask: 0xFF
     shift: 0
-IslTreB: # treasure islands in the sky
-  scenefid:
-    mask: 0xFF
-    shift: 0
 RoAtLog: # roll attack log
   scenefid:
     mask: 0xFF
@@ -632,17 +928,6 @@ Est: # Spider
   scenefid:
     mask: 0xFF
     shift: 4
-SldDoor: # Door after bosses
-  scenefid:
-    mask: 0xFF
-    shift: 4
-  2scenefid:
-    mask: 0xFF
-    shift: 13
-Wind02: # Appears in Eldin, probably lava fountains
-  scenefid:
-    mask: 0xFF
-    shift: 4
 ERemly: # Remlit
   scenefid:
     mask: 0xFF
@@ -682,13 +967,6 @@ Heartf:
   scenefid:
     mask: 0xFF
     shift: 12
-Windmill:
-  scenefid:
-    mask: 0xFF
-    shift: 12
-  2scenefid:
-    mask: 0xFF
-    shift: 4
 Item:
   scenefid:
     mask: 0xFF
@@ -1064,13 +1342,6 @@ TgTimer:
   setscenefid:
     mask: 0xFF
     shift: 24
-WndMilD:
-  setscenefid:
-    mask: 0xFF
-    shift: 0
-  checkscenefid:
-    mask: 0xFF
-    shift: 8
 EBc:
   setscenefid:
     mask: 0xFF
