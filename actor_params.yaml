@@ -734,6 +734,78 @@ RidRock: # ball in ET
   isFreescenefid:
     mask: 0xFF
     shift: 8
+MvLiftV: # Zipline Holders
+  unk1:
+    mask: 0xF
+    shift: 0
+  pathIdx:
+    mask: 0xFF
+    shift: 4
+  startscenef:
+    mask: 0xFF
+    shift: 12
+  eventIdx:
+    mask: 0xFF
+    shift: 20
+Truck:
+  pathIdx:
+    mask: 0xFF
+    shift: 0
+  inscenefid:
+    mask: 0xFF
+    shift: 12
+  unk2: 
+    mask: 0xFF
+    shift: 20
+  unk3: 
+    mask: 0x1
+    shift: 28
+Tshop: # Beedles Air Shop
+  shopExitId:
+    mask: 0xFF
+    shift: 0
+  isOnIsland: # On the island in the sky during night i think
+    mask: 0xF
+    shift: 16
+  pathIdx:
+    mask: 0xFF
+    shift: 8
+TrapRc1: # The boulder droppers on the slopes in ET towards the Boss Room
+  trapActionscenefid: # Checks for this flag to start the trap action usually set by SwAreaT
+    mask: 0xFF
+    shift: 0
+  trapReturnscenefid:
+    mask: 0xFF
+    shift: 8
+StprRc: # Stopper Rock (the rock holding RidRock (ET boulder))
+  boulderFreescenefid: # this is what actually sets the boulder free flag too
+    mask: 0xFF
+    shift: 0
+  eventIdx: # freed boulder event
+    mask: 0xFF
+    shift: 8
+FShutte:
+  scenefid:
+    mask: 0xFF
+    shift: 0
+  unk: 
+    mask: 0xF
+    shift: 8  
+  eventIdx:
+    mask: 0xFF
+    shift: 12
+  startingState:
+    mask: 0x3 
+    shift: 20
+    values: ['Open', '-', '-', 'Closed']
+  controlsPlayingEvent:
+    mask: 0x3 # val > 2 -> 3
+    shift: 22
+    values: ['Dont Play Close Event', 'Play Both Events', 'Dont Play Open/Close Events', 'Dont Play Close Event']
+  eventOrderMaybe:
+    mask: 0x3
+    shift: 24
+    values: ['First', 'Second', '-', 'Only itself']
 # TODO LEFT OFF HERE
 TlpTag:
   scenefid:
@@ -832,10 +904,6 @@ TowerB: # towers, that fall down in eldin
     mask: 0xFF
     shift: 8
 SStatue: # statues you can bomb down in lanayru
-  scenefid:
-    mask: 0xFF
-    shift: 0
-FShutte: # iron bars
   scenefid:
     mask: 0xFF
     shift: 0
