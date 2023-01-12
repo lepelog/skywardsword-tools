@@ -24,22 +24,22 @@ TruRail:
     mask: 0xF
     shift: 8
 StreamT: # lots of unks. I assume it has to deal with speed, angle, connections, etc
-  000000FF:
+  scenefid:
     mask: 0xFF
     shift: 0
-  0000FF00:
+  areaIdx:
     mask: 0xFF
     shift: 8
-  00FF0000:
+  effectsSpeed:
     mask: 0xFF
     shift: 16
   isSand: # only active with sand, changing it made things not flow on it?
     mask: 0xF
     shift: 24
-  F0000000:
+  streamOrder:
     mask: 0xF
     shift: 28
-  unkAngZ: # countLeadingZeros((rotz & 0x3) - 1) >> 5
+  sceneFlagCheck: # countLeadingZeros((rotz & 0x3) - 1) >> 5
     mask: 0x3
     shift: 0
     bitfield_name: anglez
@@ -806,6 +806,22 @@ FShutte:
     mask: 0x3
     shift: 24
     values: ['First', 'Second', '-', 'Only itself']
+SnkFlrF:
+  subtype:
+    mask: 0xF
+    shift: 0
+    values:
+      - 'SinkRockC'
+      - 'SinkRockB'
+      - 'SinkRockA'
+      - 'FwRockA'
+  unk:
+    mask: 0xF
+    shift: 4
+EGumarm:
+  scenefid:
+    mask: 0xFF
+    shift: 0
 # TODO LEFT OFF HERE
 TlpTag:
   scenefid:
