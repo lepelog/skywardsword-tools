@@ -57,7 +57,7 @@ TimeStn: #this is a bit odd?
   letsStoneDisappear_inv: # 0 means it can
     mask: 0x3
     shift: 8
-  eventId:
+  eventIdx:
     mask: 0xFF
     shift: 10
   isFirstStone:
@@ -128,7 +128,7 @@ Kibako: # wooden Boxes
   destroyedOrPushedscenefid:
     mask: 0xFF
     shift: 12
-  eventIndex:
+  eventIdx:
     mask: 0xFF
     shift: 20
   pathIndex:
@@ -136,7 +136,7 @@ Kibako: # wooden Boxes
     shift: 0
     bitfield_name: params2
 Log:
-  eventIndex:
+  eventIdx:
     mask: 0xFF
     shift: 0
   pathIndex:
@@ -214,7 +214,7 @@ Himo: # unused like Drum
   scenefid:
     mask: 0xFF
     shift: 8
-  eventIndex:
+  eventIdx:
     mask: 0xFF
     shift: 16
   unkColliderThing:
@@ -331,7 +331,7 @@ BulbSW:
   scenefid:
     mask: 0xFF
     shift: 2
-  eventIndex:
+  eventIdx:
     mask: 0xFF
     shift: 10
 SideST:
@@ -367,7 +367,7 @@ FenceIr:
   scenefid:
     mask: 0xFF
     shift: 0
-  openEventIndex:
+  openeventIdx:
     mask: 0xFF
     shift: 8
   subtype: # 0 is big, 1 is small
@@ -378,7 +378,7 @@ FenceIr:
     mask: 0x1
     shift: 18
     values: ["recloses", "stays"]
-  closeEventIndex:
+  closeeventIdx:
     mask: 0xFF
     shift: 19
 UDLava:
@@ -402,7 +402,7 @@ BridgeB:
   scenefid:
     mask: 0xFF
     shift: 0
-  eventIndex:
+  eventIdx:
     mask: 0xFF
     shift: 8
 # Cannon: # No params are used
@@ -418,7 +418,7 @@ BridgeS: # only in AC, the curved bridge to rope
   scenefid:
     mask: 0xFF
     shift: 0
-  eventIndex:
+  eventIdx:
     mask: 0xFF
     shift: 8
 # IronStg: # unused?
@@ -598,7 +598,7 @@ StrLava:  # lava streams in FS and Skeep
   shouldStreamscenefid:
     mask: 0xFF
     shift: 4
-  eventId:
+  eventIdx:
     mask: 0xFF
     shift: 12
   canBeDrawn:
@@ -614,7 +614,7 @@ DwnLava: # lava spouts in FS ?
   movescenefid:
     mask: 0xFF
     shift: 2
-  eventId:
+  eventIdx:
     mask: 0xFF
     shift: 10
   canBeDrawn:
@@ -624,7 +624,7 @@ ApBridg: # the appearing platform in FS
   areaIdx:
     mask: 0xFF
     shift: 0
-  eventId: # goes unused lmao
+  eventIdx: # goes unused lmao
     mask: 0xFF
     shift: 8
 # TrukStp: # params unused - The barricade on eds of rails in the minecart minigafme
@@ -798,10 +798,10 @@ FShutte:
     mask: 0x3 
     shift: 20
     values: ['Open', '-', '-', 'Closed']
-  controlsPlayingEvent:
+  controlsPlayingevent:
     mask: 0x3 # val > 2 -> 3
     shift: 22
-    values: ['Dont Play Close Event', 'Play Both Events', 'Dont Play Open/Close Events', 'Dont Play Close Event']
+    values: ['Dont Play Close event', 'Play Both events', 'Dont Play Open/Close events', 'Dont Play Close event']
   eventOrderMaybe:
     mask: 0x3
     shift: 24
@@ -818,10 +818,66 @@ SnkFlrF:
   unk:
     mask: 0xF
     shift: 4
-EGumarm:
-  scenefid:
+EGumarm: # mogmanos
+  visiblescenefid:
     mask: 0xFF
     shift: 0
+  defeatscenefid:
+    mask: 0xFF
+    shift: 8
+  areaIdx:
+    mask: 0xFF
+    shift: 16
+# StpGm: # unused params the mogmanos platforms
+BrgFall: # draw bridges in ET and The Fire dragon room
+  ropeFlagsscenefid: # uses 3 flags total
+    mask: 0xFF
+    shift: 0
+  bridgeDownscenefid:
+    mask: 0xFF
+    shift: 8
+  fallincrementeventIdx:
+    mask: 0xFF
+    shift: 16
+  finishedeventIdx:
+    mask: 0xFF
+    shift: 24
+BrgStp: # Peg Bridge in ET
+  unusedMaybe: # still stored # TODO
+    mask: 0xFF
+    shift: 0
+  leftPegscenefid: # flag + 1
+    mask: 0xFF
+    shift: 8
+  rightPegscenefid: # flag + 1
+    mask: 0xFF
+    shift: 16
+# BrgBn: # no params used
+BBbrg: # the racetracks around the imprisoned fight
+  spawnstoryfid:
+    mask: 0x7FF
+    shift: 0
+BrgTs:
+  subtype:
+    mask: 0xF
+    shift: 0
+    values: ['TeniBridgeA (small)', 'TeniBridgeB (larger)', 'TeniBridgeC (larger with Rail']
+Boat: # boat on the side of sandship
+  loweredscenefid:
+    mask: 0xFF
+    shift: 0
+  unk_changesToFloat:
+    mask: 0xFF
+    shift: 8
+  eventIdx:
+    mask: 0xFF
+    shift: 16
+Blst: # groosenator
+  storfid:
+    mask: 0x7FF
+    shift: 8
+
+  
 # TODO LEFT OFF HERE
 TlpTag:
   scenefid:
@@ -851,10 +907,6 @@ FrmLand: # life tree seedling spot
     mask: 0xFF
     shift: 8
 SwDir2:
-  scenefid:
-    mask: 0xFF
-    shift: 8
-BrgFall: # drawbridges in ET and fire dragon room
   scenefid:
     mask: 0xFF
     shift: 8
@@ -916,7 +968,7 @@ TowerB: # towers, that fall down in eldin
   scenefid:
     mask: 0xFF
     shift: 0
-  event_id:
+  eventIdx:
     mask: 0xFF
     shift: 8
 SStatue: # statues you can bomb down in lanayru
@@ -1040,10 +1092,6 @@ TouchTa:
     mask: 0xFF
     shift: 4
 vmSand:
-  scenefid:
-    mask: 0xFF
-    shift: 12
-Truck:
   scenefid:
     mask: 0xFF
     shift: 12
@@ -1289,7 +1337,7 @@ EvntTag:
   setscenefid:
     mask: 0xFF
     shift: 8
-  event:
+  eventIdx:
     mask: 0xFF
     shift: 0
   subtype:
@@ -1450,13 +1498,6 @@ EHydra:
   setscenefid:
     mask: 0xFF
     shift: 22
-EGumarm:
-  setscenefid:
-    mask: 0xFF
-    shift: 0
-  set2scenefid:
-    mask: 0xFF
-    shift: 8
 MapMark:
   trigstoryfid:
     mask: 0x7FF

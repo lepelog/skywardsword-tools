@@ -37,6 +37,12 @@ sizes = {'FILE':4,
          'PCAM':36,
          'LYLT':4}
 
+JP_TO_ENG_EVENT_NAMES = {
+    "\u6728\u7bb1\u7834\u58ca": "(JP) Wooden Box Destruction",
+    "\u885d\u6483\u30b9\u30a4\u30c3\u30c1\u6b63\u89e3\u30ab\u30e1\u30e9": "(JP) Shock switch correct camera",
+    "\u6728\u7bb1": "(JP) Wooden Box",
+    "\u50b7\u5ca92": "(JP) Wounded Rock"
+}
 cumulative_flags_set = [
     [0x40,0x63,0xC4,0xB5,0x3F,0xB8,0xDD,0xF0,0xFF,0xCF,0x1E,0x79,0x00,0x00,0x1F,0x00],
     [0x00,0x00,0x00,0x01,0x20,0x34,0x01,0xF8,0x00,0x60,0x00,0x00,0x00,0x00,0x00,0x00],
@@ -67,6 +73,7 @@ cumulative_flags_set = [
 
 global stage_scens
 global flagindex
+curr_events = []
 flagindex = None
 stage_scens = []
 story_flags = set()
@@ -139,6 +146,13 @@ def objAddExtraInfo(parsed_item):
             # goddess wall stuff
             # extraInfo['exhaustedstoryfid'] = 0x190 + extraInfo['flag_add']
             # extraInfo['spawnstoryfid'] = 0x1AE + extraInfo['flag_add']
+            if 'eventIdx' in prm_name:
+                if val != 0xFF and val < len(curr_events):
+                    extraInfo['Event Name']=curr_events[val]['name']
+                elif val != 0xFF and val >= len(curr_events):
+                    extraInfo['Event Name']="Unable to Attach"
+                else:
+                    extraInfo['Event Name']="No Event"
             if 'itemid' == prm_name:
                 extraInfo['item']=itemnames.get(str(val), '?')
             elif prm_name.endswith('storyfid'):
@@ -230,6 +244,8 @@ def parseObj(objtype, quantity, data):
             elif objtype == 'EVNT':
                 parsed_item = unpack('unk1 story_flag1 story_flag2 unk2 exit_id unk3 skipevent unk4 sceneflag1 sceneflag2 skipflag dummy1 item dummy2 name','>2shh3sb3sb1sBBBhhh32s',item)
                 parsed_item['name'] = toStr(parsed_item['name'])
+                if parsed_item['name'].startswith('\u6728') or parsed_item['name'].startswith('\u50b7') or parsed_item['name'].startswith('\u885d'):
+                    parsed_item['name'] = JP_TO_ENG_EVENT_NAMES[parsed_item['name']]
             elif objtype == 'PLY ':
                 #room entrance
                 parsed_item = unpack('storyflag play_cutscene byte4 posx posy posz anglex angley anglez entrance_id','>Hbb3fHHHh',item)
@@ -293,6 +309,10 @@ def parseObj(objtype, quantity, data):
             #        print('\tDoor %f %f %f  -- scene: %s' % (parsed_item['posx'],parsed_item['posy'],parsed_item['posz'],stage_scens[parsed_item['scen_link']]))
             #    else:
             #        print('\tDoor %f %f %f  -- scene: invalid exit %d' % (parsed_item['posx'],parsed_item['posy'],parsed_item['posz'],parsed_item['scen_link']))
+            if objtype == 'EVNT':
+                if i == 0:
+                    curr_events.clear()
+                curr_events.append(parsed_item)
 
         return parsed
 
