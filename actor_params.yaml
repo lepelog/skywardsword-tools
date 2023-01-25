@@ -1249,12 +1249,12 @@ IvyRope:
     mask: 0xFF
     shift: 12
 TChk:
-  scenefid:
-    mask: 0xFF
-    shift: 8
-  2scenefid:
+  pastscenefid:
     mask: 0xFF
     shift: 0
+  presentscenefid:
+    mask: 0xFF
+    shift: 8
 Kanban:
   talk_behaviour:
     mask: 0xFFFF
@@ -1515,4 +1515,11 @@ EBfish:
     mask: 0xFF
     shift: 8
     bitfield_name: anglez
-
+TgRstTs: # tag restart timeshift stone
+  path:
+    mask: 0xFF
+    shift: 0
+D2Mtr:
+  sceneflag:
+    mask: 0xFF
+    shift: 0
