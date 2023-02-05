@@ -288,7 +288,7 @@ def parseObj(objtype, quantity, data):
                 flagindex = parsed_item['flagindex']
                 return parsed_item
             elif objtype == 'PCAM':
-                parsed_item = unpack('pos1x pos1y pos1z pos2x pos2y pos2z angle wtf unk','>3f3fff4s',item)
+                parsed_item = unpack('pos1x pos1y pos1z pos2x pos2y pos2z angle wtf id unk','>3f3fffb3s',item)
             elif objtype == 'LYLT':
                 #Demo definitions
                 parsed_item = unpack('layer demo_high demo_low dummy','>bbbb',item)

@@ -299,10 +299,10 @@ ftower: #TODO: revist when visting shutter
     shift: 8
 # Door200: Params Unused 
 DoorDun:
-  subtype: # 1 - SV, 2 - lakeF, 3 - dragLair, 0 - ET
+  subtype: # 1 - LakeF, 2 - SV, 3 - dragLair, 0 - ET
     mask: 0xFF
     shift: 0
-    values: ["ET", "SV", "LakeF", "DragLair"]
+    values: ["Earth Temple", "Lake Floria Door", "Skyview", "Dragon Lair"]
   openscenefid:
     mask: 0xFF
     shift: 8
@@ -534,7 +534,7 @@ WaterSf: # Water Surface
   matchesWaterFall: # matches WtFD100 (waterfall spouts in SV) # TODO
     mask: 0xF
     shift: 28
-  PcamIdx:
+  PcamId:
     mask: 0xFF
     shift: 0
     bitfield_name: anglex
@@ -876,8 +876,26 @@ Blst: # groosenator
   storfid:
     mask: 0x7FF
     shift: 8
+# BlstF3: # unused Params
+TBoat:
+  subtype:
+    mask: 0x3
+    shift: 8
+    values: ['Sea', 'SeaIsland', '-', 'UnkForNow']
+  scenefid:
+    mask: 0xFF
+    shift: 0
+  exitId:
+    mask: 0xFF
+    shift: 10
+SngGS: # Goddess statues at the end of dungeons - connects the crest
+  warpscenefid:
+    mask: 0xFF
+    shift: 0
+  exitId:
+    mask: 0xFF
+    shfit: 8
 
-  
 # TODO LEFT OFF HERE
 TlpTag:
   scenefid:
