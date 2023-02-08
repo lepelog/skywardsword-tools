@@ -1553,3 +1553,16 @@ D2Mtr:
   sceneflag:
     mask: 0xFF
     shift: 0
+EPh:
+  subtype:
+    mask: 0xF
+    shift: 0
+  path:
+    mask: 0xFF
+    shift: 4
+  sceneflag:
+    mask: 0xFF
+    shift: 13
+  unkBit:
+    mask: 1
+    shift: 21
