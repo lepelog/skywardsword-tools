@@ -1413,12 +1413,24 @@ PlRsTag:
     mask: 0xFF
     shift: 8
     bitfield_name: anglez
-  roomid:
-    mask: 0x3F
-    shift: 12
   entranceid:
     mask: 0xFF
     shift: 0
+  unk:
+    mask: 0xF
+    shift: 0x8
+  roomid:
+    mask: 0x3F
+    shift: 0xC
+  type1:
+    mask: 3
+    shift: 0x12
+  type2:
+    mask: 3
+    shift: 0x14
+  type3:
+    mask: 3
+    shift: 0x16
 Dowsing:
   option:
     mask: 0xF
