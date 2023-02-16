@@ -895,7 +895,33 @@ SngGS: # Goddess statues at the end of dungeons - connects the crest
   exitId:
     mask: 0xFF
     shift: 8
-
+SndStn:
+  activatedscenefid:
+    mask: 0xFF
+    shift: 0
+  pillarCsExitId:
+    mask: 0xFF
+    shift: 8
+StgBgTs:
+  subtype:
+    mask: 0xF
+    shift: 0
+    values: ['TeniObj_0', 'TeniObj_1', 'TeniObj_2', 'TeniObj_3', 'TeniObj_0']
+WarpH:
+  exitId:
+    mask: 0xFF
+    shift: 0
+Gear: # ropes to cut in Earth Temple and Fire Dragon Room
+  scenefid:
+    mask: 0xFF
+    shift: 0
+ODesert: 
+  someIndex:
+    mask: 0x7
+    shift: 2
+  someType:
+    mask: 0x3
+    shift: 0
 # TODO LEFT OFF HERE
 TlpTag:
   scenefid:
@@ -1009,10 +1035,6 @@ FireObs: # fire walls in Volcano Summit
     mask: 0xFF
     shift: 0
 StprRc: # stopper rock in Earth Temple
-  scenefid:
-    mask: 0xFF
-    shift: 0
-Gear: # ropes to cut in Earth Temple and Fire Dragon Room
   scenefid:
     mask: 0xFF
     shift: 0
