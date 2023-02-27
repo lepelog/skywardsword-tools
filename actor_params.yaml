@@ -922,6 +922,212 @@ ODesert:
   someType:
     mask: 0x3
     shift: 0
+D300Obj: # LMF in lanayru desert
+  setAfterscenefid:
+    mask: 0xFF
+    shift: 8
+  appearscenefid:
+    mask: 0xFF
+    shift: 0
+  isLodVariant:
+    mask: 0xF # only either 0 or 1
+    shift: 16
+# SeaF301: # params unused, but checks storyflag 0x98 for boat being usable (stone hit)
+TAgo: # sharkhead i think
+  scenefid: # switches between collisions? (shark head open)
+    mask: 0xFF
+    shift: 0
+D2Mtr: # dials when turning gens on
+  scenefid:
+    mask: 0xFF
+    shift: 0
+# DNdl: # spikes in LMF sand rooms
+Lotus: # lilipads in Ancient Cistern
+  scenefid:
+    mask: 0xFF
+    shift: 0
+  subtype:
+    mask: 0xF
+    shift: 10
+    values: ['WhipLeaf00', 'WhipLeaf01', 'WhipLeafStop', 'LotusStep']
+  startingState:
+    mask: 0x3 # 00 or 11
+    shift: 8
+    values: ['Normal', '-', '-', 'Upside Down']
+  2scenefid:
+    mask: 0xFF
+    shift: 14
+TPole: # whip things in AC (swing weee)
+  whipLengthMaybe:
+    mask: 0xFF
+    shift: 0
+StepTS: # the appearing ground in pirate stronghold
+  subtype:
+    mask: 0xF
+    shift: 0
+    values: ['DF1Step01', 'DF1StepBlock00', 'DF1StepBlock01'] # only DF1StepBlock01 is used. others are unused assets it seems
+TSBase: # time shift orb base
+  unk:
+    mask: 0xFF
+    shift: 0
+  scenefid:
+    mask: 0xFF
+    shift: 8
+  startsWithOrbMaybe:
+    mask: 0x3
+    shift: 16
+swsht: # the gate in the lava tunnel in ET
+  firstscenefid:
+    mask: 0xFF
+    shift: 0
+  halfopeneventIdx:
+    mask: 0xFF
+    shift: 8
+  secondscenefid:
+    mask: 0xFF
+    shift: 16
+  fullopeneventIdx:
+    mask: 0xFF
+    shift: 24
+wfall: # cursed wateerfall in AC
+  state:
+    mask: 0xF
+    shift: 28
+  scenefid:
+    mask: 0xFF
+    shift: 0
+rpiller: # the pillars in AC that roate and have vines
+  subtype:
+    mask: 0xF
+    shift: 28
+    values: ['SpinPillarD101C', 'SpinPillarD101A', 'SpinPillarD101B', 'SpinPillarD101C', 'SpinPillarD101A', 'SpinPillarD101B', 'SpinPillarD101C']
+  unk1:
+    mask: 0x1
+    shift: 0
+  unk2:
+    mask: 0x1
+    shift: 1
+  rotationspeed:
+    mask: 0xFF
+    shift: 2
+  anotherscenefid:
+    mask: 0xFF
+    shift: 10
+  scenefid:
+    mask: 0xFF
+    shift: 18
+chest: # wardrobes
+  scenefid:
+    mask: 0xFF
+    shift: 0
+  itemid:
+    mask: 0xFF
+    shift: 8
+  insidesubtype:
+    mask: 0xFF
+    shift: 16
+    # values: ['TansuInsideA', 'TansuInsideB', 'TansuInsideC', 'TansuInsideD', 'TansuInsideA']
+  subtype:
+    mask: 0xF
+    shift: 28
+    values: ['TansuA', 'TansuB', 'TansuC', 'TansuD', 'TansuA']
+MagBoat: # params could have more
+  boatNum:
+    mask: 0xF
+    shift: 28
+BlockUg:
+  subtype:
+    mask: 0xFF
+    shift: 0
+    values: ['MoleBlock', 'MoleBlockBomb', 'MoleBlockBreak', "MoleBlockBreak"]
+  scenefid:
+    mask: 0xFF
+    shift: 8
+  2scenefid:
+    mask: 0xFF
+    shift: 16
+Uground: # Self explanatory?
+  subtype:
+    mask: 0xFF
+    shift: 0
+    values:
+      - 'MoleGroundS'
+      - 'MoleGroundM'
+      - 'MoleGroundL'
+      - 'MoleGroundSn'
+      - 'MoleGroundSl'
+      - 'MoleGroundSr'
+      - 'MoleGroundMn'
+      - 'MoleGroundMl'
+      - 'MoleGroundMr'
+      - 'MoleGroundLn'
+trolley: # push minecart in lanayru desert
+  subtype:
+    mask: 0xF
+    shift: 28
+    values: ['Ride', 'Push', 'Timestone']
+  scenefid:
+    mask: 0xFF
+    shift: 16
+  pathIdx:
+    mask: 0xFF
+    shift: 0
+LvPlt: # the lava in the lava chase
+  startscenefid:
+    mask: 0xFF
+    shift: 0
+  successscenefid:
+    mask: 0xFF
+    shift: 8
+sandflr: # sinksand
+  subtype:
+    mask: 0xF
+    shift: 0
+    values: ['F300_2_SinkSand', 'F300_3_SinkSand', 'StageSand02', 'StageSand03']
+  scenefid:
+    mask: 0xFF
+    shift: 4
+swsyako: # generator in lanayru to feed ampilus eggs to
+  scenefid:
+    mask: 0xFF
+    shift: 0
+  eventIdx:
+    mask: 0xFF
+    shift: 8
+syashtr: # bars paired with the generator above
+  openscenefid:
+    mask: 0xFF
+    shift: 0
+  eventIdx:
+    mask: 0xFF
+    shift: 8
+d2ship: # sandship in sandsea
+  pathIdx:
+    mask: 0xFF
+    shift: 0
+  exitId:
+    mask: 0xFF
+    shift: 8
+  dockedscenefid:
+    mask: 0xFF
+    shift: 16
+  appeareventIdx:
+    mask: 0xFF
+    shift: 24
+  unk:
+    mask: 0xFF
+    shift: 0
+    bitfield_name: anglez
+needleU:
+  subtype:
+    mask: 0xFF
+    shift: 0
+  scenefid:
+    mask: 0xFF
+    shift: 8
+  2scenefid:
+    mask: 0xFF
+    shift: 16
 # TODO LEFT OFF HERE
 TlpTag:
   scenefid:
@@ -934,10 +1140,6 @@ EMagupp:
   scenefid:
     mask: 0xFF
     shift: 24
-trolley: # push minecart in lanayru desert
-  scenefid:
-    mask: 0xFF
-    shift: 16
 Fence:
   scenefid:
     mask: 0xFF
@@ -951,14 +1153,6 @@ FrmLand: # life tree seedling spot
     mask: 0xFF
     shift: 8
 SwDir2:
-  scenefid:
-    mask: 0xFF
-    shift: 8
-D300Obj: # LMF in lanayru desert
-  scenefid:
-    mask: 0xFF
-    shift: 8
-TSBase: # time shift orb base
   scenefid:
     mask: 0xFF
     shift: 8
@@ -1019,13 +1213,6 @@ SStatue: # statues you can bomb down in lanayru
   scenefid:
     mask: 0xFF
     shift: 0
-Lotus: # lilipads in Ancient Cistern
-  scenefid:
-    mask: 0xFF
-    shift: 0
-  2scenefid:
-    mask: 0xFF
-    shift: 14
 WaterSW: # thirsty frogs in Volcano Summit
   scenefid:
     mask: 0xFF
@@ -1042,15 +1229,7 @@ MDvTg: # megami diving tag used for diving after getting sailcloth
   scenefid:
     mask: 0xFF
     shift: 0
-chest: # wardrobes
-  scenefid:
-    mask: 0xFF
-    shift: 0
 RoAtLog: # roll attack log
-  scenefid:
-    mask: 0xFF
-    shift: 0
-swsyako: # generator in lanayru to feed ampilus eggs to
   scenefid:
     mask: 0xFF
     shift: 0
@@ -1063,10 +1242,6 @@ SwHrp: # harp playing related
     mask: 0xFF
     shift: 0
 SwdStb: # warps to triforce rooms
-  scenefid:
-    mask: 0xFF
-    shift: 0
-TAgo:
   scenefid:
     mask: 0xFF
     shift: 0
@@ -1313,20 +1488,6 @@ AutoMes:
   talk_behaviour:
     mask: 0xFFFF
     shift: 0
-BlockUg:
-  scenefid:
-    mask: 0xFF
-    shift: 8
-  2scenefid:
-    mask: 0xFF
-    shift: 16
-LvPlt:
-  checkscenefid:
-    mask: 0xFF
-    shift: 0
-  setscenefid:
-    mask: 0xFF
-    shift: 8
 Piston:
   setscenefid:
     mask: 0xFF
@@ -1569,10 +1730,6 @@ EBfish:
     bitfield_name: anglez
 TgRstTs: # tag restart timeshift stone
   path:
-    mask: 0xFF
-    shift: 0
-D2Mtr:
-  sceneflag:
     mask: 0xFF
     shift: 0
 EPh:
