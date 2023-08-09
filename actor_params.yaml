@@ -1,10 +1,11 @@
 V_Clip:
-  someIndex: #"0x805b5668 : byte array of 64 bytes used for updates?"
+  viewclip_index:
     mask: 0x3F 
     shift: 0
-  unk1: # if FF: arr[someIndex] | 2, else arr[someIndex] | 1. (draw func)"
+  behavior:
     mask: 0xF
     shift: 8
+    values: ['Load', 'Unload', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Unload']
   areaIdx:
     mask: 0xF
     shift: 12

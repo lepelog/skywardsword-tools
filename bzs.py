@@ -166,7 +166,10 @@ def objAddExtraInfo(parsed_item):
                     extraInfo['name'] = map_text['SAVEOBJ_NAME_UNKNOWN']
                 else:
                     extraInfo['name'] = map_text['SAVEOBJ_NAME_%02d' % val]
-    
+    viewclip_index = read_halfword(parsed_item["id"]) >> 10
+    if viewclip_index != 63:
+        extraInfo["viewclip_index"] = viewclip_index
+
     if len(extraInfo) > 0:
         parsed_item['extra_info'] = extraInfo
 
