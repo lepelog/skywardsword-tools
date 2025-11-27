@@ -89,7 +89,7 @@ with open('allsceneflags.json') as f:
 with open('actor_params.yaml') as f:
     actor_params = yaml.safe_load(f)
 
-PARAM_STUFF = set(['mask','shift','bitfield_name','values'])
+PARAM_STUFF = set(['mask','shift','bitfield_name','values','values_default_idx'])
 
 for param_defs in actor_params.values():
     for param_def in param_defs.values():
@@ -140,6 +140,8 @@ def objAddExtraInfo(parsed_item):
                 val = parsed_item[bitfield_name]
             val = (val >> prm_def['shift']) & prm_def['mask']
             if values := prm_def.get('values'):
+                if val >= len(values):
+                    val = prm_def.get("values_default_idx")
                 val = values[val]
             extraInfo[prm_name] = val
 

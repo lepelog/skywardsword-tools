@@ -1402,14 +1402,27 @@ Npc:
     shift: 0
     bitfield_name: anglez
 Door:
+  open_failed_scenefid:
+    mask: 0xFF
+    shift: 0
+    bitfield_name: params2
   scenefid:
     mask: 0xFF
     shift: 8
     bitfield_name: anglex
-  subtype2:
+  lockbehavior:
     mask: 0xFF
     shift: 0
     bitfield_name: anglex
+    values_default_idx: 0
+    values:
+      - 'Always Unlocked'
+      - 'Unlocked on scenefid (1)'
+      - 'Always Unlocked (sets scenefid on open)'
+      - 'Unlocked on scenefid (2)'
+      - 'Locked on scenefid'
+      - 'Locked During the Day'
+      - 'Locked During the Night'
   scen_link:
     mask: 0xFF
     shift: 8
@@ -1419,9 +1432,38 @@ Door:
   subtype:
     mask: 0x3F
     shift: 0
-  locked:
+    values:
+      - 'DoorA00 : Normal Wood'
+      - 'DoorA01 : Metal/Gray Wood (Bathroom)'
+      - 'DoorC00 : Normal Double Door'
+      - 'DoorC01 : Outside Double Door'
+      - 'DoorB00 : Sealed Temple Side Door'
+      - 'DoorE : Sandsea Door'
+      - 'DoorA02 : Batreaux Door'
+      - 'DoorF : Sealed Temple Main Door'
+      - 'DoorH : Sparring Hall Double Door'
+  needs_key:
     mask: 1
     shift: 6
+    values:
+      - 'No Key Required'
+      - 'Needs Key'
+  callback_type:
+    mask: 0xF
+    shift: 0
+    bitfield_name: anglez
+    values_default_idx: 0
+    values:
+      - 'No callbacks'
+      - 'Event Callbacks Enabled'
+  front_roomid:
+    mask: 0x3F
+    shift: 4
+    bitfield_name: anglez
+  back_roomid:
+    mask: 0x3F
+    shift: 10
+    bitfield_name: anglez
 TBox:
   spawnscenefid:
     mask: 0xFF
