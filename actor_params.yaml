@@ -1238,6 +1238,50 @@ TgDefea: # tag after defeating boss
   scenefid:
     mask: 0xFF
     shift: 0
+InsctTg:
+  count:
+    mask: 0xF
+    shift: 0
+  subtype:
+    mask: 0xF
+    shift: 4
+    values:
+      - unused0
+      - unused1
+      - unused2
+      - Ladybug
+      - Dragonfly
+      - Beetle
+      - Cicada
+      - Grasshopper
+      - Ant
+      - Beetle with params
+      - Butterfly with viewclip
+      - Grasshopper with params
+      - Scarab
+      - Firefly
+      - unkE
+      - unusedF
+  anotherSubtype:
+    mask: 0xF
+    shift: 8
+    values:
+      - unused0
+      - used1
+      - used2
+      - before trial
+      - after imprisoned 1
+      - after faron trial (unused?)
+      - unused6
+      - unused7
+      - unused8
+      - unused9
+      - unusedA
+      - unusedB
+      - unusedC
+      - unusedD
+      - unusedE
+      - default
 SwHrp: # harp playing related
   scenefid:
     mask: 0xFF
@@ -1788,3 +1832,13 @@ EPh:
   unkBit:
     mask: 1
     shift: 21
+FrtTree:
+  itemcollectedscenefid:
+    mask: 0xFF
+    shift: 16
+  spawnscenefid:
+    mask: 0xFF
+    shift: 8
+  subtype:
+    mask: 0xFF
+    shift: 0
