@@ -1,0 +1,847 @@
+{
+    "LYSE": [
+        {
+            "story_flag": 530,
+            "night": 0,
+            "layer": 3
+        },
+        {
+            "story_flag": 13,
+            "night": 0,
+            "layer": 2
+        },
+        {
+            "story_flag": 84,
+            "night": 0,
+            "layer": 1
+        },
+        {
+            "story_flag": -1,
+            "night": 0,
+            "layer": 13
+        }
+    ],
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 240000.0,
+        "wtf3": 10000.0,
+        "byte1": 0,
+        "flagindex": 15,
+        "byte3": 2,
+        "byte4": 6,
+        "unk1": "FF 03",
+        "map_name_id": 16,
+        "unk2": "FF"
+    },
+    "RMPL": {
+        "0": []
+    },
+    "LYLT": [
+        {
+            "layer": 13,
+            "demo_high": 51,
+            "demo_low": 1,
+            "dummy": -1
+        }
+    ],
+    "LAY ": {
+        "l0": {},
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "FILE": "00 00 FF FF",
+            "SCEN": [
+                {
+                    "name": "B201",
+                    "room": 0,
+                    "layer": 1,
+                    "entrance": 1,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "B201_1",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 0,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "D201",
+                    "room": 10,
+                    "layer": 0,
+                    "entrance": 1,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F302",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 10,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                }
+            ],
+            "CAM ": [
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 0.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 00",
+                    "name": "Dungeon"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 0.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 01",
+                    "name": "Girahim2"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 0.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 02",
+                    "name": "GirahimSp2"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 0.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 03",
+                    "name": "Girahimu2"
+                }
+            ],
+            "PATH": [
+                {
+                    "unk1": "FF 00",
+                    "pnt_start_idx": 0,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 01",
+                    "pnt_start_idx": 2,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                }
+            ],
+            "PNT ": [
+                {
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": -3400.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": -4300.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 3700.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 4500.0,
+                    "unk": "FF FF FF FF"
+                }
+            ],
+            "EVNT": [
+                {
+                    "unk1": "00 00",
+                    "story_flag1": 464,
+                    "story_flag2": -1,
+                    "unk2": "64 02 FF",
+                    "exit_id": 0,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 16,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "demo01"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "SealedDoorClose"
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 84,
+                    "play_cutscene": 0,
+                    "byte4": 12,
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 2180.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": -1,
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 900.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 1
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 1,
+                    "byte4": -1,
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": -2000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 2
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "MapArea",
+                        "TgDefea",
+                        "ScChang"
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF 00 01",
+                            "params2": "FF 5F FF FF",
+                            "posx": 0.0,
+                            "posy": -100.0,
+                            "posz": -2700.0,
+                            "sizex": 600.0,
+                            "sizey": 600.0,
+                            "sizez": 600.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 00",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 1,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 00",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": -200.0,
+                            "posz": -300.0,
+                            "sizex": 7000.0,
+                            "sizey": 5500.0,
+                            "sizez": 7000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 01",
+                            "name": "MapArea",
+                            "extra_info": {
+                                "someToggle": 0,
+                                "mapParams": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF 01 02",
+                            "params2": "FF 5F FF FF",
+                            "posx": 0.0,
+                            "posy": -100.0,
+                            "posz": 2700.0,
+                            "sizex": 600.0,
+                            "sizey": 600.0,
+                            "sizez": 600.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 02",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 2,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 7D",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": -100.0,
+                            "posz": 0.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 03",
+                            "name": "TgDefea",
+                            "extra_info": {
+                                "scenefid": 125,
+                                "scenef": "scene flag: 0xE 20"
+                            }
+                        }
+                    ]
+                },
+                "l1": {
+                    "OBJN": [
+                        "BGhB",
+                        "OGhKf",
+                        "DoorBs",
+                        "Cam2Tag",
+                        "NpcTke",
+                        "OGhSwL",
+                        "BGh2",
+                        "SldDoor",
+                        "HeartCo"
+                    ],
+                    "ARCN": [
+                        "PutHeartUtuwa",
+                        "GirahimKnife",
+                        "BossLock2B",
+                        "GirahimBt",
+                        "PLGirahim",
+                        "GirahimBt02",
+                        "SBDin",
+                        "SBAnm",
+                        "BossKeyhole2B",
+                        "GetHeartUtuwa",
+                        "KeyBoss2B",
+                        "DoorBossCollisionB",
+                        "DoorBossB"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "FF FF CF 44",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 2350.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 05",
+                            "name": "DoorBs",
+                            "extra_info": {
+                                "scenefid": 61,
+                                "scenef": "scene flag: 0x6 20"
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF 7C 7D",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 04",
+                            "name": "HeartCo"
+                        },
+                        {
+                            "params1": "FF FF F7 D0",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": -2288.699951171875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 06",
+                            "name": "SldDoor",
+                            "extra_info": {
+                                "openscenefid": 125,
+                                "openscenef": "scene flag: 0xE 20",
+                                "firstopenscenefid": 255,
+                                "firstopenscenef": "no flag",
+                                "ignoreFirstOpenFlag": 1,
+                                "subtype": "Din"
+                            }
+                        },
+                        {
+                            "params1": "FF FF C2 FC",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 07",
+                            "name": "BGh2"
+                        },
+                        {
+                            "params1": "61 2A D3 F3",
+                            "params2": "FF 1F FF FF",
+                            "posx": 100.0,
+                            "posy": 0.0,
+                            "posz": 300.0,
+                            "anglex": 32255,
+                            "angley": 65535,
+                            "anglez": 6662,
+                            "id": "FC 08",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 692,
+                                "trigstoryf": "(not implemented yet -- 7771)",
+                                "untrigstoryfid": 777,
+                                "untrigstoryf": "Talking to Fi in G2 fight after dieing",
+                                "talk_behaviour": 6662,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 125,
+                                "untrigscenef": "scene flag: 0xE 20",
+                                "trigareaindex": 255
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "01 FF FF 01",
+                            "params2": "FF DF FF FF",
+                            "posx": 0.0,
+                            "posy": -200.0,
+                            "posz": 0.0,
+                            "sizex": 2100.0,
+                            "sizey": 1600.0,
+                            "sizez": 2100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65405,
+                            "id": "FC 09",
+                            "name": "Cam2Tag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 125,
+                                "untrigscenef": "scene flag: 0xE 20",
+                                "camidx": 1
+                            }
+                        },
+                        {
+                            "params1": "02 FC FF 02",
+                            "params2": "FF DF FF FF",
+                            "posx": 0.0,
+                            "posy": -200.0,
+                            "posz": 0.0,
+                            "sizex": 2100.0,
+                            "sizey": 1600.0,
+                            "sizez": 2100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65405,
+                            "id": "FC 0A",
+                            "name": "Cam2Tag",
+                            "extra_info": {
+                                "trigscenefid": 252,
+                                "trigscenef": "zone temp flag: 0x6 10",
+                                "untrigscenefid": 125,
+                                "untrigscenef": "scene flag: 0xE 20",
+                                "camidx": 2
+                            }
+                        },
+                        {
+                            "params1": "03 C2 FF 03",
+                            "params2": "FF DF FF FF",
+                            "posx": 0.0,
+                            "posy": -200.0,
+                            "posz": 0.0,
+                            "sizex": 2100.0,
+                            "sizey": 1600.0,
+                            "sizez": 2100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65405,
+                            "id": "FC 0B",
+                            "name": "Cam2Tag",
+                            "extra_info": {
+                                "trigscenefid": 194,
+                                "trigscenef": "zone temp flag: 0x1 04",
+                                "untrigscenefid": 125,
+                                "untrigscenef": "scene flag: 0xE 20",
+                                "camidx": 3
+                            }
+                        }
+                    ]
+                },
+                "l2": {
+                    "OBJN": [
+                        "DoorBs",
+                        "SldDoor",
+                        "HeartCo"
+                    ],
+                    "ARCN": [
+                        "PutHeartUtuwa",
+                        "BossLock2B",
+                        "SBDin",
+                        "SBAnm",
+                        "BossKeyhole2B",
+                        "GetHeartUtuwa",
+                        "KeyBoss2B",
+                        "DoorBossCollisionB",
+                        "DoorBossB"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "FF FF CF 44",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 2350.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 04",
+                            "name": "DoorBs",
+                            "extra_info": {
+                                "scenefid": 61,
+                                "scenef": "scene flag: 0x6 20"
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF F7 D0",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": -2288.699951171875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 05",
+                            "name": "SldDoor",
+                            "extra_info": {
+                                "openscenefid": 125,
+                                "openscenef": "scene flag: 0xE 20",
+                                "firstopenscenefid": 255,
+                                "firstopenscenef": "no flag",
+                                "ignoreFirstOpenFlag": 1,
+                                "subtype": "Din"
+                            }
+                        },
+                        {
+                            "params1": "FF FF 7C 7D",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 06",
+                            "name": "HeartCo"
+                        }
+                    ]
+                },
+                "l3": {
+                    "OBJN": [
+                        "BGhB",
+                        "DoorBs",
+                        "OGhKf",
+                        "Cam2Tag",
+                        "OGhSwL",
+                        "BGh2",
+                        "TgSBG",
+                        "SldDoor"
+                    ],
+                    "ARCN": [
+                        "BossLock2B",
+                        "GirahimKnife",
+                        "GirahimBt",
+                        "PLGirahim",
+                        "SBDin",
+                        "GirahimBt02",
+                        "SBAnm",
+                        "BossKeyhole2B",
+                        "KeyBoss2B",
+                        "DoorBossCollisionB",
+                        "DoorBossB"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "FF FF CF 44",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 2350.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 05",
+                            "name": "DoorBs",
+                            "extra_info": {
+                                "scenefid": 61,
+                                "scenef": "scene flag: 0x6 20"
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF C2 FC",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 04",
+                            "name": "BGh2"
+                        },
+                        {
+                            "params1": "FF FF FF E0",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": -2288.699951171875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 06",
+                            "name": "SldDoor",
+                            "extra_info": {
+                                "openscenefid": 254,
+                                "openscenef": "zone temp flag: 0x6 40",
+                                "firstopenscenefid": 255,
+                                "firstopenscenef": "no flag",
+                                "ignoreFirstOpenFlag": 1,
+                                "subtype": "Din"
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF FF 03",
+                            "params2": "FF FF FF FF",
+                            "posx": -300.0,
+                            "posy": 0.0,
+                            "posz": 1600.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 07",
+                            "name": "TgSBG"
+                        },
+                        {
+                            "params1": "01 FF FF 01",
+                            "params2": "FF DF FF FF",
+                            "posx": 0.0,
+                            "posy": -200.0,
+                            "posz": 0.0,
+                            "sizex": 2100.0,
+                            "sizey": 1600.0,
+                            "sizez": 2100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 08",
+                            "name": "Cam2Tag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 1
+                            }
+                        },
+                        {
+                            "params1": "02 FC FF 02",
+                            "params2": "FF DF FF FF",
+                            "posx": 0.0,
+                            "posy": -200.0,
+                            "posz": 0.0,
+                            "sizex": 2100.0,
+                            "sizey": 1600.0,
+                            "sizez": 2100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 09",
+                            "name": "Cam2Tag",
+                            "extra_info": {
+                                "trigscenefid": 252,
+                                "trigscenef": "zone temp flag: 0x6 10",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 2
+                            }
+                        },
+                        {
+                            "params1": "03 C2 FF 03",
+                            "params2": "FF DF FF FF",
+                            "posx": 0.0,
+                            "posy": -200.0,
+                            "posz": 0.0,
+                            "sizex": 2100.0,
+                            "sizey": 1600.0,
+                            "sizez": 2100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 0A",
+                            "name": "Cam2Tag",
+                            "extra_info": {
+                                "trigscenefid": 194,
+                                "trigscenef": "zone temp flag: 0x1 04",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 3
+                            }
+                        }
+                    ]
+                },
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {
+                    "OBJN": [
+                        "SldDoor"
+                    ],
+                    "ARCN": [
+                        "SBDin",
+                        "SBAnm"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF F7 D0",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": -2288.699951171875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 04",
+                            "name": "SldDoor",
+                            "extra_info": {
+                                "openscenefid": 125,
+                                "openscenef": "scene flag: 0xE 20",
+                                "firstopenscenefid": 255,
+                                "firstopenscenef": "no flag",
+                                "ignoreFirstOpenFlag": 1,
+                                "subtype": "Din"
+                            }
+                        }
+                    ]
+                },
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}

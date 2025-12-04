@@ -1,0 +1,154 @@
+{
+    "header": {
+        "magic": 30554,
+        "evntcount": 1,
+        "actorcount": 3,
+        "unk1count": 3,
+        "unk2count": 3,
+        "unk3count": 3,
+        "alwaysev": "45 76",
+        "unk4count": 1,
+        "unk5count": 0,
+        "unk6count": 35
+    },
+    "evnts": [
+        {
+            "name": "TreasureBoxOpenBoss",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 0,
+            "actorcount": 3,
+            "offset": 20,
+            "actors": [
+                {
+                    "name": "@starter",
+                    "unk1": 12,
+                    "unk2": 0,
+                    "actindex": 0,
+                    "actcount": 1,
+                    "offset": 60,
+                    "acts1": [
+                        {
+                            "name": "Open",
+                            "waitfor": -1,
+                            "actorindex": 0,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 0,
+                            "dummy1": 1,
+                            "offset": 180
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "open",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 0,
+                            "unk3Index": 0,
+                            "unk3Count": 0,
+                            "offset": 264,
+                            "data": []
+                        }
+                    ]
+                },
+                {
+                    "name": "@player",
+                    "unk1": 2,
+                    "unk2": 0,
+                    "actindex": 1,
+                    "actcount": 1,
+                    "offset": 100,
+                    "acts1": [
+                        {
+                            "name": "Open",
+                            "waitfor": -1,
+                            "actorindex": 1,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 1,
+                            "dummy1": 1,
+                            "offset": 208
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "trea",
+                            "eventSubManagerIndex": 16,
+                            "thisindex": 1,
+                            "unk3Index": 0,
+                            "unk3Count": 1,
+                            "offset": 276,
+                            "data": [
+                                {
+                                    "name": "prm0",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 0,
+                                    "datalen": 1,
+                                    "offset": 300,
+                                    "data": [
+                                        2
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 0,
+                    "actindex": 2,
+                    "actcount": 1,
+                    "offset": 140,
+                    "acts1": [
+                        {
+                            "name": "Anm",
+                            "waitfor": -1,
+                            "actorindex": 2,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 2,
+                            "dummy1": 1,
+                            "offset": 236
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "rsca",
+                            "eventSubManagerIndex": 12,
+                            "thisindex": 2,
+                            "unk3Index": 1,
+                            "unk3Count": 2,
+                            "offset": 288,
+                            "data": [
+                                {
+                                    "name": "name",
+                                    "unk1": 0,
+                                    "datatype": 2,
+                                    "dataindex": 0,
+                                    "datalen": 26,
+                                    "offset": 312,
+                                    "data": "player_TreasureBoxOpen_c1"
+                                },
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 1,
+                                    "datatype": 2,
+                                    "dataindex": 26,
+                                    "datalen": 9,
+                                    "offset": 324,
+                                    "data": "@starter"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "intsoffset": 336,
+    "floatsoffset": 340,
+    "stringssoffset": 340
+}
