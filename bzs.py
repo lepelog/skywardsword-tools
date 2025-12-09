@@ -88,6 +88,8 @@ with open('allsceneflags.json') as f:
     sceneflagnames = json.load(f)
 with open('actor_params.yaml') as f:
     actor_params = yaml.safe_load(f)
+with open('droptables/by_special_item_id.json') as f:
+    droptables = json.load(f)
 
 PARAM_STUFF = set(['mask','shift','bitfield_name','values','values_default_idx'])
 
@@ -171,6 +173,10 @@ def objAddExtraInfo(parsed_item):
     viewclip_index = read_halfword(parsed_item["id"]) >> 10
     if viewclip_index != 63:
         extraInfo["viewclip_index"] = viewclip_index
+    
+    if (drop_idx := params2 >> 0x18) != 0xFF:
+        extraInfo['drop_idx'] = drop_idx
+        extraInfo['drop_tables'] = droptables[str(drop_idx)]
 
     if len(extraInfo) > 0:
         parsed_item['extra_info'] = extraInfo
