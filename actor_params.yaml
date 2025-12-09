@@ -1309,9 +1309,31 @@ Tubo: # little pots
     mask: 0xFF
     shift: 4
 Soil: # dig spots
+  subtype:
+    mask: 0xF
+    shift: 0
+    values:
+      - unused0
+      - unused1
+      - Soil2 # most common
+      - Soil3 # just a few instances
+      - KeyPiece
   scenefid:
     mask: 0xFF
     shift: 4
+  countInParams: # 15 (0xF) means a random value between 3 and 5 (inclusive)
+    mask: 0xF
+    shift: 0xC
+  isNotForInsects:
+    mask: 0x1
+    shift: 0x13
+  isNotDugUp:
+    mask: 0x1
+    shift: 0x18
+  spawn_scenefid:
+    mask: 0xFF
+    shift: 0
+    bitfield_name: params2
 ColStp: # Logs before skyloft cave and elsewhere
   scenefid:
     mask: 0xFF
