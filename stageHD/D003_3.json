@@ -1,0 +1,1349 @@
+{
+    "LYSE": [
+        {
+            "story_flag": 730,
+            "night": 0,
+            "layer": 2
+        },
+        {
+            "story_flag": -1,
+            "night": 0,
+            "layer": 1
+        }
+    ],
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 160000.0,
+        "wtf3": 10000.0,
+        "byte1": 0,
+        "flagindex": 20,
+        "byte3": 1,
+        "byte4": 0,
+        "unk1": "00 01",
+        "map_name_id": 17,
+        "unk2": "FF"
+    },
+    "RMPL": {
+        "0": []
+    },
+    "LAY ": {
+        "l0": {
+            "OBJN": [
+                "MapArea",
+                "TlpTag",
+                "Warp"
+            ],
+            "ARCN": [
+                "TeniCrystalC"
+            ],
+            "SOBJ": [
+                {
+                    "params1": "FF FF FF F1",
+                    "params2": "FF FF FF FF",
+                    "posx": -15.21035385131836,
+                    "posy": 500.0,
+                    "posz": 2214.48974609375,
+                    "sizex": 8.0,
+                    "sizey": 8.0,
+                    "sizez": 8.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "Warp"
+                }
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": -2200.0,
+                    "posz": 0.0,
+                    "sizex": 28000.0,
+                    "sizey": 5000.0,
+                    "sizez": 28000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 0,
+                        "mapParams": 0
+                    }
+                },
+                {
+                    "params1": "FF FF FF 01",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": -2200.0,
+                    "posz": 0.0,
+                    "sizex": 10000.0,
+                    "sizey": 5000.0,
+                    "sizez": 10000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 02",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 1,
+                        "mapParams": 0
+                    }
+                },
+                {
+                    "params1": "B2 FF 11 FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -3306.375244140625,
+                    "posy": 1319.6707763671875,
+                    "posz": -2543.36572265625,
+                    "sizex": 100.0,
+                    "sizey": 100.0,
+                    "sizez": 100.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 03",
+                    "name": "TlpTag",
+                    "extra_info": {
+                        "scenefid": 178,
+                        "scenef": "temp flag: 0x7 04",
+                        "map_name_idx": 17,
+                        "name": "Sky Keep"
+                    }
+                }
+            ]
+        },
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "SCEN": [
+                {
+                    "name": "F000",
+                    "room": 0,
+                    "layer": 19,
+                    "entrance": 54,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F000",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 53,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "D003_8",
+                    "room": 0,
+                    "layer": 1,
+                    "entrance": 0,
+                    "night": 2,
+                    "transtype": 1,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F000",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 53,
+                    "night": 2,
+                    "transtype": 2,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                }
+            ],
+            "CAM ": [
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -3039.236572265625,
+                    "posy": 227.01109313964844,
+                    "posz": 3765.165771484375,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 00",
+                    "name": "F3012PillarSita"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -2672.779541015625,
+                    "posy": 382.1078796386719,
+                    "posz": 3765.165771484375,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 01",
+                    "name": "F3012Pillar"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -3550.1962890625,
+                    "posy": -6988.87353515625,
+                    "posz": 3830.256591796875,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 02",
+                    "name": "DungeonGakemae"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 3.7519850730895996,
+                    "posy": 625.0,
+                    "posz": -1378.884765625,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 03",
+                    "name": "Fixed"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -1507.7052001953125,
+                    "posy": 223.21432495117188,
+                    "posz": -1517.90283203125,
+                    "angle": 45.0,
+                    "unk2": "00 00 C0 00 00 00 00 04",
+                    "name": "Fixed"
+                }
+            ],
+            "AREA": [
+                {
+                    "posx": -2715.85986328125,
+                    "posy": -100.0,
+                    "posz": 0.0,
+                    "sizex": 500.0,
+                    "sizey": 500.0,
+                    "sizez": 500.0,
+                    "angley": 0,
+                    "area_link": -1,
+                    "unk3": 0,
+                    "dummy": "FF FF FF",
+                    "index": 0
+                },
+                {
+                    "posx": 2518.537109375,
+                    "posy": 490.0,
+                    "posz": 81.6070327758789,
+                    "sizex": 800.0,
+                    "sizey": 500.0,
+                    "sizez": 500.0,
+                    "angley": 0,
+                    "area_link": -1,
+                    "unk3": 0,
+                    "dummy": "FF FF FF",
+                    "index": 1
+                }
+            ],
+            "EVNT": [
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "01 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "D101IronFence"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "01 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "D3Fence"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "D0033WindowOpen"
+                },
+                {
+                    "unk1": "00 3C",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "50 00 03",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "-"
+                },
+                {
+                    "unk1": "00 3C",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "50 00 04",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "-"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 03",
+                    "exit_id": -1,
+                    "unk3": "01 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "D3FenceWait"
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 4,
+                    "posx": -195.7844696044922,
+                    "posy": 0.0,
+                    "posz": -2899.046875,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 4,
+                    "posx": 2860.5712890625,
+                    "posy": 796.4072265625,
+                    "posz": -196.4573974609375,
+                    "anglex": 0,
+                    "angley": 49152,
+                    "anglez": 0,
+                    "entrance_id": 1
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 4,
+                    "posx": -161.421630859375,
+                    "posy": 0.0,
+                    "posz": 2872.871826171875,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 2
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 4,
+                    "posx": -3149.915283203125,
+                    "posy": 0.0,
+                    "posz": 3.28552508354187,
+                    "anglex": 0,
+                    "angley": 16384,
+                    "anglez": 0,
+                    "entrance_id": 3
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 4,
+                    "posx": -3140.0234375,
+                    "posy": 0.0,
+                    "posz": 3.28552508354187,
+                    "anglex": 0,
+                    "angley": 16384,
+                    "anglez": 0,
+                    "entrance_id": 4
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 20,
+                    "posx": 2500.0,
+                    "posy": 500.0,
+                    "posz": 60.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 10
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "ClawSTg",
+                        "EGunhob",
+                        "EBce",
+                        "SwdStb",
+                        "TgD3Chg",
+                        "StepTS",
+                        "CtrlPnl",
+                        "NpcTke",
+                        "EGunho",
+                        "ShipWin",
+                        "Sw",
+                        "FShutte",
+                        "ShtCS",
+                        "AttTag",
+                        "CamTag",
+                        "saveObj",
+                        "FenceIr",
+                        "ArrowSW",
+                        "Item",
+                        "SwAreaT",
+                        "MagpB",
+                        "EMagupp",
+                        "TSBase",
+                        "D3Dummy",
+                        "ActTag",
+                        "Barrel",
+                        "VentFan",
+                        "TSBlk",
+                        "EhbLeaf",
+                        "Ehb",
+                        "ObjBg"
+                    ],
+                    "ARCN": [
+                        "TeniCrystalCBase",
+                        "GetSozaiO",
+                        "D301Window",
+                        "SwitchStepA",
+                        "PLSwordStick",
+                        "Bce",
+                        "Maguppo",
+                        "FanS",
+                        "ShutterFenced04",
+                        "PutTriForceSingle",
+                        "Degubaba",
+                        "TeniPrickle",
+                        "FenceIron",
+                        "ShutterFenceOnly00",
+                        "SwitchTarget",
+                        "D3MapDummy",
+                        "Barrel",
+                        "GetTriForceSingle",
+                        "ControlPanel",
+                        "Gunho",
+                        "GetSozaiK",
+                        "GetSozaiL",
+                        "DF1StepBlock01"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "FF F8 18 40",
+                            "params2": "FF 7F FF FF",
+                            "posx": -3150.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 65535,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 00",
+                            "name": "ShtCS"
+                        },
+                        {
+                            "params1": "FF FF E0 00",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 03",
+                            "name": "ObjBg"
+                        },
+                        {
+                            "params1": "FF FD FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 94.86691284179688,
+                            "posy": 496.92205810546875,
+                            "posz": 2207.490234375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 07",
+                            "name": "TSBase",
+                            "extra_info": {
+                                "unk": 255,
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "startsWithOrbMaybe": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 03 02 4A",
+                            "params2": "FF 5F FF FF",
+                            "posx": -2157.933349609375,
+                            "posy": 0.0,
+                            "posz": -552.491455078125,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 17",
+                            "name": "saveObj",
+                            "extra_info": {
+                                "scenefid": 74,
+                                "scenef": "scene flag: 0x8 04",
+                                "subtype": "dungeon",
+                                "scen_link": 3,
+                                "saveobj_name_id": 255,
+                                "name": "Bird Statue"
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -4562.5478515625,
+                            "posy": 0.0,
+                            "posz": 11.007352828979492,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 01",
+                            "name": "D3Dummy"
+                        },
+                        {
+                            "params1": "FF 0C FA 61",
+                            "params2": "FF FF FF FF",
+                            "posx": 2502.33251953125,
+                            "posy": 5000.0,
+                            "posz": -28.293045043945312,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 02",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 62,
+                                "scenef": "scene flag: 0x6 40",
+                                "itemid": 97,
+                                "item": "Triforce of Wisdom",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F2",
+                            "params2": "FF FF FF FF",
+                            "posx": -314.16265869140625,
+                            "posy": -50.0,
+                            "posz": -994.216064453125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 04",
+                            "name": "StepTS",
+                            "extra_info": {
+                                "subtype": "DF1StepBlock01"
+                            }
+                        },
+                        {
+                            "params1": "FF FD 6F FF",
+                            "params2": "FF DF FF FF",
+                            "posx": 22.901973724365234,
+                            "posy": 590.0,
+                            "posz": -2770.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 05",
+                            "name": "ArrowSW",
+                            "extra_info": {
+                                "scenefid": 91,
+                                "scenef": "scene flag: 0xA 08",
+                                "2scenefid": 255,
+                                "2scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F2",
+                            "params2": "FF FF FF FF",
+                            "posx": 1296.904052734375,
+                            "posy": -50.0,
+                            "posz": 1021.3914794921875,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 06",
+                            "name": "StepTS",
+                            "extra_info": {
+                                "subtype": "DF1StepBlock01"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F2",
+                            "params2": "FF FF FF FF",
+                            "posx": -1.294922947883606,
+                            "posy": 500.0,
+                            "posz": -1889.2349853515625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 08",
+                            "name": "TSBlk"
+                        },
+                        {
+                            "params1": "FF F0 5F 5B",
+                            "params2": "FF FF FF FF",
+                            "posx": -1275.1358642578125,
+                            "posy": 0.0,
+                            "posz": -1851.3194580078125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 09",
+                            "name": "FShutte",
+                            "extra_info": {
+                                "scenefid": 91,
+                                "scenef": "scene flag: 0xA 08",
+                                "unk": 15,
+                                "eventIdx": 5,
+                                "Event Name": "D3FenceWait",
+                                "startingState": "Closed",
+                                "controlsPlayingevent": "Dont Play Close event",
+                                "eventOrderMaybe": "Only itself"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F2",
+                            "params2": "FF FF FF FF",
+                            "posx": 1606.727783203125,
+                            "posy": -50.0,
+                            "posz": -1839.8260498046875,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 0A",
+                            "name": "StepTS",
+                            "extra_info": {
+                                "subtype": "DF1StepBlock01"
+                            }
+                        },
+                        {
+                            "params1": "FF FD 77 FF",
+                            "params2": "FF DF FF FF",
+                            "posx": -2280.0,
+                            "posy": 260.0,
+                            "posz": -1510.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 65284,
+                            "id": "FC 0B",
+                            "name": "ArrowSW",
+                            "extra_info": {
+                                "scenefid": 93,
+                                "scenef": "scene flag: 0xA 20",
+                                "2scenefid": 255,
+                                "2scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F5 C0",
+                            "params2": "FF FF FF FF",
+                            "posx": 2322.86572265625,
+                            "posy": 0.0,
+                            "posz": -1476.0728759765625,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 0C",
+                            "name": "Sw",
+                            "extra_info": {
+                                "switchType": 0,
+                                "offscenefid": 92,
+                                "offscenef": "scene flag: 0xA 10",
+                                "canBeSeen": 3,
+                                "onscenefid": 255,
+                                "onscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF 02 02 5C",
+                            "params2": "FF DF FF FF",
+                            "posx": -2110.0,
+                            "posy": 150.0,
+                            "posz": -1510.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 65535,
+                            "id": "FC 0D",
+                            "name": "ShipWin",
+                            "extra_info": {
+                                "watchscenefid": 92,
+                                "watchscenef": "scene flag: 0xA 10",
+                                "csscenefid": 255,
+                                "csscenef": "no flag",
+                                "unk": 1,
+                                "CloseEvnt": 2,
+                                "OpenEvnt": 2
+                            }
+                        },
+                        {
+                            "params1": "FF FD 13 88",
+                            "params2": "FF FF FF FF",
+                            "posx": 2049.13427734375,
+                            "posy": 175.88040161132812,
+                            "posz": -1482.185302734375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 16384,
+                            "id": "FC 0E",
+                            "name": "VentFan"
+                        },
+                        {
+                            "params1": "FF CF 27 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -1091.9678955078125,
+                            "posy": -50.0,
+                            "posz": 1198.2896728515625,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 0F",
+                            "name": "EMagupp",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FE B0",
+                            "params2": "07 FF FF FF",
+                            "posx": 1636.7906494140625,
+                            "posy": -50.0,
+                            "posz": -2577.453857421875,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 10",
+                            "name": "Ehb",
+                            "extra_info": {
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FE A3",
+                            "params2": "07 FF FF FF",
+                            "posx": 603.7254638671875,
+                            "posy": 394.10162353515625,
+                            "posz": -2419.189208984375,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 11",
+                            "name": "Ehb",
+                            "extra_info": {
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FE AB",
+                            "params2": "07 FF FF FF",
+                            "posx": 778.94384765625,
+                            "posy": 373.6513671875,
+                            "posz": -2132.659912109375,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 12",
+                            "name": "Ehb",
+                            "extra_info": {
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF DF FF",
+                            "params2": "21 DF FF FF",
+                            "posx": 1906.108642578125,
+                            "posy": -50.0,
+                            "posz": 261.4601745605469,
+                            "anglex": 0,
+                            "angley": 57344,
+                            "anglez": 65535,
+                            "id": "FC 13",
+                            "name": "EBce",
+                            "extra_info": {
+                                "setscenefid": 255,
+                                "setscenef": "no flag",
+                                "drop_idx": 33,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 35,
+                                            "ITEM_NONE": 65
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF EF FF FF",
+                            "params2": "14 FF FF FF",
+                            "posx": 276.98590087890625,
+                            "posy": 500.0,
+                            "posz": -17.529001235961914,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 14",
+                            "name": "EGunho",
+                            "extra_info": {
+                                "drop_idx": 20,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_RED_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FC 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 2889.465087890625,
+                            "posy": 700.0,
+                            "posz": 984.4283447265625,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 15",
+                            "name": "ClawSTg",
+                            "extra_info": {
+                                "modeltype": 3,
+                                "anotherType": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FC 00 5D",
+                            "params2": "FF FF FF FF",
+                            "posx": 2050.447021484375,
+                            "posy": 500.0,
+                            "posz": 961.1763305664062,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 16",
+                            "name": "FenceIr",
+                            "extra_info": {
+                                "scenefid": 93,
+                                "scenef": "scene flag: 0xA 20",
+                                "openeventIdx": 0,
+                                "Event Name": "No Event",
+                                "subtype": "Big",
+                                "staysOpen": "stays",
+                                "closeeventIdx": 255
+                            }
+                        },
+                        {
+                            "params1": "FF FF DF FF",
+                            "params2": "21 DF FF FF",
+                            "posx": 2475.96630859375,
+                            "posy": -50.0,
+                            "posz": 1033.9344482421875,
+                            "anglex": 0,
+                            "angley": 43691,
+                            "anglez": 65535,
+                            "id": "FC 18",
+                            "name": "EBce",
+                            "extra_info": {
+                                "setscenefid": 255,
+                                "setscenef": "no flag",
+                                "drop_idx": 33,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 35,
+                                            "ITEM_NONE": 65
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "04 FF FF FF",
+                            "posx": -2615.11376953125,
+                            "posy": 0.0,
+                            "posz": 434.3558349609375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 19",
+                            "name": "Barrel",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "2scenefid": 255,
+                                "2scenef": "no flag",
+                                "drop_idx": 4,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 100
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "0C FF FF FF",
+                            "posx": -2475.815185546875,
+                            "posy": 0.0,
+                            "posz": 459.6829528808594,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1A",
+                            "name": "Barrel",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "2scenefid": 255,
+                                "2scenef": "no flag",
+                                "drop_idx": 12,
+                                "drop_tables": [
+                                    {
+                                        "hasBow": false,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    },
+                                    {
+                                        "hasBow": true,
+                                        "dropRates": {
+                                            "ITEM_BUNDLE_ARROWS": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 02",
+                            "params2": "FF 1F FF FF",
+                            "posx": -2699.789794921875,
+                            "posy": 901.1976318359375,
+                            "posz": -3567.5791015625,
+                            "anglex": 13055,
+                            "angley": 65280,
+                            "anglez": 12506,
+                            "id": "FC 1B",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 12506,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 50,
+                                "untrigscenef": "scene flag: 0x7 04",
+                                "trigareaindex": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FC 0B 62",
+                            "params2": "FF FF FF FF",
+                            "posx": 2500.0,
+                            "posy": 514.6700439453125,
+                            "posz": -40.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1C",
+                            "name": "SwdStb",
+                            "extra_info": {
+                                "scenefid": 98,
+                                "scenef": "scene flag: 0xD 04"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 02",
+                            "params2": "FF 1F FF FF",
+                            "posx": 3846.43603515625,
+                            "posy": 364.8787841796875,
+                            "posz": -624.7940673828125,
+                            "anglex": 6399,
+                            "angley": 65281,
+                            "anglez": 12513,
+                            "id": "FC 1D",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 12513,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 24,
+                                "untrigscenef": "scene flag: 0x2 01",
+                                "trigareaindex": 1
+                            }
+                        },
+                        {
+                            "params1": "FD FF 00 00",
+                            "params2": "FF FF FF FF",
+                            "posx": -4592.46875,
+                            "posy": 340.7079772949219,
+                            "posz": -4148.9775390625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1E",
+                            "name": "CtrlPnl"
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "00 1F FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 1306.074462890625,
+                            "posy": 399.9389343261719,
+                            "posz": 2187.39599609375,
+                            "sizex": 500.0,
+                            "sizey": 500.0,
+                            "sizez": 800.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1F",
+                            "name": "AttTag"
+                        },
+                        {
+                            "params1": "FF FF FF C6",
+                            "params2": "FF FF FF FF",
+                            "posx": 1312.665283203125,
+                            "posy": 400.0,
+                            "posz": 1353.790283203125,
+                            "sizex": 500.0,
+                            "sizey": 500.0,
+                            "sizez": 2000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 20",
+                            "name": "ActTag"
+                        },
+                        {
+                            "params1": "FF FF FF 01",
+                            "params2": "FF DF FF FF",
+                            "posx": 514.8785400390625,
+                            "posy": 410.0,
+                            "posz": 2199.437744140625,
+                            "sizex": 1600.0,
+                            "sizey": 500.0,
+                            "sizez": 800.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 21",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 00",
+                            "params2": "FF DF FF FF",
+                            "posx": -217.24183654785156,
+                            "posy": -420.0,
+                            "posz": 422.8252868652344,
+                            "sizex": 4500.0,
+                            "sizey": 800.0,
+                            "sizez": 4500.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 22",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F3",
+                            "params2": "FF FF FF FF",
+                            "posx": -3424.09326171875,
+                            "posy": -70.0,
+                            "posz": -24.31308937072754,
+                            "sizex": 500.0,
+                            "sizey": 500.0,
+                            "sizez": 500.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 23",
+                            "name": "TgD3Chg"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 0.0,
+                            "posy": -1000.0,
+                            "posz": 0.0,
+                            "sizex": 6500.0,
+                            "sizey": 6000.0,
+                            "sizez": 6500.0,
+                            "anglex": 64185,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 24",
+                            "name": "SwAreaT",
+                            "extra_info": {
+                                "setstoryfid": 697,
+                                "setstoryf": "Sets when beeing in Sandship Room in Skykeep",
+                                "unsetstoryfid": 2047,
+                                "unsetstoryf": "-",
+                                "setscenefid": 255,
+                                "setscenef": "no flag",
+                                "unsetscenefid": 255,
+                                "unsetscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 02",
+                            "params2": "FF DF FF FF",
+                            "posx": 1308.325927734375,
+                            "posy": 410.0,
+                            "posz": 1011.4876098632812,
+                            "sizex": 500.0,
+                            "sizey": 500.0,
+                            "sizez": 1300.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 25",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 2
+                            }
+                        }
+                    ]
+                },
+                "l1": {
+                    "OBJN": [
+                        "TSBlk"
+                    ],
+                    "ARCN": [
+                        "TeniPrickle"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FF F2",
+                            "params2": "FF FF FF FF",
+                            "posx": 2350.84033203125,
+                            "posy": 500.0,
+                            "posz": 433.18902587890625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 26",
+                            "name": "TSBlk"
+                        }
+                    ]
+                },
+                "l2": {},
+                "l3": {},
+                "l4": {},
+                "l5": {
+                    "OBJN": [
+                        "WarpObj"
+                    ],
+                    "ARCN": [
+                        "PLSwordStick",
+                        "SirenEntrance",
+                        "PLHarpPlay"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF 02 1D 1C",
+                            "params2": "FF 7F FF FF",
+                            "posx": 2502.998046875,
+                            "posy": 514.6700439453125,
+                            "posz": -2.1848878860473633,
+                            "anglex": 65527,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 26",
+                            "name": "WarpObj",
+                            "extra_info": {
+                                "scen_link": 2,
+                                "trigscenefid": 29,
+                                "trigscenef": "scene flag: 0x2 20",
+                                "untrigscenefid": 28,
+                                "untrigscenef": "scene flag: 0x2 10"
+                            }
+                        }
+                    ]
+                },
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}
