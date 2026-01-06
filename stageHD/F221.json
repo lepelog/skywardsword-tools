@@ -1,0 +1,780 @@
+{
+    "LYSE": [
+        {
+            "story_flag": 170,
+            "night": 0,
+            "layer": 2
+        }
+    ],
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 160000.0,
+        "wtf3": 10000.0,
+        "byte1": 0,
+        "flagindex": 5,
+        "byte3": 0,
+        "byte4": 6,
+        "unk1": "FF 03",
+        "map_name_id": 6,
+        "unk2": "FF"
+    },
+    "PCAM": [
+        {
+            "pos1x": 0.0,
+            "pos1y": -80.0,
+            "pos1z": 1000.0,
+            "pos2x": 0.0,
+            "pos2y": -80.0,
+            "pos2z": 0.0,
+            "angle": 0.0,
+            "wtf": 50.0,
+            "id": 31,
+            "unk": "FF FF FF"
+        }
+    ],
+    "LYLT": [
+        {
+            "layer": 13,
+            "demo_high": 64,
+            "demo_low": 1,
+            "dummy": -1
+        }
+    ],
+    "LAY ": {
+        "l0": {
+            "OBJN": [
+                "MapArea"
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": -52.16273880004883,
+                    "posy": -1913.025390625,
+                    "posz": 774.7579345703125,
+                    "sizex": 6000.0,
+                    "sizey": 5000.0,
+                    "sizez": 11010.0,
+                    "anglex": 0,
+                    "angley": 16384,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 0,
+                        "mapParams": 0
+                    }
+                },
+                {
+                    "params1": "FF FF FF F1",
+                    "params2": "FF FF FF FF",
+                    "posx": 272.5914611816406,
+                    "posy": 2565.94091796875,
+                    "posz": -3055.89697265625,
+                    "sizex": 10000.0,
+                    "sizey": 100.0,
+                    "sizez": 10000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 1,
+                        "mapParams": 15
+                    }
+                }
+            ]
+        },
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "SCEN": [
+                {
+                    "name": "F221",
+                    "room": 0,
+                    "layer": 13,
+                    "entrance": 1,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F221",
+                    "room": 0,
+                    "layer": 2,
+                    "entrance": 2,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F201_2",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 1,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F201_1",
+                    "room": 0,
+                    "layer": 4,
+                    "entrance": 3,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F200",
+                    "room": 4,
+                    "layer": 4,
+                    "entrance": 3,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                }
+            ],
+            "CAM ": [
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 1088.2513427734375,
+                    "posy": 424.0805969238281,
+                    "posz": 441.6997985839844,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 00",
+                    "name": "B200R10Cam"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 1558.7091064453125,
+                    "posy": 1192.2213134765625,
+                    "posz": 2892.388916015625,
+                    "angle": 45.0,
+                    "unk2": "06 66 A4 45 00 00 00 01",
+                    "name": "Fixed"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -1832.6221923828125,
+                    "posy": 1359.091064453125,
+                    "posz": 2559.943603515625,
+                    "angle": 45.0,
+                    "unk2": "0E EE 4E EE 00 00 00 02",
+                    "name": "Fixed"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": 375.3280029296875,
+                    "posz": 57.78126907348633,
+                    "angle": 45.0,
+                    "unk2": "F6 C2 80 00 00 00 00 03",
+                    "name": "F221DoragonCam"
+                }
+            ],
+            "PATH": [
+                {
+                    "unk1": "FF 02",
+                    "pnt_start_idx": 0,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 03",
+                    "pnt_start_idx": 2,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                }
+            ],
+            "PNT ": [
+                {
+                    "posx": 16.088319778442383,
+                    "posy": 0.0,
+                    "posz": 5959.93701171875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 16.088319778442383,
+                    "posy": 0.0,
+                    "posz": 6459.93701171875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": 260.0,
+                    "posz": -800.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": 260.0,
+                    "posz": -1200.0,
+                    "unk": "FF FF FF FF"
+                }
+            ],
+            "AREA": [
+                {
+                    "posx": 0.0,
+                    "posy": 45.30916976928711,
+                    "posz": -700.0,
+                    "sizex": 800.0,
+                    "sizey": 800.0,
+                    "sizez": 1000.0,
+                    "angley": 0,
+                    "area_link": -1,
+                    "unk3": 0,
+                    "dummy": "FF FF FF",
+                    "index": 0
+                }
+            ],
+            "EVNT": [
+                {
+                    "unk1": "00 00",
+                    "story_flag1": 170,
+                    "story_flag2": -1,
+                    "unk2": "64 02 FF",
+                    "exit_id": 1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 66,
+                    "dummy1": -1,
+                    "item": 191,
+                    "dummy2": -1,
+                    "name": "demo01"
+                },
+                {
+                    "unk1": "00 46",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 00 01",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "-"
+                },
+                {
+                    "unk1": "00 46",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 00 02",
+                    "exit_id": -1,
+                    "unk3": "01 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "-"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "FireDragonTalk"
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 8,
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 4572.77734375,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 0,
+                    "byte4": -1,
+                    "posx": -1600.0,
+                    "posy": 678.1697998046875,
+                    "posz": -5900.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 1
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 3,
+                    "byte4": -1,
+                    "posx": 0.0,
+                    "posy": 260.0,
+                    "posz": -800.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 2
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "Fire",
+                        "Gear",
+                        "CamTag",
+                        "ActTag",
+                        "SpkTg2",
+                        "ScChang",
+                        "BrgFall"
+                    ],
+                    "ARCN": [
+                        "BridgeFallA",
+                        "SwitchWheel"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "02 01 43 40",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 1311.530029296875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "0C 03",
+                            "name": "BrgFall",
+                            "extra_info": {
+                                "ropeFlagsscenefid": 64,
+                                "ropeFlagsscenef": "scene flag: 0x9 01",
+                                "bridgeDownscenefid": 67,
+                                "bridgeDownscenef": "scene flag: 0x9 08",
+                                "fallincrementeventIdx": 1,
+                                "Event Name": "-",
+                                "finishedeventIdx": 2,
+                                "viewclip_index": 3
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FF 42",
+                            "params2": "FF FF FF FF",
+                            "posx": 550.0,
+                            "posy": 1069.0,
+                            "posz": 1260.0,
+                            "anglex": 32768,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "0C 00",
+                            "name": "Gear",
+                            "extra_info": {
+                                "scenefid": 66,
+                                "scenef": "scene flag: 0x9 04",
+                                "viewclip_index": 3
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 41",
+                            "params2": "FF FF FF FF",
+                            "posx": -550.0,
+                            "posy": 1069.0,
+                            "posz": 1260.0,
+                            "anglex": 32768,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "0C 01",
+                            "name": "Gear",
+                            "extra_info": {
+                                "scenefid": 65,
+                                "scenef": "scene flag: 0x9 02",
+                                "viewclip_index": 3
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 40",
+                            "params2": "FF FF FF FF",
+                            "posx": 386.70001220703125,
+                            "posy": 30.0,
+                            "posz": 2504.030029296875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "0C 02",
+                            "name": "Gear",
+                            "extra_info": {
+                                "scenefid": 64,
+                                "scenef": "scene flag: 0x9 01",
+                                "viewclip_index": 3
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 828.1199951171875,
+                            "posy": 610.7400512695312,
+                            "posz": 3347.639892578125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 04",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 828.1199951171875,
+                            "posy": 610.7400512695312,
+                            "posz": 2783.280029296875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 05",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": -828.1199951171875,
+                            "posy": 610.7400512695312,
+                            "posz": 2783.280029296875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 06",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": -828.1199951171875,
+                            "posy": 610.7400512695312,
+                            "posz": 3347.639892578125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 07",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF 00 02",
+                            "params2": "FF 5F FF FF",
+                            "posx": 0.0,
+                            "posy": -290.6974792480469,
+                            "posz": 5400.0,
+                            "sizex": 1000.0,
+                            "sizey": 1000.0,
+                            "sizez": 1000.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 08",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 2,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF 02 01 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 2.5999999706982635e-05,
+                            "posy": -290.6974792480469,
+                            "posz": -916.3102416992188,
+                            "sizex": 1000.0,
+                            "sizey": 1000.0,
+                            "sizez": 1000.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 63658,
+                            "id": "FC 09",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 0,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 170,
+                                "untrigstoryf": "Fire Dragon teaches SotH part Cutscene (Fire Dragon's Lair layer 2)"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 925.2017211914062,
+                            "posy": -100.0,
+                            "posz": 1686.2205810546875,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 0A",
+                            "name": "SpkTg2"
+                        },
+                        {
+                            "params1": "FF FF FF 00",
+                            "params2": "FF DF FF FF",
+                            "posx": 4.30026912689209,
+                            "posy": -328.4616394042969,
+                            "posz": -710.6591186523438,
+                            "sizex": 1000.0,
+                            "sizey": 500.0,
+                            "sizez": 3000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 0B",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 03",
+                            "params2": "FF DF FF FF",
+                            "posx": 4.30026912689209,
+                            "posy": 184.04437255859375,
+                            "posz": -978.0203857421875,
+                            "sizex": 1000.0,
+                            "sizey": 500.0,
+                            "sizez": 1000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 0C",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 3
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF C4",
+                            "params2": "FF FF FF FF",
+                            "posx": 400.0,
+                            "posy": -100.0,
+                            "posz": 2520.0,
+                            "sizex": 400.0,
+                            "sizey": 400.0,
+                            "sizez": 600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 0D",
+                            "name": "ActTag"
+                        }
+                    ]
+                },
+                "l1": {},
+                "l2": {
+                    "OBJN": [
+                        "TBox",
+                        "ScChang",
+                        "NpcFdr"
+                    ],
+                    "ARCN": [
+                        "Firedragon",
+                        "GetHarp"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "4F FF FF F3",
+                            "params2": "FF 5F FF FF",
+                            "posx": -2300.0,
+                            "posy": 261.06591796875,
+                            "posz": -5100.0,
+                            "anglex": 65279,
+                            "angley": 0,
+                            "anglez": 65213,
+                            "id": "FC 0E",
+                            "name": "TBox",
+                            "extra_info": {
+                                "spawnscenefid": 255,
+                                "spawnscenef": "no flag",
+                                "setscenefid": 255,
+                                "setscenef": "no flag",
+                                "itemid": 189,
+                                "item": "Din's Power",
+                                "chestid": 127,
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-"
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FC FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 0.0,
+                            "posy": 600.0,
+                            "posz": -2200.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 30501,
+                            "id": "FC 0F",
+                            "name": "NpcFdr",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 30501
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF 00 03",
+                            "params2": "FF 5F FF FF",
+                            "posx": 0.0,
+                            "posy": -290.6974792480469,
+                            "posz": 5400.0,
+                            "sizex": 1000.0,
+                            "sizey": 1000.0,
+                            "sizez": 1000.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 10",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 3,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        }
+                    ]
+                },
+                "l3": {},
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,876 @@
+{
+    "LYSE": [
+        {
+            "story_flag": 497,
+            "night": 0,
+            "layer": 3
+        },
+        {
+            "story_flag": 270,
+            "night": 0,
+            "layer": 2
+        },
+        {
+            "story_flag": -1,
+            "night": 0,
+            "layer": 1
+        }
+    ],
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 240000.0,
+        "wtf3": 10000.0,
+        "byte1": 0,
+        "flagindex": 8,
+        "byte3": 0,
+        "byte4": 10,
+        "unk1": "FF 03",
+        "map_name_id": 44,
+        "unk2": "FF"
+    },
+    "LAY ": {
+        "l0": {
+            "OBJN": [
+                "MapArea",
+                "TlpTag"
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": -1200.0,
+                    "posz": 2300.0,
+                    "sizex": 10000.0,
+                    "sizey": 10000.0,
+                    "sizez": 10000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 0,
+                        "mapParams": 0
+                    }
+                },
+                {
+                    "params1": "FF FF FF 01",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": -1200.0,
+                    "posz": 2300.0,
+                    "sizex": 5000.0,
+                    "sizey": 10000.0,
+                    "sizez": 5000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 1,
+                        "mapParams": 0
+                    }
+                },
+                {
+                    "params1": "92 FF 2C FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -5499.1083984375,
+                    "posy": 1333.9840087890625,
+                    "posz": -3319.222412109375,
+                    "sizex": 100.0,
+                    "sizey": 100.0,
+                    "sizez": 100.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 02",
+                    "name": "TlpTag",
+                    "extra_info": {
+                        "scenefid": 146,
+                        "scenef": "temp flag: 0x3 04",
+                        "map_name_idx": 44,
+                        "name": "Shipyard"
+                    }
+                }
+            ]
+        },
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "SCEN": [
+                {
+                    "name": "F301_4",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 1,
+                    "night": 2,
+                    "transtype": 1,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F301_4",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 4,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                }
+            ],
+            "CAM ": [
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -6096.60693359375,
+                    "posy": 1031.9154052734375,
+                    "posz": 4253.6494140625,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 00",
+                    "name": "F301PeeFollow"
+                }
+            ],
+            "AREA": [
+                {
+                    "posx": 48.050140380859375,
+                    "posy": -2424.5302734375,
+                    "posz": 3276.97509765625,
+                    "sizex": 10000.0,
+                    "sizey": 10000.0,
+                    "sizez": 10000.0,
+                    "angley": 0,
+                    "area_link": -1,
+                    "unk3": 0,
+                    "dummy": "FF FF FF",
+                    "index": 0
+                },
+                {
+                    "posx": -42.217159271240234,
+                    "posy": -1120.0,
+                    "posz": 3257.736083984375,
+                    "sizex": 3200.0,
+                    "sizey": 3000.0,
+                    "sizez": 3600.0,
+                    "angley": 0,
+                    "area_link": -1,
+                    "unk3": 0,
+                    "dummy": "FF FF FF",
+                    "index": 1
+                },
+                {
+                    "posx": 2.5689380168914795,
+                    "posy": -20.0,
+                    "posz": 483.76123046875,
+                    "sizex": 1000.0,
+                    "sizey": 500.0,
+                    "sizez": 1000.0,
+                    "angley": 0,
+                    "area_link": -1,
+                    "unk3": 0,
+                    "dummy": "FF FF FF",
+                    "index": 2
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 4,
+                    "posx": -3.01739501953125,
+                    "posy": 0.0,
+                    "posz": -72.1705322265625,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 4,
+                    "posx": 1280.0,
+                    "posy": -750.0,
+                    "posz": 3875.0,
+                    "anglex": 0,
+                    "angley": 49152,
+                    "anglez": 0,
+                    "entrance_id": 1
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "AutoMes",
+                        "NpcTke",
+                        "ShtCS",
+                        "DieTag",
+                        "CamTag",
+                        "TgDefea",
+                        "ODesert",
+                        "ScChang",
+                        "TgReact",
+                        "NpcDrb"
+                    ],
+                    "ARCN": [
+                        "DesertRobot_Beetle",
+                        "DesertRobot_motion",
+                        "ShutterFenced02",
+                        "DesertRobotN",
+                        "DesertRobot",
+                        "Desert",
+                        "DesertRobotT"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "FF FF FF E3",
+                            "params2": "FF FF FF FF",
+                            "posx": -500.0,
+                            "posy": -755.0,
+                            "posz": 3500.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 00",
+                            "name": "ODesert",
+                            "extra_info": {
+                                "someIndex": 0,
+                                "someType": 3
+                            }
+                        },
+                        {
+                            "params1": "F7 FD 5C 20",
+                            "params2": "FF 7F FF FF",
+                            "posx": 1645.0,
+                            "posy": -750.0,
+                            "posz": 3895.0,
+                            "anglex": 65535,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 01",
+                            "name": "ShtCS"
+                        },
+                        {
+                            "params1": "F7 FF FC 21",
+                            "params2": "FF 7F FF FF",
+                            "posx": 1.8820029497146606,
+                            "posy": 0.0,
+                            "posz": -103.97943878173828,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 02",
+                            "name": "ShtCS"
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "21 DF FF 02",
+                            "params2": "FF 1F FF FF",
+                            "posx": 1183.9434814453125,
+                            "posy": 176.48902893066406,
+                            "posz": 3172.142822265625,
+                            "anglex": 65367,
+                            "angley": 65280,
+                            "anglez": 40219,
+                            "id": "FC 03",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 270,
+                                "untrigstoryf": "Fi Text after Molderach 2's defeat (Shipyard Construction Bay layer 2)",
+                                "talk_behaviour": 40219,
+                                "trigscenefid": 87,
+                                "trigscenef": "scene flag: 0xB 80",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "trigareaindex": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 02",
+                            "params2": "FF 1F FF FF",
+                            "posx": 795.0379028320312,
+                            "posy": 149.94473266601562,
+                            "posz": -279.006591796875,
+                            "anglex": 5119,
+                            "angley": 65282,
+                            "anglez": 40243,
+                            "id": "FC 04",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 40243,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 19,
+                                "untrigscenef": "scene flag: 0x3 08",
+                                "trigareaindex": 2
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": -839.7538452148438,
+                            "posy": 0.0,
+                            "posz": 196.69482421875,
+                            "anglex": 65535,
+                            "angley": 24576,
+                            "anglez": 40225,
+                            "id": "FC 05",
+                            "name": "NpcDrb",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 40225
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": -642.15283203125,
+                            "posy": 0.0,
+                            "posz": 294.73712158203125,
+                            "anglex": 65535,
+                            "angley": 30037,
+                            "anglez": 40225,
+                            "id": "FC 06",
+                            "name": "NpcDrb",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 40225
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 1814.9697265625,
+                            "posy": -300.0,
+                            "posz": 2837.29150390625,
+                            "anglex": 65535,
+                            "angley": 32768,
+                            "anglez": 40225,
+                            "id": "FC 07",
+                            "name": "NpcDrb",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 40225
+                            }
+                        }
+                    ],
+                    "SOBJ": [
+                        {
+                            "params1": "0F F0 00 8A",
+                            "params2": "13 7F FF FF",
+                            "posx": 613.1654052734375,
+                            "posy": 217.0368194580078,
+                            "posz": 92.85738372802734,
+                            "sizex": 2.0,
+                            "sizey": 1.0,
+                            "sizez": 2.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 08",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 138,
+                                "scenef": "temp flag: 0x0 04",
+                                "tgreactitemid": 19,
+                                "subtype": "bonk",
+                                "drop_idx": 19,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_BLUE_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "0F F0 00 8B",
+                            "params2": "13 7F FF FF",
+                            "posx": -592.0862426757812,
+                            "posy": 217.0368194580078,
+                            "posz": 81.4870834350586,
+                            "sizex": 2.0,
+                            "sizey": 1.0,
+                            "sizez": 2.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 09",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 139,
+                                "scenef": "temp flag: 0x0 08",
+                                "tgreactitemid": 19,
+                                "subtype": "bonk",
+                                "drop_idx": 19,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_BLUE_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF 9D 41",
+                            "params2": "FF FF FF FF",
+                            "posx": -601.5368041992188,
+                            "posy": -50.0,
+                            "posz": -6.914121150970459,
+                            "sizex": 200.0,
+                            "sizey": 300.0,
+                            "sizez": 200.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 0A",
+                            "name": "AutoMes",
+                            "extra_info": {
+                                "talk_behaviour": 40257
+                            }
+                        },
+                        {
+                            "params1": "FF FF 9D 42",
+                            "params2": "FF FF FF FF",
+                            "posx": 609.3269653320312,
+                            "posy": -50.0,
+                            "posz": -2.3286750316619873,
+                            "sizex": 200.0,
+                            "sizey": 300.0,
+                            "sizez": 200.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 0B",
+                            "name": "AutoMes",
+                            "extra_info": {
+                                "talk_behaviour": 40258
+                            }
+                        },
+                        {
+                            "params1": "FF FF 9D 43",
+                            "params2": "FF FF FF FF",
+                            "posx": -2156.430419921875,
+                            "posy": -200.0,
+                            "posz": 766.4244995117188,
+                            "sizex": 400.0,
+                            "sizey": 300.0,
+                            "sizez": 400.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 0C",
+                            "name": "AutoMes",
+                            "extra_info": {
+                                "talk_behaviour": 40259
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 00",
+                            "params2": "FF DF FF FF",
+                            "posx": -2171.0947265625,
+                            "posy": -200.0,
+                            "posz": 766.905029296875,
+                            "sizex": 700.0,
+                            "sizey": 500.0,
+                            "sizez": 1000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 0D",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 1894.5992431640625,
+                            "posy": -788.824462890625,
+                            "posz": 3867.498779296875,
+                            "sizex": 500.0,
+                            "sizey": 300.0,
+                            "sizez": 500.0,
+                            "anglex": 59391,
+                            "angley": 32768,
+                            "anglez": 65535,
+                            "id": "FC 0E",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 0,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 01",
+                            "params2": "FF 5F FF FF",
+                            "posx": -9.47861385345459,
+                            "posy": 0.0,
+                            "posz": -391.13134765625,
+                            "sizex": 500.0,
+                            "sizey": 500.0,
+                            "sizez": 500.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 0F",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 1,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 57",
+                            "params2": "FF FF FF FF",
+                            "posx": 1245.7257080078125,
+                            "posy": 914.47705078125,
+                            "posz": 2816.895263671875,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 10",
+                            "name": "TgDefea",
+                            "extra_info": {
+                                "scenefid": 87,
+                                "scenef": "scene flag: 0xB 80"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F5 70",
+                            "params2": "FF 7F FF FF",
+                            "posx": -100.0,
+                            "posy": -2000.0,
+                            "posz": 3100.0,
+                            "sizex": 10000.0,
+                            "sizey": 10000.0,
+                            "sizez": 10000.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 11",
+                            "name": "DieTag",
+                            "extra_info": {
+                                "setscenefid": 87,
+                                "setscenef": "scene flag: 0xB 80"
+                            }
+                        }
+                    ]
+                },
+                "l1": {
+                    "OBJN": [
+                        "TgTimer",
+                        "EKg",
+                        "NpcTke",
+                        "BMg"
+                    ],
+                    "ARCN": [
+                        "Mg",
+                        "PLBossCaught",
+                        "MoldoGut_Baby"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FF 02",
+                            "params2": "FF 1F FF FF",
+                            "posx": 1200.7874755859375,
+                            "posy": 176.48902893066406,
+                            "posz": 3172.142822265625,
+                            "anglex": 22872,
+                            "angley": 65280,
+                            "anglez": 40230,
+                            "id": "FC 12",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 40230,
+                                "trigscenefid": 88,
+                                "trigscenef": "scene flag: 0xA 01",
+                                "untrigscenefid": 89,
+                                "untrigscenef": "scene flag: 0xA 02",
+                                "trigareaindex": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF F3 FF",
+                            "params2": "06 FF FF FF",
+                            "posx": 0.0,
+                            "posy": -755.0,
+                            "posz": 3600.0,
+                            "anglex": 0,
+                            "angley": 32768,
+                            "anglez": 0,
+                            "id": "FC 13",
+                            "name": "BMg",
+                            "extra_info": {
+                                "drop_idx": 6,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 100
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FD FF",
+                            "params2": "07 FF FF FF",
+                            "posx": -203.06707763671875,
+                            "posy": -755.0,
+                            "posz": 2830.603515625,
+                            "anglex": 0,
+                            "angley": 32768,
+                            "anglez": 0,
+                            "id": "FC 14",
+                            "name": "EKg",
+                            "extra_info": {
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FD FF",
+                            "params2": "07 FF FF FF",
+                            "posx": 800.993896484375,
+                            "posy": -755.0,
+                            "posz": 3325.66162109375,
+                            "anglex": 0,
+                            "angley": 32768,
+                            "anglez": 0,
+                            "id": "FC 15",
+                            "name": "EKg",
+                            "extra_info": {
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FD FF",
+                            "params2": "07 FF FF FF",
+                            "posx": -7.833043098449707,
+                            "posy": -755.0,
+                            "posz": 4455.2314453125,
+                            "anglex": 0,
+                            "angley": 32768,
+                            "anglez": 0,
+                            "id": "FC 16",
+                            "name": "EKg",
+                            "extra_info": {
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "58 57 28 01",
+                            "params2": "FF FF FF FF",
+                            "posx": -2458.686767578125,
+                            "posy": 895.4214477539062,
+                            "posz": 1831.490234375,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 17",
+                            "name": "TgTimer",
+                            "extra_info": {
+                                "trigscenefid": 87,
+                                "trigscenef": "scene flag: 0xB 80",
+                                "setscenefid": 88,
+                                "setscenef": "scene flag: 0xA 01"
+                            }
+                        }
+                    ]
+                },
+                "l2": {
+                    "OBJN": [
+                        "TgTimer",
+                        "NpcTke"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FF 02",
+                            "params2": "FF 1F FF FF",
+                            "posx": 1219.0992431640625,
+                            "posy": 176.48902893066406,
+                            "posz": 3162.98681640625,
+                            "anglex": 22872,
+                            "angley": 65280,
+                            "anglez": 40230,
+                            "id": "FC 12",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 40230,
+                                "trigscenefid": 88,
+                                "trigscenef": "scene flag: 0xA 01",
+                                "untrigscenefid": 89,
+                                "untrigscenef": "scene flag: 0xA 02",
+                                "trigareaindex": 0
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "58 57 14 01",
+                            "params2": "FF FF FF FF",
+                            "posx": -2769.986572265625,
+                            "posy": 895.4214477539062,
+                            "posz": 1950.5169677734375,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 13",
+                            "name": "TgTimer",
+                            "extra_info": {
+                                "trigscenefid": 87,
+                                "trigscenef": "scene flag: 0xB 80",
+                                "setscenefid": 88,
+                                "setscenef": "scene flag: 0xA 01"
+                            }
+                        }
+                    ]
+                },
+                "l3": {},
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}

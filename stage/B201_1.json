@@ -1,0 +1,526 @@
+{
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 160000.0,
+        "wtf3": 10000.0,
+        "byte1": 0,
+        "flagindex": 15,
+        "byte3": 1,
+        "byte4": 6,
+        "unk1": "FF 03",
+        "map_name_id": 16,
+        "unk2": "FF"
+    },
+    "LYLT": [
+        {
+            "layer": 13,
+            "demo_high": 52,
+            "demo_low": 1,
+            "dummy": -1
+        }
+    ],
+    "LAY ": {
+        "l0": {
+            "OBJN": [
+                "MapArea",
+                "Kytag",
+                "TlpTag"
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": -100.0,
+                    "posz": 0.0,
+                    "sizex": 6000.0,
+                    "sizey": 2000.0,
+                    "sizez": 6000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 0,
+                        "mapParams": 0
+                    }
+                },
+                {
+                    "params1": "FF FF FF 01",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": -100.0,
+                    "posz": 0.0,
+                    "sizex": 3000.0,
+                    "sizey": 2000.0,
+                    "sizez": 3000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 1,
+                        "mapParams": 0
+                    }
+                },
+                {
+                    "params1": "00 FF 79 F1",
+                    "params2": "FF 7F FF FF",
+                    "posx": 0.0,
+                    "posy": 1500.0,
+                    "posz": -500.0,
+                    "sizex": 7000.0,
+                    "sizey": 7000.0,
+                    "sizez": 7000.0,
+                    "anglex": 65281,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 02",
+                    "name": "Kytag"
+                },
+                {
+                    "params1": "BF FF 10 FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -2253.20166015625,
+                    "posy": 1335.598876953125,
+                    "posz": -2348.315185546875,
+                    "sizex": 100.0,
+                    "sizey": 100.0,
+                    "sizez": 100.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 03",
+                    "name": "TlpTag",
+                    "extra_info": {
+                        "scenefid": 191,
+                        "scenef": "temp flag: 0x6 80",
+                        "map_name_idx": 16,
+                        "name": "Fire Sanctuary"
+                    }
+                }
+            ]
+        },
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "SCEN": [
+                {
+                    "name": "B201",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 2,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "B201_1",
+                    "room": 0,
+                    "layer": 13,
+                    "entrance": 2,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F201_3",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 1,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 1
+                }
+            ],
+            "PATH": [
+                {
+                    "unk1": "FF 00",
+                    "pnt_start_idx": 0,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                }
+            ],
+            "PNT ": [
+                {
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 1000.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 1400.0,
+                    "unk": "FF FF FF FF"
+                }
+            ],
+            "EVNT": [
+                {
+                    "unk1": "00 00",
+                    "story_flag1": 13,
+                    "story_flag2": -1,
+                    "unk2": "64 02 FF",
+                    "exit_id": 2,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 121,
+                    "sceneflag2": 255,
+                    "skipflag": 60,
+                    "dummy1": -1,
+                    "item": 13,
+                    "dummy2": -1,
+                    "name": "demo01"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "SealedDoorClose"
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 1,
+                    "byte4": 8,
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 500.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": -1,
+                    "posx": 2.4814670085906982,
+                    "posy": 128.0,
+                    "posz": -1278.92333984375,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 1
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 0,
+                    "byte4": -1,
+                    "posx": 1820.72314453125,
+                    "posy": 128.0,
+                    "posz": -750.6431274414062,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 2
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "GodMark",
+                        "Fire",
+                        "SdCdl",
+                        "SldDoor",
+                        "ScChang",
+                        "SwSB"
+                    ],
+                    "ARCN": [
+                        "SBDin",
+                        "SBAnm",
+                        "GodsMark",
+                        "GoddessSymbolSc",
+                        "SwordCandle"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF F2 5F",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 179.2956085205078,
+                            "posz": -2000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 00",
+                            "name": "SdCdl",
+                            "extra_info": {
+                                "scenefid": 95,
+                                "scenef": "scene flag: 0xA 80",
+                                "scen_link": 2
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": -1160.0,
+                            "posy": 560.0,
+                            "posz": -600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 01",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": -580.0,
+                            "posy": 660.0,
+                            "posz": -1610.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 02",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": -580.0,
+                            "posy": 560.0,
+                            "posz": 410.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 03",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 580.0,
+                            "posy": 560.0,
+                            "posz": 410.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 04",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 1160.0,
+                            "posy": 560.0,
+                            "posz": -600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 05",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 580.0,
+                            "posy": 660.0,
+                            "posz": -1610.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 06",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F5 F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 07",
+                            "name": "GodMark"
+                        },
+                        {
+                            "params1": "FF FF F7 D0",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 840.0,
+                            "anglex": 0,
+                            "angley": 32768,
+                            "anglez": 0,
+                            "id": "FC 08",
+                            "name": "SldDoor",
+                            "extra_info": {
+                                "openscenefid": 125,
+                                "openscenef": "scene flag: 0xE 20",
+                                "firstopenscenefid": 255,
+                                "firstopenscenef": "no flag",
+                                "ignoreFirstOpenFlag": 1,
+                                "subtype": "Din"
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF 00 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 0.0,
+                            "posy": -133.58984375,
+                            "posz": 1200.0,
+                            "sizex": 500.0,
+                            "sizey": 500.0,
+                            "sizez": 500.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 09",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 0,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "5F 03 00 01",
+                            "params2": "FF 5F FF FF",
+                            "posx": -27.42055892944336,
+                            "posy": -133.58984375,
+                            "posz": -801.6986694335938,
+                            "sizex": 3000.0,
+                            "sizey": 500.0,
+                            "sizez": 3000.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 63501,
+                            "id": "FC 0A",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 1,
+                                "trigscenefid": 95,
+                                "trigscenef": "scene flag: 0xA 80",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 13,
+                                "untrigstoryf": "Beat Fire Sanctuary (Sealed Temple layer 3 / Sealed Grounds layer 3 / Behind The Temple layer 4 / FS Boss Room layer 2 /  FS Entrance layer 4)"
+                            }
+                        }
+                    ]
+                },
+                "l1": {},
+                "l2": {},
+                "l3": {},
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}

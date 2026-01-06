@@ -1,0 +1,677 @@
+{
+    "LYSE": [
+        {
+            "story_flag": -1,
+            "night": 1,
+            "layer": 2
+        },
+        {
+            "story_flag": -1,
+            "night": 0,
+            "layer": 1
+        }
+    ],
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 160000.0,
+        "wtf3": 10000.0,
+        "byte1": 0,
+        "flagindex": 0,
+        "byte3": 4,
+        "byte4": 0,
+        "unk1": "FF 03",
+        "map_name_id": 48,
+        "unk2": "FF"
+    },
+    "RMPL": {
+        "0": []
+    },
+    "LAY ": {
+        "l0": {
+            "OBJN": [
+                "MapArea"
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": 47.13851547241211,
+                    "posy": -76.92303466796875,
+                    "posz": -239.2650146484375,
+                    "sizex": 2500.0,
+                    "sizey": 432.0,
+                    "sizez": 2000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 0,
+                        "mapParams": 0
+                    }
+                }
+            ]
+        },
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "OBJN": [
+                "FlvsB",
+                "LampD",
+                "FlvsC",
+                "PlntC00",
+                "PltB00",
+                "PlntC01",
+                "CharB",
+                "CupA00",
+                "CupB02"
+            ],
+            "ARCN": [
+                "FlvsB",
+                "LampD",
+                "FlvsC",
+                "PlntC00",
+                "PltB00",
+                "PlntC01",
+                "CharB",
+                "CupA00",
+                "PLSitDown",
+                "CupB02"
+            ],
+            "FILE": "FF FF FF FF",
+            "SCEN": [
+                {
+                    "name": "F000",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 30,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                }
+            ],
+            "AREA": [
+                {
+                    "posx": -43.30378723144531,
+                    "posy": 0.0,
+                    "posz": 74.32134246826172,
+                    "sizex": 200.0,
+                    "sizey": 100.0,
+                    "sizez": 150.0,
+                    "angley": 57344,
+                    "area_link": -1,
+                    "unk3": 0,
+                    "dummy": "FF FF FF",
+                    "index": 0
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": -1,
+                    "posx": -231.44451904296875,
+                    "posy": 0.0,
+                    "posz": 21.725589752197266,
+                    "anglex": 0,
+                    "angley": 24940,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 11,
+                    "posx": -475.458984375,
+                    "posy": 0.0,
+                    "posz": 256.80560302734375,
+                    "anglex": 0,
+                    "angley": 24758,
+                    "anglez": 0,
+                    "entrance_id": 1
+                }
+            ],
+            "SOBJ": [
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 141.6300048828125,
+                    "posy": 100.29000091552734,
+                    "posz": -205.5600128173828,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 32968,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "PltB00"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 206.3000030517578,
+                    "posy": 100.60000610351562,
+                    "posz": -275.9200134277344,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 53756,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "PlntC00"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -111.91000366210938,
+                    "posy": 496.25,
+                    "posz": -62.230003356933594,
+                    "sizex": 0.699999988079071,
+                    "sizey": 0.699999988079071,
+                    "sizez": 0.699999988079071,
+                    "anglex": 0,
+                    "angley": 57344,
+                    "anglez": 0,
+                    "id": "FC 02",
+                    "name": "LampD"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 238.0500030517578,
+                    "posy": 466.8800048828125,
+                    "posz": -404.1700134277344,
+                    "sizex": 0.6000000238418579,
+                    "sizey": 0.6000000238418579,
+                    "sizez": 0.6000000238418579,
+                    "anglex": 0,
+                    "angley": 57344,
+                    "anglez": 0,
+                    "id": "FC 03",
+                    "name": "LampD"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 529.0900268554688,
+                    "posy": 100.55000305175781,
+                    "posz": 150.12001037597656,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 9520,
+                    "anglez": 0,
+                    "id": "FC 04",
+                    "name": "FlvsC"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 124.92000579833984,
+                    "posy": 98.77000427246094,
+                    "posz": -305.02001953125,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 8150,
+                    "anglez": 0,
+                    "id": "FC 05",
+                    "name": "CupB02"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 562.1500244140625,
+                    "posy": 100.35000610351562,
+                    "posz": 115.84000396728516,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 8936,
+                    "anglez": 0,
+                    "id": "FC 06",
+                    "name": "CupA00"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 289.4300231933594,
+                    "posy": 1.5,
+                    "posz": -139.40000915527344,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 40634,
+                    "anglez": 0,
+                    "id": "FC 07",
+                    "name": "CharB"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 46.01000213623047,
+                    "posy": 1.5,
+                    "posz": -359.0500183105469,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 5843,
+                    "anglez": 0,
+                    "id": "FC 08",
+                    "name": "CharB"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -586.8900146484375,
+                    "posy": 84.85000610351562,
+                    "posz": -206.16000366210938,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 49642,
+                    "anglez": 0,
+                    "id": "FC 09",
+                    "name": "PlntC01"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 710.1700439453125,
+                    "posy": 197.24000549316406,
+                    "posz": -264.6700134277344,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 18208,
+                    "anglez": 0,
+                    "id": "FC 0A",
+                    "name": "FlvsB"
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "DNight",
+                        "chest",
+                        "AttTag",
+                        "Door",
+                        "Item",
+                        "SwAreaT",
+                        "EffGnT"
+                    ],
+                    "ARCN": [
+                        "TansuInside",
+                        "DoorA00",
+                        "Tansu",
+                        "PLBed",
+                        "PLChest",
+                        "DoorAnim"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "00 00 00 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": -430.0,
+                            "posy": 5.0,
+                            "posz": 190.0,
+                            "anglex": 65535,
+                            "angley": 57344,
+                            "anglez": 65535,
+                            "id": "FC 0B",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "lockbehavior": "Always Unlocked",
+                                "scen_link": 0,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorA00 : Normal Wood",
+                                "needs_key": "No Key Required",
+                                "callback_type": "No callbacks",
+                                "front_roomid": 63,
+                                "back_roomid": 63
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF E0 24",
+                            "params2": "FF FF FF FF",
+                            "posx": -492.3297424316406,
+                            "posy": 51.0,
+                            "posz": -440.76983642578125,
+                            "anglex": 0,
+                            "angley": 58619,
+                            "anglez": 0,
+                            "id": "FC 0C",
+                            "name": "DNight",
+                            "extra_info": {
+                                "sleep_storyfid": 36,
+                                "sleep_storyf": "Hero's Tunic / Fi Unlocked if you have a sword (Skyloft layers 4&5 / Sky layer 2 / Knight Academy layers 3&4 / Sealed Grounds layer 1 / Behind The Temple layer 1 / Goddess Statue layers 2&3)"
+                            }
+                        },
+                        {
+                            "params1": "FF FF E0 24",
+                            "params2": "FF FF FF FF",
+                            "posx": -198.36903381347656,
+                            "posy": 51.0,
+                            "posz": -719.5734252929688,
+                            "anglex": 0,
+                            "angley": 23665,
+                            "anglez": 0,
+                            "id": "FC 0D",
+                            "name": "DNight",
+                            "extra_info": {
+                                "sleep_storyfid": 36,
+                                "sleep_storyf": "Hero's Tunic / Fi Unlocked if you have a sword (Skyloft layers 4&5 / Sky layer 2 / Knight Academy layers 3&4 / Sealed Grounds layer 1 / Behind The Temple layer 1 / Goddess Statue layers 2&3)"
+                            }
+                        },
+                        {
+                            "params1": "3F 00 FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 70.0,
+                            "posy": 0.0,
+                            "posz": -830.0,
+                            "anglex": 0,
+                            "angley": 2275,
+                            "anglez": 0,
+                            "id": "FC 0E",
+                            "name": "chest",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 255,
+                                "item": "?",
+                                "insidesubtype": 0,
+                                "subtype": "TansuD"
+                            }
+                        },
+                        {
+                            "params1": "FF 0D CA 30",
+                            "params2": "FF FF FF FF",
+                            "posx": 56.73320388793945,
+                            "posy": 0.36000001430511475,
+                            "posz": 396.0592956542969,
+                            "anglex": 0,
+                            "angley": 57344,
+                            "anglez": 0,
+                            "id": "FC 0F",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 114,
+                                "scenef": "scene flag: 0xF 04",
+                                "itemid": 48,
+                                "item": "One Gratitude Crystal",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF 04 02",
+                            "params2": "FF FF FF FF",
+                            "posx": 350.0,
+                            "posy": 20.0,
+                            "posz": 275.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 57344,
+                            "anglez": 0,
+                            "id": "FC 10",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": -352.8045654296875,
+                            "posy": -24.73381805419922,
+                            "posz": 155.6376190185547,
+                            "sizex": 671.0,
+                            "sizey": 100.0,
+                            "sizez": 479.0,
+                            "anglex": 64203,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 11",
+                            "name": "SwAreaT",
+                            "extra_info": {
+                                "setstoryfid": 715,
+                                "setstoryf": "Orielle and Parrow's House entered (name on map appears)",
+                                "unsetstoryfid": 2047,
+                                "unsetstoryf": "-",
+                                "setscenefid": 255,
+                                "setscenef": "no flag",
+                                "unsetscenefid": 255,
+                                "unsetscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -390.4526062011719,
+                            "posy": -12.853499412536621,
+                            "posz": 147.4609375,
+                            "sizex": 200.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 24758,
+                            "anglez": 0,
+                            "id": "FC 12",
+                            "name": "AttTag"
+                        }
+                    ]
+                },
+                "l1": {
+                    "OBJN": [
+                        "NpcSoma"
+                    ],
+                    "ARCN": [
+                        "SoManA"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "04 9F FF 11",
+                            "params2": "FF 5F FF FF",
+                            "posx": 454.9315490722656,
+                            "posy": 0.0,
+                            "posz": -362.2926940917969,
+                            "anglex": 65535,
+                            "angley": 57344,
+                            "anglez": 12203,
+                            "id": "FC 13",
+                            "name": "NpcSoma",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 36,
+                                "untrigstoryf": "Hero's Tunic / Fi Unlocked if you have a sword (Skyloft layers 4&5 / Sky layer 2 / Knight Academy layers 3&4 / Sealed Grounds layer 1 / Behind The Temple layer 1 / Goddess Statue layers 2&3)",
+                                "talk_behaviour": 12203
+                            }
+                        }
+                    ]
+                },
+                "l2": {
+                    "OBJN": [
+                        "NpcSowo",
+                        "NpcSoma"
+                    ],
+                    "ARCN": [
+                        "SoManA",
+                        "SoWoManA"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "28 C0 93 FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": -79.5375747680664,
+                            "posy": 0.0,
+                            "posz": -326.4874572753906,
+                            "anglex": 65535,
+                            "angley": 57344,
+                            "anglez": 11805,
+                            "id": "FC 13",
+                            "name": "NpcSoma",
+                            "extra_info": {
+                                "trigstoryfid": 36,
+                                "trigstoryf": "Hero's Tunic / Fi Unlocked if you have a sword (Skyloft layers 4&5 / Sky layer 2 / Knight Academy layers 3&4 / Sealed Grounds layer 1 / Behind The Temple layer 1 / Goddess Statue layers 2&3)",
+                                "untrigstoryfid": 326,
+                                "untrigstoryf": "Wyrna's 5 gratitude crystals collected (not the crystals themselves)",
+                                "talk_behaviour": 11805
+                            }
+                        },
+                        {
+                            "params1": "28 C0 93 FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 558.9335327148438,
+                            "posy": 0.0,
+                            "posz": -13.98150634765625,
+                            "anglex": 65535,
+                            "angley": 9466,
+                            "anglez": 11806,
+                            "id": "FC 14",
+                            "name": "NpcSowo",
+                            "extra_info": {
+                                "trigstoryfid": 36,
+                                "trigstoryf": "Hero's Tunic / Fi Unlocked if you have a sword (Skyloft layers 4&5 / Sky layer 2 / Knight Academy layers 3&4 / Sealed Grounds layer 1 / Behind The Temple layer 1 / Goddess Statue layers 2&3)",
+                                "untrigstoryfid": 326,
+                                "untrigstoryf": "Wyrna's 5 gratitude crystals collected (not the crystals themselves)",
+                                "talk_behaviour": 11806
+                            }
+                        },
+                        {
+                            "params1": "2F E5 1B F2",
+                            "params2": "FF 5F FF FF",
+                            "posx": -43.6589241027832,
+                            "posy": 0.0,
+                            "posz": 63.579444885253906,
+                            "anglex": 65280,
+                            "angley": 57344,
+                            "anglez": 11509,
+                            "id": "FC 15",
+                            "name": "NpcSoma",
+                            "extra_info": {
+                                "trigstoryfid": 326,
+                                "trigstoryf": "Wyrna's 5 gratitude crystals collected (not the crystals themselves)",
+                                "untrigstoryfid": 383,
+                                "untrigstoryf": "Heal Orielle's bird",
+                                "talk_behaviour": 11509
+                            }
+                        },
+                        {
+                            "params1": "2D 05 FF FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": -104.01177215576172,
+                            "posy": 0.0,
+                            "posz": -327.7755432128906,
+                            "anglex": 65535,
+                            "angley": 57344,
+                            "anglez": 11509,
+                            "id": "FC 16",
+                            "name": "NpcSoma",
+                            "extra_info": {
+                                "trigstoryfid": 383,
+                                "trigstoryf": "Heal Orielle's bird",
+                                "untrigstoryfid": 360,
+                                "untrigstoryf": "Batreaux turns human",
+                                "talk_behaviour": 11509
+                            }
+                        },
+                        {
+                            "params1": "FF E5 FF FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 546.0523681640625,
+                            "posy": 0.0,
+                            "posz": -11.40527057647705,
+                            "anglex": 65535,
+                            "angley": 9466,
+                            "anglez": 11511,
+                            "id": "FC 17",
+                            "name": "NpcSowo",
+                            "extra_info": {
+                                "trigstoryfid": 383,
+                                "trigstoryf": "Heal Orielle's bird",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 11511
+                            }
+                        }
+                    ]
+                },
+                "l3": {},
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}

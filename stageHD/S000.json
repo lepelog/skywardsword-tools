@@ -1,0 +1,4197 @@
+{
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 300000.0,
+        "wtf3": 8000.0,
+        "byte1": 0,
+        "flagindex": 25,
+        "byte3": 0,
+        "byte4": 0,
+        "unk1": "FF 00",
+        "map_name_id": 21,
+        "unk2": "FF"
+    },
+    "RMPL": {
+        "0": []
+    },
+    "PCAM": [
+        {
+            "pos1x": 0.0,
+            "pos1y": 1000.0,
+            "pos1z": 0.0,
+            "pos2x": 0.0,
+            "pos2y": 0.0,
+            "pos2z": 0.0,
+            "angle": 0.0,
+            "wtf": 1.0,
+            "id": 20,
+            "unk": "FF FF FF"
+        }
+    ],
+    "LAY ": {
+        "l0": {},
+        "l1": {},
+        "l2": {
+            "OBJN": [
+                "MapArea",
+                "SirenTg",
+                "ToD3Stn",
+                "Vrbox",
+                "SporeTg"
+            ],
+            "ARCN": [
+                "BirdObjD3",
+                "Vrbox02"
+            ],
+            "OBJ ": [
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 5256.7119140625,
+                    "posy": 400.08001708984375,
+                    "posz": -11212.205078125,
+                    "anglex": 0,
+                    "angley": 10558,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "ToD3Stn"
+                }
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF 01",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 0.0,
+                    "sizex": 10000.0,
+                    "sizey": 10000.0,
+                    "sizez": 10000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 1,
+                        "mapParams": 0
+                    }
+                },
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": 1700.0,
+                    "posy": -3258.416015625,
+                    "posz": -7600.0,
+                    "sizex": 20000.0,
+                    "sizey": 13000.0,
+                    "sizez": 32000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 02",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 0,
+                        "mapParams": 0
+                    }
+                },
+                {
+                    "params1": "FF FF FF 02",
+                    "params2": "FF FF FF FF",
+                    "posx": -9686.77734375,
+                    "posy": 7063.68017578125,
+                    "posz": -2795.053466796875,
+                    "sizex": 50.0,
+                    "sizey": 50.0,
+                    "sizez": 50.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 03",
+                    "name": "Vrbox"
+                },
+                {
+                    "params1": "FF FF 82 8A",
+                    "params2": "FF FF FF FF",
+                    "posx": -7762.98046875,
+                    "posy": 5978.02294921875,
+                    "posz": -15301.0673828125,
+                    "sizex": 100.0,
+                    "sizey": 100.0,
+                    "sizez": 100.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 04",
+                    "name": "SirenTg"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 6416.447265625,
+                    "posy": 3418.1904296875,
+                    "posz": 6272.2568359375,
+                    "sizex": 100.0,
+                    "sizey": 100.0,
+                    "sizez": 100.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 05",
+                    "name": "SporeTg"
+                }
+            ]
+        },
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "OBJN": [
+                "WoodTag",
+                "BtlTgC",
+                "CharE",
+                "CoTest"
+            ],
+            "ARCN": [
+                "PLSitDown"
+            ],
+            "SCEN": [
+                {
+                    "name": "F302",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 10,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F000",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 83,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                }
+            ],
+            "CAM ": [
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -400.0,
+                    "posy": 493.03289794921875,
+                    "posz": 3800.0,
+                    "angle": 82.0,
+                    "unk2": "EF A5 18 E3 00 00 00 00",
+                    "name": "Fixed"
+                }
+            ],
+            "SPTH": [
+                {
+                    "unk1": "FF 00",
+                    "pnt_start_idx": 0,
+                    "pnt_total_count": 1,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 0D",
+                    "pnt_start_idx": 1,
+                    "pnt_total_count": 1,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 0E",
+                    "pnt_start_idx": 2,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 11",
+                    "pnt_start_idx": 4,
+                    "pnt_total_count": 6,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 14",
+                    "pnt_start_idx": 10,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 1A",
+                    "pnt_start_idx": 12,
+                    "pnt_total_count": 1,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 1C",
+                    "pnt_start_idx": 13,
+                    "pnt_total_count": 3,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 1E",
+                    "pnt_start_idx": 16,
+                    "pnt_total_count": 10,
+                    "unk2": "FF FF FF FF 01 FF"
+                },
+                {
+                    "unk1": "FF 24",
+                    "pnt_start_idx": 26,
+                    "pnt_total_count": 4,
+                    "unk2": "FF FF FF FF 01 FF"
+                },
+                {
+                    "unk1": "FF 27",
+                    "pnt_start_idx": 30,
+                    "pnt_total_count": 4,
+                    "unk2": "FF FF FF FF 01 FF"
+                },
+                {
+                    "unk1": "FF 28",
+                    "pnt_start_idx": 34,
+                    "pnt_total_count": 4,
+                    "unk2": "FF FF FF FF 01 FF"
+                },
+                {
+                    "unk1": "FF 29",
+                    "pnt_start_idx": 38,
+                    "pnt_total_count": 4,
+                    "unk2": "FF FF FF FF 01 FF"
+                },
+                {
+                    "unk1": "FF 2A",
+                    "pnt_start_idx": 42,
+                    "pnt_total_count": 4,
+                    "unk2": "FF FF FF FF 01 FF"
+                },
+                {
+                    "unk1": "FF 2B",
+                    "pnt_start_idx": 46,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 2C",
+                    "pnt_start_idx": 48,
+                    "pnt_total_count": 6,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 2D",
+                    "pnt_start_idx": 54,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 2E",
+                    "pnt_start_idx": 56,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 2F",
+                    "pnt_start_idx": 58,
+                    "pnt_total_count": 6,
+                    "unk2": "FF FF FF FF 00 FF"
+                }
+            ],
+            "SPNT": [
+                {
+                    "posx": -566.1275634765625,
+                    "posy": 82.0,
+                    "posz": 3002.39404296875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 9673.416015625,
+                    "posy": 1076.0400390625,
+                    "posz": -3424.411865234375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 8562.1728515625,
+                    "posy": -5.0,
+                    "posz": 1901.7298583984375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 8562.1728515625,
+                    "posy": -145.0,
+                    "posz": 1901.7298583984375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -1610.2275390625,
+                    "posy": 825.7236938476562,
+                    "posz": -6463.2294921875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -1155.8251953125,
+                    "posy": 818.0478515625,
+                    "posz": -6628.38037109375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -773.5044555664062,
+                    "posy": 709.0858154296875,
+                    "posz": -6773.07177734375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -380.07928466796875,
+                    "posy": 593.0995483398438,
+                    "posz": -6918.103515625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 443.087158203125,
+                    "posy": 427.55670166015625,
+                    "posz": -7020.23828125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 991.611328125,
+                    "posy": 313.41619873046875,
+                    "posz": -7051.50830078125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -4375.486328125,
+                    "posy": 2217.47998046875,
+                    "posz": -9744.43359375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -4153.68994140625,
+                    "posy": 2217.47998046875,
+                    "posz": -8074.21484375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -876.0413208007812,
+                    "posy": 1174.4400634765625,
+                    "posz": -917.97705078125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -4194.8525390625,
+                    "posy": 402.030029296875,
+                    "posz": -3385.31494140625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -4144.3115234375,
+                    "posy": 402.030029296875,
+                    "posz": -2794.200927734375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -3956.840576171875,
+                    "posy": 233.30999755859375,
+                    "posz": -1935.123291015625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 2145.7255859375,
+                    "posy": 1300.6544189453125,
+                    "posz": 5793.533203125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 2485.958251953125,
+                    "posy": 1300.6544189453125,
+                    "posz": 5328.40478515625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 3028.59521484375,
+                    "posy": 1300.6544189453125,
+                    "posz": 5157.2109375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 3576.557861328125,
+                    "posy": 1300.6544189453125,
+                    "posz": 5329.07958984375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 3918.403076171875,
+                    "posy": 1300.6544189453125,
+                    "posz": 5795.48779296875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 3918.314453125,
+                    "posy": 1300.6544189453125,
+                    "posz": 6370.13916015625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 3580.780517578125,
+                    "posy": 1300.6544189453125,
+                    "posz": 6833.37939453125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 3035.7353515625,
+                    "posy": 1300.6544189453125,
+                    "posz": 7016.099609375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 2484.57421875,
+                    "posy": 1300.6544189453125,
+                    "posz": 6836.96826171875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 2145.71142578125,
+                    "posy": 1300.6544189453125,
+                    "posz": 6366.67333984375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 9426.7783203125,
+                    "posy": 1500.0,
+                    "posz": -2300.8115234375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 9760.8671875,
+                    "posy": 1500.0,
+                    "posz": -3143.836181640625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 10646.9931640625,
+                    "posy": 1500.0,
+                    "posz": -2757.724365234375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 10320.7958984375,
+                    "posy": 1500.0,
+                    "posz": -1938.538818359375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -2444.283447265625,
+                    "posy": 1700.0,
+                    "posz": -681.9380493164062,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -1599.56982421875,
+                    "posy": 1700.0,
+                    "posz": -1218.773681640625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -1562.2752685546875,
+                    "posy": 1700.0,
+                    "posz": -1157.85595703125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -2416.59375,
+                    "posy": 1700.0,
+                    "posz": -615.482421875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 10680.841796875,
+                    "posy": 1500.0,
+                    "posz": -2768.585205078125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 10354.64453125,
+                    "posy": 1500.0,
+                    "posz": -1949.399658203125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 9460.626953125,
+                    "posy": 1500.0,
+                    "posz": -2311.67236328125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 9794.7158203125,
+                    "posy": 1500.0,
+                    "posz": -3154.697021484375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 9777.287109375,
+                    "posy": 1500.0,
+                    "posz": -3147.119873046875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 10663.4130859375,
+                    "posy": 1500.0,
+                    "posz": -2761.0078125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 10337.2158203125,
+                    "posy": 1500.0,
+                    "posz": -1941.822509765625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 9443.1982421875,
+                    "posy": 1500.0,
+                    "posz": -2304.09521484375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 10374.388671875,
+                    "posy": 1500.0,
+                    "posz": -1957.296875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 9480.37109375,
+                    "posy": 1500.0,
+                    "posz": -2319.56982421875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 9814.4599609375,
+                    "posy": 1500.0,
+                    "posz": -3162.594482421875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 10700.5859375,
+                    "posy": 1500.0,
+                    "posz": -2776.482666015625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 6779.638671875,
+                    "posy": -141.5,
+                    "posz": 4489.32080078125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 7282.28955078125,
+                    "posy": -143.46543884277344,
+                    "posz": 4010.894775390625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 4782.9033203125,
+                    "posy": 993.7208251953125,
+                    "posz": -1249.0826416015625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 5394.10986328125,
+                    "posy": 993.7208251953125,
+                    "posz": -1252.2469482421875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 5651.26025390625,
+                    "posy": 1076.08349609375,
+                    "posz": -1255.4111328125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 6705.66259765625,
+                    "posy": 1076.8602294921875,
+                    "posz": -1261.7396240234375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 7502.36865234375,
+                    "posy": 725.1691284179688,
+                    "posz": -1261.739501953125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 7941.12646484375,
+                    "posy": 730.0641479492188,
+                    "posz": -1257.560302734375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 4221.0869140625,
+                    "posy": 124.610107421875,
+                    "posz": -3972.688720703125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 4254.1220703125,
+                    "posy": 124.610107421875,
+                    "posz": -3873.58251953125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 6980.07666015625,
+                    "posy": 125.489990234375,
+                    "posz": 405.7900390625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 7079.92626953125,
+                    "posy": 125.489990234375,
+                    "posz": 428.48309326171875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 4787.9130859375,
+                    "posy": 993.760009765625,
+                    "posz": -1249.0826416015625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 5389.11962890625,
+                    "posy": 993.760009765625,
+                    "posz": -1252.2469482421875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 5651.75048828125,
+                    "posy": 1076.552490234375,
+                    "posz": -1255.4111328125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 6705.44287109375,
+                    "posy": 1076.727783203125,
+                    "posz": -1261.7396240234375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 7502.8310546875,
+                    "posy": 725.489990234375,
+                    "posz": -1261.739501953125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 7936.837890625,
+                    "posy": 738.7212524414062,
+                    "posz": -1257.560302734375,
+                    "unk": "FF FF FF FF"
+                }
+            ],
+            "AREA": [
+                {
+                    "posx": 1176.7474365234375,
+                    "posy": -10.0,
+                    "posz": 5913.94921875,
+                    "sizex": 500.0,
+                    "sizey": 500.0,
+                    "sizez": 500.0,
+                    "angley": 0,
+                    "area_link": -1,
+                    "unk3": 0,
+                    "dummy": "FF FF FF",
+                    "index": 0
+                }
+            ],
+            "EVNT": [
+                {
+                    "unk1": "00 64",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 00",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "S000GateLight"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": 3,
+                    "unk4": "02",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 136,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "S000Intro"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "SirenStart"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "02",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "DefaultSkip"
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 331,
+                    "play_cutscene": 1,
+                    "byte4": 21,
+                    "posx": 1184.143310546875,
+                    "posy": 0.0,
+                    "posz": 5934.92041015625,
+                    "anglex": 0,
+                    "angley": 36956,
+                    "anglez": 0,
+                    "entrance_id": 0
+                }
+            ],
+            "SOBJ": [
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -5435.7001953125,
+                    "posy": 412.1100158691406,
+                    "posz": -3282.420166015625,
+                    "sizex": 3.200000047683716,
+                    "sizey": 5.0,
+                    "sizez": 3.200000047683716,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "04 0B",
+                    "name": "WoodTag",
+                    "extra_info": {
+                        "viewclip_index": 1
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -4357.68017578125,
+                    "posy": 255.4600067138672,
+                    "posz": -1443.820068359375,
+                    "sizex": 3.200000047683716,
+                    "sizey": 5.0,
+                    "sizez": 3.200000047683716,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "04 0C",
+                    "name": "WoodTag",
+                    "extra_info": {
+                        "viewclip_index": 1
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -3059.7001953125,
+                    "posy": 280.1600036621094,
+                    "posz": -1514.3900146484375,
+                    "sizex": 3.200000047683716,
+                    "sizey": 5.0,
+                    "sizez": 3.200000047683716,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "04 0D",
+                    "name": "WoodTag",
+                    "extra_info": {
+                        "viewclip_index": 1
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 2251.85009765625,
+                    "posy": 1167.7200927734375,
+                    "posz": -2193.91015625,
+                    "sizex": 3.200000047683716,
+                    "sizey": 5.0,
+                    "sizez": 3.200000047683716,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 0E",
+                    "name": "WoodTag"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 1894.8701171875,
+                    "posy": -122.6300048828125,
+                    "posz": -7570.41015625,
+                    "sizex": 3.200000047683716,
+                    "sizey": 5.0,
+                    "sizez": 3.200000047683716,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "0C 0F",
+                    "name": "WoodTag",
+                    "extra_info": {
+                        "viewclip_index": 3
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 8493.2705078125,
+                    "posy": 185.11000061035156,
+                    "posz": -1931.760009765625,
+                    "sizex": 3.200000047683716,
+                    "sizey": 5.0,
+                    "sizez": 3.200000047683716,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "10 10",
+                    "name": "WoodTag",
+                    "extra_info": {
+                        "viewclip_index": 4
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 8612.0400390625,
+                    "posy": -141.5,
+                    "posz": 4659.05029296875,
+                    "sizex": 3.200000047683716,
+                    "sizey": 5.0,
+                    "sizez": 3.200000047683716,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "10 11",
+                    "name": "WoodTag",
+                    "extra_info": {
+                        "viewclip_index": 4
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 5478.2802734375,
+                    "posy": 367.8100280761719,
+                    "posz": -10105.0703125,
+                    "sizex": 3.200000047683716,
+                    "sizey": 5.0,
+                    "sizez": 3.200000047683716,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "00 12",
+                    "name": "WoodTag",
+                    "extra_info": {
+                        "viewclip_index": 0
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 7355.67041015625,
+                    "posy": 367.8100280761719,
+                    "posz": -11141.5908203125,
+                    "sizex": 3.200000047683716,
+                    "sizey": 5.0,
+                    "sizez": 3.200000047683716,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "0C 13",
+                    "name": "WoodTag",
+                    "extra_info": {
+                        "viewclip_index": 3
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 7566.31005859375,
+                    "posy": 125.49000549316406,
+                    "posz": -2752.43017578125,
+                    "sizex": 3.200000047683716,
+                    "sizey": 5.0,
+                    "sizez": 3.200000047683716,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "10 14",
+                    "name": "WoodTag",
+                    "extra_info": {
+                        "viewclip_index": 4
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 10980.0400390625,
+                    "posy": 1123.510009765625,
+                    "posz": -1637.4700927734375,
+                    "sizex": 3.200000047683716,
+                    "sizey": 5.0,
+                    "sizez": 3.200000047683716,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "10 15",
+                    "name": "WoodTag",
+                    "extra_info": {
+                        "viewclip_index": 4
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 1908.02001953125,
+                    "posy": 56.01000213623047,
+                    "posz": 4092.60009765625,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 53340,
+                    "anglez": 0,
+                    "id": "FC 16",
+                    "name": "CharE"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 185.86000061035156,
+                    "posy": 136.5,
+                    "posz": 2323.85009765625,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 60803,
+                    "anglez": 0,
+                    "id": "FC 17",
+                    "name": "CharE"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 11853.0107421875,
+                    "posy": 1493.3900146484375,
+                    "posz": 1828.77001953125,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 44600,
+                    "anglez": 0,
+                    "id": "FC 18",
+                    "name": "CharE"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -1074.1700439453125,
+                    "posy": 1230.10009765625,
+                    "posz": -323.08001708984375,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 24940,
+                    "anglez": 0,
+                    "id": "FC 19",
+                    "name": "CharE"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -2099.39013671875,
+                    "posy": 1230.10009765625,
+                    "posz": -1950.8701171875,
+                    "sizex": 1.0,
+                    "sizey": 1.0,
+                    "sizez": 1.0,
+                    "anglex": 0,
+                    "angley": 20571,
+                    "anglez": 0,
+                    "id": "FC 1A",
+                    "name": "CharE"
+                }
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -5435.7001953125,
+                    "posy": 686.2900390625,
+                    "posz": -3325.02001953125,
+                    "sizex": 480.0,
+                    "sizey": 380.0,
+                    "sizez": 480.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "04 00",
+                    "name": "BtlTgC",
+                    "extra_info": {
+                        "viewclip_index": 1
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -4357.68017578125,
+                    "posy": 529.6400146484375,
+                    "posz": -1486.4200439453125,
+                    "sizex": 480.0,
+                    "sizey": 380.0,
+                    "sizez": 480.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "04 01",
+                    "name": "BtlTgC",
+                    "extra_info": {
+                        "viewclip_index": 1
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -3102.840087890625,
+                    "posy": 554.3400268554688,
+                    "posz": -1545.06005859375,
+                    "sizex": 480.0,
+                    "sizey": 380.0,
+                    "sizez": 480.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "04 02",
+                    "name": "BtlTgC",
+                    "extra_info": {
+                        "viewclip_index": 1
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 2230.18017578125,
+                    "posy": 1441.9000244140625,
+                    "posz": -2185.050048828125,
+                    "sizex": 480.0,
+                    "sizey": 380.0,
+                    "sizez": 480.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 03",
+                    "name": "BtlTgC"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 1913.81005859375,
+                    "posy": 151.5600128173828,
+                    "posz": -7568.91015625,
+                    "sizex": 480.0,
+                    "sizey": 380.0,
+                    "sizez": 480.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "0C 04",
+                    "name": "BtlTgC",
+                    "extra_info": {
+                        "viewclip_index": 3
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 8493.2705078125,
+                    "posy": 459.2900085449219,
+                    "posz": -1974.360107421875,
+                    "sizex": 480.0,
+                    "sizey": 380.0,
+                    "sizez": 480.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "10 05",
+                    "name": "BtlTgC",
+                    "extra_info": {
+                        "viewclip_index": 4
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 8585.5302734375,
+                    "posy": 132.6800079345703,
+                    "posz": 4677.25,
+                    "sizex": 480.0,
+                    "sizey": 380.0,
+                    "sizez": 480.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "10 06",
+                    "name": "BtlTgC",
+                    "extra_info": {
+                        "viewclip_index": 4
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 5509.27001953125,
+                    "posy": 641.9900512695312,
+                    "posz": -10112.130859375,
+                    "sizex": 480.0,
+                    "sizey": 380.0,
+                    "sizez": 480.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "0C 07",
+                    "name": "BtlTgC",
+                    "extra_info": {
+                        "viewclip_index": 3
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 7339.34033203125,
+                    "posy": 641.9900512695312,
+                    "posz": -11107.650390625,
+                    "sizex": 480.0,
+                    "sizey": 380.0,
+                    "sizez": 480.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "0C 08",
+                    "name": "BtlTgC",
+                    "extra_info": {
+                        "viewclip_index": 3
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 7566.31005859375,
+                    "posy": 399.6700134277344,
+                    "posz": -2795.030029296875,
+                    "sizex": 480.0,
+                    "sizey": 380.0,
+                    "sizez": 480.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "10 09",
+                    "name": "BtlTgC",
+                    "extra_info": {
+                        "viewclip_index": 4
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 10980.0400390625,
+                    "posy": 1397.6900634765625,
+                    "posz": -1680.070068359375,
+                    "sizex": 480.0,
+                    "sizey": 380.0,
+                    "sizez": 480.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "10 0A",
+                    "name": "BtlTgC",
+                    "extra_info": {
+                        "viewclip_index": 4
+                    }
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "UdCloud"
+                    ],
+                    "ARCN": [
+                        "F020UnderCloud"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1B",
+                            "name": "UdCloud"
+                        }
+                    ]
+                },
+                "l1": {},
+                "l2": {
+                    "OBJN": [
+                        "Shed",
+                        "DmtGate",
+                        "SrnSk",
+                        "LHHarp",
+                        "EvilFld",
+                        "DStartT",
+                        "TgSTA",
+                        "Pinwhel",
+                        "ESiren",
+                        "EChaser",
+                        "V_Clip",
+                        "Kibako",
+                        "TBox",
+                        "AncJwls",
+                        "IslMegm",
+                        "Blade",
+                        "EPo",
+                        "EChb",
+                        "NpcTke",
+                        "Door",
+                        "Item",
+                        "WoodTg2",
+                        "SwAreaT",
+                        "Grave",
+                        "WarpObj",
+                        "Windmil",
+                        "LeafGut",
+                        "ForceS"
+                    ],
+                    "ARCN": [
+                        "SirenSaku",
+                        "DoorA00",
+                        "F000Megami",
+                        "PLSiren",
+                        "Safezone",
+                        "PutHoly",
+                        "PutSizuku",
+                        "GetSirenFlower",
+                        "DoorC01",
+                        "SirenMaikiS000",
+                        "GetSozaiP",
+                        "SirenExit",
+                        "Chaser_A",
+                        "GetSozaiH",
+                        "SirenMaiki",
+                        "Chaser_B",
+                        "GetSirenKey",
+                        "GetSirenFruit",
+                        "GetSizuku",
+                        "DoorAnim",
+                        "Po",
+                        "Pinwheel",
+                        "GetHoly"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "0F FF FF F3",
+                            "params2": "FF 5F FF FF",
+                            "posx": 1684.6588134765625,
+                            "posy": 0.0,
+                            "posz": 5791.52685546875,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 65041,
+                            "id": "FC 27",
+                            "name": "TBox",
+                            "extra_info": {
+                                "spawnscenefid": 255,
+                                "spawnscenef": "no flag",
+                                "setscenefid": 255,
+                                "setscenef": "no flag",
+                                "itemid": 17,
+                                "item": "Spirit Vessel",
+                                "chestid": 127,
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "0F FF FF F3",
+                            "params2": "FF 5F FF FF",
+                            "posx": 1682.288818359375,
+                            "posy": 0.0,
+                            "posz": 5596.5263671875,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 35508,
+                            "id": "FC 29",
+                            "name": "TBox",
+                            "extra_info": {
+                                "spawnscenefid": 255,
+                                "spawnscenef": "no flag",
+                                "setscenefid": 255,
+                                "setscenef": "no flag",
+                                "itemid": 180,
+                                "item": "Stone of Trials",
+                                "chestid": 69,
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": -1540.4700927734375,
+                            "posy": 206.260009765625,
+                            "posz": -111.70000457763672,
+                            "anglex": 769,
+                            "angley": 58073,
+                            "anglez": 1,
+                            "id": "FC 8E",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorA00 : Normal Wood",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 2757.39013671875,
+                            "posy": 635.1900024414062,
+                            "posz": -2229.650146484375,
+                            "anglex": 769,
+                            "angley": 14017,
+                            "anglez": 1,
+                            "id": "FC 8F",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorA00 : Normal Wood",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 03",
+                            "params2": "FF 5F FF FF",
+                            "posx": -4696.93017578125,
+                            "posy": 1237.6900634765625,
+                            "posz": -7788.93017578125,
+                            "anglex": 769,
+                            "angley": 29673,
+                            "anglez": 1,
+                            "id": "FC 90",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorC01 : Outside Double Door",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 03",
+                            "params2": "FF 5F FF FF",
+                            "posx": -4543.92041015625,
+                            "posy": 1237.6900634765625,
+                            "posz": -7742.150390625,
+                            "anglex": 769,
+                            "angley": 62442,
+                            "anglez": 1,
+                            "id": "FC 91",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorC01 : Outside Double Door",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 03",
+                            "params2": "FF 5F FF FF",
+                            "posx": -5188.830078125,
+                            "posy": 1740.0,
+                            "posz": -8817.390625,
+                            "anglex": 769,
+                            "angley": 49881,
+                            "anglez": 1,
+                            "id": "FC 92",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorC01 : Outside Double Door",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 03",
+                            "params2": "FF 5F FF FF",
+                            "posx": -5200.0,
+                            "posy": 1740.0,
+                            "posz": -8977.0,
+                            "anglex": 769,
+                            "angley": 17112,
+                            "anglez": 1,
+                            "id": "FC 93",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorC01 : Outside Double Door",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 03",
+                            "params2": "FF 5F FF FF",
+                            "posx": -4729.64013671875,
+                            "posy": 1237.699951171875,
+                            "posz": -11571.4404296875,
+                            "anglex": 769,
+                            "angley": 43873,
+                            "anglez": 1,
+                            "id": "FC 94",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorC01 : Outside Double Door",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 03",
+                            "params2": "FF 5F FF FF",
+                            "posx": -4657.0,
+                            "posy": 1237.0,
+                            "posz": -11714.0,
+                            "anglex": 769,
+                            "angley": 11468,
+                            "anglez": 1,
+                            "id": "FC 95",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorC01 : Outside Double Door",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 2028.090087890625,
+                            "posy": 717.75,
+                            "posz": -4686.17041015625,
+                            "anglex": 769,
+                            "angley": 24029,
+                            "anglez": 1,
+                            "id": "FC 96",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorA00 : Normal Wood",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 5234.2900390625,
+                            "posy": 127.76000213623047,
+                            "posz": -3641.260009765625,
+                            "anglex": 769,
+                            "angley": 59747,
+                            "anglez": 1,
+                            "id": "FC 97",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorA00 : Normal Wood",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 8398.3603515625,
+                            "posy": 125.49000549316406,
+                            "posz": 555.7100219726562,
+                            "anglex": 769,
+                            "angley": 45148,
+                            "anglez": 1,
+                            "id": "FC 98",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorA00 : Normal Wood",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 9532.560546875,
+                            "posy": 468.8100280761719,
+                            "posz": -794.7100219726562,
+                            "anglex": 769,
+                            "angley": 50973,
+                            "anglez": 1,
+                            "id": "FC 99",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorA00 : Normal Wood",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 10371.2109375,
+                            "posy": 812.8600463867188,
+                            "posz": 1234.260009765625,
+                            "anglex": 769,
+                            "angley": 44783,
+                            "anglez": 1,
+                            "id": "FC 9A",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorA00 : Normal Wood",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 8469.400390625,
+                            "posy": -29.600000381469727,
+                            "posz": 2133.0,
+                            "anglex": 769,
+                            "angley": 28216,
+                            "anglez": 1,
+                            "id": "FC 9B",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorA00 : Normal Wood",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 11219.490234375,
+                            "posy": 812.8600463867188,
+                            "posz": 2422.81005859375,
+                            "anglex": 769,
+                            "angley": 26396,
+                            "anglez": 1,
+                            "id": "FC 9C",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 3,
+                                "scenef": "scene flag: 0x1 08",
+                                "lockbehavior": "Unlocked on scenefid (1)",
+                                "scen_link": 255,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorA00 : Normal Wood",
+                                "needs_key": "No Key Required",
+                                "callback_type": "Event Callbacks Enabled",
+                                "front_roomid": 0,
+                                "back_roomid": 0
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": -3281.918701171875,
+                            "posy": 130.2924041748047,
+                            "posz": 1361.953857421875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1C",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": -1446.1329345703125,
+                            "posy": 0.0,
+                            "posz": 3001.55322265625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1D",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": -2185.4599609375,
+                            "posy": 1222.144287109375,
+                            "posz": -1879.7076416015625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1E",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": -5618.69091796875,
+                            "posy": 428.4580078125,
+                            "posz": -3436.64013671875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1F",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": -1931.3004150390625,
+                            "posy": 1704.575927734375,
+                            "posz": -5465.47705078125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 20",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 10571.9287109375,
+                            "posy": 826.9924926757812,
+                            "posz": -7904.4453125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 21",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 3819.472412109375,
+                            "posy": 487.5,
+                            "posz": 6069.22412109375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 22",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 7461.81787109375,
+                            "posy": -141.5,
+                            "posz": 4705.27587890625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 23",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 11003.5205078125,
+                            "posy": 1245.1700439453125,
+                            "posz": 2968.21484375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 24",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 6370.796875,
+                            "posy": 725.9200439453125,
+                            "posz": -3918.31298828125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 25",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF 01 FF FF",
+                            "params2": "FF 7F FF FF",
+                            "posx": 1174.9254150390625,
+                            "posy": 0.0,
+                            "posz": 5904.6328125,
+                            "anglex": 61442,
+                            "angley": 36956,
+                            "anglez": 0,
+                            "id": "FC 26",
+                            "name": "WarpObj",
+                            "extra_info": {
+                                "scen_link": 1,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F6",
+                            "params2": "FF 1F FF FF",
+                            "posx": 1687.6556396484375,
+                            "posy": 0.0,
+                            "posz": 5998.24560546875,
+                            "anglex": 65279,
+                            "angley": 65280,
+                            "anglez": 15000,
+                            "id": "FC 28",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 15000,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 254,
+                                "untrigscenef": "zone temp flag: 0x6 40",
+                                "trigareaindex": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": -158.17660522460938,
+                            "posy": 1199.0400390625,
+                            "posz": -1973.012451171875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "08 2A",
+                            "name": "SrnSk",
+                            "extra_info": {
+                                "viewclip_index": 2
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": -1800.4976806640625,
+                            "posy": 1199.0400390625,
+                            "posz": -3683.126220703125,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 2B",
+                            "name": "SrnSk"
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": -487.2059326171875,
+                            "posy": 1199.0400390625,
+                            "posz": -5264.03515625,
+                            "anglex": 0,
+                            "angley": 2366,
+                            "anglez": 0,
+                            "id": "FC 2C",
+                            "name": "SrnSk"
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": -1258.178955078125,
+                            "posy": 1989.311279296875,
+                            "posz": -9827.08203125,
+                            "anglex": 0,
+                            "angley": 61896,
+                            "anglez": 0,
+                            "id": "FC 2D",
+                            "name": "SrnSk"
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": -790.2329711914062,
+                            "posy": 1989.2757568359375,
+                            "posz": -9656.45703125,
+                            "anglex": 0,
+                            "angley": 61896,
+                            "anglez": 0,
+                            "id": "FC 2E",
+                            "name": "SrnSk"
+                        },
+                        {
+                            "params1": "00 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": 290.7672424316406,
+                            "posy": 50.0,
+                            "posz": 3597.243408203125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 2F",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "F8 00 FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -886.3082885742188,
+                            "posy": 82.0,
+                            "posz": 2844.46484375,
+                            "anglex": 0,
+                            "angley": 10558,
+                            "anglez": 0,
+                            "id": "20 30",
+                            "name": "EChaser",
+                            "extra_info": {
+                                "viewclip_index": 8
+                            }
+                        },
+                        {
+                            "params1": "01 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": -894.6041259765625,
+                            "posy": 1224.4400634765625,
+                            "posz": -372.57891845703125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 31",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "02 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": 8306.076171875,
+                            "posy": -91.5,
+                            "posz": 5309.43359375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 32",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "03 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": 10059.515625,
+                            "posy": 1171.880859375,
+                            "posz": -2538.568115234375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 33",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "04 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": 9496.728515625,
+                            "posy": 268.6191101074219,
+                            "posz": 2988.331298828125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 34",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "05 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": 6223.31591796875,
+                            "posy": 421.1600036621094,
+                            "posz": -10016.1005859375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 35",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "06 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": -212.20751953125,
+                            "posy": 224.92103576660156,
+                            "posz": -6452.47802734375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 36",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "07 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": -6264.4677734375,
+                            "posy": 2334.881591796875,
+                            "posz": -8823.4921875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 37",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "08 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": 3792.45458984375,
+                            "posy": 175.92001342773438,
+                            "posz": -7368.84716796875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 38",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "09 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": -3637.285400390625,
+                            "posy": 2017.4801025390625,
+                            "posz": -9019.791015625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 39",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "0A 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": 3025.17529296875,
+                            "posy": 2244.343505859375,
+                            "posz": 6075.57177734375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 3A",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 2302.9345703125,
+                            "posy": 364.2091979980469,
+                            "posz": 1368.2359619140625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 3B",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": -713.979248046875,
+                            "posy": 188.5853271484375,
+                            "posz": 1894.2310791015625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 3C",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 5399.21875,
+                            "posy": 263.8800048828125,
+                            "posz": 4614.89501953125,
+                            "anglex": 0,
+                            "angley": 30037,
+                            "anglez": 0,
+                            "id": "1C 3D",
+                            "name": "EChb",
+                            "extra_info": {
+                                "viewclip_index": 7
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 7014.12646484375,
+                            "posy": 125.49000549316406,
+                            "posz": 2780.95556640625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 3E",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 7014.12646484375,
+                            "posy": 125.49000549316406,
+                            "posz": 2780.95556640625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 3F",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 8799.306640625,
+                            "posy": 416.0981750488281,
+                            "posz": -296.0629577636719,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 40",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 10434.4365234375,
+                            "posy": 1022.0484619140625,
+                            "posz": -574.0208740234375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 41",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FB F0 81",
+                            "params2": "FF 5F FF FF",
+                            "posx": 9383.0693359375,
+                            "posy": 1500.0,
+                            "posz": -2170.772216796875,
+                            "anglex": 650,
+                            "angley": 29491,
+                            "anglez": 600,
+                            "id": "00 42",
+                            "name": "ESiren",
+                            "extra_info": {
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 9035.9462890625,
+                            "posy": 1114.923828125,
+                            "posz": -2291.43896484375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 43",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 12208.4931640625,
+                            "posy": 1123.510009765625,
+                            "posz": -1535.5018310546875,
+                            "anglex": 0,
+                            "angley": 56616,
+                            "anglez": 0,
+                            "id": "FC 44",
+                            "name": "EChb"
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 8313.974609375,
+                            "posy": 871.3955078125,
+                            "posz": 2751.718017578125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 45",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "F8 08 FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 9576.5693359375,
+                            "posy": 1055.1300048828125,
+                            "posz": -3673.35595703125,
+                            "anglex": 0,
+                            "angley": 3822,
+                            "anglez": 0,
+                            "id": "FC 46",
+                            "name": "EChaser"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 10384.8408203125,
+                            "posy": 225.77000427246094,
+                            "posz": 3722.244873046875,
+                            "anglex": 0,
+                            "angley": 43873,
+                            "anglez": 0,
+                            "id": "FC 47",
+                            "name": "EChb"
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 7616.955078125,
+                            "posy": 123.79000091552734,
+                            "posz": 1414.033447265625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 48",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 4956.615234375,
+                            "posy": 125.0979232788086,
+                            "posz": -2310.50146484375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 49",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 4447.57275390625,
+                            "posy": 125.0979232788086,
+                            "posz": -4692.45654296875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 4A",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 3473.18017578125,
+                            "posy": 133.8100128173828,
+                            "posz": -8897.1396484375,
+                            "anglex": 0,
+                            "angley": 1820,
+                            "anglez": 0,
+                            "id": "10 4B",
+                            "name": "EChb",
+                            "extra_info": {
+                                "viewclip_index": 4
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 4926.2939453125,
+                            "posy": 165.75450134277344,
+                            "posz": -7340.36181640625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 4C",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 2367.165283203125,
+                            "posy": -90.63374328613281,
+                            "posz": -7193.12109375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 4D",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 31",
+                            "params2": "FF 5F FF FF",
+                            "posx": -1738.7689208984375,
+                            "posy": 755.0,
+                            "posz": -6395.35400390625,
+                            "anglex": 800,
+                            "angley": 20753,
+                            "anglez": 800,
+                            "id": "FC 4E",
+                            "name": "ESiren"
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": -2056.203857421875,
+                            "posy": 402.030029296875,
+                            "posz": -6030.54833984375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 4F",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": -3727.501708984375,
+                            "posy": 402.030029296875,
+                            "posz": -4088.791259765625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 50",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": -4320.0,
+                            "posy": 1717.3369140625,
+                            "posz": -8959.236328125,
+                            "anglex": 0,
+                            "angley": 728,
+                            "anglez": 0,
+                            "id": "FC 51",
+                            "name": "Kibako",
+                            "extra_info": {
+                                "hanging": 0,
+                                "restrictscenefid": 255,
+                                "restrictscenef": "no flag",
+                                "destroyedOrPushedscenefid": 255,
+                                "destroyedOrPushedscenef": "no flag",
+                                "eventIdx": 255,
+                                "Event Name": "No Event",
+                                "pathIndex": 255
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 41",
+                            "params2": "FF 5F FF FF",
+                            "posx": -4386.0244140625,
+                            "posy": 2200.0,
+                            "posz": -9897.775390625,
+                            "anglex": 600,
+                            "angley": 1092,
+                            "anglez": 700,
+                            "id": "FC 52",
+                            "name": "ESiren"
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": -5010.279296875,
+                            "posy": 1717.4801025390625,
+                            "posz": -8131.5126953125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 53",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "00 00 FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -5727.7392578125,
+                            "posy": 2284.8662109375,
+                            "posz": -8872.861328125,
+                            "anglex": 0,
+                            "angley": 50063,
+                            "anglez": 0,
+                            "id": "FC 54",
+                            "name": "EChb"
+                        },
+                        {
+                            "params1": "FF 0F FE 2A",
+                            "params2": "FF FF FF FF",
+                            "posx": -7395.4287109375,
+                            "posy": 1847.6900634765625,
+                            "posz": -7230.0009765625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 55",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 42,
+                                "item": "Stamina Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": -3891.88720703125,
+                            "posy": 1537.3800048828125,
+                            "posz": -6777.01611328125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 56",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": -5189.4990234375,
+                            "posy": 581.3299560546875,
+                            "posz": -4082.2978515625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 57",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": -2083.350341796875,
+                            "posy": 1880.570068359375,
+                            "posz": -9130.466796875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 58",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": -2934.176513671875,
+                            "posy": 249.8402862548828,
+                            "posz": -813.072265625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 59",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -6083.5048828125,
+                            "posy": 410.3500061035156,
+                            "posz": -2271.0419921875,
+                            "anglex": 0,
+                            "angley": 21299,
+                            "anglez": 0,
+                            "id": "14 5A",
+                            "name": "EChb",
+                            "extra_info": {
+                                "viewclip_index": 5
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 749.2033081054688,
+                            "posy": 1182.77001953125,
+                            "posz": -7053.40869140625,
+                            "anglex": 0,
+                            "angley": 63534,
+                            "anglez": 0,
+                            "id": "FC 5B",
+                            "name": "EChb"
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 1778.707763671875,
+                            "posy": 1253.7412109375,
+                            "posz": -4391.14697265625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 5C",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "0B 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": 6218.1923828125,
+                            "posy": 525.8567504882812,
+                            "posz": -1246.5863037109375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 5D",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -3219.093017578125,
+                            "posy": 1182.77001953125,
+                            "posz": -263.1003112792969,
+                            "anglex": 0,
+                            "angley": 21663,
+                            "anglez": 0,
+                            "id": "0C 5E",
+                            "name": "EChb",
+                            "extra_info": {
+                                "viewclip_index": 3
+                            }
+                        },
+                        {
+                            "params1": "0D 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": -1156.1119384765625,
+                            "posy": 1930.570068359375,
+                            "posz": -8412.9990234375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 5F",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "0E 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": -2906.93115234375,
+                            "posy": 1232.77001953125,
+                            "posz": -423.99810791015625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 60",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "F8 28 FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -1223.1614990234375,
+                            "posy": 1174.4400634765625,
+                            "posz": -573.9476318359375,
+                            "anglex": 0,
+                            "angley": 24758,
+                            "anglez": 0,
+                            "id": "FC 61",
+                            "name": "EChaser"
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": -1214.41552734375,
+                            "posy": 836.4136352539062,
+                            "posz": -17.214252471923828,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 62",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 1589.7274169921875,
+                            "posy": 806.0795288085938,
+                            "posz": -404.7243347167969,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 63",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 5622.11962890625,
+                            "posy": 129.83779907226562,
+                            "posz": -2299.861328125,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 64",
+                            "name": "EPo"
+                        },
+                        {
+                            "params1": "F8 30 FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -4348.67431640625,
+                            "posy": 402.030029296875,
+                            "posz": -3774.22021484375,
+                            "anglex": 0,
+                            "angley": 4004,
+                            "anglez": 0,
+                            "id": "FC 65",
+                            "name": "EChaser"
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": -2840.427001953125,
+                            "posy": 1010.4400024414062,
+                            "posz": -4862.0390625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 66",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 67",
+                            "name": "Blade"
+                        },
+                        {
+                            "params1": "FF FF 02 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 2883.4599609375,
+                            "posz": -14176.2001953125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 68",
+                            "name": "DmtGate"
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 2893.635498046875,
+                            "posy": 2175.010009765625,
+                            "posz": 5627.46484375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 69",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 7F",
+                            "params2": "FF FF FF FF",
+                            "posx": 2090.30322265625,
+                            "posy": 1300.6544189453125,
+                            "posz": 5930.2529296875,
+                            "anglex": 0,
+                            "angley": 27670,
+                            "anglez": 0,
+                            "id": "FC 6A",
+                            "name": "EPo"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 3136.740478515625,
+                            "posy": 2125.0,
+                            "posz": 6416.1318359375,
+                            "anglex": 0,
+                            "angley": 35863,
+                            "anglez": 0,
+                            "id": "FC 6B",
+                            "name": "EChb"
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": 10834.81640625,
+                            "posy": 823.208251953125,
+                            "posz": -7661.12255859375,
+                            "anglex": 0,
+                            "angley": 7281,
+                            "anglez": 0,
+                            "id": "28 6C",
+                            "name": "SrnSk",
+                            "extra_info": {
+                                "viewclip_index": 10
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 3394.52783203125,
+                            "posy": 213.010009765625,
+                            "posz": -4908.41357421875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 6D",
+                            "name": "EPo"
+                        },
+                        {
+                            "params1": "FF FF F0 91",
+                            "params2": "FF 5F FF FF",
+                            "posx": -2577.1943359375,
+                            "posy": 1700.0,
+                            "posz": -598.8685302734375,
+                            "anglex": 750,
+                            "angley": 22391,
+                            "anglez": 660,
+                            "id": "0C 6E",
+                            "name": "ESiren",
+                            "extra_info": {
+                                "viewclip_index": 3
+                            }
+                        },
+                        {
+                            "params1": "FF FB F0 A1",
+                            "params2": "FF 5F FF FF",
+                            "posx": 10740.677734375,
+                            "posy": 1500.0,
+                            "posz": -2888.906005859375,
+                            "anglex": 650,
+                            "angley": 61714,
+                            "anglez": 600,
+                            "id": "00 6F",
+                            "name": "ESiren",
+                            "extra_info": {
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FB F0 B1",
+                            "params2": "FF 5F FF FF",
+                            "posx": 9636.9794921875,
+                            "posy": 1500.0,
+                            "posz": -3196.302001953125,
+                            "anglex": 650,
+                            "angley": 12925,
+                            "anglez": 600,
+                            "id": "00 70",
+                            "name": "ESiren",
+                            "extra_info": {
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FB F0 C1",
+                            "params2": "FF 5F FF FF",
+                            "posx": 10496.3037109375,
+                            "posy": 1500.0,
+                            "posz": -1889.063232421875,
+                            "anglex": 650,
+                            "angley": 44055,
+                            "anglez": 600,
+                            "id": "00 71",
+                            "name": "ESiren",
+                            "extra_info": {
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 8338.5,
+                            "posy": -146.40000915527344,
+                            "posz": 3735.5,
+                            "anglex": 0,
+                            "angley": 60985,
+                            "anglez": 0,
+                            "id": "FC 72",
+                            "name": "Shed"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7015.150390625,
+                            "posy": -141.5,
+                            "posz": 4744.89453125,
+                            "anglex": 0,
+                            "angley": 41143,
+                            "anglez": 0,
+                            "id": "FC 73",
+                            "name": "Grave"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7261.99853515625,
+                            "posy": -141.5,
+                            "posz": 4498.0458984375,
+                            "anglex": 0,
+                            "angley": 41143,
+                            "anglez": 0,
+                            "id": "FC 74",
+                            "name": "Grave"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7508.84765625,
+                            "posy": -141.5,
+                            "posz": 4249.42138671875,
+                            "anglex": 0,
+                            "angley": 41143,
+                            "anglez": 0,
+                            "id": "FC 75",
+                            "name": "Grave"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7862.423828125,
+                            "posy": -141.5,
+                            "posz": 4602.11083984375,
+                            "anglex": 0,
+                            "angley": 41143,
+                            "anglez": 0,
+                            "id": "FC 76",
+                            "name": "Grave"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7615.451171875,
+                            "posy": -141.5,
+                            "posz": 4849.08447265625,
+                            "anglex": 0,
+                            "angley": 41143,
+                            "anglez": 0,
+                            "id": "FC 77",
+                            "name": "Grave"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7367.75439453125,
+                            "posy": -141.5,
+                            "posz": 5096.78076171875,
+                            "anglex": 0,
+                            "angley": 41143,
+                            "anglez": 0,
+                            "id": "FC 78",
+                            "name": "Grave"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7724.64990234375,
+                            "posy": -141.5,
+                            "posz": 5448.349609375,
+                            "anglex": 0,
+                            "angley": 41143,
+                            "anglez": 0,
+                            "id": "FC 79",
+                            "name": "Grave"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7969.6806640625,
+                            "posy": -141.5,
+                            "posz": 5203.31640625,
+                            "anglex": 0,
+                            "angley": 41143,
+                            "anglez": 0,
+                            "id": "FC 7A",
+                            "name": "Grave"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 8217.3779296875,
+                            "posy": -141.5,
+                            "posz": 4955.62060546875,
+                            "anglex": 0,
+                            "angley": 41143,
+                            "anglez": 0,
+                            "id": "FC 7B",
+                            "name": "Grave"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 6999.97119140625,
+                            "posy": 371.1600036621094,
+                            "posz": -12543.63671875,
+                            "anglex": 0,
+                            "angley": 63352,
+                            "anglez": 0,
+                            "id": "24 7C",
+                            "name": "EChb",
+                            "extra_info": {
+                                "viewclip_index": 9
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": 337.1413879394531,
+                            "posy": 1174.4400634765625,
+                            "posz": -1411.323974609375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 7D",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "0C 07 FE 2E",
+                            "params2": "FF FF FF FF",
+                            "posx": 2414.6337890625,
+                            "posy": 1221.9949951171875,
+                            "posz": -2838.88671875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 7E",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 46,
+                                "item": "Sacred Tear",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 7F",
+                            "name": "IslMegm",
+                            "extra_info": {
+                                "subtype": "Normal"
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 2F",
+                            "params2": "FF FF FF FF",
+                            "posx": -5473.9892578125,
+                            "posy": 1717.4801025390625,
+                            "posz": -7422.56005859375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 80",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 47,
+                                "item": "Light Fruit",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 DF",
+                            "params2": "FF FF FF FF",
+                            "posx": 6655.49072265625,
+                            "posy": -141.5,
+                            "posz": 4613.46826171875,
+                            "anglex": 0,
+                            "angley": 24211,
+                            "anglez": 0,
+                            "id": "FC 81",
+                            "name": "EPo"
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": 9485.9453125,
+                            "posy": 245.77000427246094,
+                            "posz": 3653.49658203125,
+                            "anglex": 0,
+                            "angley": 61714,
+                            "anglez": 0,
+                            "id": "FC 82",
+                            "name": "SrnSk"
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": 9021.32421875,
+                            "posy": 245.77000427246094,
+                            "posz": 3474.771240234375,
+                            "anglex": 0,
+                            "angley": 61714,
+                            "anglez": 0,
+                            "id": "FC 83",
+                            "name": "SrnSk"
+                        },
+                        {
+                            "params1": "FF FF FF FD",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 84",
+                            "name": "EvilFld",
+                            "extra_info": {
+                                "isSloped": 1,
+                                "waterType": "Skylofts Water",
+                                "subtype": "Static"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -2428.7138671875,
+                            "posy": 259.1100158691406,
+                            "posz": -1482.9769287109375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 85",
+                            "name": "EPo"
+                        },
+                        {
+                            "params1": "FF FF F0 E1",
+                            "params2": "FF 5F FF FF",
+                            "posx": 4641.9521484375,
+                            "posy": 725.489990234375,
+                            "posz": -1249.7552490234375,
+                            "anglex": 600,
+                            "angley": 16384,
+                            "anglez": 800,
+                            "id": "04 86",
+                            "name": "ESiren",
+                            "extra_info": {
+                                "viewclip_index": 1
+                            }
+                        },
+                        {
+                            "params1": "F8 7F FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 4167.79150390625,
+                            "posy": 124.61000061035156,
+                            "posz": -4104.35107421875,
+                            "anglex": 0,
+                            "angley": 3822,
+                            "anglez": 0,
+                            "id": "18 87",
+                            "name": "EChaser",
+                            "extra_info": {
+                                "viewclip_index": 6
+                            }
+                        },
+                        {
+                            "params1": "F8 87 FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 6835.4775390625,
+                            "posy": 125.49000549316406,
+                            "posz": 362.7596130371094,
+                            "anglex": 0,
+                            "angley": 13653,
+                            "anglez": 0,
+                            "id": "04 88",
+                            "name": "EChaser",
+                            "extra_info": {
+                                "viewclip_index": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -7312.61865234375,
+                            "posy": 2285.204345703125,
+                            "posz": -8693.98046875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 89",
+                            "name": "EPo"
+                        },
+                        {
+                            "params1": "FF FF 00 64",
+                            "params2": "FF FF FF FF",
+                            "posx": -5786.68994140625,
+                            "posy": 1237.6900634765625,
+                            "posz": -5786.5,
+                            "anglex": 0,
+                            "angley": 3458,
+                            "anglez": 0,
+                            "id": "FC 8A",
+                            "name": "DmtGate"
+                        },
+                        {
+                            "params1": "FF FF 00 64",
+                            "params2": "FF FF FF FF",
+                            "posx": -1197.699951171875,
+                            "posy": 1880.570068359375,
+                            "posz": -8605.33984375,
+                            "anglex": 0,
+                            "angley": 2184,
+                            "anglez": 0,
+                            "id": "FC 8B",
+                            "name": "DmtGate"
+                        },
+                        {
+                            "params1": "FF FF F0 24",
+                            "params2": "FF FF FF FF",
+                            "posx": -3475.0400390625,
+                            "posy": 409.8999938964844,
+                            "posz": 1517.1099853515625,
+                            "anglex": 0,
+                            "angley": 53704,
+                            "anglez": 0,
+                            "id": "FC 8C",
+                            "name": "Windmil",
+                            "extra_info": {
+                                "inPlacescenfid": 2,
+                                "beingblownscenefid": 255,
+                                "beingblownscenef": "no flag",
+                                "hasPinwheel": 1,
+                                "setRotaion": 4
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 29",
+                            "params2": "FF FF FF FF",
+                            "posx": 11202.2314453125,
+                            "posy": 1525.550048828125,
+                            "posz": 3184.60009765625,
+                            "anglex": 0,
+                            "angley": 3731,
+                            "anglez": 0,
+                            "id": "FC 8D",
+                            "name": "Windmil",
+                            "extra_info": {
+                                "inPlacescenfid": 2,
+                                "beingblownscenefid": 255,
+                                "beingblownscenef": "no flag",
+                                "hasPinwheel": 1,
+                                "setRotaion": 9
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 3044.0,
+                            "posy": 2178.0,
+                            "posz": 6084.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 9D",
+                            "name": "LHHarp",
+                            "extra_info": {
+                                "unk": 255
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": -4399.95703125,
+                            "posy": 1717.4801025390625,
+                            "posz": -8554.2314453125,
+                            "anglex": 0,
+                            "angley": 728,
+                            "anglez": 0,
+                            "id": "2C 9E",
+                            "name": "SrnSk",
+                            "extra_info": {
+                                "viewclip_index": 11
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": -3907.745849609375,
+                            "posy": 1717.4801025390625,
+                            "posz": -8588.7373046875,
+                            "anglex": 0,
+                            "angley": 728,
+                            "anglez": 0,
+                            "id": "2C 9F",
+                            "name": "SrnSk",
+                            "extra_info": {
+                                "viewclip_index": 11
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": -3415.5517578125,
+                            "posy": 1717.4801025390625,
+                            "posz": -8623.1865234375,
+                            "anglex": 0,
+                            "angley": 728,
+                            "anglez": 0,
+                            "id": "2C A0",
+                            "name": "SrnSk",
+                            "extra_info": {
+                                "viewclip_index": 11
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": -4892.1318359375,
+                            "posy": 1717.4801025390625,
+                            "posz": -8519.7119140625,
+                            "anglex": 0,
+                            "angley": 728,
+                            "anglez": 0,
+                            "id": "2C A1",
+                            "name": "SrnSk",
+                            "extra_info": {
+                                "viewclip_index": 11
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": -4453.701171875,
+                            "posy": 1717.4801025390625,
+                            "posz": -9350.2685546875,
+                            "anglex": 0,
+                            "angley": 728,
+                            "anglez": 0,
+                            "id": "FC A2",
+                            "name": "SrnSk"
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": -3961.49169921875,
+                            "posy": 1717.4801025390625,
+                            "posz": -9384.7744140625,
+                            "anglex": 0,
+                            "angley": 728,
+                            "anglez": 0,
+                            "id": "FC A3",
+                            "name": "SrnSk"
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": -3469.297607421875,
+                            "posy": 1717.4801025390625,
+                            "posz": -9419.2236328125,
+                            "anglex": 0,
+                            "angley": 728,
+                            "anglez": 0,
+                            "id": "FC A4",
+                            "name": "SrnSk"
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "FF FF FF FF",
+                            "posx": -4945.8759765625,
+                            "posy": 1717.4801025390625,
+                            "posz": -9315.7490234375,
+                            "anglex": 0,
+                            "angley": 728,
+                            "anglez": 0,
+                            "id": "FC A5",
+                            "name": "SrnSk"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 1174.9254150390625,
+                            "posy": 0.0,
+                            "posz": 5904.6328125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC A9",
+                            "name": "DStartT"
+                        }
+                    ],
+                    "SOBJ": [
+                        {
+                            "params1": "FF FF FF C4",
+                            "params2": "FF FF FF FF",
+                            "posx": 8562.1728515625,
+                            "posy": -45.0,
+                            "posz": 1901.7298583984375,
+                            "sizex": 15.0,
+                            "sizey": 1.0,
+                            "sizez": 8.0,
+                            "anglex": 65354,
+                            "angley": 61349,
+                            "anglez": 64990,
+                            "id": "FC A6",
+                            "name": "EvilFld",
+                            "extra_info": {
+                                "isSloped": 1,
+                                "waterType": "localized area",
+                                "subtype": "Move Skyloft"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -2031.2833251953125,
+                            "posy": 1343.6256103515625,
+                            "posz": -5597.41064453125,
+                            "sizex": 10.0,
+                            "sizey": 10.0,
+                            "sizez": 10.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC AA",
+                            "name": "WoodTg2"
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF FF 01",
+                            "params2": "FF 5F FF FF",
+                            "posx": 809.943603515625,
+                            "posy": -4382.49609375,
+                            "posz": -3479.730224609375,
+                            "sizex": 40000.0,
+                            "sizey": 15000.0,
+                            "sizez": 40000.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC A7",
+                            "name": "SwAreaT",
+                            "extra_info": {
+                                "setstoryfid": 2047,
+                                "setstoryf": "-",
+                                "unsetstoryfid": 2047,
+                                "unsetstoryf": "-",
+                                "setscenefid": 1,
+                                "setscenef": "scene flag: 0x1 02",
+                                "unsetscenefid": 255,
+                                "unsetscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 00",
+                            "params2": "FF FF FF FF",
+                            "posx": -5464.1123046875,
+                            "posy": 6471.05615234375,
+                            "posz": 7092.14404296875,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC A8",
+                            "name": "TgSTA"
+                        },
+                        {
+                            "params1": "FF FF F0 C0",
+                            "params2": "FF FF FF FF",
+                            "posx": 28.12338638305664,
+                            "posy": -2931.677734375,
+                            "posz": 2737.678955078125,
+                            "sizex": 8000.0,
+                            "sizey": 8000.0,
+                            "sizez": 10000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC AB",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 0,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 C0",
+                            "params2": "FF FF FF FF",
+                            "posx": -3877.09912109375,
+                            "posy": -2931.677734375,
+                            "posz": -8747.123046875,
+                            "sizex": 12000.0,
+                            "sizey": 8000.0,
+                            "sizez": 8000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC AC",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 0,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 C2",
+                            "params2": "FF FF FF FF",
+                            "posx": 3100.0,
+                            "posy": 1768.322265625,
+                            "posz": 6000.0,
+                            "sizex": 3000.0,
+                            "sizey": 2000.0,
+                            "sizez": 3000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC AD",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 2,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 C3",
+                            "params2": "FF FF FF FF",
+                            "posx": 9013.16796875,
+                            "posy": -2931.677734375,
+                            "posz": 2065.261474609375,
+                            "sizex": 8000.0,
+                            "sizey": 8000.0,
+                            "sizez": 12000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC AE",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 3,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 C1",
+                            "params2": "FF FF FF FF",
+                            "posx": -596.253662109375,
+                            "posy": -239.1925811767578,
+                            "posz": 5731.18310546875,
+                            "sizex": 5000.0,
+                            "sizey": 2000.0,
+                            "sizez": 5000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC AF",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 1,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 C4",
+                            "params2": "FF FF FF FF",
+                            "posx": 10757.0625,
+                            "posy": -239.1925811767578,
+                            "posz": -1412.34814453125,
+                            "sizex": 5000.0,
+                            "sizey": 2000.0,
+                            "sizez": 5000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC B0",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 4,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 C5",
+                            "params2": "FF FF FF FF",
+                            "posx": 407.03289794921875,
+                            "posy": -239.1925811767578,
+                            "posz": 3931.646240234375,
+                            "sizex": 6000.0,
+                            "sizey": 2000.0,
+                            "sizez": 8000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC B1",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 5,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 C6",
+                            "params2": "FF FF FF FF",
+                            "posx": 11625.27734375,
+                            "posy": 1109.5167236328125,
+                            "posz": 1410.9215087890625,
+                            "sizex": 3000.0,
+                            "sizey": 1000.0,
+                            "sizez": 4500.0,
+                            "anglex": 0,
+                            "angley": 60075,
+                            "anglez": 0,
+                            "id": "FC B2",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 6,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 C6",
+                            "params2": "FF FF FF FF",
+                            "posx": 6882.2939453125,
+                            "posy": 203.11135864257812,
+                            "posz": -12345.3779296875,
+                            "sizex": 1500.0,
+                            "sizey": 1000.0,
+                            "sizez": 1500.0,
+                            "anglex": 0,
+                            "angley": 63716,
+                            "anglez": 0,
+                            "id": "FC B3",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 6,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 C7",
+                            "params2": "FF FF FF FF",
+                            "posx": -3898.2578125,
+                            "posy": -1175.5601806640625,
+                            "posz": -977.38671875,
+                            "sizex": 6000.0,
+                            "sizey": 2000.0,
+                            "sizez": 4000.0,
+                            "anglex": 0,
+                            "angley": 57527,
+                            "anglez": 0,
+                            "id": "FC B4",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 7,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 C8",
+                            "params2": "FF FF FF FF",
+                            "posx": 8742.9462890625,
+                            "posy": 507.7493591308594,
+                            "posz": 1598.1260986328125,
+                            "sizex": 2500.0,
+                            "sizey": 1000.0,
+                            "sizez": 5000.0,
+                            "anglex": 0,
+                            "angley": 60075,
+                            "anglez": 0,
+                            "id": "FC B5",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 8,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 C9",
+                            "params2": "FF FF FF FF",
+                            "posx": 2115.754638671875,
+                            "posy": -2931.677734375,
+                            "posz": -6958.69287109375,
+                            "sizex": 10000.0,
+                            "sizey": 8000.0,
+                            "sizez": 8000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC B6",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 9,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 CA",
+                            "params2": "FF FF FF FF",
+                            "posx": 1213.351318359375,
+                            "posy": -2931.677734375,
+                            "posz": -7030.10791015625,
+                            "sizex": 8000.0,
+                            "sizey": 8000.0,
+                            "sizez": 4000.0,
+                            "anglex": 0,
+                            "angley": 2002,
+                            "anglez": 0,
+                            "id": "FC B7",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 10,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 C1",
+                            "params2": "FF FF FF FF",
+                            "posx": -1322.115234375,
+                            "posy": 700.863525390625,
+                            "posz": -8792.9697265625,
+                            "sizex": 2500.0,
+                            "sizey": 2000.0,
+                            "sizez": 2500.0,
+                            "anglex": 0,
+                            "angley": 2002,
+                            "anglez": 0,
+                            "id": "FC B8",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 1,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 C1",
+                            "params2": "FF FF FF FF",
+                            "posx": 7592.884765625,
+                            "posy": -239.1925811767578,
+                            "posz": -10462.3974609375,
+                            "sizex": 5000.0,
+                            "sizey": 2000.0,
+                            "sizez": 5000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC B9",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 1,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 CB",
+                            "params2": "FF FF FF FF",
+                            "posx": -2299.416015625,
+                            "posy": 700.863525390625,
+                            "posz": -521.0025634765625,
+                            "sizex": 2500.0,
+                            "sizey": 2000.0,
+                            "sizez": 2500.0,
+                            "anglex": 0,
+                            "angley": 5461,
+                            "anglez": 0,
+                            "id": "FC BA",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 11,
+                                "behavior": "Load",
+                                "areaIdx": 15
+                            }
+                        }
+                    ]
+                },
+                "l3": {},
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,1093 @@
+{
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 160000.0,
+        "wtf3": 10000.0,
+        "byte1": 0,
+        "flagindex": 8,
+        "byte3": 0,
+        "byte4": 10,
+        "unk1": "FF 03",
+        "map_name_id": 43,
+        "unk2": "FF"
+    },
+    "LAY ": {
+        "l0": {
+            "OBJN": [
+                "MapArea",
+                "TlpTag"
+            ],
+            "STAG": [
+                {
+                    "params1": "91 FF 2B FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -10213.6171875,
+                    "posy": 1325.0867919921875,
+                    "posz": -14451.9150390625,
+                    "sizex": 100.0,
+                    "sizey": 100.0,
+                    "sizez": 100.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "TlpTag",
+                    "extra_info": {
+                        "scenefid": 145,
+                        "scenef": "temp flag: 0x3 02",
+                        "map_name_idx": 43,
+                        "name": "Skipper's Retreat"
+                    }
+                },
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": -230.0,
+                    "posz": 0.0,
+                    "sizex": 4000.0,
+                    "sizey": 1000.0,
+                    "sizez": 4000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 0,
+                        "mapParams": 0
+                    }
+                },
+                {
+                    "params1": "FF FF FF 01",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 0.0,
+                    "sizex": 2000.0,
+                    "sizey": 1000.0,
+                    "sizez": 2000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 02",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 1,
+                        "mapParams": 0
+                    }
+                }
+            ]
+        },
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "FILE": "00 00 FF FF",
+            "SCEN": [
+                {
+                    "name": "F301_3",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 1,
+                    "night": 2,
+                    "transtype": 1,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                }
+            ],
+            "CAM ": [
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -1048.2413330078125,
+                    "posy": 852.5726318359375,
+                    "posz": 1893.5989990234375,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 00",
+                    "name": "sd107"
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 11,
+                    "posx": 849.2282104492188,
+                    "posy": 0.0,
+                    "posz": -1.2448220252990723,
+                    "anglex": 0,
+                    "angley": 49152,
+                    "anglez": 0,
+                    "entrance_id": 0
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "EKg",
+                        "Tubo",
+                        "Char",
+                        "AutoMes",
+                        "chest",
+                        "AncJwls",
+                        "TBox",
+                        "NpcTke",
+                        "Door",
+                        "Item",
+                        "vmSand",
+                        "NpcStr",
+                        "ODesert",
+                        "TgReact",
+                        "NpcDrb"
+                    ],
+                    "ARCN": [
+                        "CharH",
+                        "TansuInside",
+                        "DesertRobot_Beetle",
+                        "DesertRobot_motion",
+                        "GetMapSea",
+                        "DesertRobotN",
+                        "DesertRobot",
+                        "Tansu",
+                        "DoorE",
+                        "GetSozaiP",
+                        "GetSozaiG",
+                        "PLSitDown",
+                        "SandHill",
+                        "PLChest",
+                        "MoldoGut_Baby",
+                        "DesertRobotT",
+                        "DoorAnim",
+                        "F301_5Sand"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "00 00 00 05",
+                            "params2": "FF 5F FF FF",
+                            "posx": 965.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 65280,
+                            "angley": 16384,
+                            "anglez": 65520,
+                            "id": "FC 00",
+                            "name": "Door",
+                            "extra_info": {
+                                "open_failed_scenefid": 255,
+                                "open_failed_scenef": "no flag",
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "lockbehavior": "Always Unlocked",
+                                "scen_link": 0,
+                                "talk_behaviour": 0,
+                                "subtype": "DoorE : Sandsea Door",
+                                "needs_key": "No Key Required",
+                                "callback_type": "No callbacks",
+                                "front_roomid": 63,
+                                "back_roomid": 63
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F3",
+                            "params2": "FF 5F FF FF",
+                            "posx": 443.1773681640625,
+                            "posy": 0.0,
+                            "posz": 557.969970703125,
+                            "anglex": 64785,
+                            "angley": 46422,
+                            "anglez": 33378,
+                            "id": "FC 01",
+                            "name": "TBox",
+                            "extra_info": {
+                                "spawnscenefid": 255,
+                                "spawnscenef": "no flag",
+                                "setscenefid": 17,
+                                "setscenef": "scene flag: 0x3 02",
+                                "itemid": 98,
+                                "item": "Sea Chart",
+                                "chestid": 65,
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF EF",
+                            "params2": "FF FF FF FF",
+                            "posx": 4.501613140106201,
+                            "posy": 0.0,
+                            "posz": 6.002159118652344,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 02",
+                            "name": "ODesert",
+                            "extra_info": {
+                                "someIndex": 3,
+                                "someType": 3
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF DF F1",
+                            "params2": "07 FF FF FF",
+                            "posx": -624.47705078125,
+                            "posy": 0.0,
+                            "posz": -767.1420288085938,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 03",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF DF F1",
+                            "params2": "07 FF FF FF",
+                            "posx": -680.05224609375,
+                            "posy": 0.0,
+                            "posz": -695.8920288085938,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 04",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF DF F1",
+                            "params2": "07 FF FF FF",
+                            "posx": -791.35400390625,
+                            "posy": 0.0,
+                            "posz": 455.3884582519531,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 05",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF DF F1",
+                            "params2": "07 FF FF FF",
+                            "posx": -753.95556640625,
+                            "posy": 0.0,
+                            "posz": 551.8997192382812,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 06",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 02",
+                            "params2": "FF FF FF FF",
+                            "posx": -222.32945251464844,
+                            "posy": 0.0,
+                            "posz": -734.984619140625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 07",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 2,
+                                "item": "Green rupee",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 02",
+                            "params2": "FF FF FF FF",
+                            "posx": -404.7090759277344,
+                            "posy": 0.0,
+                            "posz": -727.8519897460938,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 08",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 2,
+                                "item": "Green rupee",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 02",
+                            "params2": "FF FF FF FF",
+                            "posx": -323.8429870605469,
+                            "posy": 0.0,
+                            "posz": -782.6246948242188,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 09",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 2,
+                                "item": "Green rupee",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": -231.76382446289062,
+                            "posy": 0.0,
+                            "posz": 736.3317260742188,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 0A",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 534.9840087890625,
+                            "posy": 0.0,
+                            "posz": -639.5970458984375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 0B",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "0F FF FF FF",
+                            "params2": "14 FF FF FF",
+                            "posx": -100.0,
+                            "posy": 0.0,
+                            "posz": -995.0,
+                            "anglex": 0,
+                            "angley": 3276,
+                            "anglez": 0,
+                            "id": "FC 0C",
+                            "name": "chest",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 255,
+                                "item": "?",
+                                "insidesubtype": 255,
+                                "subtype": "TansuA",
+                                "drop_idx": 20,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_RED_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF F9 FF",
+                            "params2": "07 FF FF FF",
+                            "posx": 386.79510498046875,
+                            "posy": 0.0,
+                            "posz": 659.661376953125,
+                            "anglex": 0,
+                            "angley": 36227,
+                            "anglez": 0,
+                            "id": "FC 0D",
+                            "name": "EKg",
+                            "extra_info": {
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF F9 FF",
+                            "params2": "07 FF FF FF",
+                            "posx": 654.0806274414062,
+                            "posy": 0.0,
+                            "posz": 556.2528076171875,
+                            "anglex": 0,
+                            "angley": 40050,
+                            "anglez": 0,
+                            "id": "FC 0E",
+                            "name": "EKg",
+                            "extra_info": {
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF F9 FF",
+                            "params2": "07 FF FF FF",
+                            "posx": 553.5950317382812,
+                            "posy": 0.0,
+                            "posz": 769.1229858398438,
+                            "anglex": 0,
+                            "angley": 40778,
+                            "anglez": 0,
+                            "id": "FC 0F",
+                            "name": "EKg",
+                            "extra_info": {
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 02",
+                            "params2": "FF FF FF FF",
+                            "posx": -838.7958984375,
+                            "posy": 0.0,
+                            "posz": -32.39107894897461,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 10",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 2,
+                                "item": "Green rupee",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": -326.16339111328125,
+                            "posy": 0.0,
+                            "posz": 790.8756713867188,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 11",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": -406.23675537109375,
+                            "posy": 0.0,
+                            "posz": 726.8391723632812,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 12",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 619.9586791992188,
+                            "posy": 0.0,
+                            "posz": -664.6552734375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 13",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF FF DF F1",
+                            "params2": "07 FF FF FF",
+                            "posx": 73.3126220703125,
+                            "posy": 3.014859914779663,
+                            "posz": 920.978271484375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 14",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF DF F1",
+                            "params2": "07 FF FF FF",
+                            "posx": -675.5653076171875,
+                            "posy": 0.0,
+                            "posz": 618.4124755859375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 15",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF DF F1",
+                            "params2": "07 FF FF FF",
+                            "posx": 325.7060546875,
+                            "posy": 10.696125984191895,
+                            "posz": -788.1019287109375,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 16",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF DF F1",
+                            "params2": "07 FF FF FF",
+                            "posx": 423.83697509765625,
+                            "posy": 2.374829053878784,
+                            "posz": -763.4293823242188,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 17",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF DF F1",
+                            "params2": "07 FF FF FF",
+                            "posx": 221.22439575195312,
+                            "posy": 16.646141052246094,
+                            "posz": -814.664794921875,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 18",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 02",
+                            "params2": "FF FF FF FF",
+                            "posx": -674.1321411132812,
+                            "posy": 0.0,
+                            "posz": -571.9629516601562,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 19",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 2,
+                                "item": "Green rupee",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF 0F FE 02",
+                            "params2": "FF FF FF FF",
+                            "posx": -752.35693359375,
+                            "posy": 0.0,
+                            "posz": -526.4478149414062,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1A",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "itemid": 2,
+                                "item": "Green rupee",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 02",
+                            "params2": "FF 1F FF FF",
+                            "posx": -1224.52978515625,
+                            "posy": 82.36534881591797,
+                            "posz": -529.8048706054688,
+                            "anglex": 4113,
+                            "angley": 65535,
+                            "anglez": 40241,
+                            "id": "FC 1B",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 40241,
+                                "trigscenefid": 17,
+                                "trigscenef": "scene flag: 0x3 02",
+                                "untrigscenefid": 16,
+                                "untrigscenef": "scene flag: 0x3 01",
+                                "trigareaindex": 255
+                            }
+                        },
+                        {
+                            "params1": "FF FF FC A5",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1C",
+                            "name": "Char",
+                            "extra_info": {
+                                "scenefid": 202,
+                                "scenef": "zone temp flag: 0x0 04"
+                            }
+                        },
+                        {
+                            "params1": "FF FF 64 FF",
+                            "params2": "FF DF FA E2",
+                            "posx": 195.56858825683594,
+                            "posy": 335.74334716796875,
+                            "posz": 15.548521041870117,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 40244,
+                            "id": "FC 1D",
+                            "name": "NpcStr",
+                            "extra_info": {
+                                "trigstoryfid": 2009,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 40244
+                            }
+                        },
+                        {
+                            "params1": "5C 7F 64 FF",
+                            "params2": "FF DF FA E4",
+                            "posx": 174.83721923828125,
+                            "posy": 335.74334716796875,
+                            "posz": 15.548521041870117,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 40245,
+                            "id": "FC 1E",
+                            "name": "NpcStr",
+                            "extra_info": {
+                                "trigstoryfid": 2009,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 739,
+                                "untrigstoryf": "Set after Fi text after Sea Chart in Skipper's house",
+                                "talk_behaviour": 40245
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": -608.767333984375,
+                            "posy": 0.0,
+                            "posz": -330.7855224609375,
+                            "anglex": 65535,
+                            "angley": 5461,
+                            "anglez": 40225,
+                            "id": "FC 1F",
+                            "name": "NpcDrb",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 40225
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": -608.7673950195312,
+                            "posy": 0.0,
+                            "posz": -34.39023971557617,
+                            "anglex": 65535,
+                            "angley": 26396,
+                            "anglez": 40225,
+                            "id": "FC 20",
+                            "name": "NpcDrb",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 40225
+                            }
+                        }
+                    ],
+                    "SOBJ": [
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -288.5483093261719,
+                            "posy": 0.0,
+                            "posz": 140.19857788085938,
+                            "sizex": 1.7999999523162842,
+                            "sizey": 1.5,
+                            "sizez": 1.7999999523162842,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 21",
+                            "name": "vmSand",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 102.70355224609375,
+                            "posy": 0.0,
+                            "posz": -224.96983337402344,
+                            "sizex": 2.0,
+                            "sizey": 2.0,
+                            "sizez": 2.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 22",
+                            "name": "vmSand",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "2F F0 FF A8",
+                            "params2": "13 7F FF FF",
+                            "posx": 134.05111694335938,
+                            "posy": 843.432861328125,
+                            "posz": -430.70166015625,
+                            "sizex": 1.2000000476837158,
+                            "sizey": 2.0,
+                            "sizez": 1.2000000476837158,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 23",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 168,
+                                "scenef": "temp flag: 0x4 01",
+                                "tgreactitemid": 19,
+                                "subtype": "gust bellow blow",
+                                "drop_idx": 19,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_BLUE_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "2F F0 FF A9",
+                            "params2": "13 7F FF FF",
+                            "posx": 433.7572021484375,
+                            "posy": 843.432861328125,
+                            "posz": 75.14042663574219,
+                            "sizex": 1.2000000476837158,
+                            "sizey": 2.0,
+                            "sizez": 1.2000000476837158,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 24",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 169,
+                                "scenef": "temp flag: 0x4 02",
+                                "tgreactitemid": 19,
+                                "subtype": "gust bellow blow",
+                                "drop_idx": 19,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_BLUE_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "2F F0 FF AA",
+                            "params2": "13 7F FF FF",
+                            "posx": -388.93096923828125,
+                            "posy": 843.432861328125,
+                            "posz": 274.82598876953125,
+                            "sizex": 1.2000000476837158,
+                            "sizey": 2.0,
+                            "sizez": 1.2000000476837158,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 25",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 170,
+                                "scenef": "temp flag: 0x4 04",
+                                "tgreactitemid": 19,
+                                "subtype": "gust bellow blow",
+                                "drop_idx": 19,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_BLUE_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF 9D 4E",
+                            "params2": "FF FF FF FF",
+                            "posx": 164.5551300048828,
+                            "posy": -50.0,
+                            "posz": 1034.9189453125,
+                            "sizex": 150.0,
+                            "sizey": 350.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 39322,
+                            "anglez": 0,
+                            "id": "FC 26",
+                            "name": "AutoMes",
+                            "extra_info": {
+                                "talk_behaviour": 40270
+                            }
+                        },
+                        {
+                            "params1": "FF FF 9D 4F",
+                            "params2": "FF FF FF FF",
+                            "posx": -93.1785888671875,
+                            "posy": -50.0,
+                            "posz": 1061.185302734375,
+                            "sizex": 120.0,
+                            "sizey": 350.0,
+                            "sizez": 120.0,
+                            "anglex": 0,
+                            "angley": 26214,
+                            "anglez": 0,
+                            "id": "FC 27",
+                            "name": "AutoMes",
+                            "extra_info": {
+                                "talk_behaviour": 40271
+                            }
+                        }
+                    ]
+                },
+                "l1": {},
+                "l2": {},
+                "l3": {},
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}

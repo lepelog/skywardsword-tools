@@ -1,0 +1,109 @@
+{
+    "FLW3": {
+        "flow": {
+            "0": {
+                "type": "start",
+                "next": 7
+            },
+            "1": {
+                "type": "type1",
+                "next": 5,
+                "param3": 58,
+                "param4": 0
+            },
+            "2": {
+                "type": "type1",
+                "next": 6,
+                "param3": 58,
+                "param4": 159
+            },
+            "3": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 6,
+                "param3": 19,
+                "param4": 2,
+                "param5": 0
+            },
+            "4": {
+                "type": "type1",
+                "next": -1,
+                "param3": 58,
+                "param4": 141
+            },
+            "5": {
+                "type": "type1",
+                "next": 2,
+                "param3": 58,
+                "param4": 158
+            },
+            "6": {
+                "type": "type1",
+                "next": 3,
+                "param3": 58,
+                "param4": 54
+            },
+            "7": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 530,
+                "param3": 3,
+                "param4": 2,
+                "param5": 2
+            },
+            "8": {
+                "type": "type1",
+                "next": -1,
+                "param3": 58,
+                "param4": 134
+            },
+            "9": {
+                "type": "start",
+                "next": 10
+            },
+            "10": {
+                "type": "type1",
+                "next": -1,
+                "param3": 58,
+                "param4": 135
+            }
+        },
+        "branch_points": [
+            4,
+            -1,
+            8,
+            1
+        ]
+    },
+    "FEN1": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            {
+                "name": "006_300",
+                "value": 0
+            }
+        ],
+        [
+            {
+                "name": "006_301",
+                "value": 9
+            }
+        ]
+    ]
+}

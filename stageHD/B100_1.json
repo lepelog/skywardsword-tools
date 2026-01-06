@@ -1,0 +1,3110 @@
+{
+    "LYSE": [
+        {
+            "story_flag": 65,
+            "night": 0,
+            "layer": 4
+        },
+        {
+            "story_flag": 206,
+            "night": 0,
+            "layer": 3
+        },
+        {
+            "story_flag": 5,
+            "night": 0,
+            "layer": 2
+        },
+        {
+            "story_flag": 83,
+            "night": 0,
+            "layer": 1
+        },
+        {
+            "story_flag": -1,
+            "night": 0,
+            "layer": 0
+        }
+    ],
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 160000.0,
+        "wtf3": 10000.0,
+        "byte1": 0,
+        "flagindex": 11,
+        "byte3": 0,
+        "byte4": 3,
+        "unk1": "FF 03",
+        "map_name_id": 33,
+        "unk2": "FF"
+    },
+    "LYLT": [
+        {
+            "layer": 13,
+            "demo_high": 23,
+            "demo_low": 1,
+            "dummy": -1
+        },
+        {
+            "layer": 14,
+            "demo_high": 78,
+            "demo_low": 2,
+            "dummy": -1
+        }
+    ],
+    "LAY ": {
+        "l0": {
+            "OBJN": [
+                "MapMark",
+                "MapArea",
+                "TlpTag",
+                "Vrbox"
+            ],
+            "ARCN": [
+                "Vrbox00"
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": 950.0,
+                    "posy": -200.0,
+                    "posz": -6750.0,
+                    "sizex": 13000.0,
+                    "sizey": 3000.0,
+                    "sizez": 13000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 0,
+                        "mapParams": 0
+                    }
+                },
+                {
+                    "params1": "FF FF FF 01",
+                    "params2": "FF FF FF FF",
+                    "posx": 950.0,
+                    "posy": -200.0,
+                    "posz": -6750.0,
+                    "sizex": 13000.0,
+                    "sizey": 3000.0,
+                    "sizez": 13000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 1,
+                        "mapParams": 0
+                    }
+                },
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 0.0,
+                    "sizex": 100.0,
+                    "sizey": 100.0,
+                    "sizez": 100.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 02",
+                    "name": "Vrbox"
+                },
+                {
+                    "params1": "B3 68 21 FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 0.0,
+                    "sizex": 100.0,
+                    "sizey": 100.0,
+                    "sizez": 100.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 03",
+                    "name": "TlpTag",
+                    "extra_info": {
+                        "scenefid": 179,
+                        "scenef": "temp flag: 0x7 08",
+                        "map_name_idx": 33,
+                        "name": "Skyview Spring"
+                    }
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF 5F FF FF",
+                    "posx": 950.0,
+                    "posy": 0.0,
+                    "posz": -1550.0,
+                    "sizex": 100.0,
+                    "sizey": 100.0,
+                    "sizez": 100.0,
+                    "anglex": 64691,
+                    "angley": 0,
+                    "anglez": 255,
+                    "id": "FC 04",
+                    "name": "MapMark",
+                    "extra_info": {
+                        "trigstoryfid": 2047,
+                        "trigstoryf": "-"
+                    }
+                }
+            ]
+        },
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "OBJN": [
+                "BtlTgC",
+                "WoodTag",
+                "CoTest"
+            ],
+            "SCEN": [
+                {
+                    "name": "B100",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 1,
+                    "night": 2,
+                    "transtype": 1,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F101",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 1,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 1,
+                    "zero": 0,
+                    "saveprompt": 1
+                },
+                {
+                    "name": "B100_1",
+                    "room": 0,
+                    "layer": 13,
+                    "entrance": 1,
+                    "night": 2,
+                    "transtype": 1,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "B100_1",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 2,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F101",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 1,
+                    "night": 2,
+                    "transtype": 1,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                }
+            ],
+            "CAM ": [
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 4000.0,
+                    "posy": 0.0,
+                    "posz": -2600.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 00",
+                    "name": "Dungeon"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 4000.0,
+                    "posy": 0.0,
+                    "posz": -2600.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 01",
+                    "name": "D100R02"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 4000.0,
+                    "posy": 0.0,
+                    "posz": -2600.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 02",
+                    "name": "FieldNoUp"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 4000.0,
+                    "posy": 0.0,
+                    "posz": -2600.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 03",
+                    "name": "Weeds2"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 4000.0,
+                    "posy": 0.0,
+                    "posz": -2600.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 04",
+                    "name": "TenbouFall"
+                }
+            ],
+            "PATH": [
+                {
+                    "unk1": "FF 00",
+                    "pnt_start_idx": 0,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                }
+            ],
+            "PNT ": [
+                {
+                    "posx": -750.0,
+                    "posy": 250.0,
+                    "posz": -11450.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -600.0,
+                    "posy": 250.0,
+                    "posz": -11300.0,
+                    "unk": "FF FF FF FF"
+                }
+            ],
+            "EVNT": [
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "SealedDoorClose"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": 5,
+                    "story_flag2": -1,
+                    "unk2": "64 02 FF",
+                    "exit_id": 3,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 46,
+                    "dummy1": -1,
+                    "item": 178,
+                    "dummy2": -1,
+                    "name": "demo01"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 03",
+                    "skipevent": 3,
+                    "unk4": "FF",
+                    "sceneflag1": 104,
+                    "sceneflag2": 255,
+                    "skipflag": 45,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "B100_1Tenbo"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 03",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "DefaultStart"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 111,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "SealedDoorCloseFirst"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 02 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "demo04"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 03",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "B100_1Water"
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 0,
+                    "byte4": -1,
+                    "posx": 950.0,
+                    "posy": 0.0,
+                    "posz": -2950.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 1,
+                    "byte4": -1,
+                    "posx": 949.7907104492188,
+                    "posy": 488.5906066894531,
+                    "posz": -9202.763671875,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 1
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": -1,
+                    "posx": 950.0,
+                    "posy": 390.1500244140625,
+                    "posz": -9380.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 2
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 4,
+                    "byte4": -1,
+                    "posx": 950.0,
+                    "posy": 0.0,
+                    "posz": -2950.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 3
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 5,
+                    "byte4": -1,
+                    "posx": 950.0,
+                    "posy": 0.0,
+                    "posz": -2950.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 4
+                }
+            ],
+            "SOBJ": [
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 6649.2900390625,
+                    "posy": -1808.820068359375,
+                    "posz": -22134.05078125,
+                    "sizex": 1.690000057220459,
+                    "sizey": 1.190000057220459,
+                    "sizez": 1.690000057220459,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "WoodTag"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 3084.820068359375,
+                    "posy": -1808.820068359375,
+                    "posz": -21265.51171875,
+                    "sizex": 1.690000057220459,
+                    "sizey": 1.190000057220459,
+                    "sizez": 1.690000057220459,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "WoodTag"
+                }
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": -495.5500183105469,
+                    "posy": 757.2300415039062,
+                    "posz": -8705.3408203125,
+                    "sizex": 572.0,
+                    "sizey": 425.0,
+                    "sizez": 572.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 02",
+                    "name": "BtlTgC"
+                },
+                {
+                    "params1": "FF FF FF FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 3047.7001953125,
+                    "posy": 757.2300415039062,
+                    "posz": -9572.0,
+                    "sizex": 572.0,
+                    "sizey": 425.0,
+                    "sizez": 572.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 03",
+                    "name": "BtlTgC"
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "Eel",
+                        "Fmaker",
+                        "Butrfly",
+                        "SngGS",
+                        "LBmaker",
+                        "TBox",
+                        "Fire",
+                        "Dowsing",
+                        "FairyTa",
+                        "BtlTg",
+                        "CamTag",
+                        "Item",
+                        "Fish",
+                        "TgSndMg",
+                        "WoodTg2",
+                        "SwAreaT",
+                        "LBird",
+                        "SldDoor",
+                        "TgSound",
+                        "ActTag",
+                        "MassTag",
+                        "TgSndAr",
+                        "InsctTg",
+                        "ScChang",
+                        "fruit",
+                        "EffGnT",
+                        "TgReact",
+                        "GodCube",
+                        "SwSB"
+                    ],
+                    "ARCN": [
+                        "GetSozaiB",
+                        "GetSozaiN",
+                        "FishA",
+                        "GetSekibanMapB",
+                        "GoddessStatue",
+                        "FishC",
+                        "SBGoodess",
+                        "LittleBird",
+                        "FruitA",
+                        "SBAnm",
+                        "GoddessSymbolSc"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "0F FF FF F3",
+                            "params2": "FF 5F FF FF",
+                            "posx": 950.0,
+                            "posy": 390.1500244140625,
+                            "posz": -9380.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 65202,
+                            "id": "FC 06",
+                            "name": "TBox",
+                            "extra_info": {
+                                "spawnscenefid": 255,
+                                "spawnscenef": "no flag",
+                                "setscenefid": 255,
+                                "setscenef": "no flag",
+                                "itemid": 178,
+                                "item": "Rupy Tablet",
+                                "chestid": 127,
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-"
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FC 03",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 0.0,
+                            "posz": -2750.0,
+                            "anglex": 0,
+                            "angley": 32768,
+                            "anglez": 0,
+                            "id": "FC 04",
+                            "name": "SldDoor",
+                            "extra_info": {
+                                "openscenefid": 192,
+                                "openscenef": "zone temp flag: 0x1 01",
+                                "firstopenscenefid": 255,
+                                "firstopenscenef": "no flag",
+                                "ignoreFirstOpenFlag": 1,
+                                "subtype": "Goodess"
+                            }
+                        },
+                        {
+                            "params1": "FF FF 02 69",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 760.0,
+                            "posz": -10800.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 05",
+                            "name": "SngGS",
+                            "extra_info": {
+                                "warpscenefid": 105,
+                                "warpscenef": "scene flag: 0xC 02",
+                                "exitId": 2
+                            }
+                        },
+                        {
+                            "params1": "F0 FF 00 FA",
+                            "params2": "FF FF FF FF",
+                            "posx": 1150.0,
+                            "posy": 250.0,
+                            "posz": -11800.0,
+                            "anglex": 0,
+                            "angley": 54614,
+                            "anglez": 0,
+                            "id": "FC 07",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 250,
+                                "storyf": "Goddess Cube in Skyview Spring"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 1230.0,
+                            "posy": 360.0,
+                            "posz": -2930.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 08",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 670.0,
+                            "posy": 360.0,
+                            "posz": -2930.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 09",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 1230.0,
+                            "posy": 360.0,
+                            "posz": -3530.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 0A",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 670.0,
+                            "posy": 360.0,
+                            "posz": -3530.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 0B",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 1230.0,
+                            "posy": 360.0,
+                            "posz": -4130.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 0C",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 670.0,
+                            "posy": 360.0,
+                            "posz": -4730.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 0D",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "1E FF FF FF",
+                            "posx": -90.0,
+                            "posy": 880.0,
+                            "posz": -8480.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 0E",
+                            "name": "fruit",
+                            "extra_info": {
+                                "drop_idx": 30,
+                                "drop_tables": [
+                                    {
+                                        "hasSlingshot": false,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    },
+                                    {
+                                        "hasSlingshot": true,
+                                        "dropRates": {
+                                            "ITEM_5_DEKU_SEEDS": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "04 FF FF FF",
+                            "posx": -840.0,
+                            "posy": 730.0,
+                            "posz": -8600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 0F",
+                            "name": "fruit",
+                            "extra_info": {
+                                "drop_idx": 4,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 100
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "26 FF FF FF",
+                            "posx": -260.0,
+                            "posy": 945.0,
+                            "posz": -9040.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 10",
+                            "name": "fruit",
+                            "extra_info": {
+                                "drop_idx": 38,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_BLUE_RUPEE": 30,
+                                            "ITEM_RED_RUPEE": 2,
+                                            "ITEM_NONE": 53,
+                                            "ITEM_GREEN_RUPEE": 15
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "1E FF FF FF",
+                            "posx": 3160.0,
+                            "posy": 770.0,
+                            "posz": -9290.0,
+                            "anglex": 0,
+                            "angley": 5461,
+                            "anglez": 0,
+                            "id": "FC 11",
+                            "name": "fruit",
+                            "extra_info": {
+                                "drop_idx": 30,
+                                "drop_tables": [
+                                    {
+                                        "hasSlingshot": false,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    },
+                                    {
+                                        "hasSlingshot": true,
+                                        "dropRates": {
+                                            "ITEM_5_DEKU_SEEDS": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "04 FF FF FF",
+                            "posx": 2710.0,
+                            "posy": 970.0,
+                            "posz": -9850.0,
+                            "anglex": 0,
+                            "angley": 41871,
+                            "anglez": 0,
+                            "id": "FC 12",
+                            "name": "fruit",
+                            "extra_info": {
+                                "drop_idx": 4,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 100
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FC",
+                            "params2": "26 FF FF FF",
+                            "posx": 3230.0,
+                            "posy": 835.0,
+                            "posz": -9880.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 13",
+                            "name": "fruit",
+                            "extra_info": {
+                                "drop_idx": 38,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_BLUE_RUPEE": 30,
+                                            "ITEM_RED_RUPEE": 2,
+                                            "ITEM_NONE": 53,
+                                            "ITEM_GREEN_RUPEE": 15
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF 0D B6 04",
+                            "params2": "FF FF FF FF",
+                            "posx": 440.0,
+                            "posy": 1265.0,
+                            "posz": -6950.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1E",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 109,
+                                "scenef": "scene flag: 0xC 20",
+                                "itemid": 4,
+                                "item": "Red Rupee",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 E7",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 100.0,
+                            "posz": 10000.0,
+                            "anglex": 3640,
+                            "angley": 50973,
+                            "anglez": 64080,
+                            "id": "FC 5B",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 231,
+                                "storyf": "Goddess Cube near clawshot target in Faron Woods"
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 EC",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 100.0,
+                            "posz": 10000.0,
+                            "anglex": 61896,
+                            "angley": 56798,
+                            "anglez": 910,
+                            "id": "FC 5C",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 236,
+                                "storyf": "Goddess Cube near Faron Trial"
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 100.0,
+                            "posz": 10000.0,
+                            "anglex": 65172,
+                            "angley": 52520,
+                            "anglez": 65172,
+                            "id": "FC 5D",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 241,
+                                "storyf": "Goddess Cube on Branch in Faron"
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 E3",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 100.0,
+                            "posz": 10000.0,
+                            "anglex": 0,
+                            "angley": 5461,
+                            "anglez": 0,
+                            "id": "FC 5E",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 227,
+                                "storyf": "First Goddess Cube (Unlocks ability to skyward strike Goddess Cubes)"
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 E4",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 100.0,
+                            "posz": 10000.0,
+                            "anglex": 63716,
+                            "angley": 2730,
+                            "anglez": 64626,
+                            "id": "FC 5F",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 228,
+                                "storyf": "Goddess Cube near Skyview Entrance"
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 F4",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 100.0,
+                            "posz": 10000.0,
+                            "anglex": 64626,
+                            "angley": 8192,
+                            "anglez": 64626,
+                            "id": "FC 60",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 244,
+                                "storyf": "Goddess Cube on top of Skyview Temple"
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 F9",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 100.0,
+                            "posz": 10000.0,
+                            "anglex": 64626,
+                            "angley": 61113,
+                            "anglez": 64626,
+                            "id": "FC 61",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 249,
+                                "storyf": "Goddess Cube outside Ancient Cistern"
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 FE",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 100.0,
+                            "posz": 10000.0,
+                            "anglex": 64626,
+                            "angley": 60075,
+                            "anglez": 63716,
+                            "id": "FC 62",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 254,
+                                "storyf": "Goddess Cube in Lake Floria"
+                            }
+                        }
+                    ],
+                    "SOBJ": [
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -530.0,
+                            "posy": 250.0,
+                            "posz": -8660.0,
+                            "sizex": 9.0,
+                            "sizey": 12.0,
+                            "sizez": 9.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 2A",
+                            "name": "WoodTg2"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 3040.0,
+                            "posy": 250.0,
+                            "posz": -9610.0,
+                            "sizex": 9.0,
+                            "sizey": 12.0,
+                            "sizez": 9.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 2B",
+                            "name": "WoodTg2"
+                        },
+                        {
+                            "params1": "0F F0 00 94",
+                            "params2": "12 7F FF FF",
+                            "posx": 1350.0,
+                            "posy": 300.0,
+                            "posz": -4730.0,
+                            "sizex": 1.5,
+                            "sizey": 3.5,
+                            "sizez": 1.5,
+                            "anglex": 65535,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 32",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 148,
+                                "scenef": "temp flag: 0x3 10",
+                                "tgreactitemid": 18,
+                                "subtype": "bonk",
+                                "drop_idx": 18,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "0F F0 00 95",
+                            "params2": "12 7F FF FF",
+                            "posx": 550.0,
+                            "posy": 300.0,
+                            "posz": -4130.0,
+                            "sizex": 1.5,
+                            "sizey": 3.5,
+                            "sizez": 1.5,
+                            "anglex": 65535,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 33",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 149,
+                                "scenef": "temp flag: 0x3 20",
+                                "tgreactitemid": 18,
+                                "subtype": "bonk",
+                                "drop_idx": 18,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "1F E0 00 96",
+                            "params2": "13 7F FF FF",
+                            "posx": 950.0,
+                            "posy": 300.0,
+                            "posz": -2860.0,
+                            "sizex": 0.800000011920929,
+                            "sizey": 1.5,
+                            "sizez": 0.800000011920929,
+                            "anglex": 65535,
+                            "angley": 32768,
+                            "anglez": 0,
+                            "id": "FC 34",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 150,
+                                "scenef": "temp flag: 0x3 40",
+                                "tgreactitemid": 19,
+                                "subtype": "slingshot",
+                                "drop_idx": 19,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_BLUE_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "1F E0 00 97",
+                            "params2": "13 7F FF FF",
+                            "posx": 530.0,
+                            "posy": 820.0,
+                            "posz": -10615.0,
+                            "sizex": 0.800000011920929,
+                            "sizey": 1.5,
+                            "sizez": 0.800000011920929,
+                            "anglex": 65535,
+                            "angley": 60075,
+                            "anglez": 0,
+                            "id": "FC 35",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 151,
+                                "scenef": "temp flag: 0x3 80",
+                                "tgreactitemid": 19,
+                                "subtype": "slingshot",
+                                "drop_idx": 19,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_BLUE_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "1F E1 00 98",
+                            "params2": "06 7F FF FF",
+                            "posx": 1370.0,
+                            "posy": 820.0,
+                            "posz": -10615.0,
+                            "sizex": 0.800000011920929,
+                            "sizey": 1.5,
+                            "sizez": 0.800000011920929,
+                            "anglex": 65535,
+                            "angley": 5461,
+                            "anglez": 0,
+                            "id": "FC 36",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 152,
+                                "scenef": "temp flag: 0x2 01",
+                                "tgreactitemid": 6,
+                                "subtype": "slingshot",
+                                "drop_idx": 6,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 100
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "STAS": [
+                        {
+                            "params1": "07 FF 20 80",
+                            "params2": "2D FF FF FF",
+                            "posx": 550.0,
+                            "posy": -50.0,
+                            "posz": -3230.0,
+                            "sizex": 300.0,
+                            "sizey": 200.0,
+                            "sizez": 300.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 24",
+                            "name": "MassTag",
+                            "extra_info": {
+                                "shape": 15,
+                                "modelIndex": 0,
+                                "step": 8,
+                                "radius": 100,
+                                "affectedByTimeshift": 0,
+                                "activeInPresent": 1,
+                                "drop_idx": 45,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 7,
+                                            "ITEM_NONE": 92,
+                                            "ITEM_BLUE_RUPEE": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "07 FF 20 80",
+                            "params2": "2D FF FF FF",
+                            "posx": 1400.0,
+                            "posy": -50.0,
+                            "posz": -5150.0,
+                            "sizex": 200.0,
+                            "sizey": 200.0,
+                            "sizez": 400.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 25",
+                            "name": "MassTag",
+                            "extra_info": {
+                                "shape": 15,
+                                "modelIndex": 0,
+                                "step": 8,
+                                "radius": 100,
+                                "affectedByTimeshift": 0,
+                                "activeInPresent": 1,
+                                "drop_idx": 45,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 7,
+                                            "ITEM_NONE": 92,
+                                            "ITEM_BLUE_RUPEE": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "03 FF 20 A3",
+                            "params2": "2D FF FF FF",
+                            "posx": 1100.0,
+                            "posy": -50.0,
+                            "posz": -4800.0,
+                            "sizex": 200.0,
+                            "sizey": 200.0,
+                            "sizez": 300.0,
+                            "anglex": 0,
+                            "angley": 60075,
+                            "anglez": 0,
+                            "id": "FC 26",
+                            "name": "MassTag",
+                            "extra_info": {
+                                "shape": 15,
+                                "modelIndex": 3,
+                                "step": 10,
+                                "radius": 100,
+                                "affectedByTimeshift": 0,
+                                "activeInPresent": 1,
+                                "drop_idx": 45,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 7,
+                                            "ITEM_NONE": 92,
+                                            "ITEM_BLUE_RUPEE": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "03 FF 20 A3",
+                            "params2": "2D FF FF FF",
+                            "posx": 750.0,
+                            "posy": 350.0,
+                            "posz": -6150.0,
+                            "sizex": 200.0,
+                            "sizey": 200.0,
+                            "sizez": 300.0,
+                            "anglex": 0,
+                            "angley": 8192,
+                            "anglez": 0,
+                            "id": "FC 27",
+                            "name": "MassTag",
+                            "extra_info": {
+                                "shape": 15,
+                                "modelIndex": 3,
+                                "step": 10,
+                                "radius": 100,
+                                "affectedByTimeshift": 0,
+                                "activeInPresent": 1,
+                                "drop_idx": 45,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 7,
+                                            "ITEM_NONE": 92,
+                                            "ITEM_BLUE_RUPEE": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "03 FF 20 A3",
+                            "params2": "21 FF FF FF",
+                            "posx": 1250.0,
+                            "posy": 350.0,
+                            "posz": -6650.0,
+                            "sizex": 300.0,
+                            "sizey": 200.0,
+                            "sizez": 300.0,
+                            "anglex": 0,
+                            "angley": 60075,
+                            "anglez": 0,
+                            "id": "FC 28",
+                            "name": "MassTag",
+                            "extra_info": {
+                                "shape": 15,
+                                "modelIndex": 3,
+                                "step": 10,
+                                "radius": 100,
+                                "affectedByTimeshift": 0,
+                                "activeInPresent": 1,
+                                "drop_idx": 33,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 35,
+                                            "ITEM_NONE": 65
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "03 FC 50 83",
+                            "params2": "04 FF FF FF",
+                            "posx": 1066.0,
+                            "posy": 350.0,
+                            "posz": -8352.0,
+                            "sizex": 100.0,
+                            "sizey": 200.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 52429,
+                            "anglez": 0,
+                            "id": "FC 29",
+                            "name": "MassTag",
+                            "extra_info": {
+                                "shape": 15,
+                                "modelIndex": 3,
+                                "step": 8,
+                                "radius": 10,
+                                "affectedByTimeshift": 0,
+                                "activeInPresent": 1,
+                                "drop_idx": 4,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 100
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF FF 02",
+                            "params2": "FF FF FF FF",
+                            "posx": 800.0,
+                            "posy": 390.1500244140625,
+                            "posz": -6800.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 14",
+                            "name": "LBmaker"
+                        },
+                        {
+                            "params1": "FF FF 05 03",
+                            "params2": "FF FF FF FF",
+                            "posx": 1050.0,
+                            "posy": 390.1500244140625,
+                            "posz": -7000.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 15",
+                            "name": "LBmaker"
+                        },
+                        {
+                            "params1": "FF FF 16 02",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 390.1500244140625,
+                            "posz": -8300.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "00 16",
+                            "name": "LBmaker",
+                            "extra_info": {
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF 0F 02",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 390.1500244140625,
+                            "posz": -8900.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "00 17",
+                            "name": "LBmaker",
+                            "extra_info": {
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF F0 05 0F",
+                            "params2": "FF FF FF FF",
+                            "posx": 2500.0,
+                            "posy": 250.0,
+                            "posz": -10500.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "00 18",
+                            "name": "Fmaker",
+                            "extra_info": {
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF F0 05 0F",
+                            "params2": "FF FF FF FF",
+                            "posx": -500.0,
+                            "posy": 250.0,
+                            "posz": -10000.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "00 19",
+                            "name": "Fmaker",
+                            "extra_info": {
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF F0 05 0F",
+                            "params2": "FF FF FF FF",
+                            "posx": 2200.0,
+                            "posy": 250.0,
+                            "posz": -8300.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "00 1A",
+                            "name": "Fmaker",
+                            "extra_info": {
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF F0 03 0A",
+                            "params2": "FF FF FF FF",
+                            "posx": -300.0,
+                            "posy": 250.0,
+                            "posz": -7800.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "00 1B",
+                            "name": "Fmaker",
+                            "extra_info": {
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF F0 03 0F",
+                            "params2": "FF FF FF FF",
+                            "posx": 2000.0,
+                            "posy": -110.0,
+                            "posz": -5300.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1C",
+                            "name": "Fmaker"
+                        },
+                        {
+                            "params1": "FF F0 02 0F",
+                            "params2": "FF FF FF FF",
+                            "posx": -100.0,
+                            "posy": -110.0,
+                            "posz": -4300.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1D",
+                            "name": "Fmaker"
+                        },
+                        {
+                            "params1": "FF FF FF 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 950.0,
+                            "posy": -100.0,
+                            "posz": -2450.0,
+                            "sizex": 600.0,
+                            "sizey": 500.0,
+                            "sizez": 400.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 1F",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 0,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "00 FF FF 01",
+                            "params2": "FF DF FF FF",
+                            "posx": 950.0,
+                            "posy": -200.0,
+                            "posz": -7650.0,
+                            "sizex": 6000.0,
+                            "sizey": 3000.0,
+                            "sizez": 10000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 20",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 1
+                            }
+                        },
+                        {
+                            "params1": "01 FF FF 02",
+                            "params2": "FF DF FF FF",
+                            "posx": 950.0,
+                            "posy": -200.0,
+                            "posz": -2063.0,
+                            "sizex": 800.0,
+                            "sizey": 800.0,
+                            "sizez": 1600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 21",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 2
+                            }
+                        },
+                        {
+                            "params1": "02 FF FF 03",
+                            "params2": "FF DF FF FF",
+                            "posx": 950.0,
+                            "posy": 350.0,
+                            "posz": -9372.0,
+                            "sizex": 600.0,
+                            "sizey": 200.0,
+                            "sizez": 520.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65385,
+                            "id": "FC 22",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 105,
+                                "untrigscenef": "scene flag: 0xC 02",
+                                "camidx": 3
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF C0",
+                            "params2": "FF 5F FF FF",
+                            "posx": 950.0,
+                            "posy": -50.0,
+                            "posz": -2950.0,
+                            "sizex": 400.0,
+                            "sizey": 200.0,
+                            "sizez": 200.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 23",
+                            "name": "SwAreaT",
+                            "extra_info": {
+                                "setstoryfid": 2047,
+                                "setstoryf": "-",
+                                "unsetstoryfid": 2047,
+                                "unsetstoryf": "-",
+                                "setscenefid": 192,
+                                "setscenef": "zone temp flag: 0x1 01",
+                                "unsetscenefid": 255,
+                                "unsetscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF DF",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 1900.0,
+                            "posz": -9300.0,
+                            "sizex": 4000.0,
+                            "sizey": 2000.0,
+                            "sizez": 4000.0,
+                            "anglex": 65172,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 2C",
+                            "name": "BtlTg"
+                        },
+                        {
+                            "params1": "FF FF CC 82",
+                            "params2": "FF FF FF FF",
+                            "posx": -800.0,
+                            "posy": 500.0,
+                            "posz": -11500.0,
+                            "sizex": 600.0,
+                            "sizey": 200.0,
+                            "sizez": 400.0,
+                            "anglex": 0,
+                            "angley": 8100,
+                            "anglez": 0,
+                            "id": "00 2D",
+                            "name": "FairyTa",
+                            "extra_info": {
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF A5",
+                            "params2": "FF FF FF FF",
+                            "posx": 2000.0,
+                            "posy": 335.0500183105469,
+                            "posz": -8000.0,
+                            "sizex": 800.0,
+                            "sizey": 400.0,
+                            "sizez": 800.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "00 2E",
+                            "name": "InsctTg",
+                            "extra_info": {
+                                "count": 5,
+                                "subtype": "Butterfly with viewclip",
+                                "anotherSubtype": "default",
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF A5",
+                            "params2": "FF FF FF FF",
+                            "posx": -600.0,
+                            "posy": 435.0500183105469,
+                            "posz": -10100.0,
+                            "sizex": 800.0,
+                            "sizey": 400.0,
+                            "sizez": 800.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "00 2F",
+                            "name": "InsctTg",
+                            "extra_info": {
+                                "count": 5,
+                                "subtype": "Butterfly with viewclip",
+                                "anotherSubtype": "default",
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF A3",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 759.9300537109375,
+                            "posz": -10800.0,
+                            "sizex": 600.0,
+                            "sizey": 300.0,
+                            "sizez": 600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "00 30",
+                            "name": "InsctTg",
+                            "extra_info": {
+                                "count": 3,
+                                "subtype": "Butterfly with viewclip",
+                                "anotherSubtype": "default",
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF A2",
+                            "params2": "FF FF FF FF",
+                            "posx": 200.0,
+                            "posy": 385.0500183105469,
+                            "posz": -7600.0,
+                            "sizex": 400.0,
+                            "sizey": 200.0,
+                            "sizez": 400.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "00 31",
+                            "name": "InsctTg",
+                            "extra_info": {
+                                "count": 2,
+                                "subtype": "Butterfly with viewclip",
+                                "anotherSubtype": "default",
+                                "viewclip_index": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF 01 04",
+                            "params2": "FF FF FF FF",
+                            "posx": 2300.0,
+                            "posy": -30.0,
+                            "posz": -4070.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 45512,
+                            "anglez": 0,
+                            "id": "FC 37",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF 01 04",
+                            "params2": "FF FF FF FF",
+                            "posx": 2420.0,
+                            "posy": -30.0,
+                            "posz": -5230.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 50973,
+                            "anglez": 0,
+                            "id": "FC 38",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF 01 04",
+                            "params2": "FF FF FF FF",
+                            "posx": -490.0,
+                            "posy": -30.0,
+                            "posz": -4060.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 39",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF 01 04",
+                            "params2": "FF FF FF FF",
+                            "posx": -300.0,
+                            "posy": -30.0,
+                            "posz": -5220.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 14745,
+                            "anglez": 0,
+                            "id": "FC 3A",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF 01 04",
+                            "params2": "FF FF FF FF",
+                            "posx": 20.0,
+                            "posy": -30.0,
+                            "posz": -6600.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 3B",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF 01 04",
+                            "params2": "FF FF FF FF",
+                            "posx": 1920.0,
+                            "posy": -30.0,
+                            "posz": -6600.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 3C",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF 01 04",
+                            "params2": "FF FF FF FF",
+                            "posx": -1700.0,
+                            "posy": 335.0,
+                            "posz": -9910.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 3D",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF 01 04",
+                            "params2": "FF FF FF FF",
+                            "posx": -950.0,
+                            "posy": 335.0,
+                            "posz": -11630.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 8192,
+                            "anglez": 0,
+                            "id": "FC 3E",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF 01 04",
+                            "params2": "FF FF FF FF",
+                            "posx": 300.0,
+                            "posy": 335.0,
+                            "posz": -12380.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 7281,
+                            "anglez": 0,
+                            "id": "FC 3F",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF 01 04",
+                            "params2": "FF FF FF FF",
+                            "posx": 1520.0,
+                            "posy": 335.0,
+                            "posz": -12210.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 59711,
+                            "anglez": 0,
+                            "id": "FC 40",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF 01 04",
+                            "params2": "FF FF FF FF",
+                            "posx": 2770.0,
+                            "posy": 335.0,
+                            "posz": -11350.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 57344,
+                            "anglez": 0,
+                            "id": "FC 41",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF 01 04",
+                            "params2": "FF FF FF FF",
+                            "posx": 3750.0,
+                            "posy": 335.0,
+                            "posz": -9990.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 42",
+                            "name": "EffGnT"
+                        },
+                        {
+                            "params1": "FF FF FF C5",
+                            "params2": "FF FF FF FF",
+                            "posx": 2300.0,
+                            "posy": -125.0,
+                            "posz": -4070.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 250.0,
+                            "anglex": 0,
+                            "angley": 45512,
+                            "anglez": 0,
+                            "id": "FC 43",
+                            "name": "ActTag"
+                        },
+                        {
+                            "params1": "FF FF FF C5",
+                            "params2": "FF FF FF FF",
+                            "posx": 2420.0,
+                            "posy": -125.0,
+                            "posz": -5230.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 250.0,
+                            "anglex": 0,
+                            "angley": 50973,
+                            "anglez": 0,
+                            "id": "FC 44",
+                            "name": "ActTag"
+                        },
+                        {
+                            "params1": "FF FF FF C5",
+                            "params2": "FF FF FF FF",
+                            "posx": -490.0,
+                            "posy": -125.0,
+                            "posz": -4060.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 250.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 45",
+                            "name": "ActTag"
+                        },
+                        {
+                            "params1": "FF FF FF C5",
+                            "params2": "FF FF FF FF",
+                            "posx": -300.0,
+                            "posy": -125.0,
+                            "posz": -5220.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 250.0,
+                            "anglex": 0,
+                            "angley": 14745,
+                            "anglez": 0,
+                            "id": "FC 46",
+                            "name": "ActTag"
+                        },
+                        {
+                            "params1": "FF FF FF C5",
+                            "params2": "FF FF FF FF",
+                            "posx": 20.0,
+                            "posy": -125.0,
+                            "posz": -6670.0,
+                            "sizex": 500.0,
+                            "sizey": 300.0,
+                            "sizez": 200.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 47",
+                            "name": "ActTag"
+                        },
+                        {
+                            "params1": "FF FF FF C5",
+                            "params2": "FF FF FF FF",
+                            "posx": 1920.0,
+                            "posy": -125.0,
+                            "posz": -6670.0,
+                            "sizex": 500.0,
+                            "sizey": 300.0,
+                            "sizez": 200.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 48",
+                            "name": "ActTag"
+                        },
+                        {
+                            "params1": "FF FF FF C5",
+                            "params2": "FF FF FF FF",
+                            "posx": -1700.0,
+                            "posy": 225.0,
+                            "posz": -9910.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 250.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 49",
+                            "name": "ActTag"
+                        },
+                        {
+                            "params1": "FF FF FF C5",
+                            "params2": "FF FF FF FF",
+                            "posx": -950.0,
+                            "posy": 225.0,
+                            "posz": -11630.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 250.0,
+                            "anglex": 0,
+                            "angley": 8192,
+                            "anglez": 0,
+                            "id": "FC 4A",
+                            "name": "ActTag"
+                        },
+                        {
+                            "params1": "FF FF FF C5",
+                            "params2": "FF FF FF FF",
+                            "posx": 300.0,
+                            "posy": 225.0,
+                            "posz": -12380.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 250.0,
+                            "anglex": 0,
+                            "angley": 7281,
+                            "anglez": 0,
+                            "id": "FC 4B",
+                            "name": "ActTag"
+                        },
+                        {
+                            "params1": "FF FF FF C5",
+                            "params2": "FF FF FF FF",
+                            "posx": 1520.0,
+                            "posy": 225.0,
+                            "posz": -12210.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 250.0,
+                            "anglex": 0,
+                            "angley": 59711,
+                            "anglez": 0,
+                            "id": "FC 4C",
+                            "name": "ActTag"
+                        },
+                        {
+                            "params1": "FF FF FF C5",
+                            "params2": "FF FF FF FF",
+                            "posx": 2770.0,
+                            "posy": 225.0,
+                            "posz": -11350.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 250.0,
+                            "anglex": 0,
+                            "angley": 57344,
+                            "anglez": 0,
+                            "id": "FC 4D",
+                            "name": "ActTag"
+                        },
+                        {
+                            "params1": "FF FF FF C5",
+                            "params2": "FF FF FF FF",
+                            "posx": 3750.0,
+                            "posy": 225.0,
+                            "posz": -9990.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 250.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 4E",
+                            "name": "ActTag"
+                        },
+                        {
+                            "params1": "02 FF FF 04",
+                            "params2": "FF DF FF FF",
+                            "posx": 2346.984130859375,
+                            "posy": -125.0,
+                            "posz": -4052.8994140625,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 45512,
+                            "anglez": 65535,
+                            "id": "FC 4F",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 4
+                            }
+                        },
+                        {
+                            "params1": "02 FF FF 04",
+                            "params2": "FF DF FF FF",
+                            "posx": 2469.240234375,
+                            "posy": -125.0,
+                            "posz": -5238.681640625,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 50973,
+                            "anglez": 65535,
+                            "id": "FC 50",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 4
+                            }
+                        },
+                        {
+                            "params1": "02 FF FF 04",
+                            "params2": "FF DF FF FF",
+                            "posx": -540.0,
+                            "posy": -125.0,
+                            "posz": -4060.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 65535,
+                            "id": "FC 51",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 4
+                            }
+                        },
+                        {
+                            "params1": "02 FF FF 04",
+                            "params2": "FF DF FF FF",
+                            "posx": -349.38409423828125,
+                            "posy": -125.0,
+                            "posz": -5227.822265625,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 14745,
+                            "anglez": 65535,
+                            "id": "FC 52",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 4
+                            }
+                        },
+                        {
+                            "params1": "02 FF FF 04",
+                            "params2": "FF DF FF FF",
+                            "posx": 20.0,
+                            "posy": -125.0,
+                            "posz": -6670.0,
+                            "sizex": 500.0,
+                            "sizey": 300.0,
+                            "sizez": 200.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 53",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 4
+                            }
+                        },
+                        {
+                            "params1": "02 FF FF 04",
+                            "params2": "FF DF FF FF",
+                            "posx": 1920.0,
+                            "posy": -125.0,
+                            "posz": -6670.0,
+                            "sizex": 500.0,
+                            "sizey": 300.0,
+                            "sizez": 200.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 54",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 4
+                            }
+                        },
+                        {
+                            "params1": "02 FF FF 04",
+                            "params2": "FF DF FF FF",
+                            "posx": -1750.0,
+                            "posy": 225.0,
+                            "posz": -9910.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 65535,
+                            "id": "FC 55",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 4
+                            }
+                        },
+                        {
+                            "params1": "02 FF FF 04",
+                            "params2": "FF DF FF FF",
+                            "posx": -985.3538208007812,
+                            "posy": 225.0,
+                            "posz": -11665.35546875,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 8192,
+                            "anglez": 65535,
+                            "id": "FC 56",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 4
+                            }
+                        },
+                        {
+                            "params1": "02 FF FF 04",
+                            "params2": "FF DF FF FF",
+                            "posx": 267.85986328125,
+                            "posy": 225.0,
+                            "posz": -12418.30078125,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 7281,
+                            "anglez": 65535,
+                            "id": "FC 57",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 4
+                            }
+                        },
+                        {
+                            "params1": "02 FF FF 04",
+                            "params2": "FF DF FF FF",
+                            "posx": 1546.49658203125,
+                            "posy": 225.0,
+                            "posz": -12252.40234375,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 59711,
+                            "anglez": 65535,
+                            "id": "FC 58",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 4
+                            }
+                        },
+                        {
+                            "params1": "02 FF FF 04",
+                            "params2": "FF DF FF FF",
+                            "posx": 2805.353759765625,
+                            "posy": 225.0,
+                            "posz": -11385.353515625,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 57344,
+                            "anglez": 65535,
+                            "id": "FC 59",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 4
+                            }
+                        },
+                        {
+                            "params1": "02 FF FF 04",
+                            "params2": "FF DF FF FF",
+                            "posx": 3800.0,
+                            "posy": 225.0,
+                            "posz": -9990.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 65535,
+                            "id": "FC 5A",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 4
+                            }
+                        },
+                        {
+                            "params1": "FF F0 FF FF",
+                            "params2": "FF DF FF FF",
+                            "posx": 950.0,
+                            "posy": 100.0,
+                            "posz": 10000.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 63",
+                            "name": "Dowsing",
+                            "extra_info": {
+                                "option": "Faron Trial",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF F5 FF FF",
+                            "params2": "FF DF FF FF",
+                            "posx": 950.0,
+                            "posy": 100.0,
+                            "posz": 10000.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 64",
+                            "name": "Dowsing",
+                            "extra_info": {
+                                "option": "Water Basin",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF F8 FF FF",
+                            "params2": "FF DF FF FF",
+                            "posx": 950.0,
+                            "posy": 100.0,
+                            "posz": 10000.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 65",
+                            "name": "Dowsing",
+                            "extra_info": {
+                                "option": "Plant",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag"
+                            }
+                        }
+                    ],
+                    "SNDT": [
+                        {
+                            "params1": "FF 01 FF 1F",
+                            "params2": "FF FF FF FF",
+                            "posx": 2300.0,
+                            "posy": -110.0,
+                            "posz": -4070.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 45512,
+                            "anglez": 0,
+                            "id": "FC 66",
+                            "name": "TgSound"
+                        },
+                        {
+                            "params1": "FF 01 FF 0B",
+                            "params2": "FF FF FF FF",
+                            "posx": 2420.0,
+                            "posy": -110.0,
+                            "posz": -5230.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 50973,
+                            "anglez": 0,
+                            "id": "FC 67",
+                            "name": "TgSound"
+                        },
+                        {
+                            "params1": "FF 01 FF 0B",
+                            "params2": "FF FF FF FF",
+                            "posx": -490.0,
+                            "posy": -110.0,
+                            "posz": -4060.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 68",
+                            "name": "TgSound"
+                        },
+                        {
+                            "params1": "FF 01 FF 1F",
+                            "params2": "FF FF FF FF",
+                            "posx": -300.0,
+                            "posy": -110.0,
+                            "posz": -5220.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 14745,
+                            "anglez": 0,
+                            "id": "FC 69",
+                            "name": "TgSound"
+                        },
+                        {
+                            "params1": "FF 01 FF 10",
+                            "params2": "FF FF FF FF",
+                            "posx": 20.0,
+                            "posy": -110.0,
+                            "posz": -6620.0,
+                            "sizex": 500.0,
+                            "sizey": 360.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 6A",
+                            "name": "TgSound"
+                        },
+                        {
+                            "params1": "FF 01 FF 10",
+                            "params2": "FF FF FF FF",
+                            "posx": 1920.0,
+                            "posy": -110.0,
+                            "posz": -6620.0,
+                            "sizex": 500.0,
+                            "sizey": 360.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 6B",
+                            "name": "TgSound"
+                        },
+                        {
+                            "params1": "FF 01 FF 0B",
+                            "params2": "FF FF FF FF",
+                            "posx": -1700.0,
+                            "posy": 250.0,
+                            "posz": -9910.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 6C",
+                            "name": "TgSound"
+                        },
+                        {
+                            "params1": "FF 01 FF 20",
+                            "params2": "FF FF FF FF",
+                            "posx": -950.0,
+                            "posy": 250.0,
+                            "posz": -11630.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 8192,
+                            "anglez": 0,
+                            "id": "FC 6D",
+                            "name": "TgSound"
+                        },
+                        {
+                            "params1": "FF 01 FF 1F",
+                            "params2": "FF FF FF FF",
+                            "posx": 300.0,
+                            "posy": 250.0,
+                            "posz": -12380.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 7281,
+                            "anglez": 0,
+                            "id": "FC 6E",
+                            "name": "TgSound"
+                        },
+                        {
+                            "params1": "FF 01 FF 0B",
+                            "params2": "FF FF FF FF",
+                            "posx": 1520.0,
+                            "posy": 250.0,
+                            "posz": -12210.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 59711,
+                            "anglez": 0,
+                            "id": "FC 6F",
+                            "name": "TgSound"
+                        },
+                        {
+                            "params1": "FF 01 FF 1F",
+                            "params2": "FF FF FF FF",
+                            "posx": 2770.0,
+                            "posy": 250.0,
+                            "posz": -11350.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 57344,
+                            "anglez": 0,
+                            "id": "FC 70",
+                            "name": "TgSound"
+                        },
+                        {
+                            "params1": "FF 01 FF 0B",
+                            "params2": "FF FF FF FF",
+                            "posx": 3750.0,
+                            "posy": 250.0,
+                            "posz": -9990.0,
+                            "sizex": 400.0,
+                            "sizey": 1500.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 71",
+                            "name": "TgSound"
+                        },
+                        {
+                            "params1": "0F FF FF 01",
+                            "params2": "FF FF FF FF",
+                            "posx": 900.0,
+                            "posy": -300.0,
+                            "posz": -9400.0,
+                            "sizex": 6850.0,
+                            "sizey": 5400.0,
+                            "sizez": 6900.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 72",
+                            "name": "TgSndAr"
+                        }
+                    ]
+                },
+                "l1": {
+                    "OBJN": [
+                        "EvntTag"
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF 68 02",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": 350.0,
+                            "posz": -6300.0,
+                            "sizex": 1500.0,
+                            "sizey": 100.0,
+                            "sizez": 750.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 73",
+                            "name": "EvntTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "setscenefid": 104,
+                                "setscenef": "scene flag: 0xC 01",
+                                "eventIdx": 2,
+                                "Event Name": "B100_1Tenbo",
+                                "subtype": "-"
+                            }
+                        }
+                    ]
+                },
+                "l2": {
+                    "OBJN": [
+                        "NpcTke",
+                        "ScChang"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF E0 17 F2",
+                            "params2": "FF 1F FF FF",
+                            "posx": 950.0,
+                            "posy": 390.1500244140625,
+                            "posz": -9380.0,
+                            "anglex": 27391,
+                            "angley": 65535,
+                            "anglez": 20153,
+                            "id": "FC 73",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 5,
+                                "trigstoryf": "Beat Skyview (Faron Woods, Deep Woods layer 2 / Eldin Volcano, Digging Mitts Cave, FS Entrance, Volcano Summit Waterfall, Thrill Digger layer 1 / Skyview Spring layer 2 / Skyview Boss Room layer 2, ET Boss Room Layer 1)",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 20153,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 106,
+                                "untrigscenef": "scene flag: 0xC 04",
+                                "trigareaindex": 255
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "C3 FF FF 01",
+                            "params2": "FF 5F FF FF",
+                            "posx": 950.0,
+                            "posy": -200.0,
+                            "posz": -6750.0,
+                            "sizex": 13000.0,
+                            "sizey": 3000.0,
+                            "sizez": 13000.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 74",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 1,
+                                "trigscenefid": 195,
+                                "trigscenef": "zone temp flag: 0x1 08",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        }
+                    ]
+                },
+                "l3": {
+                    "OBJN": [
+                        "HolyWtr",
+                        "NpcTke",
+                        "EvntTag",
+                        "ScChang"
+                    ],
+                    "ARCN": [
+                        "GetBottleHoly"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FF 16",
+                            "params2": "FF 1F FF FF",
+                            "posx": -950.0,
+                            "posy": 250.0,
+                            "posz": -11630.0,
+                            "anglex": 49860,
+                            "angley": 65535,
+                            "anglez": 20154,
+                            "id": "FC 73",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 20154,
+                                "trigscenefid": 196,
+                                "trigscenef": "zone temp flag: 0x1 10",
+                                "untrigscenefid": 194,
+                                "untrigscenef": "zone temp flag: 0x1 04",
+                                "trigareaindex": 255
+                            }
+                        },
+                        {
+                            "params1": "FF E1 03 F2",
+                            "params2": "FF 1F FF FF",
+                            "posx": 950.0,
+                            "posy": 0.0,
+                            "posz": -3350.0,
+                            "anglex": 27903,
+                            "angley": 65535,
+                            "anglez": 20119,
+                            "id": "FC 74",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 64,
+                                "trigstoryf": "Set when Water Dragon asks for Sacred Water (Sacred Water dowsing)",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 20119,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 108,
+                                "untrigscenef": "scene flag: 0xC 10",
+                                "trigareaindex": 255
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "C3 FF FF 04",
+                            "params2": "FF 5F FF FF",
+                            "posx": 950.0,
+                            "posy": -200.0,
+                            "posz": -6750.0,
+                            "sizex": 13000.0,
+                            "sizey": 3000.0,
+                            "sizez": 13000.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 75",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 4,
+                                "trigscenefid": 195,
+                                "trigscenef": "zone temp flag: 0x1 08",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -870.0908203125,
+                            "posy": 250.0,
+                            "posz": -11571.3251953125,
+                            "sizex": 600.0,
+                            "sizey": 1000.0,
+                            "sizez": 600.0,
+                            "anglex": 0,
+                            "angley": 8100,
+                            "anglez": 0,
+                            "id": "FC 76",
+                            "name": "HolyWtr"
+                        },
+                        {
+                            "params1": "FF C1 C4 06",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": -200.0,
+                            "posz": -6750.0,
+                            "sizex": 13000.0,
+                            "sizey": 3000.0,
+                            "sizez": 13000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 77",
+                            "name": "EvntTag",
+                            "extra_info": {
+                                "trigscenefid": 193,
+                                "trigscenef": "zone temp flag: 0x1 02",
+                                "setscenefid": 196,
+                                "setscenef": "zone temp flag: 0x1 10",
+                                "eventIdx": 6,
+                                "Event Name": "B100_1Water",
+                                "subtype": "-"
+                            }
+                        }
+                    ]
+                },
+                "l4": {
+                    "OBJN": [
+                        "HolyWtr"
+                    ],
+                    "ARCN": [
+                        "GetBottleHoly"
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -870.0908203125,
+                            "posy": 250.0,
+                            "posz": -11571.3251953125,
+                            "sizex": 600.0,
+                            "sizey": 1000.0,
+                            "sizez": 600.0,
+                            "anglex": 0,
+                            "angley": 8100,
+                            "anglez": 0,
+                            "id": "FC 73",
+                            "name": "HolyWtr"
+                        }
+                    ]
+                },
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {
+                    "OBJN": [
+                        "V_Clip"
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF F1 C0",
+                            "params2": "FF FF FF FF",
+                            "posx": 950.0,
+                            "posy": -200.0,
+                            "posz": -6750.0,
+                            "sizex": 13000.0,
+                            "sizey": 4000.0,
+                            "sizez": 13000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 73",
+                            "name": "V_Clip",
+                            "extra_info": {
+                                "viewclip_index": 0,
+                                "behavior": "Unload",
+                                "areaIdx": 15
+                            }
+                        }
+                    ]
+                },
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}

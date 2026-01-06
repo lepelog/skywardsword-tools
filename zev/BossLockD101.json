@@ -1,0 +1,220 @@
+{
+    "header": {
+        "magic": 30554,
+        "evntcount": 1,
+        "actorcount": 3,
+        "unk1count": 5,
+        "unk2count": 5,
+        "unk3count": 5,
+        "alwaysev": "45 76",
+        "unk4count": 1,
+        "unk5count": 7,
+        "unk6count": 9
+    },
+    "evnts": [
+        {
+            "name": "DoorBossRightD101",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 0,
+            "actorcount": 3,
+            "offset": 20,
+            "actors": [
+                {
+                    "name": "@starter",
+                    "unk1": 11,
+                    "unk2": 0,
+                    "actindex": 0,
+                    "actcount": 3,
+                    "offset": 60,
+                    "acts1": [
+                        {
+                            "name": "Wait",
+                            "waitfor": -1,
+                            "actorindex": 0,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 0,
+                            "dummy1": 1,
+                            "offset": 180
+                        },
+                        {
+                            "name": "RightAnswer",
+                            "waitfor": 4,
+                            "actorindex": 0,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 1,
+                            "dummy1": 1,
+                            "offset": 208
+                        },
+                        {
+                            "name": "SoundCorrectSE",
+                            "waitfor": -1,
+                            "actorindex": 0,
+                            "unk3": 2,
+                            "dummy0": 0,
+                            "thisindex": 2,
+                            "dummy1": 1,
+                            "offset": 236
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "init",
+                            "eventSubManagerIndex": 12,
+                            "thisindex": 0,
+                            "unk3Index": 0,
+                            "unk3Count": 0,
+                            "offset": 320,
+                            "data": []
+                        },
+                        {
+                            "name": "rAns",
+                            "eventSubManagerIndex": 7,
+                            "thisindex": 1,
+                            "unk3Index": 0,
+                            "unk3Count": 0,
+                            "offset": 332,
+                            "data": []
+                        },
+                        {
+                            "name": "se  ",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 2,
+                            "unk3Index": 0,
+                            "unk3Count": 0,
+                            "offset": 344,
+                            "data": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 0,
+                    "actindex": 3,
+                    "actcount": 1,
+                    "offset": 100,
+                    "acts1": [
+                        {
+                            "name": "Fix",
+                            "waitfor": -1,
+                            "actorindex": 1,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 3,
+                            "dummy1": 1,
+                            "offset": 264
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "fixd",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 3,
+                            "unk3Index": 0,
+                            "unk3Count": 4,
+                            "offset": 356,
+                            "data": [
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 0,
+                                    "datalen": 3,
+                                    "offset": 380,
+                                    "data": [
+                                        60.0,
+                                        325.0,
+                                        5.0
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 3,
+                                    "datalen": 3,
+                                    "offset": 392,
+                                    "data": [
+                                        -110.0,
+                                        250.0,
+                                        410.0
+                                    ]
+                                },
+                                {
+                                    "name": "fovy",
+                                    "unk1": 2,
+                                    "datatype": 1,
+                                    "dataindex": 6,
+                                    "datalen": 1,
+                                    "offset": 404,
+                                    "data": [
+                                        45.0
+                                    ]
+                                },
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 0,
+                                    "datalen": 9,
+                                    "offset": 416,
+                                    "data": "@starter"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Director",
+                    "unk1": 0,
+                    "unk2": 0,
+                    "actindex": 4,
+                    "actcount": 1,
+                    "offset": 140,
+                    "acts1": [
+                        {
+                            "name": "Count",
+                            "waitfor": -1,
+                            "actorindex": 2,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 4,
+                            "dummy1": 1,
+                            "offset": 292
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "time",
+                            "eventSubManagerIndex": 0,
+                            "thisindex": 4,
+                            "unk3Index": 4,
+                            "unk3Count": 1,
+                            "offset": 368,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 0,
+                                    "datalen": 1,
+                                    "offset": 428,
+                                    "data": [
+                                        15
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "intsoffset": 440,
+    "floatsoffset": 444,
+    "stringssoffset": 472
+}

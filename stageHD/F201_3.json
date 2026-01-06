@@ -1,0 +1,2968 @@
+{
+    "LYSE": [
+        {
+            "story_flag": 13,
+            "night": 0,
+            "layer": 4
+        },
+        {
+            "story_flag": 677,
+            "night": 0,
+            "layer": 3
+        },
+        {
+            "story_flag": 48,
+            "night": 0,
+            "layer": 2
+        },
+        {
+            "story_flag": 5,
+            "night": 0,
+            "layer": 1
+        }
+    ],
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 160000.0,
+        "wtf3": 8000.0,
+        "byte1": 0,
+        "flagindex": 5,
+        "byte3": 0,
+        "byte4": 6,
+        "unk1": "FF 00",
+        "map_name_id": 6,
+        "unk2": "FF"
+    },
+    "RMPL": {
+        "0": []
+    },
+    "LYLT": [
+        {
+            "layer": 3,
+            "demo_high": 85,
+            "demo_low": 1,
+            "dummy": -1
+        }
+    ],
+    "LAY ": {
+        "l0": {
+            "OBJN": [
+                "MapMark",
+                "MapArea",
+                "TlpTag",
+                "Smoke",
+                "Vrbox"
+            ],
+            "ARCN": [
+                "Vrbox00",
+                "SmokeF200"
+            ],
+            "OBJ ": [
+                {
+                    "params1": "FF FF FF FC",
+                    "params2": "FF FF FF FF",
+                    "posx": -1445.0,
+                    "posy": 12435.0,
+                    "posz": 582.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "Smoke"
+                }
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 0.0,
+                    "sizex": 100.0,
+                    "sizey": 100.0,
+                    "sizez": 100.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "Vrbox"
+                },
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": -1000.0,
+                    "posy": -1200.0,
+                    "posz": -5900.0,
+                    "sizex": 9600.0,
+                    "sizey": 4000.0,
+                    "sizez": 13000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 02",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 0,
+                        "mapParams": 0
+                    }
+                },
+                {
+                    "params1": "83 FF 06 FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 0.0,
+                    "sizex": 100.0,
+                    "sizey": 100.0,
+                    "sizez": 100.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 03",
+                    "name": "TlpTag",
+                    "extra_info": {
+                        "scenefid": 131,
+                        "scenef": "temp flag: 0x1 08",
+                        "map_name_idx": 6,
+                        "name": "Volcano \\nSummit"
+                    }
+                },
+                {
+                    "params1": "FF FF FF 01",
+                    "params2": "FF FF FF FF",
+                    "posx": 600.0,
+                    "posy": -1200.0,
+                    "posz": -2600.0,
+                    "sizex": 6000.0,
+                    "sizey": 4000.0,
+                    "sizez": 6000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 04",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 1,
+                        "mapParams": 0
+                    }
+                },
+                {
+                    "params1": "FF 8A DF F3",
+                    "params2": "FF 5F FF FF",
+                    "posx": 0.0,
+                    "posy": -500.0,
+                    "posz": -11600.0,
+                    "sizex": 100.0,
+                    "sizey": 100.0,
+                    "sizez": 100.0,
+                    "anglex": 65524,
+                    "angley": 0,
+                    "anglez": 15640,
+                    "id": "FC 05",
+                    "name": "MapMark",
+                    "extra_info": {
+                        "trigstoryfid": 173,
+                        "trigstoryf": "Fire Sanctuary Introductory Cutscene"
+                    }
+                }
+            ]
+        },
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "FILE": "00 00 FF FF",
+            "SCEN": [
+                {
+                    "name": "F201_1",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 1,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "D201",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 0,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F020",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 13,
+                    "night": 2,
+                    "transtype": 1,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                }
+            ],
+            "CAM ": [
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -700.0,
+                    "posy": 0.0,
+                    "posz": 4200.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 00",
+                    "name": "Field"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 2000.0,
+                    "posy": 0.0,
+                    "posz": -3100.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 01",
+                    "name": "mogu2"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 3300.0,
+                    "posy": 500.0,
+                    "posz": -3700.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 02",
+                    "name": "Dungeon"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 400.0,
+                    "posy": 700.0,
+                    "posz": -1900.0,
+                    "angle": 55.0,
+                    "unk2": "08 88 8A AB 00 00 00 03",
+                    "name": "Fixed"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -300.0,
+                    "posy": 400.0,
+                    "posz": -4400.0,
+                    "angle": 55.0,
+                    "unk2": "07 1C 7A 4F 00 00 00 04",
+                    "name": "FixesSlow"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 1000.0,
+                    "posy": 0.0,
+                    "posz": -8000.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 05",
+                    "name": "SlopeCam"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -500.0,
+                    "posy": 800.0,
+                    "posz": -4900.0,
+                    "angle": 55.0,
+                    "unk2": "1E 93 82 23 00 00 00 06",
+                    "name": "FixesSlow"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 2200.0,
+                    "posy": 100.0,
+                    "posz": -9500.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 07",
+                    "name": "DungeonGakemae"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -700.0,
+                    "posy": 400.0,
+                    "posz": -3800.0,
+                    "angle": 50.0,
+                    "unk2": "08 88 D4 A0 00 00 00 08",
+                    "name": "FixesSlow"
+                }
+            ],
+            "PATH": [
+                {
+                    "unk1": "FF 00",
+                    "pnt_start_idx": 0,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 01",
+                    "pnt_start_idx": 2,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 02",
+                    "pnt_start_idx": 4,
+                    "pnt_total_count": 3,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 03",
+                    "pnt_start_idx": 7,
+                    "pnt_total_count": 3,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 04",
+                    "pnt_start_idx": 10,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                }
+            ],
+            "PNT ": [
+                {
+                    "posx": 0.0,
+                    "posy": 300.0,
+                    "posz": 600.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": 300.0,
+                    "posz": 1600.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": -1050.0,
+                    "posz": -12760.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": -1500.0,
+                    "posz": -13660.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -300.0,
+                    "posy": 300.0,
+                    "posz": -2500.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": 300.0,
+                    "posz": -2800.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": 300.0,
+                    "posz": -3100.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 300.0,
+                    "posy": 0.0,
+                    "posz": -4800.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": -5200.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": -5500.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -303.17095947265625,
+                    "posy": -500.0,
+                    "posz": -10108.4765625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -348.6630859375,
+                    "posy": -500.0,
+                    "posz": -10253.96875,
+                    "unk": "FF FF FF FF"
+                }
+            ],
+            "SPTH": [
+                {
+                    "unk1": "FF 00",
+                    "pnt_start_idx": 0,
+                    "pnt_total_count": 7,
+                    "unk2": "FF FF FF FF 00 FF"
+                }
+            ],
+            "SPNT": [
+                {
+                    "posx": 0.0,
+                    "posy": 300.0,
+                    "posz": -1400.0,
+                    "unk": "0A FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": 300.0,
+                    "posz": -3100.0,
+                    "unk": "0A FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": -4300.0,
+                    "unk": "0A FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": -5500.0,
+                    "unk": "0A FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": -500.0,
+                    "posz": -6700.0,
+                    "unk": "0A FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": -500.0,
+                    "posz": -8200.0,
+                    "unk": "0A FF FF FF"
+                },
+                {
+                    "posx": 0.0,
+                    "posy": -500.0,
+                    "posz": -9700.0,
+                    "unk": "0A FF FF FF"
+                }
+            ],
+            "AREA": [
+                {
+                    "posx": 0.0,
+                    "posy": 200.0,
+                    "posz": -2800.0,
+                    "sizex": 1000.0,
+                    "sizey": 1000.0,
+                    "sizez": 1000.0,
+                    "angley": 0,
+                    "area_link": -1,
+                    "unk3": 1,
+                    "dummy": "FF FF FF",
+                    "index": 0
+                },
+                {
+                    "posx": 0.0,
+                    "posy": -600.0,
+                    "posz": -10400.0,
+                    "sizex": 2000.0,
+                    "sizey": 1000.0,
+                    "sizez": 1000.0,
+                    "angley": 0,
+                    "area_link": -1,
+                    "unk3": 0,
+                    "dummy": "FF FF FF",
+                    "index": 1
+                },
+                {
+                    "posx": 0.0,
+                    "posy": -600.0,
+                    "posz": -10500.0,
+                    "sizex": 1400.0,
+                    "sizey": 1400.0,
+                    "sizez": 1400.0,
+                    "angley": 0,
+                    "area_link": -1,
+                    "unk3": 1,
+                    "dummy": "FF FF FF",
+                    "index": 2
+                },
+                {
+                    "posx": 0.0,
+                    "posy": -600.0,
+                    "posz": -9550.0,
+                    "sizex": 1400.0,
+                    "sizey": 1000.0,
+                    "sizez": 600.0,
+                    "angley": 0,
+                    "area_link": 4,
+                    "unk3": 0,
+                    "dummy": "FF FF FF",
+                    "index": 3
+                },
+                {
+                    "posx": -1700.0,
+                    "posy": -600.0,
+                    "posz": -10400.0,
+                    "sizex": 1000.0,
+                    "sizey": 1000.0,
+                    "sizez": 1600.0,
+                    "angley": 0,
+                    "area_link": -1,
+                    "unk3": 0,
+                    "dummy": "FF FF FF",
+                    "index": 4
+                },
+                {
+                    "posx": 400.0,
+                    "posy": -600.0,
+                    "posz": -10500.0,
+                    "sizex": 4000.0,
+                    "sizey": 1000.0,
+                    "sizez": 1600.0,
+                    "angley": 0,
+                    "area_link": -1,
+                    "unk3": 0,
+                    "dummy": "FF FF FF",
+                    "index": 5
+                }
+            ],
+            "EVNT": [
+                {
+                    "unk1": "00 00",
+                    "story_flag1": 12,
+                    "story_flag2": -1,
+                    "unk2": "64 02 FF",
+                    "exit_id": 1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 55,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "demo01"
+                },
+                {
+                    "unk1": "00 3C",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 03",
+                    "exit_id": -1,
+                    "unk3": "01 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 108,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "JMAPAllMove"
+                },
+                {
+                    "unk1": "00 5A",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 04",
+                    "exit_id": -1,
+                    "unk3": "01 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 109,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "JMAPAllMove"
+                },
+                {
+                    "unk1": "00 96",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 00 08",
+                    "exit_id": -1,
+                    "unk3": "02 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "-"
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 8,
+                    "posx": 0.0,
+                    "posy": 300.0,
+                    "posz": -600.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 14,
+                    "posx": 0.0,
+                    "posy": -500.0,
+                    "posz": -11500.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 1
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 27,
+                    "posx": 0.0,
+                    "posy": -500.0,
+                    "posz": -9600.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 2
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 27,
+                    "posx": -600.0,
+                    "posy": -500.0,
+                    "posz": -10100.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 3
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "Soil",
+                        "Tubo",
+                        "FireObs",
+                        "NpcGra",
+                        "Butrfly",
+                        "HrpHint",
+                        "EMagma",
+                        "CBomSld",
+                        "AncJwls",
+                        "ELizaru",
+                        "BlsRock",
+                        "Scarab",
+                        "Fire",
+                        "Dowsing",
+                        "EvntTag",
+                        "FairyTa",
+                        "BtlTg",
+                        "CamTag",
+                        "Item",
+                        "saveObj",
+                        "TgSndMg",
+                        "WaterSW",
+                        "SpkTg2",
+                        "ActTag",
+                        "MassTag",
+                        "CharE",
+                        "Uground",
+                        "Bombf",
+                        "KanbanS",
+                        "TgSndAr",
+                        "InsctTg",
+                        "ScChang",
+                        "ELiTail",
+                        "FirePil",
+                        "InHole",
+                        "TgReact",
+                        "ClrWall",
+                        "GodCube"
+                    ],
+                    "ARCN": [
+                        "FireWall",
+                        "LizarufosA",
+                        "GetInsectScarab",
+                        "GossipStone",
+                        "GetSozaiD",
+                        "MoundShovelB",
+                        "MoleGroundM",
+                        "GetSozaiP",
+                        "GoronA",
+                        "PLMoleGlove",
+                        "BWallBF200",
+                        "InvisibleWall",
+                        "GetSozaiG",
+                        "PLSitDown",
+                        "LizarufosF",
+                        "SwitchWater",
+                        "Liza_tail",
+                        "Magma",
+                        "SwitchWaterBig",
+                        "InsectScarab"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "6E 03 0E 6E",
+                            "params2": "FF 7F FF FF",
+                            "posx": -1280.0,
+                            "posy": 0.0,
+                            "posz": -3450.0,
+                            "anglex": 65535,
+                            "angley": 20935,
+                            "anglez": 0,
+                            "id": "FC 03",
+                            "name": "BlsRock",
+                            "extra_info": {
+                                "scenefid": 110,
+                                "scenef": "scene flag: 0xC 40",
+                                "2scenefid": 110,
+                                "2scenef": "scene flag: 0xC 40"
+                            }
+                        },
+                        {
+                            "params1": "02 02 01 65",
+                            "params2": "FF 5F FF 0E",
+                            "posx": -600.0,
+                            "posy": -500.0,
+                            "posz": -10500.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 0B",
+                            "name": "saveObj",
+                            "extra_info": {
+                                "scenefid": 101,
+                                "scenef": "scene flag: 0xD 20",
+                                "subtype": "overworld",
+                                "scen_link": 2,
+                                "saveobj_name_id": 14,
+                                "name": "Inside the Volcano"
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF F8 12",
+                            "params2": "17 FF FF FF",
+                            "posx": 1100.0,
+                            "posy": 0.0,
+                            "posz": -4700.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 00",
+                            "name": "Soil",
+                            "extra_info": {
+                                "subtype": "Soil2",
+                                "scenefid": 129,
+                                "scenef": "temp flag: 0x1 02",
+                                "countInParams": 15,
+                                "isNotForInsects": 1,
+                                "isNotDugUp": 1,
+                                "spawn_scenefid": 255,
+                                "spawn_scenef": "no flag",
+                                "drop_idx": 23,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 60,
+                                            "ITEM_BLUE_RUPEE": 30,
+                                            "ITEM_ELDIN_ORE": 4,
+                                            "ITEM_NONE": 6
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF F8 22",
+                            "params2": "04 FF FF FF",
+                            "posx": 1200.0,
+                            "posy": 0.0,
+                            "posz": -4100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 01",
+                            "name": "Soil",
+                            "extra_info": {
+                                "subtype": "Soil2",
+                                "scenefid": 130,
+                                "scenef": "temp flag: 0x1 04",
+                                "countInParams": 15,
+                                "isNotForInsects": 1,
+                                "isNotDugUp": 1,
+                                "spawn_scenefid": 255,
+                                "spawn_scenef": "no flag",
+                                "drop_idx": 4,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 100
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF 69 76 5F",
+                            "params2": "FF FF FF FF",
+                            "posx": 900.0,
+                            "posy": 300.0,
+                            "posz": -2000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 02",
+                            "name": "KanbanS",
+                            "extra_info": {
+                                "talk_behaviour": 30303,
+                                "setscenefid": 105,
+                                "setscenef": "scene flag: 0xC 02"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 600.0,
+                            "posy": 0.0,
+                            "posz": -3150.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 04",
+                            "name": "Bombf"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 800.0,
+                            "posy": 0.0,
+                            "posz": -3250.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 05",
+                            "name": "Bombf"
+                        },
+                        {
+                            "params1": "FF FF F8 42",
+                            "params2": "18 FF FF 6E",
+                            "posx": -1450.0,
+                            "posy": 0.0,
+                            "posz": -3430.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 06",
+                            "name": "Soil",
+                            "extra_info": {
+                                "subtype": "Soil2",
+                                "scenefid": 132,
+                                "scenef": "temp flag: 0x1 10",
+                                "countInParams": 15,
+                                "isNotForInsects": 1,
+                                "isNotDugUp": 1,
+                                "spawn_scenefid": 110,
+                                "spawn_scenef": "scene flag: 0xC 40",
+                                "drop_idx": 24,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 30,
+                                            "ITEM_BLUE_RUPEE": 30,
+                                            "ITEM_RED_RUPEE": 20,
+                                            "ITEM_ELDIN_ORE": 20
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF F8 52",
+                            "params2": "17 FF FF 6E",
+                            "posx": -1360.0,
+                            "posy": 0.0,
+                            "posz": -3280.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 07",
+                            "name": "Soil",
+                            "extra_info": {
+                                "subtype": "Soil2",
+                                "scenefid": 133,
+                                "scenef": "temp flag: 0x1 20",
+                                "countInParams": 15,
+                                "isNotForInsects": 1,
+                                "isNotDugUp": 1,
+                                "spawn_scenefid": 110,
+                                "spawn_scenef": "scene flag: 0xC 40",
+                                "drop_idx": 23,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 60,
+                                            "ITEM_BLUE_RUPEE": 30,
+                                            "ITEM_ELDIN_ORE": 4,
+                                            "ITEM_NONE": 6
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FC 62",
+                            "params2": "FF FF FF FF",
+                            "posx": 540.0,
+                            "posy": 550.0,
+                            "posz": -2800.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 08",
+                            "name": "WaterSW",
+                            "extra_info": {
+                                "scenefid": 98,
+                                "scenef": "scene flag: 0xD 04"
+                            }
+                        },
+                        {
+                            "params1": "FF FC 08 63",
+                            "params2": "FF FF FF FF",
+                            "posx": -540.0,
+                            "posy": 250.0,
+                            "posz": -5200.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 09",
+                            "name": "WaterSW",
+                            "extra_info": {
+                                "scenefid": 99,
+                                "scenef": "scene flag: 0xD 08"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FD 64",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 100.0,
+                            "posz": -10901.470703125,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 0A",
+                            "name": "WaterSW",
+                            "extra_info": {
+                                "scenefid": 100,
+                                "scenef": "scene flag: 0xD 10"
+                            }
+                        },
+                        {
+                            "params1": "F0 FF 00 F8",
+                            "params2": "FF FF FF FF",
+                            "posx": -1200.0,
+                            "posy": 889.2900390625,
+                            "posz": -5600.0,
+                            "anglex": 63716,
+                            "angley": 13835,
+                            "anglez": 0,
+                            "id": "FC 0C",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 248,
+                                "storyf": "Goddess Cube near Fire Sanctuary Entrance"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 01",
+                            "params2": "FF FF FF FF",
+                            "posx": 2200.0,
+                            "posy": 0.0,
+                            "posz": -3600.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 0D",
+                            "name": "Uground",
+                            "extra_info": {
+                                "subtype": "MoleGroundM"
+                            }
+                        },
+                        {
+                            "params1": "FF C3 FF 67",
+                            "params2": "FF FF FF FF",
+                            "posx": 1800.0,
+                            "posy": 0.0,
+                            "posz": -4000.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 0E",
+                            "name": "InHole"
+                        },
+                        {
+                            "params1": "FF 0D A2 5E",
+                            "params2": "FF FF FF FF",
+                            "posx": 3200.0,
+                            "posy": 45.0,
+                            "posz": -4100.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 0F",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 104,
+                                "scenef": "scene flag: 0xC 01",
+                                "itemid": 94,
+                                "item": "Heart Piece",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 1
+                            }
+                        },
+                        {
+                            "params1": "3A 83 3C FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": -300.0,
+                            "posy": 300.0,
+                            "posz": -2500.0,
+                            "anglex": 1023,
+                            "angley": 24576,
+                            "anglez": 30305,
+                            "id": "FC 10",
+                            "name": "NpcGra",
+                            "extra_info": {
+                                "trigstoryfid": 207,
+                                "trigstoryf": "Eldin Trial Completed (removes fi trigger in front of Volcano Summit)",
+                                "untrigstoryfid": 468,
+                                "untrigstoryf": "Goron Text after Watering 1st Frog",
+                                "talk_behaviour": 30305
+                            }
+                        },
+                        {
+                            "params1": "3A A7 50 FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 300.0,
+                            "posy": 0.0,
+                            "posz": -4800.0,
+                            "anglex": 1023,
+                            "angley": 40960,
+                            "anglez": 30307,
+                            "id": "FC 11",
+                            "name": "NpcGra",
+                            "extra_info": {
+                                "trigstoryfid": 468,
+                                "trigstoryf": "Goron Text after Watering 1st Frog",
+                                "untrigstoryfid": 469,
+                                "untrigstoryf": "Goron Text after Watering 2nd frog",
+                                "talk_behaviour": 30307
+                            }
+                        },
+                        {
+                            "params1": "01 A7 54 FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 500.0,
+                            "posy": -500.0,
+                            "posz": -10200.0,
+                            "anglex": 65535,
+                            "angley": 39140,
+                            "anglez": 30309,
+                            "id": "FC 12",
+                            "name": "NpcGra",
+                            "extra_info": {
+                                "trigstoryfid": 469,
+                                "trigstoryf": "Goron Text after Watering 2nd frog",
+                                "untrigstoryfid": 13,
+                                "untrigstoryf": "Beat Fire Sanctuary (Sealed Temple layer 3 / Sealed Grounds layer 3 / Behind The Temple layer 4 / FS Boss Room layer 2 /  FS Entrance layer 4)",
+                                "talk_behaviour": 30309
+                            }
+                        },
+                        {
+                            "params1": "FF FF FC 63",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": -5300.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 13",
+                            "name": "FireObs",
+                            "extra_info": {
+                                "scenefid": 99,
+                                "scenef": "scene flag: 0xD 08"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FC 74",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 300.0,
+                            "posz": -2900.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 14",
+                            "name": "FireObs",
+                            "extra_info": {
+                                "scenefid": 116,
+                                "scenef": "scene flag: 0xF 10"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FD 64",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": -500.0,
+                            "posz": -11240.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 15",
+                            "name": "FireObs",
+                            "extra_info": {
+                                "scenefid": 100,
+                                "scenef": "scene flag: 0xD 10"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "01 FF FF FF",
+                            "posx": 2050.0,
+                            "posy": -500.0,
+                            "posz": -10950.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 16",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 1,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 20,
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_BLUE_RUPEE": 4,
+                                            "ITEM_NONE": 36
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 2250.0,
+                            "posy": -500.0,
+                            "posz": -10950.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 17",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "01 FF FF FF",
+                            "posx": 2450.0,
+                            "posy": -500.0,
+                            "posz": -10950.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 18",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 1,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 20,
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_BLUE_RUPEE": 4,
+                                            "ITEM_NONE": 36
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "07 FF FF FF",
+                            "posx": 2150.0,
+                            "posy": -500.0,
+                            "posz": -11050.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 19",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "07 FF FF FF",
+                            "posx": 2350.0,
+                            "posy": -500.0,
+                            "posz": -11050.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1A",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "01 FF FF FF",
+                            "posx": -2150.0,
+                            "posy": -500.0,
+                            "posz": -11100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1B",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 1,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 20,
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_BLUE_RUPEE": 4,
+                                            "ITEM_NONE": 36
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": -2350.0,
+                            "posy": -500.0,
+                            "posz": -11100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1C",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "01 FF FF FF",
+                            "posx": -2050.0,
+                            "posy": -500.0,
+                            "posz": -11000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1D",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 1,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 20,
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_BLUE_RUPEE": 4,
+                                            "ITEM_NONE": 36
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "07 FF FF FF",
+                            "posx": -2450.0,
+                            "posy": -500.0,
+                            "posz": -11000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1E",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "07 FF FF FF",
+                            "posx": -2250.0,
+                            "posy": -500.0,
+                            "posz": -11000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 1F",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 7,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 40,
+                                            "ITEM_NONE": 57,
+                                            "ITEM_BLUE_RUPEE": 3
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "08 FF FF FF",
+                            "posx": 2940.0,
+                            "posy": -98.30000305175781,
+                            "posz": -10530.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 20",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 8,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 50,
+                                            "ITEM_BLUE_RUPEE": 40,
+                                            "ITEM_RED_RUPEE": 4,
+                                            "ITEM_NONE": 6
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "08 FF FF FF",
+                            "posx": 2250.0,
+                            "posy": -98.30000305175781,
+                            "posz": -9840.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 21",
+                            "name": "Tubo",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "drop_idx": 8,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 50,
+                                            "ITEM_BLUE_RUPEE": 40,
+                                            "ITEM_RED_RUPEE": 4,
+                                            "ITEM_NONE": 6
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "F0 8F FF F1",
+                            "params2": "04 5F FF FF",
+                            "posx": -3400.0,
+                            "posy": 605.4400024414062,
+                            "posz": -7600.0,
+                            "anglex": 65535,
+                            "angley": 32768,
+                            "anglez": 1034,
+                            "id": "FC 22",
+                            "name": "ELizaru",
+                            "extra_info": {
+                                "drop_idx": 4,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 100
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF 1F F8 62",
+                            "params2": "17 FF FF FF",
+                            "posx": -820.0,
+                            "posy": 799.2300415039062,
+                            "posz": -5780.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 23",
+                            "name": "Soil",
+                            "extra_info": {
+                                "subtype": "Soil2",
+                                "scenefid": 134,
+                                "scenef": "temp flag: 0x1 40",
+                                "countInParams": 15,
+                                "isNotForInsects": 1,
+                                "isNotDugUp": 1,
+                                "spawn_scenefid": 255,
+                                "spawn_scenef": "no flag",
+                                "drop_idx": 23,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 60,
+                                            "ITEM_BLUE_RUPEE": 30,
+                                            "ITEM_ELDIN_ORE": 4,
+                                            "ITEM_NONE": 6
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "FF 06 22 02",
+                            "params2": "FF FF FF FF",
+                            "posx": 2200.0,
+                            "posy": -149.0,
+                            "posz": -4800.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 24",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 136,
+                                "scenef": "temp flag: 0x0 01",
+                                "itemid": 2,
+                                "item": "Green rupee",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "FF 06 1E 03",
+                            "params2": "FF FF FF FF",
+                            "posx": 1000.0,
+                            "posy": -149.0,
+                            "posz": -3600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 25",
+                            "name": "Item",
+                            "extra_info": {
+                                "scenefid": 135,
+                                "scenef": "temp flag: 0x1 80",
+                                "itemid": 3,
+                                "item": "Blue rupee",
+                                "unk_param2": 0,
+                                "unk_param3": 1,
+                                "unk_param5": 0
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": -1120.0,
+                            "posy": 0.0,
+                            "posz": -11090.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 26",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 1120.0,
+                            "posy": 0.0,
+                            "posz": -11090.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 27",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 470.0,
+                            "posy": -530.0,
+                            "posz": -12280.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 28",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": -470.0,
+                            "posy": -530.0,
+                            "posz": -12280.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 29",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 470.0,
+                            "posy": -1050.0,
+                            "posz": -13280.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 2A",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": -470.0,
+                            "posy": -1050.0,
+                            "posz": -13280.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 2B",
+                            "name": "Fire",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "checkscenefid": 255,
+                                "checkscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": -700.0,
+                            "posy": 0.0,
+                            "posz": -5600.0,
+                            "anglex": 0,
+                            "angley": 32768,
+                            "anglez": 0,
+                            "id": "FC 2C",
+                            "name": "AncJwls"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 2248.2900390625,
+                            "posy": -445.0,
+                            "posz": -11149.7900390625,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 2D",
+                            "name": "CharE"
+                        },
+                        {
+                            "params1": "FF C3 FF 66",
+                            "params2": "FF FF FF FF",
+                            "posx": 1000.0,
+                            "posy": 0.0,
+                            "posz": -4400.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 2E",
+                            "name": "InHole"
+                        },
+                        {
+                            "params1": "F0 FF FF 77",
+                            "params2": "FF DF FF FF",
+                            "posx": 1200.0,
+                            "posy": 0.0,
+                            "posz": -4400.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 4117,
+                            "id": "FC 2F",
+                            "name": "HrpHint",
+                            "extra_info": {
+                                "spawnscenefid": 119,
+                                "spawnscenef": "scene flag: 0xF 80",
+                                "subtype": 0,
+                                "talk_behaviour": 4117
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 E5",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 400.0,
+                            "posz": 1600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 30",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 229,
+                                "storyf": "Goddess Cube near Volcano Entry Statue"
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 EA",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 400.0,
+                            "posz": 1600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 31",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 234,
+                                "storyf": "Goddess Cube near Digging Mitts Cave entrance"
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 ED",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 400.0,
+                            "posz": 1600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 32",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 237,
+                                "storyf": "Goddess Cube near Eldin Temple Entrance"
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 F5",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 400.0,
+                            "posz": 1600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 33",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 245,
+                                "storyf": "Goddess Cube behind boulder near Eldin Temple Entrance"
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 F2",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 400.0,
+                            "posz": 1600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 34",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 242,
+                                "storyf": "Goddess Cube on Sand Slide"
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 400.0,
+                            "posz": 1600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 35",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 255,
+                                "storyf": "Goddess Cube inside Digging Mitts Cave"
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 FB",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 400.0,
+                            "posz": 1600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 36",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 251,
+                                "storyf": "Goddess Cube in Waterfall Area in Volcano Summit"
+                            }
+                        },
+                        {
+                            "params1": "F1 FF 00 F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 400.0,
+                            "posz": 1600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 37",
+                            "name": "GodCube",
+                            "extra_info": {
+                                "storyfid": 240,
+                                "storyf": "Goddess Cube inside Volcano Summit"
+                            }
+                        },
+                        {
+                            "params1": "FF F7 1A 72",
+                            "params2": "FF FF FF FF",
+                            "posx": -800.0,
+                            "posy": 0.0,
+                            "posz": -3600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 38",
+                            "name": "Soil",
+                            "extra_info": {
+                                "subtype": "Soil2",
+                                "scenefid": 167,
+                                "scenef": "temp flag: 0x5 80",
+                                "countInParams": 1,
+                                "isNotForInsects": 0,
+                                "isNotDugUp": 1,
+                                "spawn_scenefid": 255,
+                                "spawn_scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF 2A 82",
+                            "params2": "04 FF FF FF",
+                            "posx": -600.0,
+                            "posy": 0.0,
+                            "posz": -3420.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 39",
+                            "name": "Soil",
+                            "extra_info": {
+                                "subtype": "Soil2",
+                                "scenefid": 168,
+                                "scenef": "temp flag: 0x4 01",
+                                "countInParams": 2,
+                                "isNotForInsects": 1,
+                                "isNotDugUp": 1,
+                                "spawn_scenefid": 255,
+                                "spawn_scenef": "no flag",
+                                "drop_idx": 4,
+                                "drop_tables": [
+                                    {
+                                        "isHeroMode": false,
+                                        "dropRates": {
+                                            "ITEM_HEART": 100
+                                        }
+                                    },
+                                    {
+                                        "isHeroMode": true,
+                                        "dropRates": {
+                                            "ITEM_NONE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "SOBJ": [
+                        {
+                            "params1": "FF FF F0 74",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 300.0,
+                            "posz": -2900.0,
+                            "sizex": 10.0,
+                            "sizey": 10.0,
+                            "sizez": 1.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 3A",
+                            "name": "ClrWall"
+                        },
+                        {
+                            "params1": "FF FF F0 63",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": -5300.0,
+                            "sizex": 10.0,
+                            "sizey": 10.0,
+                            "sizez": 1.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 3B",
+                            "name": "ClrWall"
+                        },
+                        {
+                            "params1": "2F F0 00 8C",
+                            "params2": "12 7F FF FF",
+                            "posx": -1120.0,
+                            "posy": 0.0,
+                            "posz": -11030.0,
+                            "sizex": 1.0,
+                            "sizey": 1.0,
+                            "sizez": 1.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 4A",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 140,
+                                "scenef": "temp flag: 0x0 10",
+                                "tgreactitemid": 18,
+                                "subtype": "gust bellow blow",
+                                "drop_idx": 18,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "2F F0 00 8D",
+                            "params2": "12 7F FF FF",
+                            "posx": 1120.0,
+                            "posy": 0.0,
+                            "posz": -11030.0,
+                            "sizex": 1.0,
+                            "sizey": 1.0,
+                            "sizez": 1.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 4B",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 141,
+                                "scenef": "temp flag: 0x0 20",
+                                "tgreactitemid": 18,
+                                "subtype": "gust bellow blow",
+                                "drop_idx": 18,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "1F F0 00 71",
+                            "params2": "14 7F FF FF",
+                            "posx": 0.0,
+                            "posy": 350.0,
+                            "posz": -10750.0,
+                            "sizex": 2.0,
+                            "sizey": 2.0,
+                            "sizez": 2.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 4C",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 113,
+                                "scenef": "scene flag: 0xF 02",
+                                "tgreactitemid": 20,
+                                "subtype": "slingshot",
+                                "drop_idx": 20,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_RED_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "STAS": [
+                        {
+                            "params1": "05 FD E0 A0",
+                            "params2": "10 FF FF FF",
+                            "posx": -1800.0,
+                            "posy": 889.2900390625,
+                            "posz": -5700.0,
+                            "sizex": 600.0,
+                            "sizey": 300.0,
+                            "sizez": 400.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 47",
+                            "name": "MassTag",
+                            "extra_info": {
+                                "shape": 15,
+                                "modelIndex": 0,
+                                "step": 10,
+                                "radius": 60,
+                                "affectedByTimeshift": 0,
+                                "activeInPresent": 1,
+                                "drop_idx": 16,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 3,
+                                            "ITEM_NONE": 96,
+                                            "ITEM_BLUE_RUPEE": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "05 FD E0 A0",
+                            "params2": "10 FF FF FF",
+                            "posx": -5150.0,
+                            "posy": -200.22000122070312,
+                            "posz": -9420.0,
+                            "sizex": 600.0,
+                            "sizey": 300.0,
+                            "sizez": 600.0,
+                            "anglex": 0,
+                            "angley": 61896,
+                            "anglez": 0,
+                            "id": "FC 48",
+                            "name": "MassTag",
+                            "extra_info": {
+                                "shape": 15,
+                                "modelIndex": 0,
+                                "step": 10,
+                                "radius": 60,
+                                "affectedByTimeshift": 0,
+                                "activeInPresent": 1,
+                                "drop_idx": 16,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 3,
+                                            "ITEM_NONE": 96,
+                                            "ITEM_BLUE_RUPEE": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF 00 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 0.0,
+                            "posy": 200.0,
+                            "posz": 0.0,
+                            "sizex": 800.0,
+                            "sizey": 800.0,
+                            "sizez": 800.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 3C",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 0,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF 06 01 01",
+                            "params2": "FF 5F FF FF",
+                            "posx": 0.0,
+                            "posy": -900.0,
+                            "posz": -12100.0,
+                            "sizex": 1000.0,
+                            "sizey": 800.0,
+                            "sizez": 800.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 3D",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 1,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF 64 60 00",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": -1100.0,
+                            "posz": -11500.0,
+                            "sizex": 2000.0,
+                            "sizey": 2000.0,
+                            "sizez": 800.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 3E",
+                            "name": "EvntTag",
+                            "extra_info": {
+                                "trigscenefid": 100,
+                                "trigscenef": "scene flag: 0xD 10",
+                                "setscenefid": 96,
+                                "setscenef": "scene flag: 0xD 01",
+                                "eventIdx": 0,
+                                "Event Name": "demo01",
+                                "subtype": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 1600.0,
+                            "posy": -240.0,
+                            "posz": -4300.0,
+                            "sizex": 2000.0,
+                            "sizey": 200.0,
+                            "sizez": 2000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 3F",
+                            "name": "CBomSld",
+                            "extra_info": {
+                                "unk": 255
+                            }
+                        },
+                        {
+                            "params1": "FF FF 08 01",
+                            "params2": "FF DF FF FF",
+                            "posx": 1600.0,
+                            "posy": -240.0,
+                            "posz": -4300.0,
+                            "sizex": 2000.0,
+                            "sizey": 200.0,
+                            "sizez": 2000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 40",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 02",
+                            "params2": "FF DF FF FF",
+                            "posx": 2450.0,
+                            "posy": -10.0,
+                            "posz": -4000.0,
+                            "sizex": 2000.0,
+                            "sizey": 1000.0,
+                            "sizez": 1800.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 41",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 2
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 05",
+                            "params2": "FF DF FF FF",
+                            "posx": 0.0,
+                            "posy": -700.0,
+                            "posz": -8500.0,
+                            "sizex": 7000.0,
+                            "sizey": 400.0,
+                            "sizez": 4200.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 42",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 5
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 07",
+                            "params2": "FF DF FF FF",
+                            "posx": 2200.0,
+                            "posy": -200.0,
+                            "posz": -9900.0,
+                            "sizex": 500.0,
+                            "sizey": 500.0,
+                            "sizez": 500.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 43",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 7
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 07",
+                            "params2": "FF DF FF FF",
+                            "posx": -2250.0,
+                            "posy": -200.0,
+                            "posz": -9800.0,
+                            "sizex": 500.0,
+                            "sizey": 500.0,
+                            "sizez": 500.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 44",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 7
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 07",
+                            "params2": "FF DF FF FF",
+                            "posx": 2900.0,
+                            "posy": -200.0,
+                            "posz": -10500.0,
+                            "sizex": 500.0,
+                            "sizey": 500.0,
+                            "sizez": 500.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 45",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 7
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 07",
+                            "params2": "FF DF FF FF",
+                            "posx": -3000.0,
+                            "posy": -200.0,
+                            "posz": -10500.0,
+                            "sizex": 500.0,
+                            "sizey": 500.0,
+                            "sizez": 500.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 46",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 7
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF C2",
+                            "params2": "FF FF FF FF",
+                            "posx": -1000.0,
+                            "posy": 2300.0,
+                            "posz": -7400.0,
+                            "sizex": 16000.0,
+                            "sizey": 1000.0,
+                            "sizez": 10000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 49",
+                            "name": "BtlTg"
+                        },
+                        {
+                            "params1": "FF F6 FF FF",
+                            "params2": "FF DF FF FF",
+                            "posx": 0.0,
+                            "posy": 400.0,
+                            "posz": 1600.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 4D",
+                            "name": "Dowsing",
+                            "extra_info": {
+                                "option": "Crystal Ball",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF F7 FF FF",
+                            "params2": "FF DF FF FF",
+                            "posx": 0.0,
+                            "posy": 400.0,
+                            "posz": 1600.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 4E",
+                            "name": "Dowsing",
+                            "extra_info": {
+                                "option": "Mogma",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF C2",
+                            "params2": "FF FF FF FF",
+                            "posx": -8500.0,
+                            "posy": -6771.5400390625,
+                            "posz": -7400.0,
+                            "sizex": 1000.0,
+                            "sizey": 10000.0,
+                            "sizez": 10000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 4F",
+                            "name": "BtlTg"
+                        },
+                        {
+                            "params1": "FF FF FF C2",
+                            "params2": "FF FF FF FF",
+                            "posx": 7500.0,
+                            "posy": -6771.5400390625,
+                            "posz": -7400.0,
+                            "sizex": 1000.0,
+                            "sizey": 10000.0,
+                            "sizez": 10000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 50",
+                            "name": "BtlTg"
+                        },
+                        {
+                            "params1": "FF FF FF C4",
+                            "params2": "FF FF FF FF",
+                            "posx": -3000.0,
+                            "posy": -200.0,
+                            "posz": -10500.0,
+                            "sizex": 500.0,
+                            "sizey": 500.0,
+                            "sizez": 500.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 51",
+                            "name": "ActTag"
+                        },
+                        {
+                            "params1": "FF 62 74 01",
+                            "params2": "FF FF FF FF",
+                            "posx": 500.0,
+                            "posy": 200.0,
+                            "posz": -2400.0,
+                            "sizex": 1000.0,
+                            "sizey": 1000.0,
+                            "sizez": 1000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 52",
+                            "name": "EvntTag",
+                            "extra_info": {
+                                "trigscenefid": 98,
+                                "trigscenef": "scene flag: 0xD 04",
+                                "setscenefid": 116,
+                                "setscenef": "scene flag: 0xF 10",
+                                "eventIdx": 1,
+                                "Event Name": "JMAPAllMove",
+                                "subtype": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F1",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": -2000.0,
+                            "posz": -12800.0,
+                            "sizex": 1200.0,
+                            "sizey": 2400.0,
+                            "sizez": 1200.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 53",
+                            "name": "SpkTg2"
+                        },
+                        {
+                            "params1": "FF FF D6 83",
+                            "params2": "FF FF FF FF",
+                            "posx": 2900.0,
+                            "posy": 0.0,
+                            "posz": -4100.0,
+                            "sizex": 400.0,
+                            "sizey": 200.0,
+                            "sizez": 400.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 54",
+                            "name": "FairyTa"
+                        },
+                        {
+                            "params1": "FF F7 74 A3",
+                            "params2": "FF FF FF FF",
+                            "posx": 1200.0,
+                            "posy": 0.0,
+                            "posz": -4400.0,
+                            "sizex": 150.0,
+                            "sizey": 150.0,
+                            "sizez": 150.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 55",
+                            "name": "InsctTg",
+                            "extra_info": {
+                                "count": 3,
+                                "subtype": "Butterfly with viewclip",
+                                "anotherSubtype": "Gossip Stone"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF C3",
+                            "params2": "FF FF FF FF",
+                            "posx": -800.0,
+                            "posy": 0.0,
+                            "posz": -3600.0,
+                            "sizex": 300.0,
+                            "sizey": 300.0,
+                            "sizez": 300.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 56",
+                            "name": "InsctTg",
+                            "extra_info": {
+                                "count": 3,
+                                "subtype": "Eldin Roller",
+                                "anotherSubtype": "default"
+                            }
+                        }
+                    ],
+                    "SNDT": [
+                        {
+                            "params1": "0F FF FF 02",
+                            "params2": "FF FF FF FF",
+                            "posx": 900.0,
+                            "posy": -103.89285278320312,
+                            "posz": -2500.0,
+                            "sizex": 5072.0,
+                            "sizey": 1700.0,
+                            "sizez": 5599.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 57",
+                            "name": "TgSndAr"
+                        },
+                        {
+                            "params1": "0F FF FF 01",
+                            "params2": "FF FF FF FF",
+                            "posx": 2300.0,
+                            "posy": -708.124755859375,
+                            "posz": -10500.0,
+                            "sizex": 1400.0,
+                            "sizey": 3350.0,
+                            "sizez": 1600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 58",
+                            "name": "TgSndAr"
+                        },
+                        {
+                            "params1": "0F FF FF 01",
+                            "params2": "FF FF FF FF",
+                            "posx": -2300.0,
+                            "posy": -697.6815185546875,
+                            "posz": -10500.0,
+                            "sizex": 1400.0,
+                            "sizey": 3350.0,
+                            "sizez": 1600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 59",
+                            "name": "TgSndAr"
+                        }
+                    ]
+                },
+                "l1": {},
+                "l2": {
+                    "OBJN": [
+                        "NpcTke",
+                        "CamTag"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "3A 9F FF 00",
+                            "params2": "FF 1F FF FF",
+                            "posx": -300.0,
+                            "posy": 300.0,
+                            "posz": -2400.0,
+                            "anglex": 65388,
+                            "angley": 65535,
+                            "anglez": 30306,
+                            "id": "FC 5A",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 468,
+                                "untrigstoryf": "Goron Text after Watering 1st Frog",
+                                "talk_behaviour": 30306,
+                                "trigscenefid": 108,
+                                "trigscenef": "scene flag: 0xC 10",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "trigareaindex": 255
+                            }
+                        },
+                        {
+                            "params1": "3A BF FF 00",
+                            "params2": "FF 1F FF FF",
+                            "posx": 300.0,
+                            "posy": 0.0,
+                            "posz": -4700.0,
+                            "anglex": 65389,
+                            "angley": 65535,
+                            "anglez": 30308,
+                            "id": "FC 5B",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 469,
+                                "untrigstoryf": "Goron Text after Watering 2nd frog",
+                                "talk_behaviour": 30308,
+                                "trigscenefid": 109,
+                                "trigscenef": "scene flag: 0xC 20",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "trigareaindex": 255
+                            }
+                        },
+                        {
+                            "params1": "3A 7F FF 00",
+                            "params2": "FF 1F FF FF",
+                            "posx": 400.0,
+                            "posy": -500.0,
+                            "posz": -10100.0,
+                            "anglex": 65535,
+                            "angley": 65281,
+                            "anglez": 30309,
+                            "id": "FC 5C",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 467,
+                                "untrigstoryf": "Goron Text near Big Frog",
+                                "talk_behaviour": 30309,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "trigareaindex": 1
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 00",
+                            "params2": "FF 1F FF FF",
+                            "posx": -200.0,
+                            "posy": 300.0,
+                            "posz": -2400.0,
+                            "anglex": 27647,
+                            "angley": 65280,
+                            "anglez": 30304,
+                            "id": "FC 5D",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 30304,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 107,
+                                "untrigscenef": "scene flag: 0xC 08",
+                                "trigareaindex": 0
+                            }
+                        },
+                        {
+                            "params1": "0D DF FF F2",
+                            "params2": "FF 1F FF FF",
+                            "posx": 200.0,
+                            "posy": 300.0,
+                            "posz": -2400.0,
+                            "anglex": 65472,
+                            "angley": 65535,
+                            "anglez": 30302,
+                            "id": "FC 5E",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 110,
+                                "untrigstoryf": "Goddess Cube Dowsing",
+                                "talk_behaviour": 30302,
+                                "trigscenefid": 192,
+                                "trigscenef": "zone temp flag: 0x1 01",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "trigareaindex": 255
+                            }
+                        },
+                        {
+                            "params1": "53 A7 4F 03",
+                            "params2": "FF 1F FF FF",
+                            "posx": 300.0,
+                            "posy": -500.0,
+                            "posz": -10100.0,
+                            "anglex": 29695,
+                            "angley": 65282,
+                            "anglez": 30349,
+                            "id": "FC 5F",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 467,
+                                "trigstoryf": "Goron Text near Big Frog",
+                                "untrigstoryfid": 669,
+                                "untrigstoryf": "Water Basin Dowsing",
+                                "talk_behaviour": 30349,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 115,
+                                "untrigscenef": "scene flag: 0xF 08",
+                                "trigareaindex": 2
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF FF 06",
+                            "params2": "FF DF FF FF",
+                            "posx": -610.0,
+                            "posy": 400.0,
+                            "posz": -5200.0,
+                            "sizex": 300.0,
+                            "sizey": 300.0,
+                            "sizez": 300.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65379,
+                            "id": "FC 60",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 99,
+                                "untrigscenef": "scene flag: 0xD 08",
+                                "camidx": 6
+                            }
+                        }
+                    ]
+                },
+                "l3": {
+                    "OBJN": [
+                        "NpcSlb2",
+                        "NpcTke",
+                        "SwAreaT"
+                    ],
+                    "ARCN": [
+                        "DesertRobot_Sal",
+                        "DesertRobot",
+                        "WaterPotWater",
+                        "Waterpot"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "17 62 E8 FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 500.0,
+                            "posy": 300.0,
+                            "posz": -1500.0,
+                            "anglex": 255,
+                            "angley": 0,
+                            "anglez": 30346,
+                            "id": "FC 5A",
+                            "name": "NpcSlb2",
+                            "extra_info": {
+                                "trigstoryfid": 186,
+                                "trigstoryf": "Water Basin collected (unsets when scrapper picks up anything else)",
+                                "untrigstoryfid": 187,
+                                "untrigstoryf": "Big Frog Watered",
+                                "talk_behaviour": 30346
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "17 62 EB FB",
+                            "params2": "FF 1F FF FF",
+                            "posx": -100.0,
+                            "posy": -500.0120544433594,
+                            "posz": -9400.0,
+                            "anglex": 40191,
+                            "angley": 1027,
+                            "anglez": 30350,
+                            "id": "FC 5B",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 186,
+                                "trigstoryf": "Water Basin collected (unsets when scrapper picks up anything else)",
+                                "untrigstoryfid": 187,
+                                "untrigstoryf": "Big Frog Watered",
+                                "talk_behaviour": 30350,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 156,
+                                "untrigscenef": "temp flag: 0x2 10",
+                                "trigareaindex": 3
+                            }
+                        },
+                        {
+                            "params1": "17 62 EB F3",
+                            "params2": "FF 1F FF FF",
+                            "posx": -200.0,
+                            "posy": -500.0120544433594,
+                            "posz": -9400.0,
+                            "anglex": 40447,
+                            "angley": 65285,
+                            "anglez": 30350,
+                            "id": "FC 5C",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 186,
+                                "trigstoryf": "Water Basin collected (unsets when scrapper picks up anything else)",
+                                "untrigstoryfid": 187,
+                                "untrigstoryf": "Big Frog Watered",
+                                "talk_behaviour": 30350,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 157,
+                                "untrigscenef": "temp flag: 0x2 20",
+                                "trigareaindex": 5
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF FF 9C",
+                            "params2": "FF 5F FF FF",
+                            "posx": 0.0,
+                            "posy": -600.0,
+                            "posz": -8500.0,
+                            "sizex": 800.0,
+                            "sizey": 800.0,
+                            "sizez": 800.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 5D",
+                            "name": "SwAreaT",
+                            "extra_info": {
+                                "setstoryfid": 2047,
+                                "setstoryf": "-",
+                                "unsetstoryfid": 2047,
+                                "unsetstoryf": "-",
+                                "setscenefid": 156,
+                                "setscenef": "temp flag: 0x2 10",
+                                "unsetscenefid": 255,
+                                "unsetscenef": "no flag"
+                            }
+                        }
+                    ]
+                },
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}

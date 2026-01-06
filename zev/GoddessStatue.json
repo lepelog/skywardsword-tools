@@ -1,0 +1,61 @@
+{
+    "header": {
+        "magic": 30554,
+        "evntcount": 1,
+        "actorcount": 1,
+        "unk1count": 1,
+        "unk2count": 1,
+        "unk3count": 0,
+        "alwaysev": "45 76",
+        "unk4count": 0,
+        "unk5count": 0,
+        "unk6count": 0
+    },
+    "evnts": [
+        {
+            "name": "GSSceneChange",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 0,
+            "actorcount": 1,
+            "offset": 20,
+            "actors": [
+                {
+                    "name": "@starter",
+                    "unk1": 6,
+                    "unk2": 0,
+                    "actindex": 0,
+                    "actcount": 1,
+                    "offset": 60,
+                    "acts1": [
+                        {
+                            "name": "SceneChange",
+                            "waitfor": -1,
+                            "actorindex": 0,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 0,
+                            "dummy1": 1,
+                            "offset": 100
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "act0",
+                            "eventSubManagerIndex": 0,
+                            "thisindex": 0,
+                            "unk3Index": 0,
+                            "unk3Count": 0,
+                            "offset": 128,
+                            "data": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "intsoffset": 140,
+    "floatsoffset": 140,
+    "stringssoffset": 140
+}

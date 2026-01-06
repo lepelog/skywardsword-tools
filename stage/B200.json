@@ -1,0 +1,2425 @@
+{
+    "LYSE": [
+        {
+            "story_flag": 530,
+            "night": 0,
+            "layer": 3
+        },
+        {
+            "story_flag": 7,
+            "night": 0,
+            "layer": 1
+        },
+        {
+            "story_flag": 5,
+            "night": 0,
+            "layer": 2
+        }
+    ],
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 240000.0,
+        "wtf3": 10000.0,
+        "byte1": 0,
+        "flagindex": 14,
+        "byte3": 2,
+        "byte4": 5,
+        "unk1": "FF 03",
+        "map_name_id": 12,
+        "unk2": "FF"
+    },
+    "RMPL": {
+        "10": [
+            "00 04"
+        ],
+        "4": [
+            "00 0A"
+        ]
+    },
+    "PCAM": [
+        {
+            "pos1x": 0.0,
+            "pos1y": -100.0,
+            "pos1z": 0.0,
+            "pos2x": 0.0,
+            "pos2y": -100.0,
+            "pos2z": 1000.0,
+            "angle": 0.0,
+            "wtf": 70.0,
+            "id": 31,
+            "unk": "FF FF FF"
+        },
+        {
+            "pos1x": 0.0,
+            "pos1y": 5750.0,
+            "pos1z": 0.0,
+            "pos2x": 0.0,
+            "pos2y": 5750.0,
+            "pos2z": 1000.0,
+            "angle": 0.0,
+            "wtf": 300.0,
+            "id": 29,
+            "unk": "FF FF FF"
+        }
+    ],
+    "LYLT": [
+        {
+            "layer": 13,
+            "demo_high": 78,
+            "demo_low": 2,
+            "dummy": -1
+        }
+    ],
+    "LAY ": {
+        "l0": {
+            "OBJN": [
+                "MapArea"
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": 400.0,
+                    "posy": 5300.0,
+                    "posz": -21100.0,
+                    "sizex": 25000.0,
+                    "sizey": 8000.0,
+                    "sizez": 16000.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 0,
+                        "mapParams": 0
+                    }
+                }
+            ]
+        },
+        "l1": {
+            "OBJN": [
+                "TlpTag"
+            ],
+            "STAG": [
+                {
+                    "params1": "AA FF 0C FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 0.0,
+                    "sizex": 100.0,
+                    "sizey": 100.0,
+                    "sizez": 100.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "TlpTag",
+                    "extra_info": {
+                        "scenefid": 170,
+                        "scenef": "temp flag: 0x4 04",
+                        "map_name_idx": 12,
+                        "name": "Earth Temple"
+                    }
+                }
+            ]
+        },
+        "l2": {
+            "OBJN": [
+                "TlpTag"
+            ],
+            "STAG": [
+                {
+                    "params1": "AA FF 0C FF",
+                    "params2": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 0.0,
+                    "sizex": 100.0,
+                    "sizey": 100.0,
+                    "sizez": 100.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 01",
+                    "name": "TlpTag",
+                    "extra_info": {
+                        "scenefid": 170,
+                        "scenef": "temp flag: 0x4 04",
+                        "map_name_idx": 12,
+                        "name": "Earth Temple"
+                    }
+                }
+            ]
+        },
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r04": {
+            "FILE": "00 00 FF FF",
+            "SCEN": [
+                {
+                    "name": "D200",
+                    "room": 4,
+                    "layer": 0,
+                    "entrance": 2,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                }
+            ],
+            "CAM ": [
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -8200.0,
+                    "posy": 6500.0,
+                    "posz": -17400.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 00",
+                    "name": "Field"
+                }
+            ],
+            "PATH": [
+                {
+                    "unk1": "FF 00",
+                    "pnt_start_idx": 0,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                }
+            ],
+            "PNT ": [
+                {
+                    "posx": -8800.0,
+                    "posy": 6100.0,
+                    "posz": -16700.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -8800.0,
+                    "posy": 6100.0,
+                    "posz": -16000.0,
+                    "unk": "FF FF FF FF"
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": -1,
+                    "posx": -8800.0,
+                    "posy": 6100.0,
+                    "posz": -17300.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "entrance_id": 0
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "ScChang"
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF 00 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": -8800.0,
+                            "posy": 6000.0,
+                            "posz": -17000.0,
+                            "sizex": 600.0,
+                            "sizey": 600.0,
+                            "sizez": 1000.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 00",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 0,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        }
+                    ]
+                },
+                "l1": {},
+                "l2": {},
+                "l3": {},
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        },
+        "r10": {
+            "FILE": "00 00 FF FF",
+            "SCEN": [
+                {
+                    "name": "B210",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 0,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "B210",
+                    "room": 0,
+                    "layer": 13,
+                    "entrance": 2,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F302",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 10,
+                    "night": 2,
+                    "transtype": 0,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                }
+            ],
+            "CAM ": [
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -4400.0,
+                    "posy": 6600.0,
+                    "posz": -25300.0,
+                    "angle": 55.0,
+                    "unk2": "F3 34 40 00 00 00 00 00",
+                    "name": "B200R10Cam"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 6000.0,
+                    "posy": 9500.0634765625,
+                    "posz": -22800.0,
+                    "angle": 60.0,
+                    "unk2": "11 11 C0 00 00 00 00 01",
+                    "name": "Veradarma"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 8600.0,
+                    "posy": 10500.0,
+                    "posz": -19500.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 02",
+                    "name": "Field"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -6500.0,
+                    "posy": 7100.0,
+                    "posz": -21000.0,
+                    "angle": 55.0,
+                    "unk2": "EA AB 47 1C 00 00 00 03",
+                    "name": "FixesSlow"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 6000.0,
+                    "posy": 9500.0634765625,
+                    "posz": -22900.0,
+                    "angle": 60.0,
+                    "unk2": "11 11 C0 00 00 00 00 04",
+                    "name": "Veradarma2"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 6000.0,
+                    "posy": 9500.0634765625,
+                    "posz": -23000.0,
+                    "angle": 60.0,
+                    "unk2": "11 11 C0 00 00 00 00 05",
+                    "name": "D200R04Cam"
+                }
+            ],
+            "PATH": [
+                {
+                    "unk1": "FF 00",
+                    "pnt_start_idx": 0,
+                    "pnt_total_count": 25,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 01",
+                    "pnt_start_idx": 25,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 02",
+                    "pnt_start_idx": 27,
+                    "pnt_total_count": 3,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 04",
+                    "pnt_start_idx": 30,
+                    "pnt_total_count": 17,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 05",
+                    "pnt_start_idx": 47,
+                    "pnt_total_count": 24,
+                    "unk2": "FF FF FF FF 00 FF"
+                },
+                {
+                    "unk1": "FF 06",
+                    "pnt_start_idx": 71,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                }
+            ],
+            "PNT ": [
+                {
+                    "posx": -3793.880126953125,
+                    "posy": 6580.0,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -3484.860107421875,
+                    "posy": 6580.0,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -2767.292236328125,
+                    "posy": 6580.0,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -2200.0,
+                    "posy": 6580.0,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -1602.830078125,
+                    "posy": 6620.1904296875,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -867.1600341796875,
+                    "posy": 6924.60009765625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -508.510009765625,
+                    "posy": 7103.91015625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -220.14013671875,
+                    "posy": 7235.63037109375,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 261.36669921875,
+                    "posy": 7392.078125,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 707.9599609375,
+                    "posy": 7537.18359375,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 1129.12109375,
+                    "posy": 7674.025390625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 1599.449951171875,
+                    "posy": 7826.85009765625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 2161.6298828125,
+                    "posy": 8018.91015625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 2540.260009765625,
+                    "posy": 8173.10009765625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 2959.97998046875,
+                    "posy": 8344.7314453125,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 3389.4736328125,
+                    "posy": 8527.04296875,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 3832.9599609375,
+                    "posy": 8715.29296875,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 4236.232421875,
+                    "posy": 8886.47265625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 4568.89013671875,
+                    "posy": 9027.6796875,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 5128.7998046875,
+                    "posy": 9248.390625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 5488.876953125,
+                    "posy": 9360.009765625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 5912.0302734375,
+                    "posy": 9480.0,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 6196.76025390625,
+                    "posy": 9544.939453125,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 6487.2900390625,
+                    "posy": 9580.0,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 6975.6103515625,
+                    "posy": 9580.0,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -7800.0,
+                    "posy": 5700.0,
+                    "posz": -19100.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 7900.0,
+                    "posy": 5700.0,
+                    "posz": -19100.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -8800.0,
+                    "posy": 5700.0,
+                    "posz": -21800.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -6924.02783203125,
+                    "posy": 5700.0,
+                    "posz": -23100.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 7700.0,
+                    "posy": 5700.0,
+                    "posz": -23100.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 3832.9599609375,
+                    "posy": 8715.29296875,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 3389.4736328125,
+                    "posy": 8527.04296875,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 2959.97998046875,
+                    "posy": 8344.7314453125,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 2540.260009765625,
+                    "posy": 8173.10009765625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 2161.6298828125,
+                    "posy": 8018.91015625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 1599.449951171875,
+                    "posy": 7826.85009765625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 1129.12109375,
+                    "posy": 7674.025390625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 707.9599609375,
+                    "posy": 7537.18359375,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 261.36669921875,
+                    "posy": 7392.078125,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -220.14013671875,
+                    "posy": 7235.63037109375,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -508.510009765625,
+                    "posy": 7103.91015625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -867.1600341796875,
+                    "posy": 6924.60009765625,
+                    "posz": -21153.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -1602.830078125,
+                    "posy": 6620.1904296875,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -2200.0,
+                    "posy": 6580.0,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -2767.292236328125,
+                    "posy": 6580.0,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -3484.860107421875,
+                    "posy": 6580.0,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -3793.880126953125,
+                    "posy": 6580.0,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -5701.2529296875,
+                    "posy": 8309.455078125,
+                    "posz": -21169.771484375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -5310.36572265625,
+                    "posy": 8273.2236328125,
+                    "posz": -21187.240234375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -5022.1142578125,
+                    "posy": 8284.3203125,
+                    "posz": -21239.650390625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -4727.3095703125,
+                    "posy": 8311.6806640625,
+                    "posz": -21337.91796875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -4432.50634765625,
+                    "posy": 8336.90625,
+                    "posz": -21473.30859375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -4190.11328125,
+                    "posy": 8372.294921875,
+                    "posz": -21632.720703125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -3906.22900390625,
+                    "posy": 8434.0966796875,
+                    "posz": -21807.41796875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -3609.2421875,
+                    "posy": 8529.916015625,
+                    "posz": -22012.689453125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -3347.195068359375,
+                    "posy": 8640.1943359375,
+                    "posz": -22220.142578125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -3067.678466796875,
+                    "posy": 8769.1396484375,
+                    "posz": -22436.330078125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -2751.037841796875,
+                    "posy": 8903.1650390625,
+                    "posz": -22621.9453125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -2392.90673828125,
+                    "posy": 9012.7373046875,
+                    "posz": -22757.3359375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -2050.0615234375,
+                    "posy": 9091.1220703125,
+                    "posz": -22842.5,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -1772.728271484375,
+                    "posy": 9144.05078125,
+                    "posz": -22886.173828125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -1318.5133056640625,
+                    "posy": 9264.8623046875,
+                    "posz": -22908.0078125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -927.6262817382812,
+                    "posy": 9373.9892578125,
+                    "posz": -22868.69921875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -565.1278076171875,
+                    "posy": 9469.80078125,
+                    "posz": -22805.373046875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": -165.505859375,
+                    "posy": 9566.734375,
+                    "posz": -22759.513671875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 251.5858612060547,
+                    "posy": 9650.5703125,
+                    "posz": -22787.90234375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 603.1658325195312,
+                    "posy": 9750.638671875,
+                    "posz": -22857.78125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 1000.60400390625,
+                    "posy": 9824.2216796875,
+                    "posz": -23025.9296875,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 1356.5513916015625,
+                    "posy": 9852.8173828125,
+                    "posz": -23215.9140625,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 1661.624267578125,
+                    "posy": 9850.9716796875,
+                    "posz": -23444.318359375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 3972.3896484375,
+                    "posy": 9877.9111328125,
+                    "posz": -26591.189453125,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 10100.0,
+                    "posy": 9600.0,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 11000.0,
+                    "posy": 9600.0,
+                    "posz": -21150.0,
+                    "unk": "FF FF FF FF"
+                }
+            ],
+            "AREA": [
+                {
+                    "posx": -3800.0,
+                    "posy": 6500.0,
+                    "posz": -21600.0,
+                    "sizex": 2000.0,
+                    "sizey": 1000.0,
+                    "sizez": 2000.0,
+                    "angley": 0,
+                    "area_link": -1,
+                    "unk3": 1,
+                    "dummy": "FF FF FF",
+                    "index": 0
+                },
+                {
+                    "posx": 700.0,
+                    "posy": 7100.0,
+                    "posz": -21100.0,
+                    "sizex": 600.0,
+                    "sizey": 1000.0,
+                    "sizez": 2000.0,
+                    "angley": 0,
+                    "area_link": -1,
+                    "unk3": 0,
+                    "dummy": "FF FF FF",
+                    "index": 1
+                }
+            ],
+            "EVNT": [
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 08 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 118,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "RollRockChangeVera"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 03",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "RollRockLspAppear"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "SealedDoorClose"
+                },
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 02 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "demo06"
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": -1,
+                    "posx": 6000.0,
+                    "posy": 9500.0634765625,
+                    "posz": -21150.0,
+                    "anglex": 0,
+                    "angley": 49152,
+                    "anglez": 0,
+                    "entrance_id": 2
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 12,
+                    "posx": -8800.0,
+                    "posy": 6100.0,
+                    "posz": -17900.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": -1,
+                    "posx": -200.0,
+                    "posy": 7242.173828125,
+                    "posz": -21150.0,
+                    "anglex": 0,
+                    "angley": 49152,
+                    "anglez": 0,
+                    "entrance_id": 1
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": -1,
+                    "posx": -6900.0,
+                    "posy": 6629.99951171875,
+                    "posz": -21200.0,
+                    "anglex": 0,
+                    "angley": 16384,
+                    "anglez": 0,
+                    "entrance_id": 3
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 2,
+                    "byte4": 8,
+                    "posx": 8150.0,
+                    "posy": 9580.0,
+                    "posz": -21150.0,
+                    "anglex": 0,
+                    "angley": 49152,
+                    "anglez": 0,
+                    "entrance_id": 4
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 3,
+                    "byte4": -1,
+                    "posx": -8800.0,
+                    "posy": 6100.0,
+                    "posz": -17900.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 5
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "DoorBs",
+                        "RkDrgn",
+                        "Heartf",
+                        "AttTag",
+                        "CamTag",
+                        "SwAreaT",
+                        "TgDefea",
+                        "ActTag",
+                        "SpkTg2",
+                        "Bombf",
+                        "ScChang",
+                        "SparkTg"
+                    ],
+                    "ARCN": [
+                        "BossLock1B",
+                        "RockDragonBoss",
+                        "BossKeyhole1B",
+                        "DoorBossCollisionA",
+                        "KeyBoss1B",
+                        "DoorBossB"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "FF FF C3 81",
+                            "params2": "FF FF FF FF",
+                            "posx": -8800.0,
+                            "posy": 6100.0,
+                            "posz": -17500.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 04",
+                            "name": "DoorBs",
+                            "extra_info": {
+                                "scenefid": 14,
+                                "scenef": "scene flag: 0x0 40"
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -6591.75341796875,
+                            "posy": 6629.99658203125,
+                            "posz": -21542.91796875,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 00",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -6595.70849609375,
+                            "posy": 6629.99853515625,
+                            "posz": -20745.1328125,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 01",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -5211.54052734375,
+                            "posy": 6629.99853515625,
+                            "posz": -21539.228515625,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 02",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -5209.4208984375,
+                            "posy": 6630.0,
+                            "posz": -20745.11328125,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 03",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 8100.0,
+                            "posy": 9580.0,
+                            "posz": -21500.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 05",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 8100.0,
+                            "posy": 9580.0,
+                            "posz": -20800.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 06",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "BF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 4470.0,
+                            "posy": 11050.0,
+                            "posz": -21140.0,
+                            "anglex": 3640,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 07",
+                            "name": "RkDrgn"
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -5904.7578125,
+                            "posy": 6629.99853515625,
+                            "posz": -20350.26171875,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 08",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -5902.06201171875,
+                            "posy": 6629.99169921875,
+                            "posz": -21939.580078125,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 09",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7100.0,
+                            "posy": 9580.0,
+                            "posz": -21800.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 0A",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7090.0,
+                            "posy": 9580.0,
+                            "posz": -20500.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 0B",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7550.8193359375,
+                            "posy": 9580.0,
+                            "posz": -20914.986328125,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 0C",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7308.41650390625,
+                            "posy": 9580.0,
+                            "posz": -21610.9921875,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 0D",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7341.10009765625,
+                            "posy": 9580.0,
+                            "posz": -20705.53125,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 0E",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7481.5771484375,
+                            "posy": 9580.0,
+                            "posz": -20436.845703125,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 0F",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7530.0,
+                            "posy": 9580.0,
+                            "posz": -21750.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 10",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7764.82666015625,
+                            "posy": 9580.0,
+                            "posz": -20674.82421875,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 11",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F0 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7645.77880859375,
+                            "posy": 9580.0,
+                            "posz": -21485.982421875,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 12",
+                            "name": "Heartf",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 7276.95361328125,
+                            "posy": 9580.0,
+                            "posz": -21923.744140625,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 13",
+                            "name": "Bombf"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 7739.0869140625,
+                            "posy": 9580.0,
+                            "posz": -20446.966796875,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 14",
+                            "name": "Bombf"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 7220.8857421875,
+                            "posy": 9580.0,
+                            "posz": -20341.07421875,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 15",
+                            "name": "Bombf"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 7765.34228515625,
+                            "posy": 9580.0,
+                            "posz": -21829.2890625,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 16",
+                            "name": "Bombf"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": -6200.0,
+                            "posy": 6629.99560546875,
+                            "posz": -21300.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 17",
+                            "name": "Bombf"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": -5900.0,
+                            "posy": 6629.99658203125,
+                            "posz": -21100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 18",
+                            "name": "Bombf"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": -6100.0,
+                            "posy": 6629.99560546875,
+                            "posz": -21000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 19",
+                            "name": "Bombf"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 6000.0,
+                            "posy": 9500.0634765625,
+                            "posz": -21570.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 1A",
+                            "name": "Bombf"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 5200.0,
+                            "posy": 9270.4619140625,
+                            "posz": -21570.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 1B",
+                            "name": "Bombf"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 6000.0,
+                            "posy": 9500.0634765625,
+                            "posz": -20720.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 1C",
+                            "name": "Bombf"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 5200.0,
+                            "posy": 9270.4619140625,
+                            "posz": -20720.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 1D",
+                            "name": "Bombf"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 6820.0,
+                            "posy": 9580.0,
+                            "posz": -20580.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 1E",
+                            "name": "Bombf"
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 6820.0,
+                            "posy": 9580.0,
+                            "posz": -21720.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 1F",
+                            "name": "Bombf"
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF 02 FF FF",
+                            "params2": "FF 7F FF FF",
+                            "posx": -8800.0,
+                            "posy": 5700.0,
+                            "posz": -21800.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 20",
+                            "name": "SparkTg"
+                        },
+                        {
+                            "params1": "FF 01 FF FF",
+                            "params2": "FF 7F FF FF",
+                            "posx": -7900.0,
+                            "posy": 5700.0,
+                            "posz": -19100.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 21",
+                            "name": "SparkTg"
+                        },
+                        {
+                            "params1": "02 24 FF 00",
+                            "params2": "FF DF FF FF",
+                            "posx": 1500.0,
+                            "posy": 5600.0,
+                            "posz": -21100.0,
+                            "sizex": 14000.0,
+                            "sizey": 6000.0,
+                            "sizez": 4000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 22",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 36,
+                                "trigscenef": "scene flag: 0x5 10",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 0
+                            }
+                        },
+                        {
+                            "params1": "FE 08 9D 24",
+                            "params2": "FF FF FF FF",
+                            "posx": 4100.0,
+                            "posy": 7000.0,
+                            "posz": -23800.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 23",
+                            "name": "TgDefea",
+                            "extra_info": {
+                                "scenefid": 36,
+                                "scenef": "scene flag: 0x5 10"
+                            }
+                        },
+                        {
+                            "params1": "FF FF 05 00",
+                            "params2": "FF 5F FF FF",
+                            "posx": 8950.0,
+                            "posy": 9500.0,
+                            "posz": -21150.0,
+                            "sizex": 1000.0,
+                            "sizey": 1000.0,
+                            "sizez": 1000.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 24",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 0,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "03 24 FF 02",
+                            "params2": "FF DF FF FF",
+                            "posx": 7500.0,
+                            "posy": 9000.0,
+                            "posz": -21100.0,
+                            "sizex": 2000.0,
+                            "sizey": 2000.0,
+                            "sizez": 3000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 25",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 36,
+                                "trigscenef": "scene flag: 0x5 10",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 2
+                            }
+                        },
+                        {
+                            "params1": "03 FF FF 02",
+                            "params2": "FF DF FF FF",
+                            "posx": -4400.0,
+                            "posy": 6880.0,
+                            "posz": -21150.0,
+                            "sizex": 800.0,
+                            "sizey": 1000.0,
+                            "sizez": 800.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 26",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 2
+                            }
+                        },
+                        {
+                            "params1": "FF FF 05 01",
+                            "params2": "FF 5F FF FF",
+                            "posx": 8920.0,
+                            "posy": 9500.0,
+                            "posz": -21150.0,
+                            "sizex": 1000.0,
+                            "sizey": 1000.0,
+                            "sizez": 1000.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 63951,
+                            "id": "FC 27",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 1,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 463,
+                                "untrigstoryf": "Cutscene of Guld getting picked up"
+                            }
+                        },
+                        {
+                            "params1": "FF FF 91 FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 7500.0,
+                            "posy": 9000.0,
+                            "posz": -21200.0,
+                            "sizex": 2500.0,
+                            "sizey": 2500.0,
+                            "sizez": 2500.0,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 28",
+                            "name": "SwAreaT",
+                            "extra_info": {
+                                "setstoryfid": 2047,
+                                "setstoryf": "-",
+                                "unsetstoryfid": 2047,
+                                "unsetstoryf": "-",
+                                "setscenefid": 255,
+                                "setscenef": "no flag",
+                                "unsetscenefid": 145,
+                                "unsetscenef": "temp flag: 0x3 02"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF F0",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 29",
+                            "name": "SpkTg2"
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -8800.0,
+                            "posy": 6100.0,
+                            "posz": -17650.0,
+                            "sizex": 600.0,
+                            "sizey": 300.0,
+                            "sizez": 200.0,
+                            "anglex": 0,
+                            "angley": 32768,
+                            "anglez": 0,
+                            "id": "FC 2A",
+                            "name": "AttTag"
+                        },
+                        {
+                            "params1": "FF FF FF C4",
+                            "params2": "FF FF FF FF",
+                            "posx": -4930.0,
+                            "posy": 6400.0,
+                            "posz": -21000.0,
+                            "sizex": 700.0,
+                            "sizey": 1000.0,
+                            "sizez": 1600.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 2B",
+                            "name": "ActTag"
+                        }
+                    ]
+                },
+                "l1": {
+                    "OBJN": [
+                        "Soil",
+                        "Wind02",
+                        "SnkFlrF",
+                        "SldDoor",
+                        "HeartCo"
+                    ],
+                    "ARCN": [
+                        "PutHeartUtuwa",
+                        "SinkRock",
+                        "SBGoodess",
+                        "SBAnm",
+                        "GetHeartUtuwa",
+                        "FXLava"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "FF FF FF 22",
+                            "params2": "FF FF FF FF",
+                            "posx": -4180.0,
+                            "posy": 5699.0,
+                            "posz": -20350.0,
+                            "anglex": 0,
+                            "angley": 8192,
+                            "anglez": 0,
+                            "id": "FC 2C",
+                            "name": "SnkFlrF",
+                            "extra_info": {
+                                "subtype": "SinkRockA",
+                                "unk": 2
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF F2 43",
+                            "params2": "FF FF FF FF",
+                            "posx": 8250.0,
+                            "posy": 9580.0,
+                            "posz": -21149.91015625,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 2D",
+                            "name": "SldDoor",
+                            "extra_info": {
+                                "openscenefid": 36,
+                                "openscenef": "scene flag: 0x5 10",
+                                "firstopenscenefid": 255,
+                                "firstopenscenef": "no flag",
+                                "ignoreFirstOpenFlag": 1,
+                                "subtype": "Goodess"
+                            }
+                        },
+                        {
+                            "params1": "FF FF 38 24",
+                            "params2": "FF FF FF FF",
+                            "posx": -3200.0,
+                            "posy": 6580.0,
+                            "posz": -21150.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 2E",
+                            "name": "HeartCo"
+                        }
+                    ],
+                    "SOBJ": [
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -4180.0,
+                            "posy": 5699.0,
+                            "posz": -20350.0,
+                            "sizex": 1.0,
+                            "sizey": 1.0,
+                            "sizez": 1.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 2F",
+                            "name": "Wind02",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag",
+                                "unk1": 15,
+                                "unkType1": 15,
+                                "unkType2": 15,
+                                "negatedUnk2": 1,
+                                "negatedUnk3": 1,
+                                "negatedUnk4": 1,
+                                "negatedUnk5": 1
+                            }
+                        }
+                    ]
+                },
+                "l2": {
+                    "OBJN": [
+                        "NpcGhm",
+                        "RolRock",
+                        "SwTag",
+                        "NpcTke",
+                        "EvntTag",
+                        "Bvd",
+                        "CamTag",
+                        "PlRsTag",
+                        "SldDoor",
+                        "HeartCo",
+                        "Vdb"
+                    ],
+                    "ARCN": [
+                        "PutHeartUtuwa",
+                        "RockRollA",
+                        "FX_VeraFireBall",
+                        "SBGoodess",
+                        "Bvd",
+                        "SBAnm",
+                        "Girahim",
+                        "GetHeartUtuwa"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "03 FF AF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 7900.0,
+                            "posy": 9580.0,
+                            "posz": -21100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 2C",
+                            "name": "RolRock",
+                            "extra_info": {
+                                "scenefid": 255,
+                                "scenef": "no flag"
+                            }
+                        },
+                        {
+                            "params1": "04 FF 92 FF",
+                            "params2": "FF FF FF FF",
+                            "posx": -5700.0,
+                            "posy": 8309.283203125,
+                            "posz": -21100.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 2D",
+                            "name": "RolRock",
+                            "extra_info": {
+                                "scenefid": 47,
+                                "scenef": "scene flag: 0x4 80"
+                            }
+                        },
+                        {
+                            "params1": "FF FF F2 43",
+                            "params2": "FF FF FF FF",
+                            "posx": 8250.0,
+                            "posy": 9580.0,
+                            "posz": -21149.91015625,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 2E",
+                            "name": "SldDoor",
+                            "extra_info": {
+                                "openscenefid": 36,
+                                "openscenef": "scene flag: 0x5 10",
+                                "firstopenscenefid": 255,
+                                "firstopenscenef": "no flag",
+                                "ignoreFirstOpenFlag": 1,
+                                "subtype": "Goodess"
+                            }
+                        },
+                        {
+                            "params1": "FF FF 38 24",
+                            "params2": "FF FF FF FF",
+                            "posx": -3200.0,
+                            "posy": 6580.0,
+                            "posz": -21150.0,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 2F",
+                            "name": "HeartCo"
+                        },
+                        {
+                            "params1": "FF FF FF 02",
+                            "params2": "FF 1F FF FF",
+                            "posx": -5800.0,
+                            "posy": 6629.99267578125,
+                            "posz": -21800.0,
+                            "anglex": 9727,
+                            "angley": 65280,
+                            "anglez": 30110,
+                            "id": "FC 30",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 30110,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 37,
+                                "untrigscenef": "scene flag: 0x5 20",
+                                "trigareaindex": 0
+                            }
+                        },
+                        {
+                            "params1": "FF EB B0 FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 3123.39990234375,
+                            "posy": 10813.080078125,
+                            "posz": -21150.0,
+                            "anglex": 65535,
+                            "angley": 49152,
+                            "anglez": 30109,
+                            "id": "FC 31",
+                            "name": "NpcGhm",
+                            "extra_info": {
+                                "trigstoryfid": 748,
+                                "trigstoryf": "Sets at the start of Scaldera cs / unsets at end of cs",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 30109
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 11",
+                            "params2": "FF 1F FF FF",
+                            "posx": 3000.0,
+                            "posy": 10800.0,
+                            "posz": -21150.0,
+                            "anglex": 49919,
+                            "angley": 65281,
+                            "anglez": 30109,
+                            "id": "FC 32",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 30109,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 194,
+                                "untrigscenef": "zone temp flag: 0x1 04",
+                                "trigareaindex": 1
+                            }
+                        },
+                        {
+                            "params1": "60 BF FF F3",
+                            "params2": "FF 1F FF FF",
+                            "posx": 4600.0,
+                            "posy": 10700.0,
+                            "posz": -21100.0,
+                            "anglex": 9411,
+                            "angley": 65535,
+                            "anglez": 6658,
+                            "id": "FC 33",
+                            "name": "NpcTke",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 773,
+                                "untrigstoryf": "Talking to Fi in Scaldera fight after dieing",
+                                "talk_behaviour": 6658,
+                                "trigscenefid": 195,
+                                "trigscenef": "zone temp flag: 0x1 08",
+                                "untrigscenefid": 36,
+                                "untrigscenef": "scene flag: 0x5 10",
+                                "trigareaindex": 255
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "01 C0 FF 01",
+                            "params2": "FF DF FF FF",
+                            "posx": 3400.0,
+                            "posy": 5600.0,
+                            "posz": -21100.0,
+                            "sizex": 10600.0,
+                            "sizey": 6000.0,
+                            "sizez": 4000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 34",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 192,
+                                "trigscenef": "zone temp flag: 0x1 01",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 1
+                            }
+                        },
+                        {
+                            "params1": "FF CF FF 02",
+                            "params2": "FF DF FF FF",
+                            "posx": 1900.0,
+                            "posy": 5700.0,
+                            "posz": -21100.0,
+                            "sizex": 13000.0,
+                            "sizey": 5000.0,
+                            "sizez": 3000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 9408,
+                            "id": "FC 35",
+                            "name": "PlRsTag",
+                            "extra_info": {
+                                "trigscenefid": 192,
+                                "trigscenef": "zone temp flag: 0x1 01",
+                                "untrigscenefid": 36,
+                                "untrigscenef": "scene flag: 0x5 10",
+                                "entranceid": 2,
+                                "unk": 15,
+                                "roomid": 63,
+                                "type1": 3,
+                                "type2": 0,
+                                "type3": 3
+                            }
+                        },
+                        {
+                            "params1": "FF FF 2F 01",
+                            "params2": "FF FF FF FF",
+                            "posx": -6777.421875,
+                            "posy": 6400.0,
+                            "posz": -21223.234375,
+                            "sizex": 600.0,
+                            "sizey": 800.0,
+                            "sizez": 2000.0,
+                            "anglex": 0,
+                            "angley": 3640,
+                            "anglez": 0,
+                            "id": "FC 36",
+                            "name": "EvntTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "setscenefid": 47,
+                                "setscenef": "scene flag: 0x4 80",
+                                "eventIdx": 1,
+                                "Event Name": "RollRockLspAppear",
+                                "subtype": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF C1 C0 00",
+                            "params2": "FF FF FF FF",
+                            "posx": 700.0,
+                            "posy": 7300.0,
+                            "posz": -21100.0,
+                            "sizex": 800.0,
+                            "sizey": 800.0,
+                            "sizez": 2000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 37",
+                            "name": "EvntTag",
+                            "extra_info": {
+                                "trigscenefid": 193,
+                                "trigscenef": "zone temp flag: 0x1 02",
+                                "setscenefid": 192,
+                                "setscenef": "zone temp flag: 0x1 01",
+                                "eventIdx": 0,
+                                "Event Name": "RollRockChangeVera",
+                                "subtype": "-"
+                            }
+                        },
+                        {
+                            "params1": "F0 49 30 31",
+                            "params2": "FF FF FF FF",
+                            "posx": 7700.0,
+                            "posy": 7700.0,
+                            "posz": -23300.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 38",
+                            "name": "SwTag",
+                            "extra_info": {
+                                "trigscenefid": 36,
+                                "trigscenef": "scene flag: 0x5 10",
+                                "untrigscenefid": 192,
+                                "untrigscenef": "zone temp flag: 0x1 01",
+                                "count": 1
+                            }
+                        },
+                        {
+                            "params1": "01 C0 FF 04",
+                            "params2": "FF DF FF FF",
+                            "posx": -3400.0,
+                            "posy": 5600.0,
+                            "posz": -21100.0,
+                            "sizex": 3000.0,
+                            "sizey": 6000.0,
+                            "sizez": 4000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 39",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 192,
+                                "trigscenef": "zone temp flag: 0x1 01",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 4
+                            }
+                        },
+                        {
+                            "params1": "F0 49 30 B1",
+                            "params2": "FF FF FF FF",
+                            "posx": 7700.0,
+                            "posy": 7700.0,
+                            "posz": -23200.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 3A",
+                            "name": "SwTag",
+                            "extra_info": {
+                                "trigscenefid": 36,
+                                "trigscenef": "scene flag: 0x5 10",
+                                "untrigscenefid": 194,
+                                "untrigscenef": "zone temp flag: 0x1 04",
+                                "count": 1
+                            }
+                        },
+                        {
+                            "params1": "02 C0 FF 05",
+                            "params2": "FF DF FF FF",
+                            "posx": 7500.0,
+                            "posy": 9000.0,
+                            "posz": -21100.0,
+                            "sizex": 2000.0,
+                            "sizey": 2000.0,
+                            "sizez": 3000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 3B",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 192,
+                                "trigscenef": "zone temp flag: 0x1 01",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 5
+                            }
+                        }
+                    ]
+                },
+                "l3": {
+                    "OBJN": [
+                        "TgSBG",
+                        "Bvd",
+                        "CamTag",
+                        "PlRsTag",
+                        "SldDoor",
+                        "Vdb"
+                    ],
+                    "ARCN": [
+                        "FX_VeraFireBall",
+                        "SBGoodess",
+                        "Bvd",
+                        "SBAnm"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF F0 01",
+                            "params2": "FF FF FF FF",
+                            "posx": -3480.0,
+                            "posy": 6580.0,
+                            "posz": -21150.0,
+                            "anglex": 0,
+                            "angley": 16384,
+                            "anglez": 0,
+                            "id": "FC 2C",
+                            "name": "Bvd"
+                        },
+                        {
+                            "params1": "FF FF FF E3",
+                            "params2": "FF FF FF FF",
+                            "posx": 8250.0,
+                            "posy": 9580.0,
+                            "posz": -21149.91015625,
+                            "anglex": 0,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 2D",
+                            "name": "SldDoor",
+                            "extra_info": {
+                                "openscenefid": 254,
+                                "openscenef": "zone temp flag: 0x6 40",
+                                "firstopenscenefid": 255,
+                                "firstopenscenef": "no flag",
+                                "ignoreFirstOpenFlag": 1,
+                                "subtype": "Goodess"
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "02 FF FF 05",
+                            "params2": "FF DF FF FF",
+                            "posx": 7500.0,
+                            "posy": 9000.0,
+                            "posz": -21100.0,
+                            "sizex": 2000.0,
+                            "sizey": 2000.0,
+                            "sizez": 3000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 2E",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 5
+                            }
+                        },
+                        {
+                            "params1": "01 FF FF 01",
+                            "params2": "FF DF FF FF",
+                            "posx": 3400.0,
+                            "posy": 5600.0,
+                            "posz": -21100.0,
+                            "sizex": 10600.0,
+                            "sizey": 6000.0,
+                            "sizez": 4000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 2F",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 1
+                            }
+                        },
+                        {
+                            "params1": "FF CF FF 02",
+                            "params2": "FF DF FF FF",
+                            "posx": 1900.0,
+                            "posy": 5700.0,
+                            "posz": -21100.0,
+                            "sizex": 13000.0,
+                            "sizey": 5000.0,
+                            "sizez": 3000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 30",
+                            "name": "PlRsTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "entranceid": 2,
+                                "unk": 15,
+                                "roomid": 63,
+                                "type1": 3,
+                                "type2": 0,
+                                "type3": 3
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF 02",
+                            "params2": "FF FF FF FF",
+                            "posx": -3500.0,
+                            "posy": 6580.0,
+                            "posz": -20800.0,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 31",
+                            "name": "TgSBG"
+                        },
+                        {
+                            "params1": "01 FF FF 04",
+                            "params2": "FF DF FF FF",
+                            "posx": -3400.0,
+                            "posy": 5600.0,
+                            "posz": -21100.0,
+                            "sizex": 3000.0,
+                            "sizey": 6000.0,
+                            "sizez": 4000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 32",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 4
+                            }
+                        }
+                    ]
+                },
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}

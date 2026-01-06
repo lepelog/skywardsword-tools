@@ -1,0 +1,418 @@
+{
+    "header": {
+        "magic": 30554,
+        "evntcount": 4,
+        "actorcount": 7,
+        "unk1count": 8,
+        "unk2count": 8,
+        "unk3count": 11,
+        "alwaysev": "45 76",
+        "unk4count": 6,
+        "unk5count": 0,
+        "unk6count": 81
+    },
+    "evnts": [
+        {
+            "name": "D300Intro",
+            "dummy1": "00",
+            "unk1": 1,
+            "dummy2": "00 00",
+            "actorindex": 0,
+            "actorcount": 4,
+            "offset": 20,
+            "actors": [
+                {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 0,
+                    "actindex": 0,
+                    "actcount": 1,
+                    "offset": 180,
+                    "acts1": [
+                        {
+                            "name": "cut1",
+                            "waitfor": -1,
+                            "actorindex": 0,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 0,
+                            "dummy1": 1,
+                            "offset": 460
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "rsca",
+                            "eventSubManagerIndex": 12,
+                            "thisindex": 0,
+                            "unk3Index": 0,
+                            "unk3Count": 1,
+                            "offset": 684,
+                            "data": [
+                                {
+                                    "name": "name",
+                                    "unk1": 0,
+                                    "datatype": 2,
+                                    "dataindex": 0,
+                                    "datalen": 16,
+                                    "offset": 780,
+                                    "data": "D300_StageIntro"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Credit",
+                    "unk1": 4,
+                    "unk2": 0,
+                    "actindex": 1,
+                    "actcount": 1,
+                    "offset": 220,
+                    "acts1": [
+                        {
+                            "name": "telop",
+                            "waitfor": -1,
+                            "actorindex": 1,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 1,
+                            "dummy1": 1,
+                            "offset": 488
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "tlop",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 1,
+                            "unk3Index": 1,
+                            "unk3Count": 1,
+                            "offset": 696,
+                            "data": [
+                                {
+                                    "name": "name",
+                                    "unk1": 0,
+                                    "datatype": 2,
+                                    "dataindex": 16,
+                                    "datalen": 14,
+                                    "offset": 792,
+                                    "data": "TELOP_D300_01"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Director",
+                    "unk1": 0,
+                    "unk2": 0,
+                    "actindex": 2,
+                    "actcount": 2,
+                    "offset": 260,
+                    "acts1": [
+                        {
+                            "name": "eventflag",
+                            "waitfor": -1,
+                            "actorindex": 2,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 2,
+                            "dummy1": 1,
+                            "offset": 516
+                        },
+                        {
+                            "name": "sitbit",
+                            "waitfor": -1,
+                            "actorindex": 2,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 3,
+                            "dummy1": 1,
+                            "offset": 544
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "eflg",
+                            "eventSubManagerIndex": 14,
+                            "thisindex": 2,
+                            "unk3Index": 2,
+                            "unk3Count": 1,
+                            "offset": 708,
+                            "data": [
+                                {
+                                    "name": "id  ",
+                                    "unk1": 1,
+                                    "datatype": 0,
+                                    "dataindex": 0,
+                                    "datalen": 1,
+                                    "offset": 804,
+                                    "data": [
+                                        211
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "svsw",
+                            "eventSubManagerIndex": 19,
+                            "thisindex": 3,
+                            "unk3Index": 3,
+                            "unk3Count": 4,
+                            "offset": 720,
+                            "data": [
+                                {
+                                    "name": "id  ",
+                                    "unk1": 1,
+                                    "datatype": 0,
+                                    "dataindex": 1,
+                                    "datalen": 1,
+                                    "offset": 816,
+                                    "data": [
+                                        17
+                                    ]
+                                },
+                                {
+                                    "name": "no  ",
+                                    "unk1": 2,
+                                    "datatype": 0,
+                                    "dataindex": 2,
+                                    "datalen": 1,
+                                    "offset": 828,
+                                    "data": [
+                                        62
+                                    ]
+                                },
+                                {
+                                    "name": "way ",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 3,
+                                    "datalen": 1,
+                                    "offset": 840,
+                                    "data": [
+                                        1
+                                    ]
+                                },
+                                {
+                                    "name": "type",
+                                    "unk1": 5,
+                                    "datatype": 0,
+                                    "dataindex": 4,
+                                    "datalen": 1,
+                                    "offset": 852,
+                                    "data": [
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Link",
+                    "unk1": 2,
+                    "unk2": 0,
+                    "actindex": 4,
+                    "actcount": 1,
+                    "offset": 300,
+                    "acts1": [
+                        {
+                            "name": "lamo",
+                            "waitfor": -1,
+                            "actorindex": 3,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 4,
+                            "dummy1": 1,
+                            "offset": 572
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "lamo",
+                            "eventSubManagerIndex": 31,
+                            "thisindex": 4,
+                            "unk3Index": 7,
+                            "unk3Count": 1,
+                            "offset": 732,
+                            "data": [
+                                {
+                                    "name": "prm0",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 5,
+                                    "datalen": 1,
+                                    "offset": 864,
+                                    "data": [
+                                        0
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "D300_r02TeniDemo",
+            "dummy1": "00",
+            "unk1": 1,
+            "dummy2": "00 00",
+            "actorindex": 4,
+            "actorcount": 1,
+            "offset": 60,
+            "actors": [
+                {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 1,
+                    "actindex": 5,
+                    "actcount": 1,
+                    "offset": 340,
+                    "acts1": [
+                        {
+                            "name": "c1",
+                            "waitfor": -1,
+                            "actorindex": 4,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 5,
+                            "dummy1": 1,
+                            "offset": 600
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "rsca",
+                            "eventSubManagerIndex": 12,
+                            "thisindex": 5,
+                            "unk3Index": 8,
+                            "unk3Count": 1,
+                            "offset": 744,
+                            "data": [
+                                {
+                                    "name": "name",
+                                    "unk1": 0,
+                                    "datatype": 2,
+                                    "dataindex": 30,
+                                    "datalen": 17,
+                                    "offset": 876,
+                                    "data": "D300_r02TeniDemo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "D300_r03TeniDemo",
+            "dummy1": "00",
+            "unk1": 1,
+            "dummy2": "00 00",
+            "actorindex": 5,
+            "actorcount": 1,
+            "offset": 100,
+            "actors": [
+                {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 2,
+                    "actindex": 6,
+                    "actcount": 1,
+                    "offset": 380,
+                    "acts1": [
+                        {
+                            "name": "c1",
+                            "waitfor": -1,
+                            "actorindex": 5,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 6,
+                            "dummy1": 1,
+                            "offset": 628
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "rsca",
+                            "eventSubManagerIndex": 12,
+                            "thisindex": 6,
+                            "unk3Index": 9,
+                            "unk3Count": 1,
+                            "offset": 756,
+                            "data": [
+                                {
+                                    "name": "name",
+                                    "unk1": 0,
+                                    "datatype": 2,
+                                    "dataindex": 47,
+                                    "datalen": 17,
+                                    "offset": 888,
+                                    "data": "D300_r03TeniDemo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "D300_r06TeniDemo",
+            "dummy1": "00",
+            "unk1": 1,
+            "dummy2": "00 00",
+            "actorindex": 6,
+            "actorcount": 1,
+            "offset": 140,
+            "actors": [
+                {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 3,
+                    "actindex": 7,
+                    "actcount": 1,
+                    "offset": 420,
+                    "acts1": [
+                        {
+                            "name": "c1",
+                            "waitfor": -1,
+                            "actorindex": 6,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 7,
+                            "dummy1": 1,
+                            "offset": 656
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "rsca",
+                            "eventSubManagerIndex": 12,
+                            "thisindex": 7,
+                            "unk3Index": 10,
+                            "unk3Count": 1,
+                            "offset": 768,
+                            "data": [
+                                {
+                                    "name": "name",
+                                    "unk1": 0,
+                                    "datatype": 2,
+                                    "dataindex": 64,
+                                    "datalen": 17,
+                                    "offset": 900,
+                                    "data": "D300_r06TeniDemo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "intsoffset": 912,
+    "floatsoffset": 936,
+    "stringssoffset": 936
+}

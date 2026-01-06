@@ -1,0 +1,267 @@
+{
+    "FLW3": {
+        "flow": {
+            "0": {
+                "type": "start",
+                "next": 1
+            },
+            "1": {
+                "type": "type1",
+                "next": -1,
+                "param3": 63,
+                "param4": 0
+            },
+            "2": {
+                "type": "start",
+                "next": 3
+            },
+            "3": {
+                "type": "type1",
+                "next": 4,
+                "param3": 63,
+                "param4": 6
+            },
+            "4": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 23,
+                "param4": 5,
+                "param5": 0
+            },
+            "5": {
+                "type": "type3",
+                "subType": 1,
+                "param1": -1,
+                "param2": -1,
+                "next": -1,
+                "param3": 7
+            },
+            "6": {
+                "type": "type1",
+                "next": 7,
+                "param3": 63,
+                "param4": 15
+            },
+            "7": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 2,
+                "param4": 4,
+                "param5": 5
+            },
+            "8": {
+                "type": "type3",
+                "subType": 1,
+                "param1": -1,
+                "param2": -1,
+                "next": -1,
+                "param3": 7
+            },
+            "9": {
+                "type": "start",
+                "next": 28
+            },
+            "10": {
+                "type": "type3",
+                "subType": 0,
+                "param1": 0,
+                "param2": 0,
+                "next": 12,
+                "param3": 61
+            },
+            "11": {
+                "type": "type1",
+                "next": -1,
+                "param3": 63,
+                "param4": 21
+            },
+            "12": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 25,
+                "param4": 4,
+                "param5": 9
+            },
+            "13": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 26,
+                "param4": 2,
+                "param5": 13
+            },
+            "14": {
+                "type": "type1",
+                "next": 16,
+                "param3": 63,
+                "param4": 19
+            },
+            "15": {
+                "type": "type1",
+                "next": 16,
+                "param3": 63,
+                "param4": 20
+            },
+            "16": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 0,
+                "param4": 2,
+                "param5": 15
+            },
+            "17": {
+                "type": "type3",
+                "subType": 0,
+                "param1": 0,
+                "param2": 0,
+                "next": -1,
+                "param3": 62
+            },
+            "18": {
+                "type": "type1",
+                "next": -1,
+                "param3": 63,
+                "param4": 22
+            },
+            "19": {
+                "type": "type1",
+                "next": 20,
+                "param3": 63,
+                "param4": 23
+            },
+            "20": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 0,
+                "param4": 2,
+                "param5": 17
+            },
+            "21": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 26,
+                "param4": 2,
+                "param5": 19
+            },
+            "22": {
+                "type": "type1",
+                "next": -1,
+                "param3": 63,
+                "param4": 24
+            },
+            "23": {
+                "type": "start",
+                "next": 24
+            },
+            "24": {
+                "type": "type1",
+                "next": -1,
+                "param3": 63,
+                "param4": 25
+            },
+            "25": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 26,
+                "param4": 2,
+                "param5": 21
+            },
+            "26": {
+                "type": "type1",
+                "next": -1,
+                "param3": 63,
+                "param4": 21
+            },
+            "27": {
+                "type": "type1",
+                "next": -1,
+                "param3": 63,
+                "param4": 26
+            },
+            "28": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 24,
+                "param4": 3,
+                "param5": 23
+            }
+        },
+        "branch_points": [
+            6,
+            5,
+            5,
+            5,
+            -1,
+            8,
+            8,
+            8,
+            -1,
+            -1,
+            13,
+            18,
+            19,
+            14,
+            15,
+            17,
+            -1,
+            10,
+            -1,
+            11,
+            22,
+            26,
+            27,
+            21,
+            25,
+            10
+        ]
+    },
+    "FEN1": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            {
+                "name": "006_810",
+                "value": 9
+            }
+        ],
+        [
+            {
+                "name": "006_811",
+                "value": 23
+            }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            {
+                "name": "006_800",
+                "value": 0
+            }
+        ],
+        [
+            {
+                "name": "006_801",
+                "value": 2
+            }
+        ],
+        [],
+        [],
+        []
+    ]
+}

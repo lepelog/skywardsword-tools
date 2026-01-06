@@ -1,0 +1,155 @@
+{
+    "FLW3": {
+        "flow": {
+            "0": {
+                "type": "start",
+                "next": 4
+            },
+            "1": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 1,
+                "param4": 3,
+                "param5": 0
+            },
+            "2": {
+                "type": "start",
+                "next": 5
+            },
+            "3": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 0,
+                "param4": 2,
+                "param5": 3
+            },
+            "4": {
+                "type": "type1",
+                "next": 1,
+                "param3": 46,
+                "param4": 35
+            },
+            "5": {
+                "type": "type1",
+                "next": 3,
+                "param3": 46,
+                "param4": 36
+            },
+            "6": {
+                "type": "start",
+                "next": 10
+            },
+            "7": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 0,
+                "param4": 2,
+                "param5": 5
+            },
+            "8": {
+                "type": "start",
+                "next": 11
+            },
+            "9": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 0,
+                "param4": 2,
+                "param5": 7
+            },
+            "10": {
+                "type": "type1",
+                "next": 7,
+                "param3": 46,
+                "param4": 62
+            },
+            "11": {
+                "type": "type1",
+                "next": 9,
+                "param3": 46,
+                "param4": 63
+            },
+            "12": {
+                "type": "start",
+                "next": 14
+            },
+            "13": {
+                "type": "switch",
+                "subType": 6,
+                "param2": 0,
+                "param3": 0,
+                "param4": 2,
+                "param5": 9
+            },
+            "14": {
+                "type": "type1",
+                "next": 13,
+                "param3": 46,
+                "param4": 64
+            }
+        },
+        "branch_points": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ]
+    },
+    "FEN1": [
+        [
+            {
+                "name": "002_003",
+                "value": 6
+            }
+        ],
+        [
+            {
+                "name": "002_004",
+                "value": 8
+            }
+        ],
+        [
+            {
+                "name": "002_005",
+                "value": 12
+            }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            {
+                "name": "002_001",
+                "value": 0
+            }
+        ],
+        [
+            {
+                "name": "002_002",
+                "value": 2
+            }
+        ]
+    ]
+}

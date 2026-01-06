@@ -1,0 +1,934 @@
+{
+    "header": {
+        "magic": 30554,
+        "evntcount": 3,
+        "actorcount": 8,
+        "unk1count": 18,
+        "unk2count": 18,
+        "unk3count": 35,
+        "alwaysev": "45 76",
+        "unk4count": 19,
+        "unk5count": 64,
+        "unk6count": 0
+    },
+    "evnts": [
+        {
+            "name": "D3R02Yougan",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 2,
+            "actorcount": 3,
+            "offset": 20,
+            "actors": [
+                {
+                    "name": "@starter",
+                    "unk1": 6,
+                    "unk2": 1,
+                    "actindex": 2,
+                    "actcount": 2,
+                    "offset": 220,
+                    "acts1": [
+                        {
+                            "name": "Wait",
+                            "waitfor": -1,
+                            "actorindex": 2,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 2,
+                            "dummy1": 1,
+                            "offset": 516
+                        },
+                        {
+                            "name": "Open",
+                            "waitfor": 6,
+                            "actorindex": 2,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 3,
+                            "dummy1": 1,
+                            "offset": 544
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "act0",
+                            "eventSubManagerIndex": 0,
+                            "thisindex": 2,
+                            "unk3Index": 1,
+                            "unk3Count": 0,
+                            "offset": 988,
+                            "data": []
+                        },
+                        {
+                            "name": "act1",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 3,
+                            "unk3Index": 1,
+                            "unk3Count": 0,
+                            "offset": 1000,
+                            "data": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 1,
+                    "actindex": 4,
+                    "actcount": 4,
+                    "offset": 260,
+                    "acts1": [
+                        {
+                            "name": "c00",
+                            "waitfor": -1,
+                            "actorindex": 3,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 4,
+                            "dummy1": 1,
+                            "offset": 572
+                        },
+                        {
+                            "name": "Wait1",
+                            "waitfor": -1,
+                            "actorindex": 3,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 5,
+                            "dummy1": 1,
+                            "offset": 600
+                        },
+                        {
+                            "name": "c02",
+                            "waitfor": -1,
+                            "actorindex": 3,
+                            "unk3": 2,
+                            "dummy0": 0,
+                            "thisindex": 6,
+                            "dummy1": 1,
+                            "offset": 628
+                        },
+                        {
+                            "name": "Wait2",
+                            "waitfor": 3,
+                            "actorindex": 3,
+                            "unk3": 3,
+                            "dummy0": 0,
+                            "thisindex": 7,
+                            "dummy1": 1,
+                            "offset": 656
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "fixd",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 4,
+                            "unk3Index": 1,
+                            "unk3Count": 6,
+                            "offset": 1012,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 4,
+                                    "datatype": 0,
+                                    "dataindex": 1,
+                                    "datalen": 1,
+                                    "offset": 1192,
+                                    "data": [
+                                        30
+                                    ]
+                                },
+                                {
+                                    "name": "fovy",
+                                    "unk1": 2,
+                                    "datatype": 1,
+                                    "dataindex": 0,
+                                    "datalen": 1,
+                                    "offset": 1204,
+                                    "data": [
+                                        64.0
+                                    ]
+                                },
+                                {
+                                    "name": "bank",
+                                    "unk1": 3,
+                                    "datatype": 1,
+                                    "dataindex": 1,
+                                    "datalen": 1,
+                                    "offset": 1216,
+                                    "data": [
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 2,
+                                    "datalen": 3,
+                                    "offset": 1228,
+                                    "data": [
+                                        -660.931884765625,
+                                        215.46604919433594,
+                                        -157.80953979492188
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 5,
+                                    "datalen": 3,
+                                    "offset": 1240,
+                                    "data": [
+                                        -889.0358276367188,
+                                        251.15457153320312,
+                                        375.4457092285156
+                                    ]
+                                },
+                                {
+                                    "name": "way ",
+                                    "unk1": 7,
+                                    "datatype": 0,
+                                    "dataindex": 2,
+                                    "datalen": 1,
+                                    "offset": 1252,
+                                    "data": [
+                                        4
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 5,
+                            "unk3Index": 7,
+                            "unk3Count": 1,
+                            "offset": 1024,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 3,
+                                    "datalen": 1,
+                                    "offset": 1264,
+                                    "data": [
+                                        30
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "curv",
+                            "eventSubManagerIndex": 10,
+                            "thisindex": 6,
+                            "unk3Index": 8,
+                            "unk3Count": 6,
+                            "offset": 1036,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 4,
+                                    "datatype": 0,
+                                    "dataindex": 4,
+                                    "datalen": 1,
+                                    "offset": 1276,
+                                    "data": [
+                                        60
+                                    ]
+                                },
+                                {
+                                    "name": "fovy",
+                                    "unk1": 2,
+                                    "datatype": 1,
+                                    "dataindex": 8,
+                                    "datalen": 3,
+                                    "offset": 1288,
+                                    "data": [
+                                        64.0,
+                                        64.0,
+                                        64.0
+                                    ]
+                                },
+                                {
+                                    "name": "bank",
+                                    "unk1": 3,
+                                    "datatype": 1,
+                                    "dataindex": 11,
+                                    "datalen": 3,
+                                    "offset": 1300,
+                                    "data": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 14,
+                                    "datalen": 9,
+                                    "offset": 1312,
+                                    "data": [
+                                        -660.931884765625,
+                                        215.46604919433594,
+                                        -157.80953979492188,
+                                        -21.652454376220703,
+                                        221.85427856445312,
+                                        87.1767578125,
+                                        912.2429809570312,
+                                        199.8934326171875,
+                                        -359.3299865722656
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 23,
+                                    "datalen": 9,
+                                    "offset": 1324,
+                                    "data": [
+                                        -889.0358276367188,
+                                        251.15457153320312,
+                                        375.4457092285156,
+                                        -10.865801811218262,
+                                        257.5419006347656,
+                                        667.0554809570312,
+                                        1463.6885986328125,
+                                        168.15457153320312,
+                                        -178.91452026367188
+                                    ]
+                                },
+                                {
+                                    "name": "way ",
+                                    "unk1": 7,
+                                    "datatype": 0,
+                                    "dataindex": 5,
+                                    "datalen": 1,
+                                    "offset": 1336,
+                                    "data": [
+                                        2
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 7,
+                            "unk3Index": 14,
+                            "unk3Count": 1,
+                            "offset": 1048,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 6,
+                                    "datalen": 1,
+                                    "offset": 1348,
+                                    "data": [
+                                        60
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Director",
+                    "unk1": 0,
+                    "unk2": 1,
+                    "actindex": 8,
+                    "actcount": 2,
+                    "offset": 300,
+                    "acts1": [
+                        {
+                            "name": "wait",
+                            "waitfor": -1,
+                            "actorindex": 4,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 8,
+                            "dummy1": 1,
+                            "offset": 684
+                        },
+                        {
+                            "name": "flag",
+                            "waitfor": 6,
+                            "actorindex": 4,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 9,
+                            "dummy1": 1,
+                            "offset": 712
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 4,
+                            "thisindex": 8,
+                            "unk3Index": 15,
+                            "unk3Count": 0,
+                            "offset": 1060,
+                            "data": []
+                        },
+                        {
+                            "name": "svsw",
+                            "eventSubManagerIndex": 19,
+                            "thisindex": 9,
+                            "unk3Index": 15,
+                            "unk3Count": 3,
+                            "offset": 1072,
+                            "data": [
+                                {
+                                    "name": "id  ",
+                                    "unk1": 1,
+                                    "datatype": 0,
+                                    "dataindex": 7,
+                                    "datalen": 1,
+                                    "offset": 1360,
+                                    "data": [
+                                        20
+                                    ]
+                                },
+                                {
+                                    "name": "no  ",
+                                    "unk1": 2,
+                                    "datatype": 0,
+                                    "dataindex": 8,
+                                    "datalen": 1,
+                                    "offset": 1372,
+                                    "data": [
+                                        30
+                                    ]
+                                },
+                                {
+                                    "name": "way ",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 9,
+                                    "datalen": 1,
+                                    "offset": 1384,
+                                    "data": [
+                                        0
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "D3R02Yougan2",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 5,
+            "actorcount": 3,
+            "offset": 60,
+            "actors": [
+                {
+                    "name": "@starter",
+                    "unk1": 6,
+                    "unk2": 2,
+                    "actindex": 10,
+                    "actcount": 2,
+                    "offset": 340,
+                    "acts1": [
+                        {
+                            "name": "Wait",
+                            "waitfor": -1,
+                            "actorindex": 5,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 10,
+                            "dummy1": 1,
+                            "offset": 740
+                        },
+                        {
+                            "name": "Open",
+                            "waitfor": 14,
+                            "actorindex": 5,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 11,
+                            "dummy1": 1,
+                            "offset": 768
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "act0",
+                            "eventSubManagerIndex": 0,
+                            "thisindex": 10,
+                            "unk3Index": 18,
+                            "unk3Count": 0,
+                            "offset": 1084,
+                            "data": []
+                        },
+                        {
+                            "name": "act1",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 11,
+                            "unk3Index": 18,
+                            "unk3Count": 0,
+                            "offset": 1096,
+                            "data": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 2,
+                    "actindex": 12,
+                    "actcount": 4,
+                    "offset": 380,
+                    "acts1": [
+                        {
+                            "name": "c00",
+                            "waitfor": -1,
+                            "actorindex": 6,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 12,
+                            "dummy1": 1,
+                            "offset": 796
+                        },
+                        {
+                            "name": "Wait1",
+                            "waitfor": -1,
+                            "actorindex": 6,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 13,
+                            "dummy1": 1,
+                            "offset": 824
+                        },
+                        {
+                            "name": "c02",
+                            "waitfor": -1,
+                            "actorindex": 6,
+                            "unk3": 2,
+                            "dummy0": 0,
+                            "thisindex": 14,
+                            "dummy1": 1,
+                            "offset": 852
+                        },
+                        {
+                            "name": "Wait2",
+                            "waitfor": 11,
+                            "actorindex": 6,
+                            "unk3": 3,
+                            "dummy0": 0,
+                            "thisindex": 15,
+                            "dummy1": 1,
+                            "offset": 880
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "fixd",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 12,
+                            "unk3Index": 18,
+                            "unk3Count": 6,
+                            "offset": 1108,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 4,
+                                    "datatype": 0,
+                                    "dataindex": 10,
+                                    "datalen": 1,
+                                    "offset": 1396,
+                                    "data": [
+                                        30
+                                    ]
+                                },
+                                {
+                                    "name": "fovy",
+                                    "unk1": 2,
+                                    "datatype": 1,
+                                    "dataindex": 32,
+                                    "datalen": 1,
+                                    "offset": 1408,
+                                    "data": [
+                                        64.0
+                                    ]
+                                },
+                                {
+                                    "name": "bank",
+                                    "unk1": 3,
+                                    "datatype": 1,
+                                    "dataindex": 33,
+                                    "datalen": 1,
+                                    "offset": 1420,
+                                    "data": [
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 34,
+                                    "datalen": 3,
+                                    "offset": 1432,
+                                    "data": [
+                                        -660.931884765625,
+                                        215.46604919433594,
+                                        -157.80953979492188
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 37,
+                                    "datalen": 3,
+                                    "offset": 1444,
+                                    "data": [
+                                        -889.0358276367188,
+                                        251.15457153320312,
+                                        375.4457092285156
+                                    ]
+                                },
+                                {
+                                    "name": "way ",
+                                    "unk1": 7,
+                                    "datatype": 0,
+                                    "dataindex": 11,
+                                    "datalen": 1,
+                                    "offset": 1456,
+                                    "data": [
+                                        4
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 13,
+                            "unk3Index": 24,
+                            "unk3Count": 1,
+                            "offset": 1120,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 12,
+                                    "datalen": 1,
+                                    "offset": 1468,
+                                    "data": [
+                                        30
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "curv",
+                            "eventSubManagerIndex": 10,
+                            "thisindex": 14,
+                            "unk3Index": 25,
+                            "unk3Count": 6,
+                            "offset": 1132,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 4,
+                                    "datatype": 0,
+                                    "dataindex": 13,
+                                    "datalen": 1,
+                                    "offset": 1480,
+                                    "data": [
+                                        60
+                                    ]
+                                },
+                                {
+                                    "name": "fovy",
+                                    "unk1": 2,
+                                    "datatype": 1,
+                                    "dataindex": 40,
+                                    "datalen": 3,
+                                    "offset": 1492,
+                                    "data": [
+                                        64.0,
+                                        64.0,
+                                        64.0
+                                    ]
+                                },
+                                {
+                                    "name": "bank",
+                                    "unk1": 3,
+                                    "datatype": 1,
+                                    "dataindex": 43,
+                                    "datalen": 3,
+                                    "offset": 1504,
+                                    "data": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 46,
+                                    "datalen": 9,
+                                    "offset": 1516,
+                                    "data": [
+                                        -660.931884765625,
+                                        215.46604919433594,
+                                        -157.80953979492188,
+                                        -21.652454376220703,
+                                        221.85427856445312,
+                                        87.1767578125,
+                                        912.2429809570312,
+                                        199.8934326171875,
+                                        -359.3299865722656
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 55,
+                                    "datalen": 9,
+                                    "offset": 1528,
+                                    "data": [
+                                        -889.0358276367188,
+                                        251.15457153320312,
+                                        375.4457092285156,
+                                        -10.865801811218262,
+                                        257.5419006347656,
+                                        667.0554809570312,
+                                        1463.6885986328125,
+                                        168.15457153320312,
+                                        -178.91452026367188
+                                    ]
+                                },
+                                {
+                                    "name": "way ",
+                                    "unk1": 7,
+                                    "datatype": 0,
+                                    "dataindex": 14,
+                                    "datalen": 1,
+                                    "offset": 1540,
+                                    "data": [
+                                        2
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 15,
+                            "unk3Index": 31,
+                            "unk3Count": 1,
+                            "offset": 1144,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 15,
+                                    "datalen": 1,
+                                    "offset": 1552,
+                                    "data": [
+                                        60
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Director",
+                    "unk1": 0,
+                    "unk2": 2,
+                    "actindex": 16,
+                    "actcount": 2,
+                    "offset": 420,
+                    "acts1": [
+                        {
+                            "name": "wait",
+                            "waitfor": -1,
+                            "actorindex": 7,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 16,
+                            "dummy1": 1,
+                            "offset": 908
+                        },
+                        {
+                            "name": "flag",
+                            "waitfor": 14,
+                            "actorindex": 7,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 17,
+                            "dummy1": 1,
+                            "offset": 936
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 4,
+                            "thisindex": 16,
+                            "unk3Index": 32,
+                            "unk3Count": 0,
+                            "offset": 1156,
+                            "data": []
+                        },
+                        {
+                            "name": "svsw",
+                            "eventSubManagerIndex": 19,
+                            "thisindex": 17,
+                            "unk3Index": 32,
+                            "unk3Count": 3,
+                            "offset": 1168,
+                            "data": [
+                                {
+                                    "name": "id  ",
+                                    "unk1": 1,
+                                    "datatype": 0,
+                                    "dataindex": 16,
+                                    "datalen": 1,
+                                    "offset": 1564,
+                                    "data": [
+                                        20
+                                    ]
+                                },
+                                {
+                                    "name": "no  ",
+                                    "unk1": 2,
+                                    "datatype": 0,
+                                    "dataindex": 17,
+                                    "datalen": 1,
+                                    "offset": 1576,
+                                    "data": [
+                                        30
+                                    ]
+                                },
+                                {
+                                    "name": "way ",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 18,
+                                    "datalen": 1,
+                                    "offset": 1588,
+                                    "data": [
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ValveStart",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 0,
+            "actorcount": 2,
+            "offset": 100,
+            "actors": [
+                {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 0,
+                    "actindex": 0,
+                    "actcount": 1,
+                    "offset": 140,
+                    "acts1": [
+                        {
+                            "name": "wait",
+                            "waitfor": -1,
+                            "actorindex": 0,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 0,
+                            "dummy1": 1,
+                            "offset": 460
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 0,
+                            "unk3Index": 0,
+                            "unk3Count": 0,
+                            "offset": 964,
+                            "data": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Director",
+                    "unk1": 0,
+                    "unk2": 0,
+                    "actindex": 1,
+                    "actcount": 1,
+                    "offset": 180,
+                    "acts1": [
+                        {
+                            "name": "wait",
+                            "waitfor": -1,
+                            "actorindex": 1,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 1,
+                            "dummy1": 1,
+                            "offset": 488
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "time",
+                            "eventSubManagerIndex": 0,
+                            "thisindex": 1,
+                            "unk3Index": 0,
+                            "unk3Count": 1,
+                            "offset": 976,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 0,
+                                    "datalen": 1,
+                                    "offset": 1180,
+                                    "data": [
+                                        75
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "intsoffset": 1600,
+    "floatsoffset": 1676,
+    "stringssoffset": 1932
+}

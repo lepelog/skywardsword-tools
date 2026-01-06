@@ -1,0 +1,2005 @@
+{
+    "header": {
+        "magic": 30554,
+        "evntcount": 3,
+        "actorcount": 9,
+        "unk1count": 56,
+        "unk2count": 56,
+        "unk3count": 66,
+        "alwaysev": "45 76",
+        "unk4count": 21,
+        "unk5count": 90,
+        "unk6count": 134
+    },
+    "evnts": [
+        {
+            "name": "AkumaChangeHuman",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 6,
+            "actorcount": 3,
+            "offset": 20,
+            "actors": [
+                {
+                    "name": "NpcAkum",
+                    "unk1": 91,
+                    "unk2": 2,
+                    "actindex": 38,
+                    "actcount": 4,
+                    "offset": 380,
+                    "acts1": [
+                        {
+                            "name": "feel",
+                            "waitfor": -1,
+                            "actorindex": 6,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 38,
+                            "dummy1": 1,
+                            "offset": 1564
+                        },
+                        {
+                            "name": "flash",
+                            "waitfor": -1,
+                            "actorindex": 6,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 39,
+                            "dummy1": 1,
+                            "offset": 1592
+                        },
+                        {
+                            "name": "change",
+                            "waitfor": -1,
+                            "actorindex": 6,
+                            "unk3": 2,
+                            "dummy0": 0,
+                            "thisindex": 40,
+                            "dummy1": 1,
+                            "offset": 1620
+                        },
+                        {
+                            "name": "talk",
+                            "waitfor": 53,
+                            "actorindex": 6,
+                            "unk3": 3,
+                            "dummy0": 0,
+                            "thisindex": 41,
+                            "dummy1": 1,
+                            "offset": 1648
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "akfe",
+                            "eventSubManagerIndex": 8,
+                            "thisindex": 38,
+                            "unk3Index": 44,
+                            "unk3Count": 0,
+                            "offset": 2524,
+                            "data": []
+                        },
+                        {
+                            "name": "akfl",
+                            "eventSubManagerIndex": 5,
+                            "thisindex": 39,
+                            "unk3Index": 44,
+                            "unk3Count": 0,
+                            "offset": 2536,
+                            "data": []
+                        },
+                        {
+                            "name": "akch",
+                            "eventSubManagerIndex": 6,
+                            "thisindex": 40,
+                            "unk3Index": 44,
+                            "unk3Count": 0,
+                            "offset": 2548,
+                            "data": []
+                        },
+                        {
+                            "name": "aktk",
+                            "eventSubManagerIndex": 7,
+                            "thisindex": 41,
+                            "unk3Index": 44,
+                            "unk3Count": 0,
+                            "offset": 2560,
+                            "data": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Link",
+                    "unk1": 2,
+                    "unk2": 2,
+                    "actindex": 42,
+                    "actcount": 3,
+                    "offset": 420,
+                    "acts1": [
+                        {
+                            "name": "wait",
+                            "waitfor": -1,
+                            "actorindex": 7,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 42,
+                            "dummy1": 1,
+                            "offset": 1676
+                        },
+                        {
+                            "name": "surprise",
+                            "waitfor": 39,
+                            "actorindex": 7,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 43,
+                            "dummy1": 1,
+                            "offset": 1704
+                        },
+                        {
+                            "name": "talk",
+                            "waitfor": 53,
+                            "actorindex": 7,
+                            "unk3": 2,
+                            "dummy0": 0,
+                            "thisindex": 44,
+                            "dummy1": 1,
+                            "offset": 1732
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 42,
+                            "unk3Index": 44,
+                            "unk3Count": 3,
+                            "offset": 2572,
+                            "data": [
+                                {
+                                    "name": "look",
+                                    "unk1": 1,
+                                    "datatype": 0,
+                                    "dataindex": 11,
+                                    "datalen": 1,
+                                    "offset": 3268,
+                                    "data": [
+                                        1
+                                    ]
+                                },
+                                {
+                                    "name": "prm0",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 12,
+                                    "datalen": 1,
+                                    "offset": 3280,
+                                    "data": [
+                                        1
+                                    ]
+                                },
+                                {
+                                    "name": "face",
+                                    "unk1": 2,
+                                    "datatype": 0,
+                                    "dataindex": 13,
+                                    "datalen": 1,
+                                    "offset": 3292,
+                                    "data": [
+                                        1
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "surp",
+                            "eventSubManagerIndex": 25,
+                            "thisindex": 43,
+                            "unk3Index": 47,
+                            "unk3Count": 2,
+                            "offset": 2584,
+                            "data": [
+                                {
+                                    "name": "prm0",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 14,
+                                    "datalen": 1,
+                                    "offset": 3304,
+                                    "data": [
+                                        0
+                                    ]
+                                },
+                                {
+                                    "name": "look",
+                                    "unk1": 1,
+                                    "datatype": 0,
+                                    "dataindex": 15,
+                                    "datalen": 1,
+                                    "offset": 3316,
+                                    "data": [
+                                        1
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "talk",
+                            "eventSubManagerIndex": 5,
+                            "thisindex": 44,
+                            "unk3Index": 49,
+                            "unk3Count": 0,
+                            "offset": 2596,
+                            "data": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 2,
+                    "actindex": 45,
+                    "actcount": 11,
+                    "offset": 460,
+                    "acts1": [
+                        {
+                            "name": "look_akuma_1",
+                            "waitfor": -1,
+                            "actorindex": 8,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 45,
+                            "dummy1": 1,
+                            "offset": 1760
+                        },
+                        {
+                            "name": "look_aku_wt_1",
+                            "waitfor": -1,
+                            "actorindex": 8,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 46,
+                            "dummy1": 1,
+                            "offset": 1788
+                        },
+                        {
+                            "name": "far_aku_pre",
+                            "waitfor": 38,
+                            "actorindex": 8,
+                            "unk3": 2,
+                            "dummy0": 0,
+                            "thisindex": 47,
+                            "dummy1": 1,
+                            "offset": 1816
+                        },
+                        {
+                            "name": "far_akuma",
+                            "waitfor": -1,
+                            "actorindex": 8,
+                            "unk3": 3,
+                            "dummy0": 0,
+                            "thisindex": 48,
+                            "dummy1": 1,
+                            "offset": 1844
+                        },
+                        {
+                            "name": "far_aku_wt",
+                            "waitfor": -1,
+                            "actorindex": 8,
+                            "unk3": 4,
+                            "dummy0": 0,
+                            "thisindex": 49,
+                            "dummy1": 1,
+                            "offset": 1872
+                        },
+                        {
+                            "name": "look_ak_wt_2",
+                            "waitfor": 39,
+                            "actorindex": 8,
+                            "unk3": 5,
+                            "dummy0": 0,
+                            "thisindex": 50,
+                            "dummy1": 1,
+                            "offset": 1900
+                        },
+                        {
+                            "name": "look_akuma_2",
+                            "waitfor": -1,
+                            "actorindex": 8,
+                            "unk3": 6,
+                            "dummy0": 0,
+                            "thisindex": 51,
+                            "dummy1": 1,
+                            "offset": 1928
+                        },
+                        {
+                            "name": "look_aku_mv_2",
+                            "waitfor": -1,
+                            "actorindex": 8,
+                            "unk3": 7,
+                            "dummy0": 0,
+                            "thisindex": 52,
+                            "dummy1": 1,
+                            "offset": 1956
+                        },
+                        {
+                            "name": "look_aku_wt_3",
+                            "waitfor": -1,
+                            "actorindex": 8,
+                            "unk3": 8,
+                            "dummy0": 0,
+                            "thisindex": 53,
+                            "dummy1": 1,
+                            "offset": 1984
+                        },
+                        {
+                            "name": "talk",
+                            "waitfor": -1,
+                            "actorindex": 8,
+                            "unk3": 9,
+                            "dummy0": 0,
+                            "thisindex": 54,
+                            "dummy1": 1,
+                            "offset": 2012
+                        },
+                        {
+                            "name": "back",
+                            "waitfor": 41,
+                            "actorindex": 8,
+                            "unk3": 10,
+                            "dummy0": 0,
+                            "thisindex": 55,
+                            "dummy1": 1,
+                            "offset": 2040
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "fixd",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 45,
+                            "unk3Index": 49,
+                            "unk3Count": 3,
+                            "offset": 2608,
+                            "data": [
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 102,
+                                    "datalen": 8,
+                                    "offset": 3328,
+                                    "data": "NpcAkum"
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 66,
+                                    "datalen": 3,
+                                    "offset": 3340,
+                                    "data": [
+                                        0.0,
+                                        180.0,
+                                        50.0
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 69,
+                                    "datalen": 3,
+                                    "offset": 3352,
+                                    "data": [
+                                        0.0,
+                                        180.0,
+                                        100.0
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 46,
+                            "unk3Index": 52,
+                            "unk3Count": 0,
+                            "offset": 2620,
+                            "data": []
+                        },
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 47,
+                            "unk3Index": 52,
+                            "unk3Count": 1,
+                            "offset": 2632,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 16,
+                                    "datalen": 1,
+                                    "offset": 3364,
+                                    "data": [
+                                        70
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "move",
+                            "eventSubManagerIndex": 3,
+                            "thisindex": 48,
+                            "unk3Index": 53,
+                            "unk3Count": 4,
+                            "offset": 2644,
+                            "data": [
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 110,
+                                    "datalen": 8,
+                                    "offset": 3376,
+                                    "data": "NpcAkum"
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 72,
+                                    "datalen": 3,
+                                    "offset": 3388,
+                                    "data": [
+                                        0.0,
+                                        44.0,
+                                        180.0
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 75,
+                                    "datalen": 3,
+                                    "offset": 3400,
+                                    "data": [
+                                        0.0,
+                                        20.0,
+                                        230.0
+                                    ]
+                                },
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 4,
+                                    "datatype": 0,
+                                    "dataindex": 17,
+                                    "datalen": 1,
+                                    "offset": 3412,
+                                    "data": [
+                                        45
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 49,
+                            "unk3Index": 57,
+                            "unk3Count": 0,
+                            "offset": 2656,
+                            "data": []
+                        },
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 50,
+                            "unk3Index": 57,
+                            "unk3Count": 1,
+                            "offset": 2668,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 18,
+                                    "datalen": 1,
+                                    "offset": 3424,
+                                    "data": [
+                                        70
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "fixd",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 51,
+                            "unk3Index": 58,
+                            "unk3Count": 3,
+                            "offset": 2680,
+                            "data": [
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 118,
+                                    "datalen": 8,
+                                    "offset": 3436,
+                                    "data": "NpcAkum"
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 78,
+                                    "datalen": 3,
+                                    "offset": 3448,
+                                    "data": [
+                                        0.0,
+                                        50.0,
+                                        100.0
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 81,
+                                    "datalen": 3,
+                                    "offset": 3460,
+                                    "data": [
+                                        0.0,
+                                        40.0,
+                                        150.0
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "move",
+                            "eventSubManagerIndex": 3,
+                            "thisindex": 52,
+                            "unk3Index": 61,
+                            "unk3Count": 4,
+                            "offset": 2692,
+                            "data": [
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 126,
+                                    "datalen": 8,
+                                    "offset": 3472,
+                                    "data": "NpcAkum"
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 84,
+                                    "datalen": 3,
+                                    "offset": 3484,
+                                    "data": [
+                                        0.0,
+                                        215.0,
+                                        70.0
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 87,
+                                    "datalen": 3,
+                                    "offset": 3496,
+                                    "data": [
+                                        0.0,
+                                        210.0,
+                                        100.0
+                                    ]
+                                },
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 4,
+                                    "datatype": 0,
+                                    "dataindex": 19,
+                                    "datalen": 1,
+                                    "offset": 3508,
+                                    "data": [
+                                        200
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 53,
+                            "unk3Index": 65,
+                            "unk3Count": 1,
+                            "offset": 2704,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 20,
+                                    "datalen": 1,
+                                    "offset": 3520,
+                                    "data": [
+                                        40
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "talk",
+                            "eventSubManagerIndex": 5,
+                            "thisindex": 54,
+                            "unk3Index": 66,
+                            "unk3Count": 0,
+                            "offset": 2716,
+                            "data": []
+                        },
+                        {
+                            "name": "back",
+                            "eventSubManagerIndex": 9,
+                            "thisindex": 55,
+                            "unk3Index": 66,
+                            "unk3Count": 0,
+                            "offset": 2728,
+                            "data": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "AkumaInitTalkFirst",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 0,
+            "actorcount": 3,
+            "offset": 60,
+            "actors": [
+                {
+                    "name": "NpcAkum",
+                    "unk1": 91,
+                    "unk2": 0,
+                    "actindex": 0,
+                    "actcount": 3,
+                    "offset": 140,
+                    "acts1": [
+                        {
+                            "name": "wait",
+                            "waitfor": -1,
+                            "actorindex": 0,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 0,
+                            "dummy1": 1,
+                            "offset": 500
+                        },
+                        {
+                            "name": "turn",
+                            "waitfor": 10,
+                            "actorindex": 0,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 1,
+                            "dummy1": 1,
+                            "offset": 528
+                        },
+                        {
+                            "name": "attack",
+                            "waitfor": 13,
+                            "actorindex": 0,
+                            "unk3": 2,
+                            "dummy0": 0,
+                            "thisindex": 2,
+                            "dummy1": 1,
+                            "offset": 556
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "akwt",
+                            "eventSubManagerIndex": 0,
+                            "thisindex": 0,
+                            "unk3Index": 0,
+                            "unk3Count": 0,
+                            "offset": 2068,
+                            "data": []
+                        },
+                        {
+                            "name": "aktn",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 1,
+                            "unk3Index": 0,
+                            "unk3Count": 0,
+                            "offset": 2080,
+                            "data": []
+                        },
+                        {
+                            "name": "akat",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 2,
+                            "unk3Index": 0,
+                            "unk3Count": 0,
+                            "offset": 2092,
+                            "data": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Link",
+                    "unk1": 2,
+                    "unk2": 0,
+                    "actindex": 3,
+                    "actcount": 6,
+                    "offset": 180,
+                    "acts1": [
+                        {
+                            "name": "wait",
+                            "waitfor": -1,
+                            "actorindex": 1,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 3,
+                            "dummy1": 1,
+                            "offset": 584
+                        },
+                        {
+                            "name": "surprise",
+                            "waitfor": 1,
+                            "actorindex": 1,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 4,
+                            "dummy1": 1,
+                            "offset": 612
+                        },
+                        {
+                            "name": "attention",
+                            "waitfor": 14,
+                            "actorindex": 1,
+                            "unk3": 2,
+                            "dummy0": 0,
+                            "thisindex": 5,
+                            "dummy1": 1,
+                            "offset": 640
+                        },
+                        {
+                            "name": "battle_start",
+                            "waitfor": 2,
+                            "actorindex": 1,
+                            "unk3": 3,
+                            "dummy0": 0,
+                            "thisindex": 6,
+                            "dummy1": 1,
+                            "offset": 668
+                        },
+                        {
+                            "name": "battle",
+                            "waitfor": -1,
+                            "actorindex": 1,
+                            "unk3": 4,
+                            "dummy0": 0,
+                            "thisindex": 7,
+                            "dummy1": 1,
+                            "offset": 696
+                        },
+                        {
+                            "name": "battle_end",
+                            "waitfor": -1,
+                            "actorindex": 1,
+                            "unk3": 5,
+                            "dummy0": 0,
+                            "thisindex": 8,
+                            "dummy1": 1,
+                            "offset": 724
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "atnw",
+                            "eventSubManagerIndex": 4,
+                            "thisindex": 3,
+                            "unk3Index": 0,
+                            "unk3Count": 0,
+                            "offset": 2104,
+                            "data": []
+                        },
+                        {
+                            "name": "surp",
+                            "eventSubManagerIndex": 25,
+                            "thisindex": 4,
+                            "unk3Index": 0,
+                            "unk3Count": 0,
+                            "offset": 2116,
+                            "data": []
+                        },
+                        {
+                            "name": "atnw",
+                            "eventSubManagerIndex": 4,
+                            "thisindex": 5,
+                            "unk3Index": 0,
+                            "unk3Count": 0,
+                            "offset": 2128,
+                            "data": []
+                        },
+                        {
+                            "name": "btle",
+                            "eventSubManagerIndex": 58,
+                            "thisindex": 6,
+                            "unk3Index": 0,
+                            "unk3Count": 1,
+                            "offset": 2140,
+                            "data": [
+                                {
+                                    "name": "prm0",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 0,
+                                    "datalen": 1,
+                                    "offset": 2740,
+                                    "data": [
+                                        0
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "uneq",
+                            "eventSubManagerIndex": 13,
+                            "thisindex": 7,
+                            "unk3Index": 1,
+                            "unk3Count": 3,
+                            "offset": 2152,
+                            "data": [
+                                {
+                                    "name": "prm0",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 1,
+                                    "datalen": 1,
+                                    "offset": 2752,
+                                    "data": [
+                                        1
+                                    ]
+                                },
+                                {
+                                    "name": "look",
+                                    "unk1": 1,
+                                    "datatype": 0,
+                                    "dataindex": 2,
+                                    "datalen": 1,
+                                    "offset": 2764,
+                                    "data": [
+                                        1
+                                    ]
+                                },
+                                {
+                                    "name": "prm1",
+                                    "unk1": 2,
+                                    "datatype": 0,
+                                    "dataindex": 3,
+                                    "datalen": 1,
+                                    "offset": 2776,
+                                    "data": [
+                                        1
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "atnw",
+                            "eventSubManagerIndex": 4,
+                            "thisindex": 8,
+                            "unk3Index": 4,
+                            "unk3Count": 0,
+                            "offset": 2164,
+                            "data": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 0,
+                    "actindex": 9,
+                    "actcount": 11,
+                    "offset": 220,
+                    "acts1": [
+                        {
+                            "name": "look_akuma_1",
+                            "waitfor": -1,
+                            "actorindex": 2,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 9,
+                            "dummy1": 1,
+                            "offset": 752
+                        },
+                        {
+                            "name": "move_akuma_1",
+                            "waitfor": -1,
+                            "actorindex": 2,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 10,
+                            "dummy1": 1,
+                            "offset": 780
+                        },
+                        {
+                            "name": "mv_end_1",
+                            "waitfor": -1,
+                            "actorindex": 2,
+                            "unk3": 2,
+                            "dummy0": 0,
+                            "thisindex": 11,
+                            "dummy1": 1,
+                            "offset": 808
+                        },
+                        {
+                            "name": "look_link",
+                            "waitfor": 1,
+                            "actorindex": 2,
+                            "unk3": 3,
+                            "dummy0": 0,
+                            "thisindex": 12,
+                            "dummy1": 1,
+                            "offset": 836
+                        },
+                        {
+                            "name": "look_link_wt",
+                            "waitfor": 4,
+                            "actorindex": 2,
+                            "unk3": 4,
+                            "dummy0": 0,
+                            "thisindex": 13,
+                            "dummy1": 1,
+                            "offset": 864
+                        },
+                        {
+                            "name": "look_akuma_2",
+                            "waitfor": -1,
+                            "actorindex": 2,
+                            "unk3": 5,
+                            "dummy0": 0,
+                            "thisindex": 14,
+                            "dummy1": 1,
+                            "offset": 892
+                        },
+                        {
+                            "name": "move_akuma_2",
+                            "waitfor": -1,
+                            "actorindex": 2,
+                            "unk3": 6,
+                            "dummy0": 0,
+                            "thisindex": 15,
+                            "dummy1": 1,
+                            "offset": 920
+                        },
+                        {
+                            "name": "mv_end_2",
+                            "waitfor": -1,
+                            "actorindex": 2,
+                            "unk3": 7,
+                            "dummy0": 0,
+                            "thisindex": 16,
+                            "dummy1": 1,
+                            "offset": 948
+                        },
+                        {
+                            "name": "look_link_2",
+                            "waitfor": 2,
+                            "actorindex": 2,
+                            "unk3": 8,
+                            "dummy0": 0,
+                            "thisindex": 17,
+                            "dummy1": 1,
+                            "offset": 976
+                        },
+                        {
+                            "name": "look_link_2_wt",
+                            "waitfor": 6,
+                            "actorindex": 2,
+                            "unk3": 9,
+                            "dummy0": 0,
+                            "thisindex": 18,
+                            "dummy1": 1,
+                            "offset": 1004
+                        },
+                        {
+                            "name": "back",
+                            "waitfor": -1,
+                            "actorindex": 2,
+                            "unk3": 10,
+                            "dummy0": 0,
+                            "thisindex": 19,
+                            "dummy1": 1,
+                            "offset": 1032
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "fixd",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 9,
+                            "unk3Index": 4,
+                            "unk3Count": 3,
+                            "offset": 2176,
+                            "data": [
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 0,
+                                    "datalen": 8,
+                                    "offset": 2788,
+                                    "data": "NpcAkum"
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 0,
+                                    "datalen": 3,
+                                    "offset": 2800,
+                                    "data": [
+                                        0.0,
+                                        180.0,
+                                        -400.0
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 3,
+                                    "datalen": 3,
+                                    "offset": 2812,
+                                    "data": [
+                                        0.0,
+                                        170.0,
+                                        -500.0
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "move",
+                            "eventSubManagerIndex": 3,
+                            "thisindex": 10,
+                            "unk3Index": 7,
+                            "unk3Count": 4,
+                            "offset": 2188,
+                            "data": [
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 6,
+                                    "datalen": 3,
+                                    "offset": 2824,
+                                    "data": [
+                                        120.0,
+                                        170.0,
+                                        -35.0
+                                    ]
+                                },
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 8,
+                                    "datalen": 8,
+                                    "offset": 2836,
+                                    "data": "NpcAkum"
+                                },
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 4,
+                                    "datatype": 0,
+                                    "dataindex": 4,
+                                    "datalen": 1,
+                                    "offset": 2848,
+                                    "data": [
+                                        150
+                                    ]
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 9,
+                                    "datalen": 3,
+                                    "offset": 2860,
+                                    "data": [
+                                        80.0,
+                                        180.0,
+                                        -15.0
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 11,
+                            "unk3Index": 11,
+                            "unk3Count": 0,
+                            "offset": 2200,
+                            "data": []
+                        },
+                        {
+                            "name": "fixd",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 12,
+                            "unk3Index": 11,
+                            "unk3Count": 3,
+                            "offset": 2212,
+                            "data": [
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 16,
+                                    "datalen": 5,
+                                    "offset": 2872,
+                                    "data": "Link"
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 12,
+                                    "datalen": 3,
+                                    "offset": 2884,
+                                    "data": [
+                                        0.0,
+                                        150.0,
+                                        10.0
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 15,
+                                    "datalen": 3,
+                                    "offset": 2896,
+                                    "data": [
+                                        0.0,
+                                        150.0,
+                                        80.0
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 13,
+                            "unk3Index": 14,
+                            "unk3Count": 1,
+                            "offset": 2224,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 5,
+                                    "datalen": 1,
+                                    "offset": 2908,
+                                    "data": [
+                                        15
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "fixd",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 14,
+                            "unk3Index": 15,
+                            "unk3Count": 3,
+                            "offset": 2236,
+                            "data": [
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 21,
+                                    "datalen": 8,
+                                    "offset": 2920,
+                                    "data": "NpcAkum"
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 18,
+                                    "datalen": 3,
+                                    "offset": 2932,
+                                    "data": [
+                                        0.0,
+                                        100.0,
+                                        -300.0
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 21,
+                                    "datalen": 3,
+                                    "offset": 2944,
+                                    "data": [
+                                        0.0,
+                                        100.0,
+                                        -400.0
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "move",
+                            "eventSubManagerIndex": 3,
+                            "thisindex": 15,
+                            "unk3Index": 18,
+                            "unk3Count": 4,
+                            "offset": 2248,
+                            "data": [
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 29,
+                                    "datalen": 8,
+                                    "offset": 2956,
+                                    "data": "NpcAkum"
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 24,
+                                    "datalen": 3,
+                                    "offset": 2968,
+                                    "data": [
+                                        0.0,
+                                        100.0,
+                                        -300.0
+                                    ]
+                                },
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 4,
+                                    "datatype": 0,
+                                    "dataindex": 6,
+                                    "datalen": 1,
+                                    "offset": 2980,
+                                    "data": [
+                                        200
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 27,
+                                    "datalen": 3,
+                                    "offset": 2992,
+                                    "data": [
+                                        0.0,
+                                        45.0,
+                                        -410.0
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 16,
+                            "unk3Index": 22,
+                            "unk3Count": 0,
+                            "offset": 2260,
+                            "data": []
+                        },
+                        {
+                            "name": "fixd",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 17,
+                            "unk3Index": 22,
+                            "unk3Count": 3,
+                            "offset": 2272,
+                            "data": [
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 37,
+                                    "datalen": 5,
+                                    "offset": 3004,
+                                    "data": "Link"
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 30,
+                                    "datalen": 3,
+                                    "offset": 3016,
+                                    "data": [
+                                        0.0,
+                                        120.0,
+                                        200.0
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 33,
+                                    "datalen": 3,
+                                    "offset": 3028,
+                                    "data": [
+                                        0.0,
+                                        120.0,
+                                        250.0
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 18,
+                            "unk3Index": 25,
+                            "unk3Count": 1,
+                            "offset": 2284,
+                            "data": [
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 7,
+                                    "datalen": 1,
+                                    "offset": 3040,
+                                    "data": [
+                                        30
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "back",
+                            "eventSubManagerIndex": 9,
+                            "thisindex": 19,
+                            "unk3Index": 26,
+                            "unk3Count": 1,
+                            "offset": 2296,
+                            "data": [
+                                {
+                                    "name": "flag",
+                                    "unk1": 0,
+                                    "datatype": 0,
+                                    "dataindex": 8,
+                                    "datalen": 1,
+                                    "offset": 3052,
+                                    "data": [
+                                        78
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "AkumaInitTalkSecond",
+            "dummy1": "00",
+            "unk1": 0,
+            "dummy2": "00 00",
+            "actorindex": 3,
+            "actorcount": 3,
+            "offset": 100,
+            "actors": [
+                {
+                    "name": "NpcAkum",
+                    "unk1": 91,
+                    "unk2": 1,
+                    "actindex": 20,
+                    "actcount": 7,
+                    "offset": 260,
+                    "acts1": [
+                        {
+                            "name": "panic_stop",
+                            "waitfor": -1,
+                            "actorindex": 3,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 20,
+                            "dummy1": 1,
+                            "offset": 1060
+                        },
+                        {
+                            "name": "panic_talk",
+                            "waitfor": -1,
+                            "actorindex": 3,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 21,
+                            "dummy1": 1,
+                            "offset": 1088
+                        },
+                        {
+                            "name": "talk_normal",
+                            "waitfor": -1,
+                            "actorindex": 3,
+                            "unk3": 2,
+                            "dummy0": 0,
+                            "thisindex": 22,
+                            "dummy1": 1,
+                            "offset": 1116
+                        },
+                        {
+                            "name": "talk_up",
+                            "waitfor": -1,
+                            "actorindex": 3,
+                            "unk3": 3,
+                            "dummy0": 0,
+                            "thisindex": 23,
+                            "dummy1": 1,
+                            "offset": 1144
+                        },
+                        {
+                            "name": "talk_select",
+                            "waitfor": -1,
+                            "actorindex": 3,
+                            "unk3": 4,
+                            "dummy0": 0,
+                            "thisindex": 24,
+                            "dummy1": 1,
+                            "offset": 1172
+                        },
+                        {
+                            "name": "talk_surprise",
+                            "waitfor": -1,
+                            "actorindex": 3,
+                            "unk3": 5,
+                            "dummy0": 0,
+                            "thisindex": 25,
+                            "dummy1": 1,
+                            "offset": 1200
+                        },
+                        {
+                            "name": "talk_end",
+                            "waitfor": -1,
+                            "actorindex": 3,
+                            "unk3": 6,
+                            "dummy0": 0,
+                            "thisindex": 26,
+                            "dummy1": 1,
+                            "offset": 1228
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "akst",
+                            "eventSubManagerIndex": 3,
+                            "thisindex": 20,
+                            "unk3Index": 27,
+                            "unk3Count": 0,
+                            "offset": 2308,
+                            "data": []
+                        },
+                        {
+                            "name": "akpa",
+                            "eventSubManagerIndex": 4,
+                            "thisindex": 21,
+                            "unk3Index": 27,
+                            "unk3Count": 0,
+                            "offset": 2320,
+                            "data": []
+                        },
+                        {
+                            "name": "akpa",
+                            "eventSubManagerIndex": 4,
+                            "thisindex": 22,
+                            "unk3Index": 27,
+                            "unk3Count": 0,
+                            "offset": 2332,
+                            "data": []
+                        },
+                        {
+                            "name": "akpa",
+                            "eventSubManagerIndex": 4,
+                            "thisindex": 23,
+                            "unk3Index": 27,
+                            "unk3Count": 0,
+                            "offset": 2344,
+                            "data": []
+                        },
+                        {
+                            "name": "akpa",
+                            "eventSubManagerIndex": 4,
+                            "thisindex": 24,
+                            "unk3Index": 27,
+                            "unk3Count": 0,
+                            "offset": 2356,
+                            "data": []
+                        },
+                        {
+                            "name": "akpa",
+                            "eventSubManagerIndex": 4,
+                            "thisindex": 25,
+                            "unk3Index": 27,
+                            "unk3Count": 0,
+                            "offset": 2368,
+                            "data": []
+                        },
+                        {
+                            "name": "akpa",
+                            "eventSubManagerIndex": 4,
+                            "thisindex": 26,
+                            "unk3Index": 27,
+                            "unk3Count": 0,
+                            "offset": 2380,
+                            "data": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Link",
+                    "unk1": 2,
+                    "unk2": 1,
+                    "actindex": 27,
+                    "actcount": 2,
+                    "offset": 300,
+                    "acts1": [
+                        {
+                            "name": "wait",
+                            "waitfor": -1,
+                            "actorindex": 4,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 27,
+                            "dummy1": 1,
+                            "offset": 1256
+                        },
+                        {
+                            "name": "talk",
+                            "waitfor": 20,
+                            "actorindex": 4,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 28,
+                            "dummy1": 1,
+                            "offset": 1284
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "wait",
+                            "eventSubManagerIndex": 1,
+                            "thisindex": 27,
+                            "unk3Index": 27,
+                            "unk3Count": 0,
+                            "offset": 2392,
+                            "data": []
+                        },
+                        {
+                            "name": "talk",
+                            "eventSubManagerIndex": 5,
+                            "thisindex": 28,
+                            "unk3Index": 27,
+                            "unk3Count": 0,
+                            "offset": 2404,
+                            "data": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Camera",
+                    "unk1": 1,
+                    "unk2": 1,
+                    "actindex": 29,
+                    "actcount": 9,
+                    "offset": 340,
+                    "acts1": [
+                        {
+                            "name": "look_akuma",
+                            "waitfor": -1,
+                            "actorindex": 5,
+                            "unk3": 0,
+                            "dummy0": 0,
+                            "thisindex": 29,
+                            "dummy1": 1,
+                            "offset": 1312
+                        },
+                        {
+                            "name": "talk_start",
+                            "waitfor": 21,
+                            "actorindex": 5,
+                            "unk3": 1,
+                            "dummy0": 0,
+                            "thisindex": 30,
+                            "dummy1": 1,
+                            "offset": 1340
+                        },
+                        {
+                            "name": "talk_up",
+                            "waitfor": 22,
+                            "actorindex": 5,
+                            "unk3": 2,
+                            "dummy0": 0,
+                            "thisindex": 31,
+                            "dummy1": 1,
+                            "offset": 1368
+                        },
+                        {
+                            "name": "talk_up2",
+                            "waitfor": -1,
+                            "actorindex": 5,
+                            "unk3": 3,
+                            "dummy0": 0,
+                            "thisindex": 32,
+                            "dummy1": 1,
+                            "offset": 1396
+                        },
+                        {
+                            "name": "talk_select",
+                            "waitfor": 23,
+                            "actorindex": 5,
+                            "unk3": 4,
+                            "dummy0": 0,
+                            "thisindex": 33,
+                            "dummy1": 1,
+                            "offset": 1424
+                        },
+                        {
+                            "name": "talk_surprise",
+                            "waitfor": 24,
+                            "actorindex": 5,
+                            "unk3": 5,
+                            "dummy0": 0,
+                            "thisindex": 34,
+                            "dummy1": 1,
+                            "offset": 1452
+                        },
+                        {
+                            "name": "talk_surprise2",
+                            "waitfor": -1,
+                            "actorindex": 5,
+                            "unk3": 6,
+                            "dummy0": 0,
+                            "thisindex": 35,
+                            "dummy1": 1,
+                            "offset": 1480
+                        },
+                        {
+                            "name": "talk_end",
+                            "waitfor": 25,
+                            "actorindex": 5,
+                            "unk3": 7,
+                            "dummy0": 0,
+                            "thisindex": 36,
+                            "dummy1": 1,
+                            "offset": 1508
+                        },
+                        {
+                            "name": "back",
+                            "waitfor": 26,
+                            "actorindex": 5,
+                            "unk3": 8,
+                            "dummy0": 0,
+                            "thisindex": 37,
+                            "dummy1": 1,
+                            "offset": 1536
+                        }
+                    ],
+                    "acts2": [
+                        {
+                            "name": "fixd",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 29,
+                            "unk3Index": 27,
+                            "unk3Count": 3,
+                            "offset": 2416,
+                            "data": [
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 42,
+                                    "datalen": 8,
+                                    "offset": 3064,
+                                    "data": "NpcAkum"
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 36,
+                                    "datalen": 3,
+                                    "offset": 3076,
+                                    "data": [
+                                        0.0,
+                                        195.0,
+                                        70.0
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 39,
+                                    "datalen": 3,
+                                    "offset": 3088,
+                                    "data": [
+                                        0.0,
+                                        205.0,
+                                        120.0
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "talk",
+                            "eventSubManagerIndex": 5,
+                            "thisindex": 30,
+                            "unk3Index": 30,
+                            "unk3Count": 0,
+                            "offset": 2428,
+                            "data": []
+                        },
+                        {
+                            "name": "fixd",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 31,
+                            "unk3Index": 30,
+                            "unk3Count": 3,
+                            "offset": 2440,
+                            "data": [
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 50,
+                                    "datalen": 13,
+                                    "offset": 3100,
+                                    "data": "NpcAkum@near"
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 42,
+                                    "datalen": 3,
+                                    "offset": 3112,
+                                    "data": [
+                                        0.0,
+                                        170.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 45,
+                                    "datalen": 3,
+                                    "offset": 3124,
+                                    "data": [
+                                        0.0,
+                                        170.0,
+                                        200.0
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "move",
+                            "eventSubManagerIndex": 3,
+                            "thisindex": 32,
+                            "unk3Index": 33,
+                            "unk3Count": 4,
+                            "offset": 2452,
+                            "data": [
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 63,
+                                    "datalen": 13,
+                                    "offset": 3136,
+                                    "data": "NpcAkum@near"
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 48,
+                                    "datalen": 3,
+                                    "offset": 3148,
+                                    "data": [
+                                        0.0,
+                                        190.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 51,
+                                    "datalen": 3,
+                                    "offset": 3160,
+                                    "data": [
+                                        0.0,
+                                        170.0,
+                                        170.0
+                                    ]
+                                },
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 4,
+                                    "datatype": 0,
+                                    "dataindex": 9,
+                                    "datalen": 1,
+                                    "offset": 3172,
+                                    "data": [
+                                        5
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "talk",
+                            "eventSubManagerIndex": 5,
+                            "thisindex": 33,
+                            "unk3Index": 37,
+                            "unk3Count": 0,
+                            "offset": 2464,
+                            "data": []
+                        },
+                        {
+                            "name": "fixd",
+                            "eventSubManagerIndex": 2,
+                            "thisindex": 34,
+                            "unk3Index": 37,
+                            "unk3Count": 3,
+                            "offset": 2476,
+                            "data": [
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 76,
+                                    "datalen": 13,
+                                    "offset": 3184,
+                                    "data": "NpcAkum@near"
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 54,
+                                    "datalen": 3,
+                                    "offset": 3196,
+                                    "data": [
+                                        0.0,
+                                        170.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 57,
+                                    "datalen": 3,
+                                    "offset": 3208,
+                                    "data": [
+                                        0.0,
+                                        170.0,
+                                        200.0
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "move",
+                            "eventSubManagerIndex": 3,
+                            "thisindex": 35,
+                            "unk3Index": 40,
+                            "unk3Count": 4,
+                            "offset": 2488,
+                            "data": [
+                                {
+                                    "name": "tgt ",
+                                    "unk1": 5,
+                                    "datatype": 2,
+                                    "dataindex": 89,
+                                    "datalen": 13,
+                                    "offset": 3220,
+                                    "data": "NpcAkum@near"
+                                },
+                                {
+                                    "name": "at  ",
+                                    "unk1": 0,
+                                    "datatype": 1,
+                                    "dataindex": 60,
+                                    "datalen": 3,
+                                    "offset": 3232,
+                                    "data": [
+                                        0.0,
+                                        190.0,
+                                        0.0
+                                    ]
+                                },
+                                {
+                                    "name": "pos ",
+                                    "unk1": 1,
+                                    "datatype": 1,
+                                    "dataindex": 63,
+                                    "datalen": 3,
+                                    "offset": 3244,
+                                    "data": [
+                                        0.0,
+                                        170.0,
+                                        170.0
+                                    ]
+                                },
+                                {
+                                    "name": "cnt ",
+                                    "unk1": 4,
+                                    "datatype": 0,
+                                    "dataindex": 10,
+                                    "datalen": 1,
+                                    "offset": 3256,
+                                    "data": [
+                                        5
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "talk",
+                            "eventSubManagerIndex": 5,
+                            "thisindex": 36,
+                            "unk3Index": 44,
+                            "unk3Count": 0,
+                            "offset": 2500,
+                            "data": []
+                        },
+                        {
+                            "name": "back",
+                            "eventSubManagerIndex": 9,
+                            "thisindex": 37,
+                            "unk3Index": 44,
+                            "unk3Count": 0,
+                            "offset": 2512,
+                            "data": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "intsoffset": 3532,
+    "floatsoffset": 3616,
+    "stringssoffset": 3976
+}

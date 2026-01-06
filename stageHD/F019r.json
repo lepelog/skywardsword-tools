@@ -1,0 +1,616 @@
+{
+    "LYSE": [
+        {
+            "story_flag": 213,
+            "night": 0,
+            "layer": 2
+        },
+        {
+            "story_flag": -1,
+            "night": 0,
+            "layer": 1
+        }
+    ],
+    "STIF": {
+        "wtf1": 1.0,
+        "wtf2": 160000.0,
+        "wtf3": 10000.0,
+        "byte1": 0,
+        "flagindex": 21,
+        "byte3": 0,
+        "byte4": 0,
+        "unk1": "FF 03",
+        "map_name_id": 29,
+        "unk2": "FF"
+    },
+    "LAY ": {
+        "l0": {
+            "OBJN": [
+                "MapArea"
+            ],
+            "STAG": [
+                {
+                    "params1": "FF FF FF 00",
+                    "params2": "FF FF FF FF",
+                    "posx": 69.43824005126953,
+                    "posy": -175.3291473388672,
+                    "posz": -260.2865905761719,
+                    "sizex": 6220.0,
+                    "sizey": 2010.0,
+                    "sizez": 7943.0,
+                    "anglex": 0,
+                    "angley": 0,
+                    "anglez": 0,
+                    "id": "FC 00",
+                    "name": "MapArea",
+                    "extra_info": {
+                        "someToggle": 0,
+                        "mapParams": 0
+                    }
+                }
+            ]
+        },
+        "l1": {},
+        "l2": {},
+        "l3": {},
+        "l4": {},
+        "l5": {},
+        "l6": {},
+        "l7": {},
+        "l8": {},
+        "l9": {},
+        "l10": {},
+        "l11": {},
+        "l12": {},
+        "l13": {},
+        "l14": {},
+        "l15": {},
+        "l16": {},
+        "l17": {},
+        "l18": {},
+        "l19": {},
+        "l20": {},
+        "l21": {},
+        "l22": {},
+        "l23": {},
+        "l24": {},
+        "l25": {},
+        "l26": {},
+        "l27": {},
+        "l28": {}
+    },
+    "rooms": {
+        "r00": {
+            "SCEN": [
+                {
+                    "name": "F019r",
+                    "room": 0,
+                    "layer": 2,
+                    "entrance": 1,
+                    "night": 2,
+                    "transtype": 2,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F019r",
+                    "room": 0,
+                    "layer": 1,
+                    "entrance": 2,
+                    "night": 2,
+                    "transtype": 2,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                },
+                {
+                    "name": "F020",
+                    "room": 0,
+                    "layer": 0,
+                    "entrance": 11,
+                    "night": 2,
+                    "transtype": 1,
+                    "fadeframestype": 0,
+                    "zero": 0,
+                    "saveprompt": 0
+                }
+            ],
+            "CAM ": [
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": 0.0,
+                    "posy": 547.6255493164062,
+                    "posz": 2700.0,
+                    "angle": 45.0,
+                    "unk2": "00 00 80 00 00 00 00 00",
+                    "name": "Takegiri"
+                },
+                {
+                    "unk1": "FF FF FF FF",
+                    "posx": -105.0,
+                    "posy": 65.0,
+                    "posz": 467.0,
+                    "angle": 62.0,
+                    "unk2": "8A AB F7 D3 00 00 00 01",
+                    "name": "Fixed"
+                }
+            ],
+            "PATH": [
+                {
+                    "unk1": "FF 00",
+                    "pnt_start_idx": 0,
+                    "pnt_total_count": 2,
+                    "unk2": "FF FF FF FF 00 FF"
+                }
+            ],
+            "PNT ": [
+                {
+                    "posx": 1.772691011428833,
+                    "posy": 119.89334106445312,
+                    "posz": 2246.376708984375,
+                    "unk": "FF FF FF FF"
+                },
+                {
+                    "posx": 1.772691011428833,
+                    "posy": 134.8800048828125,
+                    "posz": 2561.209716796875,
+                    "unk": "FF FF FF FF"
+                }
+            ],
+            "EVNT": [
+                {
+                    "unk1": "00 00",
+                    "story_flag1": -1,
+                    "story_flag2": -1,
+                    "unk2": "64 01 FF",
+                    "exit_id": -1,
+                    "unk3": "00 00 00",
+                    "skipevent": -1,
+                    "unk4": "FF",
+                    "sceneflag1": 255,
+                    "sceneflag2": 255,
+                    "skipflag": 255,
+                    "dummy1": -1,
+                    "item": -1,
+                    "dummy2": -1,
+                    "name": "TakegiriResult"
+                }
+            ],
+            "PLY ": [
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": 8,
+                    "posx": 8.508999824523926,
+                    "posy": 0.0,
+                    "posz": 1546.72265625,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 0
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": -1,
+                    "byte4": -1,
+                    "posx": 0.0,
+                    "posy": 0.0,
+                    "posz": 200.0,
+                    "anglex": 0,
+                    "angley": 32768,
+                    "anglez": 0,
+                    "entrance_id": 1
+                },
+                {
+                    "storyflag": 2047,
+                    "play_cutscene": 0,
+                    "byte4": -1,
+                    "posx": 223.4189910888672,
+                    "posy": 0.0,
+                    "posz": 183.09738159179688,
+                    "anglex": 0,
+                    "angley": 6917,
+                    "anglez": 0,
+                    "entrance_id": 2
+                }
+            ],
+            "LAY ": {
+                "l0": {
+                    "OBJN": [
+                        "Bamboo",
+                        "Butrfly",
+                        "HrpHint",
+                        "TBox",
+                        "Item",
+                        "InsctTg",
+                        "ScChang",
+                        "TgReact",
+                        "GkMgTag"
+                    ],
+                    "ARCN": [
+                        "GetSozaiN",
+                        "GossipStone",
+                        "GetSozaiO",
+                        "TreeLongBamboo",
+                        "GetSozaiP",
+                        "GetSozaiL"
+                    ],
+                    "OBJS": [
+                        {
+                            "params1": "0F FF FF F3",
+                            "params2": "FF 5F FF FF",
+                            "posx": -862.4228515625,
+                            "posy": 0.0,
+                            "posz": -2270.83984375,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 65087,
+                            "id": "FC 00",
+                            "name": "TBox",
+                            "extra_info": {
+                                "spawnscenefid": 255,
+                                "spawnscenef": "no flag",
+                                "setscenefid": 255,
+                                "setscenef": "no flag",
+                                "itemid": 63,
+                                "item": "Uncommon Treasure (Monster Horn, Evil Crystal)",
+                                "chestid": 127,
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "0F FF FF F3",
+                            "params2": "FF 5F FF FF",
+                            "posx": -502.5629577636719,
+                            "posy": 0.0,
+                            "posz": -2270.83984375,
+                            "anglex": 65535,
+                            "angley": 0,
+                            "anglez": 65088,
+                            "id": "FC 01",
+                            "name": "TBox",
+                            "extra_info": {
+                                "spawnscenefid": 255,
+                                "spawnscenef": "no flag",
+                                "setscenefid": 255,
+                                "setscenef": "no flag",
+                                "itemid": 64,
+                                "item": "Rare Treasure (Blue Bird Feather, Golden Skull, Goddess Plume)",
+                                "chestid": 127,
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-"
+                            }
+                        }
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "F0 0F FF 2E",
+                            "params2": "FF DF FF FF",
+                            "posx": 203.77284240722656,
+                            "posy": 22.060001373291016,
+                            "posz": -834.94580078125,
+                            "anglex": 0,
+                            "angley": 62806,
+                            "anglez": 4101,
+                            "id": "FC 02",
+                            "name": "HrpHint",
+                            "extra_info": {
+                                "spawnscenefid": 46,
+                                "spawnscenef": "scene flag: 0x4 40",
+                                "subtype": 0,
+                                "talk_behaviour": 4101
+                            }
+                        }
+                    ],
+                    "SOBJ": [
+                        {
+                            "params1": "DF FF FE 6F",
+                            "params2": "FF FF FF FF",
+                            "posx": 0.0,
+                            "posy": 0.0,
+                            "posz": 0.0,
+                            "sizex": 0.10000000149011612,
+                            "sizey": 10.0,
+                            "sizez": 0.10000000149011612,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 03",
+                            "name": "Bamboo"
+                        },
+                        {
+                            "params1": "0F FF 00 8C",
+                            "params2": "23 7F FF FF",
+                            "posx": 446.4726867675781,
+                            "posy": 52.005035400390625,
+                            "posz": 1156.4281005859375,
+                            "sizex": 1.0,
+                            "sizey": 1.0,
+                            "sizez": 1.0,
+                            "anglex": 65535,
+                            "angley": 49152,
+                            "anglez": 0,
+                            "id": "FC 07",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 140,
+                                "scenef": "temp flag: 0x0 10",
+                                "tgreactitemid": 35,
+                                "subtype": "bonk",
+                                "drop_idx": 35,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_FAIRY": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "0F F0 00 8D",
+                            "params2": "12 7F FF FF",
+                            "posx": -367.2187194824219,
+                            "posy": 52.005035400390625,
+                            "posz": 1032.779052734375,
+                            "sizex": 1.0,
+                            "sizey": 1.0,
+                            "sizez": 1.0,
+                            "anglex": 65535,
+                            "angley": 16201,
+                            "anglez": 0,
+                            "id": "FC 08",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 141,
+                                "scenef": "temp flag: 0x0 20",
+                                "tgreactitemid": 18,
+                                "subtype": "bonk",
+                                "drop_idx": 18,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "0F F0 00 8E",
+                            "params2": "12 7F FF FF",
+                            "posx": -977.4872436523438,
+                            "posy": 52.005035400390625,
+                            "posz": 51.56291961669922,
+                            "sizex": 1.0,
+                            "sizey": 1.0,
+                            "sizez": 1.0,
+                            "anglex": 65535,
+                            "angley": 10922,
+                            "anglez": 0,
+                            "id": "FC 09",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 142,
+                                "scenef": "temp flag: 0x0 40",
+                                "tgreactitemid": 18,
+                                "subtype": "bonk",
+                                "drop_idx": 18,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "params1": "0F F0 00 8F",
+                            "params2": "12 7F FF FF",
+                            "posx": 881.2393798828125,
+                            "posy": 52.005035400390625,
+                            "posz": 63.52896499633789,
+                            "sizex": 1.0,
+                            "sizey": 1.0,
+                            "sizez": 1.0,
+                            "anglex": 65535,
+                            "angley": 50791,
+                            "anglez": 0,
+                            "id": "FC 0A",
+                            "name": "TgReact",
+                            "extra_info": {
+                                "scenefid": 143,
+                                "scenef": "temp flag: 0x0 80",
+                                "tgreactitemid": 18,
+                                "subtype": "bonk",
+                                "drop_idx": 18,
+                                "drop_tables": [
+                                    {
+                                        "dropRates": {
+                                            "ITEM_GREEN_RUPEE": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF 00 00 02",
+                            "params2": "FF 5F FF FF",
+                            "posx": -2.057555913925171,
+                            "posy": -30.133159637451172,
+                            "posz": 2293.99755859375,
+                            "sizex": 575.0,
+                            "sizey": 384.0,
+                            "sizez": 1101.0,
+                            "anglex": 59391,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 04",
+                            "name": "ScChang",
+                            "extra_info": {
+                                "scen_link": 2,
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-"
+                            }
+                        },
+                        {
+                            "params1": "FF FF FF FF",
+                            "params2": "FF FF FF FF",
+                            "posx": 499.28289794921875,
+                            "posy": 22.090618133544922,
+                            "posz": 888.9309692382812,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 05",
+                            "name": "GkMgTag"
+                        },
+                        {
+                            "params1": "FF F2 E4 A3",
+                            "params2": "FF FF FF FF",
+                            "posx": 211.6090087890625,
+                            "posy": 84.6683578491211,
+                            "posz": -825.550537109375,
+                            "sizex": 100.0,
+                            "sizey": 100.0,
+                            "sizez": 100.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 0,
+                            "id": "FC 06",
+                            "name": "InsctTg",
+                            "extra_info": {
+                                "count": 3,
+                                "subtype": "Butterfly with viewclip",
+                                "anotherSubtype": "Gossip Stone"
+                            }
+                        }
+                    ]
+                },
+                "l1": {
+                    "OBJN": [
+                        "NpcBgr"
+                    ],
+                    "ARCN": [
+                        "BambooMan_night",
+                        "BambooMan"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FC FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 363.8173828125,
+                            "posy": 0.0,
+                            "posz": 355.3470153808594,
+                            "anglex": 65535,
+                            "angley": 39322,
+                            "anglez": 10901,
+                            "id": "FC 0B",
+                            "name": "NpcBgr",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 10901
+                            }
+                        }
+                    ]
+                },
+                "l2": {
+                    "OBJN": [
+                        "NpcBgr",
+                        "CamTag"
+                    ],
+                    "ARCN": [
+                        "BambooMan_night",
+                        "BambooMan"
+                    ],
+                    "OBJ ": [
+                        {
+                            "params1": "FF FF FD FF",
+                            "params2": "FF 5F FF FF",
+                            "posx": 478.7275085449219,
+                            "posy": 0.0,
+                            "posz": 508.50897216796875,
+                            "anglex": 65535,
+                            "angley": 40050,
+                            "anglez": 10901,
+                            "id": "FC 0B",
+                            "name": "NpcBgr",
+                            "extra_info": {
+                                "trigstoryfid": 2047,
+                                "trigstoryf": "-",
+                                "untrigstoryfid": 2047,
+                                "untrigstoryf": "-",
+                                "talk_behaviour": 10901
+                            }
+                        }
+                    ],
+                    "STAG": [
+                        {
+                            "params1": "FF FF FF 01",
+                            "params2": "FF DF FF FF",
+                            "posx": 0.0,
+                            "posy": -400.0,
+                            "posz": 0.0,
+                            "sizex": 3000.0,
+                            "sizey": 1500.0,
+                            "sizez": 3000.0,
+                            "anglex": 0,
+                            "angley": 0,
+                            "anglez": 65535,
+                            "id": "FC 0C",
+                            "name": "CamTag",
+                            "extra_info": {
+                                "trigscenefid": 255,
+                                "trigscenef": "no flag",
+                                "untrigscenefid": 255,
+                                "untrigscenef": "no flag",
+                                "camidx": 1
+                            }
+                        }
+                    ]
+                },
+                "l3": {},
+                "l4": {},
+                "l5": {},
+                "l6": {},
+                "l7": {},
+                "l8": {},
+                "l9": {},
+                "l10": {},
+                "l11": {},
+                "l12": {},
+                "l13": {},
+                "l14": {},
+                "l15": {},
+                "l16": {},
+                "l17": {},
+                "l18": {},
+                "l19": {},
+                "l20": {},
+                "l21": {},
+                "l22": {},
+                "l23": {},
+                "l24": {},
+                "l25": {},
+                "l26": {},
+                "l27": {},
+                "l28": {}
+            }
+        }
+    }
+}
