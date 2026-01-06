@@ -1864,3 +1864,22 @@ FrtTree:
   subtype:
     mask: 0xFF
     shift: 0
+MassTag:
+  shape:
+    mask: 0xF
+    shift: 0x15
+  modelIndex:
+    mask: 7
+    shift: 0
+  step:
+    mask: 0x7F
+    shift: 4
+  radius:
+    mask: 0x7F
+    shift: 0xB
+  affectedByTimeshift:
+    mask: 1
+    shift: 3
+  activeInPresent:
+    mask: 1
+    shift: 0x12
